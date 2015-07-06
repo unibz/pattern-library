@@ -8,13 +8,14 @@
 
 $primary:     #00f;
 $black:       #111;
+$white:       #fff;
 
-$gray: #ddd;
-$gray-light: #f7f7f7;
-$gray-dark:  #767676;
+$gray:        #ddd;
+$gray-light:  #f7f7f7;
+$gray-dark:   #767676;
 
 $color-text:  $black;
-$color-bg:    white;
+$color-bg:    #fff;
 
 // University
 $unibz: #007be4;
@@ -45,10 +46,8 @@ $space-quarter: $space * 0.25;
 $font: "FF DIN Pro Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-italic: "FF DIN Pro Light Italic";
 $font-medium: "FF DIN Pro Medium";
-
 $font-secondary: "utopia-std", Georgia, Times, "Times New Roman", serif;
-
-$font-mono: Menlo, Consolas, Monaco, monospace;
+$font-mono: "Roboto Mono", Menlo, Consolas, Monaco, monospace;
 
 $fs: 16px;
 $lh: ($space / $fs);
