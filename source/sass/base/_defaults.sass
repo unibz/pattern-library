@@ -85,6 +85,28 @@ dd
   margin-left: 0
 
 
+// Font and font styles
+//============================================
+
+em
+  font-family: $font-italic
+
+strong
+  font-family: $font-medium
+
+
+.font-secondary
+  font-family: $font-secondary
+
+  em
+    font-family: $font-secondary
+    font-style: italic
+
+  strong
+    font-family: $font-secondary
+    font-weight: 600
+
+
 // Embeded Content
 //============================================
 
@@ -131,7 +153,7 @@ hr
 // Code
 //============================================
 
-pre, code
+pre, code, kdb, sample
   font-family: $font-mono
 
 pre
@@ -152,3 +174,15 @@ blockquote
 
 q
   quotes: "\201C" "\201D" "\2018" "\2019"
+
+
+// Animations
+//============================================
+
+.animate-fade
+  transition: opacity 0.8s $motion;
+  &:hover
+    opacity: 0
+
+.animate-move > .demo-shape
+  transition: all 0.8s $motion;

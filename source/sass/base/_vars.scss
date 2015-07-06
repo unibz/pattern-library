@@ -10,11 +10,25 @@ $primary:     #00f;
 $black:       #111;
 
 $gray: #ddd;
-$gray-light:  #f7f7f7;
-$gray-dark: #767676;
+$gray-light: #f7f7f7;
+$gray-dark:  #767676;
 
 $color-text:  $black;
 $color-bg:    white;
+
+// University
+$unibz: #007be4;
+
+// Faculties
+$comp-science: #f86b07;
+$des-art: #ed331a;
+$edu: #6cc3ab;
+$eco: #ac145a;
+$science-tech: #1a8c64;
+
+// Services
+$library: #e1a22e;
+$itc: #675d55;
 
 
 // Dimensions
@@ -28,10 +42,16 @@ $space-quarter: $space * 0.25;
 // Typography
 //============================================
 
-$font:      "FF DIN Pro", "Helvetica Neue", Arial, sans-serif;
-$font-mono: monospace, monospace;
-$fs:        16px;
-$lh:        ($space / $fs);
+$font: "FF DIN Pro Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-italic: "FF DIN Pro Light Italic";
+$font-medium: "FF DIN Pro Medium";
+
+$font-secondary: "utopia-std", Georgia, Times, "Times New Roman", serif;
+
+$font-mono: Menlo, Consolas, Monaco, monospace;
+
+$fs: 16px;
+$lh: ($space / $fs);
 
 $fs-h1: 48px;
 $fs-h2: 36px;
@@ -39,6 +59,12 @@ $fs-h3: 30px;
 $fs-h4: 24px;
 $fs-h5: 20px;
 $fs-h6: 16px;
+
+
+// Animation
+//============================================
+
+$motion: cubic-bezier(.55,0,.1,1);
 
 
 // Layout
