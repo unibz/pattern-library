@@ -5,12 +5,21 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
-
+		<link rel="stylesheet" href="../../css/main.css?{{ cacheBuster }}" media="all" />
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 		{% pattern-lab-head %}
 		<!-- End Pattern Lab -->
-	
+		<script type="text/javascript">
+	    (function() {
+	        var path = '//easy.myfonts.net/v2/js?sid=161376(font-family=FF+DIN+Pro+Medium)&sid=161377(font-family=FF+DIN+Pro+Light)&sid=161379(font-family=FF+DIN+Pro)&sid=161790(font-family=FF+DIN+Pro+Light+Italic)&key=0osDKRA3h9',
+	            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+	            trial = document.createElement('script');
+	        trial.type = 'text/javascript';
+	        trial.async = true;
+	        trial.src = protocol + path;
+	        var head = document.getElementsByTagName("head")[0];
+	        head.appendChild(trial);
+	    })();
+		</script>
 	</head>
-	<body class="{{ bodyClass }}">	
-		
+	<body class="{{ bodyClass }}">
