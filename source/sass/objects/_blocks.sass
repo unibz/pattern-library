@@ -1,0 +1,62 @@
+//============================================
+// Blocks
+//============================================
+
+// General blocks styles
+//============================================
+
+.b-link
+  @extend .btn-text
+
+.block
+  img
+    @extend .u-img-max
+
+
+// Media blocks
+//============================================
+
+.media-block
+  .b-text
+    padding: $space-half
+    background-color: $primary
+    color: $white
+    +mq($bp-xs)
+      padding: $space
+    +mq($bp-sm)
+      position: relative
+      float: left
+      width: 50%
+      height: 0
+      padding: 0 $space (3 / 4) * 50% $space
+    +mq($bp-md)
+      padding-left: $space*2
+      padding-right: $space*2
+
+.media-block
+  .b-thumb
+    height: 216px
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    +mq($bp-xs)
+      height: 312px
+    +mq($bp-sm)
+      float: left
+      width: 50%
+      height: 0
+      padding-bottom: (3 / 4) * 50%
+
+.media-block
+  .b-title
+    +mq($bp-sm)
+      padding-top: $space
+    +mq($bp-md)
+      padding-top: $space*2
+
+.media-block
+  .b-link
+    +mq($bp-sm)
+      +pos($space, bottom)
+    +mq($bp-md)
+      bottom: $space*2
