@@ -35,12 +35,13 @@
 
 .media-block
   .b-thumb
-    height: 216px
+    height: 0
+    padding-bottom: (9 / 16) * 100%
     background-size: cover
     background-position: center
     background-repeat: no-repeat
     +mq($bp-xs)
-      height: 312px
+      padding-bottom: (9 / 16) * 100%
     +mq($bp-sm)
       float: left
       width: 50%
@@ -52,6 +53,7 @@
     +mq($bp-sm)
       padding-top: $space
     +mq($bp-md)
+      margin-bottom: $space
       padding-top: $space*2
 
 .media-block
