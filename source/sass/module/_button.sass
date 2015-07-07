@@ -2,38 +2,52 @@
 // Buttons
 //============================================
 
-.btn
-  transition: background-color .2s, border-color .2s
-  padding: $space-quarter 20px
-  border: 1px solid $gray-dark
-  background: $gray-dark
+.btn, .btn-alt, .btn-disabled
+  display: inline-block
+  width: auto
+  padding: 10px $space-half $space-quarter $space-half
   font-size: inherit
   font-weight: normal
   font-family: inherit
-  text-transform: uppercase
-  border-radius: 3px
-  width: auto
-  display: inline-block
-  color: white
   line-height: $lh
+  letter-spacing: 1px
+  text-transform: uppercase
+  text-shadow: none
   text-align: center
   vertical-align: middle
   white-space: nowrap
-  text-shadow: none
+  border-width: 1px
+  border-style: solid
+  border-radius: $radius
+  transition: all .2s $motion
 
-.no-touchevents .btn:focus,
-.no-touchevents .btn:hover
-  background-color: $primary
-  border-color: $primary
-  z-index: 1
-  outline: 0
-  cursor: pointer
+.btn, .btn-text-alt
+  color: $white
 
-.no-touchevents .btn.disabled:hover,
-.no-touchevents .btn[disabled]:hover,
-.btn.disabled,
-.btn[disabled]
-  background-color: $gray-light
-  border-color: $gray-light
-  color: $gray
+.btn-alt
+  background-color: $white
+
+.btn-text, .btn-text-alt
+  text-transform: uppercase
+
+.btn-disabled
+  background-color: $gray
+  border-color: $gray
+  color: $gray-dark
   cursor: not-allowed
+
+.unibz
+  .btn
+    background-color: $primary
+    border-color: $primary
+    &:hover
+      color: $primary
+  .btn-alt
+    color: $primary
+    border-color: $primary
+    &:hover
+      background-color: $primary
+      color: $white
+
+.btn:hover, .btn-alt:hover
+  background-color: $white
