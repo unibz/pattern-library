@@ -6,15 +6,15 @@
 // Colors
 //============================================
 
-$primary:     #00f;
-$black:       #111;
+$primary:     #007be4;
+$black:       #000;
 $white:       #fff;
 
 $gray:        #ddd;
-$gray-light:  #f7f7f7;
-$gray-dark:   #767676;
+$gray-light:  light($gray, 50%);
+$gray-dark:   shade($gray, 50%);
 
-$color-text:  $black;
+$color-text:  #222;
 $color-bg:    #fff;
 
 // University
@@ -38,6 +38,8 @@ $itc: #675d55;
 $space:      24px;
 $space-half: $space * 0.5;
 $space-quarter: $space * 0.25;
+
+$radius: 3px;
 
 
 // Typography
