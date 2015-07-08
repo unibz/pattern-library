@@ -1,0 +1,13 @@
+<div class="block block-news">
+  <div class="b-header">
+    <time class="b-time">{{> atoms-time }}</time>
+    <h2 class="h4 b-title"><a href="{{ url }}">{{ headline.medium }}</a></h2>
+  </div>
+  <a class="b-thumb-wrapper" href="{{ url }}">
+    <div class="b-thumb" style="background-image:url('http://placekitten.com/g/700/500')"></div>
+  </a>
+  <div class="b-main">
+    <p class="b-text">{{ excerpt.medium }}</p>
+    <a class="b-link" href="{{ url }}">{{ button }}</a>
+  </div>
+</div>
