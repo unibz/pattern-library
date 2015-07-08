@@ -2,9 +2,9 @@
   <a href="{{ url }}">
   	<div class="b-thumb" style="background-image:url('http://placekitten.com/g/600/400')"></div>
   </a>
-	<div class="b-text">
-		<h2 class="h4 b-title">{{ headline.short }}</h2>
-		<p>{{ excerpt.medium }}</p>
+	<div class="b-content">
+		{{> atoms-heading-2(class: "h4 b-title", content: "Lorem ipsum dolor sit (37 characters)") }}
+		{{> atoms-paragraph(class: "b-text", content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)") }}
     {{> atoms-button-text-alt }}
 	</div>
 </div>

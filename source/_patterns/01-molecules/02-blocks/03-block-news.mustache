@@ -6,8 +6,8 @@
   <a class="b-thumb-wrapper" href="{{ url }}">
     <div class="b-thumb" style="background-image:url('http://placekitten.com/g/700/500')"></div>
   </a>
-  <div class="b-main">
-    <p class="b-text">{{ excerpt.medium }}</p>
-    {{> atoms-button-text-primary }}
+  <div class="b-preview">
+    {{> atoms-paragraph(class: b-text, content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)") }}
+    {{> atoms-button-text-primary(content: "Lorem ipsum") }}
   </div>
 </div>
