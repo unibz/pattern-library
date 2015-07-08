@@ -90,8 +90,23 @@
 .btn-big,
 .btn-alt-big,
 .btn-disabled-big
-  padding: 14px $space-half $space-half $space-half
+  padding: 26px $space $space $space
   font-size: large
+
+
+// Button big specific styles
+//============================================
+
+.btn-big,
+.btn-alt-big,
+.btn-disabled-big
+  text-align: left
+  width: 100%
+  &:after
+    position: absolute
+    right: $space
+    margin-top: -2px
+    content: "\2192"
 
 
 // Button Text
