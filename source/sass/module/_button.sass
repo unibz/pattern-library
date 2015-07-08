@@ -3,7 +3,7 @@
 //============================================
 
 
-// General button styles
+// General buttons styles
 //============================================
 
 .btn,
@@ -33,7 +33,7 @@
   transition: all .2s $motion
 
 
-// Button
+// Buttons
 //============================================
 
 .btn,
@@ -73,7 +73,7 @@
   cursor: not-allowed
 
 
-// Button paddings
+// Buttons paddings
 //===========================================
 
 .btn,
@@ -100,6 +100,7 @@
 .btn-big,
 .btn-alt-big,
 .btn-disabled-big
+  position: relative
   text-align: left
   width: 100%
   &:after
@@ -117,6 +118,11 @@
   line-height: 1
   letter-spacing: 1px
   text-transform: uppercase
+  &:after
+    position: absolute
+    content: "\2192"
+    margin: 4px 0 0 $space-half
+    font-size: small
 
 .btn-text-alt
   color: $white
