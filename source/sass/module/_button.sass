@@ -2,14 +2,25 @@
 // Buttons
 //============================================
 
-.btn, .btn-alt, .btn-disabled
+
+// General button styles
+//============================================
+
+.btn,
+.btn-small,
+.btn-big,
+.btn-alt,
+.btn-alt-small,
+.btn-alt-big,
+.btn-disabled,
+.btn-disabled-small,
+.btn-disabled-big,
   display: inline-block
   width: auto
-  padding: 10px $space-half $space-quarter $space-half
   font-size: inherit
   font-weight: normal
   font-family: inherit
-  line-height: $lh
+  line-height: 1
   letter-spacing: 1px
   text-transform: uppercase
   text-shadow: none
@@ -21,35 +32,76 @@
   border-radius: $radius
   transition: all .2s $motion
 
-.btn, .btn-text-alt
+
+// Button
+//============================================
+
+.btn,
+.btn-small,
+.btn-big
   color: $white
+  background-color: $primary
+  border-color: $primary
+  &:hover
+    color: $primary
+    background-color: $white
 
-.btn-alt
+
+// Button alternate
+//===========================================
+
+.btn-alt,
+.btn-alt-small,
+.btn-alt-big
   background-color: $white
+  color: $primary
+  border-color: $primary
+  &:hover
+    background-color: $primary
+    color: $white
 
-.btn-text, .btn-text-alt
-  line-height: 1
-  letter-spacing: 1px
-  text-transform: uppercase
 
-.btn-disabled
+// Button disabled
+//===========================================
+
+.btn-disabled,
+.btn-disabled-small,
+.btn-disabled-big
   background-color: $gray
   border-color: $gray
   color: $gray-dark
   cursor: not-allowed
 
-.unibz
-  .btn
-    background-color: $primary
-    border-color: $primary
-    &:hover
-      color: $primary
-  .btn-alt
-    color: $primary
-    border-color: $primary
-    &:hover
-      background-color: $primary
-      color: $white
 
-.btn:hover, .btn-alt:hover
-  background-color: $white
+// Button paddings
+//===========================================
+
+.btn,
+.btn-alt,
+.btn-disabled
+  padding: 10px $space-half $space-quarter $space-half
+
+.btn-small,
+.btn-alt-small,
+.btn-disabled-small
+  padding: 4px 3px 1px 3px
+  font-size: small
+
+.btn-big,
+.btn-alt-big,
+.btn-disabled-big
+  padding: 14px $space-half $space-half $space-half
+  font-size: large
+
+
+// Button Text
+//===========================================
+
+.btn-text,
+.btn-text-alt
+  line-height: 1
+  letter-spacing: 1px
+  text-transform: uppercase
+
+.btn-text-alt
+  color: $white
