@@ -31,6 +31,12 @@
     .demo .gi .gi:nth-of-type(2n), .demo .demo-block .gi:nth-of-type(2n) {
       background: rgba(0, 0, 0, 0.3); }
 
+.demo .g {
+  padding: 1rem;
+  background-color: #dddddd;
+  text-align: center;
+}
+
 .demo-animate {
   background: #ddd;
   padding: 1em;
