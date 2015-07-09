@@ -15,7 +15,7 @@
 //============================================
 
 .media-block
-  .b-content
+  .b-text
     padding: $space-half $space-half 6px $space-half
     background-color: $primary
     color: $white
@@ -47,7 +47,8 @@
       padding-bottom: (3 / 4) * 50%
 
 .media-block
-  .b-title
+  h2
+    @extend .h4
     +mq($bp-sm)
       padding-top: $space
     +mq($bp-md)
@@ -85,7 +86,7 @@
       padding: $space
     +mq($bp-md)
       padding: $space*2
-    .b-content
+    p
       margin-bottom: 0
 
 
@@ -102,11 +103,12 @@
       padding: $space
     +mq($bp-md)
       padding: $space*2
-    .b-title
+    h2
+      @extend .h4
       +mq($bp-sm)
         float: left
         width: 48.5%
-    .b-content
+    p
       margin-bottom: 0
       +mq($bp-sm)
         float: right
@@ -117,10 +119,33 @@
 //============================================
 
 .block-news
+  @extend .g-row
   .b-thumb
-    height: 0
+    display: block
     margin-bottom: $space
-    padding-bottom: (9 / 16) * 100%
-    background-size: cover
-    background-position: center
-    background-repeat: no-repeat
+    max-width: 242px
+    @extend .g
+    @extend .g-sm-8
+  .b-text
+    @extend .g
+    @extend .g-sm-15
+    @extend .g-sm-push-1
+    h2
+      @extend .h4
+      +mq($bp-sm)
+        margin-bottom: $space
+    p
+      +mq($bp-sm)
+        margin-bottom: $space-half
+
+.block-news
+  .b-thumb-empty
+    padding: 0 $space-half (3 / 4) * 100% $space-half
+    height: 0
+    background-color: $primary
+    color: $white
+    letter-spacing: 1px
+    text-transform: uppercase
+
+    h3
+      padding-top: $space-half

@@ -1,13 +1,19 @@
 <div class="block block-news">
-  <div class="b-header">
-    <time class="b-time">{{> atoms-time }}</time>
-    <h2 class="h4 b-title"><a href="{{ url }}">{{ headline.medium }}</a></h2>
-  </div>
-  <a class="b-thumb-wrapper" href="{{ url }}">
-    <div class="b-thumb" style="background-image:url('http://placekitten.com/g/700/500')"></div>
+  {{# empty }}
+  <a class="b-thumb" href="{{ url }}">
+    <div class="b-thumb-empty">{{> atoms-heading-3 (content: "News") }}</div>
   </a>
-  <div class="b-preview">
-    {{> atoms-paragraph(class: b-text, content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)") }}
-    {{> atoms-button-text-primary(content: "Lorem ipsum") }}
+  {{/ empty }}
+  {{^ empty }}
+  <a class="b-thumb" href="{{ url }}">
+    {{> atoms-landscape-4x3 }}
+  </a>
+  {{/ empty }}
+  </a>
+  <div class="b-text">
+    {{> atoms-time (class: "b-time") }}
+    {{> atoms-heading-2 (content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)") }}
+    {{> atoms-paragraph (class: b-text, content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)") }}
+    {{> atoms-button-text-primary (content: "Lorem ipsum") }}
   </div>
 </div>
