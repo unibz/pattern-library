@@ -1,3 +1,3 @@
 # Patterns
 
-Pattern library for unibz.it
+Pattern library for unibz.it website
