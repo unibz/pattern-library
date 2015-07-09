@@ -1,0 +1,21 @@
+&lt;div class=&quot;block block-event&quot;&gt;
+  {{# empty }}
+  &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+    &lt;div class=&quot;b-thumb-empty&quot;&gt;{{&gt; atoms-heading-3 (content: &quot;News&quot;) }}&lt;/div&gt;
+  &lt;/a&gt;
+  {{/ empty }}
+  {{^ empty }}
+  &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-landscape-4x3 }}
+  &lt;/a&gt;
+  {{/ empty }}
+  &lt;/a&gt;
+  &lt;div class=&quot;b-text&quot;&gt;
+    {{&gt; atoms-heading-2 }}
+    {{&gt; atoms-campus }}
+    {{&gt; atoms-room }}
+    {{&gt; atoms-date }}
+    {{&gt; atoms-time }}
+    {{&gt; atoms-button-text-alternate }}
+  &lt;/div&gt;
+&lt;/div&gt;
