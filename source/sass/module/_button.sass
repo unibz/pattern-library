@@ -116,14 +116,15 @@
 .btn-text,
 .btn-text-alt,
 .btn-text-primary
+  display: inline-block
   line-height: 1
   letter-spacing: 1px
   text-transform: uppercase
   &:after
-    position: absolute
     content: "\2192"
-    margin: 4px 0 0 $space-half
+    margin-left: $space-half
     font-size: small
+    vertical-align: top
 
 .btn-text-alt
   color: $white

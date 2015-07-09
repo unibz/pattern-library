@@ -1,7 +1,7 @@
 &lt;div class=&quot;block block-news&quot;&gt;
   {{# empty }}
   &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
-    &lt;div class=&quot;b-thumb-empty&quot;&gt;{{&gt; atoms-heading-3 (content: &quot;News&quot;) }}&lt;/div&gt;
+    &lt;div class=&quot;b-thumb-empty&quot;&gt;{{&gt; atoms-heading-3 }}&lt;/div&gt;
   &lt;/a&gt;
   {{/ empty }}
   {{^ empty }}
@@ -11,9 +11,9 @@
   {{/ empty }}
   &lt;/a&gt;
   &lt;div class=&quot;b-text&quot;&gt;
-    {{&gt; atoms-time (class: &quot;b-time&quot;) }}
-    {{&gt; atoms-heading-2 (content: &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)&quot;) }}
-    {{&gt; atoms-paragraph (class: b-text, content: &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)&quot;) }}
-    {{&gt; atoms-button-text-primary (content: &quot;Lorem ipsum&quot;) }}
+    {{&gt; atoms-date }}
+    {{&gt; atoms-heading-2 }}
+    {{&gt; atoms-paragraph }}
+    {{&gt; atoms-button-text-primary }}
   &lt;/div&gt;
 &lt;/div&gt;

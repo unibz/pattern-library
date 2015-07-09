@@ -1,3 +1,10 @@
 {
-  "empty": "true"
+  "empty": "true",
+  "empty" : [
+    {
+      "headline": {
+        "short": "news"
+      }
+    }
+  ]
 }

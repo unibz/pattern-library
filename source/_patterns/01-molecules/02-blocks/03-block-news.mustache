@@ -1,7 +1,7 @@
 <div class="block block-news">
   {{# empty }}
   <a class="b-thumb" href="{{ url }}">
-    <div class="b-thumb-empty">{{> atoms-heading-3 (content: "News") }}</div>
+    <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
   </a>
   {{/ empty }}
   {{^ empty }}
@@ -11,9 +11,9 @@
   {{/ empty }}
   </a>
   <div class="b-text">
-    {{> atoms-time (class: "b-time") }}
-    {{> atoms-heading-2 (content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)") }}
-    {{> atoms-paragraph (class: b-text, content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)") }}
-    {{> atoms-button-text-primary (content: "Lorem ipsum") }}
+    {{> atoms-date }}
+    {{> atoms-heading-2 }}
+    {{> atoms-paragraph }}
+    {{> atoms-button-text-primary }}
   </div>
 </div>

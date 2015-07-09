@@ -130,6 +130,11 @@
     @extend .g
     @extend .g-sm-15
     @extend .g-sm-push-1
+    time
+      display: block
+      margin-bottom: $space-half
+      color: $gray-dark
+      font-size: small
     h2
       @extend .h4
       +mq($bp-sm)
@@ -149,3 +154,27 @@
 
     h3
       padding-top: $space-half
+
+
+// Block Event
+//============================================
+
+.block-event
+  .b-text
+    position: relative
+    padding: $space-half
+    background-color: $primary
+    color: $white
+    +mq($bp-xs)
+      padding: $space
+    h2
+      @extend .h4
+    time, span
+      display: block
+    a
+      margin-top: $space
+      +mq($bp-sm)
+        position: absolute
+        margin: $space
+        right: 0
+        bottom: 0
