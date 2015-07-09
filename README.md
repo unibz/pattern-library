@@ -1,3 +1,3 @@
-# Frontend
+# Patterns
 
-Source for unibz.it
+Pattern library for unibz.it
