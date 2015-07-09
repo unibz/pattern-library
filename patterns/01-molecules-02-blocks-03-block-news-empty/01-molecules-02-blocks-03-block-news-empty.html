@@ -40,13 +40,20 @@
 	    })();
 		</script>
 	</head>
-	<body class="body"><h6>Heading Level 6</h6>
+	<body class="body"><div class="block block-news">
+  <a class="b-thumb" href="#">
+    <div class="b-thumb-empty"><h3>News</h3></div>
+  </a>
+  </a>
+  <div class="b-text">
+    <time class="b-time" datetime="2013-04-06T12:32+00:00">10 February 2013</time>    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)</h2>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)</p>    <a href="#" class="btn-text-primary">Lorem ipsum</a>  </div>
+</div>
 	<!--DO NOT REMOVE-->
 		
 	<script>
 		// handle injection of items from PHP
-		var patternPartial = "atoms-heading-6";
-		var lineage        = [];
+		var patternPartial = "molecules-block-news-empty";
+		var lineage        = [{"lineagePattern":"atoms-heading-3","lineagePath":"..\/..\/patterns\/00-atoms-01-headings-00-heading-3\/00-atoms-01-headings-00-heading-3.html"},{"lineagePattern":"atoms-landscape-4x3","lineagePath":"..\/..\/patterns\/00-atoms-04-images-01-landscape-4x3\/00-atoms-04-images-01-landscape-4x3.html"},{"lineagePattern":"atoms-time","lineagePath":"..\/..\/patterns\/00-atoms-02-text-04-time\/00-atoms-02-text-04-time.html"},{"lineagePattern":"atoms-heading-2","lineagePath":"..\/..\/patterns\/00-atoms-01-headings-00-heading-2\/00-atoms-01-headings-00-heading-2.html"},{"lineagePattern":"atoms-paragraph","lineagePath":"..\/..\/patterns\/00-atoms-02-text-01-paragraph\/00-atoms-02-text-01-paragraph.html"},{"lineagePattern":"atoms-button-text-primary","lineagePath":"..\/..\/patterns\/00-atoms-06-buttons-11-button-text-primary\/00-atoms-06-buttons-11-button-text-primary.html"}];
 		var lineageR       = [];
 		var patternState   = "";
 		var cssEnabled     = false;
