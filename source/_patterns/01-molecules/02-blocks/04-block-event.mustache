@@ -1,7 +1,7 @@
 <div class="block block-event">
   {{# empty }}
   <a class="b-thumb" href="{{ url }}">
-    <div class="b-thumb-empty">{{> atoms-heading-3 (content: "News") }}</div>
+    <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
   </a>
   {{/ empty }}
   {{^ empty }}
@@ -12,10 +12,10 @@
   <div class="b-text">
     {{> atoms-heading-2 }}
     <div class="b-info">
-      {{> atoms-campus }}
-      {{> atoms-room }}
-      {{> atoms-date }}
-      {{> atoms-time }}
+      {{> atoms-text-place }}
+      {{> atoms-text-room }}
+      {{> atoms-text-date }}
+      {{> atoms-text-time }}
     </div>
     {{> atoms-button-text-alternate }}
   </div>

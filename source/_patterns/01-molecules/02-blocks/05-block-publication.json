@@ -1,0 +1,27 @@
+{
+  "authors": [
+    {
+      "name": {
+        "first": "Giorgio",
+        "last": "Camuffo"
+      }
+    },
+    {
+      "name": {
+        "first": "Maddalena",
+        "last": "Dalla Mura"
+      }
+    },
+    {
+      "name": {
+        "first": "Alvise",
+        "last": "Mattozzi"
+      }
+    }
+  ],
+  "button": "buy it",
+  "date": {
+    "day": " ",
+    "month": " "
+  }
+}

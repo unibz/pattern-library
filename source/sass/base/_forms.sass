@@ -62,7 +62,7 @@ input[type="week"]
   border-radius: 3px
   background: $white
   margin-bottom: $space
-  padding: $space-quarter
+  padding: 10px $space-half $space-quarter $space-half
   transition: border-color .5s ease-out
 
   &.disabled,
@@ -74,6 +74,11 @@ input[type="week"]
   &:focus
     box-shadow: 0
     border: 1px solid $primary
+
+  &.is-error
+    color: $des-art 
+    border-color: $des-art
+    border-width: 2px
 
 
 // Selects

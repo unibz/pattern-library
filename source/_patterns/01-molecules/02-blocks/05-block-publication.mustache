@@ -1,0 +1,29 @@
+<div class="block block-publication">
+  {{# empty }}
+    <a class="b-thumb" href="{{ url }}">
+      <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
+    </a>
+  {{/ empty }}
+
+  {{^ empty }}
+    <a class="b-thumb" href="{{ url }}">
+      {{> atoms-landscape-4x3 }}
+    </a>
+  {{/ empty }}
+
+  {{> atoms-text-date }}
+  {{> atoms-text-pages }}
+  {{> atoms-text-size }}
+
+  {{> atoms-text-isbn }}
+  {{> atoms-text-issn }}
+
+  {{> atoms-heading-2 }}
+  {{# authors }}
+    {{> molecules-byline }}
+  {{/ authors }}
+  {{> atoms-text-paragraph }}
+  {{> atoms-forms-input-number }}
+  {{> atoms-button }}
+  {{> atoms-text-price }}
+</div>

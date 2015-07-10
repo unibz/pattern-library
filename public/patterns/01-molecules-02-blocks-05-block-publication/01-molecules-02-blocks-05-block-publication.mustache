@@ -1,0 +1,29 @@
+&lt;div class=&quot;block block-publication&quot;&gt;
+  {{# empty }}
+    &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+      &lt;div class=&quot;b-thumb-empty&quot;&gt;{{&gt; atoms-heading-3 }}&lt;/div&gt;
+    &lt;/a&gt;
+  {{/ empty }}
+
+  {{^ empty }}
+    &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+      {{&gt; atoms-landscape-4x3 }}
+    &lt;/a&gt;
+  {{/ empty }}
+
+  {{&gt; atoms-text-date }}
+  {{&gt; atoms-text-pages }}
+  {{&gt; atoms-text-size }}
+
+  {{&gt; atoms-text-isbn }}
+  {{&gt; atoms-text-issn }}
+
+  {{&gt; atoms-heading-2 }}
+  {{# authors }}
+    {{&gt; molecules-byline }}
+  {{/ authors }}
+  {{&gt; atoms-text-paragraph }}
+  {{&gt; atoms-forms-input-number }}
+  {{&gt; atoms-button }}
+  {{&gt; atoms-text-price }}
+&lt;/div&gt;
