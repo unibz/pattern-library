@@ -1,0 +1,47 @@
+&lt;div class=&quot;block block-publication g-row&quot;&gt;
+  &lt;div class=&quot;g g-sm-6&quot;&gt;
+    {{# empty }}
+      &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+        &lt;div class=&quot;b-thumb-empty&quot;&gt;{{&gt; atoms-heading-3 }}&lt;/div&gt;
+      &lt;/a&gt;
+    {{/ empty }}
+    {{^ empty }}
+      &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+        {{&gt; atoms-portrait }}
+      &lt;/a&gt;
+    {{/ empty }}
+
+    &lt;div class=&quot;b-info&quot;&gt;
+      {{&gt; atoms-text-date }}
+      {{&gt; atoms-text-pages }}
+      {{&gt; atoms-text-size }}
+    &lt;/div&gt;
+
+    &lt;div class=&quot;b-data&quot;&gt;
+      {{&gt; atoms-text-isbn }}
+      {{&gt; atoms-text-issn }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;g g-sm-18&quot;&gt;
+    &lt;div class=&quot;b-title&quot;&gt;
+      {{&gt; atoms-heading-2 }}
+    &lt;/div&gt;
+
+    &lt;div class=&quot;b-authors&quot;&gt;
+      Ed. by
+      {{# authors }}
+        {{&gt; molecules-byline }}
+      {{/ authors }}
+    &lt;/div&gt;
+
+    &lt;div class=&quot;b-text&quot;&gt;
+      {{&gt; atoms-text-paragraph }}
+    &lt;/div&gt;
+    {{&gt; atoms-forms-input-number }}
+    {{&gt; atoms-button }}
+    &lt;div class=&quot;b-price&quot;&gt;
+      {{&gt; atoms-text-price }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
