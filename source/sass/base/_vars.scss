@@ -6,7 +6,7 @@
 // Colors
 //============================================
 
-$primary:     #007be4;
+$primary:     #007be4 !default;
 $black:       #000;
 $white:       #fff;
 
@@ -45,11 +45,11 @@ $radius: 3px;
 // Typography
 //============================================
 
-$font: "FF DIN Pro Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font: "FF DIN Pro Light", Arial, sans-serif;
 $font-italic: "FF DIN Pro Light Italic";
 $font-medium: "FF DIN Pro Medium";
-$font-secondary: "utopia-std", Georgia, Times, "Times New Roman", serif;
-$font-mono: "Roboto Mono", Menlo, Consolas, Monaco, monospace;
+$font-secondary: "utopia-std", Georgia, serif;
+$font-mono: "Roboto Mono", Monaco, monospace;
 
 $fs: 16px;
 $lh: ($space / $fs);

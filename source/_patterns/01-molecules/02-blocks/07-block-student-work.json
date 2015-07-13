@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "name": {
+        "first": "Sebastian",
+        "last": "Hirn"
+      }
+    },
+    {
+      "name": {
+        "first": "Madda",
+        "last": "Mura"
+      }
+    },
+    {
+      "name": {
+        "first": "Elvis",
+        "last": "Matt"
+      }
+    }
+  ]
+}

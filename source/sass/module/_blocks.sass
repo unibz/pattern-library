@@ -33,18 +33,9 @@
 
 .media-block
   .b-thumb
-    height: 0
-    padding-bottom: (9 / 16) * 100%
-    background-size: cover
-    background-position: center
-    background-repeat: no-repeat
-    +mq($bp-xs)
-      padding-bottom: (9 / 16) * 100%
     +mq($bp-sm)
       float: left
       width: 50%
-      height: 0
-      padding-bottom: (3 / 4) * 50%
 
 .media-block
   h2
@@ -69,7 +60,7 @@
 // Block Highlight
 //============================================
 
-.block-highlight
+.highlight-
   .b-thumb
     height: 0
     padding-bottom: (3 / 4) * 100%
@@ -77,17 +68,17 @@
     background-position: center
     background-repeat: no-repeat
 
-.block-highlight
-  .b-text
-    padding: $space-half
-    background-color: $primary
-    color: $white
-    +mq($bp-xs)
-      padding: $space
-    +mq($bp-md)
-      padding: $space*2
-    p
-      margin-bottom: 0
+
+.highlight_text
+  padding: $space-half
+  background-color: $primary
+  color: $white
+  +mq($bp-xs)
+    padding: $space
+  +mq($bp-md)
+    padding: $space*2
+  p
+    margin-bottom: 0
 
 
 // Block Info
@@ -119,22 +110,16 @@
 //============================================
 
 .block-news
-  @extend .g-row
   .b-thumb
     display: block
     margin-bottom: $space
     max-width: 242px
-    @extend .g
-    @extend .g-sm-8
   .b-text
-    @extend .g
-    @extend .g-sm-15
-    @extend .g-sm-push-1
     time
       display: block
       margin-bottom: $space-half
       color: $gray-dark
-      font-size: small
+      font-size: calc($fs - 2px)
     h2
       @extend .h4
       +mq($bp-sm)
@@ -241,80 +226,6 @@
         padding-top: $space*2
 
 
-// Block Publication
-//============================================
-
-.block-publication
-  .b-thumb
-    display: block
-    max-width: 180px
-    margin-bottom: $space-half
-
-.block-publication
-  .b-info
-    time, p
-      display: inline-block
-      margin: 0 $space-quarter 0 0
-
-.block-publication
-  .b-data
-    margin-bottom: $space-half 
-    p
-      margin-bottom: 0
-
-.block-publication
-  .b-title
-    h2
-      margin-bottom: $space-quarter
-
-.block-publication
-  .b-authors
-    margin-bottom: $space-half
-    p
-      display: inline-block
-      margin-bottom: 0
-    p:not(:last-child):after
-      content: "; "
-    +mq($bp-xs)
-      margin-bottom: $space
-
-.block-publication
-  .b-text
-    +mq($bp-xs)
-      margin-bottom: $space*2
-
-.block-publication
-  input
-    width: auto
-    margin-bottom: 0
-
-.block-publication
-  .b-price
-    display: inline-block
-    vertical-align: middle
-    p
-      margin-bottom: 0
-      padding: 10px 12px 6px 12px
-      line-height: 1
-
-.block-publication
-  .b-thumb-empty
-  .b-thumb-empty
-    padding: 0 $space-half (1.4 / 1) * 100% $space-half
-    height: 0
-    background-color: $primary
-    color: $white
-    letter-spacing: 1px
-    text-transform: uppercase
-    +mq($bp-xs)
-      padding-right: $space
-      padding-left: $space
-    h3
-      padding-top: $space-half
-      +mq($bp-xs)
-        padding-top: $space
-
-
 // Block Person
 //============================================
 
@@ -330,6 +241,8 @@
   .b-name
     @extend h4
     margin-bottom: $space-quarter
+    p
+      margin-bottom: 0
 
 .block-person
   .b-position
@@ -338,3 +251,7 @@
 .block-person
   .b-contact
     margin-bottom: $space
+
+
+// Block Student Work
+//============================================

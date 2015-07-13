@@ -1,47 +1,38 @@
-<div class="block block-publication g-row">
-  <div class="g g-sm-6">
-    {{# empty }}
-      <a class="b-thumb" href="{{ url }}">
-        <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
-      </a>
-    {{/ empty }}
-    {{^ empty }}
-      <a class="b-thumb" href="{{ url }}">
-        {{> atoms-portrait }}
-      </a>
-    {{/ empty }}
+<div class="publication">
+  <div class="g-row">
+    <div class="g g-sm-6">
+      {{# empty }}
+        <a class="u-blk u-push-btm-half" href="{{ url }}">
+          <div class="publication_thumb-none u-padd-half u-xs-padd">{{> atoms-heading-3 }}</div>
+        </a>
+      {{/ empty }}
+      {{^ empty }}
+        <a class="u-blk u-push-btm-half" href="{{ url }}">
+          {{> atoms-portrait (class: "class='publication_thumb'") }}
+        </a>
+      {{/ empty }}
 
-    <div class="b-info">
-      {{> atoms-text-date }}
-      {{> atoms-text-pages }}
+      {{> atoms-text-date (class: "class='u-push-rgt-quarter'") }}
+      {{> atoms-text-pages (class: "class='u-push-rgt-quarter'" }}
       {{> atoms-text-size }}
-    </div>
 
-    <div class="b-data">
-      {{> atoms-text-isbn }}
-      {{> atoms-text-issn }}
+      {{> atoms-text-isbn (class: "class='u-blk'"}}
+      {{> atoms-text-issn (class: "class='u-blk u-push-btm-half'"}}
     </div>
-  </div>
 
   <div class="g g-sm-18">
-    <div class="b-title">
-      {{> atoms-heading-2 }}
-    </div>
+    {{> atoms-heading-2 (class: "class='h4 u-push-btm-quarter'") }}
 
-    <div class="b-authors">
-      Ed. by
+    <ul class="u-ibl u-push-none u-padd-none">
+      <li class="u-ibl u-push-rgt-quarter">Ed. by</li>
       {{# authors }}
-        {{> molecules-byline }}
+        <li class="u-ibl">{{> atoms-text-name }} {{> atoms-text-surname }};</li>
       {{/ authors }}
-    </div>
+    </ul>
 
-    <div class="b-text">
-      {{> atoms-text-paragraph }}
-    </div>
-    {{> atoms-forms-input-number }}
+    {{> atoms-text-paragraph (class: "class='u-push-top-half'")}}
+    {{> atoms-forms-input-number (class: "class='form_input u-push-none'")}}
     {{> atoms-button }}
-    <div class="b-price">
-      {{> atoms-text-price }}
-    </div>
+    {{> atoms-text-price (class: "class='publication_price'")}}
   </div>
 </div>
