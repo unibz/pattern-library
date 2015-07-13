@@ -8,7 +8,7 @@
 .block
   overflow: hidden
   img
-    @extend .u-img-max
+    max-width: 100%
 
 
 // Media block
@@ -239,3 +239,60 @@
         padding-top: $space
       +mq($bp-md)
         padding-top: $space*2
+
+
+// Block Publication
+//============================================
+
+.block-publication
+  .b-thumb
+    display: block
+    max-width: 180px
+    margin-bottom: $space-half
+
+.block-publication
+  .b-info
+    time, p
+      display: inline-block
+      margin: 0 $space-quarter 0 0
+
+.block-publication
+  .b-data
+    margin-bottom: $space-half 
+    p
+      margin-bottom: 0
+
+.block-publication
+  .b-title
+    h2
+      margin-bottom: $space-quarter
+
+.block-publication
+  .b-authors
+    margin-bottom: $space-half
+    p
+      display: inline-block
+      margin-bottom: 0
+    p:not(:last-child):after
+      content: "; "
+    +mq($bp-sm)
+      margin-bottom: $space
+
+.block-publication
+  .b-text
+    +mq($bp-sm)
+      margin-bottom: $space*2
+
+.block-publication
+  input
+    width: auto
+    margin-bottom: 0
+
+.block-publication
+  .b-price
+    display: inline-block
+    vertical-align: middle
+    p
+      margin-bottom: 0
+      padding: 10px 12px 6px 12px
+      line-height: 1

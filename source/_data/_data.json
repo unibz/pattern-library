@@ -15,6 +15,10 @@
 			"src": "../../images/fpo_square.png",
 			"alt": "Square Thumbnail"
 		},
+		"portrait": {
+			"src": "../../images/fpo_portrait.png",
+			"alt": "Portrait Thumbnail"
+		},
 		"avatar" : {
 			"src" : "../../images/fpo_avatar.png",
 			"alt" : "Person Name"

@@ -1,29 +1,47 @@
-<div class="block block-publication">
-  {{# empty }}
-    <a class="b-thumb" href="{{ url }}">
-      <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
-    </a>
-  {{/ empty }}
+<div class="block block-publication g-row">
+  <div class="g g-sm-6">
+    {{# empty }}
+      <a class="b-thumb" href="{{ url }}">
+        <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
+      </a>
+    {{/ empty }}
+    {{^ empty }}
+      <a class="b-thumb" href="{{ url }}">
+        {{> atoms-portrait }}
+      </a>
+    {{/ empty }}
 
-  {{^ empty }}
-    <a class="b-thumb" href="{{ url }}">
-      {{> atoms-landscape-4x3 }}
-    </a>
-  {{/ empty }}
+    <div class="b-info">
+      {{> atoms-text-date }}
+      {{> atoms-text-pages }}
+      {{> atoms-text-size }}
+    </div>
 
-  {{> atoms-text-date }}
-  {{> atoms-text-pages }}
-  {{> atoms-text-size }}
+    <div class="b-data">
+      {{> atoms-text-isbn }}
+      {{> atoms-text-issn }}
+    </div>
+  </div>
 
-  {{> atoms-text-isbn }}
-  {{> atoms-text-issn }}
+  <div class="g g-sm-18">
+    <div class="b-title">
+      {{> atoms-heading-2 }}
+    </div>
 
-  {{> atoms-heading-2 }}
-  {{# authors }}
-    {{> molecules-byline }}
-  {{/ authors }}
-  {{> atoms-text-paragraph }}
-  {{> atoms-forms-input-number }}
-  {{> atoms-button }}
-  {{> atoms-text-price }}
+    <div class="b-authors">
+      Ed. by
+      {{# authors }}
+        {{> molecules-byline }}
+      {{/ authors }}
+    </div>
+
+    <div class="b-text">
+      {{> atoms-text-paragraph }}
+    </div>
+    {{> atoms-forms-input-number }}
+    {{> atoms-button }}
+    <div class="b-price">
+      {{> atoms-text-price }}
+    </div>
+  </div>
 </div>
