@@ -275,12 +275,12 @@
       margin-bottom: 0
     p:not(:last-child):after
       content: "; "
-    +mq($bp-sm)
+    +mq($bp-xs)
       margin-bottom: $space
 
 .block-publication
   .b-text
-    +mq($bp-sm)
+    +mq($bp-xs)
       margin-bottom: $space*2
 
 .block-publication
@@ -296,3 +296,45 @@
       margin-bottom: 0
       padding: 10px 12px 6px 12px
       line-height: 1
+
+.block-publication
+  .b-thumb-empty
+  .b-thumb-empty
+    padding: 0 $space-half (1.4 / 1) * 100% $space-half
+    height: 0
+    background-color: $primary
+    color: $white
+    letter-spacing: 1px
+    text-transform: uppercase
+    +mq($bp-xs)
+      padding-right: $space
+      padding-left: $space
+    h3
+      padding-top: $space-half
+      +mq($bp-xs)
+        padding-top: $space
+
+
+// Block Person
+//============================================
+
+.block-person
+  text-align: center
+
+.block-person
+  .b-thumb
+    display: block
+    margin-bottom: $space
+
+.block-person
+  .b-name
+    @extend h4
+    margin-bottom: $space-quarter
+
+.block-person
+  .b-position
+    color: $gray-dark
+
+.block-person
+  .b-contact
+    margin-bottom: $space

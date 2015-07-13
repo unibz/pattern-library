@@ -1,0 +1,23 @@
+<div class="block block-person">
+  {{# empty }}
+  <a class="b-thumb" href="{{ url }}">
+    {{> atoms-avatar }}
+  </a>
+  {{/ empty }}
+  {{^ empty }}
+  <a class="b-thumb" href="{{ url }}">
+    {{> atoms-square }}
+  </a>
+  {{/ empty }}
+  <div class="b-name">
+    {{> atoms-text-name }}
+    {{> atoms-text-surname }}
+  </div>
+  <div class="b-position">
+    {{> atoms-text-position }}
+  </div>
+  <div class="b-contact">
+    {{> atoms-text-email }}
+  </div>
+  {{> atoms-button-small }}
+</div>

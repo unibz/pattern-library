@@ -1,0 +1,23 @@
+&lt;div class=&quot;block block-person&quot;&gt;
+  {{# empty }}
+  &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-avatar }}
+  &lt;/a&gt;
+  {{/ empty }}
+  {{^ empty }}
+  &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-square }}
+  &lt;/a&gt;
+  {{/ empty }}
+  &lt;div class=&quot;b-name&quot;&gt;
+    {{&gt; atoms-text-name }}
+    {{&gt; atoms-text-surname }}
+  &lt;/div&gt;
+  &lt;div class=&quot;b-position&quot;&gt;
+    {{&gt; atoms-text-position }}
+  &lt;/div&gt;
+  &lt;div class=&quot;b-contact&quot;&gt;
+    {{&gt; atoms-text-email }}
+  &lt;/div&gt;
+  {{&gt; atoms-button-small }}
+&lt;/div&gt;
