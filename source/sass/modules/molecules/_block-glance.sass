@@ -1,0 +1,24 @@
+//============================================
+// Block Glance
+//============================================
+
+.block-info
+  .b-text
+    overflow: hidden
+    padding: $space-half
+    background-color: $primary
+    color: $white
+    +mq($bp-xs)
+      padding: $space
+    +mq($bp-md)
+      padding: $space*2
+    h2
+      @extend .h4
+      +mq($bp-sm)
+        float: left
+        width: 48.5%
+    p
+      margin-bottom: 0
+      +mq($bp-sm)
+        float: right
+        width: 48.5%

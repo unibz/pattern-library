@@ -1,38 +1,33 @@
 &lt;div class=&quot;publication&quot;&gt;
-  &lt;div class=&quot;g-row&quot;&gt;
-    &lt;div class=&quot;g g-sm-6&quot;&gt;
-      {{# empty }}
-        &lt;a class=&quot;u-blk u-push-btm-half&quot; href=&quot;{{ url }}&quot;&gt;
-          &lt;div class=&quot;publication_thumb-none u-padd-half u-xs-padd&quot;&gt;{{&gt; atoms-heading-3 }}&lt;/div&gt;
-        &lt;/a&gt;
-      {{/ empty }}
-      {{^ empty }}
-        &lt;a class=&quot;u-blk u-push-btm-half&quot; href=&quot;{{ url }}&quot;&gt;
-          {{&gt; atoms-portrait (class: &quot;class='publication_thumb'&quot;) }}
-        &lt;/a&gt;
-      {{/ empty }}
+  &lt;div class=&quot;publication_figure&quot;&gt;
+    {{# empty }}
+      &lt;div class=&quot;publication_thumb publication_thumb-none&quot;&gt;{{&gt; atoms-text-span (class: &quot;class='publication_thumbTitle'&quot;, span: &quot;Book&quot; }}&lt;/div&gt;
+    {{/ empty }}
+    {{^ empty }}
+      {{&gt; atoms-portrait (class: &quot;class='publication_thumb'&quot;) }}
+    {{/ empty }}
 
-      {{&gt; atoms-text-date (class: &quot;class='u-push-rgt-quarter'&quot;) }}
-      {{&gt; atoms-text-pages (class: &quot;class='u-push-rgt-quarter'&quot; }}
-      {{&gt; atoms-text-size }}
+    {{# publ-date }}{{&gt; atoms-text-time (class: &quot;class='publication_meta'&quot;) }}{{/ publ-date }}
+    {{# publ-meta }}
+      {{&gt; atoms-text-span (class: &quot;class='publication_meta'&quot;) }}
+    {{/ publ-meta }}
 
-      {{&gt; atoms-text-isbn (class: &quot;class='u-blk'&quot;}}
-      {{&gt; atoms-text-issn (class: &quot;class='u-blk u-push-btm-half'&quot;}}
-    &lt;/div&gt;
-
-  &lt;div class=&quot;g g-sm-18&quot;&gt;
-    {{&gt; atoms-heading-2 (class: &quot;class='h4 u-push-btm-quarter'&quot;) }}
-
-    &lt;ul class=&quot;u-ibl u-push-none u-padd-none&quot;&gt;
-      &lt;li class=&quot;u-ibl u-push-rgt-quarter&quot;&gt;Ed. by&lt;/li&gt;
-      {{# authors }}
-        &lt;li class=&quot;u-ibl&quot;&gt;{{&gt; atoms-text-name }} {{&gt; atoms-text-surname }};&lt;/li&gt;
-      {{/ authors }}
-    &lt;/ul&gt;
-
-    {{&gt; atoms-text-paragraph (class: &quot;class='u-push-top-half'&quot;)}}
-    {{&gt; atoms-forms-input-number (class: &quot;class='form_input u-push-none'&quot;)}}
-    {{&gt; atoms-button }}
-    {{&gt; atoms-text-price (class: &quot;class='publication_price'&quot;)}}
+    {{# publ-serials }}
+      {{&gt; atoms-text-span (class: &quot;class='publication_serial'&quot;) }}
+    {{/ publ-serials }}
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;publication_body&quot;&gt;
+    {{&gt; atoms-heading-2 (class: &quot;class='publication_title'&quot;) }}
+    &lt;p class=&quot;publication_authors&quot;&gt;
+      {{&gt; atoms-text-span (class: &quot;class='publication_label'&quot;, span: &quot;Ed. by&quot;) }}
+      {{# publ-authors }}
+        {{&gt; atoms-text-span }};
+      {{/ publ-authors }}
+    &lt;/p&gt;
+    {{&gt; atoms-text-paragraph (class: &quot;class='publication_excerpt'&quot;)}}
+    {{&gt; atoms-forms-input-number (form.class: &quot;class='form_input publication_input'&quot;)}}
+    {{&gt; atoms-button (button: &quot;Buy it&quot;)}}
+    {{# publ-price }}{{&gt; atoms-text-span (class: &quot;class='publication_price'&quot;)}}{{/ publ-price }}
   &lt;/div&gt;
 &lt;/div&gt;

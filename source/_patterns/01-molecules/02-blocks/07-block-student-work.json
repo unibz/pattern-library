@@ -1,22 +1,13 @@
 {
   "students": [
     {
-      "name": {
-        "first": "Sebastian",
-        "last": "Hirn"
-      }
+      "span": "Sebastian Hirn"
     },
     {
-      "name": {
-        "first": "Madda",
-        "last": "Mura"
-      }
+      "span": "Madda Mura"
     },
     {
-      "name": {
-        "first": "Elvis",
-        "last": "Matt"
-      }
+      "span": "Elvis Matt"
     }
   ]
 }

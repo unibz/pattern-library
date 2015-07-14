@@ -1,0 +1,34 @@
+//============================================
+// Block News
+//============================================
+
+.block-news
+  .b-thumb
+    display: block
+    margin-bottom: $space
+    max-width: 242px
+  .b-text
+    time
+      display: block
+      margin-bottom: $space-half
+      color: $gray-dark
+      font-size: calc($fs - 2px)
+    h2
+      @extend .h4
+      +mq($bp-sm)
+        margin-bottom: $space
+    p
+      +mq($bp-sm)
+        margin-bottom: $space-half
+
+.block-news
+  .b-thumb-empty
+    padding: 0 $space-half (3 / 4) * 100% $space-half
+    height: 0
+    background-color: $primary
+    color: $white
+    letter-spacing: 1px
+    text-transform: uppercase
+
+    h3
+      padding-top: $space-half

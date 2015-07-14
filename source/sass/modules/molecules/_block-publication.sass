@@ -1,0 +1,61 @@
+//============================================
+// Block Publication
+//============================================
+
+.publication
+  overflow: hidden
+
+.publication_thumb
+  display: block
+  margin-bottom: $space-half
+  max-width: 100%
+
+.publication_meta
+  margin-right: $space-quarter
+
+.publication_serial
+  display: block
+
+.publication_title
+  +h4
+  margin-top: $space-half
+
+.publication_label
+  margin-right: $space-quarter
+
+.publication_authors
+  margin-bottom: $space-half
+
+.publication_input
+  margin-bottom: 0
+  width: auto
+
+.publication_price
+  display: inline-block
+  vertical-align: middle
+  padding: 10px $space-half $space-quarter $space-half
+
+.publication_thumb-none
+  padding: $space-half
+  width: 180px
+  height: 255px
+  background-color: $primary
+
+.publication_thumbTitle
+  +h3
+  color: $white
+  letter-spacing: 1px
+  text-transform: uppercase
+
++mq($bp-sm)
+  .publication_figure
+    float: left
+    width: 25%
+  .publication_body
+    float: left
+    padding-left: $space
+    width: 75%
+  .publication_title
+    margin-top: 0
+  .publication_thumb-none
+    padding: $space

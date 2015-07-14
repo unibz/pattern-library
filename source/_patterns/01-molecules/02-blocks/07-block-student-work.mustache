@@ -1,16 +1,11 @@
-<div class="block block-student-work">
-  <a class="b-thumb" href="{{ url }}">
+<div class="studentWork">
+  <a href="{{ url }}">
     {{> atoms-landscape-4x3 }}
   </a>
-  <div class="b-title">
-    {{> atoms-heading-2 }}
-  </div>
-  <div class="b-name">
+  {{> atoms-heading-2 }}
+  <p class="studentWork_students">
     {{# students }}
-      {{> molecules-byline }}
+      {{> atoms-text-span }};
     {{/ students }}
-  </div>
-  <div class="b-position">
-    {{> atoms-text-position }}
-  </div>
+  </p>
 </div>

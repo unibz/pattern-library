@@ -52,19 +52,25 @@ select,
   margin-bottom: $space
   padding: 10px $space-half $space-quarter $space-half
   transition: border-color .5s ease-out
+  &:focus
+    box-shadow: none
+    border: 1px solid $primary
 
-  &.disabled,
+textarea,
+select
   &[disabled]
     background: $gray-light
     cursor: default
     color: $gray
 
-  &:focus
-    box-shadow: none
-    border: 1px solid $primary
+.form_input-disabled
+  background: $gray-light
+  cursor: default
+  color: $gray
 
 .form_input-error
   color: $des-art 
+  border-width: 2px
   border-color: $des-art
 
 

@@ -1,0 +1,124 @@
+{
+  "latest-publ" : [
+    {
+      "publ-date": {
+        "date" : {
+          "day": "",
+          "month": "",
+          "year": "2015"
+        },
+        "time": ""
+      },
+      "publ-meta": [
+        {
+          "span" : "266 p."
+        },
+        {
+          "span" : "17x24 cm."
+        }
+      ],
+      "publ-serials": [
+        {
+          "span" : "ISBN: 978-88-6046-067-7"
+        },
+        {
+          "span" : "ISSN: 2420-9554"
+        }
+      ],
+      "publ-authors": [
+        {
+          "span": "Giorgio Camuffo"
+        },
+        {
+          "span": "Maddalena Dalla Mura"
+        },
+        {
+          "span": "Alvise Mattozzi"
+        }
+      ],
+      "publ-price": {
+        "span" : "28,00 euro"
+      }
+    },
+    {
+      "publ-date": {
+        "date" : {
+          "day": "",
+          "month": "",
+          "year": "2015"
+        },
+        "time": ""
+      },
+      "publ-meta": [
+        {
+          "span" : "266 p."
+        },
+        {
+          "span" : "17x24 cm."
+        }
+      ],
+      "publ-serials": [
+        {
+          "span" : "ISBN: 978-88-6046-067-7"
+        },
+        {
+          "span" : "ISSN: 2420-9554"
+        }
+      ],
+      "publ-authors": [
+        {
+          "span": "Giorgio Camuffo"
+        },
+        {
+          "span": "Maddalena Dalla Mura"
+        },
+        {
+          "span": "Alvise Mattozzi"
+        }
+      ],
+      "publ-price": {
+        "span" : "28,00 euro"
+      }
+    },
+    {
+      "publ-date": {
+        "date" : {
+          "day": "",
+          "month": "",
+          "year": "2015"
+        },
+        "time": ""
+      },
+      "publ-meta": [
+        {
+          "span" : "266 p."
+        },
+        {
+          "span" : "17x24 cm."
+        }
+      ],
+      "publ-serials": [
+        {
+          "span" : "ISBN: 978-88-6046-067-7"
+        },
+        {
+          "span" : "ISSN: 2420-9554"
+        }
+      ],
+      "publ-authors": [
+        {
+          "span": "Giorgio Camuffo"
+        },
+        {
+          "span": "Maddalena Dalla Mura"
+        },
+        {
+          "span": "Alvise Mattozzi"
+        }
+      ],
+      "publ-price": {
+        "span" : "50,00 euro"
+      }
+    }
+  ]
+}

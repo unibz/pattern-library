@@ -1,38 +1,33 @@
 <div class="publication">
-  <div class="g-row">
-    <div class="g g-sm-6">
-      {{# empty }}
-        <a class="u-blk u-push-btm-half" href="{{ url }}">
-          <div class="publication_thumb-none u-padd-half u-xs-padd">{{> atoms-heading-3 }}</div>
-        </a>
-      {{/ empty }}
-      {{^ empty }}
-        <a class="u-blk u-push-btm-half" href="{{ url }}">
-          {{> atoms-portrait (class: "class='publication_thumb'") }}
-        </a>
-      {{/ empty }}
+  <div class="publication_figure">
+    {{# empty }}
+      <div class="publication_thumb publication_thumb-none">{{> atoms-text-span (class: "class='publication_thumbTitle'", span: "Book" }}</div>
+    {{/ empty }}
+    {{^ empty }}
+      {{> atoms-portrait (class: "class='publication_thumb'") }}
+    {{/ empty }}
 
-      {{> atoms-text-date (class: "class='u-push-rgt-quarter'") }}
-      {{> atoms-text-pages (class: "class='u-push-rgt-quarter'" }}
-      {{> atoms-text-size }}
+    {{# publ-date }}{{> atoms-text-time (class: "class='publication_meta'") }}{{/ publ-date }}
+    {{# publ-meta }}
+      {{> atoms-text-span (class: "class='publication_meta'") }}
+    {{/ publ-meta }}
 
-      {{> atoms-text-isbn (class: "class='u-blk'"}}
-      {{> atoms-text-issn (class: "class='u-blk u-push-btm-half'"}}
-    </div>
-
-  <div class="g g-sm-18">
-    {{> atoms-heading-2 (class: "class='h4 u-push-btm-quarter'") }}
-
-    <ul class="u-ibl u-push-none u-padd-none">
-      <li class="u-ibl u-push-rgt-quarter">Ed. by</li>
-      {{# authors }}
-        <li class="u-ibl">{{> atoms-text-name }} {{> atoms-text-surname }};</li>
-      {{/ authors }}
-    </ul>
-
-    {{> atoms-text-paragraph (class: "class='u-push-top-half'")}}
-    {{> atoms-forms-input-number (class: "class='form_input u-push-none'")}}
-    {{> atoms-button }}
-    {{> atoms-text-price (class: "class='publication_price'")}}
+    {{# publ-serials }}
+      {{> atoms-text-span (class: "class='publication_serial'") }}
+    {{/ publ-serials }}
+  </div>
+  
+  <div class="publication_body">
+    {{> atoms-heading-2 (class: "class='publication_title'") }}
+    <p class="publication_authors">
+      {{> atoms-text-span (class: "class='publication_label'", span: "Ed. by") }}
+      {{# publ-authors }}
+        {{> atoms-text-span }};
+      {{/ publ-authors }}
+    </p>
+    {{> atoms-text-paragraph (class: "class='publication_excerpt'")}}
+    {{> atoms-forms-input-number (form.class: "class='form_input publication_input'")}}
+    {{> atoms-button (button: "Buy it")}}
+    {{# publ-price }}{{> atoms-text-span (class: "class='publication_price'")}}{{/ publ-price }}
   </div>
 </div>
