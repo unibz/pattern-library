@@ -7,13 +7,18 @@ module.exports = {
   destFolder: dest,
 
   browserSync: {
+    proxy: 'http://arillo.dev/unibz/pattern-library/public/',
     port: 9000,
-    server: {
-      // Serve up our build folder
-      baseDir: dest
-    },
     notify: false,
     open: false
+  },
+
+  patterns: {
+    src: src + "/_patterns/**/*.{mustache, json}"
+  },
+
+  data: {
+    src: src + "/_data/*.json"
   },
 
   sass: {
