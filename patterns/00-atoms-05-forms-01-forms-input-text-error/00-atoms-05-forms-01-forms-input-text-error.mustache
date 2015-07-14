@@ -1,6 +1,6 @@
 {{# error }}
-  &lt;input class=&quot;is-error&quot; type=&quot;text&quot; placeholder=&quot;{{ forms.input.placeholder.text }}&quot;&gt;
+  &lt;input {{ form.class }}  type=&quot;text&quot; placeholder=&quot;{{ form.placeholder }}&quot;&gt;
 {{/ error }}
 {{^ error }}
-  &lt;input type=&quot;text&quot; placeholder=&quot;{{ forms.input.placeholder.text }}&quot;&gt;
+  &lt;input {{ form.class }}  type=&quot;text&quot; placeholder=&quot;{{ form.placeholder }}&quot;&gt;
 {{/ error }}
