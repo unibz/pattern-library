@@ -1,0 +1,18 @@
+&lt;div class=&quot;post&quot;&gt;
+  {{# empty }}
+  &lt;a class=&quot;post_figure&quot; href=&quot;{{ url }}&quot;&gt;
+    &lt;div class=&quot;post_thumb-empty&quot;&gt;{{&gt; atoms-heading-3 (class:&quot;class='post_thumbTitle'&quot;)}}&lt;/div&gt;
+  &lt;/a&gt;
+  {{/ empty }}
+  {{^ empty }}
+  &lt;a class=&quot;post_figure&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-landscape-4x3 (class:&quot;class='post_thumb'&quot;)}}
+  &lt;/a&gt;
+  {{/ empty }}
+  &lt;div class=&quot;post_body&quot;&gt;
+    {{&gt; atoms-text-time (class:&quot;class='post_time'&quot;)}}
+    {{&gt; atoms-heading-2 (class:&quot;class='post_title'&quot;)}}
+    {{&gt; atoms-text-paragraph (class:&quot;class='post_excerpt'&quot;)}}
+    {{&gt; atoms-button-text-primary }}
+  &lt;/div&gt;
+&lt;/div&gt;

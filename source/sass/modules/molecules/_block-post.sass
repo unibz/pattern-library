@@ -1,0 +1,52 @@
+//============================================
+// Block Post
+//============================================
+
+.post
+  overflow: hidden
+
+.post_figure
+  display: block
+  margin-bottom: $space
+  +mq($bp-sm)
+    position: relative
+    float: left
+    margin-right: 4.16667%
+    width: 33.33333%
+
+.post_body
+  +mq($bp-sm)
+    position: relative
+    float: left
+    width: 62.5%
+
+.post_thumb
+  max-width: 222px
+
+.post_title
+  +h4
+  +mq($bp-sm)
+    margin-bottom: $space
+
+.post_time
+  display: block
+  margin-bottom: $space-half
+  color: $gray-dark
+  font-size: calc($fs - 2px)
+
+.post_excerpt
+  +mq($bp-sm)
+    margin-bottom: $space-half
+
+.post_thumb-empty
+  padding: $space-half
+  width: 222px
+  height: 166px
+  background-color: $primary
+  color: $white
+  +dark-text-shadow
+  letter-spacing: 1px
+  text-transform: uppercase
+
+.post_thumbTitle
+  +h3
