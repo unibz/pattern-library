@@ -41,6 +41,8 @@
   color: $white
   background-color: $primary
   border-color: shade($primary, 20%)
+  +dark-box-shadow
+  +dark-text-shadow
   &:hover
     background-color: shade($primary, 10%)
     border-color: shade($primary, 30%)
@@ -57,6 +59,8 @@
   color: $primary
   background-color: light($primary, 95%)
   border-color: light($primary, 90%)
+  +light-box-shadow
+  +light-text-shadow
   &:hover
     background-color: light($primary, 85%)
     border-color: light($primary, 80%)
@@ -74,6 +78,8 @@
   border-color: $gray
   color: $gray-dark
   cursor: not-allowed
+  +light-box-shadow
+  +light-text-shadow
 
 
 // Buttons paddings
@@ -95,6 +101,7 @@
 .btn-disabled-big
   padding: 26px $space $space $space
   font-size: large
+  line-height: 1
 
 
 // Button big specific styles
