@@ -1,22 +1,19 @@
-&lt;div class=&quot;block block-person&quot;&gt;
+&lt;div class=&quot;person&quot;&gt;
   {{# empty }}
-  &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
-    {{&gt; atoms-avatar }}
+  &lt;a class=&quot;person_figure&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-avatar (class:&quot;class='person_avatar'&quot;)}}
   &lt;/a&gt;
   {{/ empty }}
   {{^ empty }}
-  &lt;a class=&quot;b-thumb&quot; href=&quot;{{ url }}&quot;&gt;
-    {{&gt; atoms-square }}
+  &lt;a class=&quot;person_figure&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-square (class:&quot;class='person_portrait'&quot;)}}
   &lt;/a&gt;
   {{/ empty }}
-  &lt;div class=&quot;b-name&quot;&gt;
-    {{&gt; molecules-byline }}
-  &lt;/div&gt;
-  &lt;div class=&quot;b-position&quot;&gt;
-    {{&gt; atoms-text-span }}
-  &lt;/div&gt;
-  &lt;div class=&quot;b-contact&quot;&gt;
-    {{&gt; atoms-text-span }}
-  &lt;/div&gt;
+  {{# person-name }}
+    {{&gt; atoms-text-span (class:&quot;class='person_name'&quot;)}}
+  {{/ person-name }}
+  {{# person-meta }}
+    {{&gt; atoms-text-span (class:&quot;class='person_meta'&quot;)}}
+  {{/ person-meta }}
   {{&gt; atoms-button-small }}
 &lt;/div&gt;
