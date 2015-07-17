@@ -113,30 +113,38 @@
 
 
 =button-branded($theme)
-  .t_#{$theme}
-    .btn
-      background-color: $theme
-      border-color: shade($theme, 20%)
-      &:hover
-        background-color: shade($theme, 10%)
-        border-color: shade($theme, 30%)
+  .btn
+    background-color: $theme
+    border-color: shade($theme, 20%)
+    &:hover
+      background-color: shade($theme, 10%)
+      border-color: shade($theme, 30%)
+  .btn-alt
+    color: $theme
+    background-color: light($theme, 95%)
+    border-color: light($theme, 90%)
+    &:hover
+      background-color: light($theme, 85%)
+      border-color: light($theme, 80%)
+    &:active
+      box-shadow: inset 0 0 1000px rgba($theme, .2)
+  .btn-text-primary
+    color: $theme
 
-    .btn-alt
-      color: $theme
-      background-color: light($theme, 95%)
-      border-color: light($theme, 90%)
-      &:hover
-        background-color: light($theme, 85%)
-        border-color: light($theme, 80%)
-      &:active
-        box-shadow: inset 0 0 1000px rgba($theme, .2)
+.t_des-art
+  +button-branded($des-art)
 
-    .btn-text-primary
-      color: $theme
+.t_edu
+  +button-branded($edu)
 
-+button-branded($des-art)
-+button-branded($eco)
-+button-branded($edu)
-+button-branded($comp-science)
-+button-branded($science-tech)
-+button-branded($library)
+.t_eco
+  +button-branded($eco)
+
+.t_comp-science
+  +button-branded($comp-science)
+
+.t_science-tech
+  +button-branded($science-tech)
+
+.t_library
+  +button-branded($library)
