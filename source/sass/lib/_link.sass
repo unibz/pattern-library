@@ -1,0 +1,15 @@
+//============================================
+// Link
+//============================================
+
+=link($color: $primary)
+  transition: color .2s $motion
+  border-bottom: 1px solid $black
+  &[href*="//"]:not([href*="unibz."]):after
+    content: "\2197"
+    margin-left: $space-quarter
+    font-size: small
+  &:hover
+    color: $color
+    text-decoration: none
+    border-bottom-color: $color

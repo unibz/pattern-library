@@ -6,6 +6,11 @@
 .mediaBlock
   overflow: hidden
 
+.mediaBlock-reversed
+  .mediaBlock_figure
+    +mq($bp-sm)
+      float: right
+
 .mediaBlock_figure
   +mq($bp-sm)
     float: left
@@ -47,3 +52,31 @@
   &:after
     +mq($bp-sm)
       margin-top: 0
+
+
+// Brand colors
+//============================================
+
+.t_des-art
+  .mediaBlock_body
+    background-color: $des-art
+
+.t_eco
+  .mediaBlock_body
+    background-color: $eco
+
+.t_edu
+  .mediaBlock_body
+    background-color: $edu
+
+.t_comp-science
+  .mediaBlock_body
+    background-color: $comp-science
+
+.t_science-tech
+  .mediaBlock_body
+    background-color: $science-tech
+
+.t_library
+  .mediaBlock_body
+    background-color: $library

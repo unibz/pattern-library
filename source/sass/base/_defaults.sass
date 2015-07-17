@@ -52,15 +52,12 @@ a
   text-decoration: none
   color: inherit
 
-.link
-  border-bottom: 1px solid $color-text
-  transition: color .2s $motion, border-bottom-color .2s $motion
+p > a
+  +link
 
-  &:hover
-    color: $primary
-    text-decoration: none
-    border-bottom-color: $primary
-
+.t_des-art
+  p > a
+    +link($des-art)
 
 // Lists (enumeration)
 //============================================
@@ -162,6 +159,30 @@ hr
   padding: 0
   clear: both
 
+.t_des-art
+  hr
+    border-top-color: $des-art
+
+.t_eco
+  hr
+    border-top-color: $eco
+
+.t_edu
+  hr
+    border-top-color: $edu
+
+.t_comp-science
+  hr
+    border-top-color: $comp-science
+
+.t_science-tech
+  hr
+    border-top-color: $science-tech
+
+.t_library
+  hr
+    border-top-color: $library
+
 
 // Code
 //============================================
@@ -196,7 +217,31 @@ q
   quotes: "\201C" "\201D" "\2018" "\2019"
 
 html[lang="de"] q
-  quotes: “\201E” “\201D” “\00AB” “\00BB”
+  quotes: "\201E" "\201D" "\00AB" "\00BB"
+
+.t_des-art
+  blockquote
+    border-left-color: $des-art
+
+.t_eco
+  blockquote
+    border-left-color: $eco
+
+.t_edu
+  blockquote
+    border-left-color: $edu
+
+.t_comp-science
+  blockquote
+    border-left-color: $comp-science
+
+.t_science-tech
+  blockquote
+    border-left-color: $science-tech
+
+.t_library
+  blockquote
+    border-left-color: $library
 
 
 // Mark
@@ -206,6 +251,30 @@ mark
   padding: 3px 3px 2px 3px
   background-color: $primary
   color: $white
+
+.t_des-art
+  mark
+    background-color: $des-art
+
+.t_eco
+  mark
+    background-color: $eco
+
+.t_edu
+  mark
+    background-color: $edu
+
+.t_comp-science
+  mark
+    background-color: $comp-science
+
+.t_science-tech
+  mark
+    background-color: $science-tech
+
+.t_library
+  mark
+    background-color: $library
 
 
 // Abbreviation
@@ -225,44 +294,3 @@ abbr, abbr[title]
 
 .animate-move > .demo-shape
   transition: all 0.8s $motion
-
-
-// Tables
-//============================================
-
-table
-  width: 100%
-
-th
-  display: none
-
-tr:not(:last-of-type)
-  +mq($bp-sm-down)
-    td:last-of-type
-      border-bottom: 1px solid $primary
-
-td
-  display: block
-  &:before
-    content: attr(data-th)": "
-    display: inline-block
-    margin-right: $space
-    +mq($bp-sm)
-      display: none
-
-th, td
-  padding: 14px $space-half $space-half $space-half
-  +mq($bp-sm)
-    display: table-cell
-
-thead, tfoot
-  color: $white
-  background-color: $primary
-
-td:nth-child(2n)
-  +mq($bp-sm-down)
-    background-color: $gray-light
-
-tr:nth-child(2n)
-  +mq($bp-sm)
-    background-color: $gray-light

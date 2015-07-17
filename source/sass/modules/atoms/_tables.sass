@@ -1,0 +1,98 @@
+//============================================
+// Tables
+//============================================
+
+table
+  width: 100%
+
+th
+  display: none
+
+tr:not(:last-of-type)
+  +mq($bp-sm-down)
+    td:last-of-type
+      border-bottom: 1px solid $primary
+
+td
+  display: block
+  &:before
+    content: attr(data-th)": "
+    display: inline-block
+    margin-right: $space
+    +mq($bp-sm)
+      display: none
+
+th, td
+  padding: 14px $space-half $space-half $space-half
+  +mq($bp-sm)
+    display: table-cell
+
+thead, tfoot
+  color: $white
+  background-color: $primary
+
+td:nth-child(2n)
+  +mq($bp-sm-down)
+    background-color: $gray-light
+
+tr:nth-child(2n)
+  +mq($bp-sm)
+    background-color: $gray-light
+
+
+// Brand colors
+//============================================
+
+.t_des-art
+  thead,
+  tfoot
+    background-color: $des-art
+  tr:not(:last-of-type)
+    +mq($bp-sm-down)
+      td:last-of-type
+        border-bottom-color: $des-art
+
+.t_eco
+  thead,
+  tfoot
+    background-color: $eco
+  tr:not(:last-of-type)
+    +mq($bp-sm-down)
+      td:last-of-type
+        border-bottom-color: $eco
+
+.t_edu
+  thead,
+  tfoot
+    background-color: $edu
+  tr:not(:last-of-type)
+    +mq($bp-sm-down)
+      td:last-of-type
+        border-bottom-color: $edu
+
+.t_comp-science
+  thead,
+  tfoot
+    background-color: $comp-science
+  tr:not(:last-of-type)
+    +mq($bp-sm-down)
+      td:last-of-type
+        border-bottom-color: $comp-science
+
+.t_science-tech
+  thead,
+  tfoot
+    background-color: $science-tech
+  tr:not(:last-of-type)
+    +mq($bp-sm-down)
+      td:last-of-type
+        border-bottom-color: $science-tech
+
+.t_library
+  thead,
+  tfoot
+    background-color: $library  
+  tr:not(:last-of-type)
+    +mq($bp-sm-down)
+      td:last-of-type
+        border-bottom-color: $library
