@@ -14,7 +14,7 @@ module.exports = {
   },
 
   patterns: {
-    src: src + "/_patterns/**/*.{mustache, json}"
+    src: src + "/_patterns/**/*.{mustache,json}"
   },
 
   data: {
