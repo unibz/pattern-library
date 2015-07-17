@@ -1,10 +1,10 @@
-<div class="block media-block">
-  <a class="b-thumb" href="{{ url }}">
-    {{> atoms-landscape-4x3 }}
+<div class="mediaBlock">
+  <a class="mediaBlock_figure" href="{{ url }}">
+    {{> atoms-landscape-4x3 (class: "class='mediaBlock_thumb'")}}
   </a>
-	<div class="b-text">
-		{{> atoms-heading-2 }}
+	<div class="mediaBlock_body">
+		{{> atoms-heading-2 (class: "class='mediaBlock_title'")}}
 		{{> atoms-text-paragraph }}
-    {{> atoms-button-text-alternate }}
+    {{> atoms-button-text-alternate (class: "mediaBlock_btn")}}
 	</div>
 </div>
