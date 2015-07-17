@@ -1,0 +1,13 @@
+<div class="thumbBlock">
+  <a class="thumbBlock_figure" href="{{ url }}">
+    {{> atoms-landscape-4x3 (class:"class='thumbBlock_thumb'")}}
+  </a>
+  <div class="thumbBlock_body">
+    {{> atoms-heading-2 (class:"class='thumbBlock_title'")}}
+    <p>
+      {{# students }}
+        {{> atoms-text-span }};
+      {{/ students }}
+    </p>
+  </div>
+</div>

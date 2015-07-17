@@ -1,10 +1,10 @@
 &lt;div class=&quot;thumbBlock&quot;&gt;
   &lt;a class=&quot;thumbBlock_figure&quot; href=&quot;{{ url }}&quot;&gt;
-    {{&gt; atoms-landscape-4x3 }}
+    {{&gt; atoms-landscape-4x3 (class:&quot;class='thumbBlock_thumb'&quot;)}}
   &lt;/a&gt;
   &lt;div class=&quot;thumbBlock_body&quot;&gt;
-    {{&gt; atoms-heading-2 }}
-    &lt;p class=&quot;studentWork_students&quot;&gt;
+    {{&gt; atoms-heading-2 (class:&quot;class='thumbBlock_title'&quot;)}}
+    &lt;p&gt;
       {{# students }}
         {{&gt; atoms-text-span }};
       {{/ students }}
