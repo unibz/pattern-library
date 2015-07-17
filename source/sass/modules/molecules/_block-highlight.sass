@@ -2,23 +2,17 @@
 // Block Highlight
 //============================================
 
-.block-highlight
-  .b-thumb
-    height: 0
-    padding-bottom: (3 / 4) * 100%
-    background-size: cover
-    background-position: center
-    background-repeat: no-repeat
+.highlight_thumb
+  max-width: 100%
 
 
-.block-highlight
-  .b-text
-    padding: $space-half
-    background-color: $primary
-    color: $white
-    +mq($bp-xs)
-      padding: $space
-    +mq($bp-md)
-      padding: $space*2
-    p
-      margin-bottom: 0
+.highlight_body
+  padding: $space-half
+  background-color: $primary
+  color: $white
+  +mq($bp-xs)
+    padding: $space
+  +mq($bp-md)
+    padding: $space*2
+  p
+    margin-bottom: 0
