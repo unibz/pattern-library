@@ -9,9 +9,11 @@
     {{&gt; atoms-square (class:&quot;class='person_portrait'&quot;)}}
   &lt;/a&gt;
   {{/ empty }}
-  {{# person-name }}
-    {{&gt; atoms-text-span (class:&quot;class='person_name'&quot;)}}
-  {{/ person-name }}
+  &lt;p class=&quot;person_name&quot;&gt;
+    {{# person-name }}
+      {{&gt; atoms-text-span }}
+    {{/ person-name }}
+  &lt;p&gt;
   {{# person-meta }}
     {{&gt; atoms-text-span (class:&quot;class='person_meta'&quot;)}}
   {{/ person-meta }}
