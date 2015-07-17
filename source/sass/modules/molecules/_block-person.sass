@@ -2,25 +2,18 @@
 // Block Person
 //============================================
 
-.block-person
+.person
   text-align: center
 
-.block-person
-  .b-thumb
-    display: block
-    margin-bottom: $space
+.person_figure
+  display: block
+  margin-bottom: $space
 
-.block-person
-  .b-name
-    @extend h4
-    margin-bottom: $space-quarter
-    p
-      margin-bottom: 0
+.person_name
+  +h4
+  margin-bottom: $space-quarter
 
-.block-person
-  .b-position
-    color: $gray-dark
-
-.block-person
-  .b-contact
-    margin-bottom: $space
+.person_meta
+  display: block
+  margin-bottom: $space-half
+  color: $gray-dark

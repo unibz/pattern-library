@@ -1,13 +1,21 @@
 {
-  "info": [
+  "event-info": [
     {
-      "span": {
-        "two": "Campus Unibz"
-      }
+      "span": "Campus Unibz"
     },
     {
-      "span": {
-        "two": "C 3.03"
+      "span": "C 3.03"
+    }
+  ],
+  "event-time": [
+    {
+      "time": ""
+    },
+    {
+      "date" : {
+        "day": "",
+        "month": "",
+        "year": ""
       }
     }
   ]

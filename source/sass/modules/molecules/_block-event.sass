@@ -2,83 +2,81 @@
 // Block Event
 //============================================
 
-.block-event
-  .b-thumb
-    +mq($bp-sm)
-      width: 50%
-      float: left
+.event_figure
+  +mq($bp-sm)
+    width: 50%
+    float: left
 
-.block-event
-  .b-text
-    position: relative
-    padding: $space-half
-    background-color: $primary
-    color: $white
-    +mq($bp-xs)
-      padding: $space
-    +mq($bp-sm)
-      float: right
-      padding-top: 0
-      padding-bottom: (3 / 4) * 50%
-      width: 50%
-      height: 0
-    +mq($bp-md)
-      padding-left: $space*2
-      padding-right: $space*2
-
-.block-event
-  .b-text
-    h2
-      @extend .h4
-      +mq($bp-sm)
-        padding-top: $space
-      +mq($bp-md)
-        padding-top: $space*2
-
-.block-event
-  .b-text
-    time, span
-      display: block
-
-.block-event
-  .b-text
-    a
-      margin-top: $space
-      +mq($bp-sm)
-        position: absolute
-        margin: $space
-        right: 0
-        bottom: 0
-      +mq($bp-md)
-        margin: $space*2
-
-.block-event
-  .b-info
-    +mq($bp-sm)
-      position: absolute
-      margin: $space
-      left: 0
-      bottom: 0
-    +mq($bp-md)
-      margin: $space*2
-
-.block-event
-  .b-thumb-empty
-    padding: 0 $space-half (3 / 4) * 100% $space-half
+.event_body
+  position: relative
+  padding: $space-half
+  background-color: $primary
+  color: $white
+  +dark-text-shadow
+  +mq($bp-xs)
+    padding: $space
+  +mq($bp-sm)
+    float: right
+    padding-top: 0
+    padding-bottom: (3 / 4) * 50%
+    width: 50%
     height: 0
-    background-color: light($primary, 60%)
-    color: $white
-    letter-spacing: 1px
-    text-transform: uppercase
-    +mq($bp-xs)
-      padding-right: $space
-      padding-left: $space
-    +mq($bp-md)
-      padding-right: $space*2
-      padding-left: $space*2
-    h3
-      padding-top: $space-half
-      +mq($bp-xs)
-        padding-top: $space
-      +mq($bp-md)
-        padding-top: $space*2
+  +mq($bp-md)
+    padding-left: $space*2
+    padding-right: $space*2
+
+.event_thumb
+  max-width: 100%
+
+.event_title
+  +h4
+  +mq($bp-sm)
+    padding-top: $space
+  +mq($bp-md)
+    padding-top: $space*2
+
+.event_details
+  +mq($bp-sm)
+    position: absolute
+    margin: $space
+    left: 0
+    bottom: 0
+  +mq($bp-md)
+    margin: $space*2
+
+.event_meta,
+.event_time
+  display: block
+
+.event_btn
+  margin-top: $space
+  +mq($bp-sm)
+    position: absolute
+    margin: $space
+    right: 0
+    bottom: 0
+  +mq($bp-md)
+    margin: $space*2
+
+.event_thumb-empty
+  padding: 0 $space-half (3 / 4) * 100% $space-half
+  height: 0
+  background-color: light($primary, 33%)
+  color: $white
+  +dark-text-shadow
+  letter-spacing: 1px
+  text-transform: uppercase
+  +mq($bp-xs)
+    padding-right: $space
+    padding-left: $space
+  +mq($bp-md)
+    padding-right: $space*2
+    padding-left: $space*2
+
+.event_thumbTitle
+  +h3
+  padding-top: $space-half
+  +mq($bp-xs)
+    padding-top: $space
+  +mq($bp-md)
+    padding-top: $space*2

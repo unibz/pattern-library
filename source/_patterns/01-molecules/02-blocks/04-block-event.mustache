@@ -1,21 +1,24 @@
-<div class="block block-event">
+<div class="event">
   {{# empty }}
-  <a class="b-thumb" href="{{ url }}">
-    <div class="b-thumb-empty">{{> atoms-heading-3 }}</div>
+  <a class="event_figure" href="{{ url }}">
+    <div class="event_thumb-empty">{{> atoms-heading-3 (class:"class='event_thumbTitle'")}}</div>
   </a>
   {{/ empty }}
   {{^ empty }}
-  <a class="b-thumb" href="{{ url }}">
-    {{> atoms-landscape-4x3 }}
+  <a class="event_figure" href="{{ url }}">
+    {{> atoms-landscape-4x3 (class:"class='event_thumb'")}}
   </a>
   {{/ empty }}
-  <div class="b-text">
-    {{> atoms-heading-2 }}
-    <div class="b-info">
-      {{> atoms-text-span }}
-      {{> atoms-text-span }}
-      {{> atoms-text-time }}
+  <div class="event_body">
+    {{> atoms-heading-2 (class:"class='event_title'")}}
+    <div class="event_details">
+      {{# event-info }}
+        {{> atoms-text-span (class: "class='event_meta'")}}
+      {{/ event-info }}
+      {{# event-time }}
+        {{> atoms-text-time (class: "class='event_time'")}}
+      {{/ event-time }}
     </div>
-    {{> atoms-button-text-alternate }}
+    {{> atoms-button-text-alternate (class: "event_btn")}}
   </div>
 </div>

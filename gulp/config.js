@@ -11,7 +11,6 @@ module.exports = {
       // Serve up our build folder
       baseDir: dest
     },
-    port: 9000,
     notify: false,
     open: false
   },

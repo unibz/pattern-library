@@ -1,22 +1,19 @@
-<div class="block block-person">
+<div class="person">
   {{# empty }}
-  <a class="b-thumb" href="{{ url }}">
-    {{> atoms-avatar }}
+  <a class="person_figure" href="{{ url }}">
+    {{> atoms-avatar (class:"class='person_avatar'")}}
   </a>
   {{/ empty }}
   {{^ empty }}
-  <a class="b-thumb" href="{{ url }}">
-    {{> atoms-square }}
+  <a class="person_figure" href="{{ url }}">
+    {{> atoms-square (class:"class='person_portrait'")}}
   </a>
   {{/ empty }}
-  <div class="b-name">
-    {{> molecules-byline }}
-  </div>
-  <div class="b-position">
-    {{> atoms-text-span }}
-  </div>
-  <div class="b-contact">
-    {{> atoms-text-span }}
-  </div>
+  {{# person-name }}
+    {{> atoms-text-span (class:"class='person_name'")}}
+  {{/ person-name }}
+  {{# person-meta }}
+    {{> atoms-text-span (class:"class='person_meta'")}}
+  {{/ person-meta }}
   {{> atoms-button-small }}
 </div>
