@@ -7,7 +7,10 @@ module.exports = {
   destFolder: dest,
 
   browserSync: {
-    proxy: 'http://arillo.dev/unibz/pattern-library/public/',
+    server: {
+      // Serve up our build folder
+      baseDir: dest
+    },
     port: 9000,
     notify: false,
     open: false
