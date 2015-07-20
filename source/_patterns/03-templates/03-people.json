@@ -1,0 +1,45 @@
+{
+  "contract-professor": [
+    {
+      "img": {
+        "landscape-4x3": {
+          "src": "http://placekitten.com/g/800/600"
+        }
+      },
+      "person-name": {
+        "span": "Roberto Gigliotti"
+      },
+      "person-meta": {
+        "span": "Interior and Exhibit Design"
+      },
+      "button": "Contact"
+    },
+    {
+      "person-name": {
+        "span": "Giorgio Camuffo"
+      },
+      "person-meta": {
+        "span": "Visual Communication"
+      },
+      "button": "Contact"
+    },
+    {
+      "person-name": {
+        "span": "Jason Santa Maria De Consuelo River"
+      },
+      "person-meta": {
+        "span": "Visual Communication for Media and Internet of things"
+      },
+      "button": "Contact"
+    },
+    {
+      "person-name": {
+        "span": "Giorgio Camuffo"
+      },
+      "person-meta": {
+        "span": "Visual Communication"
+      },
+      "button": "Contact"
+    }
+  ]
+}

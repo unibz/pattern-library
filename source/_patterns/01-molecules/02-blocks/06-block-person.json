@@ -1,15 +1,12 @@
 {
   "person-name": [
     {
-      "span": "Roberto"
-    },
-    {
-      "span": "Gigliotti"
+      "span": "Lorem Ipsum"
     }
   ],
   "person-meta": [
     {
-      "span": "Interior and Exhibit Professor"
+      "span": "Lorem Ipsum"
     }
   ]
 }
