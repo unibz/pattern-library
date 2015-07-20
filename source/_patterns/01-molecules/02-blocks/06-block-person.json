@@ -6,7 +6,7 @@
   ],
   "person-meta": [
     {
-      "span": "Lorem Ipsum"
+      "excerpt": { "medium": "Lorem Ipsum" }
     }
   ]
 }

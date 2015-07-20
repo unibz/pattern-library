@@ -8,25 +8,25 @@
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
           "person-name": { "span": "Lorem Ipsum" },
-          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
           "button": "Lorem"
         },
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
           "person-name": { "span": "Lorem Ipsum" },
-          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
           "button": "Lorem"
         },
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
           "person-name": { "span": "Lorem Ipsum" },
-          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
           "button": "Lorem"
         },
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
           "person-name": { "span": "Lorem Ipsum" },
-          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
           "button": "Lorem"
         }
       ]
