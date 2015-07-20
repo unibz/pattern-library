@@ -1,5 +1,5 @@
 {
-  "contract-professor": [
+  "full-professor": [
     {
       "img": {
         "landscape-4x3": {
@@ -7,39 +7,54 @@
         }
       },
       "person-name": {
-        "span": "Roberto Gigliotti"
+        "span": "Lorem Ipsum"
       },
       "person-meta": {
-        "span": "Interior and Exhibit Design"
+        "span": "Lorem ipsum dolor sit amet,"
       },
-      "button": "Contact"
+      "button": "Lorem"
     },
     {
+      "img": {
+        "landscape-4x3": {
+          "src": "http://placekitten.com/g/800/600"
+        }
+      },
       "person-name": {
-        "span": "Giorgio Camuffo"
+        "span": "Lorem Ipsum"
       },
       "person-meta": {
-        "span": "Visual Communication"
+        "span": "Lorem ipsum dolor sit amet,"
       },
-      "button": "Contact"
+      "button": "Lorem"
     },
     {
+      "img": {
+        "landscape-4x3": {
+          "src": "http://placekitten.com/g/800/600"
+        }
+      },
       "person-name": {
-        "span": "Jason Santa Maria De Consuelo River"
+        "span": "Lorem Ipsum"
       },
       "person-meta": {
-        "span": "Visual Communication for Media and Internet of things"
+        "span": "Lorem ipsum dolor sit amet,"
       },
-      "button": "Contact"
+      "button": "Lorem"
     },
     {
+      "img": {
+        "landscape-4x3": {
+          "src": "http://placekitten.com/g/800/600"
+        }
+      },
       "person-name": {
-        "span": "Giorgio Camuffo"
+        "span": "Lorem Ipsum"
       },
       "person-meta": {
-        "span": "Visual Communication"
+        "span": "Lorem ipsum dolor sit amet,"
       },
-      "button": "Contact"
+      "button": "Lorem"
     }
   ]
 }
