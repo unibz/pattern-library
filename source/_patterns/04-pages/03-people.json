@@ -1,45 +1,220 @@
 {
-  "contract-professor": [
+  "people": [
     {
-      "img": {
-        "landscape-4x3": {
-          "src": "http://placekitten.com/g/800/600"
+      "section-title": { 
+        "headline": { "short": "Tenured full professors" }
+      },
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Dr. phil. habil. Glüher Gerhard, Dean" },
+          "person-meta": { "span": "Product Design Theory and Terminology" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Cohen Nitzan" },
+          "person-meta": { "span": "Product Design" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Prey Kuno" },
+          "person-meta": { "span": "Product Design" },
+          "button": "Contact"
         }
-      },
-      "person-name": {
-        "span": "Roberto Gigliotti"
-      },
-      "person-meta": {
-        "span": "Interior and Exhibit Design"
-      },
-      "button": "Contact"
+      ]
     },
     {
-      "person-name": {
-        "span": "Giorgio Camuffo"
+      "section-title": {
+        "headline": { "short": "Tenured associate professors" }
       },
-      "person-meta": {
-        "span": "Visual Communication"
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Benincasa Antonino" },
+          "person-meta": { "span": "Visual Communication" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Camuffo Giorgio" },
+          "person-meta": { "span": "Visual Communication" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. De Cecco Emanuela" },
+          "person-meta": { "span": "Storia dell'arte contemporanea" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Gigliotti Roberto" },
+          "person-meta": { "span": "Interior and Exhibit Design" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Dr. phil. Höger Hans Leo" },
+          "person-meta": { "span": "Hytory of Design" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Krois Christian" },
+          "person-meta": { "span": "Visual Communication" },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Prof. Upmeier Christian" },
+          "person-meta": { "span": "Visual Communication" },
+          "button": "Contact"
+        }
+      ]
+    },{
+      "section-title": {
+        "headline": { "short": "Researcher with a fixed-term contract" }
       },
-      "button": "Contact"
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        }
+      ]
     },
     {
-      "person-name": {
-        "span": "Jason Santa Maria De Consuelo River"
+      "section-title": {
+        "headline": { "short": "Teaching Staff" }
       },
-      "person-meta": {
-        "span": "Visual Communication for Media and Internet of things"
-      },
-      "button": "Contact"
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        }
+      ]
     },
     {
-      "person-name": {
-        "span": "Giorgio Camuffo"
+      "section-title": {
+        "headline": { "short": "Research assistant" }
       },
-      "person-meta": {
-        "span": "Visual Communication"
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        }
+      ]
+    },
+    {
+      "section-title": {
+        "headline": { "short": "Technical Staff" }
       },
-      "button": "Contact"
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        }
+      ]
+    },
+    {
+      "section-title": {
+        "headline": { "short": "Administrative Staff" }
+      },
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        }
+      ]
     }
   ]
 }

@@ -1,60 +1,35 @@
 {
-  "full-professor": [
+  "people": [
     {
-      "img": {
-        "landscape-4x3": {
-          "src": "http://placekitten.com/g/800/600"
+      "section-title": { 
+        "headline" : { "short": "Lorem ipsum dolor sit amet" }
+      },
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "span": "Lorem ipsum dolor sit amet" },
+          "button": "Lorem"
         }
-      },
-      "person-name": {
-        "span": "Lorem Ipsum"
-      },
-      "person-meta": {
-        "span": "Lorem ipsum dolor sit amet,"
-      },
-      "button": "Lorem"
-    },
-    {
-      "img": {
-        "landscape-4x3": {
-          "src": "http://placekitten.com/g/800/600"
-        }
-      },
-      "person-name": {
-        "span": "Lorem Ipsum"
-      },
-      "person-meta": {
-        "span": "Lorem ipsum dolor sit amet,"
-      },
-      "button": "Lorem"
-    },
-    {
-      "img": {
-        "landscape-4x3": {
-          "src": "http://placekitten.com/g/800/600"
-        }
-      },
-      "person-name": {
-        "span": "Lorem Ipsum"
-      },
-      "person-meta": {
-        "span": "Lorem ipsum dolor sit amet,"
-      },
-      "button": "Lorem"
-    },
-    {
-      "img": {
-        "landscape-4x3": {
-          "src": "http://placekitten.com/g/800/600"
-        }
-      },
-      "person-name": {
-        "span": "Lorem Ipsum"
-      },
-      "person-meta": {
-        "span": "Lorem ipsum dolor sit amet,"
-      },
-      "button": "Lorem"
+      ]
     }
   ]
 }
