@@ -1,12 +1,4 @@
 {
-  "person-name": [
-    {
-      "span": "Lorem Ipsum"
-    }
-  ],
-  "person-meta": [
-    {
-      "excerpt": { "medium": "Lorem Ipsum" }
-    }
-  ]
+  "person-name": { "span": "Lorem Ipsum" },
+  "person-meta": { "excerpt": { "medium": "Lorem Ipsum" } }
 }
