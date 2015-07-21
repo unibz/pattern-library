@@ -5,9 +5,11 @@
 .alphabet
   +h2
   position: relative
-  margin-bottom: $space*2
+  margin-bottom: $space
   color: $primary
   overflow: hidden
+  +mq($bp-sm)
+    margin-bottom: $space*2
   +mq($bp-md)
     +h1
     margin-bottom: $space*2
