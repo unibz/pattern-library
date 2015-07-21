@@ -55,22 +55,27 @@ $lh: ($space / $fs);
 
 $fs-h1: 30px;
 $fs-h2: 28px;
-$fs-h3: 24px;
+$fs-h3: 26px;
 $fs-h4: 20px;
-$fs-h5: 20px;
+$fs-h5: 18px;
 $fs-h6: 16px;
 
-$fs-sm-h1: 40px;
-$fs-sm-h2: 38px;
-$fs-sm-h3: 32px;
-$fs-sm-h4: 24px;
-$fs-sm-h5: 20px;
+$fs-sm-h1: 32px;
+$fs-sm-h2: 30px;
+$fs-sm-h3: 28px;
+$fs-sm-h4: 26px;
+$fs-sm-h5: 18px;
 
-$fs-md-h1: 48px;
-$fs-md-h2: 40px;
-$fs-md-h3: 36px;
+$fs-md-h1: 34px;
+$fs-md-h2: 32px;
+$fs-md-h3: 30px;
 $fs-md-h4: 28px;
-$fs-md-h5: 24px;
+$fs-md-h5: 18px;
+
+$fs-xl-h1: 38px;
+$fs-xl-h2: 34px;
+$fs-xl-h3: 32px;
+$fs-xl-h4: 30px;
 
 
 // Animation
@@ -84,19 +89,23 @@ $motion: cubic-bezier(.55,0,.1,1);
 
 // XS
 $layout-gutter-xs: 16px;
-$layout-width-xs:  416px;
+$layout-width-xs:  368px;
 
 // SM
-$layout-gutter-sm: 20px;
-$layout-width-sm:  760px;
+$layout-gutter-sm: 18px;
+$layout-width-sm:  560px;
 
 // MD
-$layout-gutter-md: 22px;
-$layout-width-md:  966px;
+$layout-gutter-md: 18px;
+$layout-width-md:  724px;
 
 // LG
-$layout-gutter-lg: 30px;
-$layout-width-lg:  1290px;
+$layout-gutter-lg: 18px;
+$layout-width-lg:  988px;
+
+// XL
+$layout-gutter-xl: 26px;
+$layout-width-xl:  1268px;
 
 
 // Breakpoints
@@ -106,11 +115,13 @@ $bp-xs:       "(min-width: #{$layout-width-xs + ($layout-gutter-xs * 2)})";
 $bp-sm:       "(min-width: #{$layout-width-sm + ($layout-gutter-sm * 2)})";
 $bp-md:       "(min-width: #{$layout-width-md + ($layout-gutter-md * 2)})";
 $bp-lg:       "(min-width: #{$layout-width-lg + ($layout-gutter-lg * 2)})";
+$bp-xl:       "(min-width: #{$layout-width-xl + ($layout-gutter-xl * 2)})";
 
 $bp-xs-down:  "(max-width: #{($layout-width-xs + ($layout-gutter-xs * 2)) - 1px})";
 $bp-sm-down:  "(max-width: #{($layout-width-sm + ($layout-gutter-sm * 2)) - 1px})";
 $bp-md-down:  "(max-width: #{($layout-width-md + ($layout-gutter-md * 2)) - 1px})";
 $bp-lg-down:  "(max-width: #{($layout-width-lg + ($layout-gutter-lg * 2)) - 1px})";
+$bp-xl-down:  "(max-width: #{($layout-width-xl + ($layout-gutter-xl * 2)) - 1px})";
 
 
 // Grid
@@ -162,6 +173,17 @@ $grid-config-lg: (
   "clear": 3 4
 );
 
+$grid-config-xl: (
+  "name": "xl",
+  "cols": $grid-columns,
+  "gutter": $layout-gutter-xl,
+  "bp": $bp-xl,
+  "off": true,
+  "pull": true,
+  "push": true,
+  "clear": 4
+);
+
 
 // Dimension Utility
 //============================================
@@ -210,6 +232,16 @@ $dimension-utility-config-lg: (
   "push": true,
   "padd": true,
   "bp": $bp-lg,
+
+  "sizes": $dimension-utility-sizes
+);
+
+$dimension-utility-config-xl: (
+  "name": "xl",
+  "pull": true,
+  "push": true,
+  "padd": true,
+  "bp": $bp-xl,
 
   "sizes": $dimension-utility-sizes
 );

@@ -2,16 +2,20 @@
 // Headings styles
 //============================================
 
-.headingTitle
+.h-title
   +h1
   margin-bottom: $space
-  +mq($bp-sm)
+  +mq($bp-md)
+    margin-bottom: $space*1.5
+  +mq($bp-lg)
     margin-bottom: $space*2
 
-.headingSub
-  +h3 
-  margin-bottom: $space
+.h-subtitle
+  +h4 
+  margin-bottom: $space-half
+  +mq($bp-md)
+    margin-bottom: $space
 
-.headingTitle-center,
-.headingSub-center
+.h-title-center,
+.h-subtitle-center
   text-align: center
