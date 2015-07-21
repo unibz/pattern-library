@@ -1,7 +1,12 @@
 {{&gt; organisms-header }}
-&lt;main class=&quot;t_des-art&quot;&gt;
+&lt;main class=&quot;{{ faculty }}&quot;&gt;
 	&lt;div class=&quot;l-container&quot;&gt;
-		{{&gt; atoms-heading-1 (headline.short:&quot;Faculty of Design and Art&quot;, class:&quot;class='headingTitle headingTitle-center'&quot;) }}
+		{{&gt; atoms-heading-1 (class:&quot;class='headingTitle headingTitle-center'&quot;) }}
+    &lt;div class=&quot;alphabet&quot;&gt;
+      &lt;div class=&quot;alphabet-inner&quot;&gt;
+        A &middot; B &middot; C &middot; D &middot; E &middot; F &middot; G &middot; H &middot; I &middot; J &middot; K &middot; L &middot; M &middot; N &middot; O &middot; P &middot; Q &middot; R &middot; S &middot; T &middot; U &middot; V &middot; W &middot; X &middot; Y &middot; Z
+      &lt;/div&gt;
+    &lt;/div&gt;
 		{{# people }}
 			{{&gt; organisms-section-people }}
 		{{/ people }}

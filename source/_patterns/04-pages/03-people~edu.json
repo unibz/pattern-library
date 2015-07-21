@@ -1,6 +1,6 @@
 {
-  "faculty": "t_des-art",
-  "headline" : { "short": "Faculty of Design and Art" },
+  "faculty": "t_edu",
+  "headline" : { "short": "Faculty of Education" },
   "people": [
     {
       "section-title": { 
@@ -212,6 +212,37 @@
         },
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium" : "Lorem ipsum dolor sit amet" } },
+          "button": "Lorem"
+        }
+      ]
+    },
+    {
+      "section-title": {
+        "headline": { "short": "Teaching Staff" }
+      },
+      "section-people": [
+        {
+          "empty": "true",
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium" : "Lorem ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "empty": "true",
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium" : "Lorem ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "empty": "true",
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium" : "Lorem ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "empty": "true",
           "person-name": { "span": "Lorem Ipsum" },
           "person-meta": { "excerpt": { "medium" : "Lorem ipsum dolor sit amet" } },
           "button": "Lorem"

@@ -1,0 +1,66 @@
+//============================================
+// Navigation alphabet
+//============================================
+
+.alphabet
+  +h2
+  position: relative
+  margin-bottom: $space*2
+  color: $primary
+  overflow: hidden
+  +mq($bp-md)
+    +h1
+    margin-bottom: $space*2
+
+.alphabet:before
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
+  content: " "
+  width: $space*2
+  height: 100%
+  background: linear-gradient(to left, rgba($white, 0) , $white)
+
+.alphabet:after
+  position: absolute
+  z-index: 1
+  top: 0
+  right: 0
+  content: " "
+  width: $space*2
+  height: 100%
+  background: linear-gradient(to right, rgba($white, 0) , $white)
+
+.alphabet-inner
+  position: relative
+  white-space: nowrap
+  padding: 0 $space*2 $space $space*2
+  margin-bottom: -$space
+  overflow-y: hidden
+  overflow-x: scroll
+  -webkit-overflow-scrolling: touch
+
+.t_des-art
+  .alphabet
+    color: $des-art
+
+.t_eco
+  .alphabet
+    color: $eco
+
+.t_edu
+  .alphabet
+    color: $edu
+
+.t_comp-science
+  .alphabet
+    color: $comp-science
+
+.t_science-tech
+  .alphabet
+    color: $science-tech
+
+.t_library
+  .alphabet
+    color: $library
