@@ -54,6 +54,8 @@
 // Button disabled
 //===========================================
 
+.btn.disabled,
+.btn[disabled],
 .btn-disabled
   background-color: $gray
   border-color: $gray
@@ -61,6 +63,12 @@
   cursor: not-allowed
   +light-box-shadow
   +light-text-shadow
+  &:hover
+    color: $gray-dark
+    background-color: $gray
+    border-color: $gray
+  &:active
+    box-shadow: none
 
 
 // Buttons paddings
