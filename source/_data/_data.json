@@ -26,6 +26,10 @@
 		"rectangle": {
 			"src": "http://placeimg.com/400/300/tech",
 			"alt": "Rectangle"
+		},
+		"background": {
+			"src": "https://www.apple.com/v/environment/e/overview/renewable_large.jpg",
+			"alt": "Backgound"
 		}
 	},
 	"headline" : {
@@ -55,10 +59,5 @@
 		"label": "Lorem",
 		"class": "class='form_input'",
 		"placeholder": "Lorem"
-	},
-	"number" : {
-		"one": "1",
-		"two": "28",
-		"three": "246"
 	}
 }

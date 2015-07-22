@@ -1,0 +1,35 @@
+//============================================
+// Hero
+//============================================
+
+.hero
+  position: relative
+  width: 100%
+  min-height: 200px
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  +mq($bp-sm)
+    min-height: 280px
+  +mq($bp-md)
+    min-height: 320px
+  +mq($bp-lg)
+    min-height: 480px
+  +mq($bp-xl)
+    min-height: 600px
+
+.hero-inner
+  position: absolute
+  top: 45%
+  left: 50%
+  width: 100%
+  transform: translate(-50%, -45%)
+  text-align: center
+
+.hero_title
+  +h1
+  color: $white
+  +dark-text-shadow
+
+.hero_title + .btn
+  margin-top: $space

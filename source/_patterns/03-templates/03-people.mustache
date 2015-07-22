@@ -1,9 +1,13 @@
+{{> organisms-header }}
 <main class="{{ faculty }}">
 	<div class="l-container">
-		{{> atoms-heading-1 (class:"class='h-title h-title-center'") }}
-    {{> molecules-nav-alphabet }}
+    <header class="l-header">
+  		{{> atoms-heading-1 (class:"class='h-title h-title-center'") }}
+      {{> molecules-nav-alphabet }}
+    </header>
 		{{# people }}
 			{{> organisms-section-people }}
 		{{/ people }}
 	</div>
 </main>
+{{> organisms-footer }}
