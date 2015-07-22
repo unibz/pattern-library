@@ -1,0 +1,28 @@
+//============================================
+// Banner
+//============================================
+
+.banner
+  min-height: 200px
+  +mq($bp-sm)
+    min-height: 280px
+  +mq($bp-md)
+    min-height: 320px
+  +mq($bp-lg)
+    min-height: 480px
+  +mq($bp-xl)
+    min-height: 600px
+  background-color: $primary
+  text-align: center
+
+.banner_title,
+.banner_subTitle,
+.banner_text
+  color: $white
+  +dark-text-shadow
+
+.banner_title
+  +h1
+
+.banner_subTitle
+  +h2

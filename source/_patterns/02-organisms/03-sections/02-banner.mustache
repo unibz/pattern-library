@@ -1,0 +1,19 @@
+<section class="l-section banner" role="banner" {{# banner-image }}style="background-image:url({{ img.background.src }})"{{/ banner-image }}>
+  <div class="l-container">
+    {{# banner-title }}
+      {{> atoms-heading-1 (class:"class='banner_title'") }}
+    {{/ banner-title }}
+    {{# banner-subtitle }}
+      {{> atoms-heading-2 (class:"class='banner_subTitle'") }}
+    {{/ banner-subtitle }}
+    {{# banner-text }}
+      {{> atoms-text-paragraph (class:"class='banner_text'") }}
+    {{/ banner-text }}
+    {{# banner-image }}
+      {{> atoms-button }}
+    {{/ banner-image }}
+    {{^ banner-test }}
+      {{> atoms-button-alternate }}
+    {{/ banner-test }}
+  </div>
+</section>
