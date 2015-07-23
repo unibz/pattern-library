@@ -16,6 +16,9 @@
   +mq($bp-xl)
     min-height: 600px
   background-color: $primary
+  background-size: conver
+  background-position: 50%
+  background-repeat: no-repeat
   text-align: center
 
 .banner_title,
@@ -30,8 +33,12 @@
 .banner_subTitle
   +h2
 
+.banner_text
+  margin-bottom: 0
+
 .banner_title + .btn,
 .banner_subTitle + .btn,
+.banner_title + .banner_text,
 .banner_subTitle + .banner_text
   margin-top: $space
 

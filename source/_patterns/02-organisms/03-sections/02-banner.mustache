@@ -1,13 +1,21 @@
-<section class="l-section banner" role="banner" {{# empty }}{{/ empty }}{{^ empty }}style="background-image:url({{ img.background.src }})"{{/ empty }}>
+<div class="banner" role="banner" {{# empty }}{{/ empty }}{{^ empty }}style="background-image:url({{ img.background.src }})"{{/ empty }}>
   <div class="l-container">
-    {{> atoms-heading-1 (class:"class='banner_title'") }}
-    {{> atoms-heading-2 (class:"class='banner_subTitle'") }}
-    {{> atoms-text-paragraph (class:"class='banner_text'") }}
-    {{# empty }}
-      {{> atoms-button-alternate }}
-    {{/ empty }}
-    {{^ empty }}
-      {{> atoms-button }}
-    {{/ empty }}
+    {{# banner-heading }}
+      {{> atoms-heading-1 (class:"class='banner_title'") }}
+    {{/ banner-heading }}
+    {{# banner-sub-heading }}
+      {{> atoms-heading-2 (class:"class='banner_subTitle'") }}
+    {{/ banner-sub-heading }}
+    {{# banner-text }}
+      {{> atoms-text-paragraph (class:"class='banner_text'") }}
+    {{/ banner-text }}
+    {{# banner-button }}
+      {{# empty }}
+        {{> atoms-button-alternate }}
+      {{/ empty }}
+      {{^ empty }}
+        {{> atoms-button }}
+      {{/ empty }}
+    {{/ banner-button }}
   </div>
-</section>
+</div>

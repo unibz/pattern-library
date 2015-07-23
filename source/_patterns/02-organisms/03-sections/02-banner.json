@@ -1,3 +1,5 @@
 {
-  "banner-image": "true"
+  "banner-heading": "true",
+  "banner-sub-heading": "true",
+  "banner-text": "true"
 }
