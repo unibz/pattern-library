@@ -1,19 +1,13 @@
-&lt;section class=&quot;l-section banner&quot; role=&quot;banner&quot; {{# banner-image }}style=&quot;background-image:url({{ img.background.src }})&quot;{{/ banner-image }}&gt;
+&lt;section class=&quot;l-section banner&quot; role=&quot;banner&quot; {{# empty }}{{/ empty }}{{^ empty }}style=&quot;background-image:url({{ img.background.src }})&quot;{{/ empty }}&gt;
   &lt;div class=&quot;l-container&quot;&gt;
-    {{# banner-title }}
-      {{&gt; atoms-heading-1 (class:&quot;class='banner_title'&quot;) }}
-    {{/ banner-title }}
-    {{# banner-subtitle }}
-      {{&gt; atoms-heading-2 (class:&quot;class='banner_subTitle'&quot;) }}
-    {{/ banner-subtitle }}
-    {{# banner-text }}
-      {{&gt; atoms-text-paragraph (class:&quot;class='banner_text'&quot;) }}
-    {{/ banner-text }}
-    {{# banner-image }}
-      {{&gt; atoms-button }}
-    {{/ banner-image }}
-    {{^ banner-text }}
+    {{&gt; atoms-heading-1 (class:&quot;class='banner_title'&quot;) }}
+    {{&gt; atoms-heading-2 (class:&quot;class='banner_subTitle'&quot;) }}
+    {{&gt; atoms-text-paragraph (class:&quot;class='banner_text'&quot;) }}
+    {{# empty }}
       {{&gt; atoms-button-alternate }}
-    {{/ banner-text }}
+    {{/ empty }}
+    {{^ empty }}
+      {{&gt; atoms-button }}
+    {{/ empty }}
   &lt;/div&gt;
 &lt;/section&gt;

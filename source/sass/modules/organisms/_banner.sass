@@ -3,6 +3,9 @@
 //============================================
 
 .banner
+  display: flex
+  align-items: center
+  padding: $space*2 0
   min-height: 200px
   +mq($bp-sm)
     min-height: 280px
@@ -26,3 +29,36 @@
 
 .banner_subTitle
   +h2
+
+.banner_title + .btn,
+.banner_subTitle + .btn,
+.banner_subTitle + .banner_text
+  margin-top: $space
+
+
+// Brand colors
+//============================================
+
+.t_des-art
+  .banner
+    background-color: $des-art
+
+.t_eco
+  .banner
+    background-color: $eco
+
+.t_edu
+  .banner
+    background-color: $edu
+
+.t_comp-science
+  .banner
+    background-color: $comp-science
+
+.t_science-tech
+  .banner
+    background-color: $science-tech
+
+.t_library
+  .banner
+    background-color: $library
