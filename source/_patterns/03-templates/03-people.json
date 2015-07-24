@@ -2,9 +2,7 @@
   "faculty": "t_des-art",
   "people": [
     {
-      "section-title": { 
-        "headline" : { "short": "Lorem ipsum dolor sit amet" }
-      },
+      "headline" : { "short": "Lorem ipsum dolor sit amet" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },

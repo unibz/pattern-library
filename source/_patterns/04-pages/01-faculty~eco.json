@@ -1,9 +1,0 @@
-{
-	"faculty": "t_eco",
-	"img": {"background": {"src": "http://unibz.github.io/wireframes/faculty/eco-hero.jpg"}},
-  "hero-title": { "headline": { "short": "Fakultät für Wirtschaftswissenschaften" } },
-  "excerpt": {"medium": "Lokal engagiert und in internationale Wissenschaftsnetzwerke eingebunden wird die Lehre und Forschung der Fakultät in nationalen und internationalen Rankings regelmäßig sehr positiv bewertet. Mit mehr als 900 Studierenden und 45 Lehrenden ist die Fakultät die größte der unibz."},
-  "banner-sub-heading": { "headline": { "short": "Studiengänge" } },
-  "banner-text": { "excerpt": { "medium": "Das Studienangebot umfasst 3 dreisprachige Bachelor- und 2 Masterstudiengänge und ein englischsprachiges Doktoratsstudium." } },
-  "empty": "true"
-}

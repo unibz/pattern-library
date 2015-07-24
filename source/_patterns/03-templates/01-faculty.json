@@ -1,6 +1,47 @@
 {
-  "hero-title": "true",
-  "banner-sub-heading": "true",
-  "banner-text": "true",
-  "empty": "true"
+  "faculty-hero": { 
+    "hero-title": "true"
+  },
+  "faculty-intro": "true",
+  "faculty-section-1": "true",
+  "faculty-banner": { 
+    "empty": "true",
+    "banner-sub-heading": "true",
+    "banner-text": "true"
+  },
+  "faculty-bachelors": "true",
+  "faculty-research": "true",
+  "faculty-people": [
+    {
+      "section-title": { 
+        "headline" : { "short": "Lorem ipsum dolor sit amet" }
+      },
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        }
+      ]
+    }
+  ]
 }

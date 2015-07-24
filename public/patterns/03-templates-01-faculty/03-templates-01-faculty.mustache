@@ -1,10 +1,46 @@
 {{&gt; organisms-header }}
 &lt;main class=&quot;{{ faculty }}&quot;&gt;
-  {{&gt; organisms-hero }}
-  &lt;div class=&quot;l-container&quot;&gt;
-    {{&gt; atoms-text-paragraph }}
+  {{# faculty-hero }}
+    {{&gt; organisms-hero }}
+  {{/ faculty-hero }}
+  &lt;div class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{# faculty-intro }}
+        {{&gt; molecules-intro-text }}
+      {{/ faculty-intro }}
+    &lt;/div&gt;
   &lt;/div&gt;
-  {{&gt; organisms-banner }}
+  &lt;div class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{# faculty-section-1 }}
+        {{&gt; molecules-block-image-headline-excerpt }}
+      {{/ faculty-section-1 }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+  {{# faculty-banner }}
+    {{&gt; organisms-banner }}
+  {{/ faculty-banner }}
   {{&gt; molecules-tabs }}
+  &lt;div class=&quot;l-container&quot;&gt;
+    &lt;div class=&quot;l-section&quot;&gt;
+      {{# faculty-bachelors }}
+        {{&gt; atoms-unordered }}
+      {{/ faculty-bachelors }}
+    &lt;/div&gt;
+
+    &lt;div class=&quot;l-section&quot;&gt;
+      {{# faculty-research }}
+        {{&gt; molecules-media-block }}
+      {{/ faculty-research }}
+    &lt;/div&gt;
+
+    &lt;div class=&quot;l-section&quot;&gt;
+      {{# faculty-people }}
+        {{&gt; atoms-heading-2 (class:&quot;class='h-subtitle h-subtitle-center'&quot;) }}
+        {{&gt; atoms-text-paragraph (class:&quot;class='excerpt excerpt-center'&quot;)}}
+        {{&gt; organisms-people }}
+      {{/ faculty-people }}
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/main&gt;
 {{&gt; organisms-footer }}

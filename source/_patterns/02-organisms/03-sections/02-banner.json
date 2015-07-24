@@ -1,5 +1,6 @@
 {
   "banner-heading": "true",
   "banner-sub-heading": "true",
-  "banner-text": "true"
+  "banner-text": "true",
+  "banner-button": "true"
 }

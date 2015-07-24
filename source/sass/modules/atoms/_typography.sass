@@ -16,14 +16,23 @@
 
 .h-subtitle
   +h4 
-  margin-bottom: $space-half
+  margin-bottom: $space-quarter
   +mq($bp-md)
-    margin-bottom: $space
+    margin-bottom: $space-half
 
 .h-title-center,
 .h-subtitle-center
   text-align: center
 
+
+// Excerpt
+//============================================
+
+.excerpt
+  margin-bottom: $space
+
+.excerpt-center
+  text-align: center
 
 // Byline
 //============================================
@@ -36,3 +45,11 @@
   color: $gray-dark
   +mq($bp-xl)
     font-size: $fs
+
+
+// Intro text
+//============================================
+
+.intro
+  +h4
+  margin-bottom: 0

@@ -1,0 +1,57 @@
+{
+  "faculty": "t_eco",
+  "faculty-hero": { 
+    "hero-title": { "headline": { "short": "Fakultät für Wirtschaftswissenschaften" } },
+    "img": {"background": {"src": "http://unibz.github.io/wireframes/faculty/eco-hero.jpg"}}
+  },
+  "faculty-intro": { "excerpt": {"medium": "Lokal engagiert und in internationale Wissenschaftsnetzwerke eingebunden wird die Lehre und Forschung der Fakultät in nationalen und internationalen Rankings regelmäßig sehr positiv bewertet. Mit mehr als 900 Studierenden und 45 Lehrenden ist die Fakultät die größte der unibz."} },
+  "faculty-section-1": {
+    "headline": "false",
+    "img": { "landscape-4x3": { "src": "http://unibz.github.io/wireframes/faculty/eco-2.jpg" } },
+    "excerpt": { "medium": "Dank eines optimalen Betreuungsverhältnisses bietet die Fakultät exzellente Studienbedingungen mit einer individuellen Betreuung über die gesamte Studienlaufbahn hinweg." }
+  },
+  "faculty-banner": { 
+    "empty": "true",
+    "banner-sub-heading": { "headline": { "short": "Studiengänge" } },
+    "banner-text": { "excerpt": { "medium": "Das Studienangebot umfasst 3 dreisprachige Bachelor- und 2 Masterstudiengänge und ein englischsprachiges Doktoratsstudium." } }
+  },
+  "faculty-bachelors": "true",
+  "faculty-research": {
+    "img": { "landscape-4x3": { "src": "http://unibz.github.io/wireframes/faculty/eco-research.jpg" } },
+    "headline": { "short": "Forschung" },
+    "excerpt": { "medium": "Weitere Informationen zur Forschung an der Fakultät." },
+    "button": "Forschung"
+  },
+  "faculty-people": [
+    {
+      "headline" : { "short": "Personen" },
+      "excerpt" : { "medium": "Die internationale Professorenschaft setzt sich aus Lehrenden aus 7 verschieden Ländern zusammen." },
+      "section-people": [
+        {
+          "img": { "landscape-4x3": { "src": "http://unibz.github.io/wireframes/faculty/eco-person.png" } },
+          "person-name": { "span": "Prof. Courteau Lucie, Ph.D., Dean" },
+          "person-meta": { "excerpt": { "medium": "Tenured Full Professor" } },
+          "button": "Contact"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        },
+        {
+          "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
+          "person-name": { "span": "Lorem Ipsum" },
+          "person-meta": { "excerpt": { "medium": "Lorem Ipsum dolor sit amet" } },
+          "button": "Lorem"
+        }
+      ]
+    }
+  ]
+}

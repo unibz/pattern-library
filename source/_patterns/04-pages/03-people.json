@@ -3,9 +3,7 @@
   "headline": { "short": "People" },
   "people": [
     {
-      "section-title": { 
-        "headline": { "short": "Tenured full professors" }
-      },
+      "headline": { "short": "Tenured full professors" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
@@ -28,9 +26,7 @@
       ]
     },
     {
-      "section-title": {
-        "headline": { "short": "Tenured associate professors" }
-      },
+      "headline": { "short": "Tenured associate professors" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
@@ -75,10 +71,9 @@
           "button": "Contact"
         }
       ]
-    },{
-      "section-title": {
-        "headline": { "short": "Researcher with a fixed-term contract" }
-      },
+    },
+    {
+      "headline": { "short": "Researcher with a fixed-term contract" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
@@ -107,9 +102,7 @@
       ]
     },
     {
-      "section-title": {
-        "headline": { "short": "Teaching Staff" }
-      },
+      "headline": { "short": "Teaching Staff" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
@@ -138,9 +131,7 @@
       ]
     },
     {
-      "section-title": {
-        "headline": { "short": "Research assistant" }
-      },
+      "headline": { "short": "Research assistant" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
@@ -157,9 +148,7 @@
       ]
     },
     {
-      "section-title": {
-        "headline": { "short": "Technical Staff" }
-      },
+      "headline": { "short": "Technical Staff" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
@@ -188,9 +177,7 @@
       ]
     },
     {
-      "section-title": {
-        "headline": { "short": "Administrative Staff" }
-      },
+      "headline": { "short": "Administrative Staff" },
       "section-people": [
         {
           "img": { "landscape-4x3": { "src": "http://placekitten.com/g/800/600" } },
