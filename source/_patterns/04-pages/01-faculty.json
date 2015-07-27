@@ -15,7 +15,20 @@
     "banner-sub-heading": { "headline": { "short": "Studiengänge" } },
     "banner-text": { "excerpt": { "medium": "Das Studienangebot umfasst 3 dreisprachige Bachelor- und 2 Masterstudiengänge und ein englischsprachiges Doktoratsstudium." } }
   },
-  "faculty-bachelors": "true",
+  "faculty-bachelors": [
+    {
+      "headline" : { "short": "Economics and Management" },
+      "button": "View details"
+    },
+    {
+      "headline" : { "short": "Tourism, Sport, Event Management" },
+      "button": "View details"
+    },
+    {
+      "headline" : { "short": "Economics and Social Sciences" },
+      "button": "View details"
+    }
+  ],
   "faculty-research": {
     "img": { "landscape-4x3": { "src": "http://unibz.github.io/wireframes/faculty/eco-research.jpg" } },
     "headline": { "short": "Forschung" },
@@ -53,5 +66,9 @@
         }
       ]
     }
-  ]
+  ],
+  "faculty-partners": {
+    "headline" : { "short": "Partner" },
+    "excerpt" : { "medium": "Regional und international arbeitet die Fakultät mit privaten Unternehmen und öffentlichen Einrichtungen zusammen, wie z.B. der Handelskammer, dem Südtiroler Unternehmerverband und der Europäischen Union." }  
+  }
 }

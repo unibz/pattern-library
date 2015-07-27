@@ -24,7 +24,7 @@
   <div class="l-container">
     <div class="l-section">
       {{# faculty-bachelors }}
-        {{> atoms-unordered }}
+        {{> molecules-block-headline-button }}
       {{/ faculty-bachelors }}
     </div>
 
@@ -40,6 +40,12 @@
         {{> atoms-text-paragraph (class:"class='excerpt excerpt-center'")}}
         {{> organisms-people }}
       {{/ faculty-people }}
+    </div>
+
+    <div class="l-section">
+      {{# faculty-partners }}
+        {{> molecules-block-headline-excerpt }}
+      {{/ faculty-partners }}
     </div>
   </div>
 </main>
