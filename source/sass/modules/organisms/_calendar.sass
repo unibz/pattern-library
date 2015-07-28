@@ -1,0 +1,53 @@
+//============================================
+// Calendar
+//============================================
+
+
+.calendar_weekdays,
+.calendar_row
+  display: flex
+
+.calendar_weekdays
+  margin-bottom: $space-half
+
+.calendar_weekday,
+.calendar_day
+  width: calc(100% / 7)
+
+.calendar_weekday
+  color: $gray-dark
+  text-transform: uppercase
+  font-size: small
+  +mq($bp-sm)
+    font-size: smaller
+    letter-spacing: 1px
+
+.calendar_day
+  margin-bottom: $space-quarter
+  padding: $space-half 0 $space-quarter 0
+  border: 1px solid $gray
+  text-align: center
+  +mq($bp-sm)
+    padding: $space 0 20px 0
+    margin-bottom: $space-half
+    line-height: 1.5
+    letter-spacing: 1px
+  +mq($bp-lg)
+    padding: $space*1.5 0 30px 0
+
+.calendar_day-selected
+  background-color: $primary
+  color: $white
+  border-color: $primary
+
+.calendar_day-prevMonth,
+.calendar_day-nextMonth,
+  background-color: $gray
+  color: $gray-dark
+  border-color: $gray
+
+.calendar_weekday:not(:last-child),
+.calendar_day:not(:last-child)
+  margin-right: $space-quarter
+  +mq($bp-sm)
+    margin-right: $space-half

@@ -1,15 +1,17 @@
 //============================================
-// Navigation Alphabet
+// Scroll Navigation
 //============================================
 
-.navAlphabet
+.scrollNav
   +h2
   position: relative
   overflow: hidden
-  margin: 0
-  color: $primary
+  color: $gray
+  margin-bottom: $space
+  +mq($bp-lg)
+    margin-bottom: $space*1.5
 
-.navAlphabet:before
+.scrollNav:before
   position: absolute
   z-index: 1
   top: 0
@@ -19,7 +21,7 @@
   height: 100%
   background: linear-gradient(to left, rgba($white, 0) , $white)
 
-.navAlphabet:after
+.scrollNav:after
   position: absolute
   z-index: 1
   top: 0
@@ -29,7 +31,7 @@
   height: 100%
   background: linear-gradient(to right, rgba($white, 0) , $white)
 
-.navAlphabet-inner
+.scrollNav-inner
   position: relative
   white-space: nowrap
   padding: 0 $space*2 $space $space*2
@@ -38,29 +40,33 @@
   overflow-x: scroll
   -webkit-overflow-scrolling: touch
 
-.navAlphabet_letter:not(:last-child):after
+.scrollNav_item-active
+  color: $primary
+
+.scrollNav_item:not(:last-child):after
   content: " ·"
+  color: $gray
 
 .t_des-art
-  .navAlphabet
+  .scrollNav_item-active
     color: $des-art
 
 .t_eco
-  .navAlphabet
+  .scrollNav_item-active
     color: $eco
 
 .t_edu
-  .navAlphabet
+  .scrollNav_item-active
     color: $edu
 
 .t_comp-science
-  .navAlphabet
+  .scrollNav_item-active
     color: $comp-science
 
 .t_science-tech
-  .navAlphabet
+  .scrollNav_item-active
     color: $science-tech
 
 .t_library
-  .navAlphabet
+  .scrollNav_item-active
     color: $library
