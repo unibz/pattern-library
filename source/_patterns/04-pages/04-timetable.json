@@ -1,0 +1,83 @@
+{
+  "faculty": "t_comp-science",
+  "headline": { "short": "Timetable" },
+  "scroll-nav-items": [
+    { "nav-item":"January" },
+    { "nav-item":"February" },
+    { "nav-item":"March" },
+    { "nav-item":"April" },
+    { "nav-item":"May" },
+    { "nav-item":"June" },
+    { 
+      "class": "scrollNav_item-active",
+      "nav-item":"July" 
+    },
+    { "nav-item":"August" },
+    { "nav-item":"September" },
+    { "nav-item":"October" },
+    { "nav-item":"November" },
+    { "nav-item":"Dicember" }
+  ],
+  "timetable-slot": [
+    {
+      "time": "8:30",
+      "date" : { "day": "", "month": "", "year": "" },
+      "timetable-element": [
+        {
+          "end-time": "10:30",
+          "headline": { "short": "Distributed Systems" },
+          "button": "Razniewski Simon",
+          "room": "Room E 2.21"
+        },
+        {
+          "end-time": "10:30",
+          "headline": { "short": "Ontology and Database Systems" },
+          "button": "Calvanese Diego",
+          "room": "Room E 4.12"
+        }
+      ]
+    },
+    {
+      "time": "10:30",
+      "date" : { "day": "", "month": "", "year": "" },
+      "timetable-element": [
+        {
+          "end-time": "12:30",
+          "headline": { "short": "Empirical Methods" },
+          "button": "Arioli Gianni",
+          "room": "Room E 2.21"
+        },
+        {
+          "end-time": "12:30",
+          "headline": { "short": "Data and Process Modeling" },
+          "button": "Montali Marco",
+          "room": "Room E 4.12"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "date" : { "day": "", "month": "", "year": "" },
+      "timetable-element": [
+        {
+          "end-time": "16:00",
+          "headline": { "short": "Empirical Software Measurements" },
+          "button": "Bavota Gabriele",
+          "room": "Room E 4.20"
+        },
+        {
+          "end-time": "16:00",
+          "headline": { "short": "German Pt.2 Office" },
+          "button": "Widmann Brigitte",
+          "room": "Room E 3.10"
+        },
+        {
+          "end-time": "16:00",
+          "headline": { "short": "Distributed Systems Ex" },
+          "button": "Razniewski Simon",
+          "room": "Room E 4.31"
+        }
+      ]
+    }
+  ]
+}
