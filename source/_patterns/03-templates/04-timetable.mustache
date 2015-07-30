@@ -10,25 +10,28 @@
       {{> organisms-calendar }}
     </div>
 
-    {{# timetable-slot  }}
-    <div class="timetable_section">
-      <div class="g-row">
-        <div class="g g-sm-12 u-push-btm-half">
-          {{> atoms-text-time (class:"class='timetable_startTime'")}}
-        </div>
-        <div class="g g-sm-12">
-          {{# timetable-element  }}
-            <article class="timetable_item">
-              <p class="timetable_endTime">Until <time>{{ end-time }}</time></p>
-              {{> atoms-heading-3 (class:"class='timetable_title'") }}
-              {{> atoms-button-text }}
-              <p class="timetable_room">{{ room }}</p>
-            </article>
-          {{/ timetable-element  }}
-        </div>
+    {{# timetable-day }}
+      <div class="l-section">
+        {{> atoms-heading-3 (class:"class='timetable_day'") }}
+        {{# timetable-slot }}
+          <div class="g-row u-push-btm">
+            <div class="g g-sm-12 u-push-btm-half">
+              {{> atoms-text-time (class:"class='timetable_startTime'")}}
+            </div>
+            <div class="g g-sm-12">
+              {{# timetable-element  }}
+                <article class="timetable_item">
+                  <p class="timetable_endTime">Until <time>{{ end-time }}</time></p>
+                  {{> atoms-heading-3 (class:"class='timetable_title'") }}
+                  {{> atoms-button-text }}
+                  <p class="timetable_room">{{ room }}</p>
+                </article>
+              {{/ timetable-element  }}
+            </div>
+          </div>
+        {{/ timetable-slot }}
       </div>
-    </div>
-    {{/ timetable-slot }}
+    {{/ timetable-day }}
 
   </div>
 </main>

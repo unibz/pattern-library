@@ -3,12 +3,13 @@
 //============================================
 
 .scrollNav
-  +h2
+  +h3
   position: relative
   overflow: hidden
   color: $gray
   margin-bottom: $space
   +mq($bp-lg)
+    +h2
     margin-bottom: $space*1.5
 
 .scrollNav:before
@@ -46,6 +47,10 @@
 .scrollNav_item:not(:last-child):after
   content: " ·"
   color: $gray
+
+
+// Brand Colors
+//============================================
 
 .t_des-art
   .scrollNav_item-active

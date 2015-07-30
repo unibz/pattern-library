@@ -4,8 +4,12 @@
 
 
 .calendar_weekdays,
-.calendar_row
+.calendar_week
   display: flex
+
+.calendar_week-current
+  .calendar_day
+    border-color: $primary
 
 .calendar_weekdays
   margin-bottom: $space-half
@@ -52,34 +56,54 @@
   +mq($bp-sm)
     margin-right: $space-half
 
+
+// Brand colors
+//============================================
+
 .t_des-art
+  .calendar_week-current
+    .calendar_day
+      border-color: $des-art
   .calendar_day-selected
     background-color: $des-art
     border-color: $des-art
 
 .t_eco
+  .calendar_week-current
+    .calendar_day
+      border-color: $des-art
   .calendar_day-selected
     background-color: $eco
     border-color: $eco
 
 .t_edu
+  .calendar_week-current
+    .calendar_day
+      border-color: $edu
   .calendar_day-selected
     background-color: $edu
     border-color: $edu
-    
+
 .t_comp-science
+  .calendar_week-current
+    .calendar_day
+      border-color: $comp-science
   .calendar_day-selected
     background-color: $comp-science
     border-color: $comp-science
 
-
 .t_science-tech
+  .calendar_week-current
+    .calendar_day
+      border-color: $science-tech
   .calendar_day-selected
     background-color: $science-tech
-    border-color: $comp-science
-
+    border-color: $science-tech
 
 .t_library
+  .calendar_week-current
+    .calendar_day
+      border-color: $library
   .calendar_day-selected
     background-color: $library
-    border-color: $comp-science
+    border-color: $library

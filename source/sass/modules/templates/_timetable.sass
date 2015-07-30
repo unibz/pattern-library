@@ -17,8 +17,6 @@
 
 .timetable_item
   margin-bottom: $space
-  +mq($bp-sm)
-    margin-bottom: $space*2
 
 .timetable_title
   +h4
@@ -27,3 +25,30 @@
 
 .timetable_room
   margin-top: $space-quarter
+
+.timetable_day
+  +h4
+  color: $primary
+
+.t_des-art
+  .timetable_day
+    color: $des-art
+
+.t_eco
+  .timetable_day
+    color: $eco
+.t_edu
+  .timetable_day
+    color: $edu
+
+.t_comp-science
+  .timetable_day
+    color: $comp-science
+
+.t_science-tech
+  .timetable_day
+    color: $science-tech
+
+.t_library
+  .timetable_day
+    color: $library
