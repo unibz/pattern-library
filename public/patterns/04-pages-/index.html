@@ -40,17 +40,44 @@
 	    })();
 		</script>
 	</head>
-	<body><h2 class='h2'>Lorem ipsum dolor sit (37 characters)</h2>
-	<!--DO NOT REMOVE-->
+	<body>		
+		<!-- View All Patterns in a Pattern Sub-Type -->
+		<div class="sg-main" role="main">
+			
+			<!-- Patterns -->
+			<div id="sg-patterns">
+					<div id="pages-person" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/04-pages-05-person/04-pages-05-person.html" class="patternLink" data-patternpartial="pages-person">Person</a></h2>
+						<div class="sg-pattern-body">
+							
+							<div class="sg-code" style="display: none">
+									<div class="sg-code-contains">
+										This pattern contains: 
+											<a href="../../patterns/02-organisms-00-global-_00-header/02-organisms-00-global-_00-header.html"><code>organisms-header</code></a>
+											<a href="../../patterns/02-organisms-00-global-_01-footer/02-organisms-00-global-_01-footer.html"><code>organisms-footer</code></a>
+									</div>
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+			</div> <!--end #sg-patterns-->
+	
+		</div><!--end .sg-main-->
 		
-	<script>
-		// handle injection of items from PHP
-		var patternPartial = "atoms-heading-2";
-		var lineage        = [];
-		var lineageR       = [{"lineagePattern":"molecules-headline-excerpt","lineagePath":"..\/..\/patterns\/01-molecules-00-text-08-headline-excerpt\/01-molecules-00-text-08-headline-excerpt.html"},{"lineagePattern":"molecules-block-publication","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-05-block-publication\/01-molecules-02-blocks-05-block-publication.html"},{"lineagePattern":"molecules-block-publication-empty","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-05-block-publication-empty\/01-molecules-02-blocks-05-block-publication-empty.html"},{"lineagePattern":"organisms-banner","lineagePath":"..\/..\/patterns\/02-organisms-03-sections-02-banner\/02-organisms-03-sections-02-banner.html"},{"lineagePattern":"organisms-banner-empty","lineagePath":"..\/..\/patterns\/02-organisms-03-sections-02-banner-empty\/02-organisms-03-sections-02-banner-empty.html"},{"lineagePattern":"templates-faculty","lineagePath":"..\/..\/patterns\/03-templates-01-faculty\/03-templates-01-faculty.html"},{"lineagePattern":"templates-people","lineagePath":"..\/..\/patterns\/03-templates-03-people\/03-templates-03-people.html"}];
-		var patternState   = "";
-		var cssEnabled     = false;
-	</script>
+		<!-- JS to hook everything together and do annotations -->
+		<script>
+			// handle injection of items from PHP
+			var patternPartial = "viewall-pages-";
+			var lineage = "";
+		</script>
+		
+
+	<!--DO NOT REMOVE-->
 		<script>
 		/*!
 		 * scriptLoader - v0.1
