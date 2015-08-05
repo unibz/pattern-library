@@ -81,15 +81,17 @@
 
 .btn-big
   position: relative
-  padding: 26px $space $space $space
+  padding: 26px $space*2 $space $space
   width: 100%
   font-size: large
-  line-height: 1
+  line-height: 1.4
   text-align: left
+  white-space: normal
   &:after
     position: absolute
     right: $space
-    margin-top: -2px
+    top: 50%
+    transform: translateY(-50%)
     content: "\2192"
 
 
