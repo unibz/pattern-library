@@ -1,0 +1,9 @@
+{
+  "page-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Studiare in tre lingue"} 
+    }
+  },
+  "button-simulation": {"button": "Simulazione del test di lingua"},
+  "button-competence": {"button": "Competenze linguistiche nella terza lingua di insegnamento"}
+}
