@@ -1,0 +1,62 @@
+//============================================
+// Typography
+//============================================
+
+
+// Container
+//============================================
+
+.typography
+  margin: 0 auto
+  max-width: 574px
+  +mq($bp-sm)
+    font-size: 17px
+  +mq($bp-md)
+    font-size: 18px
+  +mq($bp-lg)
+    max-width: 688px
+    font-size: 19px
+
+
+// Headings
+//============================================
+
+.typography
+  h1
+    +h2
+    margin-top: $space*2
+    +mq($bp-md)
+      margin-top: $space*2.5
+    +mq($bp-lg)
+      margin-top: $space*3
+    +mq($bp-xl)
+      margin-top: $space*4
+  h2
+    +h3
+    margin-top: $space*2
+    +mq($bp-md)
+      margin-top: $space*2.5
+    +mq($bp-lg)
+      margin-top: $space*3
+    +mq($bp-xl)
+      margin-top: $space*4
+  h3
+    +h4
+    margin-top: $space*1.5
+  h4
+    +h5
+  h5
+    +h6
+  h6
+    +h6
+
+
+// Type styles
+//============================================
+
+.typography
+  p:first-of-type::first-letter
+    +h1
+    float: left
+    margin: 0 $space 0 0
+    color: $primary
