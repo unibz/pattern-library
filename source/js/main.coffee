@@ -5,4 +5,7 @@ $ = require 'jquery'
 # console.log 'main.js loaded!'
 # plugin()
 
-$ ->
+$('.nav_item').click ->
+  $('nav_item').addClass 'is-active'
+  $('.nav').addClass 'is-open'
+  return
