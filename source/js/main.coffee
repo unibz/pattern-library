@@ -4,8 +4,14 @@ $ = require 'jquery'
 
 # console.log 'main.js loaded!'
 # plugin()
+$ ->
+  $('.nav_item').on 'click', (e) ->
+    e.preventDefault()
+    $(this).addClass 'is-active'
+    $('.header').addClass 'is-open'
+    $('#nav-secondary').addClass 'is-open'
 
-$('.nav_item').click ->
-  $('nav_item').addClass 'is-active'
-  $('.nav').addClass 'is-open'
-  return
+  $('#nav-secondary .nav_item').on 'click', (e) ->
+    e.preventDefault()
+    $(this).addClass 'is-active'
+    $('#nav-grid').addClass 'is-open'
