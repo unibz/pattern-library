@@ -17,7 +17,8 @@
 		
 
 		<!-- End Pattern Lab -->
-		<link rel="stylesheet" href="../../css/main.css?0" />
+		<link rel="stylesheet" href="../../css/main.css" />
+		<script src="../../js/main.js"></script>
 
 		<!-- Load Roboto Mono from google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet' type='text/css'>
@@ -40,94 +41,116 @@
 	    })();
 		</script>
 	</head>
-	<body><nav class="nav">
-	<ul class="nav_wrap">
-		<li>
-      <a class="nav_item" href="#">University</a>
-    </li>
-		<li>
-      <a class="nav_item" href="#">Faculties</a>
-    </li>
-		<li>
-      <a class="nav_item" href="#">Study Courses</a>
-    </li>
-	</ul>
-</nav>
+	<body><div class="nav is-open">
+  <nav class="navMain">
+  	<ul class="nav_wrap">
+  		<li>
+        <a class="nav_item" href="#">University</a>
+      </li>
+  		<li>
+        <a class="nav_item" href="#">Faculties</a>
+      </li>
+  		<li>
+        <a class="nav_item is-active" href="#">Study Courses</a>
+      </li>
+  	</ul>
+  </nav>
 
-<nav class="nav">
-  <ul class="nav_wrap">
-    <li>
-      <a class="nav_item" href="#">Bachelor</a>
-    </li>
-    <li>
-      <a class="nav_item" href="#">Master</a>
-    </li>
-    <li>
-      <a class="nav_item" href="#">Master (one cycle)</a>
-    </li>
-    <li>
-      <a class="nav_item" href="#">Phd</a>
-    </li>
-    <li>
-      <a class="nav_link" href="#">Further offer</a>
-    </li>
-  </ul>
-</nav>
+  <nav class="navSecondary is-open">
+    <ul class="nav_wrap">
+      <li>
+        <a class="nav_item is-active" href="#">Bachelor</a>
+      </li>
+      <li>
+        <a class="nav_item" href="#">Master</a>
+      </li>
+      <li>
+        <a class="nav_item" href="#">Master (one cycle)</a>
+      </li>
+      <li>
+        <a class="nav_item" href="#">Phd</a>
+      </li>
+      <li>
+        <a class="nav_item nav_link" href="#">Further offer</a>
+      </li>
+    </ul>
+  </nav>
 
-<nav class="navLinks">
-  <ul class="navLinks_wrap">
-    <li class="navLinks_item"><a href="#">Economics and Managment</a></li>
-    <li class="navLinks_item"><a href="#">Computer Science</a></li>
-    <li class="navLinks_item"><a href="#">Science and Technology</a></li>
-    <li class="navLinks_item"><a href="#">Education</a></li>
-    <li class="navLinks_item"><a href="#">Design and Art</a></li>
-  </ul>
-</nav>
+  <nav class="navLinks">
+    <ul class="nav_wrap navLinks_wrap">
+      <li class="navLinks_item"><a href="#">Economics and Managment</a></li>
+      <li class="navLinks_item"><a href="#">Computer Science</a></li>
+      <li class="navLinks_item"><a href="#">Science and Technology</a></li>
+      <li class="navLinks_item"><a href="#">Education</a></li>
+      <li class="navLinks_item"><a href="#">Design and Art</a></li>
+    </ul>
+  </nav>
 
-<nav class="navGrid">
-  <ul class="navGrid_wrap">
-    <li class="navGrid_item">
-      <span>ECON</span>
-      <a href="#">Economics and Management</a>
-    </li>
-    <li class="navGrid_item">
-      <span>ECON</span>
-      <a href="#">Economics and Social Sciences</a>
-    </li>
-    <li class="navGrid_item">
-      <span>ECON</span>
-      <a href="#">Tourism, Sport and Event Management</a>
-    </li>
-    <li class="navGrid_item">
-      <span>COMP</span>
-      <a href="#">Computer Science and Engineering</a>
-    </li>
-    <li class="navGrid_item">
-      <span>TECH</span>
-      <a href="#">Agricultural and Agro-Environmental Sciences</a>
-    </li>
-    <li class="navGrid_item">
-      <span>TECH</span>
-      <a href="#">Industrial and Mechanical Engineering</a>
-    </li>
-    <li class="navGrid_item">
-      <span>EDU</span>
-      <a href="#">Communication Sciences and Culture</a>
-    </li>
-    <li class="navGrid_item">
-      <span>EDU</span>
-      <a href="#">Social Education</a>
-    </li>
-    <li class="navGrid_item">
-      <span>EDU</span>
-      <a href="#">Social Work</a>
-    </li>
-    <li class="navGrid_item">
-      <span>DSN</span>
-      <a href="#">Design and Art</a>
-    </li>
-  </ul>
-</nav>
+  <nav class="navGrid is-open">
+    <ul class="nav_wrap navGrid_wrap">
+      <li class="navGrid_item">
+        <span class="gridItem_label">ECON</span>
+        <div class="gridItem_name">
+          <a href="#">Economics and Management</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">ECON</span>
+        <div class="gridItem_name">
+          <a href="#">Economics and Social Sciences</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">ECON</span>
+        <div class="gridItem_name">
+          <a href="#">Tourism, Sport and Event Management</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">COMP</span>
+        <div class="gridItem_name">
+          <a href="#">Computer Science and Engineering</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">TECH</span>
+        <div class="gridItem_name">
+          <a href="#">Agricultural and Agro-Environmental Sciences</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">TECH</span>
+        <div class="gridItem_name">
+          <a href="#">Industrial and Mechanical Engineering</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">EDU</span>
+        <div class="gridItem_name">
+          <a href="#">Communication Sciences and Culture</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">EDU</span>
+        <div class="gridItem_name">
+          <a href="#">Social Education</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">EDU</span>
+        <div class="gridItem_name">
+          <a href="#">Social Work</a>
+        </div>
+      </li>
+      <li class="navGrid_item">
+        <span class="gridItem_label">DSGN</span>
+        <div class="gridItem_name">
+          <a href="#">Design and Art</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
 	<!--DO NOT REMOVE-->
 		
 	<script>
