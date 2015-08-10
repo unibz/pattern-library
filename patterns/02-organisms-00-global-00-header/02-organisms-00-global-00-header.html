@@ -3,7 +3,7 @@
 	<head>
 		<title>Pattern Lab</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 				<!-- never cache patterns -->
 		<meta http-equiv="cache-control" content="max-age=0" />
@@ -17,7 +17,7 @@
 		
 
 		<!-- End Pattern Lab -->
-		<link rel="stylesheet" href="../../css/main.css?0" />
+		<link rel="stylesheet" href="../../css/main.css" />
 
 		<!-- Load Roboto Mono from google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet' type='text/css'>
@@ -40,37 +40,123 @@
 	    })();
 		</script>
 	</head>
-	<body class="body"><!-- Begin .header -->
-<header class="header cf" role="banner">
-	<a href="#"><img src="../../images/logo.png" class="logo" alt="Logo Alt Text" /></a>	<a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
-	<a href="#nav" class="nav-toggle nav-toggle-menu icon-menu"><span class="is-vishidden">Menu</span></a>
-	<nav id="nav" class="nav">
-		<ul class="nav-list">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav><!--end .nav-->
-	<form action="#" method="post" class="inline-form search-form">           
-	    <fieldset>
-		    <legend class="is-vishidden">Search</legend>
-		    <label for="search-field" class="is-vishidden">Search</label>
-		    <input type="search" placeholder="Search" id="search-field" class="search-field" />
-		    <button class="search-submit">
-		    	<span class="icon-search" aria-hidden="true"></span>
-		    	<span class="is-vishidden">Search</span>
-		    </button>
-	    </fieldset>
-	</form></header>
-<!-- End .header -->
+	<body><header class="header">
+  <div class="l-container">
+    <div class="header_inner">
+      <div class="logo"></div>
+      <div class="nav">
+        <nav class="navMain">
+        	<ul class="nav_wrap">
+        		<li>
+              <a class="nav_item" href="#">University</a>
+            </li>
+        		<li>
+              <a class="nav_item" href="#">Faculties</a>
+            </li>
+        		<li>
+              <a class="nav_item" href="#nav-secondary">Study Courses</a>
+            </li>
+        	</ul>
+        </nav>        <nav id="nav-secondary" class="navSecondary ">
+          <ul class="nav_wrap">
+            <li>
+              <a class="nav_item" href="#">Bachelor</a>
+            </li>
+            <li>
+              <a class="nav_item" href="#">Master</a>
+            </li>
+            <li>
+              <a class="nav_item" href="#">Master (one cycle)</a>
+            </li>
+            <li>
+              <a class="nav_item" href="#">Phd</a>
+            </li>
+            <li>
+              <a class="nav_item nav_link" href="#">Further offer</a>
+            </li>
+          </ul>
+        </nav>        <nav class="navLinks ">
+          <ul class="nav_wrap navLinks_wrap">
+            <li class="navLinks_item"><a href="#">Economics and Managment</a></li>
+            <li class="navLinks_item"><a href="#">Computer Science</a></li>
+            <li class="navLinks_item"><a href="#">Science and Technology</a></li>
+            <li class="navLinks_item"><a href="#">Education</a></li>
+            <li class="navLinks_item"><a href="#">Design and Art</a></li>
+          </ul>
+        </nav>        <nav id="nav-grid" class="navGrid ">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="#">Economics and Management</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="#">Economics and Social Sciences</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="#">Tourism, Sport and Event Management</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">Computer Science and Engineering</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Agricultural and Agro-Environmental Sciences</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Industrial and Mechanical Engineering</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Communication Sciences and Culture</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Social Education</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Social Work</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">DSGN</span>
+              <div class="gridItem_name">
+                <a href="#">Design and Art</a>
+              </div>
+            </li>
+          </ul>
+        </nav>      </div>
+    </div>
+  </div>
+</header>
 	<!--DO NOT REMOVE-->
 		
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "organisms-header";
-		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-primary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-_00-primary-nav\/01-molecules-05-navigation-_00-primary-nav.html"},{"lineagePattern":"molecules-search","lineagePath":"..\/..\/patterns\/01-molecules-04-forms-00-search\/01-molecules-04-forms-00-search.html"}];
-		var lineageR       = [{"lineagePattern":"templates-homepage","lineagePath":"..\/..\/patterns\/03-templates-00-homepage\/03-templates-00-homepage.html"},{"lineagePattern":"templates-blog","lineagePath":"..\/..\/patterns\/03-templates-01-blog\/03-templates-01-blog.html"},{"lineagePattern":"templates-article","lineagePath":"..\/..\/patterns\/03-templates-02-article\/03-templates-02-article.html"},{"lineagePattern":"pages-blog","lineagePath":"..\/..\/patterns\/04-pages-01-blog\/04-pages-01-blog.html"}];
+		var lineage        = [{"lineagePattern":"molecules-primary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-primary-nav\/01-molecules-05-navigation-00-primary-nav.html"},{"lineagePattern":"molecules-secondary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-01-secondary-nav\/01-molecules-05-navigation-01-secondary-nav.html"},{"lineagePattern":"molecules-nav-links","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-03-nav-links\/01-molecules-05-navigation-03-nav-links.html"},{"lineagePattern":"molecules-nav-grid","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-04-nav-grid\/01-molecules-05-navigation-04-nav-grid.html"}];
+		var lineageR       = [{"lineagePattern":"templates-faculty","lineagePath":"..\/..\/patterns\/03-templates-01-faculty\/03-templates-01-faculty.html"},{"lineagePattern":"templates-people","lineagePath":"..\/..\/patterns\/03-templates-03-people\/03-templates-03-people.html"},{"lineagePattern":"templates-timetable","lineagePath":"..\/..\/patterns\/03-templates-04-timetable\/03-templates-04-timetable.html"},{"lineagePattern":"templates-person","lineagePath":"..\/..\/patterns\/03-templates-05-person\/03-templates-05-person.html"},{"lineagePattern":"pages-study-3-languages","lineagePath":"..\/..\/patterns\/04-pages-05-study-3-languages\/04-pages-05-study-3-languages.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
 	</script>
@@ -130,5 +216,6 @@
 	
 
 
+  <script src="../../js/main.js"></script>
 	</body>
 </html>
