@@ -3,22 +3,28 @@
 //============================================
 
 .thumbBlock
-  +mq($bp-md)
-    display: flex
+  overflow: hidden
 
 .thumbBlock_figure
   display: block
   margin: 0 0 $space 0
+  +mq($bp-sm)
+    max-width: 60%
   +mq($bp-md)
-    width: 40%
-    margin-right: $space
+    float: left
+    width: 45%
+    margin: 0 $space 0 0
 
 .thumbBlock_thumb
   max-width: 100%
 
 .thumbBlock_body
   +mq($bp-md)
-    width: 60%
+    padding-left: 57px
+  +mq($bp-lg)
+    padding-left: 132px
+  +mq($bp-xl)
+    padding-left: 264px
 
 .thumbBlock_title
   +h4
