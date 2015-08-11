@@ -1,0 +1,21 @@
+{
+  "page-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Studiare all'estero"} 
+    }
+  },
+  "links": [
+    {
+      "link": "Erasmus+, Student Mobility for Studies"
+    },
+    {
+      "link": "Erasmus+, Student Mobility for Traineeship"
+    },
+    {
+      "link": "Programma Accordi Bilaterali"
+    },
+    {
+      "link": "Programma Free Mover Students/Visiting Students"
+    }
+  ]
+}

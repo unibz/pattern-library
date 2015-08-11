@@ -1,0 +1,19 @@
+//============================================
+// Block link
+//============================================
+
+.blockLink
+  display: block
+  margin-bottom: $space-half
+  padding: $space-half
+  min-height: 90px
+  color: $white
+  background-color: $primary
+  +mq($bp-sm)
+    min-height: 120px
+    margin-bottom: $space
+    flex-basis: calc(50% - 12px)
+  +mq($bp-md)
+    flex-basis: calc(33% - 12px)
+  +mq($bp-lg)
+    flex-basis: calc(25% - 12px)
