@@ -1,0 +1,14 @@
+{
+  "faculty": "t_eco",
+  "master-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Laurea magistrale in Imprenditorialità e Innovazione"}
+    }
+  },
+  "master-structure": {
+    "button": "Il piano di studi"
+  },
+  "master-submit": {
+    "button": "Preiscriviti!"
+  }
+}

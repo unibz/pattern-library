@@ -1,0 +1,48 @@
+{{> organisms-header }}
+<main class="{{ faculty }}">
+  {{# master-hero }}
+    {{> organisms-hero }}
+  {{/ master-hero }}
+
+  <div class="l-container">
+    <div class="typography">
+      {{# master-description }}
+        {{> atoms-heading-3 }}
+        {{> atoms-text-paragraph }}
+      {{/ master-description }}
+    </div>
+  </div>
+
+    {{# master-glance }}
+      {{> molecules-block-glance }}
+    {{/ master-glance }}
+
+  <div class="l-container">
+    <div class="typography">
+      {{# master-structure }}
+        {{> atoms-heading-3 }}
+        {{> atoms-text-paragraph }}
+        {{> atoms-button }}
+      {{/ master-structure }}
+
+      {{# master-possibility }}
+        {{> atoms-heading-3 }}
+        {{> atoms-text-paragraph }}
+      {{/ master-possibility }}
+    </div>
+
+    {{# master-student }}
+      {{> molecules-media-block }}
+    {{/ master-student }}
+
+    <div class="typography">
+      {{# master-admission }}
+        {{> atoms-heading-3 }}
+        {{> atoms-text-paragraph }}
+        {{> atoms-button-big }}
+      {{/ master-admission }}
+    </div>
+  </div>
+
+</main>
+{{> organisms-footer }}
