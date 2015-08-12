@@ -1,0 +1,19 @@
+{
+  "faculty": "t_science-tech",
+  "master-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Laurea magistrale in Gestione Sostenibile dell’Ambiente Montano"}
+    },
+    "img": { 
+      "background": {
+        "src": "http://unibz.github.io/wireframes/master/emma-hero.jpg"
+      }
+    }
+  },
+  "master-structure": {
+    "button": "Il piano di studi"
+  },
+  "master-submit": {
+    "button": "Preiscriviti!"
+  }
+}
