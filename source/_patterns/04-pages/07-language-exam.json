@@ -1,4 +1,10 @@
 {
+  "page-hero": {
+    "img": "",
+    "banner-heading": {
+      "headline" : {"short": "Computerbasierte Sprachprüfung"}
+    }
+  },
   "button-exam": {
     "button": "Zur Sprachprüfung anmelden"
   },
