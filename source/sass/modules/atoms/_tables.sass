@@ -3,7 +3,9 @@
 //============================================
 
 table
-  font-size: smaller
+  font-size: 14px
+  +mq($bp-md)
+    font-size: $fs
 
 table
   width: $layout-width-sm
@@ -27,6 +29,7 @@ tr:nth-child(2n)
 tr > a,
 td > a
   +link
+  font-size: 14px
 
 .table_container
   +mq($bp-sm-down)
