@@ -1,1 +1,116 @@
-{{&gt; templates-faculty }}
+{{&gt; organisms-header }}
+&lt;main class=&quot;{{ faculty }}&quot;&gt;
+  {{# faculty-hero }}
+    {{&gt; organisms-hero }}
+  {{/ faculty-hero }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;p&gt;
+          An der 2007 gegr&uuml;ndeten Fakult&auml;t f&uuml;r Naturwissenschaften und Technik lehren und forschen 22 Professoren und eine st&auml;ndig steigende Anzahl an Forschern in den Bereichen Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. 
+        &lt;/p&gt;
+        &lt;p&gt;
+          Das Prinzip der Nachhaltigkeit und der konsequent angewandte interdisziplin&auml;re Ansatz bildet die Grundlage f&uuml;r die L&ouml;sung komplexer Probleme bei der Erschlie&szlig;ung von Berggebieten, in den Bereichen Energieeffizienz, Nahrungsmittelproduktion und -qualit&auml;t sowie Prozess- und Produktinnovationen f&uuml;r die Industrie.
+        &lt;/p&gt;
+        &lt;p&gt;
+          Die &uuml;ber 300 Studierenden finden an der Fakult&auml;t aufgrund der guten Betreuungrelation und der modernen Ausstattung (Labore, Lehrr&auml;ume, Bibliothek) optimale Studienbedingungen. Austauschm&ouml;glichkeiten und internationale Kooperationen mit Universit&auml;ten weltweit bieten Studierenden, Forschern und Professoren sehr gute Bedingungen f&uuml;r eine wissenschaftliche Karriere auch innerhalb der Universit&auml;t.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;img src=&quot;https://dl.dropboxusercontent.com/u/13990214/www/unibz/climate_large.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h2&gt;Studieng&auml;nge&lt;/h2&gt;
+        &lt;p&gt;
+          Das Studienangebot umfasst derzeit 2 Bachelor-, 3 Master- und 2 englischsprachige Doktoratsprogramme in zwei Hauptbereichen: Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. Die Masterprogramme werden als Double-Degrees in Zusammenarbeit mit den Universit&auml;ten Innsbruck, Trient und Bologna angeboten.
+        &lt;/p&gt;
+
+        &lt;h3&gt;Bachelors&lt;/h3&gt;
+        {{# faculty-bachelor }}
+          {{&gt; organisms-block-links }}
+        {{/ faculty-bachelor }}
+
+        &lt;h3&gt;Masters&lt;/h3&gt;
+        {{# faculty-master }}
+          {{&gt; organisms-block-links }}
+        {{/ faculty-master }}
+
+        &lt;h3&gt;PhDs&lt;/h3&gt;
+        {{# faculty-phd }}
+          {{&gt; organisms-block-links }}
+        {{/ faculty-phd }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          &lt;h2&gt;Forshung&lt;/h2&gt;
+          &lt;p&gt;
+            Die Forschungsschwerpunkte der Fakult&auml;t liegen in den Bereichen Energieeffizienz, Alpine Technologien, Innovation im Industriesektor sowie Lebensmittelproduktion und -technologie. Derzeit arbeiten die Forscher an 77 Projekten mit einem Gesamtvolumen von 3,2 Mio. Euro (62% davon Drittmittel). Im Sp&auml;tsommer 2015 sind zwei neue Forschungslabore f&uuml;r den Bereich Lebensmitteltechnologie und Energieproduktion eingerichtet und zwei weitere - f&uuml;r Alpine Technologie und Klimahaus - mit State-of-the-Art Technologie ausgestattet worden. Die Fakult&auml;t verf&uuml;gt insgesamt &uuml;ber 16 Labore, in denen ein junges Forscherteam in insbesondere f&uuml;r die S&uuml;dtiroler Wirtschaft strategischen Sektoren t&auml;tig ist.
+          &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{# faculty-person }}
+        {{&gt; molecules-media-block }}
+      {{/ faculty-person }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h2&gt;Partner&lt;/h2&gt;
+        &lt;img src=&quot;https://dl.dropboxusercontent.com/u/13990214/www/unibz/finite_large.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;p&gt;
+          Laimburg, Technopark, aziende
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h2&gt;Latest news&lt;/h2&gt;
+      &lt;/div&gt;
+        {{# faculty-news }}
+          {{&gt; molecules-block-post }}
+        {{/ faculty-news }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h2&gt;Upcoming events&lt;/h2&gt;
+      &lt;/div&gt;
+      {{# faculty-event }}
+        {{&gt; molecules-block-event }}
+      {{/ faculty-event }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h2&gt;Academischer Kalender&lt;/h2&gt;
+        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+{{&gt; organisms-footer }}
