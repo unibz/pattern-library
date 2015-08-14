@@ -2,8 +2,8 @@
   "faculty": "t_eco",
   "bachelor-hero": { 
     "hero-title": {
-      "headline" : {"short": "Bachelor in Ökonomie und Sozialwissenschaften"}
-    }
+      "headline" : { "short": "Bachelor in Ökonomie und Sozialwissenschaften" }
+    },
   },
   "bachelor-structure": {
     "button": "Studienplan"
