@@ -52,6 +52,7 @@ $font-mono: "Roboto Mono", Monaco, monospace;
 
 $fs: 16px;
 $lh: ($space / $fs);
+$fs-small: $fs - 2px;
 
 $fs-h1: 30px;
 $fs-h2: 28px;
@@ -62,20 +63,20 @@ $fs-h6: 16px;
 
 $fs-sm-h1: 34px;
 $fs-sm-h2: 30px;
-$fs-sm-h3: 28px;
-$fs-sm-h4: 24px;
+$fs-sm-h3: 26px;
+$fs-sm-h4: 22px;
 $fs-sm-h5: 20px;
 
 $fs-md-h1: 40px;
-$fs-md-h2: 32px;
+$fs-md-h2: 34px;
 $fs-md-h3: 30px;
 $fs-md-h4: 26px;
 $fs-md-h5: 22px;
 
 $fs-xl-h1: 48px;
-$fs-xl-h2: 34px;
+$fs-xl-h2: 36px;
 $fs-xl-h3: 32px;
-$fs-xl-h4: 30px;
+$fs-xl-h4: 28px;
 $fs-xl-h4: 24px;
 
 

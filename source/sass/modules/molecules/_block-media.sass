@@ -9,11 +9,11 @@
 .mediaBlock-reversed
   .mediaBlock_figure
     +mq($bp-lg)
-      float: right
+      float: left
 
 .mediaBlock_figure
   +mq($bp-lg)
-    float: left
+    float: right
     width: 50%
 
 .mediaBlock_thumb
@@ -26,8 +26,6 @@
   +dark-text-shadow
   +mq($bp-xs)
     padding: $space $space 18px $space
-  +mq($bp-md)
-    padding: $space*2
   +mq($bp-lg)
     position: relative
     float: left
@@ -39,7 +37,7 @@
     padding-right: $space*2
 
 .mediaBlock_title
-  +h4
+  +h2
   +mq($bp-lg)
     padding-top: $space
     margin-bottom: $space
@@ -47,10 +45,13 @@
     padding-top: $space*2
 
 .mediaBlock_btn
+  font-size: $fs-small
   +mq($bp-md)
     bottom: $space*2
   +mq($bp-lg)
     +pos($space, bottom)
+  +mq($bp-xl)
+    bottom: $space*2
   &:after
     +mq($bp-sm)
       margin-top: 0

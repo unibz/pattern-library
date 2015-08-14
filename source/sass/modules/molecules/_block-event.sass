@@ -2,6 +2,9 @@
 // Block Event
 //============================================
 
+.event
+  overflow: hidden
+
 .event_figure
   +mq($bp-sm)
     width: 50%
@@ -21,7 +24,7 @@
     padding-bottom: (3 / 4) * 50%
     width: 50%
     height: 0
-  +mq($bp-md)
+  +mq($bp-xl)
     padding-left: $space*2
     padding-right: $space*2
 
@@ -32,7 +35,7 @@
   +h4
   +mq($bp-sm)
     padding-top: $space
-  +mq($bp-md)
+  +mq($bp-xl)
     padding-top: $space*2
 
 .event_details
@@ -41,7 +44,7 @@
     margin: $space
     left: 0
     bottom: 0
-  +mq($bp-md)
+  +mq($bp-xl)
     margin: $space*2
 
 .event_meta,
@@ -49,13 +52,14 @@
   display: block
 
 .event_btn
+  font-size: $fs-small
   margin-top: $space
   +mq($bp-sm)
     position: absolute
     margin: $space
     right: 0
     bottom: 0
-  +mq($bp-md)
+  +mq($bp-xl)
     margin: $space*2
 
 .event_thumb-empty
