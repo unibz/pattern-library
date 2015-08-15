@@ -1,12 +1,10 @@
 <section class="hero" role="banner" style="background-image:url({{ img.background.src }})">
   <div class="hero-inner">
-    <div class="l-container">
-      {{# hero-title }}
-        {{> atoms-heading-1 (class:"class='hero_title'") }}
-      {{/ hero-title }}
-      {{# hero-button }}
-        {{> atoms-button }}
-      {{/ hero-button }}
-    </div>
+    {{# hero-title }}
+      {{> atoms-heading-1 (class:"class='hero_title'") }}
+    {{/ hero-title }}
+    {{# hero-button }}
+      {{> atoms-button }}
+    {{/ hero-button }}
   </div>
 </section>

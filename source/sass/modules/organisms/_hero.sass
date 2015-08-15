@@ -22,27 +22,33 @@
     margin-bottom: $space*4
     height: 680px
 
-.hero::after
-  content: " "
-  position: absolute
-  width: 100%
-  height: 100%
-  background-color: rgba($black, .15)
-
 .hero-inner
   position: absolute
   z-index: 1
-  top: 50%
   left: 50%
+  bottom: 0
+  transform: translateX(-50%)
   width: 100%
-  transform: translate(-50%, -45%)
-  text-align: center
 
 .hero_title
   +h1
+  margin: 0 auto -14px auto
+  max-width: 368px
+  padding: 16px 16px 0 16px
   line-height: 1.2
-  color: $white
-  +dark-text-shadow
+  background-color: $white
+  +mq($bp-sm)
+    padding: $space $space 0 $space
+    box-sizing: content-box
+    max-width: 524px
+  +mq($bp-md)
+    padding: $space*2 $space*2 0 $space*2
+    max-width: 574px
+  +mq($bp-lg)
+    max-width: 688px
+  +mq($bp-xl)
+    max-width: 768px
+    padding: $space*3 $space*3 0 $space*3
 
 .hero_title + .btn
   margin-top: $space

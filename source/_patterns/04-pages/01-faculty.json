@@ -71,5 +71,22 @@
         "excerpt": {"medium": "Im Rahmen des internationalen Masterprogramms „Environmental Management of Mountain Areas (EMMA)“ haben sich die Studierenden auf einer Exkursion in den Nationalpark Cinque Terre (Ligurien) mit aktuellen Fragen der interdisziplinären Landschaftsökologie beschäftigt."}
       }
     ],
-  "faculty-event": "true"
+  "faculty-event": 
+  [
+    {
+      "img": {"landscape-4x3": {"src": ""}},
+      "headline": {"short": "Landschaftsökologie im Nationalpark"},
+      "event-info": {"span": "test"}
+    },
+    {
+      "img": {"landscape-4x3": {"src": "http://placekitten.com/g/800/600" } },
+      "headline": {"short": "Landschaftsökologie im Nationalpark"},
+      "event-info": {"span": "test"}
+    },
+    {
+      "img": {"landscape-4x3": {"src": "http://placekitten.com/g/1600/1200" } },
+      "headline": {"short": "Landschaftsökologie im Nationalpark"},
+      "event-info": {"span": "test"}
+    }
+  ]
 }
