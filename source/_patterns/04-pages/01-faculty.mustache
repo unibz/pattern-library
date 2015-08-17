@@ -9,6 +9,7 @@
         <p>
           An der 2007 gegründeten Fakultät für Naturwissenschaften und Technik lehren und forschen 22 Professoren und eine ständig steigende Anzahl an Forschern in den Bereichen Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. 
         </p>
+        <img class="left" src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/climate_large.jpg" alt="">
         <p>
           Das Prinzip der Nachhaltigkeit und der konsequent angewandte interdisziplinäre Ansatz bildet die Grundlage für die Lösung komplexer Probleme bei der Erschließung von Berggebieten, in den Bereichen Energieeffizienz, Nahrungsmittelproduktion und -qualität sowie Prozess- und Produktinnovationen für die Industrie.
         </p>
@@ -20,19 +21,14 @@
   </section>
 
   <section class="l-section">
-    <div class="l-container">
-      <img src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/climate_large.jpg" alt="">
-    </div>
+    {{# faculty-banner }}
+      {{> organisms-banner }}
+    {{/ faculty-banner }}
   </section>
   
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
-        <h2>Studiengänge</h2>
-        <p>
-          Das Studienangebot umfasst derzeit 2 Bachelor-, 3 Master- und 2 englischsprachige Doktoratsprogramme in zwei Hauptbereichen: Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. Die Masterprogramme werden als Double-Degrees in Zusammenarbeit mit den Universitäten Innsbruck, Trient und Bologna angeboten.
-        </p>
-
         <h3>Bachelors</h3>
         {{# faculty-bachelor }}
           {{> organisms-block-links }}
@@ -54,7 +50,8 @@
   <section class="l-section">
     <div class="l-container">
         <div class="typography">
-          <h2>Forshung</h2>
+          <h2>Forschung</h2>
+          <img class="right" src="http://unibz.github.io/wireframes/faculty/eco-research.jpg" alt="">
           <p>
             Die Forschungsschwerpunkte der Fakultät liegen in den Bereichen Energieeffizienz, Alpine Technologien, Innovation im Industriesektor sowie Lebensmittelproduktion und -technologie. Derzeit arbeiten die Forscher an 77 Projekten mit einem Gesamtvolumen von 3,2 Mio. Euro (62% davon Drittmittel). Im Spätsommer 2015 sind zwei neue Forschungslabore für den Bereich Lebensmitteltechnologie und Energieproduktion eingerichtet und zwei weitere - für Alpine Technologie und Klimahaus - mit State-of-the-Art Technologie ausgestattet worden. Die Fakultät verfügt insgesamt über 16 Labore, in denen ein junges Forscherteam in insbesondere für die Südtiroler Wirtschaft strategischen Sektoren tätig ist.
           </p>

@@ -21,13 +21,6 @@
     font-size: 20px
 
 
-// Texts
-//===========================================
-.typography
-  p:last-child
-    margin-bottom: 0
-
-
 // Lists
 //============================================
 
@@ -46,12 +39,36 @@
   margin-right: $space-half
 
 
-// Headings
+// Images
 //============================================
 
 .typography
   img
     margin-bottom: $space
+
+.typography
+  img.left
+    float: left
+    +mq($bp-sm)
+      margin: 0 $space $space 0
+      width: 50%
+    +mq($bp-md)
+      margin-left: -57px
+    +mq($bp-lg)
+      margin-left: -132px
+      width: 60%
+
+.typography
+  img.right
+    float: right
+    +mq($bp-sm)
+      margin: 0 0 $space $space
+      width: 50%
+    +mq($bp-md)
+      margin-right: -57px
+    +mq($bp-lg)
+      margin-right: -132px
+      width: 60%
 
 // Headings
 //============================================
