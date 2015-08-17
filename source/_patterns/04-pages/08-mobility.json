@@ -2,6 +2,11 @@
   "page-hero": { 
     "hero-title": {
       "headline" : {"short": "Studiare all'estero"} 
+    },
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/mobility-hero.jpg"
+      }
     }
   },
   "class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6",
