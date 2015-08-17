@@ -1,0 +1,79 @@
+{
+  "page-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Piano degli studi"} 
+    }
+  },
+  "page-lectures": [
+    {
+      "lecture": {
+        "credits": "8 CFU",
+        "title": "Economia Politica 1",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "6 CFU",
+        "title": "Matematica per le applicazioni economiche A",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "6 CFU",
+        "title": "Matematica per le applicazioni economiche B",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "6 CFU",
+        "title": "Istituzioni di diritto pubblico",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "6 CFU",
+        "title": "Istituzioni di diritto privato",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "8 CFU",
+        "title": "Introduzione alla ragioneria",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "8 CFU",
+        "title": "Introduzione alla gestione e organizzazione delle imprese",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "5 CFU",
+        "title": "Tecniche di gestione dei dati e dei sistemi informativi",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "4 CFU",
+        "title": "Lingua straniera - linguaggio economico base 1",
+        "professor": "Nome Cognome"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "4 CFU",
+        "title": "Lingua straniera - linguaggio economico base 2",
+        "professor": "Nome Cognome"
+      }
+    }
+  ]
+}

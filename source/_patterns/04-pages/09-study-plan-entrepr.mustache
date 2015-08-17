@@ -1,0 +1,22 @@
+{{> organisms-header }}
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+  <div class="l-container">
+    <div class="typography">
+      <p>
+        Il corso di laurea comprende 180 crediti formativi universitari (CFU). La durata del corso di studio è di 3 anni. La descrizione dei singogli insegnamenti sono disponibili sulla pagina dei corsi. 
+      </p>
+      <h3>1° anno</h3>
+    </div>
+    <div class="g-row">
+      {{# page-lectures }}
+        <div class="g g-md-12 g-lg-8">
+          {{> molecules-block-lecture }}
+        </div>
+      {{/ page-lectures }}
+    </div>
+  </div>
+</main>
+{{> organisms-footer }}

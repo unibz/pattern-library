@@ -3,6 +3,11 @@
   "bachelor-hero": { 
     "hero-title": {
       "headline" : { "short": "Bachelor in Ökonomie und Sozialwissenschaften" }
+    },
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/ppe-hero.jpg"
+      }
     }
   },
   "bachelor-structure": {
