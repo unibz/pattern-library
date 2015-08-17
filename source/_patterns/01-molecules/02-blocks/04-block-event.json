@@ -9,13 +9,13 @@
   ],
   "event-time": [
     {
-      "time": ""
+      "time": "10:00"
     },
     {
       "date" : {
-        "day": "",
-        "month": "",
-        "year": ""
+        "day": "5",
+        "month": "July",
+        "year": "2015"
       }
     }
   ]

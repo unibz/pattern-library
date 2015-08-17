@@ -77,12 +77,8 @@
       "img": {"landscape-4x3": {"src": "http://placekitten.com/g/1600/1200" } },
       "headline": {"short": "Relationship between senescence and quality of fruits and vegetables"},
       "event-info": [
-        {
-          "span": "Campus Unibz"
-        },
-        {
-          "span": "D 1.03"
-        }
+        { "span": "Campus Unibz" },
+        { "span": "D 1.03" }
       ],
       "event-time": [
         {
@@ -91,7 +87,7 @@
         {
           "date" : {
             "day": "24",
-            "month": "Juni",
+            "month": "June",
             "year": "2015"
           }
         }

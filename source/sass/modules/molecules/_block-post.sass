@@ -4,33 +4,34 @@
 
 .post
   overflow: hidden
+  margin-bottom: $space*2
 
 .post_figure
   display: block
   margin-bottom: $space
   +mq($bp-sm)
-    position: relative
     float: left
     margin-right: 4.16667%
     width: 33.33333%
 
 .post_body
   +mq($bp-sm)
-    position: relative
     float: left
     width: 62.5%
 
 .post_thumb
-  max-width: 222px
+  max-width: 200px
+  +mq($bp-sm)
+    max-width: 100%
 
 .post_title
   +h4
-  margin-top: $space-quarter
-  margin-bottom: 0
+  margin: $space-quarter 0 0 0
+  +mq($bp-sm)
+    margin-bottom: $space-quarter
 
 .post_excerpt
-  +mq($bp-sm)
-    margin-bottom: $space-half
+  margin-bottom: 0
 
 .post_thumb-empty
   padding: $space-half

@@ -49,12 +49,6 @@
 		"first": "Lacy",
 		"last": "Way"
 	},
-	"date" : {
-		"day": "10",
-		"month": "February",
-		"year": "2015"
-	},
-	"time" : "9:20",
 	"form" : {
 		"label": "Lorem",
 		"class": "class='form_input'",
