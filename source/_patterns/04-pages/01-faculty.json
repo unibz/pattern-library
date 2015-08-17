@@ -4,7 +4,7 @@
     "hero-title": { "headline": { "short": "Fakultät für Naturwissenschaft und Technik" } }
   },
   "faculty-banner": { 
-    "img": {"background": {"src": "https://drive.google.com/thumbnail?id=0B-R73e2GxPtmMTNxSUVScVl2SFE&authuser=0&v=1439481709009&sz=w1256-h1225" } },
+    "img": {"background": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/faculty-study-courses.jpg" } },
     "banner-sub-heading": { "headline": { "short": "Studiengänge" } },
     "banner-text": { "excerpt": { "medium": "Das Studienangebot umfasst derzeit 2 Bachelor-, 3 Master- und 2 englischsprachige Doktoratsprogramme in zwei Hauptbereichen: Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. Die Masterprogramme werden als Double-Degrees in Zusammenarbeit mit den Universitäten Innsbruck, Trient und Bologna angeboten." } }
   },
