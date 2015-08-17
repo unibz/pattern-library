@@ -3,6 +3,11 @@
   "bachelor-hero": { 
     "hero-title": {
       "headline" : {"short": "Bachelor in Tourismus-, Sport- und Eventmanagement"}
+    },
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/tourism-hero.jpg"
+      }
     }
   },
   "bachelor-structure": {
