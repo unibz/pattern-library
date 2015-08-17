@@ -2,10 +2,19 @@
 // Block Lecture
 //============================================
 
+.blockLectures
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+
 .blockLecture
   margin-bottom: $space
+  flex: 0 0 100%
   +mq($bp-md)
     margin-bottom: $space*2
+    flex: 0 0 46%
+  +mq($bp-lg)
+    flex: 0 0 30%
 
 .blockLecture_title
   +h5
