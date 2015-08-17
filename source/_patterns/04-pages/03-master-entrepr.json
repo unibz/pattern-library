@@ -3,6 +3,11 @@
   "master-hero": { 
     "hero-title": {
       "headline" : {"short": "Laurea magistrale in Imprenditorialità e Innovazione"}
+    },
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/entrep-hero.jpg"
+      }
     }
   },
   "master-structure": {
