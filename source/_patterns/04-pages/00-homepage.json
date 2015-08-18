@@ -9,7 +9,8 @@
   "banner": { 
     "img": {"background": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/faculty-study-courses.jpg" } },
     "banner-sub-heading": { "headline": { "short": "Studieren an der unibz" } },
-    "banner-text": { "excerpt": { "medium": "Wir bieten mehrsprachige Studienprogramme in Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität." } }
+    "banner-text": { "excerpt": { "medium": "Wir bieten mehrsprachige Studienprogramme in Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität." } },
+    "banner-button": {"button": "Mehr info"}
   },
   "faculties": {
     "class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6",
