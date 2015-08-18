@@ -1,0 +1,79 @@
+{
+  "hero": { 
+    "img": { 
+      "background": {
+        "src": "http://unibz.github.io/wireframes/home/glocal2.jpg"
+      }
+    }
+  },
+  "banner": { 
+    "img": {"background": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/faculty-study-courses.jpg" } },
+    "banner-sub-heading": { "headline": { "short": "Studieren an der unibz" } },
+    "banner-text": { "excerpt": { "medium": "Wir bieten mehrsprachige Studienprogramme in Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität." } }
+  },
+  "faculties": {
+    "class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6",
+    "links": [
+      {
+        "link": "Informatik"
+      },
+      {
+        "link": "Wirtschaftswissenschaften"
+      },
+      {
+        "link": "Bildungswissenschaften"
+      },
+      {
+        "link": "Design und Künste"
+      },
+      {
+        "link": "Naturwissenschaften und Technik"
+      }
+    ]
+  },
+  "library": {
+    "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/library.jpg"}},
+    "headline": { "short": "Bibliotek" },
+    "excerpt": {"medium": "Gut eine halbe Million Besucherinnen und Besucher nutzen die mehr als 250.000 Printmedien und über 60.000 E-Books."},
+    "button": "View catalog"
+  },
+  "news":[
+    {
+      "empty": "true",
+      "date": {"day": "22", "month": "Mai", "year": "2015"},
+      "time": "",
+      "headline": {"short": "Premiata a Genova ricercatrice unibz"},
+      "excerpt": {"medium": "Lo scorso venerdì, 24 marzo, Gina Chianese, ricercatrice della Facoltà di Scienze della Formazione, è stata premiata dalla Società Italiana di Pedagogia per il suo lavoro sull’educazione permanente."}
+    },
+    {
+      "empty": "true",
+      "date": {"day": "9", "month": "März", "year": "2015"},
+      "time": "",
+      "headline": {"short": "“Giornate di orientamento” a Bressanone"},
+      "excerpt": {"medium": "Ieri e oggi, le aule della Facoltà di Scienze della Formazione erano gremite. Nel Campus di Bressanone si sono tenute le “Giornate di orientamento”, per tutti gli interessati al corso di laurea quinquennale in Scienze della Formazione Primaria."}
+    },
+    {
+      "empty": "true",
+      "date": {"day": "20", "month": "Januar", "year": "2015"},
+      "time": "",
+      "headline": {"short": "Al via in aprile il ciclo delle lezioni augurali"},
+      "excerpt": {"medium": "Il primo dei nuovi docenti unibz chiamati a tenere una lezione inaugurale sarà il prof. Edwin Keiner che, dal semestre invernale 2014/15, insegna Pedagogia generale e Pedagogia sociale presso la Facoltà di Scienze della Formazione di Bressanone. L’appuntamento – aperto non solo alla comunità universitaria ma a tutta la popolazione – è per il 9 aprile, alle ore 18, nel campus di Bressanone (aula 1.35)."}
+    }
+  ],
+  "academia":[
+    {
+      "date": "",
+      "time": "",
+      "img": {"landscape-4x3": {"src": "http://unibz.github.io/wireframes/home/academia-1.jpg" } },
+      "headline": {"short": "Außenpolitik in Bürgerhand"},
+      "excerpt": {"medium": "Der Europäische Verbund für territoriale Zusammenarbeit (EVTZ) ist für uns Bürger „das“ Rechts- instrument in der EU, um (fast) alles möglich zu machen."}
+    },
+    {
+      "date": "",
+      "time": "",
+      "img": {"landscape-4x3": {"src": "http://unibz.github.io/wireframes/home/academia-2.jpg" } },
+      "headline": {"short": "Storie di frane, lavori domestici e pasticcerie"},
+      "excerpt": {"medium": "Chi fa da sè, può fare i soldi. Ma rischia di essere un successo poco duraturo. Meglio cooperare e garantirsi una sostenibilità prolungata, specialmente in aree delicate come quelle montane. Secondo i ricercatori dell’EURAC, fa bene al territorio e fa bene anche al portafoglio."}
+    }
+  ]
+}

@@ -8,18 +8,23 @@
   +mq($bp-md)
     margin-bottom: $space*2
 
-// .post_figure
-//   display: block
-//   margin-bottom: $space
-//   +mq($bp-sm)
-//     float: left
-//     margin-right: 4.16667%
-//     width: 33.33333%
+.post_figure
+  display: block
+  margin-bottom: $space
+  +mq($bp-sm)
+    float: left
+    margin-right: 4.16667%
+    width: 33.33333%
 
-// .post_body
-//   +mq($bp-sm)
-//     float: left
-//     width: 62.5%
+.post_body
+  +mq($bp-sm)
+    float: left
+    width: 62.5%
+
+.post-noImage
+  .post_body
+    float: none
+    width: 100%
 
 .post_thumb
   max-width: 200px
@@ -28,7 +33,6 @@
 
 .post_title
   +h4
-  margin: $space-quarter 0 0 0
   +mq($bp-sm)
     margin-bottom: $space-quarter
 

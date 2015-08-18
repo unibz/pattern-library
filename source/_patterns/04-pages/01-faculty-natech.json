@@ -45,7 +45,7 @@
     ]
   },
   "faculty-person": {
-    "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/professor.jpg"}},
+    "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg"}},
     "headline": { "short": "Personen" },
     "excerpt": {"medium": "Die Professoren aus dem italienischen und deutschen Sprachraum "},
     "button": "View all faculty people"

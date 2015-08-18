@@ -2,7 +2,6 @@
 // Typography
 //============================================
 
-
 // Container
 //============================================
 
@@ -57,6 +56,9 @@
     +mq($bp-lg)
       margin-left: -132px
       width: 60%
+    +mq($bp-xl)
+      margin-left: -224px
+      width: 60%
 
 .typography
   img.right
@@ -80,7 +82,8 @@
     +mq($bp-md)
       margin-top: $space*2.5
     +mq($bp-lg)
-      margin-top: $space*3
+      m
+      argin-top: $space*3
     +mq($bp-xl)
       margin-top: $space*4
   h2
@@ -104,6 +107,18 @@
     +h6
 
 
+// Intro text
+//============================================
+
+.typography
+  .intro
+    +h4
+    line-height: 1.6
+    margin-bottom: 0
+  .intro > a
+    font-size: inherit
+
+
 // Component specific
 //============================================
 
@@ -118,4 +133,8 @@
 // Block Post/News
 .typography
   .post_title
-    margin: $space-quarter 0 0 0
+    margin: 0
+
+.typography
+  :first-child
+    margin-top: 0
