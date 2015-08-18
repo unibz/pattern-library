@@ -1,0 +1,82 @@
+{{&gt; organisms-header }}
+&lt;main&gt;
+  {{# hero }}
+    {{&gt; organisms-hero }}
+  {{/ hero }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;p class=&quot;intro&quot;&gt;
+          Die Freie Universit&auml;t Bozen befindet sich an der Schnittstelle zwischen dem deutschen und italienischen Kultur- und Wirtschaftsraum. Die Dreisprachigkeit in &lt;a href=&quot;#&quot;&gt;Lehre&lt;/a&gt; und &lt;a href=&quot;#&quot;&gt;Forschung&lt;/a&gt; sowie ein ideales Studienumfeld und eine exzellente Ausstattung zeichnen uns aus.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h3&gt;Fakult&auml;ten&lt;/h3&gt;
+        &lt;p&gt;
+          Occupy small batch bespoke yr brunch, hashtag listicle selfies farm-to-table lomo salvia taxidermy chambray freegan Blue Bottle. Irony McSweeney's Odd Future Brooklyn blog sriracha.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      {{# faculties}}
+        {{&gt; organisms-block-links }}
+      {{/ faculties }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    {{# banner }}
+      {{&gt; organisms-banner }}
+    {{/ banner }}
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          &lt;h2&gt;Forschung&lt;/h2&gt;
+          &lt;img class=&quot;left&quot; src=&quot;https://dl.dropboxusercontent.com/u/13990214/www/unibz/research.jpg&quot; alt=&quot;&quot;&gt;
+          &lt;p&gt;
+            Interdisziplinarit&auml;t und Nachhaltigkeit ebenso wie lokale und internationale Themen bestimmen die Ausrichtung der Forschung an der unibz. Geforscht wird an allen f&uuml;nf Fakult&auml;ten und an drei Kompetenzzentren. Die Forschungsfinanzierung erfolgt &uuml;ber interne Mittel und in j&uuml;ngster Zeit vermehrt &uuml;ber nationale und europ&auml;ische Finanzierungsprogramme und Drittmittel.
+          &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{# library }}
+        {{&gt; molecules-media-block }}
+      {{/ library }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        &lt;h2&gt;Latest news&lt;/h2&gt;
+        {{# news }}
+          {{&gt; molecules-block-post }}
+        {{/ news }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;academia&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          &lt;h2&gt;Academia&lt;/h2&gt;
+        &lt;/div&gt;
+        {{# academia }}
+          {{&gt; molecules-block-post }}
+        {{/ academia }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+&lt;/main&gt;
+{{&gt; organisms-footer }}
