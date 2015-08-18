@@ -55,21 +55,18 @@
       {
         "date": {"day": "22", "month": "Mai", "year": "2015"},
         "time": "",
-        "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-news-1.jpg"}},
         "headline": {"short": "Südtiroler Bauernbundpreis 2015"},
         "excerpt": {"medium": "Studierende des Bachelors Agrarwissenschaften und Umweltmanagement präsentierten gestern einer Jury ihre Gruppenarbeiten zum Thema „Kooperationen in der landwirtschaftlichen Produktion:..."}
       },
       {
         "date": {"day": "9", "month": "März", "year": "2015"},
         "time": "",
-        "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-news-2.jpg"}},
         "headline": {"short": "Expertise per la cooperazione internazionale"},
         "excerpt": {"medium": "Dall’Alto Adige a Capo Verde, per un agronomo, il passo è lungo: ambiente e, di conseguenza, coltivazioni non sono agli antipodi come i due territori, ma poco ci manca. Thomas Bringhenti,..."}
       },
       {
         "date": {"day": "20", "month": "Januar", "year": "2015"},
         "time": "",
-        "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-news-3.jpg"}},
         "headline": {"short": "Landschaftsökologie im Nationalpark"},
         "excerpt": {"medium": "Im Rahmen des internationalen Masterprogramms „Environmental Management of Mountain Areas (EMMA)“ haben sich die Studierenden auf einer Exkursion in den Nationalpark Cinque Terre (Ligurien) mit aktuellen Fragen der interdisziplinären Landschaftsökologie beschäftigt."}
       }
@@ -80,8 +77,8 @@
       "img": {"landscape-4x3": {"src": "http://placekitten.com/g/1600/1200" } },
       "headline": {"short": "Relationship between senescence and quality of fruits and vegetables"},
       "event-info": [
-        { "span": "Campus Unibz" },
-        { "span": "D 1.03" }
+        { "span": "Campus Bolzano" },
+        { "span": "D1.03" }
       ],
       "event-time": [
         {

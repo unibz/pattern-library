@@ -4,20 +4,22 @@
 
 .post
   overflow: hidden
-  margin-bottom: $space*2
+  margin-bottom: $space*1.5
+  +mq($bp-md)
+    margin-bottom: $space*2
 
-.post_figure
-  display: block
-  margin-bottom: $space
-  +mq($bp-sm)
-    float: left
-    margin-right: 4.16667%
-    width: 33.33333%
+// .post_figure
+//   display: block
+//   margin-bottom: $space
+//   +mq($bp-sm)
+//     float: left
+//     margin-right: 4.16667%
+//     width: 33.33333%
 
-.post_body
-  +mq($bp-sm)
-    float: left
-    width: 62.5%
+// .post_body
+//   +mq($bp-sm)
+//     float: left
+//     width: 62.5%
 
 .post_thumb
   max-width: 200px
