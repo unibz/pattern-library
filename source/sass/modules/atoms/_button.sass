@@ -10,13 +10,11 @@
   display: inline-block
   width: auto
   margin-bottom: $space
-  padding: 10px $space $space-quarter $space
+  padding: 10px $space
   font-size: $fs
-  font-weight: normal
   font-family: inherit
   letter-spacing: 1px
   text-transform: uppercase
-  text-shadow: none
   text-align: center
   vertical-align: middle
   white-space: nowrap
@@ -92,7 +90,7 @@
     right: $space
     top: 50%
     transform: translateY(-50%)
-    content: "\2192"
+    content: "→"
 
 
 // Button Text
@@ -104,10 +102,10 @@
   letter-spacing: 1px
   text-transform: uppercase
   &:after
-    content: "\2192"
+    content: "→"
     margin-left: $space-half
     font-size: small
-    vertical-align: middle
+    vertical-align: top
 
 .btn-text-alt
   color: $white
