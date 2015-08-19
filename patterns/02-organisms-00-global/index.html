@@ -34,44 +34,44 @@
 					<div id="organisms-header" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-00-global-00-header/02-organisms-00-global-00-header.html" class="patternLink" data-patternpartial="organisms-header">Header</a></h2>
 						<div class="sg-pattern-body">
-							<header class="header">
+							<header class="js-header header">
   <div class="l-container">
     <div class="header_inner">
       <a href="../../patterns/04-pages-00-homepage/04-pages-00-homepage.html">
         <div class="logo"></div>
       </a>
       <div class="nav">
-        <nav class="navMain">
+        <nav class="js-nav navMain">
         	<ul class="nav_wrap">
         		<li>
-              <a class="nav_item" href="#">Universität</a>
+              <a class="js-nav-item js-nav-item-primary nav_item" href="#" data-toggle-elem="#nav-university">Universität</a>
             </li>
         		<li>
-              <a id="faculties" class="nav_item" href="#nav-links">Fakultäten</a>
+              <a class="js-nav-item js-nav-item-primary nav_item" href="#" data-toggle-elem="#nav-faculties">Fakultäten</a>
             </li>
         		<li>
-              <a id="study-courses" class="nav_item" href="#nav-secondary">Studiengänge</a>
+              <a class="js-nav-item js-nav-item-primary nav_item" href="#" data-toggle-elem="#nav-study-courses">Studiengänge</a>
             </li>
         	</ul>
-        </nav>        <nav id="study-courses-nav" class="navSecondary ">
+        </nav>        <nav id="nav-study-courses" class="js-nav navSecondary ">
           <ul class="nav_wrap">
             <li>
-              <a id="bachelor" class="nav_item" href="#">Bachelor</a>
+              <a id="bachelor" class="js-nav-item js-nav-item-secondary nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Master</a>
+              <a class="js-nav-item nav_item" href="#">Master</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Master (one cycle)</a>
+              <a class="js-nav-item nav_item" href="#">Master (one cycle)</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Phd</a>
+              <a class="js-nav-item nav_item" href="#">Phd</a>
             </li>
             <li>
-              <a class="nav_item nav_link" href="#">Further offer</a>
+              <a class="js-nav-item nav_item nav_link" href="#">Further offer</a>
             </li>
           </ul>
-        </nav>        <nav id="faculties-nav" class="navLinks ">
+        </nav>        <nav id="nav-faculties" class="navLinks ">
           <ul class="nav_wrap navLinks_wrap">
             <li class="navLinks_item"><a href="#">Informatik</a></li>
             <li class="navLinks_item"><a href="#">Wirtschaftswissenschaften</a></li>
@@ -79,7 +79,7 @@
             <li class="navLinks_item"><a href="#">Desing und Künste</a></li>
             <li class="navLinks_item"><a href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a></li>
           </ul>
-        </nav>        <nav id="bachelor-grid" class="navGrid ">
+        </nav>        <nav id="nav-bachelor" class="js-nav navGrid ">
           <ul class="nav_wrap navGrid_wrap">
             <li class="navGrid_item">
               <span class="gridItem_label">ECON</span>
@@ -267,44 +267,44 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;header class=&quot;header&quot;&gt;
+										&lt;header class=&quot;js-header header&quot;&gt;
   &lt;div class=&quot;l-container&quot;&gt;
     &lt;div class=&quot;header_inner&quot;&gt;
       &lt;a href=&quot;../../patterns/04-pages-00-homepage/04-pages-00-homepage.html&quot;&gt;
         &lt;div class=&quot;logo&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
       &lt;div class=&quot;nav&quot;&gt;
-        &lt;nav class=&quot;navMain&quot;&gt;
+        &lt;nav class=&quot;js-nav navMain&quot;&gt;
         	&lt;ul class=&quot;nav_wrap&quot;&gt;
         		&lt;li&gt;
-              &lt;a class=&quot;nav_item&quot; href=&quot;#&quot;&gt;Universit&auml;t&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item js-nav-item-primary nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-university&quot;&gt;Universit&auml;t&lt;/a&gt;
             &lt;/li&gt;
         		&lt;li&gt;
-              &lt;a id=&quot;faculties&quot; class=&quot;nav_item&quot; href=&quot;#nav-links&quot;&gt;Fakult&auml;ten&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item js-nav-item-primary nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-faculties&quot;&gt;Fakult&auml;ten&lt;/a&gt;
             &lt;/li&gt;
         		&lt;li&gt;
-              &lt;a id=&quot;study-courses&quot; class=&quot;nav_item&quot; href=&quot;#nav-secondary&quot;&gt;Studieng&auml;nge&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item js-nav-item-primary nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-study-courses&quot;&gt;Studieng&auml;nge&lt;/a&gt;
             &lt;/li&gt;
         	&lt;/ul&gt;
-        &lt;/nav&gt;        &lt;nav id=&quot;study-courses-nav&quot; class=&quot;navSecondary &quot;&gt;
+        &lt;/nav&gt;        &lt;nav id=&quot;nav-study-courses&quot; class=&quot;js-nav navSecondary &quot;&gt;
           &lt;ul class=&quot;nav_wrap&quot;&gt;
             &lt;li&gt;
-              &lt;a id=&quot;bachelor&quot; class=&quot;nav_item&quot; href=&quot;#&quot;&gt;Bachelor&lt;/a&gt;
+              &lt;a id=&quot;bachelor&quot; class=&quot;js-nav-item js-nav-item-secondary nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-bachelor&quot;&gt;Bachelor&lt;/a&gt;
             &lt;/li&gt;
             &lt;li&gt;
-              &lt;a class=&quot;nav_item&quot; href=&quot;#&quot;&gt;Master&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item nav_item&quot; href=&quot;#&quot;&gt;Master&lt;/a&gt;
             &lt;/li&gt;
             &lt;li&gt;
-              &lt;a class=&quot;nav_item&quot; href=&quot;#&quot;&gt;Master (one cycle)&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item nav_item&quot; href=&quot;#&quot;&gt;Master (one cycle)&lt;/a&gt;
             &lt;/li&gt;
             &lt;li&gt;
-              &lt;a class=&quot;nav_item&quot; href=&quot;#&quot;&gt;Phd&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item nav_item&quot; href=&quot;#&quot;&gt;Phd&lt;/a&gt;
             &lt;/li&gt;
             &lt;li&gt;
-              &lt;a class=&quot;nav_item nav_link&quot; href=&quot;#&quot;&gt;Further offer&lt;/a&gt;
+              &lt;a class=&quot;js-nav-item nav_item nav_link&quot; href=&quot;#&quot;&gt;Further offer&lt;/a&gt;
             &lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;        &lt;nav id=&quot;faculties-nav&quot; class=&quot;navLinks &quot;&gt;
+        &lt;/nav&gt;        &lt;nav id=&quot;nav-faculties&quot; class=&quot;navLinks &quot;&gt;
           &lt;ul class=&quot;nav_wrap navLinks_wrap&quot;&gt;
             &lt;li class=&quot;navLinks_item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Informatik&lt;/a&gt;&lt;/li&gt;
             &lt;li class=&quot;navLinks_item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Wirtschaftswissenschaften&lt;/a&gt;&lt;/li&gt;
@@ -312,7 +312,7 @@
             &lt;li class=&quot;navLinks_item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Desing und K&uuml;nste&lt;/a&gt;&lt;/li&gt;
             &lt;li class=&quot;navLinks_item&quot;&gt;&lt;a href=&quot;../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html&quot;&gt;Naturwissenschaften und Technik&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
-        &lt;/nav&gt;        &lt;nav id=&quot;bachelor-grid&quot; class=&quot;navGrid &quot;&gt;
+        &lt;/nav&gt;        &lt;nav id=&quot;nav-bachelor&quot; class=&quot;js-nav navGrid &quot;&gt;
           &lt;ul class=&quot;nav_wrap navGrid_wrap&quot;&gt;
             &lt;li class=&quot;navGrid_item&quot;&gt;
               &lt;span class=&quot;gridItem_label&quot;&gt;ECON&lt;/span&gt;
