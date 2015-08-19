@@ -5,6 +5,13 @@ $ = require 'jquery'
 # console.log 'main.js loaded!'
 # plugin()
 $ ->
+  $('#faculties').on 'click', (e) ->
+    e.preventDefault()
+    $(this).toggleClass 'is-active'
+    $('.header').toggleClass 'is-open'
+    $('main').toggleClass 'is-under'
+    $('#faculties-nav').toggleClass 'is-open'
+
   $('#study-courses').on 'click', (e) ->
     e.preventDefault()
     $(this).toggleClass 'is-active'
@@ -22,6 +29,7 @@ $ ->
     e.preventDefault()
     $(this).toggleClass 'is-open'
     $('.header').toggleClass 'is-open'
+    $('main').toggleClass 'is-under'
     $('#nav-mobile').toggleClass 'is-open'
 
   $('.navMobile_item').on 'click', (e) ->
