@@ -5,17 +5,19 @@ $ = require 'jquery'
 # console.log 'main.js loaded!'
 # plugin()
 $ ->
-  $('.nav_item').on 'click', (e) ->
+  $('#study-courses').on 'click', (e) ->
     e.preventDefault()
-    $(this).addClass 'is-active'
-    $('.header').addClass 'is-open'
-    $('#nav-secondary').addClass 'is-open'
+    $(this).toggleClass 'is-active'
+    $('.header').toggleClass 'is-open'
+    $('main').toggleClass 'is-under'
+    $('#study-courses-nav').toggleClass 'is-open'
 
-  $('#nav-secondary .nav_item').on 'click', (e) ->
+  $('#bachelor').on 'click', (e) ->
     e.preventDefault()
-    $(this).addClass 'is-active'
-    $('#nav-grid').addClass 'is-open'
+    $(this).toggleClass 'is-active'
+    $('#bachelor-grid').toggleClass 'is-open'
 
+  # Nav mobile
   $('.utility_hamburger').on 'click', (e) ->
     e.preventDefault()
     $(this).toggleClass 'is-open'
