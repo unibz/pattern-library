@@ -17,19 +17,18 @@ $ ->
     $main = $('.js-main')
 
     if $target.hasClass('js-nav-item-primary')
-      $nav.removeClass 'is-open'
 
       if $nav.hasClass('is-active') and not $target.hasClass('is-active')
         $navItems.removeClass 'is-active'
         $target.addClass 'is-active'
       else
-        #$nav.toggleClass 'is-active'
+        $nav.toggleClass 'is-active'
         $target.toggleClass 'is-active'
         $header.toggleClass 'is-open'
         $main.toggleClass 'is-under'
     
-    # if $target.hasClass('js-nav-item-secondary')
-    #   $target.toggleClass 'is-active'
+    if $target.hasClass('js-nav-item-secondary')
+      $target.toggleClass 'is-active'
 
     
     $target.toggleClass 'is-active'
