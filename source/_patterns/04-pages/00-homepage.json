@@ -1,8 +1,9 @@
 {
   "hero": { 
+    "hero-title": { "headline": { "short": "Freie Universität Bozen" } },
     "img": { 
       "background": {
-        "src": "http://unibz.github.io/wireframes/home/glocal2.jpg"
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-hero.jpg"
       }
     }
   },
