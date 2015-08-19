@@ -5,30 +5,60 @@ $ = require 'jquery'
 # console.log 'main.js loaded!'
 # plugin()
 $ ->
-  $('#faculties').on 'click', (e) ->
+  $('.js-nav-item').on 'click', (e) ->
     e.preventDefault()
-    $(this).toggleClass 'is-active'
-    $('.header').toggleClass 'is-open'
-    $('main').toggleClass 'is-under'
-    $('#faculties-nav').toggleClass 'is-open'
+    toggleElem = $(this).data 'toggle-elem'
+    return if not toggleElem
 
-  $('#study-courses').on 'click', (e) ->
-    e.preventDefault()
-    $(this).toggleClass 'is-active'
-    $('.header').toggleClass 'is-open'
-    $('main').toggleClass 'is-under'
-    $('#study-courses-nav').toggleClass 'is-open'
+    $target = $(this)
+    $nav = $('.js-nav')
+    $navItems = $('.js-nav-item')
+    $header = $('.js-header')
+    $main = $('.js-main')
 
-  $('#bachelor').on 'click', (e) ->
-    e.preventDefault()
-    $(this).toggleClass 'is-active'
-    $('#bachelor-grid').toggleClass 'is-open'
+    if $target.hasClass('js-nav-item-primary')
+      $nav.removeClass 'is-open'
+
+      if $nav.hasClass('is-active') and not $target.hasClass('is-active')
+        $navItems.removeClass 'is-active'
+        $target.addClass 'is-active'
+      else
+        #$nav.toggleClass 'is-active'
+        $target.toggleClass 'is-active'
+        $header.toggleClass 'is-open'
+        $main.toggleClass 'is-under'
+    
+    # if $target.hasClass('js-nav-item-secondary')
+    #   $target.toggleClass 'is-active'
+
+    
+    $target.toggleClass 'is-active'
+    $(toggleElem).toggleClass 'is-open'
+
+  # $('#faculties').on 'click', (e) ->
+  #   e.preventDefault()
+  #   $(this).toggleClass 'is-active'
+  #   $('.js-header').toggleClass 'is-open'
+  #   $('main').toggleClass 'is-under'
+  #   $('#faculties-nav').toggleClass 'is-open'
+
+  # $('#study-courses').on 'click', (e) ->
+  #   e.preventDefault()
+  #   $(this).toggleClass 'is-active'
+  #   $('.js-header').toggleClass 'is-open'
+  #   $('main').toggleClass 'is-under'
+  #   $('#study-courses-nav').toggleClass 'is-open'
+
+  # $('#bachelor').on 'click', (e) ->
+  #   e.preventDefault()
+  #   $(this).toggleClass 'is-active'
+  #   $('#bachelor-grid').toggleClass 'is-open'
 
   # Nav mobile
   $('.utility_hamburger').on 'click', (e) ->
     e.preventDefault()
     $(this).toggleClass 'is-open'
-    $('.header').toggleClass 'is-open'
+    $('.js-header').toggleClass 'is-open'
     $('main').toggleClass 'is-under'
     $('#nav-mobile').toggleClass 'is-open'
 

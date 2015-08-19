@@ -25,44 +25,44 @@
 		<script src="//use.typekit.net/myx3lhv.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
-	<body class=><header class="header">
+	<body class=><header class="js-header header">
   <div class="l-container">
     <div class="header_inner">
       <a href="../../patterns/04-pages-00-homepage/04-pages-00-homepage.html">
         <div class="logo"></div>
       </a>
       <div class="nav">
-        <nav class="navMain">
+        <nav class="js-nav navMain">
         	<ul class="nav_wrap">
         		<li>
-              <a class="nav_item" href="#">Universität</a>
+              <a class="js-nav-item js-nav-item-primary nav_item" href="#" data-toggle-elem="#nav-university">Universität</a>
             </li>
         		<li>
-              <a id="faculties" class="nav_item" href="#nav-links">Fakultäten</a>
+              <a class="js-nav-item js-nav-item-primary nav_item" href="#" data-toggle-elem="#nav-faculties">Fakultäten</a>
             </li>
         		<li>
-              <a id="study-courses" class="nav_item" href="#nav-secondary">Studiengänge</a>
+              <a class="js-nav-item js-nav-item-primary nav_item" href="#" data-toggle-elem="#nav-study-courses">Studiengänge</a>
             </li>
         	</ul>
-        </nav>        <nav id="study-courses-nav" class="navSecondary ">
+        </nav>        <nav id="nav-study-courses" class="js-nav navSecondary ">
           <ul class="nav_wrap">
             <li>
-              <a id="bachelor" class="nav_item" href="#">Bachelor</a>
+              <a id="bachelor" class="js-nav-item js-nav-item-secondary nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Master</a>
+              <a class="js-nav-item nav_item" href="#">Master</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Master (one cycle)</a>
+              <a class="js-nav-item nav_item" href="#">Master (one cycle)</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Phd</a>
+              <a class="js-nav-item nav_item" href="#">Phd</a>
             </li>
             <li>
-              <a class="nav_item nav_link" href="#">Further offer</a>
+              <a class="js-nav-item nav_item nav_link" href="#">Further offer</a>
             </li>
           </ul>
-        </nav>        <nav id="faculties-nav" class="navLinks ">
+        </nav>        <nav id="nav-faculties" class="navLinks ">
           <ul class="nav_wrap navLinks_wrap">
             <li class="navLinks_item"><a href="#">Informatik</a></li>
             <li class="navLinks_item"><a href="#">Wirtschaftswissenschaften</a></li>
@@ -70,7 +70,7 @@
             <li class="navLinks_item"><a href="#">Desing und Künste</a></li>
             <li class="navLinks_item"><a href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a></li>
           </ul>
-        </nav>        <nav id="bachelor-grid" class="navGrid ">
+        </nav>        <nav id="nav-bachelor" class="js-nav navGrid ">
           <ul class="nav_wrap navGrid_wrap">
             <li class="navGrid_item">
               <span class="gridItem_label">ECON</span>
@@ -245,7 +245,7 @@
         </li>
     	</ul>
     </nav>  </div>
-</header><main>
+</header><main class="js-main">
     <section class="hero" role="banner" style="background-image:url(https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-hero.jpg)">
       <div class="hero-inner">
       <h1 class='hero_title'>Freie Universität Bozen</h1>      </div>
@@ -324,7 +324,7 @@
           <a class="mediaBlock_figure" href="#">
     <img class='mediaBlock_thumb' src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/library.jpg" alt="" />          </a>
         	<div class="mediaBlock_body">
-		<h2 class='mediaBlock_title'>Bibliotek</h2>		<p >Gut eine halbe Million Besucherinnen und Besucher nutzen die mehr als 250.000 Printmedien und über 60.000 E-Books.</p>    <a href="#" class="btn-text btn-text-alt mediaBlock_btn">View catalog</a>        	</div>
+		<h2 class='mediaBlock_title'>Bibliothek</h2>		<p >Gut eine halbe Million Besucherinnen und Besucher nutzen die mehr als 250.000 Printmedien und über 60.000 E-Books.</p>    <a href="#" class="btn-text btn-text-alt mediaBlock_btn">View catalog</a>        	</div>
         </div>    </div>
   </section>
 
@@ -334,13 +334,13 @@
         <h2>Latest news</h2>
           <div class="post post-noImage">
             <div class="post_body">
-    <time class='byline' datetime="12:32+00:00">22 Mai 2015 </time>    <h4 class='post_title'>Premiata a Genova ricercatrice unibz</h4>    <p class='post_excerpt'>Lo scorso venerdì, 24 marzo, Gina Chianese, ricercatrice della Facoltà di Scienze della Formazione, è stata premiata dalla Società Italiana di Pedagogia per il suo lavoro sull’educazione permanente.</p>            </div>
+    <h4 class='post_title'>Premiata a Genova ricercatrice unibz</h4>    <time class='byline' datetime="12:32+00:00">22 Mai 2015 </time>    <p class='post_excerpt'>Lo scorso venerdì, 24 marzo, Gina Chianese, ricercatrice della Facoltà di Scienze della Formazione, è stata premiata dalla Società Italiana di Pedagogia per il suo lavoro sull’educazione permanente.</p>            </div>
+          </div>          <div class="post ">
+            <div class="post_body">
+    <h4 class='post_title'>Giornate di orientamento a Bressanone</h4>      <img class='post_thumb' src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-news.jpg" alt="" />    <time class='byline' datetime="12:32+00:00">9 März 2015 </time>    <p class='post_excerpt'>Ieri e oggi, le aule della Facoltà di Scienze della Formazione erano gremite. Nel Campus di Bressanone si sono tenute le “Giornate di orientamento”, per tutti gli interessati al corso di laurea quinquennale in Scienze della Formazione Primaria.</p>            </div>
           </div>          <div class="post post-noImage">
             <div class="post_body">
-    <time class='byline' datetime="12:32+00:00">9 März 2015 </time>    <h4 class='post_title'>“Giornate di orientamento” a Bressanone</h4>    <p class='post_excerpt'>Ieri e oggi, le aule della Facoltà di Scienze della Formazione erano gremite. Nel Campus di Bressanone si sono tenute le “Giornate di orientamento”, per tutti gli interessati al corso di laurea quinquennale in Scienze della Formazione Primaria.</p>            </div>
-          </div>          <div class="post post-noImage">
-            <div class="post_body">
-    <time class='byline' datetime="12:32+00:00">20 Januar 2015 </time>    <h4 class='post_title'>Al via in aprile il ciclo delle lezioni augurali</h4>    <p class='post_excerpt'>Il primo dei nuovi docenti unibz chiamati a tenere una lezione inaugurale sarà il prof. Edwin Keiner che, dal semestre invernale 2014/15, insegna Pedagogia generale e Pedagogia sociale presso la Facoltà di Scienze della Formazione di Bressanone. L’appuntamento – aperto non solo alla comunità universitaria ma a tutta la popolazione – è per il 9 aprile, alle ore 18, nel campus di Bressanone (aula 1.35).</p>            </div>
+    <h4 class='post_title'>Al via in aprile il ciclo delle lezioni augurali</h4>    <time class='byline' datetime="12:32+00:00">20 Januar 2015 </time>    <p class='post_excerpt'>Il primo dei nuovi docenti unibz chiamati a tenere una lezione inaugurale sarà il prof. Edwin Keiner che, dal semestre invernale 2014/15, insegna Pedagogia generale e Pedagogia sociale presso la Facoltà di Scienze della Formazione di Bressanone. L’appuntamento – aperto non solo alla comunità universitaria ma a tutta la popolazione – è per il 9 aprile, alle ore 18, nel campus di Bressanone (aula 1.35).</p>            </div>
           </div>        <a class="btn" href="#">All news</a>
       </div>
     </div>
@@ -352,17 +352,7 @@
         <div class="typography">
           <h2>Academia</h2>
         </div>
-          <div class="post ">
-              <a class="post_figure" href="#">
-      <img class='post_thumb' src="http://unibz.github.io/wireframes/home/academia-1.jpg" alt="" />              </a>
-            <div class="post_body">
-    <time class='byline' datetime="12:32+00:00">   </time>    <h4 class='post_title'>Außenpolitik in Bürgerhand</h4>    <p class='post_excerpt'>Der Europäische Verbund für territoriale Zusammenarbeit (EVTZ) ist für uns Bürger „das“ Rechts- instrument in der EU, um (fast) alles möglich zu machen.</p>            </div>
-          </div>          <div class="post ">
-              <a class="post_figure" href="#">
-      <img class='post_thumb' src="http://unibz.github.io/wireframes/home/academia-2.jpg" alt="" />              </a>
-            <div class="post_body">
-    <time class='byline' datetime="12:32+00:00">   </time>    <h4 class='post_title'>Storie di frane, lavori domestici e pasticcerie</h4>    <p class='post_excerpt'>Chi fa da sè, può fare i soldi. Ma rischia di essere un successo poco duraturo. Meglio cooperare e garantirsi una sostenibilità prolungata, specialmente in aree delicate come quelle montane. Secondo i ricercatori dell’EURAC, fa bene al territorio e fa bene anche al portafoglio.</p>            </div>
-          </div>      </div>
+      </div>
     </div>
   </section>
 
