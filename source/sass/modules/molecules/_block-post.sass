@@ -4,13 +4,14 @@
 
 .post
   overflow: hidden
+
+.post:not(:last-child)
   margin-bottom: $space*1
   +mq($bp-md)
     margin-bottom: $space*1.5
 
 .post_figure
   display: block
-  margin-bottom: $space
   +mq($bp-sm)
     float: left
     margin-right: 4.16667%
