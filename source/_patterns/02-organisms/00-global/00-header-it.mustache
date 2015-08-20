@@ -1,0 +1,22 @@
+<header class="js-header header">
+  <div class="l-container">
+    <div class="header_inner">
+      <a class="logo" href="{{ link.pages-homepage }}"></a>
+      <div class="nav">
+        {{> molecules-primary-nav-it }}
+        {{> molecules-secondary-nav-it }}
+        {{> molecules-nav-links-it }}
+        {{> molecules-nav-grid-it }}
+      </div>
+      <div class="utility">
+        <a class="utility_lang" href="#">DE ▾</a>
+        <a class="utility_service" href="{{ url }}">Services</a>
+        <div class="utility_search"></div>
+        <div class="utility_hamburger">
+          <div class="burger"></div>
+        </div>
+      </div>
+    </div>
+    {{> molecules-nav-mobile }}
+  </div>
+</header>

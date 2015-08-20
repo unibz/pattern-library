@@ -1,7 +1,7 @@
 {
   "faculty": "t_science-tech",
   "faculty-hero": { 
-    "hero-title": { "headline": { "short": "Fakultät für Naturwissenschaft und Technik" } }
+    "hero-title": { "headline": { "short": "Fakultät für Naturwissenschaften und Technik" } }
   },
   "faculty-banner": { 
     "img": {"background": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/faculty-study-courses.jpg" } },
