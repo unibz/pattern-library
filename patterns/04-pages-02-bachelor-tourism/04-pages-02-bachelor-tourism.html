@@ -62,22 +62,22 @@
           </ul>
         </nav>        <nav id="nav-faculties" class="js-nav navLinks " data-nav-level="2">
           <ul class="nav_wrap navLinks_wrap">
-            <li class="navLinks_item"><a href="#">Informatik</a></li>
-            <li class="navLinks_item"><a href="#">Wirtschaftswissenschaften</a></li>
-            <li class="navLinks_item"><a href="#">Bildungswissenschaften</a></li>
-            <li class="navLinks_item"><a href="#">Design und Künste</a></li>
-            <li class="navLinks_item"><a href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Informatik</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Wirtschaftswissenschaften</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Bildungswissenschaften</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Design und Künste</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a></li>
           </ul>
         </nav>
 
         <nav id="nav-university" class="js-nav navLinks " data-nav-level="2">
           <ul class="nav_wrap navLinks_wrap">
-            <li class="navLinks_item"><a href="#">Profil</a></li>
-            <li class="navLinks_item"><a href="#">Organisation</a></li>
-            <li class="navLinks_item"><a href="#">Kooperationen</a></li>
-            <li class="navLinks_item"><a href="#">Jobs</a></li>
-            <li class="navLinks_item"><a href="#">Ausschreibungen</a></li>
-            <li class="navLinks_item"><a href="#">Press</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Profil</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Organisation</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Kooperationen</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Jobs</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Ausschreibungen</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="#">Press</a></li>
           </ul>
         </nav>        <nav id="nav-bachelor" class="js-nav navGrid " data-nav-level="3">
           <ul class="nav_wrap navGrid_wrap">
@@ -369,7 +369,7 @@
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
-        <p>
+        <p class="intro-med">
           Die Lehrveranstaltungen finden am Campus der Universität in Bruneck statt. Während des Studiums eignen Sie sich Kenntnisse im internationalen Tourismusmanagement an. Sie lernen, Veranstaltungen zielgerichtet und systematisch zu konzipieren, zielgruppengerecht zu kommunizieren und erfolgreich umzusetzen. Lehrende aus verschiedensten Ländern vermitteln Fachkenntnisse für Tourismusexpertinnen und -experten  und Event- und Sportmanagerinnen und -manager von morgen.
         </p>
         <p>
@@ -410,6 +410,16 @@
         <a href="../../patterns/04-pages-09-study-plan-tourism/04-pages-09-study-plan-tourism.html" class="btn">Studienplan</a>
       </div>
     </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+        <div class="mediaBlock">
+          <a class="mediaBlock_figure" href="#">
+    <img class='mediaBlock_thumb' src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg" alt="" />          </a>
+        	<div class="mediaBlock_body">
+		<h2 class='mediaBlock_title'>Personen</h2>		<p >Studiengangsleiter: Prof. Dr. Oswin Maurer; Studentenvertreter: Isabel Carolin Maria Vescia; weitere Professoren: Prof. Dr. rer. nat. habil. Andreas Heinrich Hamel , Ph.D; Prof. Linda Osti, Ph.D; Dr. Serena Volo; Dr. Mattia Cai</p>    <a href="#" class="btn-text btn-text-alt mediaBlock_btn">View all bachelor people</a>        	</div>
+        </div>    </div>
   </section>
 
   <section class="l-section">
@@ -456,7 +466,7 @@
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "pages-bachelor-tourism";
-		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-hero","lineagePath":"..\/..\/patterns\/02-organisms-02-hero-00-hero\/02-organisms-02-hero-00-hero.html"},{"lineagePattern":"atoms-button-big","lineagePath":"..\/..\/patterns\/00-atoms-06-buttons-02-button-big\/00-atoms-06-buttons-02-button-big.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-_01-footer\/02-organisms-00-global-_01-footer.html"}];
+		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-hero","lineagePath":"..\/..\/patterns\/02-organisms-02-hero-00-hero\/02-organisms-02-hero-00-hero.html"},{"lineagePattern":"molecules-media-block","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-00-media-block\/01-molecules-02-blocks-00-media-block.html"},{"lineagePattern":"atoms-button-big","lineagePath":"..\/..\/patterns\/00-atoms-06-buttons-02-button-big\/00-atoms-06-buttons-02-button-big.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-_01-footer\/02-organisms-00-global-_01-footer.html"}];
 		var lineageR       = [];
 		var patternState   = "";
 		var cssEnabled     = false;
