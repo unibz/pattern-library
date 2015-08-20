@@ -12,9 +12,9 @@
   },
   "master-person": {
     "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg"}},
-    "headline": { "short": "Personen" },
-    "excerpt": {"medium": "Direttore del corso di studio: Prof. Alessandro Narduzzo. Rapressentante degli studenti: Leo Brugger. Altri professori: Prof. Lechner Christian Manfred, Ph.D.; Prof. Durante Fabrizio, Ph.D.; Prof. Murgia Maurizio, Ph.D"},
-    "button": "View all master people"
+    "headline": { "short": "Persone" },
+    "excerpt": {"medium": "Direttore del corso di studio: Prof. Alessandro Narduzzo. Rappresentante degli studenti: Leo Brugger. Altri professori: Prof. Lechner Christian Manfred, Ph.D.; Prof. Durante Fabrizio, Ph.D.; Prof. Murgia Maurizio, Ph.D"},
+    "button": "Vedi tutto il personale"
   },
   "master-structure": {
     "button": "Il piano di studi"

@@ -47,7 +47,7 @@
   "faculty-person": {
     "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg"}},
     "headline": { "short": "Personen" },
-    "excerpt": {"medium": "Die Professoren aus dem italienischen und deutschen Sprachraum "},
+    "excerpt": {"medium": "Dekan: Prof. Stefano Cesco. Prodekan für Studien: Prof. Andrea Gasparella. Prodekan für Forschung: Prof. Fabrizio Mazzetto. Leiter der Fakultätsverwaltung: Dr. Wilhelm Sapelza. Studentenvertreter: Martina Frapporti; Davide Maria Boldrin"},
     "button": "View all faculty people"
   },
   "faculty-news":
