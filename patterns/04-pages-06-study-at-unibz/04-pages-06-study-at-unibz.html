@@ -22,68 +22,64 @@
 		<!-- Load Roboto Mono from google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet' type='text/css'>
 		
-		<!-- Load Utopia Std font with typekit -->
 		<script src="//use.typekit.net/myx3lhv.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
-
-		<!-- Load FF DIN Pro font with myfonts -->
-		<script type="text/javascript">
-	    (function() {
-	        var path = '//easy.myfonts.net/v2/js?sid=161376(font-family=FF+DIN+Pro+Medium)&sid=161377(font-family=FF+DIN+Pro+Light)&sid=161379(font-family=FF+DIN+Pro)&sid=161790(font-family=FF+DIN+Pro+Light+Italic)&key=0osDKRA3h9',
-	            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-	            trial = document.createElement('script');
-	        trial.type = 'text/javascript';
-	        trial.async = true;
-	        trial.src = protocol + path;
-	        var head = document.getElementsByTagName("head")[0];
-	        head.appendChild(trial);
-	    })();
-		</script>
 	</head>
-	<body class=><header class="header">
+	<body class=><header class="js-header header">
   <div class="l-container">
     <div class="header_inner">
-      <div class="logo"></div>
+      <a class="logo" href="../../patterns/04-pages-00-homepage/04-pages-00-homepage.html"></a>
       <div class="nav">
-        <nav class="navMain">
+        <nav class="js-nav navMain" data-nav-level="1">
         	<ul class="nav_wrap">
         		<li>
-              <a class="nav_item" href="#">University</a>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-university">Universität</a>
             </li>
         		<li>
-              <a class="nav_item" href="#nav-links">Faculties</a>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-faculties">Fakultäten</a>
             </li>
         		<li>
-              <a class="nav_item" href="#nav-secondary">Study Courses</a>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-study-courses">Studiengänge</a>
             </li>
         	</ul>
-        </nav>        <nav id="nav-secondary" class="navSecondary ">
+        </nav>        <nav id="nav-study-courses" class="js-nav navSecondary " data-nav-level="2">
           <ul class="nav_wrap">
             <li>
-              <a class="nav_item" href="#">Bachelor</a>
+              <a id="bachelor" class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Master</a>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master">Master</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Master (one cycle)</a>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master-one-cycle">Master (one cycle)</a>
             </li>
             <li>
-              <a class="nav_item" href="#">Phd</a>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-phd">Phd</a>
             </li>
             <li>
-              <a class="nav_item nav_link" href="#">Further offer</a>
+              <a class="js-nav_item nav_item nav_link" href="#">Further offer</a>
             </li>
           </ul>
-        </nav>        <nav class="navLinks ">
+        </nav>        <nav id="nav-faculties" class="js-nav navLinks " data-nav-level="2">
           <ul class="nav_wrap navLinks_wrap">
-            <li class="navLinks_item"><a href="#">Economics and Managment</a></li>
-            <li class="navLinks_item"><a href="#">Computer Science</a></li>
-            <li class="navLinks_item"><a href="#">Science and Technology</a></li>
-            <li class="navLinks_item"><a href="#">Education</a></li>
-            <li class="navLinks_item"><a href="#">Design and Art</a></li>
+            <li class="navLinks_item"><a href="#">Informatik</a></li>
+            <li class="navLinks_item"><a href="#">Wirtschaftswissenschaften</a></li>
+            <li class="navLinks_item"><a href="#">Bildungswissenschaften</a></li>
+            <li class="navLinks_item"><a href="#">Design und Künste</a></li>
+            <li class="navLinks_item"><a href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a></li>
           </ul>
-        </nav>        <nav id="nav-grid" class="navGrid ">
+        </nav>
+
+        <nav id="nav-university" class="js-nav navLinks " data-nav-level="2">
+          <ul class="nav_wrap navLinks_wrap">
+            <li class="navLinks_item"><a href="#">Profil</a></li>
+            <li class="navLinks_item"><a href="#">Organisation</a></li>
+            <li class="navLinks_item"><a href="#">Kooperationen</a></li>
+            <li class="navLinks_item"><a href="#">Jobs</a></li>
+            <li class="navLinks_item"><a href="#">Ausschreibungen</a></li>
+            <li class="navLinks_item"><a href="#">Press</a></li>
+          </ul>
+        </nav>        <nav id="nav-bachelor" class="js-nav navGrid " data-nav-level="3">
           <ul class="nav_wrap navGrid_wrap">
             <li class="navGrid_item">
               <span class="gridItem_label">ECON</span>
@@ -94,13 +90,13 @@
             <li class="navGrid_item">
               <span class="gridItem_label">ECON</span>
               <div class="gridItem_name">
-                <a href="#">Economics and Social Sciences</a>
+                <a href="../../patterns/04-pages-02-bachelor-ppe/04-pages-02-bachelor-ppe.html">Economics and Social Sciences</a>
               </div>
             </li>
             <li class="navGrid_item">
               <span class="gridItem_label">ECON</span>
               <div class="gridItem_name">
-                <a href="#">Tourism, Sport and Event Management</a>
+                <a href="../../patterns/04-pages-02-bachelor-tourism/04-pages-02-bachelor-tourism.html">Tourism, Sport and Event Management</a>
               </div>
             </li>
             <li class="navGrid_item">
@@ -146,9 +142,116 @@
               </div>
             </li>
           </ul>
+        </nav>
+
+        <nav id="nav-master" class="js-nav navGrid " data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="#">Economics and Management of the Public Sector</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="../../patterns/04-pages-03-master-entrepr/04-pages-03-master-entrepr.html">Entrepreneurship and Innovation</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">Computer Science</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">European Master's Program in Computational Logic (EMCL)</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="../../patterns/04-pages-03-master-emma/04-pages-03-master-emma.html">Environmental Management of Mountain Areas</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Energy Engineering</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">International Horticultural Science</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Innovation and Research for Social Work and Social Education</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">DSGN</span>
+              <div class="gridItem_name">
+                <a href="#">Eco-Social Design (Glocal Design)</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <nav id="nav-master-one-cycle" class="js-nav navGrid " data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Primary Education</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <nav id="nav-phd" class="js-nav navGrid " data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">Computer Science</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Mountain Environment and Agriculture</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Sustainable Energy and Technologies</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECO</span>
+              <div class="gridItem_name">
+                <a href="#">Management and Economics on Organizational and Institutional Outliers</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">General Pedagogy, Social Pedagogy and General Education</a>
+              </div>
+            </li>
+            <li class="navGrid_item"></li>
+            <li class="navGrid_item"></li>
+          </ul>
         </nav>      </div>
       <div class="utility">
-        <a class="utility_lang" href="#">EN ▾</a>
+        <a class="utility_lang" href="#">DE ▾</a>
         <a class="utility_service" href="#">Services</a>
         <div class="utility_search"></div>
         <div class="utility_hamburger">
@@ -259,7 +362,10 @@
     	</ul>
     </nav>  </div>
 </header><main>
-  <div class="l-container">
+    <section class="hero" role="banner" style="background-image:url(https://dl.dropboxusercontent.com/u/13990214/www/unibz/study-unibz-hero.jpg)">
+      <div class="hero-inner">
+      <h1 class='hero_title'>Studiere an der unibz</h1>      </div>
+    </section>  <div class="l-container">
 
   </div>
 </main>
