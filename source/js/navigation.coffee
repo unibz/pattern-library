@@ -26,7 +26,8 @@ class Navigation
     @$ui.body.on 'click', _.bind(@closeNav, this)
 
   getLevels: ->
-    _.unique @$ui.nav.map (index, el)-> $(el).data 'nav-level'
+    _.unique @$ui.nav.map (index, el) ->
+      $(el).data 'nav-level'
 
   getMaxLevel: ->
     _.max @getLevels()
@@ -56,14 +57,14 @@ class Navigation
     $navLevel = if level is 1 then @$ui.header else @getNavLevel(level)
     $navLevel.hasClass 'is-open'
 
-  closeNav: (e)->
+  closeNav: (e) ->
     $target = $(e.target)
     isNav = $target.hasClass 'js-nav'
     isNavItem = $target.hasClass 'js-nav_item'
     return if isNav or isNavItem or not @isNavLevelOpen(1)
 
     @toggleNavLevel(1, off)
-    _.each @getLevels(), (level)=>
+    _.each @getLevels(), (level) =>
       @toggleNavItemState(@getCurrentNavItemForLevel(level), off)
 
   toggleNavItem: (e) ->
