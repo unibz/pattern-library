@@ -6,7 +6,7 @@
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
-        <p>
+        <p class="intro-med">
           An der 2007 gegründeten Fakultät für Naturwissenschaften und Technik lehren und forschen 22 Professoren und eine ständig steigende Anzahl an Forschern in den Bereichen Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. 
         </p>
         <img class="left" src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-intro.jpg" alt="">
@@ -33,9 +33,17 @@
         {{/ faculty-bachelor }}
 
         <h3>Masters</h3>
-        {{# faculty-master }}
-          {{> organisms-block-links }}
-        {{/ faculty-master }}
+        <div class="blockLink_wrapper g-row">
+          <div class="g g-sm-12">
+            <a class="blockLink" href="#">Internationale Garten- und Obstbauwissenschaften</a>
+          </div>
+          <div class="g g-sm-12">
+            <a class="blockLink" href="#">Energie-Ingenieurwissenschaften</a>
+          </div>
+          <div class="g g-sm-12">
+            <a class="blockLink" href="{{ link.pages-master-emma }}">Umweltmanagement in Bergregionen EMMA</a>
+          </div>
+        </div>
 
         <h3>PhDs</h3>
         {{# faculty-phd }}

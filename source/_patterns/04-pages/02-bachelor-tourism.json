@@ -10,6 +10,12 @@
       }
     }
   },
+  "bachelor-person": {
+    "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg"}},
+    "headline": { "short": "Personen" },
+    "excerpt": {"medium": "Studiengangsleiter: Prof. Dr. Oswin Maurer; Studentenvertreter: Isabel Carolin Maria Vescia; weitere Professoren: Prof. Dr. rer. nat. habil. Andreas Heinrich Hamel , Ph.D; Prof. Linda Osti, Ph.D; Dr. Serena Volo; Dr. Mattia Cai"},
+    "button": "View all bachelor people"
+  },
   "bachelor-submit": {
     "button": "Jetzt bewerben!"
   }

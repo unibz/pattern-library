@@ -6,7 +6,7 @@
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
       &lt;div class=&quot;typography&quot;&gt;
-        &lt;p&gt;
+        &lt;p class=&quot;intro-med&quot;&gt;
           An der 2007 gegr&uuml;ndeten Fakult&auml;t f&uuml;r Naturwissenschaften und Technik lehren und forschen 22 Professoren und eine st&auml;ndig steigende Anzahl an Forschern in den Bereichen Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. 
         &lt;/p&gt;
         &lt;img class=&quot;left&quot; src=&quot;https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-intro.jpg&quot; alt=&quot;&quot;&gt;
@@ -33,9 +33,17 @@
         {{/ faculty-bachelor }}
 
         &lt;h3&gt;Masters&lt;/h3&gt;
-        {{# faculty-master }}
-          {{&gt; organisms-block-links }}
-        {{/ faculty-master }}
+        &lt;div class=&quot;blockLink_wrapper g-row&quot;&gt;
+          &lt;div class=&quot;g g-sm-12&quot;&gt;
+            &lt;a class=&quot;blockLink&quot; href=&quot;#&quot;&gt;Internationale Garten- und Obstbauwissenschaften&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;g g-sm-12&quot;&gt;
+            &lt;a class=&quot;blockLink&quot; href=&quot;#&quot;&gt;Energie-Ingenieurwissenschaften&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;g g-sm-12&quot;&gt;
+            &lt;a class=&quot;blockLink&quot; href=&quot;{{ link.pages-master-emma }}&quot;&gt;Umweltmanagement in Bergregionen EMMA&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
 
         &lt;h3&gt;PhDs&lt;/h3&gt;
         {{# faculty-phd }}

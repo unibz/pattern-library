@@ -7,7 +7,7 @@
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
-        <p>
+        <p class="intro-med">
           Die Lehrveranstaltungen finden am Campus der Universität in Bruneck statt. Während des Studiums eignen Sie sich Kenntnisse im internationalen Tourismusmanagement an. Sie lernen, Veranstaltungen zielgerichtet und systematisch zu konzipieren, zielgruppengerecht zu kommunizieren und erfolgreich umzusetzen. Lehrende aus verschiedensten Ländern vermitteln Fachkenntnisse für Tourismusexpertinnen und -experten  und Event- und Sportmanagerinnen und -manager von morgen.
         </p>
         <p>
@@ -47,6 +47,14 @@
         </p>
         <a href="{{ link.pages-study-plan-tourism }}" class="btn">Studienplan</a>
       </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      {{# bachelor-person }}
+        {{> molecules-media-block }}
+      {{/ bachelor-person }}
     </div>
   </section>
 
