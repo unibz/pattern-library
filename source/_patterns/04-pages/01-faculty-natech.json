@@ -48,7 +48,7 @@
     "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg"}},
     "headline": { "short": "Personen" },
     "excerpt": {"medium": "Dekan: Prof. Stefano Cesco. Prodekan für Studien: Prof. Andrea Gasparella. Prodekan für Forschung: Prof. Fabrizio Mazzetto. Leiter der Fakultätsverwaltung: Dr. Wilhelm Sapelza. Studentenvertreter: Martina Frapporti; Davide Maria Boldrin"},
-    "button": "View all faculty people"
+    "button": "Weitere Personen"
   },
   "faculty-news":
     [
@@ -80,7 +80,7 @@
       "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-news.jpg" } },
       "headline": {"short": "Relationship between senescence and quality of fruits and vegetables"},
       "event-info": [
-        { "span": "Campus Bolzano" },
+        { "span": "Campus Bozen" },
         { "span": "D1.03" }
       ],
       "event-time": [
@@ -89,8 +89,8 @@
         },
         {
           "date" : {
-            "day": "24",
-            "month": "June",
+            "day": "24.",
+            "month": "Juni",
             "year": "2015"
           }
         }
