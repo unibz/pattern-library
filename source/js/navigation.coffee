@@ -18,7 +18,6 @@ class Navigation
             nav: $('.js-nav')
             navItems: $('.js-nav_item')
             header: $('.js-header')
-            main: $('.js-main')
 
         @$ui.navItems.on 'click', _.bind(@toggleNavItem, @)
 
@@ -34,7 +33,6 @@ class Navigation
     toggleNavLevel: (level, onOff)->
         if level is 1
             @$ui.header.toggleClass 'is-open', onOff
-            @$ui.main.toggleClass 'is-under', onOff
 
         if not onOff
             # close all levels below and disable current active item of each of them
