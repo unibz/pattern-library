@@ -1,0 +1,14 @@
+{
+  "page-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Dreisprachig studieren"} 
+    },
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/study-three-lang-hero.jpg"
+      }
+    }
+  },
+  "button-simulation": {"button": "Simulation der Sprachprüfung"},
+  "button-competence": {"button": "Sprachkompetenzen in der dritten Sprache"}
+}

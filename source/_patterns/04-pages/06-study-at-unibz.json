@@ -1,0 +1,14 @@
+{
+  "page-hero": { 
+    "hero-title": {
+      "headline" : {"short": "Studiere an der unibz"} 
+    },
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/study-unibz-hero.jpg"
+      }
+    }
+  },
+  "button-simulation": {"button": "Simulazione del test di lingua"},
+  "button-competence": {"button": "Competenze linguistiche nella terza lingua di insegnamento"}
+}
