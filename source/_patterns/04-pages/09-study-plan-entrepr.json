@@ -8,195 +8,82 @@
   "lectures-year-one": [
     {
       "lecture": {
-        "credits": "8 CFU",
-        "title": "Economia Politica 1",
-        "professor": "Nome Cognome"
+        "credits": "6 CFU",
+        "title": "Economia dell'Innovazione: Business economics"
       }
     },
     {
       "lecture": {
         "credits": "6 CFU",
-        "title": "Matematica per le applicazioni economiche A",
-        "professor": "Nome Cognome"
+        "title": "Economia dell'Innovazione"
       }
     },
     {
       "lecture": {
         "credits": "6 CFU",
-        "title": "Matematica per le applicazioni economiche B",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Istituzioni di diritto pubblico",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Istituzioni di diritto privato",
-        "professor": "Nome Cognome"
+        "title": "Statistica applicata al business"
       }
     },
     {
       "lecture": {
         "credits": "8 CFU",
-        "title": "Introduzione alla ragioneria",
-        "professor": "Nome Cognome"
+        "title": " Imprenditorialità: I fondamenti"
       }
     },
     {
       "lecture": {
-        "credits": "8 CFU",
-        "title": "Introduzione alla gestione e organizzazione delle imprese",
-        "professor": "Nome Cognome"
+        "credits": "6 CFU",
+        "title": "Imprenditorialità: Progettazione e sviluppo di nuovi prodotti"
       }
     },
     {
       "lecture": {
-        "credits": "5 CFU",
-        "title": "Tecniche di gestione dei dati e dei sistemi informativi",
-        "professor": "Nome Cognome"
+        "credits": "6 CFU",
+        "title": "Strumenti per l'analisi avanzata dei dati"
       }
     },
     {
       "lecture": {
-        "credits": "4 CFU",
-        "title": "Lingua straniera - linguaggio economico base 1",
-        "professor": "Nome Cognome"
+        "credits": "6 CFU",
+        "title": "Lean Entrepreneurship"
       }
     },
     {
       "lecture": {
-        "credits": "4 CFU",
-        "title": "Lingua straniera - linguaggio economico base 2",
-        "professor": "Nome Cognome"
+        "credits": "6 CFU",
+        "title": "Attività caratterizzante*"
+      }
+    },
+    {
+      "lecture": {
+        "credits": "6 CFU",
+        "title": "Attività caratterizzante*"
       }
     }
   ],
   "lectures-year-two": [
     {
       "lecture": {
+        "credits": "9 CFU",
+        "title": "Finanza per la crescita della piccola e media impresa e Venture capital"
+      }
+    },
+    {
+      "lecture": {
         "credits": "8 CFU",
-        "title": "Economia Politica 2",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Statistica",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Diritto Commerciale",
-        "professor": "Nome Cognome"
+        "title": "Diritto industriale e dei contratti bancari e finanziari"
       }
     },
     {
       "lecture": {
         "credits": "7 CFU",
-        "title": "Marketing",
-        "professor": "Nome Cognome"
+        "title": "Laboratorio di imprenditorialità"
       }
     },
     {
       "lecture": {
         "credits": "7 CFU",
-        "title": "Analisi e valutazioni finanziarie",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "3 CFU",
-        "title": "Lingua straniera - linguaggio economico base 1",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "3 CFU",
-        "title": "Lingua straniera - linguaggio economico base 2",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "4 CFU",
-        "title": "Tecniche di comunicazione e leadership",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Tirocinio",
-        "professor": "Nome Cognome"
-      }
-    }
-  ],
-  "lectures-year-three": [
-    {
-      "lecture": {
-        "credits": "7 CFU",
-        "title": "Diritto tributario",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Polica economica",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "6 CFU",
-        "title": "Economia industriale",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "7 CFU",
-        "title": "Strategia d'impresa",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "7 CFU",
-        "title": "Attività caratterizzanti",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "7 CFU",
-        "title": "Attività caratterizzanti",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "7 CFU",
-        "title": "Attività affini/integrate",
-        "professor": "Nome Cognome"
-      }
-    },
-    {
-      "lecture": {
-        "credits": "7 CFU",
-        "title": "Attività caratterizzanti",
-        "professor": "Nome Cognome"
+        "title": "Gestione dell'Innovazione"
       }
     }
   ]
