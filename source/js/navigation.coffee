@@ -5,9 +5,9 @@ _ = require 'lodash'
 #
 # How to use
 #
-# 1. add .js-nav on the different nav sections plus the level 1, 2 or 3 (to have more levels, change the Navigation.maxLevel setting).
-# 2. add .js-nav_item on the clickable animation items
-# 3. add data-toggle-elem with the selector of the item to toggle on the .js-nav_item
+# 1. add the class .js-nav on the nav sections plus the data-nav-level with level 1, 2 or 3  (to have more levels, change the Navigation.maxLevel setting).
+# 2. add the class .js-nav_item on the clickable nav items
+# 3. add the data attribute data-toggle-elem with the selector of the item to toggle on .js-nav_item elements
 class Navigation
 
     maxLevel: 3
