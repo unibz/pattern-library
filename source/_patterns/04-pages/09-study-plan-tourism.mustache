@@ -1,0 +1,44 @@
+{{> organisms-header }}
+<main class="{{ faculty }}">
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+  <div class="l-container">
+    <div class="typography">
+      <p>
+        Il corso di laurea comprende 180 crediti formativi universitari (CFU). La durata del corso di studio è di 3 anni. La descrizione dei singogli insegnamenti sono disponibili sulla pagina dei corsi. 
+      </p>
+      <h3>1° anno</h3>
+    </div>
+    <div class="blockLectures">
+      {{# lectures-year-one }}
+        {{> molecules-block-lecture }}
+      {{/ lectures-year-one }}
+      <div class="blockLecture"></div>
+      <div class="blockLecture"></div>
+      <div class="blockLecture"></div>
+    </div>
+    <div class="typography">
+      <h3>2° anno</h3>
+    </div>
+    <div class="blockLectures">
+      {{# lectures-year-two }}
+        {{> molecules-block-lecture }}
+      {{/ lectures-year-two }}
+      <div class="blockLecture"></div>
+      <div class="blockLecture"></div>
+      <div class="blockLecture"></div>
+    </div>
+    <div class="typography">
+      <p>
+        *Attività caratterizzanti<br>Gli studenti dovranno scegliere due dei seguenti insegnamenti pari a 12 CFU in totale:
+      </p>
+      <ul>
+        <li>Ricerche di mercato, 6 CFU</li>
+        <li>Marketing industriale e gestione vendite, 6 CFU</li>
+        <li>Progetto NPD (Sviluppo nuovi prodotti), 6 CFU</li>
+      </ul>
+    </div>
+  </div>
+</main>
+{{> organisms-footer }}
