@@ -13,8 +13,8 @@
   "master-person": {
     "img": {"landscape-4x3": {"src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg"}},
     "headline": { "short": "Personen" },
-    "excerpt": {"medium": "Die Professoren aus dem italienischen und deutschen Sprachraum "},
-    "button": "View all master people"
+    "excerpt": {"medium": "Direttore del corso di studio: Prof. Stefan Zerbe. Rappresentante degli studenti: Frederick Manck. Altri professori: Prof. Francesco Comiti; Prof. Ulrike Tappeiner"},
+    "button": "Vedi tutto il personale"
   },
   "master-structure": {
     "button": "Il piano di studi"
