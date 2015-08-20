@@ -6,15 +6,16 @@
 //============================================
 
 .header
-  padding: $space-half 0 6px 0
-  background-color: transparent
-  transition: all 500ms $motion
-
-.header.is-open
-  position: absolute
+  position: fixed
   top: 0
   z-index: 3
   width: 100%
+  padding: $space-half 0 6px 0
+  background-color: $white
+  transition: all 500ms $motion
+  box-shadow: 0px 2px 12px -6px rgba(0,0,0,0.75);
+
+.header.is-open
   color: $white
   background-color: $primary
 
