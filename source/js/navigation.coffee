@@ -7,24 +7,29 @@ _ = require 'lodash'
 # How to use
 #
 # 1. add the class .js-nav on nav section elements plus the data-nav-level
-#    with level 1, 2 or 3 (to have more levels, change the
-     Navigation.maxLevel setting)
+#    with level 1, 2 or 3 or higher
 # 2. add the class .js-nav_item on the clickable nav items
 # 3. add the data attribute data-toggle-elem with the selector
 #    of the item to toggle on .js-nav_item elements
 ###
 class Navigation
 
-  maxLevel: 3
-
   # cache dom elements and init event listeners
   init: ->
     @$ui =
+      body: $('body')
       nav: $('.js-nav')
       navItems: $('.js-nav_item')
       header: $('.js-header')
 
     @$ui.navItems.on 'click', _.bind(@toggleNavItem, this)
+    @$ui.body.on 'click', _.bind(@closeNav, this)
+
+  getLevels: ->
+    _.unique @$ui.nav.map (index, el)-> $(el).data 'nav-level'
+
+  getMaxLevel: ->
+    _.max @getLevels()
 
   getNavLevel: (level) ->
     @$ui.nav.filter('[data-nav-level="' + level + '"]')
@@ -41,14 +46,25 @@ class Navigation
 
     if not onOff
       # close all levels below and disable current active item of each of them
-      childrenLevels = _.range @maxLevel, level, -1
+      childrenLevels = _.range @getMaxLevel(), level, -1
 
       _.each childrenLevels, (childrenLevel) =>
         @getNavLevel(childrenLevel).removeClass 'is-open'
         @toggleNavItemState @getCurrentNavItemForLevel(childrenLevel), off
 
   isNavLevelOpen: (level) ->
-    @getNavLevel(level).hasClass 'is-open'
+    $navLevel = if level is 1 then @$ui.header else @getNavLevel(level)
+    $navLevel.hasClass 'is-open'
+
+  closeNav: (e)->
+    $target = $(e.target)
+    isNav = $target.hasClass 'js-nav'
+    isNavItem = $target.hasClass 'js-nav_item'
+    return if isNav or isNavItem or not @isNavLevelOpen(1)
+
+    @toggleNavLevel(1, off)
+    _.each @getLevels(), (level)=>
+      @toggleNavItemState(@getCurrentNavItemForLevel(level), off)
 
   toggleNavItem: (e) ->
     e.preventDefault()
