@@ -1,3 +1,52 @@
 //============================================
 // Footer
 //============================================
+
+.footer
+  color: white
+  background-color: $primary
+  margin-top: $space*3
+  padding: $space*2 0
+  font-size: $fs-small
+  +mq($bp-md)
+    margin-top: $space*4
+    padding: $space*3 0
+  +mq($bp-lg)
+    margin-top: $space*5
+    font-size: $fs
+  +mq($bp-xl)
+    margin-top: $space*6
+
+.footer a
+  border-bottom-color: $white
+
+.footer a:hover
+  border-bottom-color: $white
+  color: $white
+
+// Brand colors
+//============================================
+
+.t_des-art
+  .footer
+    background-color: $des-art
+
+.t_eco
+  .footer
+    background-color: $eco
+
+.t_edu
+  .footer
+    background-color: $edu
+
+.t_comp-science
+  .footer
+    background-color: $comp-science
+
+.t_science-tech
+  .footer
+    background-color: $science-tech
+
+.t_library
+  .footer
+    background-color: $library
