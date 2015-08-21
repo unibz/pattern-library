@@ -1,6 +1,11 @@
 {
   "faculty": "t_science-tech",
-  "faculty-hero": { 
+  "faculty-hero": {
+    "img": { 
+      "background": {
+        "src": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-hero.jpg"
+      }
+    },
     "hero-title": { "headline": { "short": "Fakultät für Naturwissenschaften und Technik" } }
   },
   "faculty-banner": { 
