@@ -1,5 +1,6 @@
 # Browserify entry point for the global.js bundle (yay CoffeeScript!)
 $ = require 'jquery'
+_ = require 'lodash'
 # plugin = require 'plugin'
 navigation = require './navigation'
 
@@ -26,3 +27,6 @@ $ ->
     e.preventDefault()
     $(this).addClass 'is-open'
     $('#nav-mobile-third').addClass 'is-open'
+
+  # Hero image random
+  $('.hero').addClass('hero-home-'+_.random(1,3))
