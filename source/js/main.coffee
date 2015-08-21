@@ -15,7 +15,6 @@ $ ->
     e.preventDefault()
     $(this).toggleClass 'is-open'
     $('.js-header').toggleClass 'is-open'
-    $('main').toggleClass 'is-under'
     $('#nav-mobile').toggleClass 'is-open'
 
   $('.navMobile_item').on 'click', (e) ->
@@ -29,4 +28,4 @@ $ ->
     $('#nav-mobile-third').addClass 'is-open'
 
   # Hero image random
-  $('.hero').addClass('hero-home-'+_.random(1,3))
+  $('.hero').addClass('hero-home-'+_.random(1,5))
