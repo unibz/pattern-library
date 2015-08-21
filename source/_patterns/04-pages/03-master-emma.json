@@ -2,7 +2,7 @@
   "faculty": "t_science-tech",
   "master-hero": { 
     "hero-title": {
-      "headline" : {"short": "Laurea magistrale in Gestione Sostenibile dell’Ambiente Montano"}
+      "headline" : {"short": "Master in Environmental Management of Mountain Areas"}
     },
     "img": { 
       "background": {
@@ -17,9 +17,9 @@
     "button": "Vedi tutto il personale"
   },
   "master-structure": {
-    "button": "Il piano di studi"
+    "button": "Study plan"
   },
   "master-submit": {
-    "button": "Preiscriviti!"
+    "button": "Apply!"
   }
 }
