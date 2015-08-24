@@ -97,9 +97,8 @@
 // Hero specific homepage
 //============================================
 
-.hero-home::after
+=hero-home-after
   position: absolute
-  content: "Walter Niedermayr"
   right: 5px
   bottom: -20px
   color: #ccc
@@ -143,3 +142,6 @@
 
 .hero-home-13
   background-image: url('http://www.acfny.org/fileadmin/useruploads/fdfx_image/Press_Images/Alpine_Desire/hi_res/Mueller_Performance_148.jpg')
+.hero-home-13::after
+  +hero-home-after
+  content: "Christian Philipp MÜLLER, Burning Love (2010)"
