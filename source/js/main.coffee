@@ -28,4 +28,4 @@ $ ->
     $('#nav-mobile-third').addClass 'is-open'
 
   # Hero image random
-  $('.hero').addClass('hero-home-' + _.random(1, 13))
+  $('.hero-home').addClass('hero-home-' + _.random(1, 13))
