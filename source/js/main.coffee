@@ -30,13 +30,11 @@ $ ->
   # sequential update of banner
   # can be set manually via localStorage.setItem("hero-home", 2)
   hero = parseInt(localStorage.getItem("hero-home"))
-  unless hero
-    hero = 1
-  if hero
-    $('.hero-home').addClass('hero-home-' + hero)
-    hero = hero + 1
-    hero = 1 if hero > 13
-    localStorage.setItem("hero-home", hero)
+  hero = 1 unless hero
+  $('.hero-home').addClass('hero-home-' + hero)
+  hero = hero + 1
+  hero = 1 if hero > 13
+  localStorage.setItem("hero-home", hero)
   # console.log hero
     # Hero image random
     # $('.hero-home').addClass('hero-home-' + _.random(1, 13))
