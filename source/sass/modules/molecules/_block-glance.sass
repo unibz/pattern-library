@@ -5,13 +5,18 @@
 .glance
   overflow: hidden
   padding: $space 0
+  margin-bottom: $space*2
   background-color: $primary
   color: $white
   +dark-text-shadow
   +mq($bp-md)
     padding: $space*2 0
+    margin-bottom: $space*3
+  +mq($bp-lg)
+    margin-bottom: $space*4
   +mq($bp-xl)
     padding: $space*3 0
+    margin-bottom: $space*5
 
 .glance_title
   +h3
