@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html class="pl">
+	<head>
+		<title>Pattern Lab</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+				<!-- never cache patterns -->
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?0" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?0" media="all" />
+		
+
+		<!-- End Pattern Lab -->
+		<link rel="stylesheet" href="../../css/main.css" />
+
+		<!-- Load Roboto Mono from google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet' type='text/css'>
+		
+		<script src="//use.typekit.net/myx3lhv.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body class=><header class="js-header header">
+  <div class="l-container">
+    <div class="header_inner">
+      <a class="logo" href="../../patterns/04-pages-00-homepage/04-pages-00-homepage.html"></a>
+      <div class="nav">
+        <nav class="js-nav navMain" data-nav-level="1">
+        	<ul class="nav_wrap">
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-university">Universität</a>
+            </li>
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-faculties">Fakultäten</a>
+            </li>
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-study-courses">Studiengänge</a>
+            </li>
+        	</ul>
+        </nav>        <nav id="nav-study-courses" class="js-nav navSecondary" data-nav-level="2">
+          <ul class="nav_wrap">
+            <li>
+              <a id="bachelor" class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
+            </li>
+            <li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master">Master</a>
+            </li>
+            <li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master-one-cycle">Master (einstufig)</a>
+            </li>
+            <li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-phd">Doktoratsstudien</a>
+            </li>
+          </ul>
+        </nav>        <nav id="nav-faculties" class="js-nav navLinks" data-nav-level="2">
+          <ul class="nav_wrap navLinks_wrap">
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Informatik</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Wirtschaftswissenschaften</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Bildungswissenschaften</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Design und Künste</a></li>
+            <li class="navLinks_item"><a class="js-nav-item" href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a></li>
+          </ul>
+        </nav>
+
+        <nav id="nav-university" class="js-nav navLinks " data-nav-level="2">
+          <ul class="nav_wrap navLinks_wrap">
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Profil</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Organisation</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Kooperationen</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Jobs</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Ausschreibungen</a></li>
+            <li class="navLinks_item"><a class="js-nav-item is-inactive" href="#">Press</a></li>
+          </ul>
+        </nav>        <nav id="nav-bachelor" class="js-nav navGrid" data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="#">Wirtschaftswissenschaften und Betriebsführung</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="../../patterns/04-pages-02-bachelor-ppe/04-pages-02-bachelor-ppe.html">Ökonomie und Sozialwissenschaften</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="../../patterns/04-pages-02-bachelor-tourism/04-pages-02-bachelor-tourism.html">Tourismus-, Sport- und Eventmanagement</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">Informatik und Informatik-Ingenieurwesen</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Agrarwissenschaften und Umweltmanagement</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Industrie- und Maschineningenieurwesen</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Kommunikations- und Kulturwissenschaften</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Sozialarbeit</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Sozialpädagogik</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">DSGN</span>
+              <div class="gridItem_name">
+                <a href="#">Design und Künste</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <nav id="nav-master" class="js-nav navGrid " data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="#">Ökonomie und Management des öffentlichen Sektors</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">ECON</span>
+              <div class="gridItem_name">
+                <a href="../../patterns/04-pages-03-master-entrepr/04-pages-03-master-entrepr.html">Unternehmensführung und Innovation</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">Informatik</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">European Master's Program in Computational Logic (EMCL)</a>
+              </div>
+            </li>
+            <li class="navGrid_item">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="../../patterns/04-pages-03-master-emma/04-pages-03-master-emma.html">Umweltmanagement in Bergregionen</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Energy Engineering</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">International Horticultural Science</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Innovation in Forschung und Praxis Sozialer Arbeit</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">DSGN</span>
+              <div class="gridItem_name">
+                <a href="#">Ökosoziales Design (Glocal Design)</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <nav id="nav-master-one-cycle" class="js-nav navGrid " data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Bildungswissenschaften für den Primarbereich</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <nav id="nav-phd" class="js-nav navGrid " data-nav-level="3">
+          <ul class="nav_wrap navGrid_wrap">
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">COMP</span>
+              <div class="gridItem_name">
+                <a href="#">Informatik</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Mountain Environment and Agriculture</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">TECH</span>
+              <div class="gridItem_name">
+                <a href="#">Sustainable Energy and Technologies</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">ECO</span>
+              <div class="gridItem_name">
+                <a href="#">Management and Economics on Organizational and Institutional Outliers</a>
+              </div>
+            </li>
+            <li class="navGrid_item is-inactive">
+              <span class="gridItem_label">EDU</span>
+              <div class="gridItem_name">
+                <a href="#">Allgemeine Pädagogik, Sozialpädagogik und Allgemeine Didaktik</a>
+              </div>
+            </li>
+            <li class="navGrid_item"></li>
+            <li class="navGrid_item"></li>
+          </ul>
+        </nav>      </div>
+      <div class="utility">
+        <a class="utility_lang" href="#">DE ▾</a>
+        <a class="utility_service" href="#">Dienste</a>
+        <div class="utility_search"></div>
+        <div class="utility_hamburger">
+          <div class="burger"></div>
+        </div>
+      </div>
+    </div>
+    <nav id="nav-mobile" class="navMobile">
+    	<ul class="navMobile_wrap">
+    		<li>
+          <a class="navMobile_item" href="#">University</a>
+        </li>
+    		<li>
+          <a class="navMobile_item" href="#nav-mobile-second">Faculties</a>
+          <ul class="navMobile_second">
+            <li><a class="navMobile_item navMobile_link" href="#">Economics and Managment</a></li>
+            <li><a class="navMobile_item navMobile_link" href="#">Computer Science</a></li>
+            <li><a class="navMobile_item navMobile_link" href="#">Science and Technology</a></li>
+            <li><a class="navMobile_item navMobile_link" href="#">Education</a></li>
+            <li><a class="navMobile_item navMobile_link" href="#">Design and Art</a></li>
+          </ul>
+        </li>
+    		<li>
+          <a class="navMobile_item" href="#nav-mobile-second">Study Courses</a>
+          <ul id="nav-mobile-second" class="navMobile_second">
+            <li>
+              <a class="navMobile_item" href="#nav-mobile-third">Bachelor</a>
+              <ul id="nav-mobile-third" class="navMobile_third">
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">ECON</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Economics and Management</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">ECON</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Economics and Social Sciences</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">ECON</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Tourism, Sport and Event Management</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">COMP</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Computer Science and Engineering</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">TECH</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Agricultural and Agro-Environmental Sciences</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">TECH</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Industrial and Mechanical Engineering</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">EDU</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Communication Sciences and Culture</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">EDU</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Social Education</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">EDU</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Social Work</a>
+                  </div>
+                </li>
+                <li class="mobileItem_wrap">
+                  <span class="mobileItem_label">DSGN</span>
+                  <div class="mobileItem_name">
+                    <a href="#">Design and Art</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="navMobile_item" href="#">Master</a>
+            </li>
+            <li>
+              <a class="navMobile_item" href="#">Master (one cycle)</a>
+            </li>
+            <li>
+              <a class="navMobile_item" href="#">PhD</a>
+            </li>
+            <li>
+              <a class="navMobile_item navMobile_link" href="#">Further offer</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="navMobile_item navMobile_link" href="#">Services</a>
+        </li>
+    	</ul>
+    </nav>  </div>
+</header><main class="home">
+  <section class="hero hero-home" role="banner"></section>
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        <p class="intro">
+          Die <strong>Freie Universität Bozen</strong> befindet sich in einer der attraktivesten Regionen Europas an der Schnittstelle zwischen dem deutschen und italienischen Kultur- und Wirtschaftsraum. Die Dreisprachigkeit in <a href="#">Lehre</a> und <a href="#">Forschung</a> sowie ein ideales Studienumfeld und eine exzellente Ausstattung zeichnen sie aus.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        <h3>Fakultäten</h3>
+        <p>
+          Die unibz ist keine Volluniversität. Ihr Studienangebot an den 5 Fakultäten und die Schwerpunkte in der Forschung spiegeln ihre starke regionale Verwurzelung und ihre gleichzeitige internationale Vernetzung wider.
+        </p>
+      </div>
+      <!--
+        <div class="blockLink_wrapper g-row">
+            <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6">
+        <a class="blockLink" href="#">Informatik</a>            </div>
+            <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6">
+        <a class="blockLink" href="#">Wirtschaftswissenschaften</a>            </div>
+            <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6">
+        <a class="blockLink" href="#">Bildungswissenschaften</a>            </div>
+            <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6">
+        <a class="blockLink" href="#">Design und Künste</a>            </div>
+            <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6">
+        <a class="blockLink" href="#">Naturwissenschaften und Technik</a>            </div>
+        </div>      -->
+      <div class="blockLink_wrapper g-row">
+        <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6 t_edu">
+          <a class="blockLink" href="#">Bildungswissenschaften</a>
+        </div>
+        <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6 t_eco">
+          <a class="blockLink" href="#">Wirtschaftswissenschaften</a>
+        </div>
+        <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6 t_comp-science">
+          <a class="blockLink" href="#">Informatik</a>
+        </div>
+        <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6 t_des-art">
+          <a class="blockLink" href="#">Design und Künste</a>
+        </div>
+        <div class="g g-sm-12 g-md-12 g-lg-8 g-xl-6 t_science-tech">
+          <a class="blockLink" href="../../patterns/04-pages-01-faculty-natech/04-pages-01-faculty-natech.html">Naturwissenschaften und Technik</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="banner" role="banner" style="background-image:url('https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-study-unibz.jpg')">
+      <div class="l-container">
+        <h2 class="banner_subTitle">Studieren an der unibz</h2>
+        <p class="banner_text">
+          Wir bieten mehrsprachige Studienprogramme auf Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität.
+        </p>
+        <a href="../../patterns/04-pages-06-study-at-unibz/04-pages-06-study-at-unibz.html" class="btn">Mehr info</a>
+      </div>
+  </div>
+
+  <section class="l-section">
+    <div class="l-container">
+        <div class="typography">
+          <h2>Forschung</h2>
+          <img class="right" src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/research.jpg" alt="">
+          <p>
+            Interdisziplinarität und Nachhaltigkeit ebenso wie lokale und internationale Themen bestimmen die Ausrichtung der Forschung an der unibz. Geforscht wird an allen fünf Fakultäten und an drei Kompetenzzentren. Die Forschungsfinanzierung erfolgt über interne Mittel und in jüngster Zeit vermehrt über nationale und europäische Finanzierungsprogramme und Drittmittel.
+          </p>
+          <a class="btn" href="#">Projekte</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+        <div class="typography">
+          <h2>Verantwortung für Region und Gesellschaft</h2>
+          <p>
+            Neben Lehre und Forschung erachtet es die unibz als einen weiteren wichtigen Auftrag, mit Region und Gesellschaft in eine kooperative Austauschbeziehung zu treten. Dies geschieht über gezielte Formen des <a href="#">Wissens- und Technologietransfers</a>, verstärkte Kooperationen mit <a href="#">Unternehmen</a>, einem vielfältigen Angebot im Bereich des <a href="#">Lebenslangen Lernens</a> (JuniorUni, Studium Generale und Senior Student Card) sowie nicht zuletzt als Partnerinstitution für kulturelle Institutionen und Initiativen.
+          </p>
+          <a class="btn" href="#">Mehr info</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+        <div class="mediaBlock">
+          <a class="mediaBlock_figure" href="#">
+    <img class='mediaBlock_thumb' src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/library.jpg" alt="" />          </a>
+        	<div class="mediaBlock_body">
+		<h2 class='mediaBlock_title'>Bibliothek</h2>		<p >Gut eine halbe Million Besucherinnen und Besucher nutzen die mehr als 250.000 Printmedien und über 60.000 E-Books. Aufgrund ihrer modernen Ausstattung und der gezielten Kundenorientierung – Öffnungszeiten fast rund um die Uhr – erreicht die Bibliothek alljährlich im „BIX: Der Bibliotheksindex“ Top-Positionen.</p>    <a href="#" class="btn-text btn-text-alt mediaBlock_btn">Weiter zur Bibliothek</a>        	</div>
+        </div>    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        <h2>News</h2>
+          <div class="post post-noImage">
+            <div class="post_body">
+    <h4 class='post_title'>Premiata a Genova ricercatrice unibz</h4>    <time class='byline' datetime="12:32+00:00">22 Mai 2015 </time>    <p class='post_excerpt'>Lo scorso venerdì, 24 marzo, Gina Chianese, ricercatrice della Facoltà di Scienze della Formazione, è stata premiata dalla Società Italiana di Pedagogia per il suo lavoro sull’educazione permanente.</p>            </div>
+          </div>          <div class="post post-noImage">
+            <div class="post_body">
+    <h4 class='post_title'>Giornate di orientamento a Bressanone</h4>    <time class='byline' datetime="12:32+00:00">9 März 2015 </time>    <p class='post_excerpt'>Ieri e oggi, le aule della Facoltà di Scienze della Formazione erano gremite. Nel Campus di Bressanone si sono tenute le “Giornate di orientamento”, per tutti gli interessati al corso di laurea quinquennale in Scienze della Formazione Primaria.</p>            </div>
+          </div>          <div class="post post-noImage">
+            <div class="post_body">
+    <h4 class='post_title'>Al via in aprile il ciclo delle lezioni augurali</h4>    <time class='byline' datetime="12:32+00:00">20 Januar 2015 </time>    <p class='post_excerpt'>Il primo dei nuovi docenti unibz chiamati a tenere una lezione inaugurale sarà il prof. Edwin Keiner che, dal semestre invernale 2014/15, insegna Pedagogia generale e Pedagogia sociale presso la Facoltà di Scienze della Formazione di Bressanone. L’appuntamento – aperto non solo alla comunità universitaria ma a tutta la popolazione – è per il 9 aprile, alle ore 18, nel campus di Bressanone (aula 1.35).</p>            </div>
+          </div>        <a class="btn" href="#">Alle news</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="academia">
+    <div class="l-container">
+      <div class="typography">
+        <h2>Academia #70</h2>
+        <p>
+          Academia ist das Magazin der EURAC und unibz.
+        </p>
+        <img class="left" src="https://dl.dropboxusercontent.com/u/13990214/www/unibz/academia.jpeg" alt="">
+        <span style="text-transform: uppercase; font-size: smaller">Titelthema</span>
+        <p class="h4">Tra marmotte e sensori</p class="h4">
+        <p>
+          La Val di Mazia è entrata a far parte del consorzio internazionale LTER (Long Term Ecological Research Network) che comprende diversi siti di monitoraggio in tutto il mondo.
+        </p>
+        <p class="h4">Scheitern ist kein Makel</p class="h4">
+        <p>
+          Es gehört zum Repertoire eines Startuppers. Worauf es wirklich ankommt: möglichst früh und billig zu scheitern, um beim nächsten Mal einen Hit zu landen.
+        </p>
+        <p class="h4">(Citizen) Journalist</p class="h4">
+        <p>
+          American journalist Marc Cooper explains why journalists as we know them are a dying species.
+        </p>
+        <a class="btn bg-academia" href="#">Online lesen</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+<footer class="footer">
+  <div class="l-container">
+    <div class="g-row g-sm-clear-2 g-lg-clear-4">
+      <div class="g g-sm-12 g-lg-6 u-push-btm-double u-xs-push-btm-none">
+        <strong>Campus Bozen</strong><br>
+        Universitätsplatz 1<br>
+        I – 39100, Bozen (BZ)<br>
+        Tel. +39 0471 011000<br>
+        Fax +39 0471 011009<br>
+        <a href="#">administration@unibz.it</a><br>
+        <a href="#">info@unibz.it</a><br>
+        <a href="#">administration@pec.unibz.it</a>
+      </div>
+
+      <div class="g g-sm-12 g-lg-6 u-push-btm-double u-xs-push-btm-none">
+        <strong>Campus Brixen</strong><br>
+        Regensburger Allee 16<br>
+        I - 39042 Brixen<br>
+        Tel. +39 0472 014000<br>
+        Fax +39 0472 014009<br>
+        <a href="#">education@unibz.it</a><br>
+        <a href="#">info@unibz.it</a><br>
+        <a href="#">administration@pec.unibz.it</a>
+      </div>
+
+      <div class="g g-sm-12 g-lg-6 u-push-btm-double u-xs-push-btm-none">
+        <strong>Campus Bruneck</strong><br>
+        Universitätsplatz 1<br>
+        I - 39031 Bruneck<br>
+        Tel +39 0474 013600<br>
+        Fax +39 0474 013609<br>
+        <a href="#">info@unibz.it</a><br>
+        <a href="#">tourism@unibz.it</a><br>
+        <a href="#">administration@pec.unibz.it</a>
+      </div>
+
+      <div class="g g-sm-12 g-lg-6">
+        <strong>Network</strong><br>
+        Facebook<br>
+        Twitter<br>
+        Instagram<br>
+        LinkedIn<br>
+        Newsletter
+      </div>
+    </div>
+  </div>
+</footer>
+	<!--DO NOT REMOVE-->
+		
+	<script>
+		// handle injection of items from PHP
+		var patternPartial = "pages-homepage";
+		var lineage        = [{"lineagePattern":"organisms-header-de","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header-de\/02-organisms-00-global-00-header-de.html"},{"lineagePattern":"organisms-block-links","lineagePath":"..\/..\/patterns\/02-organisms-03-sections-03-block-links\/02-organisms-03-sections-03-block-links.html"},{"lineagePattern":"molecules-media-block","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-00-media-block\/01-molecules-02-blocks-00-media-block.html"},{"lineagePattern":"molecules-block-post","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-03-block-post\/01-molecules-02-blocks-03-block-post.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-_01-footer\/02-organisms-00-global-_01-footer.html"}];
+		var lineageR       = [];
+		var patternState   = "";
+		var cssEnabled     = false;
+	</script>
+		<script>
+		/*!
+		 * scriptLoader - v0.1
+		 *
+		 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+		 * Licensed under the MIT license
+		 *
+		 */
+		
+		var scriptLoader = {
+			
+			run: function(js,cb,target) {
+				var s  = document.getElementById(target+'-'+cb); 
+				for (var i = 0; i < js.length; i++) {
+					var src = (typeof js[i] != "string") ? js[i].src : js[i];
+					var c   = document.createElement('script');
+					c.src   = '../../'+src+'?'+cb;
+					if (typeof js[i] != "string") {
+						if (js[i].dep !== undefined) {
+							c.onload = function(dep,cb,target) {
+								return function() {
+									scriptLoader.run(dep,cb,target);
+								}
+							}(js[i].dep,cb,target);
+						}
+					}
+					s.parentNode.insertBefore(c,s);
+				}
+			}
+			
+		}
+	</script>
+	<script id="pl-js-polyfill-insert-0">
+		(function() {
+			if (self != top) {
+				var cb = '0';
+				var js = [];
+				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+					js.push("styleguide/js/vendor/classlist-polyfill.js");
+				}
+				scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+			}
+		})();
+	</script>
+	<script id="pl-js-insert-0">
+		(function() {
+			if (self != top) {
+				var cb = '0';
+				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
+				scriptLoader.run(js,cb,'pl-js-insert');
+			}
+		})();
+	</script>
+	
+
+
+  <script src="../../js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+&lt;div class=&quot;post {{# empty }}post-noImage{{/ empty }}&quot;&gt;
+  &lt;div class=&quot;post_body&quot;&gt;
+    {{&gt; atoms-heading-4 (class:&quot;class='post_title'&quot;)}}
+    {{# empty }}{{/ empty }}
+    {{^ empty }}
+      {{&gt; atoms-landscape-4x3 (class:&quot;class='post_thumb'&quot;)}}
+    {{/ empty }}
+    {{&gt; atoms-text-time (class:&quot;class='byline'&quot;)}}
+    {{&gt; atoms-text-paragraph (class:&quot;class='post_excerpt'&quot;)}}
+  &lt;/div&gt;
+&lt;/div&gt;
