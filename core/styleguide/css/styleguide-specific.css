@@ -32,8 +32,9 @@
       background: rgba(0, 0, 0, 0.3); }
 
 .demo .g {
+  padding: 20px 5px;
   background-color: #dddddd;
-  text-align: center;
+  border: 1px solid #cccccc;
 }
 
 .demo-animate {

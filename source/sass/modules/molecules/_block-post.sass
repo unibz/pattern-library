@@ -5,62 +5,26 @@
 .post
   overflow: hidden
 
-.post:not(:last-child)
-  margin-bottom: $space*1
-  +mq($bp-md)
-    margin-bottom: $space*1.5
-
 .post_thumb
   max-width: 240px
-  margin: 0 $space-half $space-half 0
+  margin: 0 $space $space-half 0
   +mq($bp-sm)
     float: left
 
 .post_title
-  +h4
-  +mq($bp-sm)
-    margin-bottom: $space-quarter
+  +h3
+  margin-bottom: $space
+
 
 .post_excerpt
-  margin-bottom: 0
+  margin-bottom: $space-half
 
-.post_thumb-empty
-  padding: $space-half
-  width: 222px
-  height: 166px
-  background-color: $primary
-  color: $white
-  +dark-text-shadow
+.post_date
+  color: $primary
+  font-weight: 600
+  font-size: $fs-small
+  line-height: 1
   letter-spacing: 1px
   text-transform: uppercase
-
-.post_thumbTitle
-  +h3
-
-
-// Brand colors
-//============================================
-
-.t_des-art
-  .post_thumb-empty
-    background-color: $des-art
-
-.t_eco
-  .post_thumb-empty
-    background-color: $eco
-
-.t_edu
-  .post_thumb-empty
-    background-color: $edu
-
-.t_comp-science
-  .post_thumb-empty
-    background-color: $comp-science
-
-.t_science-tech
-  .post_thumb-empty
-    background-color: $science-tech
-
-.t_library
-  .post_thumb-empty
-    background-color: $library
+  +mq($bp-xl)
+    font-size: $fs

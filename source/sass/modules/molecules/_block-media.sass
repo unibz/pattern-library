@@ -4,20 +4,23 @@
 
 
 .mediaBlock
-  overflow: hidden
+  +mq($bp-lg)
+    display: flex
 
-.mediaBlock-reversed
-  .mediaBlock_figure
-    +mq($bp-lg)
-      float: left
+
+// Media Block Figure
+//============================================
 
 .mediaBlock_figure
   +mq($bp-lg)
-    float: left
-    width: 50%
+    flex-basis: 50%
 
 .mediaBlock_thumb
-  max-width: 100%
+  width: 100%
+
+
+// Media Block Body
+//============================================
 
 .mediaBlock_body
   padding: $space-half $space-half 6px $space-half
@@ -28,41 +31,13 @@
     padding: $space $space 18px $space
   +mq($bp-lg)
     position: relative
-    float: left
+    flex-basis: 50%
     padding: 0 $space (3 / 4) * 50% $space
     width: 50%
     height: 0
   +mq($bp-xl)
     padding-left: $space*2
     padding-right: $space*2
-
-.mediaBlock_body a
-  border-bottom-color: $white
-  &:hover
-    color: $white
-    border-bottom-color: $white
-
-.mediaBlock_title
-  +h3
-  +mq($bp-lg)
-    padding-top: $space
-    margin-bottom: $space-quarter
-  +mq($bp-xl)
-    padding-top: $space*2
-
-.mediaBlock_btn
-  font-size: $fs-small
-  +mq($bp-lg)
-    +pos($space, bottom)
-  +mq($bp-xl)
-    bottom: $space*2
-  &:after
-    +mq($bp-sm)
-      margin-top: 0
-
-
-// Brand colors
-//============================================
 
 .t_des-art
   .mediaBlock_body
@@ -87,3 +62,31 @@
 .t_library
   .mediaBlock_body
     background-color: $library
+
+
+// Media Block Body Contents
+//============================================
+
+.mediaBlock_title
+  +h3
+  font-weight: 300
+  margin-bottom: $space-half
+  +mq($bp-lg)
+    padding-top: $space
+  +mq($bp-xl)
+    padding-top: $space*2
+
+.mediaBlock_excerpt
+  a
+    border-bottom: 1px solid $white
+
+.mediaBlock_btn
+  font-size: $fs-small
+  margin-bottom: 0
+  +mq($bp-lg)
+    +pos($space, bottom)
+  +mq($bp-xl)
+    bottom: $space*2
+  &:after
+    +mq($bp-sm)
+      margin-top: 0

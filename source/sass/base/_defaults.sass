@@ -67,7 +67,7 @@ a
   text-decoration: none
   color: inherit
 
-p > a
+.link
   +link
 
 
@@ -116,6 +116,9 @@ dd
 strong
   font-weight: 600
 
+em
+  font-style: italic
+
 
 // Embeded Content
 //============================================
@@ -162,13 +165,6 @@ th
 
 address
   font-style: normal
-
-
-// Text elements
-//============================================
-
-cite
-  color: $gray-dark
 
 
 // Horizontal rule
@@ -235,7 +231,8 @@ pre
 
 blockquote
   padding-left: 15px
-  border-left: 2px solid $primary
+  font-weight: 600
+  border-left: 2px solid $color-text
 
 q
   quotes: "\201C" "\201D" "\2018" "\2019"
@@ -243,29 +240,14 @@ q
 html[lang="de"] q
   quotes: "\201E" "\201D" "\00AB" "\00BB"
 
-.t_des-art
-  blockquote
-    border-left-color: $des-art
 
-.t_eco
-  blockquote
-    border-left-color: $eco
+// Citation
+//============================================
 
-.t_edu
-  blockquote
-    border-left-color: $edu
-
-.t_comp-science
-  blockquote
-    border-left-color: $comp-science
-
-.t_science-tech
-  blockquote
-    border-left-color: $science-tech
-
-.t_library
-  blockquote
-    border-left-color: $library
+cite
+  color: $gray-dark
+  font-style: normal
+  font-weight: 300
 
 
 // Mark

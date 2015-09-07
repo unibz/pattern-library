@@ -1,11 +1,10 @@
-<div class="post {{# empty }}post-noImage{{/ empty }}">
+<div class="post">
   <div class="post_body">
-    {{> atoms-heading-4 (class:"class='post_title'")}}
-    {{# empty }}{{/ empty }}
+    {{> atoms-heading-4 (class: "post_title") }}
     {{^ empty }}
-      {{> atoms-landscape-4x3 (class:"class='post_thumb'")}}
+      {{> atoms-landscape-4x3 (class: "post_thumb") }}
     {{/ empty }}
-    {{> atoms-text-time (class:"class='byline'")}}
-    {{> atoms-text-paragraph (class:"class='post_excerpt'")}}
+    {{> atoms-text-paragraph (class: "post_excerpt") }}
+    {{> atoms-text-date (class: "post_date") }}
   </div>
 </div>

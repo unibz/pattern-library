@@ -1,7 +1,0 @@
-{
-  "error": "true",
-  "form": {
-    "class": "class='form_input form_input-error'",
-    "placeholder": "Lorem"
-  }
-}

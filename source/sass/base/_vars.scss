@@ -39,7 +39,7 @@ $space: 24px;
 $space-half: $space * 0.5;
 $space-quarter: $space * 0.25;
 
-$radius: 2px;
+$radius: 4px;
 
 
 // Typography
@@ -50,7 +50,7 @@ $font-secondary: "freight-display-pro", Georgia, serif;
 $font-mono: "Roboto Mono", Monaco, monospace;
 
 $fs: 16px;
-$lh: ($space / $fs);
+$lh: 1.6;
 $fs-small: $fs - 2px;
 
 $fs-h1: 30px;

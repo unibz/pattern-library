@@ -3,9 +3,7 @@
 //============================================
 
 .glance
-  overflow: hidden
   padding: $space 0
-  margin-bottom: $space*2
   background-color: $primary
   color: $white
   +dark-text-shadow
@@ -17,32 +15,6 @@
   +mq($bp-xl)
     padding: $space*3 0
     margin-bottom: $space*5
-
-.glance_title
-  +h3
-  margin-bottom: $space-half
-  +mq($bp-sm)
-    float: left
-    width: 45%
-
-.glance_text
-  margin-bottom: 0
-  +mq($bp-sm)
-    float: right
-    width: 50%
-    padding-top: 7px
-
-.glance ul,
-.glance ol
-  list-style-type: none
-  margin: 0
-  padding: 0
-
-.glance li:not(:last-child)
-  margin-bottom: $space-half
-
-// Brand colors
-//============================================
 
 .t_des-art
   .glance
@@ -67,3 +39,38 @@
 .t_library
   .glance
     background-color: $library
+
+
+// Glance Inner container
+//============================================
+
+.glance_inner
+  +mq($bp-md)
+    display: flex
+
+
+// Glance Contents
+//============================================
+
+.glance_title
+  +h3
+  font-weight: 300
+  margin-bottom: $space-half
+  +mq($bp-md)
+    flex-basis: 50%
+    padding-right: 5%
+
+.glance_text
+  margin-bottom: $space-quarter
+  +mq($bp-md)
+    flex-basis: 50%
+    padding: 7px 0 0 5%
+
+.glance ul,
+.glance ol
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+.glance li:not(:last-child)
+  margin-bottom: $space-half
