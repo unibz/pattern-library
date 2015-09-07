@@ -1,5 +1,4 @@
 &lt;div class=&quot;blockLecture&quot;&gt;
-  &lt;span class=&quot;byline&quot;&gt;{{ lecture.credits }}&lt;/span&gt;
-  &lt;h4 class=&quot;blockLecture_title&quot;&gt;{{ lecture.title }}&lt;/h4&gt;
-  &lt;!-- &lt;a class=&quot;btn-text&quot; href=&quot;#&quot;&gt;{{ lecture.professor }}&lt;/a&gt; --&gt;
+  {{&gt; atoms-text-span (class: &quot;blockLecture_meta&quot;) }}
+  {{&gt; atoms-heading-2 (class: &quot;blockLecture_title&quot;) }}
 &lt;/div&gt;

@@ -10,17 +10,24 @@
 .contactBlock_elem
   padding: $space
   +mq($bp-md)
-    width: 50%
+    flex-basis: 50%
+
+.elem_title
+  +h6
+  line-height: 1.3
+  font-weight: 600
+  text-transform: uppercase
+  letter-spacing: 1px
 
 .elem_item
   margin-bottom: 0
 
-.contactBlock_info
+.contactBlock_contacts
   color: $white
   background-color: $primary
 
-.contactBlock_info a
+.contactBlock_link
   border-bottom: 1px solid $white
 
-.contactBlock_time
+.contactBlock_details
   background-color: $gray-light

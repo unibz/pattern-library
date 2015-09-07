@@ -3,13 +3,22 @@
 //============================================
 
 .event
-  overflow: hidden
-  margin-bottom: $space
+  +mq($bp-md)
+    display: flex
+
+
+// Block Figure
+//============================================
 
 .event_figure
   +mq($bp-md)
-    width: 50%
-    float: left
+    flex-basis: 50%
+
+.event_thumb
+  width: 100%
+
+// Block Body
+//============================================
 
 .event_body
   position: relative
@@ -20,22 +29,47 @@
   +mq($bp-xs)
     padding: $space
   +mq($bp-md)
-    float: left
+    flex-basis: 50%
     padding-top: 0
     padding-bottom: (3 / 4) * 50%
-    width: 50%
     height: 0
   +mq($bp-xl)
     padding-left: $space*2
     padding-right: $space*2
 
-.event_thumb
-  max-width: 100%
+.t_des-art
+  .event_body
+    background-color: $des-art
+
+.t_eco
+  .event_body
+    background-color: $eco
+
+.t_edu
+  .event_body
+    background-color: $edu
+
+.t_comp-science
+  .event_body
+    background-color: $comp-science
+
+.t_science-tech
+  .event_body
+    background-color: $science-tech
+
+.t_library
+  .event_body
+    background-color: $library
+
+
+// Block Contents
+//============================================
 
 .event_title
-  +h4
-  line-height: 1.2
+  +h3
+  font-weight: 300
   margin-bottom: $space
+  line-height: 1.2
   +mq($bp-md)
     padding-top: $space
   +mq($bp-lg)
@@ -52,14 +86,14 @@
   +mq($bp-xl)
     margin: $space*2
 
-.event_meta,
-.event_time
+.event_meta
   display: block
 
 .event_btn
+  margin: $space 0 0 0
   line-height: 24px
   font-size: $fs-small
-  margin-top: $space
+  font-weight: 600
   +mq($bp-md)
     position: absolute
     margin: $space
@@ -67,66 +101,3 @@
     bottom: 0
   +mq($bp-xl)
     margin: $space*2
-
-.event_thumb-empty
-  padding: 0 $space-half (3 / 4) * 100% $space-half
-  height: 0
-  background-color: light($primary, 33%)
-  color: $white
-  +dark-text-shadow
-  letter-spacing: 1px
-  text-transform: uppercase
-  +mq($bp-xs)
-    padding-right: $space
-    padding-left: $space
-  +mq($bp-md)
-    padding-right: $space*2
-    padding-left: $space*2
-
-.event_thumbTitle
-  +h3
-  padding-top: $space-half
-  +mq($bp-xs)
-    padding-top: $space
-  +mq($bp-md)
-    padding-top: $space*2
-
-
-// Brand colors
-//============================================
-
-.t_des-art
-  .event_body
-    background-color: $des-art
-  .event_thumb-empty
-    background-color: light($des-art, 33%)
-
-.t_eco
-  .event_body
-    background-color: $eco
-  .event_thumb-empty
-    background-color: light($eco, 33%)
-
-.t_edu
-  .event_body
-    background-color: $edu
-  .event_thumb-empty
-    background-color: light($edu, 33%)
-
-.t_comp-science
-  .event_body
-    background-color: $comp-science
-  .event_thumb-empty
-    background-color: light($comp-science, 33%)
-
-.t_science-tech
-  .event_body
-    background-color: $science-tech
-  .event_thumb-empty
-    background-color: light($science-tech, 33%)
-
-.t_library
-  .event_body
-    background-color: $library
-  .event_thumb-empty
-    background-color: light($library, 33%)

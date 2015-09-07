@@ -1,16 +1,19 @@
 <div class="contactBlock">
-  <div class="contactBlock_elem contactBlock_info">
-    <p class="elem_item">Servizio Relazioni Internazionali</p>
-    <p class="elem_item">Universitätsplatz 1 - piazza Università, 1</p>
-    <p class="elem_item">I - 39100 Bozen-Bolzano</p>
-    <p class="elem_item">Tel +39 0471 012500</p>
-    <p class="elem_item">Fax +39 0471 012509</p>
-    <a href="#">international.relations@unibz.it</a>
+  <div class="contactBlock_elem contactBlock_contacts">
+    {{# contact }}
+      {{> atoms-heading-6 (class: "elem_title") }}
+      {{# meta }}
+        {{> atoms-text-paragraph (class: "elem_item") }}
+      {{/ meta }}
+      {{> atoms-text-link (class: "contactBlock_link") }}
+    {{/ contact }}
   </div>
-  <div class="contactBlock_elem contactBlock_time">
-    <p>Orari di apertura</p>
-    <p class="elem_item">InfoPoint A1.01</p>
-    <p class="elem_item">Lunedí 14:00 – 16:00</p>
-    <p class="elem_item">Martedí e giovedí 10:00 – 12:30</p>
+  <div class="contactBlock_elem contactBlock_details">
+    {{# details }}
+      {{> atoms-heading-6 (class: "elem_title") }}
+      {{# meta }}
+        {{> atoms-text-paragraph (class: "elem_item") }}
+      {{/ meta }}
+    {{/ details }}
   </div>
 </div>

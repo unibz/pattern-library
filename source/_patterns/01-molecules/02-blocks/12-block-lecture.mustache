@@ -1,5 +1,4 @@
 <div class="blockLecture">
-  <span class="byline">{{ lecture.credits }}</span>
-  <h4 class="blockLecture_title">{{ lecture.title }}</h4>
-  <!-- <a class="btn-text" href="#">{{ lecture.professor }}</a> -->
+  {{> atoms-text-span (class: "blockLecture_meta") }}
+  {{> atoms-heading-2 (class: "blockLecture_title") }}
 </div>
