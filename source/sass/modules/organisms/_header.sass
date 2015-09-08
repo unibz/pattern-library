@@ -19,8 +19,9 @@
   background-color: $primary
 
 .header_inner
+  position: relative
   display: flex
-  justify-content: space-between
+  justify-content: flex-start
 
 
 // Logo
@@ -40,6 +41,8 @@
 //============================================
 
 .utility
+  position: absolute
+  right: 0
   display: flex
   flex-shrink: 0
   padding: $space 0
@@ -55,10 +58,6 @@
   margin-left: $space
   +mq($bp-lg)
     display: block
-
-.utility_service::after
-  content: "\25BE"
-  margin-left: $space-half
 
 .utility_search
   flex-shrink: 0

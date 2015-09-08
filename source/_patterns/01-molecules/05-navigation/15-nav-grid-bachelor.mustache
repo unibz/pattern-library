@@ -1,0 +1,15 @@
+{{# nav-grid-bachelor }}
+  <nav id="#nav-bachelor" class="js-nav navGrid" data-nav-level="3">
+    <ul class="nav_wrap navGrid_wrap">
+      {{# items }}
+        <li class="navGrid_item">
+          <span class="gridItem_label">{{ tag-item }}</span>
+          <div class="gridItem_name">
+            <a href="{{ url }}">{{ item }}</a>
+          </div>
+        </li>
+      {{/ items }}
+      <li class="navGrid_item"></li>
+    </ul>
+  </nav>
+{{/ nav-grid-bachelor }}

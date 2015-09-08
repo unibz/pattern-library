@@ -1,9 +1,11 @@
-<nav class="js-nav {{ class }}" data-nav-level="{{ level }}">
-	<ul class="nav_wrap">
-    {{# items }}
-  		<li>
-        <a class="js-nav_item nav_item" href="{{ url }}" data-toggle-elem="{{ toggle }}">{{ item }}</a>
-      </li>
-    {{/ items }}
-	</ul>
-</nav>
+{{# nav }}
+  <nav class="js-nav mainNav" data-nav-level="1">
+  	<ul class="nav_wrap">
+      {{# items }}
+    		<li>
+          <a class="js-nav_item nav_item" href="{{ url }}" data-toggle-elem="{{ toggle }}">{{ item }}</a>
+        </li>
+      {{/ items }}
+  	</ul>
+  </nav>
+{{/ nav }}
