@@ -75,7 +75,7 @@ module.exports = {
           render: {
             scss: {
               template: 'gulp/tpl/_sprite.scss',
-              dest: '../../src/sass/_sprite.scss'
+              dest: '../../source/sass/_sprite.scss'
             }
           }
         }

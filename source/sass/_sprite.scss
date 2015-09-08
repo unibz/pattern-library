@@ -11,17 +11,29 @@
 
 
 $i-map: (
-  i-map-path: url("../images/sprite-83559c1c.svg"),
-  i-map-width: 28px,
-  i-map-height: 19px,
+  i-map-path: url("../images/sprite-c7b69f81.svg"),
+  i-map-width: 105px,
+  i-map-height: 20px,
 
-  i-facebook-width: 9px,
-  i-facebook-height: 19px,
+  i-facebook-width: 21px,
+  i-facebook-height: 20px,
   i-facebook-position: 0 0,
 
-  i-twitter-width: 19px,
-  i-twitter-height: 17px,
-  i-twitter-position: -9px 0
+  i-linkedin-width: 21px,
+  i-linkedin-height: 20px,
+  i-linkedin-position: -21px 0,
+
+  i-mail-width: 21px,
+  i-mail-height: 20px,
+  i-mail-position: -42px 0,
+
+  i-print-width: 21px,
+  i-print-height: 20px,
+  i-print-position: -63px 0,
+
+  i-twitter-width: 21px,
+  i-twitter-height: 20px,
+  i-twitter-position: -84px 0
 );
 
 
@@ -38,7 +50,7 @@ $i-map: (
 }
 
 %i {
-  background-image: url("../images/sprite-83559c1c.svg");
+  background-image: url("../images/sprite-c7b69f81.svg");
 }
 
 @mixin extend-i-url($extend: true) {
@@ -64,8 +76,8 @@ $i-map: (
   @include i($add-style);
   @include extend-i-url($add-url);
   background-position: 0 0;
-  width: 9px;
-  height: 19px;
+  width: 21px;
+  height: 20px;
 }
 
 .i-facebook {
@@ -73,12 +85,51 @@ $i-map: (
 }
 
 
+@mixin i-linkedin($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -21px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-linkedin {
+  @include i-linkedin(false, false);
+}
+
+
+@mixin i-mail($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -42px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-mail {
+  @include i-mail(false, false);
+}
+
+
+@mixin i-print($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -63px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-print {
+  @include i-print(false, false);
+}
+
+
 @mixin i-twitter($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -9px 0;
-  width: 19px;
-  height: 17px;
+  background-position: -84px 0;
+  width: 21px;
+  height: 20px;
 }
 
 .i-twitter {
