@@ -20,21 +20,9 @@
   font-weight: 600
   margin-right: $space*1.5
 
-.nav_item::after
-  display: inline-block
-  content: "\25BE"
-  margin-left: $space-half
-
-.nav_link::after
-  content: "\25B8"
-  margin-left: $space-half
-
 .nav_item.is-active
   padding-bottom: 3px
   border-bottom: 1px solid $white
-
-.is-inactive
-  opacity: .5
 
 .nav_item.is-active::after
   transform: rotate(180deg)
@@ -44,30 +32,18 @@
 //============================================
 
 .navSecondary
-  color: $white
-  height: 0
-  overflow: hidden
-  opacity: 0
   transition: all 500ms $motion
 
 .navSecondary.is-open
-  height: auto
-  opacity: 1
 
 
 // Nav Link
 //============================================
 
 .navLinks
-  color: $white
-  height: 0
-  overflow: hidden
-  opacity: 0
   transition: all 500ms $motion
 
 .navLinks.is-open
-  height: auto
-  opacity: 1
 
 .navLinks_wrap
   flex-wrap: wrap
@@ -79,19 +55,14 @@
 .navLinks_item:not(:last-child)
   margin-bottom: $space-half
 
+
 // Nav Grid
 //============================================
 
 .navGrid
-  color: $white
-  height: 0
-  overflow: hidden
-  opacity: 0
   transition: all 500ms $motion
 
 .navGrid.is-open
-  height: auto
-  opacity: 1
 
 .navGrid_wrap
   flex-wrap: wrap

@@ -1,12 +1,9 @@
 <header class="js-header header">
   <div class="l-container">
     <div class="header_inner">
-      <a class="logo" href="{{ link.pages-homepage }}"></a>
+      {{> atoms-logo  }}
       <div class="nav">
-        {{> molecules-primary-nav-en }}
-        {{> molecules-secondary-nav-en }}
-        {{> molecules-nav-links-en }}
-        {{> molecules-nav-grid-en }}
+        {{> molecules-nav }}
       </div>
       <div class="utility">
         <a class="utility_lang" href="#">EN ▾</a>
@@ -17,6 +14,5 @@
         </div>
       </div>
     </div>
-    {{> molecules-nav-mobile }}
   </div>
 </header>

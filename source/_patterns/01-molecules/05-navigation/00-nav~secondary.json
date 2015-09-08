@@ -1,0 +1,22 @@
+{
+  "class": "navSecondary",
+  "level": "2",
+  "items": [
+    {
+      "item": "Bachelor",
+      "toggle": "#"
+    },
+    {
+      "item": "Master",
+      "toggle": "#"
+    },
+    {
+      "item": "PhD",
+      "toggle": "#"
+    },
+    {
+      "item": "Lifelong Learning",
+      "toggle": "#"
+    }
+  ]
+}

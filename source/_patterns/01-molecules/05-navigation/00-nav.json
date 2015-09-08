@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "item": "Nav Item",
+      "toggle": "#"
+    },
+    {
+      "item": "Nav Item",
+      "toggle": "#"
+    },
+    {
+      "item": "Nav Item",
+      "toggle": "#"
+    }
+  ]
+}
