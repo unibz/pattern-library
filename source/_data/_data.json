@@ -38,19 +38,19 @@
 	  "items": [
 	    {
 	      "item": "Bachelor",
-	      "toggle": "#"
+	      "toggle": "#nav-bachelor"
 	    },
 	    {
 	      "item": "Master",
-	      "toggle": "#"
+	      "toggle": "#nav-master"
 	    },
 	    {
 	      "item": "PhD",
-	      "toggle": "#"
+	      "toggle": "#nav-phd"
 	    },
 	    {
 	      "item": "Lifelong Learning",
-	      "toggle": "#"
+	      "toggle": "#nav-lifelong"
 	    }
 	  ]
 	},

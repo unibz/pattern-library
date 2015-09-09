@@ -2,10 +2,8 @@
   <div class="l-container">
     <div class="header_inner">
       {{> atoms-logo  }}
-      <div class="nav">
+      <div class="mainNav">
         {{> molecules-nav }}
-        {{> molecules-nav-study-courses }}
-        {{> molecules-nav-grid }}
       </div>
       <div class="utility">
         <a class="utility_lang" href="#">EN</a>
@@ -18,3 +16,9 @@
     </div>
   </div>
 </header>
+
+<div class="navSecondary_wrapper">
+  <div class="l-container">
+    {{> molecules-nav-study-course }}
+  </div>
+</div>

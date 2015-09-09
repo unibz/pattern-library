@@ -36,7 +36,7 @@
 					<div id="molecules-nav" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-00-nav/01-molecules-05-navigation-00-nav.html" class="patternLink" data-patternpartial="molecules-nav">Nav</a></h2>
 						<div class="sg-pattern-body">
-							  <nav class="js-nav mainNav" data-nav-level="1">
+							  <nav class="js-nav" data-nav-level="1">
   	<ul class="nav_wrap">
     		<li>
           <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-university">University</a>
@@ -54,7 +54,7 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										  &lt;nav class=&quot;js-nav mainNav&quot; data-nav-level=&quot;1&quot;&gt;
+										  &lt;nav class=&quot;js-nav&quot; data-nav-level=&quot;1&quot;&gt;
   	&lt;ul class=&quot;nav_wrap&quot;&gt;
     		&lt;li&gt;
           &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-university&quot;&gt;University&lt;/a&gt;
@@ -76,19 +76,19 @@
 					<div id="molecules-nav-study-course" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-05-nav-study-course/01-molecules-05-navigation-05-nav-study-course.html" class="patternLink" data-patternpartial="molecules-nav-study-course">Nav Study Course</a></h2>
 						<div class="sg-pattern-body">
-							  <nav class="js-nav navSecondary" data-nav-level="2">
+							  <nav id="nav-study-courses" class="js-nav navSecondary" data-nav-level="2">
   	<ul class="nav_wrap">
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">Bachelor</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
         </li>
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">Master</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master">Master</a>
         </li>
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">PhD</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-phd">PhD</a>
         </li>
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">Lifelong Learning</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-lifelong">Lifelong Learning</a>
         </li>
   	</ul>
   </nav>
@@ -97,19 +97,19 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										  &lt;nav class=&quot;js-nav navSecondary&quot; data-nav-level=&quot;2&quot;&gt;
+										  &lt;nav id=&quot;nav-study-courses&quot; class=&quot;js-nav navSecondary&quot; data-nav-level=&quot;2&quot;&gt;
   	&lt;ul class=&quot;nav_wrap&quot;&gt;
     		&lt;li&gt;
-          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#&quot;&gt;Bachelor&lt;/a&gt;
+          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-bachelor&quot;&gt;Bachelor&lt;/a&gt;
         &lt;/li&gt;
     		&lt;li&gt;
-          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#&quot;&gt;Master&lt;/a&gt;
+          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-master&quot;&gt;Master&lt;/a&gt;
         &lt;/li&gt;
     		&lt;li&gt;
-          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#&quot;&gt;PhD&lt;/a&gt;
+          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-phd&quot;&gt;PhD&lt;/a&gt;
         &lt;/li&gt;
     		&lt;li&gt;
-          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#&quot;&gt;Lifelong Learning&lt;/a&gt;
+          &lt;a class=&quot;js-nav_item nav_item&quot; href=&quot;#&quot; data-toggle-elem=&quot;#nav-lifelong&quot;&gt;Lifelong Learning&lt;/a&gt;
         &lt;/li&gt;
   	&lt;/ul&gt;
   &lt;/nav&gt;
@@ -232,7 +232,7 @@
 					<div id="molecules-nav-grid-bachelor" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-15-nav-grid-bachelor/01-molecules-05-navigation-15-nav-grid-bachelor.html" class="patternLink" data-patternpartial="molecules-nav-grid-bachelor">Nav Grid Bachelor</a></h2>
 						<div class="sg-pattern-body">
-							  <nav id="#nav-bachelor" class="js-nav navGrid" data-nav-level="3">
+							  <nav id="nav-bachelor" class="js-nav navGrid" data-nav-level="3">
     <ul class="nav_wrap navGrid_wrap">
         <li class="navGrid_item">
           <span class="gridItem_label">econ</span>
@@ -302,7 +302,7 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										  &lt;nav id=&quot;#nav-bachelor&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
+										  &lt;nav id=&quot;nav-bachelor&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
     &lt;ul class=&quot;nav_wrap navGrid_wrap&quot;&gt;
         &lt;li class=&quot;navGrid_item&quot;&gt;
           &lt;span class=&quot;gridItem_label&quot;&gt;econ&lt;/span&gt;
@@ -376,7 +376,7 @@
 					<div id="molecules-nav-grid-master" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-16-nav-grid-master/01-molecules-05-navigation-16-nav-grid-master.html" class="patternLink" data-patternpartial="molecules-nav-grid-master">Nav Grid Master</a></h2>
 						<div class="sg-pattern-body">
-							  <nav id="#nav-master" class="js-nav navGrid" data-nav-level="3">
+							  <nav id="nav-master" class="js-nav navGrid" data-nav-level="3">
     <ul class="nav_wrap navGrid_wrap">
         <li class="navGrid_item">
           <span class="gridItem_label">econ</span>
@@ -446,7 +446,7 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										  &lt;nav id=&quot;#nav-master&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
+										  &lt;nav id=&quot;nav-master&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
     &lt;ul class=&quot;nav_wrap navGrid_wrap&quot;&gt;
         &lt;li class=&quot;navGrid_item&quot;&gt;
           &lt;span class=&quot;gridItem_label&quot;&gt;econ&lt;/span&gt;
@@ -520,7 +520,7 @@
 					<div id="molecules-nav-grid-phd" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-17-nav-grid-phd/01-molecules-05-navigation-17-nav-grid-phd.html" class="patternLink" data-patternpartial="molecules-nav-grid-phd">Nav Grid Phd</a></h2>
 						<div class="sg-pattern-body">
-							  <nav id="#nav-master" class="js-nav navGrid" data-nav-level="3">
+							  <nav id="nav-phd" class="js-nav navGrid" data-nav-level="3">
     <ul class="nav_wrap navGrid_wrap">
         <li class="navGrid_item">
           <span class="gridItem_label">comp</span>
@@ -560,7 +560,7 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										  &lt;nav id=&quot;#nav-master&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
+										  &lt;nav id=&quot;nav-phd&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
     &lt;ul class=&quot;nav_wrap navGrid_wrap&quot;&gt;
         &lt;li class=&quot;navGrid_item&quot;&gt;
           &lt;span class=&quot;gridItem_label&quot;&gt;comp&lt;/span&gt;
@@ -604,7 +604,7 @@
 					<div id="molecules-nav-grid-lifelong" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-18-nav-grid-lifelong/01-molecules-05-navigation-18-nav-grid-lifelong.html" class="patternLink" data-patternpartial="molecules-nav-grid-lifelong">Nav Grid Lifelong</a></h2>
 						<div class="sg-pattern-body">
-							  <nav id="#nav-master" class="js-nav navGrid" data-nav-level="3">
+							  <nav id="nav-lifelong" class="js-nav navGrid" data-nav-level="3">
     <ul class="nav_wrap navGrid_wrap">
         <li class="navGrid_item">
           <span class="gridItem_label">Lorem</span>
@@ -620,7 +620,7 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										  &lt;nav id=&quot;#nav-master&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
+										  &lt;nav id=&quot;nav-lifelong&quot; class=&quot;js-nav navGrid&quot; data-nav-level=&quot;3&quot;&gt;
     &lt;ul class=&quot;nav_wrap navGrid_wrap&quot;&gt;
         &lt;li class=&quot;navGrid_item&quot;&gt;
           &lt;span class=&quot;gridItem_label&quot;&gt;Lorem&lt;/span&gt;

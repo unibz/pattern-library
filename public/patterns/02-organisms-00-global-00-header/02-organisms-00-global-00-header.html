@@ -30,7 +30,7 @@
 	<body><header class="js-header header">
   <div class="l-container">
     <div class="header_inner">
-      <a href="#">
+      <a href="../../patterns/04-pages-00-homepage/04-pages-00-homepage.html">
         <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 52">
           <title>Title</title>
           <desc>Description</desc>
@@ -50,8 +50,8 @@
           <path d="M64.6,34.5H53.5v-2.7l6.5-8.5h-6.1V20h10.8v2.8L58,31.3h6.6V34.5"/>
           <path d="M38.9,47.4h25.7V51H38.9V47.4z"/>
         </svg>
-      </a>      <div class="nav">
-          <nav class="js-nav mainNav" data-nav-level="1">
+      </a>      <div class="mainNav">
+          <nav class="js-nav" data-nav-level="1">
           	<ul class="nav_wrap">
             		<li>
                   <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-university">University</a>
@@ -62,72 +62,10 @@
             		<li>
                   <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-study-courses">Study Courses</a>
                 </li>
+            		<li>
+                  <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-study-courses">Ökonomie und Management<br>des öffentlichen Sektors</a>
+                </li>
           	</ul>
-          </nav>
-          <nav id="#nav-bachelor" class="js-nav navGrid" data-nav-level="3">
-            <ul class="nav_wrap navGrid_wrap">
-                <li class="navGrid_item">
-                  <span class="gridItem_label">econ</span>
-                  <div class="gridItem_name">
-                    <a href="#">Economics and Management</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">econ</span>
-                  <div class="gridItem_name">
-                    <a href="#">Economics and Social Sciences</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">econ</span>
-                  <div class="gridItem_name">
-                    <a href="#">Tourism, Sport and Event Management</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">comp</span>
-                  <div class="gridItem_name">
-                    <a href="#">Computer Science and Engineering</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">tech</span>
-                  <div class="gridItem_name">
-                    <a href="#">Agricultural and Agro-Environmental Sciences</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">tech</span>
-                  <div class="gridItem_name">
-                    <a href="#">Industrial and Mechanical Engineering</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">edu</span>
-                  <div class="gridItem_name">
-                    <a href="#">Communication Sciences and Culture</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">edu</span>
-                  <div class="gridItem_name">
-                    <a href="#">Social Education</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">edu</span>
-                  <div class="gridItem_name">
-                    <a href="#">Social Work</a>
-                  </div>
-                </li>
-                <li class="navGrid_item">
-                  <span class="gridItem_label">dsgn</span>
-                  <div class="gridItem_name">
-                    <a href="#">Design and Art</a>
-                  </div>
-                </li>
-              <li class="navGrid_item"></li>
-            </ul>
           </nav>
       </div>
       <div class="utility">
@@ -141,12 +79,33 @@
     </div>
   </div>
 </header>
+
+<div class="navSecondary_wrapper">
+  <div class="l-container">
+      <nav id="nav-study-courses" class="js-nav navSecondary" data-nav-level="2">
+      	<ul class="nav_wrap">
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
+            </li>
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master">Master</a>
+            </li>
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-phd">PhD</a>
+            </li>
+        		<li>
+              <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-lifelong">Lifelong Learning</a>
+            </li>
+      	</ul>
+      </nav>
+  </div>
+</div>
 	<!--DO NOT REMOVE-->
 		
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "organisms-header";
-		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-nav\/01-molecules-05-navigation-00-nav.html"}];
+		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-nav\/01-molecules-05-navigation-00-nav.html"},{"lineagePattern":"molecules-nav-study-course","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-05-nav-study-course\/01-molecules-05-navigation-05-nav-study-course.html"}];
 		var lineageR       = [];
 		var patternState   = "";
 		var cssEnabled     = false;

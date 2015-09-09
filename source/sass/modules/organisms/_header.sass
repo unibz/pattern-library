@@ -9,19 +9,24 @@
   top: 0
   z-index: 3
   width: 100%
-  padding: $space-half 0 6px 0
+  padding: $space-half 0 $space-half 0
   background-color: $white
-  transition: all 500ms $motion
-  box-shadow: 0px 2px 12px -6px rgba(0,0,0,0.75);
+  transition: all .5s $motion
+  box-shadow: 0px 2px 12px -6px rgba(0,0,0,0.75)
 
 .header.is-open
   color: $white
   background-color: $primary
+  .gridItem_label
+    color: $white
 
 .header_inner
   position: relative
   display: flex
-  justify-content: flex-start
+  justify-content: space-between
+  align-items: center
+  +mq($bp-lg)
+    justify-content: flex-start
 
 
 // Logo
@@ -29,7 +34,7 @@
 
 .logo
   flex-shrink: 0;
-  margin: 7px $space*2 0 0
+  margin: 5px $space*2 0 0
   width: 65px
   height: 52px
 
@@ -41,11 +46,8 @@
 //============================================
 
 .utility
-  position: absolute
-  right: 0
   display: flex
   flex-shrink: 0
-  padding: $space 0
 
 .utility_lang
   flex-shrink: 0
@@ -72,6 +74,27 @@
 .header.is-open .utility_search
   background-image: url('../images/unibz-search-white.svg')
 
+
+// Navigations
+//============================================
+
+.mainNav
+  display: none
+  flex: 1
+  padding-top: 2px
+  +mq($bp-lg)
+    display: block
+
+.navSecondary_wrapper
+  padding: $space*1.5 0
+  background-color: $primary
+  .navSecondary
+    max-height: 0
+    overflow: hidden
+    padding-left: 117px
+    transition: max-height .5s $motion
+  .navSecondary.is-open
+    max-height: 96px
 
 // Utility burger
 //============================================

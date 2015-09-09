@@ -27,19 +27,19 @@
 		<script src="//use.typekit.net/myx3lhv.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
-	<body>  <nav class="js-nav navSecondary" data-nav-level="2">
+	<body>  <nav id="nav-study-courses" class="js-nav navSecondary" data-nav-level="2">
   	<ul class="nav_wrap">
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">Bachelor</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-bachelor">Bachelor</a>
         </li>
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">Master</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-master">Master</a>
         </li>
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">PhD</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-phd">PhD</a>
         </li>
     		<li>
-          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#">Lifelong Learning</a>
+          <a class="js-nav_item nav_item" href="#" data-toggle-elem="#nav-lifelong">Lifelong Learning</a>
         </li>
   	</ul>
   </nav>
@@ -50,7 +50,7 @@
 		// handle injection of items from PHP
 		var patternPartial = "molecules-nav-study-course";
 		var lineage        = [];
-		var lineageR       = [];
+		var lineageR       = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
 	</script>
