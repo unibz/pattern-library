@@ -15,8 +15,6 @@
   box-shadow: 0px 2px 12px -6px rgba(0,0,0,0.75)
 
 .header.is-open
-  color: $white
-  background-color: $primary
   .gridItem_label
     color: $white
 
@@ -38,8 +36,8 @@
   width: 65px
   height: 52px
 
-.header.is-open .logo
-  fill: $white
+// .header.is-open .logo
+//   fill: $white
 
 
 // Utility services and search
@@ -71,8 +69,8 @@
   background-position: center
   background-repeat: no-repeat
 
-.header.is-open .utility_search
-  background-image: url('../images/unibz-search-white.svg')
+// .header.is-open .utility_search
+//   background-image: url('../images/unibz-search-white.svg')
 
 
 // Navigations
@@ -85,16 +83,41 @@
   +mq($bp-lg)
     display: block
 
-.navSecondary_wrapper
-  padding: $space*1.5 0
+.navSecondary_wrapper,
+.navLinks_wrapper,
+.navGrid_wrapper
   background-color: $primary
-  .navSecondary
+  .navSecondary,
+  .navLinks,
+  .navGrid
     max-height: 0
     overflow: hidden
-    padding-left: 117px
-    transition: max-height .5s $motion
+    transition: max-height .5s $motion, padding .5s $motion, opacity .75s $motion
+    padding-left: 113px
+    color: $white
+    opacity: 0
+
+  .navSecondary.is-open,
+  .navLinks.is-open,
+  .navGrid.is-open
+    opacity: 1
+
   .navSecondary.is-open
+    padding-top: $space*1.5
+    padding-bottom: $space*1.5
     max-height: 96px
+
+  .navLinks.is-open
+    padding-top: $space
+    padding-bottom: $space
+    max-height: 336px
+
+  .navGrid.is-open
+    padding-bottom: $space
+    max-height: 407px
+    +mq($bp-xl)
+      max-height: 332px
+
 
 // Utility burger
 //============================================

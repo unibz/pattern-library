@@ -25,18 +25,30 @@
   line-height: 1.3
   padding-bottom: 3px
   border-bottom: 1px solid transparent
+  transition: border-bottom-color .5s $motion
 
 .nav_item::after
   display: inline-block
-  content: "\25BE"
-  margin-left: $space-half
+  content: " "
+  margin: 2px 0 0 $space-half
+  width: 0 
+  height: 0
+  border-left: 4px solid transparent
+  border-right: 4px solid transparent
+  border-top: 4px solid $black
   transition: transform .5s $motion
 
 .nav_item.is-active
-  border-bottom-color: $white
+  border-bottom-color: $color-text
 
 .nav_item.is-active::after
   transform: rotate(180deg)
+
+.navSecondary
+  .nav_item.is-active
+    border-bottom-color: $white
+  .nav_item::after
+    border-top-color: $white
 
 
 // Nav Link
@@ -58,6 +70,7 @@
 
 .navGrid_wrap
   flex-wrap: wrap
+  align-items: flex-start
   justify-content: flex-start
 
 .navGrid_item
@@ -69,4 +82,8 @@
 
 .gridItem_name
   position: relative
-  padding-right: $space
+  padding-right: $space*1.5
+
+.navGrid
+  .gridItem_label
+    color: $white
