@@ -21,11 +21,14 @@
   display: flex
   align-items: center
   font-weight: 600
-  margin-right: $space*1.5
+  margin-right: $space
   line-height: 1.3
   padding-bottom: 3px
   border-bottom: 1px solid transparent
   transition: border-bottom-color .5s $motion
+
+.nav_item-utility
+  font-weight: 300
 
 .nav_item::after
   display: inline-block
@@ -79,6 +82,7 @@
 
 .gridItem_label
   +tag
+  margin-bottom: 0
 
 .gridItem_name
   position: relative
