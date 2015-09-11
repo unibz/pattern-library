@@ -86,8 +86,8 @@
 
 .typography
   img.left
-    float: left
     +mq($bp-sm)
+      float: left
       margin: 7px $space $space 0
       width: 50%
     +mq($bp-md)
@@ -101,8 +101,8 @@
 
 .typography
   img.right
-    float: right
     +mq($bp-sm)
+      float: right
       margin: 7px 0 $space $space
       width: 50%
     +mq($bp-md)
@@ -144,9 +144,6 @@
   h6
     +h6
 
-.typography
-  h1, h2, h3, h4, h5, h6
-    clear: both
 
 // Intro text
 //============================================

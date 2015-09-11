@@ -1,14 +1,3 @@
 {
-  "class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6",
-  "links": [
-    {
-      "link": "Lorem ipsum"
-    },
-    {
-      "link": "Lorem ipsum"
-    },
-    {
-      "link": "Lorem ipsum"
-    }
-  ]
+  "links": "true"
 }

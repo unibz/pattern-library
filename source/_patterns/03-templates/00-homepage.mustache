@@ -1,0 +1,66 @@
+{{> organisms-header }}
+<main class="home">
+  {{> organisms-hero}}
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-text-paragraph (class: "intro") }}
+      </div>
+    </div>
+  </section>
+  
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3 }}
+        {{> atoms-text-paragraph }}
+      </div>
+      {{> organisms-block-links }}
+    </div>
+  </section>
+
+  <section class="l-section">
+    {{> organisms-banner }}
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3 }}
+        {{> atoms-image-4x3 (class:"right") }}
+        {{> atoms-text-paragraph }}
+        {{> atoms-button }}
+      </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3 }}
+        {{> atoms-text-paragraph }}
+        {{> atoms-button }}
+      </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      {{> molecules-media-block }}
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-2 }}
+        {{> organisms-latest-news }}
+      </div>
+    </div>
+  </section>
+
+  {{> organisms-magazine }}
+
+</main>
+{{> organisms-footer }}

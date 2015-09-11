@@ -1,0 +1,14 @@
+<div class="magazine">
+  <div class="l-container">
+    <div class="typography">
+      {{> atoms-heading-2 }}
+      {{> atoms-text-paragraph }}
+      {{> atoms-image-2x3 (class:"magazine_cover")}}
+      {{# articles }}
+        {{> atoms-heading-5 }}
+        {{> atoms-text-paragraph }}
+        {{> atoms-button }}
+      {{/ articles }}
+    </div>
+  </div>
+</div>

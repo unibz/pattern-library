@@ -1,0 +1,29 @@
+//============================================
+// Magazine 
+//============================================
+
+.magazine
+  overflow: hidden
+  background-color: $color-text
+  color: $white
+  padding: $space 0
+  +mq($bp-md)
+    padding: $space*2 0
+  +mq($bp-lg)
+    padding: $space*3 0
+
+.magazine_cover
+  width: auto
+  max-height: 300px
+  margin-right: $space
+  +mq($bp-sm)
+    float: left
+    margin: 7px $space $space 0
+  +mq($bp-md)
+    margin-left: -57px
+  +mq($bp-lg)
+    margin-left: -132px
+  +mq($bp-xl)
+    margin-left: -224px
+  +mq($bp-lg)
+    max-height: 400px
