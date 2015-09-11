@@ -2443,7 +2443,7 @@ p q r s t u v w x y z { | } ~
 					<div id="molecules-nav-mobile" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-20-nav-mobile/01-molecules-05-navigation-20-nav-mobile.html" class="patternLink" data-patternpartial="molecules-nav-mobile">Nav Mobile</a></h2>
 						<div class="sg-pattern-body">
-							<nav id="nav-mobile" class="navMobile">
+							<nav class="navMobile">
 	<ul class="navMobile_list">
   		<li>
         <a class="navMobile_item" href="#">University</a>
@@ -2623,7 +2623,7 @@ p q r s t u v w x y z { | } ~
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;nav id=&quot;nav-mobile&quot; class=&quot;navMobile&quot;&gt;
+										&lt;nav class=&quot;navMobile&quot;&gt;
 	&lt;ul class=&quot;navMobile_list&quot;&gt;
   		&lt;li&gt;
         &lt;a class=&quot;navMobile_item&quot; href=&quot;#&quot;&gt;University&lt;/a&gt;
@@ -3153,7 +3153,7 @@ p q r s t u v w x y z { | } ~
 
 <div id="nav-mobile" class="navMobile_wrapper">
   <div class="l-container">
-    <nav id="nav-mobile" class="navMobile">
+    <nav class="navMobile">
     	<ul class="navMobile_list">
       		<li>
             <a class="navMobile_item" href="#">University</a>
@@ -3663,7 +3663,7 @@ p q r s t u v w x y z { | } ~
 
 &lt;div id=&quot;nav-mobile&quot; class=&quot;navMobile_wrapper&quot;&gt;
   &lt;div class=&quot;l-container&quot;&gt;
-    &lt;nav id=&quot;nav-mobile&quot; class=&quot;navMobile&quot;&gt;
+    &lt;nav class=&quot;navMobile&quot;&gt;
     	&lt;ul class=&quot;navMobile_list&quot;&gt;
       		&lt;li&gt;
             &lt;a class=&quot;navMobile_item&quot; href=&quot;#&quot;&gt;University&lt;/a&gt;
@@ -3849,34 +3849,9 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-02-hero-00-hero-small/02-organisms-02-hero-00-hero-small.html" class="patternLink" data-patternpartial="organisms-hero-small">Hero Small</a></h2>
 						<div class="sg-pattern-body">
 							<section class="hero-small" role="banner">
-  <div class="hero-inner">
-    <h1 class="class='hero_title'">Lorem ipsum dolor sit (37 characters)</h1>  </div>
-</section>
-							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-01-headings-00-heading-1/00-atoms-01-headings-00-heading-1.html"><code>atoms-heading-1</code></a>
-									</div>
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;section class=&quot;hero-small&quot; role=&quot;banner&quot;&gt;
-  &lt;div class=&quot;hero-inner&quot;&gt;
-    &lt;h1 class=&quot;class='hero_title'&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h1&gt;  &lt;/div&gt;
-&lt;/section&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="organisms-hero" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-02-hero-00-hero/02-organisms-02-hero-00-hero.html" class="patternLink" data-patternpartial="organisms-hero">Hero</a></h2>
-						<div class="sg-pattern-body">
-							<section class="hero" role="banner" style="background-image:url(../../images/fpo_16x9.png)">
-  <div class="hero-inner">
-    <div class="hero_heading">
-      <h5 class="hero_titleLabel">Lorem ipsum dolor sit (37 characters)</h5>      <h1 class="hero_title">Lorem ipsum dolor sit (37 characters)</h1>    </div>
-  </div>
+  <div class="hero-small_background"></div>
+  <div class="hero_text">
+    <h5 class="hero_titleLabel">Lorem ipsum dolor sit (37 characters)</h5>    <h1 class="hero_title">Lorem ipsum dolor sit (37 characters)</h1>  </div>
 </section>
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
@@ -3887,11 +3862,37 @@ p q r s t u v w x y z { | } ~
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;section class=&quot;hero&quot; role=&quot;banner&quot; style=&quot;background-image:url(../../images/fpo_16x9.png)&quot;&gt;
-  &lt;div class=&quot;hero-inner&quot;&gt;
-    &lt;div class=&quot;hero_heading&quot;&gt;
-      &lt;h5 class=&quot;hero_titleLabel&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;      &lt;h1 class=&quot;hero_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h1&gt;    &lt;/div&gt;
-  &lt;/div&gt;
+										&lt;section class=&quot;hero-small&quot; role=&quot;banner&quot;&gt;
+  &lt;div class=&quot;hero-small_background&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;hero_text&quot;&gt;
+    &lt;h5 class=&quot;hero_titleLabel&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;    &lt;h1 class=&quot;hero_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h1&gt;  &lt;/div&gt;
+&lt;/section&gt;
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="organisms-hero" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-02-hero-00-hero/02-organisms-02-hero-00-hero.html" class="patternLink" data-patternpartial="organisms-hero">Hero</a></h2>
+						<div class="sg-pattern-body">
+							<section class="hero" role="banner">
+  <div class="hero_image" style="background-image:url(../../images/fpo_16x9.png)"></div>
+  <div class="hero_text">
+    <h5 class="hero_titleLabel">Lorem ipsum dolor sit (37 characters)</h5>    <h1 class="hero_title">Lorem ipsum dolor sit (37 characters)</h1>  </div>
+</section>
+							<div class="sg-code" style="display: none">
+									<div class="sg-code-contains">
+										This pattern contains: 
+											<a href="../../patterns/00-atoms-01-headings-04-heading-5/00-atoms-01-headings-04-heading-5.html"><code>atoms-heading-5</code></a>
+											<a href="../../patterns/00-atoms-01-headings-00-heading-1/00-atoms-01-headings-00-heading-1.html"><code>atoms-heading-1</code></a>
+									</div>
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;section class=&quot;hero&quot; role=&quot;banner&quot;&gt;
+  &lt;div class=&quot;hero_image&quot; style=&quot;background-image:url(../../images/fpo_16x9.png)&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;hero_text&quot;&gt;
+    &lt;h5 class=&quot;hero_titleLabel&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;    &lt;h1 class=&quot;hero_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h1&gt;  &lt;/div&gt;
 &lt;/section&gt;
 									</code>
 								</pre>

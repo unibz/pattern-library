@@ -3,28 +3,30 @@
 //============================================
 
 .hero
-  position: relative
   margin-bottom: $space*2
-  width: 100%
-  height: 260px
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  +mq($bp-sm)
-    height: 380px
-  +mq($bp-md)
-    height: 480px
   +mq($bp-lg)
     margin-bottom: $space*2
   +mq($bp-xl)
     margin-bottom: $space*3
+
+.hero_image
+  width: 100%
+  height: 300px
+  +mq($bp-sm)
+    height: 380px
+  +mq($bp-md)
+    height: 480px
+  +mq($bp-xl)
     height: 580px
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 
 .hero-small
-  position: relative
   margin-bottom: $space*2
-  width: 100%
-  height: 180px
+
+.hero-small_background
+  height: 40px
   background-color: $primary
   +mq($bp-sm)
     height: 200px
@@ -33,30 +35,25 @@
   +mq($bp-xl)
     height: 260px
 
-.hero-inner
-  position: absolute
-  z-index: 1
-  left: 50%
-  bottom: 0
-  transform: translateX(-50%)
-  width: 100%
-
-.hero_heading
-  margin: 0 auto -8px auto
+.hero_text
+  margin: 0 auto
   max-width: 368px
-  padding: 16px 16px 0 16px
+  padding: 32px 16px 0 16px
   background-color: $white
   +mq($bp-sm)
+    margin-top: -$space*3
     padding: $space $space 0 $space
     box-sizing: content-box
     max-width: 524px
   +mq($bp-md)
+    margin-top: -$space*4
     padding: $space*2 $space*2 0 $space*2
     max-width: 574px
   +mq($bp-lg)
     max-width: 688px
   +mq($bp-xl)
     max-width: 768px
+    margin-top: -$space*5
     padding: $space*3 $space*3 0 $space*3
 
 .hero_titleLabel
@@ -67,9 +64,6 @@
   +h2
   font-weight: 600
   line-height: 1.2
-
-.hero_title + .btn
-  margin-top: $space
 
 
 // Brand colors
