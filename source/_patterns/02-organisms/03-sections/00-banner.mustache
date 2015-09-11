@@ -1,0 +1,15 @@
+<div class="banner" role="banner" {{# empty }}{{/ empty }}{{^ empty }}style="background-image:url('{{ img-background }}')"{{/ empty }}>
+  <div class="l-container">
+    <div class="banner_inner">
+      {{> atoms-heading-1 (class: "banner_title") }}
+      {{> atoms-heading-2 (class: "banner_subTitle") }}
+      {{> atoms-text-paragraph (class: "banner_text") }}
+      {{# empty }}
+        {{> atoms-button-alternate (class: "btn btn-alt banner_btn") }}
+      {{/ empty }}
+      {{^ empty }}
+        {{> atoms-button (class: "btn banner_btn") }}
+      {{/ empty }}
+    </div>
+  </div>
+</div>

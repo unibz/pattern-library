@@ -7,7 +7,6 @@
   display: flex
   align-items: center
   padding: $space*2 0
-  margin-bottom: $space
   min-height: 200px
   background-color: $primary
   background-size: cover
@@ -16,8 +15,6 @@
   text-align: center
   +mq($bp-sm)
     min-height: 240px
-  +mq($bp-md)
-    margin-bottom: $space*3
   +mq($bp-lg)
     padding: $space*3 0
   +mq($bp-xl)
@@ -30,16 +27,19 @@
   width: 100%
   height: 100%
   content: " "
-  background-color: rgba($black, .3)
+  background-color: rgba($primary, .3)
 
 .banner_title,
 .banner_subTitle,
-.banner_text,
-.banner .btn
+.banner_text
   position: relative
   z-index: 1
   color: $white
   +dark-text-shadow
+
+.banner_btn
+  position: relative
+  z-index: 1
 
 .banner_title
   +h1
