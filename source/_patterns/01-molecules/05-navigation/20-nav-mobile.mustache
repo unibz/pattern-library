@@ -1,0 +1,96 @@
+{{# nav }}
+<nav id="nav-mobile" class="navMobile">
+	<ul class="navMobile_list">
+    {{# items }}
+  		<li>
+        <a class="navMobile_item" href="{{ url }}">{{ item }}</a>
+        {{# university }}
+          {{# nav-links-university }}
+            <ul class="navMobile_second">
+              {{# items }}
+                <li><a class="navMobile_link" href="{{ url }}">{{ item }}</a></li>
+              {{/ items }}
+            </ul>
+          {{/ nav-links-university }}
+        {{/ university }}
+
+        {{# study-course }}
+          {{# nav-study-course }}
+            <ul class="navMobile_second">
+              {{# items }}
+                <li>
+                  <a class="navMobile_item" href="{{ url }}">{{ item }}</a>
+                  {{# bachelor }}
+                    {{# nav-grid-bachelor }}
+                      <ul class="navMobile_third">
+                        {{# items }}
+                          <li class="navMobile_link">
+                            <span class="navMobile_label">{{ tag-item }}</span>
+                            <a href="{{ url }}">{{ item }}</a>
+                          </li>
+                        {{/ items }}
+                      </ul>
+                    {{/ nav-grid-bachelor }}
+                  {{/ bachelor }}
+
+                  {{# master }}
+                    {{# nav-grid-master }}
+                      <ul class="navMobile_third">
+                        {{# items }}
+                          <li class="navMobile_link">
+                            <span class="navMobile_label">{{ tag-item }}</span>
+                            <a href="{{ url }}">{{ item }}</a>
+                          </li>
+                        {{/ items }}
+                      </ul>
+                    {{/ nav-grid-master }}
+                  {{/ master }}
+
+                  {{# phd }}
+                    {{# nav-grid-phd }}
+                      <ul class="navMobile_third">
+                        {{# items }}
+                          <li class="navMobile_link">
+                            <span class="navMobile_label">{{ tag-item }}</span>
+                            <a href="{{ url }}">{{ item }}</a>
+                          </li>
+                        {{/ items }}
+                      </ul>
+                    {{/ nav-grid-phd }}
+                  {{/ phd }}
+
+                  {{# lifelong }}
+                    {{# nav-grid-lifelong }}
+                      <ul class="navMobile_third">
+                        {{# items }}
+                          <li class="navMobile_link">
+                            <span class="navMobile_label">{{ tag-item }}</span>
+                            <a href="{{ url }}">{{ item }}</a>
+                          </li>
+                        {{/ items }}
+                      </ul>
+                    {{/ nav-grid-lifelong }}
+                  {{/ lifelong }}
+                </li>
+              {{/ items }}
+            </ul>
+          {{/ nav-study-course }}
+        {{/ study-course }}
+
+        {{# faculty }}
+          {{# nav-links-faculty }}
+            <ul class="navMobile_second">
+              {{# items }}
+                <li><a class="navMobile_link" href="{{ url }}">{{ item }}</a></li>
+              {{/ items }}
+            </ul>
+          {{/ nav-links-faculty }}
+        {{/ faculty }}
+      </li>
+    {{/ items }}
+    <li>
+      <a class="navMobile_item" href="{{ url }}">Services</a>
+    </li>
+	</ul>
+</nav>
+{{/ nav }}

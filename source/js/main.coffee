@@ -17,16 +17,6 @@ $ ->
     $('.js-header').toggleClass 'is-open'
     $('#nav-mobile').toggleClass 'is-open'
 
-  $('.navMobile_item').on 'click', (e) ->
-    e.preventDefault()
-    $(this).toggleClass 'is-open'
-    $('#nav-mobile-second').addClass 'is-open'
-
-  $('#nav-mobile-second .navMobile_item').on 'click', (e) ->
-    e.preventDefault()
-    $(this).addClass 'is-open'
-    $('#nav-mobile-third').addClass 'is-open'
-
   # sequential update of banner
   # can be set manually via localStorage.setItem("hero-home", 2)
   hero = parseInt(localStorage.getItem('hero-home'))

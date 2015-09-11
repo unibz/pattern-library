@@ -22,15 +22,18 @@
 	  "items": [
 	    {
 	      "item": "University",
-	      "toggle": "#nav-university"
+	      "toggle": "#nav-university",
+	      "university": "true"
 	    },
 	    {
 	      "item": "Faculties",
-	      "toggle": "#nav-faculties"
+	      "toggle": "#nav-faculties",
+	      "faculty": "true"
 	    },
 	    {
 	      "item": "Study Courses",
-	      "toggle": "#nav-study-courses"
+	      "toggle": "#nav-study-courses",
+	      "study-course": "true"
 	    }
 	  ]
 	},
@@ -38,19 +41,23 @@
 	  "items": [
 	    {
 	      "item": "Bachelor",
-	      "toggle": "#nav-bachelor"
+	      "toggle": "#nav-bachelor",
+	      "bachelor": "true"
 	    },
 	    {
 	      "item": "Master",
-	      "toggle": "#nav-master"
+	      "toggle": "#nav-master",
+	      "master": "true"
 	    },
 	    {
 	      "item": "PhD",
-	      "toggle": "#nav-phd"
+	      "toggle": "#nav-phd",
+	      "phd": "true"
 	    },
 	    {
 	      "item": "Lifelong Learning",
-	      "toggle": "#nav-lifelong"
+	      "toggle": "#nav-lifelong",
+	      "lifelong": "true"
 	    }
 	  ]
 	},

@@ -28,7 +28,10 @@
   transition: border-bottom-color .5s $motion
 
 .nav_item-utility
+  display: none
   font-weight: 300
+  +mq($bp-lg)
+    display: flex
 
 .nav_item::after
   display: inline-block
