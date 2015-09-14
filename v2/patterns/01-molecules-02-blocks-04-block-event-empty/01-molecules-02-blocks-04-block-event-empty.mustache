@@ -1,0 +1,25 @@
+&lt;div class=&quot;event&quot;&gt;
+  {{^ empty }}
+  &lt;a class=&quot;event_figure&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-image-4x3 (class: &quot;event_thumb&quot;) }}
+  &lt;/a&gt;
+  {{/ empty }}
+  &lt;div class=&quot;event_body&quot;&gt;
+    {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+    &lt;div class=&quot;event_details&quot;&gt;
+      {{^ event-campus }}
+        {{&gt; atoms-text-span (class: &quot;event_meta&quot;) }}
+      {{/ event-campus }}
+      {{^ event-room }}
+        {{&gt; atoms-text-span (class: &quot;event_meta&quot;) }}
+      {{/ event-room }}
+      {{^ event-time }}
+        {{&gt; atoms-text-time (class: &quot;event_meta&quot;) }}
+      {{/ event-time }}
+      {{^ event-date }}
+        {{&gt; atoms-text-date (class: &quot;event_meta&quot;) }}
+      {{/ event-date }}
+    &lt;/div&gt;
+    {{&gt; atoms-button-text-alternate (class: &quot;event_btn&quot;) }}
+  &lt;/div&gt;
+&lt;/div&gt;

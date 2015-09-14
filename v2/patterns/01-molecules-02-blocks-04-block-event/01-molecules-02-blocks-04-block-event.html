@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Free University of Bozen-Bolzano</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+				<!-- never cache patterns -->
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?0" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?0" media="all" />
+		
+
+		<!-- End Pattern Lab -->
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="../../images/favicon.png">
+		<link rel="stylesheet" href="../../css/main.css" />
+		<!-- Load Roboto Mono from google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet' type='text/css'>
+		<!-- Load main fonts from typekit -->
+		<script src="//use.typekit.net/myx3lhv.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body><div class="event">
+  <a class="event_figure" href="#">
+    <img class="event_thumb" src="../../images/fpo_4x3.png" alt="" />  </a>
+  <div class="event_body">
+    <h2 class="event_title">Lorem ipsum dolor sit (37 characters)</h2>    <div class="event_details">
+        <span class="event_meta">Lorem</span>        <span class="event_meta">Lorem</span>        <time class="event_meta">9:21</time>        <time class="event_meta">24 June 2015</time>    </div>
+    <a href="#" class="btn-text btn-text-alt event_btn">Lorem ipsum</a>  </div>
+</div>
+	<!--DO NOT REMOVE-->
+		
+	<script>
+		// handle injection of items from PHP
+		var patternPartial = "molecules-block-event";
+		var lineage        = [{"lineagePattern":"atoms-image-4x3","lineagePath":"..\/..\/patterns\/00-atoms-04-images-01-image-4x3\/00-atoms-04-images-01-image-4x3.html"},{"lineagePattern":"atoms-heading-2","lineagePath":"..\/..\/patterns\/00-atoms-01-headings-01-heading-2\/00-atoms-01-headings-01-heading-2.html"},{"lineagePattern":"atoms-text-span","lineagePath":"..\/..\/patterns\/00-atoms-02-text-04-text-span\/00-atoms-02-text-04-text-span.html"},{"lineagePattern":"atoms-text-time","lineagePath":"..\/..\/patterns\/00-atoms-02-text-03-text-time\/00-atoms-02-text-03-text-time.html"},{"lineagePattern":"atoms-text-date","lineagePath":"..\/..\/patterns\/00-atoms-02-text-03-text-date\/00-atoms-02-text-03-text-date.html"},{"lineagePattern":"atoms-button-text-alternate","lineagePath":"..\/..\/patterns\/00-atoms-06-buttons-10-button-text-alternate\/00-atoms-06-buttons-10-button-text-alternate.html"}];
+		var lineageR       = [{"lineagePattern":"templates-faculty","lineagePath":"..\/..\/patterns\/03-templates-05-faculty\/03-templates-05-faculty.html"}];
+		var patternState   = "";
+		var cssEnabled     = false;
+	</script>
+		<script>
+		/*!
+		 * scriptLoader - v0.1
+		 *
+		 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+		 * Licensed under the MIT license
+		 *
+		 */
+		
+		var scriptLoader = {
+			
+			run: function(js,cb,target) {
+				var s  = document.getElementById(target+'-'+cb); 
+				for (var i = 0; i < js.length; i++) {
+					var src = (typeof js[i] != "string") ? js[i].src : js[i];
+					var c   = document.createElement('script');
+					c.src   = '../../'+src+'?'+cb;
+					if (typeof js[i] != "string") {
+						if (js[i].dep !== undefined) {
+							c.onload = function(dep,cb,target) {
+								return function() {
+									scriptLoader.run(dep,cb,target);
+								}
+							}(js[i].dep,cb,target);
+						}
+					}
+					s.parentNode.insertBefore(c,s);
+				}
+			}
+			
+		}
+	</script>
+	<script id="pl-js-polyfill-insert-0">
+		(function() {
+			if (self != top) {
+				var cb = '0';
+				var js = [];
+				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+					js.push("styleguide/js/vendor/classlist-polyfill.js");
+				}
+				scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+			}
+		})();
+	</script>
+	<script id="pl-js-insert-0">
+		(function() {
+			if (self != top) {
+				var cb = '0';
+				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
+				scriptLoader.run(js,cb,'pl-js-insert');
+			}
+		})();
+	</script>
+	
+
+
+  <script src="../../js/main.js"></script>
+	</body>
+</html>

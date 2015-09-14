@@ -1,0 +1,33 @@
+&lt;div class=&quot;publication&quot;&gt;
+  &lt;div class=&quot;publication_figure&quot;&gt;
+    {{# empty }}
+      &lt;div class=&quot;publication_thumb publication_thumb-empty&quot;&gt;{{&gt; atoms-text-span (class: &quot;class='publication_thumbTitle'&quot;, span: &quot;Book&quot; }}&lt;/div&gt;
+    {{/ empty }}
+    {{^ empty }}
+      {{&gt; atoms-portrait (class: &quot;class='publication_thumb'&quot;) }}
+    {{/ empty }}
+
+    {{# publ-date }}{{&gt; atoms-text-time (class: &quot;class='publication_meta'&quot;) }}{{/ publ-date }}
+    {{# publ-meta }}
+      {{&gt; atoms-text-span (class: &quot;class='publication_meta'&quot;) }}
+    {{/ publ-meta }}
+
+    {{# publ-serials }}
+      {{&gt; atoms-text-span (class: &quot;class='publication_serial'&quot;) }}
+    {{/ publ-serials }}
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;publication_body&quot;&gt;
+    {{&gt; atoms-heading-2 (class: &quot;class='publication_title'&quot;) }}
+    &lt;p class=&quot;publication_authors&quot;&gt;
+      {{&gt; atoms-text-span (class: &quot;class='publication_label'&quot;, span: &quot;Ed. by&quot;) }}
+      {{# publ-authors }}
+        {{&gt; atoms-text-span }};
+      {{/ publ-authors }}
+    &lt;/p&gt;
+    {{&gt; atoms-text-paragraph (class: &quot;class='publication_excerpt'&quot;)}}
+    {{&gt; atoms-forms-input-number (form.class: &quot;class='form_input publication_input'&quot;)}}
+    {{&gt; atoms-button (button: &quot;Buy it&quot;)}}
+    {{# publ-price }}{{&gt; atoms-text-span (class: &quot;class='publication_price'&quot;)}}{{/ publ-price }}
+  &lt;/div&gt;
+&lt;/div&gt;
