@@ -1,44 +1,45 @@
 {{> organisms-header }}
-<main>
+<main class="{{ faculty }}">
   {{> organisms-hero}}
 
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
-        {{> atoms-text-paragraph (class: "intro") }}
+        {{> atoms-text-paragraph (class: "intro-bold") }}
       </div>
     </div>
   </section>
-  
+
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
-        {{> atoms-heading-3 }}
+        {{> atoms-image-4x3 (class:"left") }}
         {{> atoms-text-paragraph }}
       </div>
-      {{> organisms-block-links }}
     </div>
   </section>
 
   <section class="l-section">
     {{> organisms-banner }}
   </section>
+  
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{# study-courses }}
+          {{> atoms-heading-3 }}
+          {{> organisms-block-links }}
+        {{/ study-courses }}
+      </div>
+    </div>
+  </section>
+
 
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
         {{> atoms-heading-3 }}
         {{> atoms-image-4x3 (class:"right") }}
-        {{> atoms-text-paragraph }}
-        {{> atoms-button }}
-      </div>
-    </div>
-  </section>
-
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3 }}
         {{> atoms-text-paragraph }}
         {{> atoms-button }}
       </div>
@@ -55,12 +56,29 @@
     <div class="l-container">
       <div class="typography">
         {{> atoms-heading-2 }}
+        {{> atoms-image-4x3 }}
+        {{> atoms-text-paragraph }}
+      </div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-2 }}
         {{> organisms-latest-news }}
       </div>
     </div>
   </section>
 
-  {{> organisms-magazine }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-2 }}
+      </div>
+      {{> molecules-block-event }}
+    </div>
+  </section>
 
 </main>
 {{> organisms-footer }}

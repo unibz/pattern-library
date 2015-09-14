@@ -6,8 +6,10 @@
         {{> molecules-nav }}
       </div>
       <div class="utility">
-        <a class="nav_item nav_item-utility js-nav_item" href="{{ url }}" data-toggle-elem="#nav-languages">EN</a>
-        <a class="nav_item nav_item-utility js-nav_item" href="{{ url }}" data-toggle-elem="#nav-services">Services</a>
+        {{# nav-utilities }}
+          <a class="nav_item nav_item-utility js-nav_item" href="{{ url }}" data-toggle-elem="#nav-languages">{{ language }}</a>
+          <a class="nav_item nav_item-utility js-nav_item" href="{{ url }}" data-toggle-elem="#nav-services">{{ service }}</a>
+        {{/ nav-utilities }}
         <div class="utility_search"></div>
         <div class="utility_hamburger">
           <div class="burger"></div>

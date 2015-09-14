@@ -1,44 +1,45 @@
 {{&gt; organisms-header }}
-&lt;main&gt;
+&lt;main class=&quot;{{ faculty }}&quot;&gt;
   {{&gt; organisms-hero}}
 
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
       &lt;div class=&quot;typography&quot;&gt;
-        {{&gt; atoms-text-paragraph (class: &quot;intro&quot;) }}
+        {{&gt; atoms-text-paragraph (class: &quot;intro-bold&quot;) }}
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/section&gt;
-  
+
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
       &lt;div class=&quot;typography&quot;&gt;
-        {{&gt; atoms-heading-3 }}
+        {{&gt; atoms-image-4x3 (class:&quot;left&quot;) }}
         {{&gt; atoms-text-paragraph }}
       &lt;/div&gt;
-      {{&gt; organisms-block-links }}
     &lt;/div&gt;
   &lt;/section&gt;
 
   &lt;section class=&quot;l-section&quot;&gt;
     {{&gt; organisms-banner }}
   &lt;/section&gt;
+  
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{# study-courses }}
+          {{&gt; atoms-heading-3 }}
+          {{&gt; organisms-block-links }}
+        {{/ study-courses }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
 
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
       &lt;div class=&quot;typography&quot;&gt;
         {{&gt; atoms-heading-3 }}
         {{&gt; atoms-image-4x3 (class:&quot;right&quot;) }}
-        {{&gt; atoms-text-paragraph }}
-        {{&gt; atoms-button }}
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container&quot;&gt;
-      &lt;div class=&quot;typography&quot;&gt;
-        {{&gt; atoms-heading-3 }}
         {{&gt; atoms-text-paragraph }}
         {{&gt; atoms-button }}
       &lt;/div&gt;
@@ -55,12 +56,29 @@
     &lt;div class=&quot;l-container&quot;&gt;
       &lt;div class=&quot;typography&quot;&gt;
         {{&gt; atoms-heading-2 }}
+        {{&gt; atoms-image-4x3 }}
+        {{&gt; atoms-text-paragraph }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-heading-2 }}
         {{&gt; organisms-latest-news }}
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/section&gt;
 
-  {{&gt; organisms-magazine }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-heading-2 }}
+      &lt;/div&gt;
+      {{&gt; molecules-block-event }}
+    &lt;/div&gt;
+  &lt;/section&gt;
 
 &lt;/main&gt;
 {{&gt; organisms-footer }}

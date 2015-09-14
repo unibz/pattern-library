@@ -1,5 +1,7 @@
 {
-  "links": "true",
+  "links": {
+    "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+  },
   "latest-news": "true",
   "articles": "true"
 }
