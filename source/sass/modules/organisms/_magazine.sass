@@ -12,10 +12,28 @@
   +mq($bp-lg)
     padding: $space*3 0
 
+.magazine_inner
+  margin: 0 auto
+  max-width: 574px
+  +mq($bp-sm)
+    font-size: 17px
+  +mq($bp-md)
+    font-size: 18px
+  +mq($bp-lg)
+    max-width: 688px
+    font-size: 19px
+  +mq($bp-xl)
+    max-width: 768px
+    font-size: 20px
+
+.magazine_title
+  +h3
+  margin-bottom: $space-quarter
+
 .magazine_cover
   width: auto
   max-height: 300px
-  margin-right: $space
+  margin: 0 $space $space 0
   +mq($bp-sm)
     float: left
     margin: 7px $space $space 0
@@ -27,3 +45,6 @@
     margin-left: -224px
   +mq($bp-lg)
     max-height: 400px
+
+.magazineArticle_title
+  +h5

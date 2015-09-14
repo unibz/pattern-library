@@ -1,0 +1,67 @@
+<footer class="footer">
+  <div class="l-container">
+    {{> atoms-heading-3 (class: "footer_title")}}
+    <div class="g-row">
+      <div class="g g-md-12">
+        {{> atoms-text-paragraph }}
+
+        <div class="footer_section">
+          {{# footer-place }}
+            <div class="g-row u-push-btm">
+              {{> atoms-heading-6 (class: "footer_sectionTitle g g-24") }}
+              <div class="g g-sm-12">
+                {{> atoms-image-4x3 }}
+              </div>
+              <div class="g g-sm-12">
+                {{# footer-address }}
+                  <p class="footer_address">{{ span }}</p>
+                {{/ footer-address }}
+                {{# footer-contact }}
+                  <a class="footer_link" href="{{ url }}">{{ span }}</a>
+                {{/ footer-contact }}
+              </div>
+            </div>
+          {{/ footer-place }}
+        </div>
+
+        {{# footer-transparency }}
+          <div class="footer_section">
+            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
+            {{> atoms-text-paragraph }}
+          </div>
+        {{/ footer-transparency }}
+      </div>
+
+      <div class="g g-md-12 g-md-push-1">
+        {{# footer-map }}
+          {{> atoms-maps }}
+        {{/ footer-map }}
+
+        {{# footer-social }}
+          <div class="footer_section">
+            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
+            {{> molecules-social-links }}
+          </div>
+        {{/ footer-social }}
+
+        {{# footer-newsletter }}
+          <div class="footer_section">
+            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
+            <form class="footer_form" action="#">
+              {{> atoms-forms-input-email (class: "footer_input")}}
+              {{> atoms-button-alternate (class: "footer_button")}}
+            </form>
+          </div>
+        {{/ footer-newsletter }}
+
+        {{# footer-links }}
+          <div class="footer_section">
+            {{# footer-credit }}
+              <a class="footer_link" href="{{ url }}">{{ span }}</a>
+            {{/ footer-credit }}
+          </div>
+        {{/ footer-links }}
+      </div>
+    </div>
+  </div>
+</footer>

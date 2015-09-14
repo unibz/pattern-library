@@ -1,9 +1,17 @@
 <section class="hero" role="banner">
   <div class="hero_image" style="background-image:url({{ img-background }})">
-    <span class="hero_caption">{{ headline }}</span>
+    {{# hero-caption }}
+      <span class="hero_caption">{{ headline }}</span>
+    {{/ hero-caption }}
   </div>
-  <div class="hero_text">
-    {{> atoms-heading-5 (class:"hero_titleLabel") }}
-    {{> atoms-heading-1 (class:"hero_title") }}
-  </div>
+  {{# hero-text }}
+    <div class="hero_text">
+      {{# hero-label }}
+        {{> atoms-heading-5 (class:"hero_titleLabel") }}
+      {{/ hero-label }}
+      {{# hero-title }}
+        {{> atoms-heading-1 (class:"hero_title") }}
+      {{/ hero-title }}
+    </div>
+  {{/ hero-text }}
 </section>

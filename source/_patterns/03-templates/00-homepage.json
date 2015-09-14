@@ -1,7 +1,42 @@
 {
-  "links": {
-    "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+  "page-hero": {
+    "hero-caption": "true",
+    "hero-text": {
+      "hero-label": "true",
+      "hero-title": "true"
+    }
   },
-  "latest-news": "true",
-  "articles": "true"
+  "page-intro": "true",
+  "page-faculties": {
+    "links": {
+      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+    }
+  },
+  "page-banner": {
+    "banner-title": "true",
+    "banner-sub-title": "true"
+  },
+  "page-research": "true",
+  "page-region": "true",
+  "page-library": "true",
+  "page-news": {
+    "latest-news": "true"
+  },
+  "page-magazine": {
+    "articles": "true"
+  },
+  
+  "footer-places": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    }
+  },
+  "footer-map": "true",
+  "footer-social": "true",
+  "footer-newsletter": "true",
+  "footer-transparency": "true",
+  "footer-links": {
+    "footer-credit": "true"
+  }
 }

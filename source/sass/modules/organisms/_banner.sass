@@ -20,6 +20,20 @@
   +mq($bp-xl)
     padding: $space*4 0
 
+.banner_inner
+  margin: 0 auto
+  max-width: 574px
+  +mq($bp-sm)
+    font-size: 17px
+  +mq($bp-md)
+    font-size: 18px
+  +mq($bp-lg)
+    max-width: 688px
+    font-size: 19px
+  +mq($bp-xl)
+    max-width: 768px
+    font-size: 20px
+
 .banner::after
   position: absolute
   top: 0
@@ -27,7 +41,7 @@
   width: 100%
   height: 100%
   content: " "
-  background-color: rgba($primary, .3)
+  background-color: rgba($black, .3)
 
 .banner_title,
 .banner_subTitle,
@@ -40,12 +54,15 @@
 .banner_btn
   position: relative
   z-index: 1
+  margin-bottom: 0
 
 .banner_title
-  +h1
+  +h2
+  font-weight: 300
 
 .banner_subTitle
-  +h2
+  +h3
+  font-weight: 300
 
 .banner_text
   margin-bottom: 0
@@ -55,7 +72,7 @@
 .banner_title + .banner_text,
 .banner_subTitle + .banner_text,
 .banner_text + .btn
-  margin-top: $space
+  margin-top: $space-half
 
 
 // Brand colors

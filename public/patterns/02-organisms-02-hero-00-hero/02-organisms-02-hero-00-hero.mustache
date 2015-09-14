@@ -1,9 +1,17 @@
 &lt;section class=&quot;hero&quot; role=&quot;banner&quot;&gt;
   &lt;div class=&quot;hero_image&quot; style=&quot;background-image:url({{ img-background }})&quot;&gt;
-    &lt;span class=&quot;hero_caption&quot;&gt;{{ headline }}&lt;/span&gt;
+    {{# hero-caption }}
+      &lt;span class=&quot;hero_caption&quot;&gt;{{ headline }}&lt;/span&gt;
+    {{/ hero-caption }}
   &lt;/div&gt;
-  &lt;div class=&quot;hero_text&quot;&gt;
-    {{&gt; atoms-heading-5 (class:&quot;hero_titleLabel&quot;) }}
-    {{&gt; atoms-heading-1 (class:&quot;hero_title&quot;) }}
-  &lt;/div&gt;
+  {{# hero-text }}
+    &lt;div class=&quot;hero_text&quot;&gt;
+      {{# hero-label }}
+        {{&gt; atoms-heading-5 (class:&quot;hero_titleLabel&quot;) }}
+      {{/ hero-label }}
+      {{# hero-title }}
+        {{&gt; atoms-heading-1 (class:&quot;hero_title&quot;) }}
+      {{/ hero-title }}
+    &lt;/div&gt;
+  {{/ hero-text }}
 &lt;/section&gt;
