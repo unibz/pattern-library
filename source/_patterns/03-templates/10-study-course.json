@@ -1,0 +1,35 @@
+{
+  "page-hero": {
+    "hero-text": {
+      "hero-label": "true",
+      "hero-title": "true"
+    }
+  },
+  "page-intro": {
+    "intro": "true",
+    "description": "true"
+  },
+  "page-glance": "true",
+  "page-study-structure": "true",
+  "page-people": "true",
+  "page-exchange": "true",
+  "page-work": {
+    "intro": "true",
+    "testimonial": "true"
+  },
+  "page-admission": "true",
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{{> organisms-header }}
+<main>
+  {{# page-hero }}
+    {{> organisms-hero }}
+  {{/ page-hero }}
+
+  {{# page-intro }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{# intro }}
+            {{> atoms-text-paragraph (class: "intro-bold") }}
+          {{/ intro }}
+          {{# description }}
+            {{> atoms-text-paragraph }}
+          {{/ description }}
+        </div>
+      </div>
+    </section>
+  {{/ page-intro }}
+
+  {{# page-glance }}
+    {{> molecules-block-glance }}
+  {{/ page-glance }}
+  
+  {{# page-study-structure }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+          {{> atoms-text-paragraph }}
+          {{> atoms-button }}
+        </div>
+      </div>
+    </section>
+  {{/ page-study-structure }}
+
+  {{# page-people }}
+    <section class="l-section">
+      <div class="l-container">
+        {{> molecules-media-block }}
+      </div>
+    </section>
+  {{/ page-people }}
+
+  {{# page-exchange }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+    </section>
+  {{/ page-exchange }}
+
+  {{# page-work }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{# intro }}
+            {{> atoms-heading-2 }}
+            {{> atoms-text-paragraph }}
+          {{/ intro }}
+          {{# testimonial }}
+            {{> atoms-heading-3 }}
+            {{> atoms-image-4x3 (class:"left") }}
+            {{> atoms-text-paragraph }}
+          {{/ testimonial }}
+        </div>
+      </div>
+    </section>
+  {{/ page-work }}
+
+  {{# page-admission }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+          {{> atoms-text-paragraph }}
+          {{> atoms-button-big }}
+        </div>
+      </div>
+    </section>
+  {{/ page-admission }}
+
+</main>
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}
