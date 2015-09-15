@@ -10,14 +10,14 @@
             &lt;div class=&quot;g-row u-push-btm&quot;&gt;
               {{&gt; atoms-heading-6 (class: &quot;footer_sectionTitle g g-24&quot;) }}
               &lt;div class=&quot;g g-sm-12&quot;&gt;
-                {{&gt; atoms-image-4x3 }}
+                {{&gt; atoms-image-4x3 (class: &quot;footer_image&quot;) }}
               &lt;/div&gt;
               &lt;div class=&quot;g g-sm-12&quot;&gt;
                 {{# footer-address }}
                   &lt;p class=&quot;footer_address&quot;&gt;{{ span }}&lt;/p&gt;
                 {{/ footer-address }}
                 {{# footer-contact }}
-                  &lt;a class=&quot;footer_link&quot; href=&quot;{{ url }}&quot;&gt;{{ span }}&lt;/a&gt;
+                  &lt;a class=&quot;footer_link footer_link-block&quot; href=&quot;{{ url }}&quot;&gt;{{ span }}&lt;/a&gt;
                 {{/ footer-contact }}
               &lt;/div&gt;
             &lt;/div&gt;
@@ -57,8 +57,9 @@
         {{# footer-links }}
           &lt;div class=&quot;footer_section&quot;&gt;
             {{# footer-credit }}
-              &lt;a class=&quot;footer_link&quot; href=&quot;{{ url }}&quot;&gt;{{ span }}&lt;/a&gt;
+              &lt;a class=&quot;footer_link u-push-rgt&quot; href=&quot;{{ url }}&quot;&gt;{{ span }}&lt;/a&gt;
             {{/ footer-credit }}
+            &lt;span&gt;&copy; Unibz&lt;/span&gt;
           &lt;/div&gt;
         {{/ footer-links }}
       &lt;/div&gt;
