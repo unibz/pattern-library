@@ -1,22 +1,24 @@
 &lt;div class=&quot;event&quot;&gt;
   {{^ empty }}
-  &lt;a class=&quot;event_figure&quot; href=&quot;{{ url }}&quot;&gt;
-    {{&gt; atoms-image-4x3 (class: &quot;event_thumb&quot;) }}
-  &lt;/a&gt;
+    &lt;a class=&quot;event_figure&quot; href=&quot;{{ url }}&quot;&gt;
+      {{&gt; atoms-image-4x3 (class: &quot;event_thumb&quot;) }}
+    &lt;/a&gt;
   {{/ empty }}
   &lt;div class=&quot;event_body&quot;&gt;
-    {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+    {{# event-title }}
+      {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+    {{/ event-title }}
     &lt;div class=&quot;event_details&quot;&gt;
-      {{^ event-campus }}
+      {{# event-campus }}
         {{&gt; atoms-text-span (class: &quot;event_meta&quot;) }}
       {{/ event-campus }}
-      {{^ event-room }}
+      {{# event-room }}
         {{&gt; atoms-text-span (class: &quot;event_meta&quot;) }}
       {{/ event-room }}
-      {{^ event-time }}
+      {{# event-time }}
         {{&gt; atoms-text-time (class: &quot;event_meta&quot;) }}
       {{/ event-time }}
-      {{^ event-date }}
+      {{# event-date }}
         {{&gt; atoms-text-date (class: &quot;event_meta&quot;) }}
       {{/ event-date }}
     &lt;/div&gt;

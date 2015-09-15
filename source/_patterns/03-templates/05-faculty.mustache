@@ -1,7 +1,10 @@
 {{> organisms-header }}
-<main class="{{ faculty }}">
-  {{> organisms-hero}}
+<main>
+  {{# page-hero }}
+    {{> organisms-hero}}
+  {{/ page-hero }}
 
+  {{# page-intro }}
   <section class="l-section">
     <div class="l-container">
       <div class="typography">
@@ -9,76 +12,95 @@
       </div>
     </div>
   </section>
+  {{/ page-intro }}
 
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-image-4x3 (class:"left") }}
-        {{> atoms-text-paragraph }}
+  {{# page-description }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-image-4x3 (class:"left") }}
+          {{> atoms-text-paragraph }}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  {{/ page-description }}
 
-  <section class="l-section">
+  {{# page-banner }}
     {{> organisms-banner }}
-  </section>
+  {{/ page-banner }}
   
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{# study-courses }}
-          {{> atoms-heading-3 }}
-          {{> organisms-block-links }}
-        {{/ study-courses }}
+  {{# page-study-courses }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{# study-courses }}
+            {{> atoms-heading-2 }}
+            {{> organisms-block-links }}
+          {{/ study-courses }}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  {{/ page-study-courses }}
 
 
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3 }}
-        {{> atoms-image-4x3 (class:"right") }}
-        {{> atoms-text-paragraph }}
-        {{> atoms-button }}
+  {{# page-research }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+          {{> atoms-image-4x3 (class:"right") }}
+          {{> atoms-text-paragraph }}
+          {{> atoms-button }}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  {{/ page-research }}
 
-  <section class="l-section">
-    <div class="l-container">
-      {{> molecules-media-block }}
-    </div>
-  </section>
-
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-2 }}
-        {{> atoms-image-4x3 }}
-        {{> atoms-text-paragraph }}
+  {{# page-people }}
+    <section class="l-section">
+      <div class="l-container">
+        {{> molecules-media-block }}
       </div>
-    </div>
-  </section>
+    </section>
+  {{/ page-people }}
 
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-2 }}
-        {{> organisms-latest-news }}
+  {{# page-partner }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+          {{> atoms-image-4x3 }}
+          {{> atoms-text-paragraph }}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  {{/ page-partner }}
 
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-2 }}
+  {{# page-news }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+          {{> organisms-latest-news }}
+        </div>
       </div>
-      {{> molecules-block-event }}
-    </div>
-  </section>
+    </section>
+  {{/ page-news }}
+
+  {{# page-events }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+        </div>
+        {{# events }}
+          {{> molecules-block-event }}
+        {{/ events }}
+      </div>
+    </section>
+  {{/ page-events }}
 
 </main>
-{{> organisms-footer }}
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

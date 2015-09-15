@@ -24,12 +24,20 @@
           {{/ footer-place }}
         </div>
 
+        {{# footer-openings }}
+          <div class="footer_section">
+            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
+            {{> atoms-text-paragraph }}
+          </div>
+        {{/ footer-openings }}
+
         {{# footer-transparency }}
           <div class="footer_section">
             {{> atoms-heading-5 (class: "footer_sectionTitle")}}
             {{> atoms-text-paragraph }}
           </div>
         {{/ footer-transparency }}
+
       </div>
 
       <div class="g g-md-12 g-md-push-1">

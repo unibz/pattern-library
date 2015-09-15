@@ -43,7 +43,9 @@
       "headline": "Studieren an der unibz"
     },
     "excerpt": "Wir bieten mehrsprachige Studienprogramme auf Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität.",
-    "button": "Mehr Info"
+    "banner-button": {
+      "button": "Mehr Info"
+    }
   },
 
   "page-research": {

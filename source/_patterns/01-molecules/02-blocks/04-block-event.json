@@ -1,0 +1,7 @@
+{
+  "event-title": "true",
+  "event-campus": "true",
+  "event-room": "true",
+  "event-time": "true",
+  "event-date": "true"
+}

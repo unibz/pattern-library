@@ -9,10 +9,14 @@
     {{/ banner-sub-title }}
       {{> atoms-text-paragraph (class: "banner_text") }}
       {{# empty }}
-        {{> atoms-button-alternate (class: "banner_btn") }}
+        {{# banner-button }}
+          {{> atoms-button-alternate (class: "banner_btn") }}
+        {{/ banner-button }}
       {{/ empty }}
       {{^ empty }}
-        {{> atoms-button (class: "banner_btn") }}
+        {{# banner-button }}
+          {{> atoms-button (class: "banner_btn") }}
+        {{/ banner-button }}
       {{/ empty }}
     </div>
   </div>

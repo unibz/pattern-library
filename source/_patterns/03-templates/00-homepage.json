@@ -1,10 +1,6 @@
 {
   "page-hero": {
-    "hero-caption": "true",
-    "hero-text": {
-      "hero-label": "true",
-      "hero-title": "true"
-    }
+    "hero-caption": "true"
   },
   "page-intro": "true",
   "page-faculties": {
@@ -14,7 +10,8 @@
   },
   "page-banner": {
     "banner-title": "true",
-    "banner-sub-title": "true"
+    "banner-sub-title": "true",
+    "banner-button": "true"
   },
   "page-research": "true",
   "page-region": "true",

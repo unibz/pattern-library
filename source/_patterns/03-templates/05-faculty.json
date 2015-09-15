@@ -1,23 +1,50 @@
 {
-  "study-courses": {
-    "links": {
-      "links-class": "g g-sm-12"
+  "page-hero": {
+    "hero-text": {
+      "hero-label": "true",
+      "hero-title": "true"
     }
   },
-  "latest-news": "true",
-  "articles": "true",
-
-  "footer-places": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
+  "page-intro": "true",
+  "page-description": "true",
+  "page-banner": {
+    "banner-title": "true"
+  },
+  "page-study-courses": {
+    "study-courses": {
+      "links": {
+        "links-class": "g g-sm-12"
+      }
     }
   },
-  "footer-map": "true",
-  "footer-social": "true",
-  "footer-newsletter": "true",
-  "footer-transparency": "true",
-  "footer-links": {
-    "footer-credit": "true"
+  "page-research": "true",
+  "page-people": "true",
+  "page-partner": "true",
+  "page-news": {
+    "latest-news": "true"
+  },
+  "page-events": {
+    "events": {
+      "event-title": "true",
+      "event-campus": "true",
+      "event-room": "true",
+      "event-time": "true",
+      "event-date": "true"
+    }
+  },
+  "page-footer": {
+    "footer-places": {
+      "footer-place": {
+        "footer-address": "true",
+        "footer-contact": "true"
+      }
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
   }
 }
