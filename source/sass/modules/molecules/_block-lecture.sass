@@ -6,16 +6,29 @@
   display: flex
   flex-flow: row wrap
   justify-content: space-between
+  margin-bottom: $space*2
+
+.blockLectures:last-child
+  margin-bottom: 0
 
 .blockLecture
+  margin-bottom: $space
+  flex: 0 0 100%
   +mq($bp-md)
     flex: 0 0 46%
   +mq($bp-lg)
     flex: 0 0 30%
-    margin-bottom: $space*2
+
+.blockLecture:last-child
+  margin-bottom: 0
+
+.blockLecture:nth-last-child(-n+3)
+  +mq($bp-lg)
+    margin-bottom: 0
 
 .blockLecture_meta
   +tag
+  margin-bottom: 0
 
 .blockLecture_title
-  +h5
+  +h6

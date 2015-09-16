@@ -1,0 +1,48 @@
+{{> organisms-header }}
+
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  {{# page-intro }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+    </section>
+  {{/ page-intro }}
+
+  {{# page-lectures }}
+    <section class="l-section">
+      <div class="l-container">
+        {{# lectures }}
+          <div class="typography">
+            {{> atoms-heading-3 }}
+          </div>
+          <div class="blockLectures">
+            {{# lecture }}
+              {{> molecules-lecture }}
+            {{/ lecture }}
+          </div>
+        {{/ lectures }}
+      </div>
+    </section>
+  {{/ page-lectures }}
+
+  {{# page-details }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+    </section>
+  {{/ page-details }}
+</main>
+
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

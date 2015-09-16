@@ -56,7 +56,7 @@
   },
   "page-footer": {
     "headline": "Laurea magistrale in Imprenditorialità e Innovazione",
-    "excerpt": "Contribute your creativity. Get top-notch business knowledge on start-ups and innovation from us. Turn your ideas into your start-up!",
+    "excerpt": "Il corso biennale fornisce agli studenti le conoscenze teoriche e gli strumenti di analisi necessari alla comprensione dell’imprenditorialità e dell’innovazione, in prospettiva economica e gestionale.",
     "footer-place": [
       {
         "headline": "Campus Bolzano",
@@ -79,21 +79,21 @@
     ],
     "footer-openings": {
       "headline": "Orario d'apertura",
-      "excerpt": "Lunedì<br>10:00 - 12:00<br>13:30 - 16:30<br>Mercoledì<br>10:00 - 12:00<br>14:00 - 16:00<br>Giovedì<br>10:00 - 12:00<br>Venerdì<br>13:30 - 16:30<br>"
+      "excerpt": "Lunedì<br>10:00 - 12:00 e 13:30 - 16:30<br>Mercoledì<br>10:00 - 12:00 e 14:00 - 16:00<br>Giovedì<br>10:00 - 12:00<br>Venerdì<br>13:30 - 16:30"
     },
     "footer-map": "true",
     "footer-social": {
-      "headline": "Folgen Sie uns"
+      "headline": "Seguici sui social"
     },
     "footer-newsletter": {
-      "headline": "Abonniere unseren Newsletter",
-      "span": "Geben Sie Ihre E-Mail",
+      "headline": "Iscriviti alla nostra newsletter",
+      "span": "Scrivi qui la tua e-mail",
       "button": "Senden"
     },
     "footer-links": {
       "footer-credit": [
         {
-          "span": "Impressum"
+          "span": "Crediti"
         },
         {
           "span": "Privacy"
