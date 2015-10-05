@@ -11,29 +11,33 @@
 
 
 $i-map: (
-  i-map-path: url("../images/sprite-d5aa0b20.svg"),
-  i-map-width: 105px,
+  i-map-path: url("../images/sprite-6f1b9535.svg"),
+  i-map-width: 126px,
   i-map-height: 20px,
 
   i-facebook-width: 21px,
   i-facebook-height: 20px,
   i-facebook-position: 0 0,
 
+  i-instagram-width: 21px,
+  i-instagram-height: 20px,
+  i-instagram-position: -21px 0,
+
   i-linkedin-width: 21px,
   i-linkedin-height: 20px,
-  i-linkedin-position: -21px 0,
+  i-linkedin-position: -42px 0,
 
   i-mail-width: 21px,
   i-mail-height: 20px,
-  i-mail-position: -42px 0,
+  i-mail-position: -63px 0,
 
   i-print-width: 21px,
   i-print-height: 20px,
-  i-print-position: -63px 0,
+  i-print-position: -84px 0,
 
   i-twitter-width: 21px,
   i-twitter-height: 20px,
-  i-twitter-position: -84px 0
+  i-twitter-position: -105px 0
 );
 
 
@@ -50,7 +54,7 @@ $i-map: (
 }
 
 %i {
-  background-image: url("../images/sprite-d5aa0b20.svg");
+  background-image: url("../images/sprite-6f1b9535.svg");
 }
 
 @mixin extend-i-url($extend: true) {
@@ -85,10 +89,23 @@ $i-map: (
 }
 
 
-@mixin i-linkedin($add-style: true, $add-url: true) {
+@mixin i-instagram($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
   background-position: -21px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-instagram {
+  @include i-instagram(false, false);
+}
+
+
+@mixin i-linkedin($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -42px 0;
   width: 21px;
   height: 20px;
 }
@@ -101,7 +118,7 @@ $i-map: (
 @mixin i-mail($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -42px 0;
+  background-position: -63px 0;
   width: 21px;
   height: 20px;
 }
@@ -114,7 +131,7 @@ $i-map: (
 @mixin i-print($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -63px 0;
+  background-position: -84px 0;
   width: 21px;
   height: 20px;
 }
@@ -127,7 +144,7 @@ $i-map: (
 @mixin i-twitter($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -84px 0;
+  background-position: -105px 0;
   width: 21px;
   height: 20px;
 }

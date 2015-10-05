@@ -5,21 +5,28 @@
 .socialItem
   display: inline-block
   margin-right: $space-half
-  padding-top: 6px
-  padding-left: 2px
-  width: 40px
-  height: 40px
+  padding-top: 8px
+  padding-left: 1px
+  width: 48px
+  height: 48px
   border-radius: 50%
+  border: 2px solid $white
   text-align: center
+  transition: background-color .5s $motion, border-color .5s $motion
 
-.socialItem-facebook
-  background-color: #3b5998
-
-.socialItem-twitter
-  background-color: #55acee
-
-.socialItem-linkedin
-  background-color: #0077b5
+.socialItem:hover
+  &.socialItem-facebook
+    background-color: $facebook
+    border-color: $facebook
+  &.socialItem-twitter
+    background-color: $twitter
+    border-color: $twitter
+  &.socialItem-linkedin
+    background-color: $linkedin
+    border-color: $linkedin
+  &.socialItem-instagram
+    background-color: $instagram
+    border-color: $instagram
 
 .socialItem-mail,
 .socialItem-print
