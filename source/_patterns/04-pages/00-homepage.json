@@ -15,23 +15,23 @@
     "excerpt": "Die unibz ist keine Volluniversität. Ihr Studienangebot an den 5 Fakultäten und die Schwerpunkte in der Forschung spiegeln ihre starke regionale Verwurzelung und ihre gleichzeitige internationale Vernetzung wider.",
     "links": [
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_edu",
         "headline": "Bildungswissenschaften"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8",
-        "headline": "Bildungswissenschaften"
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_eco",
+        "headline": "Wirtschaftswissenschaften"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_comp-science",
         "headline": "Informatik"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_des-art",
         "headline": "Design und Künste"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_science-tech",
         "headline": "Naturwissenschaften und Technik"
       }
     ]
@@ -99,6 +99,20 @@
       }
     ],
     "button": "Alle News"
+  },
+
+  "page-events": {
+    "headline": "Events",
+    "events": [
+      {
+        "event-title": "true",
+        "event-campus": "true",
+        "event-room": "true",
+        "event-time": "true",
+        "event-date": "true"
+      }
+    ],
+    "button": "Alle Events"
   },
 
   "page-magazine": {

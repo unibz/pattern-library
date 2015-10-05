@@ -1,5 +1,5 @@
 {{> organisms-header }}
-<main>
+<main class="home">
   {{# page-hero }}
     {{> organisms-hero}}
   {{/ page-hero }}
@@ -73,6 +73,22 @@
       </div>
     </section>
   {{/ page-news }}
+
+  {{# page-events }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-2 }}
+        </div>
+        {{# events }}
+          {{> molecules-block-event }}
+        {{/ events }}
+        <div class="typography">
+          {{> atoms-button }}
+        </div>
+      </div>
+    </section>
+  {{/ page-events }}
 
   {{# page-magazine }}
     {{> organisms-magazine }}
