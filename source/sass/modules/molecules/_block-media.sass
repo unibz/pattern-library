@@ -4,8 +4,7 @@
 
 
 .mediaBlock
-  +mq($bp-lg)
-    display: flex
+  overflow: hidden
 
 
 // Media Block Figure
@@ -13,7 +12,8 @@
 
 .mediaBlock_figure
   +mq($bp-lg)
-    flex-basis: 50%
+    float: left
+    width: 50%
 
 .mediaBlock_thumb
   width: 100%
@@ -31,7 +31,8 @@
     padding: $space $space 18px $space
   +mq($bp-lg)
     position: relative
-    flex-basis: 50%
+    float: left
+    width: 50%
     padding: 0 $space (3 / 4) * 50% $space
     width: 50%
     height: 0
@@ -76,9 +77,33 @@
   +mq($bp-xl)
     padding-top: $space*2
 
-.mediaBlock_excerpt
-  a
-    border-bottom: 1px solid $white
+.mediaBlock_excerpt a
+  +link-light($primary)
+
+.t_des-art
+  .mediaBlock_excerpt a
+    +link-light($des-art)
+
+.t_eco
+  .mediaBlock_excerpt a
+    +link-light($eco)
+
+.t_edu
+  .mediaBlock_excerpt a
+    +link-light($edu)
+
+.t_comp-science
+  .mediaBlock_excerpt a
+    +link-light($comp-science)
+
+.t_science-tech
+  .mediaBlock_excerpt a
+    +link-light($science-tech)
+
+.t_library
+  .mediaBlock_excerpt a
+    +link-light($library)
+    
 
 .mediaBlock_btn
   margin-bottom: 0

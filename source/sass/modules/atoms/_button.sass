@@ -10,7 +10,7 @@
   display: inline-block
   width: auto
   margin-bottom: $space
-  padding: 10px $space-half
+  padding: 10px $space-half 8px $space-half
   font-size: $fs
   font-family: inherit
   letter-spacing: 1px
@@ -33,7 +33,23 @@
     border-color: shade($primary, 30%)
   &:active
     box-shadow: inset 0 0 1000px rgba($black, .3)
-  
+
+
+// Button dark
+//===========================================
+
+.btn-dark
+  color: $white
+  background-color: shade($black, 95%)
+  border-color: shade($black, 90%)
+  +dark-box-shadow
+  +dark-text-shadow
+  &:hover
+    background-color: shade($black, 95%)
+    border-color: shade($black, 90%)
+  &:active
+    box-shadow: inset 0 0 1000px rgba($white, .2)
+
 
 // Button alternate
 //===========================================
@@ -43,12 +59,12 @@
   background-color: light($white, 95%)
   border-color: light($white, 90%)
   +light-box-shadow
-  +light-text-shadow
+  text-shadow: none
   &:hover
-    background-color: light($white, 95%)
-    border-color: light($white, 90%)
+    background-color: $gray-light
+    border-color: light($gray-light, 10%)
   &:active
-    box-shadow: inset 0 0 1000px rgba($primary, .2)
+    box-shadow: inset 0 0 1000px rgba($gray-dark, .2)
 
 
 // Button disabled
@@ -62,7 +78,7 @@
   color: $gray-dark
   cursor: not-allowed
   +light-box-shadow
-  +light-text-shadow
+  text-shadow: none
   &:hover
     color: $gray-dark
     background-color: $gray
@@ -89,9 +105,10 @@
   &:after
     position: absolute
     right: $space
-    top: 50%
+    top: 48%
     transform: translateY(-50%)
     content: "→"
+    line-height: 1
 
 
 // Button Text
@@ -111,20 +128,22 @@
     line-height: 1.3
     font-size: small
     vertical-align: top
+  &:hover
+    text-decoration: underline
 
 .btn-text-alt
   color: $white
   +dark-text-shadow
+  &:hover
+    text-decoration: none
 
 .btn-text-primary
   color: $primary
 
 
 //============================================
-// Buttons branded
+// Buttons brand colors
 //============================================
-
-
 
 =button-branded($theme)
   .btn

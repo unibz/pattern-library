@@ -16,7 +16,7 @@
 
   "page-glance": {
     "headline": "Il corso in breve",
-    "excerpt": "Classe di laurea: LM-77<br>Crediti ECTS: 120<br>Durata del corso di studi: 2 anni<br>Lingue di insegnamento: italiano, tedesco e inglese<br>Posti di studio: 35 UE + 5 non-UE<br>Campus: Bolzano<br>Tasse annuali: 1343,50€"
+    "excerpt": "<ul><li>Classe di laurea: LM-77</li><li>Crediti ECTS: 120</li><li>Durata del corso di studi: 2 anni</li><li>Lingue di insegnamento: italiano, tedesco e inglese</li><li>Posti di studio: 35 UE + 5 non-UE</li><li>Campus: Bolzano</li><li>Tasse annuali: 1343,50€</li></ul>"
   },
 
   "page-study-structure": {
@@ -55,8 +55,7 @@
     "button": "Preiscriviti!"
   },
   "page-footer": {
-    "headline": "Laurea magistrale in Imprenditorialità e Innovazione",
-    "excerpt": "Il corso biennale fornisce agli studenti le conoscenze teoriche e gli strumenti di analisi necessari alla comprensione dell’imprenditorialità e dell’innovazione, in prospettiva economica e gestionale.",
+    "headline": "Facoltà di Economia",
     "footer-place": [
       {
         "headline": "Campus Bolzano",
@@ -79,7 +78,7 @@
     ],
     "footer-openings": {
       "headline": "Orario d'apertura",
-      "excerpt": "Lunedì<br>10:00 - 12:00 e 13:30 - 16:30<br>Mercoledì<br>10:00 - 12:00 e 14:00 - 16:00<br>Giovedì<br>10:00 - 12:00<br>Venerdì<br>13:30 - 16:30"
+      "excerpt": "Lunedì: 10:00 - 12:00 e 13:30 - 16:30<br>Mercoledì: 10:00 - 12:00 e 14:00 - 16:00<br>Giovedì: 10:00 - 12:00<br>Venerdì: 13:30 - 16:30"
     },
     "footer-map": "true",
     "footer-social": {

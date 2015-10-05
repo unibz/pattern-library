@@ -42,17 +42,25 @@
     "banner-title": {
       "headline": "Studieren an der unibz"
     },
-    "excerpt": "Wir bieten mehrsprachige Studienprogramme auf Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität.",
-    "banner-button": {
-      "button": "Mehr Info"
-    }
+    "excerpt": "",
+    "banner-button": [
+      {
+        "button": "Bachelor und Master" 
+      },
+      {
+        "button": "Doktoratsstudien" 
+      },
+      {
+        "button": "Weiteres Studienangebot" 
+      }
+    ]
   },
 
   "page-research": {
     "headline": "Forschung",
     "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/research.jpg",
     "excerpt": "Interdisziplinarität und Nachhaltigkeit ebenso wie lokale und internationale Themen bestimmen die Ausrichtung der Forschung an der unibz. Geforscht wird an allen fünf Fakultäten und an drei Kompetenzzentren. Die Forschungsfinanzierung erfolgt über interne Mittel und in jüngster Zeit vermehrt über nationale und europäische Finanzierungsprogramme und Drittmittel.",
-    "button": "Projekte"
+    "button": "Mehr Info"
   },
 
   "page-region": {
@@ -116,7 +124,6 @@
 
   "footer": {
     "headline": "Freie Universität Bozen",
-    "excerpt": "Die Freie Universität Bozen wurde 1997 in Bozen (Südtirol, Italien) gegründet und umfasst derzeit fünf Fakultäten.",
     "footer-place": [
       {
         "headline": "Campus Bozen",

@@ -139,7 +139,6 @@
 
   "page-footer": {
     "headline": "Fakultät für Naturwissenschaften und Technik",
-    "excerpt": "Die Fakultät für Naturwissenschaften und Technik an der Freien Universität Bozen wurde im Jahr 2007 gegründet und ist seitdem durch die Rekrutierung von hoch qualifiziertem Lehr- und Forschungspersonal aus Italien und dem Ausland kontinuierlich gewachsen.",
     "footer-place": [
       {
         "headline": "Campus Bozen",
@@ -165,13 +164,9 @@
         ]
       }
     ],
-    "footer-transparency": {
-      "headline": "Transparente Verwaltung",
-      "excerpt": "Die Inhalte dieser Seite sind in <a class=\"footer_link\" href=\"#\">Italienisch</a> verfügbar."
-    },
     "footer-openings": {
       "headline": "Öffnungszeiten",
-      "excerpt": "Montag und Dienstag<br>10:00 - 12:00<br>Donnerstag und Freitag<br>14.30 - 16.30"
+      "excerpt": "Montag und Dienstag: 10:00 - 12:00<br>Donnerstag und Freitag: 14.30 - 16.30"
     },
     "footer-map": "true",
     "footer-social": {

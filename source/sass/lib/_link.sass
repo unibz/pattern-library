@@ -2,14 +2,29 @@
 // Link
 //============================================
 
-=link($color: $primary)
-  transition: color .2s $motion
-  border-bottom: 1px solid $color-text
-  &[href*="//"]:not([href*="unibz."]):after
-    content: "\2197"
-    margin-left: $space-quarter
-    font-size: small
+=link($color: $color-text, $hover-color: $primary, $bk-color: $white)
+  color: $color
+  position: relative
+  transition: color .2s $motion, background-image .2s $motion
+  background-image: linear-gradient($color, $color)
+  background-size: 1px 1px
+  background-position: 0 1.2em
+  background-repeat: repeat-x
+  text-shadow: 1px 1px 0 $bk-color, -1px -1px 0 $bk-color, 1px -1px 0 $bk-color, -1px 1px 0 $bk-color, 0 1px 0 $bk-color, 1px 0 0 $bk-color, 0 -1px 0 $bk-color, -1px 0 0 $bk-color
   &:hover
-    color: $color
-    text-decoration: none
-    border-bottom-color: $color
+    color: $hover-color
+    background-image: linear-gradient($hover-color, $hover-color)
+  // &[href*="//"]:not([href*="unibz."]):after
+  //   content: "\2197"
+  //   margin-left: $space-quarter
+  //   font-size: small
+
+=link-light($bk-color: $primary)
+  color: $white
+  position: relative
+  transition: color .2s $motion, background-image .2s $motion
+  background-image: linear-gradient($white, $white)
+  background-size: 1px 1px
+  background-position: 0 1.2em
+  background-repeat: repeat-x
+  text-shadow: 1px 1px 0 $bk-color, -1px -1px 0 $bk-color, 1px -1px 0 $bk-color, -1px 1px 0 $bk-color, 0 1px 0 $bk-color, 1px 0 0 $bk-color, 0 -1px 0 $bk-color, -1px 0 0 $bk-color

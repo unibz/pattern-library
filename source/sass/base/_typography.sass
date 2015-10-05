@@ -26,6 +26,31 @@
 .typography p > a
   +link
 
+.t_eco
+  .typography p > a
+    +link($color-text, $eco, $white)
+
+.t_des-art
+  .typography p > a
+    +link($des-art)
+
+.t_edu
+  .typography p > a
+    +link($edu)
+
+.t_comp-science
+  .typography p > a
+    +link($comp-science)
+
+.t_science-tech
+  .typography p > a
+    +link($science-tech)
+
+.t_library
+  .typography p > a
+    +link($library)
+
+
 // Lists
 //============================================
 
@@ -169,21 +194,9 @@
     font-size: inherit
 
 
-// Component specific
+// Typography childs
 //============================================
-
-// Block Image Excerpt Title
-.typography
-  .thumbBlock_title
-    margin-top: 0
-    padding-left: 0
-  .thumbBlock_body
-    padding-left: 0
 
 .typography
   :first-child
     margin-top: 0
-
-.typography
-  .post_thumb
-    margin-bottom: $space-half

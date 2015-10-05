@@ -1,4 +1,7 @@
 <div class="blockLecture">
   {{> atoms-text-span (class: "blockLecture_meta") }}
-  {{> atoms-heading-3 (class: "blockLecture_title") }}
+  <a href="{{ url }}">
+    {{> atoms-heading-3 (class: "blockLecture_title") }}
+  </a>
+  {{> atoms-button-text (class: "blockLecture_btn")}}
 </div>

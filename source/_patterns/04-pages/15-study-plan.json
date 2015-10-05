@@ -142,8 +142,7 @@
   },
 
   "page-footer": {
-    "headline": "Bachelor in Tourismus-, Sport- und Eventmanagement",
-    "excerpt": "This three-year degree programme aims to educate and train managers and professionals for the tourism and sports industries.",
+    "headline": "Fakultät für Wirtschaftswissenschaften",
     "footer-place": [
       {
         "headline": "Campus Bozen",
@@ -166,7 +165,7 @@
     ],
     "footer-openings": {
       "headline": "Öffnungszeiten",
-      "excerpt": "Montag<br>14:00 - 16:00<br>Mittwoch<br>10:00 - 12:00 und 14:00 - 16:00<br>Donnerstag<br>10:00 - 12:00<br>Freitag<br>13:30 - 16:30"
+      "excerpt": "Montag: 14:00 - 16:00<br>Mittwoch: 10:00 - 12:00 und 14:00 - 16:00<br>Donnerstag: 10:00 - 12:00<br>Freitag: 13:30 - 16:30"
     },
     "footer-map": "true",
     "footer-social": {

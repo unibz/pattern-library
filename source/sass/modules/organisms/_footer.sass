@@ -46,7 +46,7 @@
 
 .footer_title
   +h3
-  margin-bottom: $space
+  margin-bottom: $space*2
 
 .footer_sectionTitle
   +h6
@@ -65,8 +65,32 @@
 .footer_link-block
   display: block
 
+.t_des-art
+  .footer
+    +link-light($primary)
 
-// Footer forms
+.t_eco
+  .footer_link
+    +link-light($eco)
+
+.t_edu
+  .footer_link
+    +link-light($edu)
+
+.t_comp-science
+  .footer_link
+    +link-light($comp-science)
+
+.t_science-tech
+  .footer_link
+    +link-light($science-tech)
+
+.t_library
+  .footer_link
+    +link-light($library)
+
+
+// footer_link forms
 //============================================
 
 .footer_form
@@ -78,31 +102,3 @@
 
 .footer_button
   margin-bottom: 0
-
-
-// Brand colors
-//============================================
-
-.t_des-art
-  .footer
-    background-color: $des-art
-
-.t_eco
-  .footer
-    background-color: $eco
-
-.t_edu
-  .footer
-    background-color: $edu
-
-.t_comp-science
-  .footer
-    background-color: $comp-science
-
-.t_science-tech
-  .footer
-    background-color: $science-tech
-
-.t_library
-  .footer
-    background-color: $library
