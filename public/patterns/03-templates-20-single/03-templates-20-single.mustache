@@ -3,16 +3,84 @@
   {{# page-hero }}
     {{&gt; organisms-hero }}
   {{/ page-hero }}
+
   {{# page-description }}
     &lt;section class=&quot;l-section&quot;&gt;
       &lt;div class=&quot;l-container&quot;&gt;
         &lt;div class=&quot;typography&quot;&gt;
+          {{&gt; atoms-text-paragraph (class: &quot;intro-bold&quot;) }}
           {{&gt; atoms-heading-2 }}
           {{&gt; atoms-text-paragraph }}
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/section&gt;
   {{/ page-description }}
+
+  {{# page-contact }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{&gt; molecules-block-contact }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-contact }}
+
+  {{# page-links }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          {{&gt; atoms-heading-2 }}
+          {{&gt; atoms-text-paragraph }}
+        &lt;/div&gt;
+        {{&gt; organisms-block-links }}
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-links }}
+
+  {{# page-text }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          {{&gt; atoms-heading-2 }}
+          {{&gt; atoms-text-paragraph }}
+          {{&gt; atoms-button }}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-text }}
+
+  {{# page-glance }}
+    {{&gt; molecules-block-glance }}
+  {{/ page-glance }}
+
+  {{# page-text-image-right }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          {{&gt; atoms-heading-2 }}
+          {{&gt; atoms-image-4x3 (class:&quot;right&quot;) }}
+          {{&gt; atoms-text-paragraph }}
+          {{&gt; atoms-button }}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-text-image-right }}
+
+  {{# page-banner }}
+    {{&gt; organisms-banner }}
+  {{/ page-banner }}
+
+  {{# page-text-image-left }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          {{&gt; atoms-heading-2 }}
+          {{&gt; atoms-image-4x3 (class:&quot;left&quot;) }}
+          {{&gt; atoms-text-paragraph }}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-text-image-left }}
+
 &lt;/main&gt;
 {{# page-footer }}
   {{&gt; organisms-footer }}

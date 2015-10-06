@@ -1,33 +1,30 @@
 {
   "contact": {
-    "headline": "Servizio Relazioni Internazionali",
+    "headline": "Name of the office",
     "meta": [
       {
-        "excerpt": "Piazza Università, 1"
+        "excerpt": "Street or Square"
       },
       {
-        "excerpt": "39100 Bozen-Bolzano"
+        "excerpt": "City"
       },
       {
-        "excerpt": "Tel +39 0471 012500"
+        "excerpt": "Telephone"
       },
       {
-        "excerpt": "Fax +39 0471 012509"
+        "excerpt": "Fax"
       }
     ],
-    "link": "international.relations@unibz.it"
+    "span": "E-mail address"
   },
   "details": {
-    "headline": "Orari d'apertura",
+    "headline": "Opening hours",
     "meta": [
       {
-        "excerpt": "InfoPoint A1.01"
+        "excerpt": "Dayname HH:MM - HH:MM"
       },
       {
-        "excerpt": "Lunedì 14:00 – 16:00"
-      },
-      {
-        "excerpt": "Martedì e giovedì 10:00 – 12:30"
+        "excerpt": "Dayname HH:MM - HH:MM"
       }
     ]
   }
