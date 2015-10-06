@@ -1,0 +1,17 @@
+<section class="hero" role="banner">
+  <div class="hero_image" style="background-image:url({{ img-background }})">
+    {{# hero-search }}
+      {{> atoms-forms-input-search (class: "hero_search")}}
+    {{/ hero-search }}
+  </div>
+  {{# hero-text }}
+    <div class="hero_text">
+      {{# hero-label }}
+        {{> atoms-heading-5 (class:"hero_titleLabel") }}
+      {{/ hero-label }}
+      {{# hero-title }}
+        {{> atoms-heading-1 (class:"hero_title") }}
+      {{/ hero-title }}
+    </div>
+  {{/ hero-text }}
+</section>

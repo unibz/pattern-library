@@ -1,6 +1,4 @@
 {
-  "hero-text": {
-    "hero-label": "true",
-    "hero-title": "true"
-  }
+  "hero-label": "true",
+  "hero-title": "true"
 }

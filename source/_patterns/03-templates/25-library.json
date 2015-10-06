@@ -1,0 +1,77 @@
+{
+  "page-hero": {
+    "hero-text": {
+      "hero-label": "true",
+      "hero-title": "true"
+    }
+  },
+
+  "page-description": "true",
+  
+  "page-contact": {
+    "contact": {
+      "headline": "Name of the office",
+      "meta": [
+        {
+          "excerpt": "Street or Square"
+        },
+        {
+          "excerpt": "City"
+        },
+        {
+          "excerpt": "Telephone"
+        },
+        {
+          "excerpt": "Fax"
+        }
+      ],
+      "span": "E-mail address"
+    },
+    "details": {
+      "headline": "Opening hours",
+      "meta": [
+        {
+          "excerpt": "Dayname HH:MM - HH:MM"
+        },
+        {
+          "excerpt": "Dayname HH:MM - HH:MM"
+        }
+      ]
+    }
+  },
+
+  "page-links": {
+    "links": {
+      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+    }
+  },
+
+  "page-text": "true",
+
+  "page-glance": "true",
+
+  "page-text-image-right": "true",
+
+  "page-banner": {
+    "banner-title": "true",
+    "banner-sub-title": "true",
+    "banner-button": "true"
+  },
+
+  "page-text-image-left": "true",
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}
