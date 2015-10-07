@@ -27,7 +27,7 @@
         },
         {
           "timetable-theme": "t_edu",
-          "span": "BX2.04",
+          "span": "BX<br>2.04",
           "timetable-item-label": { "span": "Praktika" },
           "time": "9:00 - 13:00",
           "headline": "Praktikumsvorbereitung 5. Jahr LADIN"
