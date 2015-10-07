@@ -1,0 +1,17 @@
+<div class="{{ timetable-theme }}">
+  <div class="timetable_item">
+    <div class="tt_itemLocation">
+      {{> atoms-text-span (class: "tt_itemRoom") }}
+    </div>
+    <div class="tt_itemMeta">
+      {{> atoms-text-time (class: "tt_itemTime") }}
+      {{# timetable-item-label }}
+        {{> atoms-text-span (class: "tt_itemLabel") }}
+      {{/ timetable-item-label }}
+      {{> atoms-heading-5 (class: "tt_itemTitle") }}
+      {{# timetable-item-button }}
+        {{> atoms-button-text-small (class: "tt_itemButton")}}
+      {{/ timetable-item-button }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,74 @@
+//============================================
+// Timetable Item
+//============================================
+
+.timetable_item
+  display: flex
+
+.tt_itemLocation
+  position: relative
+  flex-shrink: 0
+  margin-top: $space-quarter
+  margin-right: $space-half
+  width: 48px
+  height: 48px
+  color: $white
+  background-color: $primary
+  border-radius: 50%
+
+.tt_itemRoom
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  font-weight: 600
+  font-size: $fs-small
+
+.tt_itemTitle
+  +h5
+  margin-bottom: 2px
+
+.tt_itemLabel
+  +tag
+  display: inline-block
+  margin-bottom: 0
+  &:before
+    content: "·"
+    margin-right: $space-quarter
+    color: $color-text
+
+.tt_itemTime
+  +tag
+  display: inline-block
+  color: $color-text
+  margin-bottom: 0
+
+.tt_itemButton
+  margin-bottom: 0
+
+// Brand colors other pages
+//============================================
+
+.t_des-art
+  .timetable_item .tt_itemLocation
+    background-color: $des-art
+
+.t_eco
+  .timetable_item .tt_itemLocation
+    background-color: $eco
+
+.t_edu
+  .timetable_item .tt_itemLocation
+    background-color: $edu
+
+.t_comp-science
+  .timetable_item .tt_itemLocation
+    background-color: $comp-science
+
+.t_science-tech
+  .timetable_item .tt_itemLocation
+    background-color: $science-tech
+
+.t_library
+  .timetable_item .tt_itemLocation
+    background-color: $library

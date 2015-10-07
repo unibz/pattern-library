@@ -1,0 +1,15 @@
+{{> organisms-header }}
+<main>
+  <section class="l-section">
+    <div class="l-container">
+      <div class="timetable_week">
+        {{# timetable-day }}
+          {{> organisms-timetable-day }}
+        {{/ timetable-day }}
+      </div>
+    </div>
+  </section>
+</main>
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}
