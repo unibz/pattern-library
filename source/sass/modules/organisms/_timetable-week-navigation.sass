@@ -1,0 +1,80 @@
+//============================================
+// Timetable Week Navigation
+//============================================
+
+.timetable_nav
+  position: relative
+  display: flex
+  align-items: top
+  overflow: hidden
+  margin: $space 0
+  +mq($bp-lg)
+    margin: $space*2 0
+
+
+// Timetable Navigation Buttons
+//============================================
+
+.tt_navBtnWrapper
+  position: absolute
+  width: 40px
+  height: 100%
+
+.tt_navBtnWrapper-lft
+  left: 0
+  background: linear-gradient(90deg, $white, rgba($white, 0))
+
+.tt_navBtnWrapper-rgt
+  right: 0
+  background: linear-gradient(-90deg, $white, rgba($white, 0))
+
+.tt_navBtn
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+
+
+// Timetable Navigation Days
+//============================================
+
+.tt_navDays
+  flex: 1
+  display: flex
+  padding-left: 50px
+  margin-bottom: -$space
+  overflow-x: scroll
+  -webkit-overflow-scrolling: touch
+
+.tt_navDay
+  margin-bottom: $space
+  padding: $space-quarter
+  text-align: center
+  color: $gray-dark
+  font-weight: 500
+  border-radius: $radius
+  &:last-child
+    padding-right: 50px
+  +mq($bp-md)
+    padding: $space-half
+
+.tt_navDay-current
+  color: $white
+  background-color: $primary
+  padding-right: $space-half
+  padding-left: $space-half
+  margin-right: $space-quarter
+  margin-left: $space-quarter
+
+.tt_navDayName,
+.tt_navDayNum,
+.tt_navDayMonth
+  display: block
+  line-height: 1.2
+
+.tt_navDayNum
+  +h5
+  margin-bottom: 2px
+
+.tt_navDayMonth
+  text-transform: uppercase
+

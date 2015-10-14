@@ -5,7 +5,7 @@
       "timetable-items": [
         {
           "timetable-theme": "t_eco",
-          "span": "E2.20",
+          "span": "BZ<br>E2.20",
           "timetable-item-label": { "span": "Lect" },
           "time": "8:30 - 18:30",
           "headline": "Deutsch (Niveau B1)",
@@ -13,14 +13,14 @@
         },
         {
           "timetable-theme": "t_des-art",
-          "span": "D1.02",
+          "span": "BZ<br>D1.02",
           "timetable-item-label": { "span": "Presentation" },
           "time": "9:00 - 13:00",
           "headline": "Projektbörse"
         },
         {
           "timetable-theme": "t_edu",
-          "span": "BX2.04",
+          "span": "BX<br>2.04",
           "timetable-item-label": { "span": "Praktika" },
           "time": "9:00 - 13:00",
           "headline": "Praktikumsvorbereitung 5. Jahr"
@@ -34,7 +34,7 @@
         },
         {
           "timetable-theme": "t_edu",
-          "span": "BX2.51",
+          "span": "BX<br>2.51",
           "timetable-item-label": { "span": "Lect" },
           "time": "9:00 - 13:00",
           "headline": "Pädagogische Psychologie 1+2",
@@ -42,7 +42,7 @@
         },
         {
           "timetable-theme": "t_comp-science",
-          "span": "B0.03",
+          "span": "BZ<br>B0.03",
           "timetable-item-label": { "span": "Tutorium" },
           "time": "10:30 - 11:10",
           "headline": "Orientation Day - Welcome of Computer Science"
@@ -54,7 +54,7 @@
       "timetable-items": [
         {
           "timetable-theme": "t_science-tech",
-          "span": "C1.08",
+          "span": "BZ<br>C1.08",
           "timetable-item-label": { "span": "Office" },
           "time": "8:30 - 10:30",
           "headline": "Strukturmechanik",
@@ -62,7 +62,7 @@
         },
         {
           "timetable-theme": "t_science-tech",
-          "span": "D1.02",
+          "span": "BZ<br>D1.02",
           "timetable-item-label": { "span": "Lect" },
           "time": "8:30 - 10:30",
           "headline": "Microbiologia e tecnologie alimentari_Tecnologie alimentari",
@@ -74,7 +74,7 @@
       "headline": "Wednesday, October 7",
       "timetable-items": [
         {
-          "span": "C3.06",
+          "span": "BZ<br>C3.06",
           "timetable-item-label": { "span": "Lect" },
           "time": "8:30 - 18:30",
           "headline": "L - Italiano 27116 (lingua straniera) - linguaggio tecnico",
@@ -87,7 +87,7 @@
       "timetable-items": [
         {
           "timetable-theme": "t_edu",
-          "span": "MIS.1",
+          "span": "BX<br>MIS1",
           "timetable-item-label": { "span": "Lect" },
           "time": "9:00 - 11:00",
           "headline": "Musica, lingua e movimento. Progettazione, realizzazione e riflessione di unità didattiche - Cantare e fare Musica con bambini 2 LAB - 3. Master SFP gruppo 3",
