@@ -1,0 +1,73 @@
+//============================================
+// Timetable Month Navigation
+//============================================
+
+.tt_navMonthNav
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: $space-half
+
+
+// Timetable Month Navigation Buttons
+//============================================
+
+.tt_navMonthBtnWrapper
+  flex-basis: calc(100% / 7)
+
+.tt_navMonthBtn
+  margin: 0 auto
+
+// Timetable Month Name
+//============================================
+
+.tt_navMonthName
+  flex-grow: 1
+  font-weight: 600
+  letter-spacing: 1px
+  text-transform: uppercase
+  text-align: center
+
+
+// Timetable Month Days of the Week
+//============================================
+
+.tt_navMonthDays
+  width: 100%
+  display: flex
+
+.tt_navMonthDay
+  flex-basis: calc(100% / 7)
+  text-align: center
+  font-weight: 500
+
+
+// Timetable Month Calendar
+//============================================
+
+.tt_navMonthCalendar
+  display: flex
+  flex-flow: row wrap
+
+
+// Timetable Month Days in Calendar
+//============================================
+
+.tt_navMonthDayNum
+  +h6
+  margin-bottom: 0
+  flex-basis: calc(100% / 7)
+  padding: $space-quarter 0
+  text-align: center
+  font-weight: 500
+
+.tt_navMonthDayNum-current
+  margin: 0 auto
+  max-width: 40px
+  background-color: $primary
+  color: $white
+  border-radius: $radius
+  font-weight: 500
+
+.tt_navMonthDayNum-inactive
+  color: $gray
