@@ -3,6 +3,9 @@
 //============================================
 
 
+// Media Block Wrapper
+//============================================
+
 .mediaBlock
   overflow: hidden
 
@@ -65,7 +68,7 @@
     background-color: $library
 
 
-// Media Block Body Contents
+// Media Block Title
 //============================================
 
 .mediaBlock_title
@@ -76,6 +79,10 @@
     padding-top: $space
   +mq($bp-xl)
     padding-top: $space*2
+
+
+// Media Block Content
+//===========================================
 
 .mediaBlock_excerpt a
   +link-light($primary)
@@ -103,7 +110,10 @@
 .t_library
   .mediaBlock_excerpt a
     +link-light($library)
-    
+
+
+// Media Block Button
+//===========================================
 
 .mediaBlock_btn
   margin-bottom: 0

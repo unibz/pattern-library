@@ -2,10 +2,20 @@
 // Social Share
 //============================================
 
+//============================================
+// These styles are used for both the 
+// Social Share Component and the Social
+// Links Component presnte in the footer
+//============================================
+
+
+// Social Item Button
+//============================================
+
 .socialItem
   display: inline-block
   margin-right: $space-half
-  padding-top: 8px
+  padding-top: 10px
   padding-left: 1px
   width: 48px
   height: 48px
@@ -28,6 +38,12 @@
     background-color: $instagram
     border-color: $instagram
 
+
+// Specific colors for mail and print buttons
+//============================================
+
 .socialItem-mail,
 .socialItem-print
-  background-color: $gray-dark
+  background-color: $gray
+  &:hover
+    background-color: $gray-dark

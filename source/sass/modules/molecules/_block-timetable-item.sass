@@ -2,8 +2,16 @@
 // Timetable Item
 //============================================
 
+
+// Timetable Item Wrapper
+//============================================
+
 .timetable_item
   display: flex
+
+
+// Timetable Item Location
+//============================================
 
 .tt_itemLocation
   position: relative
@@ -15,46 +23,6 @@
   color: $white
   background-color: $primary
   border-radius: 50%
-
-.tt_itemRoom
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -46%)
-  text-align: center
-  font-weight: 600
-  font-size: $fs-small
-  line-height: 1.1
-
-.tt_itemTitleLink
-  display: block
-
-.tt_itemTitle
-  +h5
-  margin: 0
-  &:hover
-    text-decoration: underline
-
-.tt_itemLabel
-  +tag
-  display: inline-block
-  margin: 0
-  &:before
-    content: "·"
-    margin-right: $space-quarter
-    color: $color-text
-
-.tt_itemTime
-  +tag
-  display: inline-block
-  color: $color-text
-  margin-bottom: 0
-
-.tt_itemButton
-  margin: 2px 0 0
-
-// Brand colors other pages
-//============================================
 
 .t_des-art
   .timetable_item .tt_itemLocation
@@ -79,3 +47,60 @@
 .t_library
   .timetable_item .tt_itemLocation
     background-color: $library
+
+
+// Timetable Item Room
+//============================================
+
+.tt_itemRoom
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -46%)
+  text-align: center
+  font-weight: 600
+  font-size: $fs-small
+  line-height: 1.1
+
+
+// Timetable Item Title
+//============================================
+
+.tt_itemTitleLink
+  display: block
+
+.tt_itemTitle
+  +h5
+  margin: 0
+  &:hover
+    text-decoration: underline
+
+
+// Timetable Item Label
+//============================================
+
+.tt_itemLabel
+  +tag
+  display: inline-block
+  margin: 0
+  &:before
+    content: "·"
+    margin-right: $space-quarter
+    color: $color-text
+
+
+// Timetable Item Time
+//============================================
+
+.tt_itemTime
+  +tag
+  display: inline-block
+  color: $color-text
+  margin-bottom: 0
+
+
+// Timetable Item Button
+//============================================
+
+.tt_itemButton
+  margin: 2px 0 0

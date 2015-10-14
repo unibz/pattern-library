@@ -2,12 +2,19 @@
 // Hero
 //============================================
 
+// Hero Wrapper
+//============================================
+
 .hero
   margin-bottom: $space*2
   +mq($bp-lg)
     margin-bottom: $space*2
   +mq($bp-xl)
     margin-bottom: $space*3
+
+
+// Hero Image
+//============================================
 
 .hero_image
   position: relative
@@ -23,6 +30,10 @@
   background-position: 50%;
   background-repeat: no-repeat
 
+
+// Hero Image Caption
+//============================================
+
 .hero_caption
   position: absolute
   right: 5px
@@ -30,18 +41,9 @@
   color: #ccc
   font-size: small
 
-.hero-small
-  margin-bottom: $space*2
 
-.hero-small_background
-  height: 30px
-  background-color: $primary
-  +mq($bp-sm)
-    height: 140px
-  +mq($bp-md)
-    height: 180px
-  +mq($bp-xl)
-    height: 260px
+// Hero Text
+//============================================
 
 .hero_text
   position: relative
@@ -65,6 +67,10 @@
     margin-top: -$space*5
     padding: $space*3 $space*3 0 $space*3
 
+
+// Hero Titles
+//============================================
+
 .hero_titleLabel
   +h5
   font-weight: 600
@@ -85,8 +91,22 @@
   transform: translate(-50%, -50%)
   max-width: 80%
 
-// Brand colors
+
+// Hero Small
 //============================================
+
+.hero-small
+  margin-bottom: $space*2
+
+.hero-small_background
+  height: 30px
+  background-color: $primary
+  +mq($bp-sm)
+    height: 140px
+  +mq($bp-md)
+    height: 180px
+  +mq($bp-xl)
+    height: 260px
 
 .t_des-art
   .hero-small,

@@ -2,6 +2,9 @@
 // Block Contact
 //============================================
 
+// Block Contact Wrappers
+//============================================
+
 .contactBlock
   clear: both
   +mq($bp-md)
@@ -12,6 +15,17 @@
   +mq($bp-md)
     flex-basis: 50%
 
+.contactBlock_contacts
+  color: $white
+  background-color: $primary
+
+.contactBlock_details
+  background-color: $gray-light
+
+
+// Block Contact Title
+//============================================
+
 .elem_title
   +h6
   line-height: 1.3
@@ -19,15 +33,16 @@
   text-transform: uppercase
   letter-spacing: 1px
 
+
+// Block Contact Item
+//============================================
+
 .elem_item
   margin-bottom: 0
 
-.contactBlock_contacts
-  color: $white
-  background-color: $primary
+// Block Contact links
+//============================================
 
 .contactBlock_link
   border-bottom: 1px solid $white
 
-.contactBlock_details
-  background-color: $gray-light

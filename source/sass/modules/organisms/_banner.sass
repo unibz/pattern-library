@@ -2,12 +2,16 @@
 // Banner
 //============================================
 
+
+// Banner Wrapper
+//============================================
+
 .banner
   position: relative
   display: flex
   align-items: center
   padding: $space*2 0
-  margin-bottom: $space*2
+  margin-bottom: $space
   min-height: 200px
   background-color: $primary
   background-size: cover
@@ -15,29 +19,15 @@
   background-repeat: no-repeat
   text-align: center
   +mq($bp-sm)
-    min-height: 240px
+    min-height: 300px
   +mq($bp-md)
+    margin-bottom: $space*2
+  +mq($bp-lg)
+    padding: $space*2 0
     margin-bottom: $space*3
-  +mq($bp-lg)
-    padding: $space*3 0
-    margin-bottom: $space*4
-  +mq($bp-xl)
-    padding: $space*4 0
-    margin-bottom: $space*5
 
-.banner_inner
-  margin: 0 auto
-  max-width: 574px
-  +mq($bp-sm)
-    font-size: 17px
-  +mq($bp-md)
-    font-size: 18px
-  +mq($bp-lg)
-    max-width: 688px
-    font-size: 19px
-  +mq($bp-xl)
-    max-width: 768px
-    font-size: 20px
+// Banner Overlay
+//============================================
 
 .banner::after
   position: absolute
@@ -47,38 +37,6 @@
   height: 100%
   content: " "
   background-color: rgba($black, .3)
-
-.banner_title,
-.banner_subTitle,
-.banner_text
-  position: relative
-  z-index: 1
-  color: $white
-  text-shadow: 0px 1px .8px rgba(82, 82, 82, .9)
-
-.banner_btn
-  display: block
-  position: relative
-  z-index: 1
-  max-width: 300px
-  margin-right: auto
-  margin-left: auto
-
-.banner_btn:not(:last-child)
-  margin-bottom: $space-half
-
-.banner_title
-  +h2
-  margin-bottom: $space
-  font-weight: 300
-
-.banner_subTitle
-  +h3
-  font-weight: 300
-
-
-// Brand colors
-//============================================
 
 .t_des-art
   .banner
@@ -115,3 +73,53 @@
     background-color: $library
   .banner::after
     background-color: rgba($library, .5)
+
+
+// Banner Contents
+//============================================
+
+.banner_title,
+.banner_subTitle,
+.banner_text
+  position: relative
+  z-index: 1
+  margin: 0 auto
+  max-width: 574px
+  +mq($bp-sm)
+    font-size: 17px
+  +mq($bp-md)
+    font-size: 18px
+  +mq($bp-lg)
+    max-width: 688px
+    font-size: 19px
+  +mq($bp-xl)
+    max-width: 768px
+    font-size: 20px
+  color: $white
+  +dark-text-shadow
+
+.banner_title
+  +h2
+  margin-bottom: $space
+  font-weight: 300
+
+.banner_subTitle
+  +h3
+  font-weight: 300
+
+
+// Banner Buttons
+//============================================
+
+.banner_btn
+  display: block
+  position: relative
+  z-index: 1
+  max-width: 300px
+  margin-right: auto
+  margin-left: auto
+  margin-bottom: $space-half
+  +mq($bp-lg)
+    display: inline-block
+    margin-right: $space-quarter
+    margin-left: $space-quarter

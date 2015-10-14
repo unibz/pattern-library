@@ -2,6 +2,9 @@
 // Block Lecture
 //============================================
 
+// Block Lecture Wrapper
+//============================================
+
 .blockLectures
   display: flex
   flex-flow: row wrap
@@ -10,6 +13,10 @@
 
 .blockLectures:last-child
   margin-bottom: 0
+
+
+// Block Lecture
+//============================================
 
 .blockLecture
   margin-bottom: $space
@@ -26,15 +33,27 @@
   +mq($bp-lg)
     margin-bottom: 0
 
+
+// Block Lecture Meta Information
+//============================================
+
 .blockLecture_meta
   +tag
   margin-bottom: 0
+
+
+// Block Lecture Title
+//============================================
 
 .blockLecture_title
   +h6
   line-height: 1.3
   &:hover
     text-decoration: underline
+
+
+// Block Lecture Button
+//============================================
 
 .blockLecture_btn
   display: block

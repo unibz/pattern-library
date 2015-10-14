@@ -2,6 +2,10 @@
 // Timetable Day Navigation
 //============================================
 
+
+// Timetable Days Navigation Wrapper
+//============================================
+
 .timetable_nav
   position: relative
   display: flex
@@ -74,7 +78,9 @@
 
 .tt_navDayNum
   +h5
-  margin-bottom: 2px
+  margin-bottom: -1px
+  +mq($bp-lg)
+    margin-bottom: -2px
 
 .tt_navDayMonth
   text-transform: uppercase

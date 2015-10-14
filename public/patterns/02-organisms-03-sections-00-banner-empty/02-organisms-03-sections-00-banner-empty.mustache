@@ -1,6 +1,5 @@
 &lt;div class=&quot;banner&quot; role=&quot;banner&quot; {{# empty }}{{/ empty }}{{^ empty }}style=&quot;background-image:url('{{ img-background }}')&quot;{{/ empty }}&gt;
   &lt;div class=&quot;l-container&quot;&gt;
-    &lt;div class=&quot;banner_inner&quot;&gt;
     {{# banner-title }}
       {{&gt; atoms-heading-1 (class: &quot;banner_title&quot;) }}
     {{/ banner-title }}
@@ -18,6 +17,5 @@
           {{&gt; atoms-button (class: &quot;banner_btn&quot;) }}
         {{/ banner-button }}
       {{/ empty }}
-    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
