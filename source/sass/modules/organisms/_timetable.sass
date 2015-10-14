@@ -11,11 +11,13 @@
     display: flex
 
 .timetable_item
-  margin-bottom: $space
+  margin-bottom: $space-half
+  +mq($bp-lg)
+    margin-bottom: $space
 
 .timetable_date
   +h4
-  margin-bottom: $space
+  margin-bottom: $space-half
   +mq($bp-lg)
     flex: 0 0 33%
     margin-right: $space

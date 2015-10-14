@@ -17,16 +17,21 @@
 
 .tt_navBtnWrapper
   position: absolute
+  z-index: 1
   width: 40px
   height: 100%
 
 .tt_navBtnWrapper-lft
   left: 0
+  width: 60px
   background: linear-gradient(90deg, $white, rgba($white, 0))
 
 .tt_navBtnWrapper-rgt
   right: 0
+  width: 60px
   background: linear-gradient(-90deg, $white, rgba($white, 0))
+  .tt_navBtn
+    right: 0
 
 .tt_navBtn
   position: absolute
@@ -40,7 +45,6 @@
 .tt_navDays
   flex: 1
   display: flex
-  padding-left: 50px
   margin-bottom: -$space
   overflow-x: scroll
   -webkit-overflow-scrolling: touch
@@ -48,15 +52,11 @@
 .tt_navDay
   flex-shrink: 0
   margin-bottom: $space
-  padding: $space-quarter
+  padding: $space-half
   text-align: center
   color: $gray-dark
   font-weight: 500
   border-radius: $radius
-  &:last-child
-    padding-right: 50px
-  +mq($bp-md)
-    padding: $space-half
 
 .tt_navDay-current
   color: $white

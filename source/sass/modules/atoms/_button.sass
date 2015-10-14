@@ -151,10 +151,10 @@
 //===========================================
 
 .btn-nav
+  position: relative
   display: block
   width: 40px
   height: 40px
-  line-height: 36px
   text-align: center
   color: $white
   background-color: $gray
@@ -162,10 +162,18 @@
 
 .btn-nav-left
   &:after
+    position: absolute
+    top: 48%
+    left: 50%
+    transform: translate(-50%, -48%)
     content: "←"
 
 .btn-nav-right
   &:after
+    position: absolute
+    top: 48%
+    left: 50%
+    transform: translate(-50%, -48%)
     content: "→"
 
 

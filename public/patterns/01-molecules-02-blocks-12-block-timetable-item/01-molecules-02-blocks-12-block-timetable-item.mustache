@@ -8,7 +8,9 @@
       {{# timetable-item-label }}
         {{&gt; atoms-text-span (class: &quot;tt_itemLabel&quot;) }}
       {{/ timetable-item-label }}
-      {{&gt; atoms-heading-5 (class: &quot;tt_itemTitle&quot;) }}
+      &lt;a href=&quot;{{ url }}&quot;&gt;
+        {{&gt; atoms-heading-5 (class: &quot;tt_itemTitle&quot;) }}
+      &lt;/a&gt;
       {{# timetable-item-button }}
         {{&gt; atoms-button-text-small (class: &quot;tt_itemButton&quot;)}}
       {{/ timetable-item-button }}
