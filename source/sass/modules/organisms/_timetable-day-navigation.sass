@@ -56,19 +56,19 @@
 .tt_navDay
   flex-shrink: 0
   margin-bottom: $space
-  padding: $space-half
+  padding: 14px $space-half 8px $space-half
   text-align: center
   color: $gray-dark
   font-weight: 500
   border-radius: $radius
+  transition: all .3s $motion
+  &:hover
+    background-color: $primary
+    color: $white
+    cursor: pointer
+    .tt_navDayMonth
+      opacity: 1
 
-.tt_navDay-current
-  color: $white
-  background-color: $primary
-  padding-right: $space-half
-  padding-left: $space-half
-  margin-right: $space-quarter
-  margin-left: $space-quarter
 
 .tt_navDayName,
 .tt_navDayNum,
@@ -83,5 +83,17 @@
     margin-bottom: -2px
 
 .tt_navDayMonth
+  opacity: 0
   text-transform: uppercase
+  transition: opacity .3s $motion
+
+.tt_navDay-current
+  color: $white
+  background-color: $primary
+  padding-right: $space-half
+  padding-left: $space-half
+  margin-right: $space-quarter
+  margin-left: $space-quarter
+  .tt_navDayMonth
+    opacity: 1
 
