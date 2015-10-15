@@ -26,7 +26,8 @@
         "event-campus": "true",
         "event-room": "true",
         "event-time": "true",
-        "event-date": "true"
+        "event-date": "true",
+        "event-button": "true"
       }
     ]
   },

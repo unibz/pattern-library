@@ -105,11 +105,12 @@
     "headline": "Events",
     "events": [
       {
-        "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
-        "event-time": "true",
-        "event-date": "true"
+        "img-4x3": "https://cockpit.scientificnet.org/Services/data/common/sst/blob/UNIBZ_113726_90_-1_0_0_1.jpg",
+        "event-title": {"headline": "Inclusive Student Mobility: New trends in Higher Education"},
+        "event-campus": {"span": "Campus Bozen"},
+        "event-room": {"span": "Room D1.02"},
+        "event-date": {"date": "14.10.2015 – 15.10.2015"},
+        "event-button": {"button": "Details"}
       }
     ],
     "button": "Alle Events"
