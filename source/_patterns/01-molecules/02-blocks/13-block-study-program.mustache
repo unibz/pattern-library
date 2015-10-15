@@ -2,7 +2,9 @@
   {{# program-tag }}
     {{> atoms-text-span (class:"program_tag")}}
   {{/ program-tag }}
-  {{> atoms-heading-3 (class:"program_title")}}
+  <a href="{{url}}">
+    {{> atoms-heading-3 (class:"program_title")}}
+  </a>
   <div class="program_details">
     {{# program-location }}
       {{> atoms-text-span (class:"program_location")}}

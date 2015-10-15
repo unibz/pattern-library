@@ -6,7 +6,7 @@
   "page-programs": {
     "programs": [
       {
-        "headline": "Bachelors",
+        "headline": "Bachelor",
         "program": [
           {
             "program-theme": "t_eco",
@@ -108,7 +108,7 @@
             "program-theme": "t_edu",
             "program-tag": {"span": "Edu"},
             "headline": "Communication Sciences and Culture",
-            "program-location": {"span": "Brunico-Bruneck"},
+            "program-location": {"span": "Bresssanone-Brixen"},
             "program-lang": [
               {
                 "span": "DE"
@@ -125,7 +125,7 @@
             "program-theme": "t_edu",
             "program-tag": {"span": "Edu"},
             "headline": "Social Education",
-            "program-location": {"span": "Brunico-Bruneck"},
+            "program-location": {"span": "Bresssanone-Brixen"},
             "program-lang": [
               {
                 "span": "DE"
@@ -142,7 +142,7 @@
             "program-theme": "t_edu",
             "program-tag": {"span": "Edu"},
             "headline": "Social Work",
-            "program-location": {"span": "Brunico-Bruneck"},
+            "program-location": {"span": "Bresssanone-Brixen"},
             "program-lang": [
               {
                 "span": "DE"
@@ -155,7 +155,7 @@
               }
             ]
           },
-           {
+          {
             "program-theme": "t_des-art",
             "program-tag": {"span": "DSGN"},
             "headline": "Design and Art",
@@ -175,10 +175,147 @@
         ]
       },
       {
-        "headline": "Masters",
-        "programs": [
+        "headline": "Master",
+        "program": [
           {
-            
+            "program-theme": "t_eco",
+            "program-tag": {"span": "Eco"},
+            "headline": "Economics and Management of the Public Sector",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_eco",
+            "program-tag": {"span": "Eco"},
+            "headline": "Entrepreneurship and Innovation",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_comp-science",
+            "program-tag": {"span": "Comp"},
+            "headline": "Computer Science",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_comp-science",
+            "program-tag": {"span": "Comp"},
+            "headline": "European Master's Program in Computational Logic (EMCL)",
+            "program-location": {"span": "Bolzano-Bozen and partners"},
+            "program-lang": [
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_edu",
+            "program-tag": {"span": "Edu"},
+            "headline": "Innovation and Research for Social Work and Social Education",
+            "program-location": {"span": "Bresssanone-Brixen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_edu",
+            "program-tag": {"span": "Edu"},
+            "headline": "Primary Education (5 years)",
+            "program-location": {"span": "Bresssanone-Brixen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_science-tech",
+            "program-tag": {"span": "Tech"},
+            "headline": "Environmental Management of Mountain Areas",
+            "program-location": {"span": "Bolzano-Bozen/Innsbruck"},
+            "program-lang": [
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_science-tech",
+            "program-tag": {"span": "Tech"},
+            "headline": "Energy Engineering",
+            "program-location": {"span": "Trento/Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_science-tech",
+            "program-tag": {"span": "Tech"},
+            "headline": "International Horticultural Science",
+            "program-location": {"span": "Bologna/Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_des-art",
+            "program-tag": {"span": "DSGN"},
+            "headline": "Eco-Social Design (Glocal Design)",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "EN"
+              },
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              }
+            ]
           }
         ]
       }

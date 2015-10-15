@@ -2,7 +2,9 @@
   {{# program-tag }}
     {{&gt; atoms-text-span (class:&quot;program_tag&quot;)}}
   {{/ program-tag }}
-  {{&gt; atoms-heading-3 (class:&quot;program_title&quot;)}}
+  &lt;a href=&quot;{{url}}&quot;&gt;
+    {{&gt; atoms-heading-3 (class:&quot;program_title&quot;)}}
+  &lt;/a&gt;
   &lt;div class=&quot;program_details&quot;&gt;
     {{# program-location }}
       {{&gt; atoms-text-span (class:&quot;program_location&quot;)}}
