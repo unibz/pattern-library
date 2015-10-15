@@ -57,20 +57,26 @@
 // Timetable Month Days in Calendar
 //============================================
 
-.tt_navMonthDayNum
+.tt_navMonthDay
   +h6
-  margin-bottom: 0
+  margin-bottom: $space-quarter
   flex-basis: calc(100% / 7)
-  padding: $space-quarter 0
   text-align: center
   font-weight: 500
+
+.tt_navMonthDayNum
+  display: block
+  margin: 0 auto
+  padding: 8px 0 4px 0
+  max-width: 40px
   &:hover
     cursor: pointer
-    background-color: rebeccapurple
+    background-color: $primary
+    color: $white
+    border-radius: $radius
+    font-weight: 500
 
 .tt_navMonthDayNum-current
-  margin: 0 auto
-  max-width: 40px
   background-color: $primary
   color: $white
   border-radius: $radius
