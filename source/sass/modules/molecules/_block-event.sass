@@ -3,9 +3,8 @@
 //============================================
 
 .event
+  overflow: hidden
   margin-bottom: $space
-  +mq($bp-md)
-    display: flex
 
 
 // Block Event Figure
@@ -13,7 +12,8 @@
 
 .event_figure
   +mq($bp-md)
-    flex-basis: 50%
+    float: left
+    width: 50%
 
 .event_thumb
   width: 100%
@@ -31,9 +31,10 @@
   +mq($bp-xs)
     padding: $space
   +mq($bp-md)
-    flex-basis: 50%
+    float: left
     padding-top: 0
     padding-bottom: (3 / 4) * 50%
+    width: 50%
     height: 0
   +mq($bp-xl)
     padding-left: $space*2
