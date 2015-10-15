@@ -1,6 +1,39 @@
 {
   "page-hero": {
-    "hero-title": {"headline": "Study Programs"}
+    "hero-label": {"headline": "Study programs"},
+    "hero-title": {"headline": "Bachelor and Master"}
+  },
+
+  "page-filters": {
+    "filters": [
+      {
+        "button": "BA"
+      },
+      {
+        "button": "MA"
+      },
+      {
+        "theme": "t_eco",
+        "button": "ECO"
+      },
+      {
+        "theme": "t_comp",
+        "button": "COMP",
+        "class": "btn-filter-active"
+      },
+      {
+        "theme": "t_tech",
+        "button": "TECH"
+      },
+      {
+        "theme": "t_edu",
+        "button": "EDU"
+      },
+      {
+        "theme": "t_dsgn",
+        "button": "DSGN"
+      }
+    ]
   },
 
   "page-programs": {
@@ -60,7 +93,7 @@
             ]
           },
           {
-            "program-theme": "t_comp-science",
+            "program-theme": "t_comp",
             "program-tag": {"span": "Comp"},
             "headline": "Computer Science and Engineering",
             "program-location": {"span": "Bolzano-Bozen"},
@@ -71,7 +104,7 @@
             ]
           },
           {
-            "program-theme": "t_science-tech",
+            "program-theme": "t_tech",
             "program-tag": {"span": "Tech"},
             "headline": "Agricultural and Agro-Environmental Sciences",
             "program-location": {"span": "Bolzano-Bozen"},
@@ -88,7 +121,7 @@
             ]
           },
           {
-            "program-theme": "t_science-tech",
+            "program-theme": "t_tech",
             "program-tag": {"span": "Tech"},
             "headline": "Industrial and Mechanical Engineering",
             "program-location": {"span": "Bolzano-Bozen"},
@@ -156,7 +189,7 @@
             ]
           },
           {
-            "program-theme": "t_des-art",
+            "program-theme": "t_dsgn",
             "program-tag": {"span": "DSGN"},
             "headline": "Design and Art",
             "program-location": {"span": "Bolzano-Bozen"},
@@ -212,7 +245,7 @@
             ]
           },
           {
-            "program-theme": "t_comp-science",
+            "program-theme": "t_comp",
             "program-tag": {"span": "Comp"},
             "headline": "Computer Science",
             "program-location": {"span": "Bolzano-Bozen"},
@@ -223,7 +256,7 @@
             ]
           },
           {
-            "program-theme": "t_comp-science",
+            "program-theme": "t_comp",
             "program-tag": {"span": "Comp"},
             "headline": "European Master's Program in Computational Logic (EMCL)",
             "program-location": {"span": "Bolzano-Bozen and partners"},
@@ -268,7 +301,7 @@
             ]
           },
           {
-            "program-theme": "t_science-tech",
+            "program-theme": "t_tech",
             "program-tag": {"span": "Tech"},
             "headline": "Environmental Management of Mountain Areas",
             "program-location": {"span": "Bolzano-Bozen/Innsbruck"},
@@ -279,7 +312,7 @@
             ]
           },
           {
-            "program-theme": "t_science-tech",
+            "program-theme": "t_tech",
             "program-tag": {"span": "Tech"},
             "headline": "Energy Engineering",
             "program-location": {"span": "Trento/Bolzano-Bozen"},
@@ -290,7 +323,7 @@
             ]
           },
           {
-            "program-theme": "t_science-tech",
+            "program-theme": "t_tech",
             "program-tag": {"span": "Tech"},
             "headline": "International Horticultural Science",
             "program-location": {"span": "Bologna/Bolzano-Bozen"},
@@ -301,7 +334,7 @@
             ]
           },
           {
-            "program-theme": "t_des-art",
+            "program-theme": "t_dsgn",
             "program-tag": {"span": "DSGN"},
             "headline": "Eco-Social Design (Glocal Design)",
             "program-location": {"span": "Bolzano-Bozen"},

@@ -3,6 +3,10 @@
     "hero-title": "true"
   },
 
+  "page-filters": {
+    "filters": "true"
+  },
+
   "page-programs": {
     "programs": {
       "program": [

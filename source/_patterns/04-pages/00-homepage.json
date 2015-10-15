@@ -23,15 +23,15 @@
         "headline": "Wirtschaftswissenschaften"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_comp-science",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_comp",
         "headline": "Informatik"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_des-art",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_dsgn",
         "headline": "Design und Künste"
       },
       {
-        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_science-tech",
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 t_tech",
         "headline": "Naturwissenschaften und Technik"
       }
     ]

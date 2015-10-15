@@ -12,7 +12,7 @@
           "timetable-item-button": { "button": "Torri Valentina" }
         },
         {
-          "timetable-theme": "t_des-art",
+          "timetable-theme": "t_dsgn",
           "span": "BZ<br>D1.02",
           "timetable-item-label": { "span": "Presentation" },
           "time": "9:00 - 13:00",
@@ -41,7 +41,7 @@
           "timetable-item-button": { "button": "Pasqualoni Pier Paolo" }
         },
         {
-          "timetable-theme": "t_comp-science",
+          "timetable-theme": "t_comp",
           "span": "BZ<br>B0.03",
           "timetable-item-label": { "span": "Tutorium" },
           "time": "10:30 - 11:10",
@@ -53,7 +53,7 @@
       "headline": "Tuesday, October 6",
       "timetable-items": [
         {
-          "timetable-theme": "t_science-tech",
+          "timetable-theme": "t_tech",
           "span": "BZ<br>C1.08",
           "timetable-item-label": { "span": "Office" },
           "time": "8:30 - 10:30",
@@ -61,7 +61,7 @@
           "timetable-item-button": { "button": "Leibl Peter Erich" }
         },
         {
-          "timetable-theme": "t_science-tech",
+          "timetable-theme": "t_tech",
           "span": "BZ<br>D1.02",
           "timetable-item-label": { "span": "Lect" },
           "time": "8:30 - 10:30",

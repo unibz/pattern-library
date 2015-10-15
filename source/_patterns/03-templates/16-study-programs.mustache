@@ -5,6 +5,11 @@
     {{> organisms-hero-small }}
   {{/ page-hero }}
 
+
+  {{# page-filters }}
+    {{> organisms-filters }}
+  {{/ page-filters }}
+
   {{# page-programs }}
     <section class="l-section">
       <div class="l-container">
@@ -14,7 +19,7 @@
           </div>
           <div class="program_wrap">
             {{# program }}
-              {{> molecules-program }}
+              {{> molecules-block-study-program }}
             {{/ program }}
           </div>
         {{/ programs }}
