@@ -1,0 +1,202 @@
+{
+  "page-hero": {
+    "hero-title": {"headline": "Study Programs"}
+  },
+
+  "page-programs": {
+    "programs": [
+      {
+        "headline": "Bachelors",
+        "program": [
+          {
+            "program-theme": "t_eco",
+            "program-tag": {"span": "Eco"},
+            "headline": "Economics and Management",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_eco",
+            "program-tag": {"span": "Eco"},
+            "headline": "Economics and Social Sciences",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_eco",
+            "program-tag": {"span": "Eco"},
+            "headline": "Tourism, Sport and Event Management",
+            "program-location": {"span": "Brunico-Bruneck"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_comp-science",
+            "program-tag": {"span": "Comp"},
+            "headline": "Computer Science and Engineering",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_science-tech",
+            "program-tag": {"span": "Tech"},
+            "headline": "Agricultural and Agro-Environmental Sciences",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_science-tech",
+            "program-tag": {"span": "Tech"},
+            "headline": "Industrial and Mechanical Engineering",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_edu",
+            "program-tag": {"span": "Edu"},
+            "headline": "Communication Sciences and Culture",
+            "program-location": {"span": "Brunico-Bruneck"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_edu",
+            "program-tag": {"span": "Edu"},
+            "headline": "Social Education",
+            "program-location": {"span": "Brunico-Bruneck"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+          {
+            "program-theme": "t_edu",
+            "program-tag": {"span": "Edu"},
+            "headline": "Social Work",
+            "program-location": {"span": "Brunico-Bruneck"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          },
+           {
+            "program-theme": "t_des-art",
+            "program-tag": {"span": "DSGN"},
+            "headline": "Design and Art",
+            "program-location": {"span": "Bolzano-Bozen"},
+            "program-lang": [
+              {
+                "span": "DE"
+              },
+              {
+                "span": "IT"
+              },
+              {
+                "span": "EN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "headline": "Masters",
+        "programs": [
+          {
+            
+          }
+        ]
+      }
+    ]
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

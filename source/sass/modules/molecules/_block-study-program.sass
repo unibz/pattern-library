@@ -1,0 +1,125 @@
+//============================================
+// Block Study Program
+//============================================
+
+
+// Study Program Wrapper
+//============================================
+
+.program_wrap
+  display: flex
+  flex-wrap: wrap
+
+
+// Study Program Tag
+//============================================
+
+.program
+  flex-basis: 100%
+  margin-bottom: $space
+  +mq($bp-md)
+    flex-basis: 50%
+    margin-bottom: $space*1.5
+
+
+// Study Program Tag
+//============================================
+
+.program_tag
+  +tag
+  color: $primary
+  margin-bottom: 2px
+
+.t_des-art
+  .program_tag
+    color: $des-art
+
+.t_eco
+  .program_tag
+    color: $eco
+
+.t_edu
+  .program_tag
+    color: $edu
+
+.t_comp-science
+  .program_tag
+    color: $comp-science
+
+.t_science-tech
+  .program_tag
+    color: $science-tech
+
+.t_library
+  .program_tag
+    color: $library
+
+
+// Study Program Title
+//============================================
+
+.program_title
+  +h5
+  margin-left: -1px
+  margin-bottom: 0
+
+
+// Study Program Details
+//============================================
+
+.program_details
+  display: flex
+  align-items: center
+
+
+// Study Program Location
+//============================================
+
+.program_location
+  +tag
+  font-size: $fs
+  padding-top: 2px
+  letter-spacing: 0
+  margin-bottom: 0
+  text-transform: capitalize
+
+
+// Study Program Languages
+//============================================
+
+.program_lang
+  padding-top: 1px
+  margin-left: $space-half
+  width: 30px
+  height: 30px
+  font-size: $fs-small
+  line-height: 30px
+  font-weight: 500
+  text-align: center
+  background-color: $primary
+  color: $white
+  border-radius: 50%
+
+.t_des-art
+  .program_lang
+    background-color: $des-art
+
+.t_eco
+  .program_lang
+    background-color: $eco
+
+.t_edu
+  .program_lang
+    background-color: $edu
+
+.t_comp-science
+  .program_lang
+    background-color: $comp-science
+
+.t_science-tech
+  .program_lang
+    background-color: $science-tech
+
+.t_library
+  .program_lang
+    background-color: $library

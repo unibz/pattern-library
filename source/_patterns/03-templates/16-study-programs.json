@@ -1,0 +1,32 @@
+{
+  "page-hero": {
+    "hero-title": "true"
+  },
+
+  "page-programs": {
+    "programs": {
+      "program": [
+        {
+          "program-tag": "true",
+          "program-location": "true",
+          "program-lang": "true"
+        }
+      ]
+    }
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}
