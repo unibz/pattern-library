@@ -1,0 +1,36 @@
+{{&gt; organisms-header }}
+
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+
+  {{# page-programs }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        {{# programs }}
+          &lt;div class=&quot;typography&quot;&gt;
+            {{&gt; atoms-heading-3 }}
+          &lt;/div&gt;
+            {{# program }}
+              {{&gt; molecules-programme }}
+            {{/ program }}
+        {{/ programs }}
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-programs }}
+
+  {{# page-details }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography&quot;&gt;
+          {{&gt; atoms-text-paragraph }}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-details }}
+&lt;/main&gt;
+
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}
