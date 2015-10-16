@@ -73,6 +73,7 @@
 
 .hero_titleLabel
   +h5
+  margin-bottom: 0
   font-weight: 600
 
 .hero_title
@@ -96,12 +97,16 @@
 //============================================
 
 .hero-small
-  margin-bottom: $space*2
+  margin-bottom: $space
+  +mq($bp-md)
+    margin-bottom: $space*2
 
 .hero-small_background
-  height: 30px
+  height: 0px
+  margin-top: $space-quarter
   background-color: $primary
   +mq($bp-sm)
+    margin-top: 0
     height: 140px
   +mq($bp-md)
     height: 180px
