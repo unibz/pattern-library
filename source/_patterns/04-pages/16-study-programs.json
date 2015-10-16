@@ -1,10 +1,11 @@
 {
   "page-hero": {
     "hero-label": {"headline": "Study programs"},
-    "hero-title": {"headline": "Bachelor and Master"}
+    "hero-title": {"headline": "Bachelors and Masters"}
   },
 
   "page-filters": {
+    "filters-toggle": {"button": "Filter"},
     "filters": [
       {
         "button": "BA"
@@ -39,7 +40,7 @@
   "page-programs": {
     "programs": [
       {
-        "headline": "Bachelor",
+        "headline": "Bachelors",
         "program": [
           {
             "program-theme": "t_eco",
@@ -208,7 +209,7 @@
         ]
       },
       {
-        "headline": "Master",
+        "headline": "Masters",
         "program": [
           {
             "program-theme": "t_eco",

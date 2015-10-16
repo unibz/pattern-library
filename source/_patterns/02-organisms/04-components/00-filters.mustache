@@ -1,8 +1,14 @@
 <div class="l-container">
-  {{# filters-label }}
-    {{> atoms-text-span (class:"filter_label")}}
-  {{/ filters-label }}
-  {{# filters }}
-    {{> atoms-button-filter }}
-  {{/ filters }}
+  <div class="typography">
+    <div class="filter_wrapper">
+      {{# filters-toggle }}
+        {{> atoms-button-filter (class:"filter_toggle")}}
+      {{/ filters-toggle }}
+      <div class="filter_list">
+        {{# filters }}
+          {{> atoms-button-filter }}
+        {{/ filters }}
+      </div>
+    </div>
+  </div>
 </div>

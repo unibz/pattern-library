@@ -1,8 +1,14 @@
 &lt;div class=&quot;l-container&quot;&gt;
-  {{# filters-label }}
-    {{&gt; atoms-text-span (class:&quot;filter_label&quot;)}}
-  {{/ filters-label }}
-  {{# filters }}
-    {{&gt; atoms-button-filter }}
-  {{/ filters }}
+  &lt;div class=&quot;typography&quot;&gt;
+    &lt;div class=&quot;filter_wrapper&quot;&gt;
+      {{# filters-toggle }}
+        {{&gt; atoms-button-filter (class:&quot;filter_toggle&quot;)}}
+      {{/ filters-toggle }}
+      &lt;div class=&quot;filter_list&quot;&gt;
+        {{# filters }}
+          {{&gt; atoms-button-filter }}
+        {{/ filters }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
