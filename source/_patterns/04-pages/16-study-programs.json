@@ -20,7 +20,7 @@
       {
         "theme": "t_comp",
         "button": "COMP",
-        "class": "btn-filter-active"
+        "class": "btn-outline-active"
       },
       {
         "theme": "t_tech",

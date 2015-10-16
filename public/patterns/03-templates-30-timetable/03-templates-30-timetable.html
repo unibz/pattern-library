@@ -525,9 +525,10 @@
   </div>
 </div><main>
   <div class="l-container">
-    <div class="timetable_nav">
+    <div class="timetable_tools">
+  <a class="btn-toggle tt_toolToggle tt_toolToggle-search" href="#"><i class="i i-search"></i></a>  <input class="form_input tt_toolSearch" type="search" placeholder="Lorem">  <a class="btn-toggle tt_toolToggle" href="#"><i class="i i-filter"></i></a>  <a class="btn-toggle tt_toolToggle" href="#"><i class="i i-calendar"></i></a>    </div>    <div class="timetable_nav">
       <div class="tt_navBtnWrapper tt_navBtnWrapper-lft">
-    <a href="#" class="btn-nav btn-nav-left tt_navBtn"></a>      </div>
+    <a href="#" class="btn-round tt_navBtn"><i class="i i-arrow-left"></i></a>      </div>
       <div class="tt_navDays">
         <div class="tt_navDay">
           <span class="tt_navDayName">Mon</span>
@@ -696,7 +697,7 @@
         </div>
       </div>
       <div class="tt_navBtnWrapper tt_navBtnWrapper-rgt">
-    <a href="#" class="btn-nav btn-nav-right tt_navBtn"></a>      </div>
+    <a href="#" class="btn-round tt_navBtn"><i class="i i-arrow-right"></i></a>      </div>
     </div>  </div>
   <section class="l-section">
     <div class="l-container">
@@ -756,7 +757,7 @@
 
             <div class="footer_section">
             <h5 class="footer_sectionTitle">Lorem ipsum dolor sit (37 characters)</h5>              <form class="footer_form" action="#">
-              <input class="form_input footer_input" type="email" placeholder="Lorem">              <a href="#" class="btn btn-alt footer_button">Lorem ipsum</a>              </form>
+              <input class="form_input footer_input" type="email" placeholder="Lorem">              <a href="#" class="btn btn-alt btn-medium footer_button">Lorem ipsum</a>              </form>
             </div>
 
             <div class="footer_section">
@@ -772,7 +773,7 @@
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "templates-timetable";
-		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-timetable-day-navigation","lineagePath":"..\/..\/patterns\/02-organisms-05-timetable-05-timetable-day-navigation\/02-organisms-05-timetable-05-timetable-day-navigation.html"},{"lineagePattern":"organisms-timetable-day","lineagePath":"..\/..\/patterns\/02-organisms-05-timetable-00-timetable-day\/02-organisms-05-timetable-00-timetable-day.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-05-footer\/02-organisms-00-global-05-footer.html"}];
+		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-timetable-tools","lineagePath":"..\/..\/patterns\/02-organisms-05-timetable-15-timetable-tools\/02-organisms-05-timetable-15-timetable-tools.html"},{"lineagePattern":"organisms-timetable-day-navigation","lineagePath":"..\/..\/patterns\/02-organisms-05-timetable-05-timetable-day-navigation\/02-organisms-05-timetable-05-timetable-day-navigation.html"},{"lineagePattern":"organisms-timetable-day","lineagePath":"..\/..\/patterns\/02-organisms-05-timetable-00-timetable-day\/02-organisms-05-timetable-00-timetable-day.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-05-footer\/02-organisms-00-global-05-footer.html"}];
 		var lineageR       = [{"lineagePattern":"pages-timetable","lineagePath":"..\/..\/patterns\/04-pages-20-timetable\/04-pages-20-timetable.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;

@@ -38,9 +38,12 @@ input[type="submit"]
 textarea,
 select,
 .form_input
+  margin-bottom: $space
+  padding: 15px $space-half $space-half $space-half
+  box-sizing: border-box !important
   -webkit-appearance: none
-  outline: 0
   width: 100%
+  height: 40px
   color: inherit
   font-family: inherit
   font-size: inherit
@@ -49,10 +52,9 @@ select,
   border: 1px solid $gray
   border-radius: $radius
   background: $white
+  outline: 0
+  transition: border-color .3s ease-out
   +light-box-shadow
-  margin-bottom: $space
-  padding: 15px $space-half $space-half $space-half
-  transition: border-color .5s ease-out
   &:focus
     box-shadow: none
     border: 1px solid $primary

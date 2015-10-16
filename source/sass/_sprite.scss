@@ -11,33 +11,53 @@
 
 
 $i-map: (
-  i-map-path: url("../images/sprite-6f1b9535.svg"),
-  i-map-width: 126px,
-  i-map-height: 20px,
+  i-map-path: url("../images/sprite-58d161fc.svg"),
+  i-map-width: 246px,
+  i-map-height: 24px,
+
+  i-arrow-left-width: 24px,
+  i-arrow-left-height: 24px,
+  i-arrow-left-position: 0 0,
+
+  i-arrow-right-width: 24px,
+  i-arrow-right-height: 24px,
+  i-arrow-right-position: -24px 0,
+
+  i-calendar-width: 24px,
+  i-calendar-height: 24px,
+  i-calendar-position: -48px 0,
 
   i-facebook-width: 21px,
   i-facebook-height: 20px,
-  i-facebook-position: 0 0,
+  i-facebook-position: -72px 0,
+
+  i-filter-width: 24px,
+  i-filter-height: 24px,
+  i-filter-position: -93px 0,
 
   i-instagram-width: 21px,
   i-instagram-height: 20px,
-  i-instagram-position: -21px 0,
+  i-instagram-position: -117px 0,
 
   i-linkedin-width: 21px,
   i-linkedin-height: 20px,
-  i-linkedin-position: -42px 0,
+  i-linkedin-position: -138px 0,
 
   i-mail-width: 21px,
   i-mail-height: 20px,
-  i-mail-position: -63px 0,
+  i-mail-position: -159px 0,
 
   i-print-width: 21px,
   i-print-height: 20px,
-  i-print-position: -84px 0,
+  i-print-position: -180px 0,
+
+  i-search-width: 24px,
+  i-search-height: 24px,
+  i-search-position: -201px 0,
 
   i-twitter-width: 21px,
   i-twitter-height: 20px,
-  i-twitter-position: -105px 0
+  i-twitter-position: -225px 0
 );
 
 
@@ -54,7 +74,7 @@ $i-map: (
 }
 
 %i {
-  background-image: url("../images/sprite-6f1b9535.svg");
+  background-image: url("../images/sprite-58d161fc.svg");
 }
 
 @mixin extend-i-url($extend: true) {
@@ -76,10 +96,49 @@ $i-map: (
 // Mixins & classes
 //===========================================
 
-@mixin i-facebook($add-style: true, $add-url: true) {
+@mixin i-arrow-left($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
   background-position: 0 0;
+  width: 24px;
+  height: 24px;
+}
+
+.i-arrow-left {
+  @include i-arrow-left(false, false);
+}
+
+
+@mixin i-arrow-right($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -24px 0;
+  width: 24px;
+  height: 24px;
+}
+
+.i-arrow-right {
+  @include i-arrow-right(false, false);
+}
+
+
+@mixin i-calendar($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -48px 0;
+  width: 24px;
+  height: 24px;
+}
+
+.i-calendar {
+  @include i-calendar(false, false);
+}
+
+
+@mixin i-facebook($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -72px 0;
   width: 21px;
   height: 20px;
 }
@@ -89,10 +148,23 @@ $i-map: (
 }
 
 
+@mixin i-filter($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -93px 0;
+  width: 24px;
+  height: 24px;
+}
+
+.i-filter {
+  @include i-filter(false, false);
+}
+
+
 @mixin i-instagram($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -21px 0;
+  background-position: -117px 0;
   width: 21px;
   height: 20px;
 }
@@ -105,7 +177,7 @@ $i-map: (
 @mixin i-linkedin($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -42px 0;
+  background-position: -138px 0;
   width: 21px;
   height: 20px;
 }
@@ -118,7 +190,7 @@ $i-map: (
 @mixin i-mail($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -63px 0;
+  background-position: -159px 0;
   width: 21px;
   height: 20px;
 }
@@ -131,7 +203,7 @@ $i-map: (
 @mixin i-print($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -84px 0;
+  background-position: -180px 0;
   width: 21px;
   height: 20px;
 }
@@ -141,10 +213,23 @@ $i-map: (
 }
 
 
+@mixin i-search($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -201px 0;
+  width: 24px;
+  height: 24px;
+}
+
+.i-search {
+  @include i-search(false, false);
+}
+
+
 @mixin i-twitter($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -105px 0;
+  background-position: -225px 0;
   width: 21px;
   height: 20px;
 }
