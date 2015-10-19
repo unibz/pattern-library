@@ -1,0 +1,33 @@
+//============================================
+// Pagination navigation
+//============================================
+
+
+// Pagination Wrapper
+//============================================
+
+.pagination
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.pagination_pagesWrapper
+  display: none
+  +mq($bp-sm)
+    display: flex
+    justify-content: space-between
+    width: 100%
+    margin: 0 $space
+
+.pagination_button
+  flex-shrink: 0
+
+.pagination_page
+  padding: 7px 12px 4px
+  cursor: pointer
+  font-weight: 500
+  border-radius: $radius
+  transition: color .3s $motion, background-color .3s $motion
+  &:hover
+    color: $white
+    background-color: $primary
