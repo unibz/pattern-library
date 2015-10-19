@@ -11,7 +11,9 @@
     {{# intership-location }}
       {{> atoms-text-span (class: "intership_location") }}
     {{/ intership-location }}
-    {{> atoms-heading-5 (class: "intership_title") }}
+    <a href="{{ url }}">
+      {{> atoms-heading-5 (class: "intership_title") }}
+    </a>
     {{> atoms-button-text-small-primary (class: "intership_button") }}
   </div>
 </div>

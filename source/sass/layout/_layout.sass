@@ -10,26 +10,29 @@
   max-width: $layout-width-xs
   padding: 0 $layout-gutter-xs
   margin: 0 auto
-
-+mq($bp-sm)
-  .l-container
+  +mq($bp-sm)
     max-width: $layout-width-sm
     padding: 0 $layout-gutter-sm
-
-+mq($bp-md)
-  .l-container
+  +mq($bp-md)
     max-width: $layout-width-md
     padding: 0 $layout-gutter-md
-
-+mq($bp-lg)
-  .l-container
+  +mq($bp-lg)
     max-width: $layout-width-lg
     padding: 0 $layout-gutter-lg
-
-+mq($bp-xl)
-  .l-container
+  +mq($bp-xl)
     max-width: $layout-width-xl
     padding: 0 $layout-gutter-xl
+
+.l-container-small
+  max-width: $layout-width-xs
+  padding: 0 $layout-gutter-xs
+  margin: 0 auto
+  +mq($bp-sm)
+    max-width: 574px
+  +mq($bp-lg)
+    max-width: 688px
+  +mq($bp-xl)
+    max-width: 768px
 
 
 // Header

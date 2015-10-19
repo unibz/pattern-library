@@ -20,16 +20,16 @@
     },
     {
       "img-4x3": "http://www.conconshop.it/images/stories/virtuemart/manufacturer/mielelogo.jpg",
-      "intership-brand": { "span": "Miele Italia srl"},
+      "intership-brand": { "span": "Miele Italia S.R.L."},
       "intership-location": { "span": "Appiano"},
       "headline": "Tirocinio nella Business Unit Professional",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.mobilicarli.it/wp-content/uploads/2014/10/MARCHIO-LE-FABLIER-DEF.jpg",
-      "intership-brand": { "span": "LE FABLIER SPA"},
-      "intership-location": { "span": "VALEGGIO SUL MINCIO - VR"},
-      "headline": "DISEGNATORE/PROGETTAZIONE DI INTERNI",
+      "intership-brand": { "span": "Le Fablier S.P.A."},
+      "intership-location": { "span": "Valeggio sul Mincio (VR)"},
+      "headline": "Disegnatore e progettazione di interni",
       "button": "Details"
     },
     {
@@ -37,6 +37,41 @@
       "intership-brand": { "span": "Südtirol Marketing"},
       "intership-location": { "span": "Bozen"},
       "headline": "Bereich Produktion/Projekt Bilddatenbank",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://alpscrafted.com/wp-content/uploads/2014/06/Cora.png",
+      "intership-brand": { "span": "CORA Happywear s.r.l."},
+      "intership-location": { "span": "Pineta di Laives"},
+      "headline": "Comunicazione e assistente marketing",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.provinz.bz.it/wirtschaft/BLS_Sued_CO_M.bmp",
+      "intership-brand": { "span": "BLS"},
+      "intership-location": { "span": "Bozen"},
+      "headline": "Green Mobility Südtirol",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "https://alasdairroberts.files.wordpress.com/2015/03/screen-shot-2015-03-01-at-8-23-53-am.png",
+      "intership-brand": { "span": "European Ombudsman"},
+      "intership-location": { "span": "Strasbourg"},
+      "headline": "Computer Science",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.zoffoli.com/wp-content/uploads/2014/11/liuonshome_logo_neu_lw_klein.jpg",
+      "intership-brand": { "span": "LionsHome"},
+      "intership-location": { "span": "Berlino"},
+      "headline": "Stage nell'online marketing",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.museion.it/wp-content/uploads/2013/12/FILMCLUB_Logo_gross.jpg",
+      "intership-brand": { "span": "Filmclub Bozen/Bolzano"},
+      "intership-location": { "span": "Bolzano"},
+      "headline": "Filmclub/Filmfestival",
       "button": "Details"
     }
   ],
