@@ -1,0 +1,17 @@
+<div class="intership">
+  {{^ empty }}
+    <div class="intership_thumb">
+      {{> atoms-image-4x3 (class: "intership_thumb") }}
+    </div>
+  {{/ empty }}
+  <div class="intership_body">
+    {{# intership-brand }}
+      {{> atoms-text-span (class: "intership_brand") }}
+    {{/ intership-brand }}
+    {{# intership-location }}
+      {{> atoms-text-span (class: "intership_location") }}
+    {{/ intership-location }}
+    {{> atoms-heading-5 (class: "intership_title") }}
+    {{> atoms-button-text-small-primary (class: "intership_button") }}
+  </div>
+</div>

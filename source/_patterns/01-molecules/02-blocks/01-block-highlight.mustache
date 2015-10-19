@@ -1,8 +1,10 @@
-<div class="highlight">
+<div class="highlight {{ class }}">
   <a href="{{ url }}">
     {{> atoms-image-4x3 (class: "highlight_thumb") }}
   </a>
   <div class="highlight_body">
+    {{> atoms-heading-4 (class: "highlight_title") }}
     {{> atoms-text-paragraph (class:"highlight_text") }}
+    {{> atoms-button-text-alternate (class: "highlight_button") }}
   </div>
 </div>

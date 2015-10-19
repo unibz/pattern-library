@@ -1,0 +1,25 @@
+{
+  "page-hero": {
+    "hero-title": "true"
+  },
+
+  "interships": {
+    "intership-brand": "true",
+    "intership-location": "true"
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

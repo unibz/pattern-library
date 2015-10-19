@@ -1,0 +1,58 @@
+{
+  "page-hero": {
+    "hero-title": { "headline": "Praktikumsangebote" }
+  },
+
+  "interships": [
+    {
+      "img-4x3": "http://www.raiffeisen.net/fileadmin/user_upload/Bilder/Logos/SEL.jpg",
+      "intership-brand": { "span": "SEL SPA"},
+      "intership-location": { "span": "Bolzano"},
+      "headline": "IT",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.loacker.com/img/loacker_logo.gif",
+      "intership-brand": { "span": "A. Loacker AG"},
+      "intership-location": { "span": "Unterinn"},
+      "headline": "Marketing",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.conconshop.it/images/stories/virtuemart/manufacturer/mielelogo.jpg",
+      "intership-brand": { "span": "Miele Italia srl"},
+      "intership-location": { "span": "Appiano"},
+      "headline": "Tirocinio nella Business Unit Professional",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.mobilicarli.it/wp-content/uploads/2014/10/MARCHIO-LE-FABLIER-DEF.jpg",
+      "intership-brand": { "span": "LE FABLIER SPA"},
+      "intership-location": { "span": "VALEGGIO SUL MINCIO - VR"},
+      "headline": "DISEGNATORE/PROGETTAZIONE DI INTERNI",
+      "button": "Details"
+    },
+    {
+      "img-4x3": "http://www.smg.bz.it/fileadmin/web/img/layout/LOGO_smg_260x100.png",
+      "intership-brand": { "span": "Südtirol Marketing"},
+      "intership-location": { "span": "Bozen"},
+      "headline": "Bereich Produktion/Projekt Bilddatenbank",
+      "button": "Details"
+    }
+  ],
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

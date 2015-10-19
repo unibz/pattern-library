@@ -1,0 +1,63 @@
+//============================================
+// Block Intership
+//============================================
+
+
+// Block Intership Wrapper
+//============================================
+
+.intership
+  margin-bottom: $space-half
+  +mq($bp-sm)
+    display: flex
+
+
+// Block Intership Thumb
+//============================================
+
+.intership_thumb
+  width: 140px
+  margin-bottom: $space-quarter
+  +mq($bp-sm)
+    flex: 0 0 100px
+    margin-right: $space
+
+
+// Block Intership Title
+//============================================
+
+.intership_title
+  +h5
+  margin-bottom: 2px
+  margin-left: -1px
+
+
+// Block Intership Brand
+//============================================
+
+.intership_brand
+  +tag
+  display: inline-block
+  margin: 0
+  color: $color-text
+
+
+// Block Intership Location
+//============================================
+
+.intership_location
+  +tag
+  text-transform: capitalize
+  display: inline-block
+  margin: 0
+  &:before
+    content: "·"
+    margin-right: $space-quarter
+    color: $color-text
+
+
+// Block Intership Button
+//============================================
+
+.intership_button
+  font-weight: 600
