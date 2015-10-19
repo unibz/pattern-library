@@ -9,11 +9,14 @@
 .intership
   padding-bottom: $space
   margin-bottom: $space
-  border-bottom : 1px solid $gray-light
   +mq($bp-sm)
     display: flex
     align-items: center
+    padding-bottom: $space-half
+    margin-bottom: $space-half
 
+.intership:not(:last-child)
+  border-bottom : 1px solid $gray-light
 
 // Block Intership Thumb
 //============================================
@@ -24,6 +27,7 @@
   +mq($bp-sm)
     flex: 0 0 100px
     margin-right: $space
+    margin-bottom: 0
 
 
 // Block Intership Title
@@ -31,8 +35,10 @@
 
 .intership_title
   +h5
-  margin-bottom: 2px
+  margin-bottom: 0
   margin-left: -1px
+  &:hover
+    text-decoration: underline
 
 
 // Block Intership Brand
