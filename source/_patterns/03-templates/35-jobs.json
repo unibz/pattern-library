@@ -3,9 +3,9 @@
     "hero-title": "true"
   },
 
-  "interships": {
-    "intership-brand": "true",
-    "intership-location": "true"
+  "jobs": {
+    "job-brand": "true",
+    "job-location": "true"
   },
 
   "page-footer": {

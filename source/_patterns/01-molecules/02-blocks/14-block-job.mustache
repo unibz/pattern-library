@@ -1,0 +1,19 @@
+<div class="job">
+  {{^ empty }}
+    <div class="job_thumb">
+      {{> atoms-image-4x3 (class: "job_thumb") }}
+    </div>
+  {{/ empty }}
+  <div class="job_body">
+    {{# job-brand }}
+      {{> atoms-text-span (class: "job_brand") }}
+    {{/ job-brand }}
+    {{# job-location }}
+      {{> atoms-text-span (class: "job_location") }}
+    {{/ job-location }}
+    <a href="{{ url }}">
+      {{> atoms-heading-5 (class: "job_title") }}
+    </a>
+    {{> atoms-button-text-small-primary (class: "job_button") }}
+  </div>
+</div>

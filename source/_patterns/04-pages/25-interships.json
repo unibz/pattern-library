@@ -3,74 +3,74 @@
     "hero-title": { "headline": "Praktikumsangebote" }
   },
 
-  "interships": [
+  "jobs": [
     {
       "img-4x3": "http://www.raiffeisen.net/fileadmin/user_upload/Bilder/Logos/SEL.jpg",
-      "intership-brand": { "span": "SEL SPA"},
-      "intership-location": { "span": "Bolzano"},
+      "job-brand": { "span": "SEL SPA"},
+      "job-location": { "span": "Bolzano"},
       "headline": "IT",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.loacker.com/img/loacker_logo.gif",
-      "intership-brand": { "span": "A. Loacker AG"},
-      "intership-location": { "span": "Unterinn"},
+      "job-brand": { "span": "A. Loacker AG"},
+      "job-location": { "span": "Unterinn"},
       "headline": "Marketing",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.conconshop.it/images/stories/virtuemart/manufacturer/mielelogo.jpg",
-      "intership-brand": { "span": "Miele Italia S.R.L."},
-      "intership-location": { "span": "Appiano"},
+      "job-brand": { "span": "Miele Italia S.R.L."},
+      "job-location": { "span": "Appiano"},
       "headline": "Tirocinio nella Business Unit Professional",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.mobilicarli.it/wp-content/uploads/2014/10/MARCHIO-LE-FABLIER-DEF.jpg",
-      "intership-brand": { "span": "Le Fablier S.P.A."},
-      "intership-location": { "span": "Valeggio sul Mincio (VR)"},
+      "job-brand": { "span": "Le Fablier S.P.A."},
+      "job-location": { "span": "Valeggio sul Mincio (VR)"},
       "headline": "Disegnatore e progettazione di interni",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.smg.bz.it/fileadmin/web/img/layout/LOGO_smg_260x100.png",
-      "intership-brand": { "span": "Südtirol Marketing"},
-      "intership-location": { "span": "Bozen"},
+      "job-brand": { "span": "Südtirol Marketing"},
+      "job-location": { "span": "Bozen"},
       "headline": "Bereich Produktion/Projekt Bilddatenbank",
       "button": "Details"
     },
     {
       "img-4x3": "http://alpscrafted.com/wp-content/uploads/2014/06/Cora.png",
-      "intership-brand": { "span": "CORA Happywear s.r.l."},
-      "intership-location": { "span": "Pineta di Laives"},
+      "job-brand": { "span": "CORA Happywear s.r.l."},
+      "job-location": { "span": "Pineta di Laives"},
       "headline": "Comunicazione e assistente marketing",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.provinz.bz.it/wirtschaft/BLS_Sued_CO_M.bmp",
-      "intership-brand": { "span": "BLS"},
-      "intership-location": { "span": "Bozen"},
+      "job-brand": { "span": "BLS"},
+      "job-location": { "span": "Bozen"},
       "headline": "Green Mobility Südtirol",
       "button": "Details"
     },
     {
       "img-4x3": "https://alasdairroberts.files.wordpress.com/2015/03/screen-shot-2015-03-01-at-8-23-53-am.png",
-      "intership-brand": { "span": "European Ombudsman"},
-      "intership-location": { "span": "Strasbourg"},
+      "job-brand": { "span": "European Ombudsman"},
+      "job-location": { "span": "Strasbourg"},
       "headline": "Computer Science",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.zoffoli.com/wp-content/uploads/2014/11/liuonshome_logo_neu_lw_klein.jpg",
-      "intership-brand": { "span": "LionsHome"},
-      "intership-location": { "span": "Berlino"},
+      "job-brand": { "span": "LionsHome"},
+      "job-location": { "span": "Berlino"},
       "headline": "Stage nell'online marketing",
       "button": "Details"
     },
     {
       "img-4x3": "http://www.museion.it/wp-content/uploads/2013/12/FILMCLUB_Logo_gross.jpg",
-      "intership-brand": { "span": "Filmclub Bozen/Bolzano"},
-      "intership-location": { "span": "Bolzano"},
+      "job-brand": { "span": "Filmclub Bozen/Bolzano"},
+      "job-location": { "span": "Bolzano"},
       "headline": "Filmclub/Filmfestival",
       "button": "Details"
     }
