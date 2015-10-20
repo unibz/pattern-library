@@ -23,13 +23,13 @@
   flex: 0 0 100%
   +mq($bp-md)
     flex: 0 0 46%
-  +mq($bp-lg)
-    flex: 0 0 30%
+  // +mq($bp-lg)
+  //   flex: 0 0 30%
 
 .blockLecture:last-child
   margin-bottom: 0
 
-.blockLecture:nth-last-child(-n+3)
+.blockLecture:nth-last-child(-n+2)
   +mq($bp-lg)
     margin-bottom: 0
 
@@ -46,7 +46,7 @@
 //============================================
 
 .blockLecture_title
-  +h6
+  +h5
   line-height: 1.3
   &:hover
     text-decoration: underline
