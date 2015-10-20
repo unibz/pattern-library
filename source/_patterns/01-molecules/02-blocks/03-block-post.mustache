@@ -5,7 +5,9 @@
   <div class="post_content">
     {{^ empty }}
       <div class="post_figure">
+        <a href="{{ url }}">
           {{> atoms-image-4x3 (class: "post_thumb") }}
+        </a>
       </div>
     {{/ empty }}
     <div class="post_body">
