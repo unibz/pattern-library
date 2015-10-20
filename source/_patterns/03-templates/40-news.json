@@ -3,6 +3,9 @@
     "hero-title": "true"
   },
 
+  "tools": "true",
+  "cal-days": "true",
+
   "news": "true",
 
   "page-footer": {

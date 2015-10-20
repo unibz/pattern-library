@@ -7,14 +7,6 @@
     "filter-toggle": {"button": "Filter"},
     "filter": [
       {
-        "button": "BA",
-        "class": "filter_button"
-      },
-      {
-        "button": "MA",
-        "class": "filter_button"
-      },
-      {
         "theme": "t_eco",
         "button": "ECO",
         "class": "filter_button"

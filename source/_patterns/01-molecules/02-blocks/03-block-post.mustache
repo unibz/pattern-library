@@ -1,10 +1,16 @@
 <div class="post">
-  <div class="post_body">
-    {{> atoms-heading-4 (class: "post_title") }}
+  <a href="{{ url }}">
+    {{> atoms-heading-5 (class: "post_title") }}
+  </a>
+  <div class="post_content">
     {{^ empty }}
-      {{> atoms-image-4x3 (class: "post_thumb") }}
+      <div class="post_figure">
+          {{> atoms-image-4x3 (class: "post_thumb") }}
+      </div>
     {{/ empty }}
-    {{> atoms-text-paragraph (class: "post_excerpt") }}
-    {{> atoms-text-date (class: "post_date") }}
+    <div class="post_body">
+      {{> atoms-text-paragraph (class: "post_excerpt") }}
+      {{> atoms-text-date (class: "post_date") }}
+    </div>
   </div>
 </div>

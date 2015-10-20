@@ -5,13 +5,21 @@
     {{> organisms-hero-small }}
   {{/ page-hero }}
 
+  <div class="l-container-small">
+    {{> organisms-search-find }}
+  </div>
+
   <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{# news }}
-          {{> molecules-block-post }}
-        {{/ news }}
-      </div>
+    <div class="l-container-small">
+      {{# news }}
+        {{> molecules-block-post }}
+      {{/ news }}
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-container-small">
+      {{> molecules-nav-pagination }}
     </div>
   </section>
 </main>
