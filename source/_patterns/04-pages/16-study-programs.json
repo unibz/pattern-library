@@ -5,8 +5,8 @@
   },
 
   "page-filters": {
-    "filters-toggle": {"button": "Filter"},
-    "filters": [
+    "filter-toggle": {"button": "Filter"},
+    "filter": [
       {
         "button": "BA",
         "class": "filter_button"

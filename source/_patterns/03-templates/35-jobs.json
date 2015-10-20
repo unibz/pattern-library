@@ -3,6 +3,45 @@
     "hero-title": "true"
   },
 
+  "page-filters": {
+    "filter-toggle": {"button": "Filter"},
+    "filter": [
+      {
+        "button": "BA",
+        "class": "filter_button"
+      },
+      {
+        "button": "MA",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_eco",
+        "button": "ECO",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_comp",
+        "button": "COMP",
+        "class": "filter_button btn-outline-active"
+      },
+      {
+        "theme": "t_tech",
+        "button": "TECH",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_edu",
+        "button": "EDU",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_dsgn",
+        "button": "DSGN",
+        "class": "filter_button"
+      }
+    ]
+  },
+
   "jobs": {
     "job-brand": "true",
     "job-location": "true"

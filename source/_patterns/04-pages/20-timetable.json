@@ -1,5 +1,9 @@
 {
-  "span": "Search for professor, study course, room or time...",
+  "tools": {
+    "span": "Search for professor, study course, room or time..."
+  },
+  "cal-days": "true",
+
   "timetable-day": [
     {
       "headline": "Monday, October 5",

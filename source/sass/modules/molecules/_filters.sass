@@ -3,15 +3,22 @@
 //============================================
 
 
-// Filter Wrapper
+// Filters in component
 //============================================
 
-.filter_wrapper
+.filter_button
+  margin-bottom: $space-half
+
+
+// Filter standalone
+//============================================
+
+.filtersAlone_wrapper
   margin-bottom: $space
   +mq($bp-md)
     margin-bottom: $space*2
 
-.filter_toggle
+.filtersAlone_toggle
   width: 100%
   text-align: center
   color: $gray-dark
@@ -35,13 +42,13 @@
   +mq($bp-sm)
     display: none
 
-.filter_list
+.filtersAlone_list
   display: none
   +mq($bp-sm)
     display: block
     text-align: center
 
-.filter_button
+.filtersAlone_button
   margin-bottom: 2px
   +mq($bp-lg)
     padding: $space-half 8px 8px 8px;

@@ -1,0 +1,21 @@
+{{> organisms-header }}
+
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{# news }}
+          {{> molecules-block-post }}
+        {{/ news }}
+      </div>
+    </div>
+  </section>
+</main>
+
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

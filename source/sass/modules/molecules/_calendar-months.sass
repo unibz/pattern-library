@@ -2,11 +2,14 @@
 // Timetable Month Navigation
 //============================================
 
+.calendarMonths
+  margin-bottom: $space-half
+
 
 // Timetable Months Navigation Wrapper
 //============================================
 
-.tt_navMonthNav
+.cm_navMonthNav
   display: flex
   align-items: center
   justify-content: space-between
@@ -16,16 +19,16 @@
 // Timetable Month Navigation Buttons
 //============================================
 
-.tt_navMonthBtnWrapper
+.cm_navMonthBtnWrapper
   flex-basis: calc(100% / 7)
 
-.tt_navMonthBtn
+.cm_navMonthBtn
   margin: 0 auto
 
 // Timetable Month Name
 //============================================
 
-.tt_navMonthName
+.cm_navMonthName
   flex-grow: 1
   font-weight: 600
   letter-spacing: 1px
@@ -36,11 +39,11 @@
 // Timetable Month Days of the Week
 //============================================
 
-.tt_navMonthDays
+.cm_navMonthDays
   width: 100%
   display: flex
 
-.tt_navMonthDay
+.cm_navMonthDay
   flex-basis: calc(100% / 7)
   text-align: center
   font-weight: 500
@@ -49,7 +52,7 @@
 // Timetable Month Calendar
 //============================================
 
-.tt_navMonthCalendar
+.cm_navMonthCalendar
   display: flex
   flex-flow: row wrap
 
@@ -57,14 +60,14 @@
 // Timetable Month Days in Calendar
 //============================================
 
-.tt_navMonthDay
+.cm_navMonthDay
   +h6
   margin-bottom: $space-quarter
   flex-basis: calc(100% / 7)
   text-align: center
   font-weight: 500
 
-.tt_navMonthDayNum
+.cm_navMonthDayNum
   display: block
   margin: 0 auto
   padding: 8px 0 4px 0
@@ -76,11 +79,11 @@
     border-radius: $radius
     font-weight: 500
 
-.tt_navMonthDayNum-current
+.cm_navMonthDayNum-current
   background-color: $primary
   color: $white
   border-radius: $radius
   font-weight: 500
 
-.tt_navMonthDayNum-inactive
+.cm_navMonthDayNum-inactive
   color: $gray

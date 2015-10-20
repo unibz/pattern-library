@@ -1,10 +1,14 @@
 {
+  "tools": "true",
+  "cal-days": "true",
+
   "timetable-day": {
     "timetable-items": {
       "timetable-item-label": "true",
       "timetable-item-button": "true"
     }
   },
+
   "page-footer": {
     "footer-place": {
       "footer-address": "true",
