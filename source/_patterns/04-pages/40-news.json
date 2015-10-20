@@ -71,17 +71,42 @@
   ],
 
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
-    },
+    "headline": "Press and Event Management", 
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
+        "footer-address": [
+          {
+            "span": "Franz-Innerhofer-Platz 8 — Piazzetta Franz Innerhofer, 8"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 011500"
+          },
+          {
+            "span": "Fax +39 0471 011509"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "press@unibz.it"
+          }
+        ]
+      }
+    ],
     "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }
