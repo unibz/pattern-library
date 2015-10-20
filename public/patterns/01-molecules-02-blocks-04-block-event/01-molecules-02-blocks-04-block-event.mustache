@@ -1,8 +1,6 @@
-&lt;div class=&quot;event&quot;&gt;
+&lt;div class=&quot;event {{ class }}&quot;&gt;
   {{^ empty }}
-    &lt;a class=&quot;event_figure&quot; href=&quot;{{ url }}&quot;&gt;
-      {{&gt; atoms-image-4x3 (class: &quot;event_thumb&quot;) }}
-    &lt;/a&gt;
+    &lt;a class=&quot;event_figure&quot; href=&quot;{{ url }}&quot; style=&quot;background-image: url('{{ img-4x3 }}')&quot;&gt;&lt;/a&gt;
   {{/ empty }}
   &lt;div class=&quot;event_body&quot;&gt;
     {{# event-title }}

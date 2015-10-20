@@ -1,8 +1,6 @@
-<div class="event">
+<div class="event {{ class }}">
   {{^ empty }}
-    <a class="event_figure" href="{{ url }}">
-      {{> atoms-image-4x3 (class: "event_thumb") }}
-    </a>
+    <a class="event_figure" href="{{ url }}" style="background-image: url('{{ img-4x3 }}')"></a>
   {{/ empty }}
   <div class="event_body">
     {{# event-title }}

@@ -103,13 +103,34 @@
 
   "page-events": {
     "headline": "Events",
-    "events": [
+    "latest-events": [
       {
+        "class": "g g-12 g-md-8",
+        "empty": "true",
+        "event-title": {"headline": "De-Design. From expansive to reductive Modernity"},
+        "event-campus": {"span": "Campus Bozen"},
+        "event-room": {"span": "Room F0.03"},
+        "event-date": {"date": "20.10.2015"},
+        "event-time": {"time": "12:00 - 13:00"},
+        "event-button": {"button": "Details"}
+      },
+      {
+        "class": "g g-12 g-md-8",
         "img-4x3": "https://cockpit.scientificnet.org/Services/data/common/sst/blob/UNIBZ_113726_90_-1_0_0_1.jpg",
         "event-title": {"headline": "Inclusive Student Mobility: New trends in Higher Education"},
         "event-campus": {"span": "Campus Bozen"},
         "event-room": {"span": "Room D1.02"},
         "event-date": {"date": "14.10.2015 – 15.10.2015"},
+        "event-button": {"button": "Details"}
+      },
+      {
+        "class": "g g-12 g-md-8",
+        "empty": "true",
+        "event-title": {"headline": "Consumo etico-solidale e sostenibilità"},
+        "event-campus": {"span": "Campus Bozen"},
+        "event-room": {"span": "Room C2.06"},
+        "event-date": {"date": "14.10.2015"},
+        "event-time": {"time": "16:30 - 18:30"},
         "event-button": {"button": "Details"}
       }
     ],

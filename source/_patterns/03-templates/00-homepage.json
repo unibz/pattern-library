@@ -13,15 +13,19 @@
     "banner-sub-title": "true",
     "banner-button": "true"
   },
+
   "page-research": "true",
   "page-region": "true",
   "page-library": "true",
+
   "page-news": {
     "latest-news": "true"
   },
+
   "page-events": {
-    "events": [
+    "latest-events": [
       {
+        "class": "g g-12 g-md-8",
         "event-title": "true",
         "event-campus": "true",
         "event-room": "true",
@@ -31,6 +35,7 @@
       }
     ]
   },
+
   "page-magazine": {
     "articles": "true"
   },
