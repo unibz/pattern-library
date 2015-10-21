@@ -5,8 +5,9 @@
 
   "tools": "true",
 
-  "events": [
+  "page-events": [
     {
+      "class": "g g-md-12 g-lg-8",
       "event-title": "true",
       "event-campus": "true",
       "event-room": "true",

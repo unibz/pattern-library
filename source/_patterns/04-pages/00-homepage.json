@@ -105,7 +105,7 @@
     "headline": "Events",
     "latest-events": [
       {
-        "class": "g g-12 g-md-8",
+        "class": "g g-md-8",
         "empty": "true",
         "event-title": {"headline": "De-Design. From expansive to reductive Modernity"},
         "event-campus": {"span": "Campus Bozen"},
@@ -115,7 +115,7 @@
         "event-button": {"button": "Details"}
       },
       {
-        "class": "g g-12 g-md-8",
+        "class": "g g-md-8",
         "img-4x3": "https://cockpit.scientificnet.org/Services/data/common/sst/blob/UNIBZ_113726_90_-1_0_0_1.jpg",
         "event-title": {"headline": "Inclusive Student Mobility: New trends in Higher Education"},
         "event-campus": {"span": "Campus Bozen"},
@@ -124,7 +124,7 @@
         "event-button": {"button": "Details"}
       },
       {
-        "class": "g g-12 g-md-8",
+        "class": "g g-md-8",
         "empty": "true",
         "event-title": {"headline": "Consumo etico-solidale e sostenibilità"},
         "event-campus": {"span": "Campus Bozen"},

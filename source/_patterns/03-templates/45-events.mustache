@@ -11,9 +11,11 @@
 
   <section class="l-section">
     <div class="l-container">
-      {{# events }}
-        {{> molecules-block-event }}
-      {{/ events }}
+      <div class="g-row g-md-clear-2 g-lg-clear-3">
+        {{# page-events }}
+          {{> molecules-block-event }}
+        {{/ page-events }}
+      </div>
     </div>
   </section>
 
