@@ -4,7 +4,9 @@
   {{/ empty }}
   <div class="event_body">
     {{# event-title }}
-      {{> atoms-heading-2 (class: "event_title") }}
+      <a href="{{ url }}">
+        {{> atoms-heading-2 (class: "event_title") }}
+      </a>
     {{/ event-title }}
     <div class="event_details">
       {{# event-campus }}

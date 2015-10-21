@@ -4,7 +4,9 @@
   {{/ empty }}
   &lt;div class=&quot;event_body&quot;&gt;
     {{# event-title }}
-      {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+      &lt;a href=&quot;{{ url }}&quot;&gt;
+        {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+      &lt;/a&gt;
     {{/ event-title }}
     &lt;div class=&quot;event_details&quot;&gt;
       {{# event-campus }}
