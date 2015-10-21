@@ -23,15 +23,39 @@
   "page-news": {
     "latest-news": "true"
   },
+
   "page-events": {
-    "events": {
-      "event-title": "true",
-      "event-campus": "true",
-      "event-room": "true",
-      "event-time": "true",
-      "event-date": "true"
-    }
+    "latest-events": [
+      {
+        "class": "g g-12 g-md-8",
+        "event-title": "true",
+        "event-campus": "true",
+        "event-room": "true",
+        "event-time": "true",
+        "event-date": "true",
+        "event-button": "true"
+      },
+      {
+        "class": "event-old g g-12 g-md-8",
+        "event-title": "true",
+        "event-campus": "true",
+        "event-room": "true",
+        "event-time": "true",
+        "event-date": "true",
+        "event-button": "true"
+      },
+      {
+        "class": "event-old g g-12 g-md-8",
+        "event-title": "true",
+        "event-campus": "true",
+        "event-room": "true",
+        "event-time": "true",
+        "event-date": "true",
+        "event-button": "true"
+      }
+    ]
   },
+
   "page-footer": {
     "footer-places": {
       "footer-place": {
