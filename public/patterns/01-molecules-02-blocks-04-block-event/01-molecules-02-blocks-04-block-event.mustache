@@ -8,22 +8,21 @@
         {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
       &lt;/a&gt;
     {{/ event-title }}
-    &lt;div class=&quot;event_details&quot;&gt;
+    &lt;div class=&quot;event_where&quot;&gt;
       {{# event-campus }}
-        {{&gt; atoms-text-span (class: &quot;event_meta&quot;) }}
+        {{&gt; atoms-text-span (class: &quot;event_campus&quot;) }}
       {{/ event-campus }}
       {{# event-room }}
-        {{&gt; atoms-text-span (class: &quot;event_meta&quot;) }}
+        {{&gt; atoms-text-span (class: &quot;event_room&quot;) }}
       {{/ event-room }}
-      {{# event-time }}
-        {{&gt; atoms-text-time (class: &quot;event_meta&quot;) }}
-      {{/ event-time }}
-      {{# event-date }}
-        {{&gt; atoms-text-date (class: &quot;event_meta&quot;) }}
-      {{/ event-date }}
     &lt;/div&gt;
-    {{# event-button }}
-      {{&gt; atoms-button-text-small (class: &quot;event_btn&quot;) }}
-    {{/ event-button }}
+    &lt;div class=&quot;event_when&quot;&gt;
+      {{# event-date }}
+        {{&gt; atoms-text-date (class: &quot;event_date&quot;) }}
+      {{/ event-date }}
+      {{# event-time }}
+        {{&gt; atoms-text-time (class: &quot;event_time&quot;) }}
+      {{/ event-time }}
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

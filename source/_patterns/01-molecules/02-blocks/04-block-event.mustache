@@ -8,22 +8,21 @@
         {{> atoms-heading-2 (class: "event_title") }}
       </a>
     {{/ event-title }}
-    <div class="event_details">
+    <div class="event_where">
       {{# event-campus }}
-        {{> atoms-text-span (class: "event_meta") }}
+        {{> atoms-text-span (class: "event_campus") }}
       {{/ event-campus }}
       {{# event-room }}
-        {{> atoms-text-span (class: "event_meta") }}
+        {{> atoms-text-span (class: "event_room") }}
       {{/ event-room }}
-      {{# event-time }}
-        {{> atoms-text-time (class: "event_meta") }}
-      {{/ event-time }}
-      {{# event-date }}
-        {{> atoms-text-date (class: "event_meta") }}
-      {{/ event-date }}
     </div>
-    {{# event-button }}
-      {{> atoms-button-text-small (class: "event_btn") }}
-    {{/ event-button }}
+    <div class="event_when">
+      {{# event-date }}
+        {{> atoms-text-date (class: "event_date") }}
+      {{/ event-date }}
+      {{# event-time }}
+        {{> atoms-text-time (class: "event_time") }}
+      {{/ event-time }}
+    </div>
   </div>
 </div>

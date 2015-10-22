@@ -9,7 +9,7 @@
 
   "page-events": [
     {
-      "class": "g g-md-12 g-lg-8 t_edu",
+      "class": "  t_edu",
       "empty": "true",
       "event-title": {"headline": "Raum und Lernen entwickeln - Aus der Praxis für die Praxis"},
       "event-campus": {"span": "Campus Bressanone-Brixen"},
@@ -19,7 +19,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_comp",
+      "class": "  t_comp",
       "empty": "true",
       "event-title": {"headline": "Tourist tour planning - An IDSE Seminar"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -29,7 +29,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_eco",
+      "class": "  t_eco",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.36.37.jpg",
       "event-title": {"headline": "Microstories"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -39,7 +39,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_comp",
+      "class": "  t_comp",
       "empty": "true",
       "event-title": {"headline": "Studying Online Food Consumption and Production Patterns: Recent Trends and Challenges - An IDSE Seminar"},
       "event-time": {"time":"16:00 - 18:00"},
@@ -47,7 +47,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_dsgn",
+      "class": "  t_dsgn",
       "empty": "true",
       "event-title": {"headline": "Making Futures. Ethnographic engagements with sustainable citizenship design"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -57,7 +57,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_comp",
+      "class": "  t_comp",
       "empty": "true",
       "event-title": {"headline": "DMRS - 2nd International Workshop on Decision Making and Recommender Systems 2015"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -66,7 +66,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_dsgn",
+      "class": "  t_dsgn",
       "empty": "true",
       "event-title": {"headline": "Re-designing human realities"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -76,7 +76,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_edu",
+      "class": "  t_edu",
       "empty": "true",
       "event-title": {"headline": "Wie die Hutterer leben und glauben - Begegnung mit den Hutterern La vita e la fede degli utteriti - Incontro con gli utteriti"},
       "event-campus": {"span": "Campus Bressanone-Brixen"},
@@ -86,7 +86,7 @@
       "event-button": {"button":"Details"}
     },
         {
-      "class": "g g-md-12 g-lg-8",
+      "class": " ",
       "empty": "true",
       "event-title": {"headline": "Visualizing the Hidden. Perspectives for a Critical Social Science and Eco-Social Practice"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -96,7 +96,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8",
+      "class": " ",
       "empty": "true",
       "event-title": {"headline": "Learn how to be successful in a job interview"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -106,7 +106,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8",
+      "class": " ",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.11.53.jpg",
       "event-title": {"headline": "Buchvorstellung und Diskussion mit Hans-Martin Tillack"},
       "event-campus": {"span": "Campus Brixen-Bressannone"},
@@ -116,7 +116,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_eco",
+      "class": "  t_eco",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.40.37.jpg",
       "event-title": {"headline": "School on Data analysis and programming with R"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -125,7 +125,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_eco",
+      "class": "  t_eco",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.45.03.jpg",
       "event-title": {"headline": "Tourism meets Philosophy (TMP)"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
@@ -133,7 +133,7 @@
       "event-button": {"button":"Details"}
     },
     {
-      "class": "g g-md-12 g-lg-8 t_dsgn",
+      "class": "  t_dsgn",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2012.47.09.jpg",
       "event-title": {"headline": "Welcome! 2 new lecturers in the Bachelor in Design and Art introduce themselves"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
