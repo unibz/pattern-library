@@ -1,0 +1,28 @@
+&lt;div class=&quot;event {{ class }}&quot;&gt;
+  {{^ empty }}
+    &lt;a class=&quot;event_figure&quot; href=&quot;{{ url }}&quot; style=&quot;background-image: url('{{ img-4x3 }}')&quot;&gt;&lt;/a&gt;
+  {{/ empty }}
+  &lt;div class=&quot;event_body&quot;&gt;
+    {{# event-title }}
+      &lt;a href=&quot;{{ url }}&quot;&gt;
+        {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+      &lt;/a&gt;
+    {{/ event-title }}
+    &lt;div class=&quot;event_where&quot;&gt;
+      {{# event-campus }}
+        {{&gt; atoms-text-span (class: &quot;event_campus&quot;) }}
+      {{/ event-campus }}
+      {{# event-room }}
+        {{&gt; atoms-text-span (class: &quot;event_room&quot;) }}
+      {{/ event-room }}
+    &lt;/div&gt;
+    &lt;div class=&quot;event_when&quot;&gt;
+      {{# event-date }}
+        {{&gt; atoms-text-date (class: &quot;event_date&quot;) }}
+      {{/ event-date }}
+      {{# event-time }}
+        {{&gt; atoms-text-time (class: &quot;event_time&quot;) }}
+      {{/ event-time }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
