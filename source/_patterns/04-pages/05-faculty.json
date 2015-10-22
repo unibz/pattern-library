@@ -125,7 +125,6 @@
   "page-events": {
     "latest-events": [
       {
-        "class": "g g-12 g-md-8",
         "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-news.jpg",
         "event-title": { "headline": "Relationship between senescence and quality of fruits and vegetables" },
         "event-campus": { "span": "Campus Bozen" },
@@ -135,7 +134,7 @@
         "event-button": {"button" :"Mehr Info"}
       },
       {
-        "class": "event-old g g-12 g-md-8",
+        "class": "event-old",
         "event-title": "true",
         "event-campus": "true",
         "event-room": "true",
@@ -144,7 +143,7 @@
         "event-button": {"button" :"Mehr Info"}
       },
       {
-        "class": "event-old g g-12 g-md-8",
+        "class": "event-old",
         "event-title": "true",
         "event-campus": "true",
         "event-room": "true",

@@ -27,7 +27,6 @@
   "page-events": {
     "latest-events": [
       {
-        "class": "g g-12 g-md-8",
         "event-title": "true",
         "event-campus": "true",
         "event-room": "true",
@@ -36,7 +35,7 @@
         "event-button": "true"
       },
       {
-        "class": "event-old g g-12 g-md-8",
+        "class": "event-old",
         "event-title": "true",
         "event-campus": "true",
         "event-room": "true",
@@ -45,7 +44,7 @@
         "event-button": "true"
       },
       {
-        "class": "event-old g g-12 g-md-8",
+        "class": "event-old",
         "event-title": "true",
         "event-campus": "true",
         "event-room": "true",
