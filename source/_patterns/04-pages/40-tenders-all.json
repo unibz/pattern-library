@@ -1,0 +1,82 @@
+{
+  "page-hero": {
+    "hero-title": { "headline": "Jobs" }
+  },
+
+  "page-jobs": [
+    {
+      "headline": "Professoren und Forscher auf Planstelle",
+      "links": [
+        {
+          "headline": "Interessensbekundungen",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Offenes Auswahlverfahren für Professoren auf Planstelle der I. Ebene",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Offenes Auswahlverfahren für Professoren auf Planstelle der II. Ebene",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Vergleichende Bewertungsverfahren gemäß Gesetz 210/1998",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Vergleichende Bewertungsverfahren gemäß Gesetz 240/2010, Art. 24 Abs. 6",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Berufungsverfahren für Stiftungsprofessoren gemäß Gesetz 230/2005, Art. 1 Abs. 12",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Versetzungsverfahren",
+          "links-class": "g g-sm-12 g-md-8"
+        }
+      ]
+    },
+    {
+      "headline": "Forscher mit befristetem Arbeitsverhältnis",
+      "links": [
+        {
+          "headline": "Juniorprofessuren und Juniorprofessuren mit Tenure-Track (RTD)",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Forschungsassistenten",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Forschungsbeauftragte",
+          "links-class": "g g-sm-12 g-md-8"
+        }
+      ]
+    },
+    {
+      "headline": "Beauftragte in der Lehre",
+      "links": [
+        {
+          "headline": "Alle Jobs",
+          "links-class": "g g-sm-12 g-md-8"
+        }
+      ]
+    }
+  ],
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

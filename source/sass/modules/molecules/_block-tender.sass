@@ -1,0 +1,31 @@
+//============================================
+// Block Tender
+//============================================
+
+// Block Tender Wrappers
+//============================================
+
+.tender
+  margin-bottom: $space
+  padding-bottom: $space
+  border-bottom: 1px solid $gray-light
+
+.tender_deadline
+  +tag
+
+.tender_text
+  margin-bottom: $space-quarter
+
+.tender_title
+  +h5
+
+.tender_link
+  display: block
+  margin-bottom: $space-quarter
+  font-weight: 600
+  &:after
+    content: "↓"
+  +mq($bp-md)
+    display: inline-block
+    margin-right: $space
+

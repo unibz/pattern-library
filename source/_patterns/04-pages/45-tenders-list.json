@@ -1,0 +1,41 @@
+{
+  "page-hero": {
+    "hero-title": "true"
+  },
+
+  "tools": "true",
+
+  "tenders": [
+    {
+      "span": "Einreichfrist 30.06.2015",
+      "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
+      "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
+      "links": [
+        {
+          "button": "Ausschreibung"
+        },
+        {
+          "button": "Vorlage CV"
+        },
+        {
+          "button": "Informationsblatt Privacy"
+        }
+      ]
+    }
+  ],
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}
