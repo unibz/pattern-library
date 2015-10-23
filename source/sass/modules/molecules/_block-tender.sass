@@ -8,16 +8,55 @@
 .tender
   margin-bottom: $space
   padding-bottom: $space
+
+.tender:not(:last-child)
   border-bottom: 1px solid $gray-light
+
+
+.tender_faculty
+  +tag
+  display: inline-block
+  margin-right: $space-half
+
+.t_dsgn
+  .tender_faculty
+    color: $dsgn
+
+.t_eco
+  .tender_faculty
+    color: $eco
+
+.t_edu
+  .tender_faculty
+    color: $edu
+
+.t_comp
+  .tender_faculty
+    color: $comp
+
+.t_tech
+  .tender_faculty
+    color: $tech
+
+.t_library
+  .tender_faculty
+    color: $library
+
 
 .tender_deadline
   +tag
+  display: inline-block
+  text-transform: capitalize
+
 
 .tender_text
   margin-bottom: $space-quarter
 
+
 .tender_title
   +h5
+  &:hover
+    text-decoration: underline
 
 .tender_link
   display: block
@@ -28,4 +67,3 @@
   +mq($bp-md)
     display: inline-block
     margin-right: $space
-

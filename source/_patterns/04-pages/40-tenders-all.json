@@ -62,6 +62,15 @@
           "links-class": "g g-sm-12 g-md-8"
         }
       ]
+    },
+    {
+      "headline": "Verwaltungspersonal",
+      "links": [
+        {
+          "headline": "Alle Jobs",
+          "links-class": "g g-sm-12 g-md-8"
+        }
+      ]
     }
   ],
 

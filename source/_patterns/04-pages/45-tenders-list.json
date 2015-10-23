@@ -1,13 +1,46 @@
 {
   "page-hero": {
-    "hero-title": "true"
+    "hero-title": {"headline": "Professoren und Forscher auf Planstelle"}
   },
 
-  "tools": "true",
+  "span": "",
+
+  "page-filters": {
+    "filter-toggle": {"button": "Filter"},
+    "filter": [
+      {
+        "theme": "t_eco",
+        "button": "ECO",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_comp",
+        "button": "COMP",
+        "class": "filter_button btn-outline-active"
+      },
+      {
+        "theme": "t_tech",
+        "button": "TECH",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_edu",
+        "button": "EDU",
+        "class": "filter_button"
+      },
+      {
+        "theme": "t_dsgn",
+        "button": "DSGN",
+        "class": "filter_button"
+      }
+    ]
+  },
 
   "tenders": [
     {
-      "span": "Einreichfrist 30.06.2015",
+      "class": "t_edu",
+      "tender-theme": {"span": "Edu"},
+      "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
       "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
       "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
       "links": [
@@ -16,6 +49,59 @@
         },
         {
           "button": "Vorlage CV"
+        },
+        {
+          "button": "Informationsblatt Privacy"
+        }
+      ]
+    },
+    {
+      "class": "t_edu",
+      "tender-theme": {"span": "Edu"},
+      "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
+      "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
+      "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
+      "links": [
+        {
+          "button": "Ausschreibung"
+        },
+        {
+          "button": "Vorlage CV"
+        },
+        {
+          "button": "Informationsblatt Privacy"
+        }
+      ]
+    },
+    {
+      "class": "t_edu",
+      "tender-theme": {"span": "Edu"},
+      "tender-deadline": {"span": "Einreichfrist 26.02.2015"},
+      "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
+      "headline": "SECS-P/07 | Betriebswirtschaftslehre"
+    },
+    {
+      "class": "t_eco tender-old",
+      "tender-theme": {"span": "Eco"},
+      "tender-deadline": {"span": "Einreichfrist 27.12.2014"},
+      "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
+      "headline": "SECS-P08 | Unternehmensführung"
+    },
+    {
+      "class": "t_edu",
+      "tender-theme": {"span": "Edu"},
+      "tender-deadline": {"span": "Einreichfrist 17.10.2015"},
+      "excerpt": "Unterstützende Tätigkeit im Rahmen des Forschungsprojektes:",
+      "headline": "Dynamic patterns of kinship relationships and child rearing in Südtirol: representations and new needs (DyFam)",
+      "links": [
+        {
+          "button": "Ausschreibung"
+        },
+        {
+          "button": "Anlage A"
+        },
+        {
+          "button": "Anlage B"
         },
         {
           "button": "Informationsblatt Privacy"
