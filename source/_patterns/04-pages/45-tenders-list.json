@@ -1,6 +1,6 @@
 {
   "page-hero": {
-    "hero-title": {"headline": "Professoren und Forscher auf Planstelle"}
+    "hero-title": {"headline": "Offenes Auswahlverfahren für Professoren auf Planstelle der II. Ebene"}
   },
 
   "span": "",
@@ -88,7 +88,7 @@
       "headline": "SECS-P08 | Unternehmensführung"
     },
     {
-      "class": "t_edu",
+      "class": "t_edu tender-old",
       "tender-theme": {"span": "Edu"},
       "tender-deadline": {"span": "Einreichfrist 17.10.2015"},
       "excerpt": "Unterstützende Tätigkeit im Rahmen des Forschungsprojektes:",
