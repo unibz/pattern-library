@@ -4,7 +4,10 @@
   },
 
   "tools": {
-    "span": "Search for events..."
+    "span": "Search for events..",
+    "search": "true",
+    "filter": "true",
+    "calendar": "true"
   },
 
   "page-events": [

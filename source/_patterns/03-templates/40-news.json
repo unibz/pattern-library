@@ -3,7 +3,11 @@
     "hero-title": "true"
   },
 
-  "tools": "true",
+  "tools": {
+    "search": "true",
+    "filter": "true",
+    "calendar": "true"
+  },
 
   "news": "true",
 

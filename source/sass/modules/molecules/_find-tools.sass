@@ -11,11 +11,21 @@
   justify-content: space-between
   margin-bottom: $space-half
 
+// .find_toolToggle:first-child
+//   margin-right: $space-quarter
+
+// .find_toolToggle:nth-child(2n)
+//   margin: 0 $space-quarter
+
+// .find_toolToggle:last-child
+//   margin-left: $space-quarter
+
 .find_toolToggle
-  flex-basis: 30%
+  flex-basis: 100%
+  &:not(:first-child)
+    margin-left: $space-half
   +mq($bp-sm)
     flex: 0 0 40px
-    margin-left: $space-half
   +mq($bp-md)
     flex-basis: 80px
 

@@ -1,0 +1,30 @@
+{{> organisms-header }}
+
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  <div class="l-container-small">
+    {{> organisms-search-find }}
+  </div>
+
+  {{# page-people }}
+    {{> organisms-people-section }}
+  {{/ page-people }}
+
+  {{# page-content }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography">
+          {{> atoms-heading-3 }}
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+    </section>
+  {{/ page-content }}
+</main>
+
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

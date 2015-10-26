@@ -5,9 +5,15 @@
 
   "tools": {
     "search": "true",
-    "filter": "true",
-    "calendar": "true"
+    "filter": "true"
   },
+
+  "page-people": {
+    "people-section": "true",
+    "people": "true"
+  },
+
+  "page-content": "true",
 
   "page-footer": {
     "footer-place": {

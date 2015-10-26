@@ -1,5 +1,9 @@
 {
-  "tools": "true",
+  "tools": {
+    "search": "true",
+    "filter": "true",
+    "calendar": "true"
+  },
   "cal-days": "true",
 
   "timetable-day": {

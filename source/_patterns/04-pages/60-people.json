@@ -1,0 +1,149 @@
+{
+  "faculty": "t_dsgn",
+
+  "page-hero": {
+    "hero-title": { "headline": "People" }
+  },
+
+  "tools": {
+    "span": "Look for a professor, researcher or technician...",
+    "search": "true",
+    "filter": "true"
+  },
+
+  "page-people": {
+    "people-section": [
+      {
+        "headline": "Tenured Full Professors",
+        "people": [
+          {
+            "headline": "Prof. Dr. phil. habil. Glüher Gerhard, Dean",
+            "span": "Visual Culture"
+          },
+          {
+            "headline": "Prof. Cohen Nitzan",
+            "span": "Product Design"
+          },
+          {
+            "headline": "Prof. Prey Kuno",
+            "span": "Product Design"
+          }
+        ]
+      },
+      {
+        "headline": "Tenured associate professors",
+        "people": [
+          {
+            "headline": "Prof. Benincasa Antonino",
+            "span": "Visual Communication"
+          },
+          {
+            "headline": "Prof. Giorgio Camuffo",
+            "span": "Visual Communication"
+          },
+          {
+            "headline": "Prof. De Cecco Emanuela",
+            "span": ""
+          },
+          {
+            "headline": "Prof. Gigliotti Roberto",
+            "span": "Interior & Exhibit Design"
+          },
+          {
+            "headline": "Prof. Dr. phil. Höger Hans Leo",
+            "span": "History of Design"
+          },
+          {
+            "headline": "Prof. Krois Christian",
+            "span": "Visual Communication"
+          },
+          {
+            "headline": "Prof. Upmeier Christian",
+            "span": "Visual Communication"
+          }
+        ]
+      },
+      {
+        "headline": "Technical Staff",
+        "people": [
+          {
+            "headline": "Dott. Mag. Bauer Eva",
+            "span": "Materials Workshop"
+          },
+          {
+            "headline": "Castellan Curzio",
+            "span": "Photo Workshop"
+          },
+          {
+            "headline": "Erlacher Alexander",
+            "span": "Video Workshop"
+          },
+          {
+            "headline": "Fischnaller Markus",
+            "span": "Wood Workshop"
+          },
+          {
+            "headline": "Klammer Dietmar",
+            "span": "Wood Workshop"
+          },
+          {
+            "headline": "Kofler Albert",
+            "span": "Metal Workshop"
+          },
+          {
+            "headline": "Kofler Markus",
+            "span": "Mac Workshop"
+          },
+          {
+            "headline": "Mössler Robert",
+            "span": "Plastic Workshop"
+          },
+          {
+            "headline": "Pellegrini Luca",
+            "span": "Mac Workshop"
+          },
+          {
+            "headline": "Riegler Valentin",
+            "span": "Wood Workshop"
+          },
+          {
+            "headline": "Dott. Perseghin Alessia",
+            "span": "Materials Workshop"
+          },
+          {
+            "headline": "Stufferin Christian",
+            "span": "Silkprint Workshop"
+          },
+          {
+            "headline": "Tschurtschenthaler Daniel",
+            "span": "Binding Workshop"
+          },
+          {
+            "headline": "Verber Roland",
+            "span": "CNC Workshop"
+          }
+        ]
+      }
+    ]
+  },
+
+  "page-content": {
+    "headline": "Faculty Council",
+    "excerpt": "<ul><li>Prof. Gerhard Glüher, Dean and Full Professor</li><li>Prof. Nitzan Cohen, Vice Dean for Research and Full Professor</li><li>Prof. Roberto Gigliotti, Vice Dean for Teaching and Associate Professor</li><li>Prof. Antonino Benincasa, Associate Professor</li><li>Prof. Giorgio Camuffo, Associate Professor</li><li>Prof. Emanuela De Cecco, Associate Professor</li><li>Prof. Hans Höger, Associate Professor</li><li>Prof. Kris Krois, Associate Professor</li><li>Prof. Kuno Prey, Full Professor</li><li>Prof. Christian Upmeier, Associate Professor</li><li>dott. Matteo Moretti, Researcher with a fixed-term contract</li><li>dott. Gianluca Camillini, Researcher with a fixed-term contract</li><li>Timothy Robb, Student Speaker</li><li>Matteo Pra Mio, Student Speaker</li></ul>"
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

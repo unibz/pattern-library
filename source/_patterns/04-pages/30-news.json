@@ -4,7 +4,10 @@
   },
 
   "tools": {
-    "span": "Search in news archive..."
+    "span": "Search in news archive...",
+    "search": "true",
+    "filter": "true",
+    "calendar": "true"
   },
 
   "news": [
