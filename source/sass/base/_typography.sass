@@ -29,7 +29,7 @@
 
 .t_eco
   .typography p > a
-    +link($color-text, $eco, $white)
+    +link($eco)
 
 .t_dsgn
   .typography p > a
@@ -51,6 +51,37 @@
   .typography p > a
     +link($library)
 
+.typographyLink-download
+  &:after
+    content: "↓"
+    display: inline-block
+    vertical-align: top
+    margin-left: $space-quarter
+    margin-top: -1px
+    font-size: $fs-small
+    +mq($bp-sm)
+      margin-top: -3px
+      vertical-align: middle
+
+.typographyLink-external
+  &:after
+    content: "↗"
+    display: inline-block
+    vertical-align: top
+    margin-left: $space-quarter
+    font-size: $fs-small
+    +mq($bp-sm)
+      margin-top: 1px
+
+.typographyLink-internal
+  &:after
+    content: "→"
+    display: inline-block
+    vertical-align: top
+    margin-left: $space-quarter
+    font-size: $fs-small
+    +mq($bp-sm)
+      margin-top: 1px
 
 // Lists
 //============================================
