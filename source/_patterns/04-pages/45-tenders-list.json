@@ -56,8 +56,8 @@
       ]
     },
     {
-      "class": "t_edu",
-      "tender-theme": {"span": "Edu"},
+      "class": "t_comp",
+      "tender-theme": {"span": "Comp"},
       "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
       "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
       "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
@@ -74,8 +74,8 @@
       ]
     },
     {
-      "class": "t_edu",
-      "tender-theme": {"span": "Edu"},
+      "class": "t_eco",
+      "tender-theme": {"span": "Eco"},
       "tender-deadline": {"span": "Einreichfrist 26.02.2015"},
       "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
       "headline": "SECS-P/07 | Betriebswirtschaftslehre"
