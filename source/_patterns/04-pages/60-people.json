@@ -133,17 +133,54 @@
   },
 
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
+    "headline": "Faculty of Design and Art",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1 - piazza Università, 1"
+          },
+          {
+            "span": "I – 39100, Bolzano-Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 015000"
+          },
+          {
+            "span": "Fax +39 0471 015009"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "design-art@unibz.it"
+          }
+        ]
+      }
+    ],
+    "footer-openings": {
+      "headline": "Öffnungszeiten",
+      "excerpt": "Monday to Friday: 9:00 - 12:00<br>Tuesday and Thursday: 14.00 - 16.00"
     },
     "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
+    "footer-social": {
+      "headline": "Follow us"
+    },
+    "footer-newsletter": {
+      "headline": "Subscribe to the newsletter",
+      "span": "Write your e-mail",
+      "button": "Send"
+    },
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Credits"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }
