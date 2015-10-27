@@ -10,18 +10,18 @@
   display: flex
   align-items: center
   justify-content: space-between
+  margin: 0 auto
+  max-width: 600px
 
 
 // Pagination Pages Wrapper
 //============================================
 
 .pagination_pagesWrapper
-  display: none
-  +mq($bp-sm)
-    display: flex
-    justify-content: space-between
-    width: 100%
-    margin: 0 $space
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin: 0 $space
 
 
 // Pagination Button
@@ -43,6 +43,11 @@
   &:hover
     color: $white
     background-color: $primary
+
+.pagination_page:nth-child(n+6) 
+  display: none
+  +mq($bp-sm)
+    display: block
 
 .pagination_page-current
   color: $white
