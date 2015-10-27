@@ -1,6 +1,6 @@
 {
   "page-hero": {
-    "hero-title": { "headline": "News Overview" }
+    "hero-title": { "headline": "News" }
   },
 
   "tools": {
@@ -12,64 +12,67 @@
 
   "news": [
     {
-      "img-4x3": "https://www.unibz.it/it/public/university/ViewIWPBlob.customHandler?NewsID=113808&blackWhite=false&isImage=true",
       "headline": "Giorgio Pagliarani Best Paper Award a Cinzia Battistella",
       "excerpt": "Il premio “Giorgio Pagliarani Best Paper Award è andato quest’anno a una ricercatrice della Facoltà di Scienze e Tecnologie di unibz, Cinzia Battistella.",
-      "date": "20 October 2015"
+      "date": "20/10",
+      "button": "Read More"
     },
     {
-      "img-4x3": "https://www.unibz.it/it/public/university/ViewIWPBlob.customHandler?NewsID=113699&blackWhite=false&isImage=true",
+      "class": "t_eco ",
       "headline": "Die Lobby-Republik",
       "excerpt": "An diesem Mittwoch, 21. Oktober wird Hans-Martin Tillack an der unibz sein Buch „Die Lobby-Republik. Wer in Deutschland die Strippen zieht“ vorstellen.",
-      "date": "19 October 2015"
+      "date": "19/10",
+      "button": "Read More"
     },
     {
-      "img-4x3": "https://www.unibz.it/it/public/university/ViewIWPBlob.customHandler?NewsID=113774&blackWhite=false&isImage=true",
+      "class": "t_comp ",
       "headline": "Auf der Suche nach Authentizität",
       "excerpt": "Authentizität ist ein Begriff, der vor allem im Tourismus stark strapaziert wird. Wann aber wird ein Angebot als genuin authentisch empfunden? Damit...",
-      "date": "16 October 2015"
+      "date": "16/10",
+      "button": "Read More"
     },
     {
-      "img-4x3": "https://www.unibz.it/it/public/university/ViewIWPBlob.customHandler?NewsID=113746&blackWhite=false&isImage=true",
       "headline": "Inclusive Student Mobility",
       "excerpt": "Mobilità inclusiva era la parola chiave delle due giornate di convegno del 14 e 15 ottobre nel campus di Bolzano. Vorremmo riuscire a dare ai nostri...",
-      "date": "15 October 2015"
+      "date": "15/10",
+      "button": "Read More"
     },
     {
-      "empty": "true",
       "headline": "Plagiat? Nein, danke.",
       "excerpt": "In Deutschland sind zwei Minister über ihre Doktorarbeiten gestolpert: um den Studierenden bereits vor dem Verfassen ihrer Bachelor-, Master- und...",
-      "date": "14 October 2015"
+      "date": "14/10",
+      "button": "Read More"
     },
     {
-      "empty": "true",
+      "class": "t_edu ",
       "headline": "Soziale Projekte realisieren",
       "excerpt": "Wer ein Praktikum absolviert, wünscht sich immer öfters eines mit sozialem Hintergrund: dies gewährleistet Coopcup, bei welchem im Sommer 2015...",
-      "date": "14 October 2015"
+      "date": "14/10",
+      "button": "Read More"
     },
     {
-      "img-4x3": "https://www.unibz.it/it/public/university/ViewIWPBlob.customHandler?NewsID=113623&blackWhite=false&isImage=true",
       "headline": "ACADEMIA im minimalistischen Kleid",
       "excerpt": "Weniger ist mehr – Less is More – titelt das aktuelle Wissenschaftsmagazin der unibz und EURAC. Der Ausspruch „Weniger ist mehr“ prägte im 20.",
-      "date": "14 October 2015"
+      "date": "14/10",
+      "button": "Read More"
     },
     {
-      "empty": "true",
       "headline": "Convegno internazionale dell’Istituto Rosmini",
       "excerpt": "Le università fra autonomia, formazione e informazione. Il 54° convegno dell'Istituto Antonio Rosmini di Bolzano si terrà questa settimana, dal 15 al 17...",
-      "date": "13 October 2015"
+      "date": "13/10",
+      "button": "Read More"
     },
     {
-      "img-4x3": "https://www.unibz.it/it/public/university/ViewIWPBlob.customHandler?NewsID=113600&blackWhite=false&isImage=true",
       "headline": "Gesellschaft, Umwelt & Innovation",
       "excerpt": "Zum zweiten Mal nach 2013 hat der Prorektor für Forschung, Prof. Stefan Zerbe, einen Tag rund um die Forschung organisiert, den Research Day. ",
-      "date": "12 October 2014"
+      "date": "12/10",
+      "button": "Read More"
     },
     {
-      "empty": "true",
       "headline": "Research Day: mehr Projekte und Forschung",
       "excerpt": "Interdisziplinär und international. Dies die Ausrichtung der Forschung der Freien Universität Bozen, die beim Research Day am heutigen Donnerstag...",
-      "date": "8 October 2015"
+      "date": "8/10",
+      "button": "Read More"
     }
   ],
 

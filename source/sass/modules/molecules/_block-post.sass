@@ -3,27 +3,49 @@
 //============================================
 
 
-// Block Post Wrapper
+.post
+  display: flex
+
+
+// Block Post Date
 //============================================
 
-.post_content
-  overflow: hidden
-  margin-bottom: $space
-  +mq($bp-sm)
-    display: flex
+.post_date
+  flex: 0 0 $space*2
+  height: $space*2
+  margin-right: $space
+  color: $white
+  background-color: $primary
+  font-weight: 600
+  font-size: $fs-small
+  line-height: 50px
+  text-transform: uppercase
+  text-align: center
+  border-radius: 50%
 
+.t_dsgn
+  .post_date
+    background-color: $dsgn
 
-// Block Post Thumb
-//============================================
+.t_eco
+  .post_date
+    background-color: $eco
 
-.post_figure
-  margin: 0 $space-half $space-half 0
-  +mq($bp-sm)
-    flex: 0 0 180px
-    margin: 0 $space 0 0
+.t_edu
+  .post_date
+    background-color: $edu
 
-.post_thumb
-  width: 180px
+.t_comp
+  .post_date
+    background-color: $comp
+
+.t_tech
+  .post_date
+    background-color: $tech
+
+.t_library
+  .post_date
+    background-color: $library
 
 
 // Block Post Title
@@ -31,6 +53,7 @@
 
 .post_title
   +h5
+  margin-bottom: 0
   &:hover
     text-decoration: underline
 
@@ -39,42 +62,11 @@
 //============================================
 
 .post_excerpt
-  margin-bottom: 0
+  margin-bottom: $space-quarter
 
 
-// Block Post Date
+// Block Post Button
 //============================================
 
-.post_date
-  color: $primary
+.post_btn
   font-weight: 600
-  font-size: $fs-small
-  line-height: 1
-  letter-spacing: 1px
-  text-transform: uppercase
-  +mq($bp-xl)
-    font-size: $fs
-
-.t_dsgn
-  .post_date
-    color: $dsgn
-
-.t_eco
-  .post_date
-    color: $eco
-
-.t_edu
-  .post_date
-    color: $edu
-
-.t_comp
-  .post_date
-    color: $comp
-
-.t_tech
-  .post_date
-    color: $tech
-
-.t_library
-  .post_date
-    color: $library
