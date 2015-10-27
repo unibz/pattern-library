@@ -67,7 +67,7 @@
     padding: $space*3 $space*3 0 $space*3
 
 
-// Hero Titles
+// Hero Title and Title Label
 //============================================
 
 .hero_titleLabel
@@ -76,9 +76,52 @@
   font-weight: 600
 
 .hero_title
-  +h2
+  +h3
+  margin-bottom: 0
   font-weight: 600
   line-height: 1.2
+
+
+// Hero Small
+//============================================
+
+.hero-small
+  margin-bottom: $space
+  padding: $space-half 0 $space-quarter 0
+  background-color: $primary
+  color: $white
+  +mq($bp-md)
+    margin-bottom: $space*2
+    padding: $space 0 18px 0
+
+.t_dsgn
+  .hero-small
+    background-color: $dsgn
+
+.t_eco
+  .hero-small
+    background-color: $eco
+
+.t_edu
+  .hero-small
+    background-color: $edu
+
+.t_comp
+  .hero-small
+    background-color: $comp
+
+.t_tech
+  .hero-small
+    background-color: $tech
+
+.t_library
+  .hero-small
+    background-color: $library
+
+.hero-small
+  .hero_titleLabel,
+  .hero_title
+    font-weight: 500
 
 
 // Hero Search
@@ -90,47 +133,3 @@
   left: 50%
   transform: translate(-50%, -50%)
   max-width: 80%
-
-
-// Hero Small
-//============================================
-
-.hero-small
-  margin-bottom: $space
-  +mq($bp-md)
-    margin-bottom: $space*2
-
-.hero-small_background
-  margin-top: $space-quarter
-  background-color: $primary
-  +mq($bp-sm)
-    margin-top: 0
-    height: 100px
-  +mq($bp-md)
-    height: 140px
-  +mq($bp-lg)
-    height: 180px
-
-.t_dsgn
-  .hero-small_background
-    background-color: $dsgn
-
-.t_eco
-  .hero-small_background
-    background-color: $eco
-
-.t_edu
-  .hero-small_background
-    background-color: $edu
-
-.t_comp
-  .hero-small_background
-    background-color: $comp
-
-.t_tech
-  .hero-small_background
-    background-color: $tech
-
-.t_library
-  .hero-small_background
-    background-color: $library
