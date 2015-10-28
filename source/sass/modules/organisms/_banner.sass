@@ -11,7 +11,6 @@
   display: flex
   align-items: center
   padding: $space*2 0
-  margin-bottom: $space
   min-height: 200px
   background-color: $primary
   background-size: cover
@@ -20,11 +19,8 @@
   text-align: center
   +mq($bp-sm)
     min-height: 300px
-  +mq($bp-md)
-    margin-bottom: $space*2
   +mq($bp-lg)
     padding: $space*2 0
-    margin-bottom: $space*3
 
 // Banner Overlay
 //============================================
@@ -83,29 +79,24 @@
 .banner_text
   position: relative
   z-index: 1
-  margin: 0 auto $space auto
   max-width: 574px
-  +mq($bp-sm)
-    font-size: 17px
-  +mq($bp-md)
-    font-size: 18px
-  +mq($bp-lg)
-    max-width: 688px
-    font-size: 19px
-  +mq($bp-xl)
-    max-width: 768px
-    font-size: 20px
   color: $white
   +dark-text-shadow
+  +mq($bp-lg)
+    max-width: 688px
+  +mq($bp-xl)
+    max-width: 768px
 
 .banner_title
   +h2
-  margin-bottom: $space-half
-  font-weight: 300
 
 .banner_subTitle
   +h3
-  font-weight: 300
+  margin-bottom: $space
+
+.banner_text
+  margin-bottom: 0
+  font-weight: 500
 
 
 // Banner Buttons
@@ -116,10 +107,7 @@
   position: relative
   z-index: 1
   max-width: 300px
-  margin-right: auto
-  margin-left: auto
-  margin-bottom: $space-half
+  margin: $space-half auto 0
   +mq($bp-lg)
     display: inline-block
-    margin-right: $space-quarter
-    margin-left: $space-quarter
+    margin: $space-half $space-quarter 0
