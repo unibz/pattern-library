@@ -7,9 +7,16 @@
 
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
-      {{# news }}
-        {{&gt; molecules-block-post }}
-      {{/ news }}
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-lg-16&quot;&gt;
+          {{# news }}
+            {{&gt; molecules-block-post }}
+          {{/ news }}
+        &lt;/div&gt;
+        &lt;div class=&quot;g g-lg-4&quot;&gt;
+          &lt;!-- Shall we put the filters as a sidebar? What About accesibility --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/section&gt;
 
