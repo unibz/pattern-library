@@ -8,7 +8,9 @@
 
   "page-lectures": {
     "lectures": {
-      "lecture": "true"
+      "lecture": {
+        "professor": "true"
+      }
     }
   },
 

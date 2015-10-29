@@ -8,7 +8,7 @@
   {{# page-intro }}
     <section class="l-section">
       <div class="l-container">
-        <div class="typography">
+        <div class="typography typography-left">
           {{> atoms-text-paragraph }}
         </div>
       </div>
@@ -18,16 +18,7 @@
   {{# page-lectures }}
     <section class="l-section">
       <div class="l-container">
-        {{# lectures }}
-          <div class="typography">
-            {{> atoms-heading-3 }}
-          </div>
-          <div class="blockLectures">
-            {{# lecture }}
-              {{> molecules-lecture }}
-            {{/ lecture }}
-          </div>
-        {{/ lectures }}
+        {{> organisms-lectures }}
       </div>
     </section>
   {{/ page-lectures }}
@@ -35,7 +26,7 @@
   {{# page-details }}
     <section class="l-section">
       <div class="l-container">
-        <div class="typography">
+        <div class="typography typography-left">
           {{> atoms-text-paragraph }}
         </div>
       </div>

@@ -3,5 +3,7 @@
   <a href="{{ url }}">
     {{> atoms-heading-3 (class: "blockLecture_title") }}
   </a>
-  {{> atoms-button-text (class: "blockLecture_btn")}}
+  {{# professor }}
+    {{> atoms-button-text (class: "btn-text-small blockLecture_btn") }}
+  {{/ professor }}
 </div>

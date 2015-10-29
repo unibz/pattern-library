@@ -22,9 +22,7 @@
   margin-bottom: $space
   flex: 0 0 100%
   +mq($bp-md)
-    flex: 0 0 46%
-  // +mq($bp-lg)
-  //   flex: 0 0 30%
+    flex: 0 0 48%
 
 .blockLecture:last-child
   margin-bottom: 0
@@ -39,7 +37,7 @@
 
 .blockLecture_meta
   +tag
-  margin-bottom: 0
+  margin-bottom: 4px
 
 
 // Block Lecture Title
@@ -47,7 +45,8 @@
 
 .blockLecture_title
   +h5
-  line-height: 1.3
+  margin: 0 0 2px 1px
+  line-height: 1.2
   &:hover
     text-decoration: underline
 
@@ -56,9 +55,4 @@
 //============================================
 
 .blockLecture_btn
-  display: block
   margin-bottom: 0
-  font-size: $fs-small
-  font-weight: 500
-  &:after
-    margin-top: 0

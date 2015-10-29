@@ -20,31 +20,38 @@
         "lecture": [
           {
             "span": "6 KP",
-            "headline": "Volkswirtschaftslehre 1"
+            "headline": "Volkswirtschaftslehre 1",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "12 KP",
-            "headline": "Mathematik für Wirtschaftswissenschaftler"
+            "headline": "Mathematik für Wirtschaftswissenschaftler",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Einführung in die Rechtssysteme: Öffentliches Recht"
+            "headline": "Einführung in die Rechtssysteme: Öffentliches Recht",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Einführung in die Rechtssysteme: Privatrecht"
+            "headline": "Einführung in die Rechtssysteme: Privatrecht",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "8 KP",
-            "headline": "Einführung in das Rechnungswesen"
+            "headline": "Einführung in das Rechnungswesen",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "8 KP",
-            "headline": "Einführung in die Organisation und die Betriebswirtschaftslehre"
+            "headline": "Einführung in die Organisation und die Betriebswirtschaftslehre",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Angewandte Daten und Informationsverarbeitung"
+            "headline": "Angewandte Daten und Informationsverarbeitung",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "3 KP",
@@ -61,35 +68,43 @@
         "lecture": [
           {
             "span": "6 KP",
-            "headline": "Business Economics"
+            "headline": "Business Economics",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Kommunikation und Strategie"
+            "headline": "Kommunikation und Strategie",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "7 KP",
-            "headline": "Statistische Methoden für die empirische Forschung"
+            "headline": "Statistische Methoden für die empirische Forschung",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "7 KP",
-            "headline": "Finanzanalyse"
+            "headline": "Finanzanalyse",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "7 KP",
-            "headline": "Einführung in das Marketing"
+            "headline": "Einführung in das Marketing",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Fremdsprache (Spanisch oder Französisch)"
+            "headline": "Fremdsprache (Spanisch oder Französisch)",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Unternehmensführung: Strategisches Management"
+            "headline": "Unternehmensführung: Strategisches Management",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Unternehmensführung: Leadership"
+            "headline": "Unternehmensführung: Leadership",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
@@ -110,19 +125,23 @@
           },
           {
             "span": "6 KP",
-            "headline": "Finanzierung und Kostenanalys: Strategisches Management"
+            "headline": "Finanzierung und Kostenanalys: Strategisches Management",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Finanzierung und Kostenanalys: Leadership"
+            "headline": "Finanzierung und Kostenanalys: Leadership",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Angewandtes Handels- und Gesellschaftsrecht"
+            "headline": "Angewandtes Handels- und Gesellschaftsrecht",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
-            "headline": "Angewandtes Wirtschaftsrecht"
+            "headline": "Angewandtes Wirtschaftsrecht",
+            "professor": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
@@ -138,7 +157,7 @@
   },
 
   "page-details": {
-    "excerpt": "* Die Prüfungen müssen in 2 der 3 angebotenen Fremdsprachen - Grundfachsprache Wirtschaft abgelegt werden, wobei die Hauptunterrichtssprache der Oberschule nicht gewählt werden darf.<h6>Fachtypische Lehrveranstaltung (1)</h6>Die Studierenden müssen eine der nachfolgenden Lehrveranstaltungen zu 6 KP wählen:<ul><li>Destinationsentwicklung</li><li>Ökonomik des Tourismus</li><li>Sport- und Eventwirtschaft</li></ul>"
+    "excerpt": "* Die Prüfungen müssen in 2 der 3 angebotenen Fremdsprachen - Grundfachsprache Wirtschaft abgelegt werden, wobei die Hauptunterrichtssprache der Oberschule nicht gewählt werden darf.<h5>Fachtypische Lehrveranstaltung (1)</h5>Die Studierenden müssen eine der nachfolgenden Lehrveranstaltungen zu 6 KP wählen:<ul><li>Destinationsentwicklung</li><li>Ökonomik des Tourismus</li><li>Sport- und Eventwirtschaft</li></ul>"
   },
 
   "page-footer": {

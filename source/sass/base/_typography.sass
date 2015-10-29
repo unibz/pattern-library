@@ -20,6 +20,9 @@
     max-width: 768px
     // font-size: 20px
 
+.typography-left
+  margin: 0
+
 
 // Links
 //============================================
@@ -88,7 +91,7 @@
 
 .typography ul
   list-style-type: none
-  padding: 10px 0 0 20px
+  padding: $space-quarter 0 0 $space-half
 
 .typography li
   margin-bottom: $space-quarter
@@ -172,6 +175,7 @@
       margin-right: -132px
       width: 60%
 
+
 // Headings
 //============================================
 
@@ -205,6 +209,34 @@
     +h5
   h6
     +h6
+
+
+// Headings Theme
+//============================================
+
+.t_dsgn
+  .h-theme
+    color: $dsgn
+
+.t_eco
+  .h-theme
+    color: $eco
+
+.t_edu
+  .h-theme
+    color: $edu
+
+.t_comp
+  .h-theme
+    color: $comp
+
+.t_tech
+  .h-theme
+    color: $tech
+
+.t_library
+  .h-theme
+    color: $library
 
 
 // Intro text
