@@ -7,27 +7,20 @@
 //============================================
 
 .job
-  padding-bottom: $space
+  display: flex
+  align-items: center
   margin-bottom: $space
-  +mq($bp-sm)
-    display: flex
-    align-items: center
-    padding-bottom: $space-half
-    margin-bottom: $space-half
 
-.job:not(:last-child)
-  border-bottom : 1px solid $gray-light
 
 // Block Job Thumb
 //============================================
 
 .job_thumb
-  width: 100px
-  margin-bottom: $space-quarter
+  flex: 0 0 50px
+  margin-right: $space-half
   +mq($bp-sm)
     flex: 0 0 100px
     margin-right: $space
-    margin-bottom: 0
 
 
 // Block Job Title
