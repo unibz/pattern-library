@@ -9,16 +9,10 @@
 .typography
   margin: 0 auto
   max-width: 574px
-  +mq($bp-sm)
-    // font-size: 17px
-  +mq($bp-md)
-    // font-size: 18px
   +mq($bp-lg)
     max-width: 688px
-    // font-size: 19px
   +mq($bp-xl)
     max-width: 768px
-    // font-size: 20px
 
 .typography-left
   margin: 0
@@ -214,6 +208,9 @@
 // Headings Theme
 //============================================
 
+.h-theme
+  color: $unibz
+
 .t_dsgn
   .h-theme
     color: $dsgn
@@ -259,11 +256,3 @@
     margin-bottom: 0
   .intro > a
     font-size: inherit
-
-
-// Typography childs
-//============================================
-
-.typography
-  :first-child
-    margin-top: 0
