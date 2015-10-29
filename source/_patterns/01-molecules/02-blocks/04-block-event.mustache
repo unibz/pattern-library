@@ -5,15 +5,11 @@
         {{> atoms-heading-2 (class: "event_title") }}
       </a>
     {{/ event-title }}
-    <div class="event_where">
-      {{# event-campus }}
-        {{> atoms-text-span (class: "event_campus") }}
-      {{/ event-campus }}
-      {{# event-room }}
-        {{> atoms-text-span (class: "event_room") }}
-      {{/ event-room }}
-    </div>
-    <div class="event_when">
+    {{> atoms-text-paragraph }}
+    <div class="event_meta">
+      {{# event-location }}
+        {{> atoms-text-span (class: "event_location") }}
+      {{/ event-location }}
       {{# event-date }}
         {{> atoms-text-date (class: "event_date") }}
       {{/ event-date }}

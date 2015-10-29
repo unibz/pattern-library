@@ -7,42 +7,40 @@
 
 .event_body
   padding: $space-half
-  background-color: $primary
-  color: $white
-  +dark-text-shadow
+  background-color: $gray-light
+  border-top: 3px solid $primary
 
 .t_dsgn
   .event_body
-    background-color: $dsgn
+    border-color: $dsgn
 
 .t_eco
   .event_body
-    background-color: $eco
+    border-color: $eco
 
 .t_edu
   .event_body
-    background-color: $edu
+    border-color: $edu
 
 .t_comp
   .event_body
-    background-color: $comp
+    border-color: $comp
 
 .t_tech
   .event_body
-    background-color: $tech
+    border-color: $tech
 
 .t_library
   .event_body
-    background-color: $library
+    border-color: $library
 
 
 // Block Event Title
 //============================================
 
 .event_title
-  +h5
+  +h4
   margin-bottom: $space-quarter
-  font-weight: 300
   &:hover
     text-decoration: underline
 
@@ -50,10 +48,25 @@
 // Block Event Meta Information
 //============================================
 
-.event_room,
-.event_time
-  &:before
-    content: "· "
+.event_meta
+  :not(:last-child)
+    margin-bottom: $space-quarter
+  +mq($bp-sm)
+    :not(:last-child)
+      margin-bottom: 0
+    :not(:first-child)
+      margin-left: $space*1.5
+
+.event_date,
+.event_time,
+.event_location
+  display: block
+  line-height: 1
+  font-weight: 600
+  
+  +mq($bp-sm)
+    display: inline-block
+    margin-bottom: 0
 
 
 // Block Event Button

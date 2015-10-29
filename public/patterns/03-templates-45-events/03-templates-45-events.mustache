@@ -5,15 +5,18 @@
     {{&gt; organisms-hero-small }}
   {{/ page-hero }}
 
-  &lt;div class=&quot;l-container-small&quot;&gt;
-    {{&gt; organisms-search-find }}
-  &lt;/div&gt;
-
   &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container-small&quot;&gt;
-      {{# page-events }}
-        {{&gt; molecules-block-event }}
-      {{/ page-events }}
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-lg-16&quot;&gt;
+          {{# page-events }}
+            {{&gt; molecules-block-event }}
+          {{/ page-events }}
+        &lt;/div&gt;
+        &lt;div class=&quot;g g-lg-4&quot;&gt;
+          &lt;!-- Shall we put the filters as a sidebar? What About accesibility --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/section&gt;
 

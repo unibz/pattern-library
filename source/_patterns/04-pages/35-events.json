@@ -14,121 +14,97 @@
     {
       "class": "t_edu",
       "event-title": {"headline": "Raum und Lernen entwickeln - Aus der Praxis für die Praxis"},
-      "event-campus": {"span": "Campus Bressanone-Brixen"},
-      "event-room": {"span": "Room 2.04"},
+      "event-location": {"span": "BX 2.04"},
       "event-time": {"time":"8:00 - 18:00"},
-      "event-date": {"date":"27.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"27.10.2015"}
     },
     {
       "class": "t_comp",
       "event-title": {"headline": "Tourist tour planning - An IDSE Seminar"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room D1.02"},
+      "excerpt": "Tourists become increasingly dependent on mobile city guides to locate tourist services and retrieve information about nearby points of interest…",
+      "event-location": {"span":"BZ D1.02"},
       "event-time": {"time":"14:00 - 15:00"},
-      "event-date": {"date":"27.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"27.10.2015"}
     },
     {
       "class": "t_eco",
       "event-title": {"headline": "Microstories"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"F6"},
+      "event-location": {"span":"BZ F6"},
       "event-time": {"time":"17:00 - 20:00"},
-      "event-date": {"date":"26.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"26.10.2015"}
     },
     {
       "class": "t_comp",
       "event-title": {"headline": "Studying Online Food Consumption and Production Patterns: Recent Trends and Challenges - An IDSE Seminar"},
       "event-time": {"time":"16:00 - 18:00"},
-      "event-date": {"date":"23.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"23.10.2015"}
     },
     {
       "class": "t_dsgn",
       "event-title": {"headline": "Making Futures. Ethnographic engagements with sustainable citizenship design"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room D0.02"},
+      "event-location": {"span":"BZ D0.02"},
       "event-time": {"time":"9:00 - 10:00"},
-      "event-date": {"date":"22.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"22.10.2015"}
     },
     {
       "class": "t_comp",
       "event-title": {"headline": "DMRS - 2nd International Workshop on Decision Making and Recommender Systems 2015"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room E2.21"},
-      "event-date": {"date":"22.10.2015 – 23.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-location": {"span":"BZ E2.21"},
+      "event-date": {"date":"22.10.2015 – 23.10.2015"}
     },
     {
       "class": "t_dsgn",
       "event-title": {"headline": "Re-designing human realities"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room D0.02"},
+      "event-location": {"span":"BZ D0.02"},
       "event-time": {"time":"12:00 - 13:00"},
-      "event-date": {"date":"22.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"22.10.2015"}
     },
     {
       "class": "t_edu",
       "event-title": {"headline": "Wie die Hutterer leben und glauben - Begegnung mit den Hutterern La vita e la fede degli utteriti - Incontro con gli utteriti"},
-      "event-campus": {"span": "Campus Bressanone-Brixen"},
-      "event-room": {"span":"Room 1.34"},
+      "event-location": {"span":"BX 1.34"},
       "event-time": {"time":"19:00 - 21:00"},
-      "event-date": {"date":"22.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"22.10.2015"}
     },
     {
       "event-title": {"headline": "Visualizing the Hidden. Perspectives for a Critical Social Science and Eco-Social Practice"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room F0.03"},
+      "event-location": {"span":"BZ F0.03"},
       "event-time": {"time":"12:00 - 13:00"},
-      "event-date": {"date":"21.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"21.10.2015"}
     },
     {
       "event-title": {"headline": "Learn how to be successful in a job interview"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room E4.23"},
+      "event-location": {"span":"BZ E4.23"},
       "event-time": {"time":"16:00 - 20:00"},
-      "event-date": {"date":"21.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"21.10.2015"}
     },
     {
       "event-title": {"headline": "Buchvorstellung und Diskussion mit Hans-Martin Tillack"},
-      "event-campus": {"span": "Campus Brixen-Bressannone"},
-      "event-room": {"span":"Room 2.60"},
+      "event-location": {"span":"BX 2.60"},
       "event-time": {"time":"18:00 - 20:00"},
-      "event-date": {"date":"21.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"21.10.2015"}
     },
     {
       "class": "t_eco",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.40.37.jpg",
       "event-title": {"headline": "School on Data analysis and programming with R"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"D1.01"},
-      "event-date": {"date":"18.11.2015 – 20.11.2015"},
-      "event-button": {"button":"Details"}
+      "event-location": {"span":"BZ D1.01"},
+      "event-date": {"date":"18.11.2015 – 20.11.2015"}
     },
     {
       "class": "t_eco event-old",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.45.03.jpg",
       "event-title": {"headline": "Tourism meets Philosophy (TMP)"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-date": {"date":"15.10.2015 – 16.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-date": {"date":"15.10.2015 – 16.10.2015"}
     },
     {
       "class": "t_dsgn event-old",
       "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2012.47.09.jpg",
       "event-title": {"headline": "Welcome! 2 new lecturers in the Bachelor in Design and Art introduce themselves"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-room": {"span":"Room F0.03"},
-      "event-date": {"date":"7.10.2015"},
-      "event-button": {"button":"Details"}
+      "event-location": {"span":"BZ F0.03"},
+      "event-date": {"date":"7.10.2015"}
     }
   ],
 

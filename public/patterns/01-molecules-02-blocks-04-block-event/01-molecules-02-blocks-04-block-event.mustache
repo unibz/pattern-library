@@ -5,15 +5,11 @@
         {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
       &lt;/a&gt;
     {{/ event-title }}
-    &lt;div class=&quot;event_where&quot;&gt;
-      {{# event-campus }}
-        {{&gt; atoms-text-span (class: &quot;event_campus&quot;) }}
-      {{/ event-campus }}
-      {{# event-room }}
-        {{&gt; atoms-text-span (class: &quot;event_room&quot;) }}
-      {{/ event-room }}
-    &lt;/div&gt;
-    &lt;div class=&quot;event_when&quot;&gt;
+    {{&gt; atoms-text-paragraph }}
+    &lt;div class=&quot;event_meta&quot;&gt;
+      {{# event-location }}
+        {{&gt; atoms-text-span (class: &quot;event_location&quot;) }}
+      {{/ event-location }}
       {{# event-date }}
         {{&gt; atoms-text-date (class: &quot;event_date&quot;) }}
       {{/ event-date }}
