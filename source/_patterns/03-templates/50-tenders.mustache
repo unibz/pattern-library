@@ -5,15 +5,18 @@
     {{> organisms-hero-small }}
   {{/ page-hero }}
 
-  {{# page-filters }}
-    {{> molecules-filters-alone }}
-  {{/ page-filters }}
-
   <section class="l-section">
     <div class="l-container">
-      {{# tenders }}
-        {{> molecules-block-tender }}
-      {{/ tenders }}
+      <div class="g-row">
+        <div class="g g-lg-16">
+          {{# tenders }}
+            {{> molecules-block-tender }}
+          {{/ tenders }}
+        </div>
+        <div class="g g-lg-4">
+          <!-- Shall we put the filters as a sidebar? What About accesibility -->
+        </div>
+      </div>
     </div>
   </section>
 
