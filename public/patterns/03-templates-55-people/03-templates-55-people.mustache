@@ -5,18 +5,18 @@
     {{&gt; organisms-hero-small }}
   {{/ page-hero }}
 
-  &lt;div class=&quot;l-container-small&quot;&gt;
-    {{&gt; organisms-search-find }}
-  &lt;/div&gt;
-
   {{# page-people }}
-    {{&gt; organisms-people-section }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{&gt; organisms-people-section }}
+    &lt;/div&gt;
+  &lt;/section&gt;
   {{/ page-people }}
 
   {{# page-content }}
     &lt;section class=&quot;l-section&quot;&gt;
       &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
+        &lt;div class=&quot;typography typography-left&quot;&gt;
           {{&gt; atoms-heading-3 }}
           {{&gt; atoms-text-paragraph }}
         &lt;/div&gt;

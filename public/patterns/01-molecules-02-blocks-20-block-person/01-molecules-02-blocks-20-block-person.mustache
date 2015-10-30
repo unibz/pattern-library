@@ -1,5 +1,14 @@
 &lt;div class=&quot;{{ class }} person&quot;&gt;
-  {{&gt; atoms-avatar (class: &quot;person_image&quot;) }}
-  {{&gt; atoms-heading-5 (class:&quot;person_name&quot;) }}
-  {{&gt; atoms-text-span (class:&quot;person_role&quot;) }}
+  &lt;div class=&quot;person_imageWrapper&quot;&gt;
+    {{&gt; atoms-avatar (class: &quot;person_image&quot;) }}
+  &lt;/div&gt; 
+  &lt;div class=&quot;person_body&quot;&gt;
+    {{&gt; atoms-heading-5 (class:&quot;person_name&quot;) }}
+    {{# person-role }}
+      {{&gt; atoms-text-span (class:&quot;person_role&quot;) }}
+    {{/ person-role }}
+    {{# person-mail }}
+      {{&gt; atoms-text-span (class:&quot;person_mail&quot;) }}
+    {{/ person-mail }}
+  &lt;/div&gt;
 &lt;/div&gt;

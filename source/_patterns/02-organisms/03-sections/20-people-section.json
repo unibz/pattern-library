@@ -1,4 +1,7 @@
 {
   "people-section": "true",
-  "people": "true"
+  "people": {
+    "person-mail": "true",
+    "person-role": "true"
+  }
 }

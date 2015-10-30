@@ -1,16 +1,12 @@
 {{# people-section }}
-&lt;section class=&quot;l-section&quot;&gt;
-  &lt;div class=&quot;l-container-small&quot;&gt;
-    &lt;div class=&quot;typography&quot;&gt;
-      {{&gt; atoms-heading-3 }}
-    &lt;/div&gt;
-    &lt;div class=&quot;g-row g-sm-clear-2 g-lg-clear-3&quot;&gt;
-      {{# people }}
-        &lt;div class=&quot;g g-md-12 g-lg-8&quot;&gt;
-          {{&gt; molecules-block-person }}
-        &lt;/div&gt;
-      {{/ people }}
-    &lt;/div&gt;
+  &lt;div class=&quot;typography typography-left&quot;&gt;
+    {{&gt; atoms-heading-3 (class:&quot;h-theme&quot;) }}
   &lt;/div&gt;
-&lt;/section&gt;
+  &lt;div class=&quot;g-row g-md-clear-2 g-lg-clear-3&quot;&gt;
+    {{# people }}
+      &lt;div class=&quot;g g-md-12 g-lg-8&quot;&gt;
+        {{&gt; molecules-block-person }}
+      &lt;/div&gt;
+    {{/ people }}
+  &lt;/div&gt;
 {{/ people-section }}

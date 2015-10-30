@@ -7,17 +7,21 @@
 //============================================
 
 .person
-  margin: $space-half 0
-  text-align: center
+  display: flex
+  // align-items: center
+  margin: 0 0 $space 0
 
 
-// Block Person Figure
+// Block Person Thumb and Image
 //============================================
 
-.person_image
-  margin-bottom: $space-quarter
-  max-width: 80px
+.person_imageWrapper
+  flex: 0 0 60px
+  height: 60px
+  margin-right: $space-half
 
+.person_imageWrapper
+  margin-bottom: 0
 
 // Block Person Name
 //============================================
@@ -25,3 +29,9 @@
 .person_name
   +h5
   margin-bottom: 0
+
+.person_role,
+.person_mail,
+.person_office
+  display: block
+  line-height: 1.4

@@ -1,5 +1,14 @@
 <div class="{{ class }} person">
-  {{> atoms-avatar (class: "person_image") }}
-  {{> atoms-heading-5 (class:"person_name") }}
-  {{> atoms-text-span (class:"person_role") }}
+  <div class="person_imageWrapper">
+    {{> atoms-avatar (class: "person_image") }}
+  </div> 
+  <div class="person_body">
+    {{> atoms-heading-5 (class:"person_name") }}
+    {{# person-role }}
+      {{> atoms-text-span (class:"person_role") }}
+    {{/ person-role }}
+    {{# person-mail }}
+      {{> atoms-text-span (class:"person_mail") }}
+    {{/ person-mail }}
+  </div>
 </div>

@@ -5,18 +5,18 @@
     {{> organisms-hero-small }}
   {{/ page-hero }}
 
-  <div class="l-container-small">
-    {{> organisms-search-find }}
-  </div>
-
   {{# page-people }}
-    {{> organisms-people-section }}
+  <section class="l-section">
+    <div class="l-container">
+      {{> organisms-people-section }}
+    </div>
+  </section>
   {{/ page-people }}
 
   {{# page-content }}
     <section class="l-section">
       <div class="l-container">
-        <div class="typography">
+        <div class="typography typography-left">
           {{> atoms-heading-3 }}
           {{> atoms-text-paragraph }}
         </div>
