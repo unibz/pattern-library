@@ -1,0 +1,21 @@
+&lt;div class=&quot;{{ class }} event&quot;&gt;
+  &lt;div class=&quot;event_body&quot;&gt;
+    {{# event-title }}
+      &lt;a href=&quot;{{ url }}&quot;&gt;
+        {{&gt; atoms-heading-2 (class: &quot;event_title&quot;) }}
+      &lt;/a&gt;
+    {{/ event-title }}
+    {{&gt; atoms-text-paragraph }}
+    &lt;div class=&quot;event_meta&quot;&gt;
+      {{# event-location }}
+        {{&gt; atoms-text-span (class: &quot;event_location&quot;) }}
+      {{/ event-location }}
+      {{# event-date }}
+        {{&gt; atoms-text-date (class: &quot;event_date&quot;) }}
+      {{/ event-date }}
+      {{# event-time }}
+        {{&gt; atoms-text-time (class: &quot;event_time&quot;) }}
+      {{/ event-time }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
