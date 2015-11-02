@@ -1,0 +1,75 @@
+//============================================
+// Post Header
+//============================================
+
+
+.postHeader
+  margin-bottom: $space
+
+
+// Post Tag
+//============================================
+
+.postHeader_tag
+  +tag
+
+
+// Post Title
+//============================================
+
+.postHeader_title
+  +h2
+  margin-left: -2px
+
+// Post Author
+//============================================
+
+.postHeader_author
+  margin-right: $space-quarter
+  color: $unibz
+  font-weight: 500
+
+.t_dsgn
+  .postHeader_author
+    color: $dsgn
+
+.t_eco
+  .postHeader_author
+    color: $eco
+
+.t_edu
+  .postHeader_author
+    color: $edu
+
+.t_comp
+  .postHeader_author
+    color: $comp
+
+.t_tech
+  .postHeader_author
+    color: $tech
+
+.t_library
+  .postHeader_author
+    color: $library
+
+
+// Post Author Social
+//============================================
+
+.postHeader_authorSocial
+  margin-right: $space-quarter
+  color: $gray-dark
+  font-weight: 500
+  &:before
+    content: "@"
+
+
+// Post Date
+//============================================
+
+.postHeader_date
+  padding-left: 10px
+  color: $gray-dark
+  font-weight: 500
+  border-left: 1px solid $gray-dark
