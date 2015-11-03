@@ -1,0 +1,13 @@
+&lt;header class=&quot;postHeader&quot;&gt;
+  {{# post-tag }}
+    {{&gt; atoms-text-span (class: &quot;postHeader_tag&quot;) }}
+  {{/ post-tag }}
+  {{&gt; atoms-heading-1 (class: &quot;postHeader_title&quot;) }}
+  {{# post-author }}
+    {{&gt; atoms-text-span (class: &quot;theme postHeader_author&quot;) }}
+  {{/ post-author }}
+  {{# post-author-social }}
+    {{&gt; atoms-text-span (class: &quot;postHeader_authorSocial&quot;) }}
+  {{/ post-author-social }}
+  {{&gt; atoms-text-date (class: &quot;postHeader_date&quot;) }}
+&lt;/header&gt;
