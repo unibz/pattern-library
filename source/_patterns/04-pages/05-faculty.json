@@ -104,19 +104,22 @@
         "empty": "true",
         "headline": "Südtiroler Bauernbundpreis 2015",
         "excerpt": "Studierende des Bachelors Agrarwissenschaften und Umweltmanagement präsentierten gestern einer Jury ihre Gruppenarbeiten zum Thema Kooperationen in der landwirtschaftlichen Produktion.",
-        "date": "22/05"
+        "date": "22/05",
+        "button": "Read More"
       },
       {
         "empty": "true",
         "headline": "Expertise per la cooperazione internazionale",
         "excerpt": "Dall’Alto Adige a Capo Verde, per un agronomo, il passo è lungo: ambiente e, di conseguenza, coltivazioni non sono agli antipodi come i due territori, ma poco ci manca.",
-        "date": "9/03"
+        "date": "9/03",
+        "button": "Read More"
       },
       {
         "empty": "true",
         "headline": "Landschaftsökologie im Nationalpark",
         "excerpt": "Im Rahmen des internationalen Masterprogramms „Environmental Management of Mountain Areas (EMMA)“ haben sich die Studierenden auf einer Exkursion in den Nationalpark Cinque Terre (Ligurien) mit aktuellen Fragen der interdisziplinären Landschaftsökologie beschäftigt.",
-        "date": "20/01"
+        "date": "20/01",
+        "button": "Read More"
       }
     ],
     "button": "Alle News"
