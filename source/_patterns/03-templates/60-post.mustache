@@ -1,0 +1,36 @@
+{{> organisms-header }}
+
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  <section class="l-section">
+    <div class="l-container">
+      {{> molecules-post-header }}
+      {{# post-intro }}
+        <div class="typography typography-left">
+          {{> atoms-text-paragraph (class:"intro-bold")}}
+        </div>
+      {{/ post-intro }}
+    </div>
+  </section>
+
+  <section class="l-section post_section">
+    <div class="l-container">
+      <div class="g-row">
+        <div class="g g-lg-16">
+          {{> atoms-text-paragraph }}
+          {{> molecules-block-factbox }}
+        </div>
+        <div class="g g-lg-8">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

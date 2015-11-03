@@ -1,0 +1,31 @@
+{
+  "page-hero": {
+    "hero-title": {"headline": "News"}
+  },
+
+  "post-tag": {"span":"Experten in der Werbung"},
+  "post-author": {"span": "Maria Tzankow"},
+  "post-author-social": {"span": "tzankow"},
+  "date": "Nov. 09, 2015",
+
+  "headline": "Von Frauen und Profi-Köchen",
+
+  "post-intro": {
+    "excerpt": "Heute gibt’s Spaghetti Bolognese. Andreas Fachner hat in seinem Leben schon das ein oder andere Mal zur Tütensoße gegriffen. Im Frühjahr 2015 allerdings ist der CCM-Student voll im Thema aufgegangen, hat sich bis zur Erschöpfung zwei Werbespots für Spaghetti-Bolognese-Fertigsoßen angesehen, immer wieder. Nicht, um seinen Appetit anzuregen, sondern für das Seminar „Expertise und Demokratie“, das er bei Dr. Alexander Ruser belegt hatte."
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

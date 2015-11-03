@@ -1,0 +1,46 @@
+{{> organisms-header }}
+
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  <section class="l-section">
+    <div class="l-container">
+      {{> molecules-post-header }}
+      {{# post-intro }}
+        <div class="typography typography-left">
+          {{> atoms-text-paragraph (class:"intro-bold")}}
+        </div>
+      {{/ post-intro }}
+    </div>
+  </section>
+
+  <section class="l-section post_section">
+    <div class="l-container">
+      <div class="g-row">
+        <div class="g g-lg-16">
+          <div class="typography typography-left">
+            <p>
+              „Zwischen Maggi- und Knorr-Tütensoßen würde ich den Unterschied nicht schmecken. Ich denke, der ist auch nicht so groß“, erklärt Fachner. „Also muss diese Unterscheidung irgendwie in der Werbung geschaffen werden.“
+            </p>
+            <h3>
+              Luigi oder Mutti: Wer überzeugt wie?
+            </h3>
+            <p>
+              „Wir hier in Italien“, beginnt der sympathische Profi-Koch mit italienischem Akzent, der schon nach ein paar Jährchen Berufserfahrung aussieht. „Da ist alles klar, dem glauben wir sowieso“, sagt Fachner. „Aber in der familienorientierten Maggi-Werbung reicht es nicht, wenn die Frau sagt: `Hier, das ist lecker´. Die Hausfrau braucht die Familie als Bestätigung.“ Kinder, die jubeln. Ehemänner, die anerkennend dreinblicken. Eine wichtige Erkenntnis aus Fachners Hausarbeit: „Es gibt immer noch dieses klassische Familienbild: Die Frau macht den Haushalt, und wenn es der Familie gefällt, dann macht sie es gut. Dass dieses Rollenbild, zwar abgewandelt und in moderner Form, in der aktuellen Werbung immer noch transportiert wird, hat mich doch ganz schön überrascht“, gibt Fachner zu. US-amerikanische Studien zu Geschlechterrollen in der Werbung hatten das zwar schon in den 1980er Jahren gezeigt, aber seitdem hat sich offenbar nicht viel getan.
+            </p>
+            {{> molecules-block-factbox }}
+          </div>
+        </div>
+        <div class="g g-lg-8">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

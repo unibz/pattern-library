@@ -7,6 +7,8 @@
   "post-author": "true",
   "post-author-social": "true",
 
+  "post-intro": "true",
+
   "page-footer": {
     "footer-place": {
       "footer-address": "true",
