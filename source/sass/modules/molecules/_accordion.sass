@@ -1,0 +1,51 @@
+//============================================
+// Block Factbox
+//============================================
+
+.post_section
+  font-family: $font-secondary
+  font-weight: 300
+
+.accordion
+  position: relative
+  margin-bottom: $space
+  padding: $space-half
+  background-color: $gray-light
+  font-family: $font
+  transition: height .3s $motion
+
+.accordion
+  :last-child
+    margin-bottom: 0
+
+.accordion_title
+  display: block
+  padding-top: 4px
+  width: calc(100% - 36px)
+  font-size: $fs-small
+  font-weight: 600
+  color: $primary
+  letter-spacing: 1px
+  text-transform: uppercase
+
+.accordion_body
+  display: none
+  margin-top: $space
+  margin-bottom: 0
+  font-size: $fs-small
+  font-weight: 500
+
+.accordion_toggle
+  position: absolute
+  right: $space-half
+  color: $primary
+  font-weight: 600
+  &:after
+    content: "↓"
+
+.accordion-open
+  .accordion_body
+    display: block
+  .accordion_toggle
+    &:after
+      content: "\2715"

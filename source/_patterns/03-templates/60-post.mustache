@@ -7,12 +7,15 @@
 
   <section class="l-section">
     <div class="l-container">
-      {{> molecules-post-header }}
-      {{# post-intro }}
-        <div class="typography typography-left">
-          {{> atoms-text-paragraph (class:"intro-bold")}}
+      <div class="g-row">
+        <div class="g g-lg-16">
+          {{> molecules-post-header }}
+          {{# post-intro }}
+            <div class="typography typography-left">
+              {{> atoms-text-paragraph (class:"intro-post")}}
+            </div>
+          {{/ post-intro }}
         </div>
-      {{/ post-intro }}
     </div>
   </section>
 
@@ -20,11 +23,27 @@
     <div class="l-container">
       <div class="g-row">
         <div class="g g-lg-16">
-          {{> atoms-text-paragraph }}
-          {{> molecules-block-factbox }}
+          <div class="typography typography-left">
+            {{> atoms-text-paragraph }}
+            {{> atoms-heading-2 }}
+            {{> atoms-text-paragraph }}
+            {{> atoms-heading-3 }}
+            {{> atoms-text-paragraph }}
+            {{> atoms-heading-4 }}
+            {{> atoms-image-4x3 (class:"right") }}
+            {{> atoms-text-paragraph }}
+            {{> atoms-heading-5 }}
+            {{> atoms-text-paragraph }}
+            {{> molecules-accordion }}
+            {{> atoms-text-paragraph }}
+            {{> molecules-figure-with-caption }}
+            {{> atoms-text-paragraph }}
+            {{> molecules-embed-with-caption }}
+            {{> atoms-text-paragraph }}
+          </div>
         </div>
         <div class="g g-lg-8">
-          
+          <!-- Related articles? -->
         </div>
       </div>
     </div>

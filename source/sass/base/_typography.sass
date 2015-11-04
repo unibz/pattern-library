@@ -141,6 +141,7 @@
 
 .typography
   img
+    display: block
     margin-bottom: $space
 
 .typography
@@ -237,6 +238,23 @@
     color: $library
 
 
+// Typography embed
+//============================================
+
+.typography
+  .embed
+    margin-bottom: $space
+
+
+// Typography Figure Caption
+//============================================
+
+.typography
+  figcaption
+    margin-top: -$space-half
+    font-family: $font
+
+
 // Intro text
 //============================================
 
@@ -254,3 +272,9 @@
     line-height: 1.6
   .intro > a
     font-size: inherit
+  .intro-post
+    +h4
+    color: $color-text-gray
+    font-family: $font-secondary
+    font-weight: 500
+    line-height: 1.6
