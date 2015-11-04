@@ -5,7 +5,7 @@
 //============================================
 // These styles are used for both the 
 // Social Share Component and the Social
-// Links Component presnte in the footer
+// Links Component present in the footer
 //============================================
 
 
@@ -15,35 +15,23 @@
 .socialItem
   display: inline-block
   margin-right: $space-half
-  padding-top: 10px
   padding-left: 1px
   width: 48px
   height: 48px
+  line-height: 48px
   border-radius: 50%
-  border: 2px solid $white
   text-align: center
   transition: background-color .5s $motion, border-color .5s $motion
 
-.socialItem:hover
+.socialItem
   &.socialItem-facebook
     background-color: $facebook
-    border-color: $facebook
   &.socialItem-twitter
     background-color: $twitter
-    border-color: $twitter
   &.socialItem-linkedin
     background-color: $linkedin
-    border-color: $linkedin
   &.socialItem-instagram
     background-color: $instagram
-    border-color: $instagram
-
-
-// Specific colors for mail and print buttons
-//============================================
-
-.socialItem-mail,
-.socialItem-print
-  background-color: $gray
-  &:hover
+  &.socialItem-mail,
+  &.socialItem-print
     background-color: $gray-dark
