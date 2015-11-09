@@ -39,37 +39,37 @@
           {
             "headline": "Prof. Benincasa Antonino",
             "person-role" : { "span": "Visual Communication" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "antonino.benincasa@unibz.it" }
           },
           {
             "headline": "Prof. Giorgio Camuffo",
             "person-role" : { "span": "Visual Communication" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "giorgio.camuffo@unibz.it" }
           },
           {
             "headline": "Prof. De Cecco Emanuela",
             "person-role" : { "span": "Visual Culture" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "emanuela.dececco@unibz.it" }
           },
           {
             "headline": "Prof. Gigliotti Roberto",
             "person-role" : { "span": "Interior & Exhibit Design" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "roberto.gigliotti@unibz.it" }
           },
           {
             "headline": "Prof. Dr. phil. Höger Hans Leo",
             "person-role" : { "span": "History of Design" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "hansleo.hoeger@unibz.it" }
           },
           {
             "headline": "Prof. Krois Christian",
             "person-role" : { "span": "Visual Communication" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "kris.krois@unibz.it" }
           },
           {
             "headline": "Prof. Upmeier Christian",
             "person-role" : { "span": "Visual Communication" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "christian.upmeier@unibz.it" }
           }
         ]
       },
@@ -79,72 +79,72 @@
           {
             "headline": "Dott. Mag. Bauer Eva",
             "person-role" : { "span": "Materials Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "eva.bauer@unibz.it" }
           },
           {
             "headline": "Castellan Curzio",
             "person-role" : { "span": "Photography Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "curzio.castellan@unibz.it" }
           },
           {
             "headline": "Erlacher Alexander",
             "person-role" : { "span": "Video Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "alexander.erlarcher@unibz.it" }
           },
           {
             "headline": "Fischnaller Markus",
             "person-role" : { "span": "Wood Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "markus.fischnaller@unibz.it" }
           },
           {
             "headline": "Klammer Dietmar",
             "person-role" : { "span": "Build Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "dietmar.klammer@unibz.it" }
           },
           {
             "headline": "Kofler Albert",
             "person-role" : { "span": "Metal Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "albert.kofler@unibz.it" }
           },
           {
             "headline": "Kofler Markus",
             "person-role" : { "span": "Mac Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "markus.kofler@unibz.it" }
           },
           {
             "headline": "Mössler Robert",
             "person-role" : { "span": "Plastic Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "robert.moessler@unibz.it" }
           },
           {
             "headline": "Pellegrini Luca",
             "person-role" : { "span": "Mac Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "luca.pellegrini@unibz.it" }
           },
           {
             "headline": "Riegler Valentin",
             "person-role" : { "span": "Wood Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "valetin.riegler@unibz.it" }
           },
           {
             "headline": "Dott. Perseghin Alessia",
             "person-role" : { "span": "Materials Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "alessia.perseguin@unibz.it" }
           },
           {
             "headline": "Stufferin Christian",
             "person-role" : { "span": "Silkprint Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "christian.stufferin@unibz.it" }
           },
           {
             "headline": "Tschurtschenthaler Daniel",
             "person-role" : { "span": "Binding Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "daniel.tschurtschenthaler@unibz.it" }
           },
           {
             "headline": "Verber Roland",
             "person-role" : { "span": "CNC Workshop" },
-            "person-mail": { "span": "gerhard.glueher@unibz.it" }
+            "person-mail": { "span": "verber.roland@unibz.it" }
           }
         ]
       }

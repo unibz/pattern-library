@@ -29,10 +29,21 @@
 
 .person_name
   +h5
-  margin-bottom: 0
+  margin-bottom: 2px
+  &:hover
+    text-decoration: underline
 
 .person_role,
 .person_mail,
 .person_office
   display: block
   line-height: 1.4
+
+.person_role
+  color: $color-text-gray
+  font-size: $fs-small
+  font-weight: 500
+
+.person_mail
+  text-decoration: underline
+  font-size: $fs-small
