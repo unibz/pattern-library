@@ -81,14 +81,14 @@
       "headline": "SECS-P/07 | Betriebswirtschaftslehre"
     },
     {
-      "class": "t_eco tender-old",
+      "class": "t_eco",
       "tender-theme": {"span": "Eco"},
       "tender-deadline": {"span": "Einreichfrist 27.12.2014"},
       "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
       "headline": "SECS-P08 | Unternehmensführung"
     },
     {
-      "class": "t_edu tender-old",
+      "class": "t_edu",
       "tender-theme": {"span": "Edu"},
       "tender-deadline": {"span": "Einreichfrist 17.10.2015"},
       "excerpt": "Unterstützende Tätigkeit im Rahmen des Forschungsprojektes:",

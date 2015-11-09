@@ -30,6 +30,10 @@
         {
           "headline": "Versetzungsverfahren von anderen italienischen Universitäten",
           "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Geschlossene Ausschreibungen",
+          "links-class": "g g-sm-12 g-md-8"
         }
       ]
     },
@@ -47,6 +51,10 @@
         {
           "headline": "Forschungsbeauftragte",
           "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Geschlossene Ausschreibungen",
+          "links-class": "g g-sm-12 g-md-8"
         }
       ]
     },
@@ -56,6 +64,10 @@
         {
           "headline": "Alle Jobs",
           "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Geschlossene Ausschreibungen",
+          "links-class": "g g-sm-12 g-md-8"
         }
       ]
     },
@@ -64,6 +76,10 @@
       "links": [
         {
           "headline": "Alle Jobs",
+          "links-class": "g g-sm-12 g-md-8"
+        },
+        {
+          "headline": "Geschlossene Ausschreibungen",
           "links-class": "g g-sm-12 g-md-8"
         }
       ]
