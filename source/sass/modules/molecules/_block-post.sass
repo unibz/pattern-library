@@ -5,6 +5,7 @@
 
 .post
   display: flex
+  margin-bottom: $space
 
 
 // Block Post Date
@@ -12,40 +13,43 @@
 
 .post_date
   flex: 0 0 $space*2
-  height: $space*2
-  margin-right: $space
-  color: $white
-  background-color: $primary
+  margin-right: $space-half
+  color: $primary
   font-weight: 600
   font-size: $fs-small
-  line-height: 50px
   text-transform: uppercase
-  text-align: center
-  border-radius: 50%
 
 .t_dsgn
   .post_date
-    background-color: $dsgn
+    color: $dsgn
 
 .t_eco
   .post_date
-    background-color: $eco
+    color: $eco
 
 .t_edu
   .post_date
-    background-color: $edu
+    color: $edu
 
 .t_comp
   .post_date
-    background-color: $comp
+    color: $comp
 
 .t_tech
   .post_date
-    background-color: $tech
+    color: $tech
 
 .t_library
   .post_date
-    background-color: $library
+    color: $library
+
+
+// Block Post Title
+//============================================
+
+.post_topic
+  +tag
+  margin-bottom: 0
 
 
 // Block Post Title
@@ -62,7 +66,7 @@
 //============================================
 
 .post_excerpt
-  margin-bottom: $space-quarter
+  margin-bottom: 0
 
 
 // Block Post Button
