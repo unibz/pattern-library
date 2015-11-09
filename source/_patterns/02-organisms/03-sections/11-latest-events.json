@@ -1,6 +1,7 @@
 {
   "latest-events": [
     {
+      "event-image": "true",
       "event-title": "true",
       "event-campus": "true",
       "event-room": "true",
@@ -9,6 +10,7 @@
       "event-button": "true"
     },
     {
+      "event-image": "true",
       "event-title": "true",
       "event-campus": "true",
       "event-room": "true",
@@ -17,6 +19,7 @@
       "event-button": "true"
     },
     {
+      "event-image": "true",
       "event-title": "true",
       "event-campus": "true",
       "event-room": "true",
