@@ -3,7 +3,9 @@
     {{&gt; atoms-avatar (class: &quot;person_image&quot;) }}
   &lt;/div&gt; 
   &lt;div class=&quot;person_body&quot;&gt;
-    {{&gt; atoms-heading-5 (class:&quot;person_name&quot;) }}
+    &lt;a href=&quot;{{ url }}&quot;&gt;
+      {{&gt; atoms-heading-5 (class:&quot;person_name&quot;) }}
+    &lt;/a&gt;
     {{# person-role }}
       {{&gt; atoms-text-span (class:&quot;person_role&quot;) }}
     {{/ person-role }}
