@@ -1,11 +1,18 @@
 <div class="{{ class }} event">
+  {{# event-image }}
+    <div class="event_figure">
+      {{> atoms-image-4x3 }}
+    </div>
+  {{/ event-image }}
   <div class="event_body">
-    {{# event-title }}
-      <a href="{{ url }}">
+    <a href="{{ url }}">
+      {{# event-title }}
         {{> atoms-heading-2 (class: "event_title") }}
-      </a>
-    {{/ event-title }}
-    {{> atoms-text-paragraph }}
+      {{/ event-title }}
+      {{# event-subtitle }}
+        {{> atoms-heading-4 (class: "event_subtitle") }}
+      {{/ event-subtitle }}
+    </a>
     <div class="event_meta">
       {{# event-location }}
         {{> atoms-text-span (class: "event_location") }}

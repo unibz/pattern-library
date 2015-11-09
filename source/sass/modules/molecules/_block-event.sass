@@ -4,35 +4,20 @@
 
 .event
   margin-bottom: $space
+  +mq($bp-sm)
+    display: flex
 
-.event_body
-  padding: $space-half
-  background-color: $gray-light
-  border-top: 3px solid $primary
 
-.t_dsgn
-  .event_body
-    border-color: $dsgn
+// Block Event Figure
+//============================================
 
-.t_eco
-  .event_body
-    border-color: $eco
-
-.t_edu
-  .event_body
-    border-color: $edu
-
-.t_comp
-  .event_body
-    border-color: $comp
-
-.t_tech
-  .event_body
-    border-color: $tech
-
-.t_library
-  .event_body
-    border-color: $library
+.event_figure
+  width: 140px
+  margin-bottom: $space-half
+  +mq($bp-sm)
+    flex: 0 0 140px
+    margin-right: $space-half
+    min-width: 0
 
 
 // Block Event Title
@@ -40,22 +25,54 @@
 
 .event_title
   +h4
-  margin-bottom: $space-quarter
+  margin-bottom: 0
+  line-height: 1.2
   &:hover
     text-decoration: underline
+
+.event_subtitle
+  +h5
+  margin-top: 4px
+  margin-bottom: 0
 
 
 // Block Event Meta Information
 //============================================
 
 .event_meta
+  color: $primary
+  margin-top: $space-quarter
   :not(:last-child)
     margin-bottom: $space-quarter
   +mq($bp-sm)
     :not(:last-child)
       margin-bottom: 0
     :not(:first-child)
-      margin-left: $space*1.5
+      margin-left: $space
+
+.t_dsgn
+  .event_meta
+    color: $dsgn
+
+.t_eco
+  .event_meta
+    color: $eco
+
+.t_edu
+  .event_meta
+    color: $edu
+
+.t_comp
+  .event_meta
+    color: $comp
+
+.t_tech
+  .event_meta
+    color: $tech
+
+.t_library
+  .event_meta
+    color: $library
 
 .event_date,
 .event_time,
@@ -63,24 +80,13 @@
   display: block
   line-height: 1
   font-weight: 600
-  
   +mq($bp-sm)
     display: inline-block
     margin-bottom: 0
-
-
-// Block Event Button
-//============================================
-
-.event_btn
-  margin-bottom: 0
-  font-weight: 600
 
 
 // Block Event Old
 //============================================
 
 .event-old
-  opacity: .5
-  .event_body
-    text-shadow: none
+  opacity: .75
