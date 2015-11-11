@@ -50,7 +50,7 @@
 //============================================
 
 .tt_itemRoom
-  display: block
+  font-size: $fs-small
   font-weight: 600
 
 
@@ -71,9 +71,10 @@
 //============================================
 
 .tt_itemLabel
-  +tag
-  display: inline-block
-  margin: 0
+  font-size: $fs-small
+  color: $color-text-gray
+  font-weight: 600
+  text-transform: uppercase
   &:before
     content: "·"
     margin-right: $space-quarter
@@ -84,10 +85,8 @@
 //============================================
 
 .tt_itemTime
-  +tag
-  display: inline-block
-  color: $color-text
-  margin-bottom: 0
+  font-size: $fs-small
+  font-weight: 600
 
 
 // Timetable Item Button
