@@ -7,60 +7,51 @@
 //============================================
 
 .timetable_item
-  display: flex
+  +mq($bp-sm)
+    display: flex
 
 
 // Timetable Item Location
 //============================================
 
 .tt_itemLocation
-  position: relative
   flex-shrink: 0
-  margin-top: $space-quarter
   margin-right: $space-half
-  width: 48px
-  height: 48px
+  width: 80px
   color: $white
-  background-color: $primary
-  border-radius: 50%
+  color: $primary
 
 .t_dsgn
   .timetable_item .tt_itemLocation
-    background-color: $dsgn
+    color: $dsgn
 
 .t_eco
   .timetable_item .tt_itemLocation
-    background-color: $eco
+    color: $eco
 
 .t_edu
   .timetable_item .tt_itemLocation
-    background-color: $edu
+    color: $edu
 
 .t_comp
   .timetable_item .tt_itemLocation
-    background-color: $comp
+    color: $comp
 
 .t_tech
   .timetable_item .tt_itemLocation
-    background-color: $tech
+    color: $tech
 
 .t_library
   .timetable_item .tt_itemLocation
-    background-color: $library
+    color: $library
 
 
 // Timetable Item Room
 //============================================
 
 .tt_itemRoom
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -46%)
-  text-align: center
+  display: block
   font-weight: 600
-  font-size: $fs-small
-  line-height: 1.1
 
 
 // Timetable Item Title

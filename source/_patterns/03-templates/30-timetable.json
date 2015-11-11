@@ -1,4 +1,8 @@
 {
+  "page-hero": {
+    "hero-title": "true"
+  },
+
   "tools": {
     "search": "true",
     "filter": "true",

@@ -8,18 +8,18 @@
 
 .timetable_day
   margin-bottom: $space*2
-  +mq($bp-lg)
+  +mq($bp-md)
     display: flex
 
 .timetable_item
-  margin-bottom: $space-half
-  +mq($bp-lg)
-    margin-bottom: $space
+  margin-bottom: $space*.75
 
 .timetable_date
-  +h3
+  +h4
   margin-bottom: $space-half
-  +mq($bp-lg)
+  +mq($bp-md)
     flex: 0 0 33%
     margin-right: $space
     margin-bottom: 0
+  +mq($bp-lg)
+    +h3
