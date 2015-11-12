@@ -116,7 +116,7 @@
         "headline": "Speakers",
         "people": [
           {
-            "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/untitled%20folder/pattern-lab/event-konstan.jpg",
+            "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/event-konstan.jpg",
             "headline": "Joseph Konstan",
             "person-role" : { "span": "University of Minnesota, USA" },
             "person-contact": { "span": "konstan@cs.umn.edu" }
