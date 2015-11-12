@@ -1,0 +1,60 @@
+{{&gt; organisms-header }}
+
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-lg-16&quot;&gt;
+          {{&gt; molecules-post-header }}
+          {{# post-intro }}
+            &lt;div class=&quot;typography typography-left&quot;&gt;
+              {{&gt; atoms-text-paragraph (class:&quot;intro-post&quot;)}}
+            &lt;/div&gt;
+          {{/ post-intro }}
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-lg-16&quot;&gt;
+          &lt;div class=&quot;typography typography-left&quot;&gt;
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; atoms-heading-2 }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; atoms-button }}
+            {{&gt; atoms-heading-3 }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; molecules-accordion }}
+            {{&gt; atoms-heading-4 }}
+            {{&gt; atoms-image-4x3 (class:&quot;right&quot;) }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; atoms-heading-5 }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; atoms-text-blockquote }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; molecules-figure-with-caption }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; molecules-embed-with-caption }}
+            {{&gt; atoms-text-paragraph }}
+            {{&gt; atoms-button-big }}
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;g g-lg-8&quot;&gt;
+          &lt;!-- Related articles? --&gt;
+          {{&gt; molecules-social-share }}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}

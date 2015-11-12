@@ -1,0 +1,21 @@
+{{&gt; organisms-header }}
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+  &lt;div class=&quot;l-container&quot;&gt;
+    {{&gt; organisms-search-find }}
+  &lt;/div&gt;
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;timetable_week&quot;&gt;
+        {{# timetable-day }}
+          {{&gt; organisms-timetable-day }}
+        {{/ timetable-day }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}

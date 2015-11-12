@@ -1,0 +1,30 @@
+{{&gt; organisms-header }}
+
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+
+  {{# page-people }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{&gt; organisms-people-section }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-people }}
+
+  {{# page-content }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        &lt;div class=&quot;typography typography-left&quot;&gt;
+          {{&gt; atoms-heading-3 }}
+          {{&gt; atoms-text-paragraph }}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-content }}
+&lt;/main&gt;
+
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}

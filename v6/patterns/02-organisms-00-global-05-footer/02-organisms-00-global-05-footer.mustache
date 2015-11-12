@@ -1,0 +1,75 @@
+&lt;footer class=&quot;footer&quot;&gt;
+  &lt;div class=&quot;l-container&quot;&gt;
+    {{&gt; atoms-heading-3 (class: &quot;footer_title&quot;)}}
+    &lt;div class=&quot;g-row&quot;&gt;
+      &lt;div class=&quot;g g-md-12&quot;&gt;
+
+        &lt;div class=&quot;footer_section&quot;&gt;
+          {{# footer-place }}
+            &lt;div class=&quot;g-row u-push-btm&quot;&gt;
+              {{&gt; atoms-heading-6 (class: &quot;footer_sectionTitle g g-24&quot;) }}
+              &lt;div class=&quot;g g-sm-12&quot;&gt;
+                {{&gt; atoms-image-4x3 (class: &quot;footer_image&quot;) }}
+              &lt;/div&gt;
+              &lt;div class=&quot;g g-sm-12&quot;&gt;
+                {{# footer-address }}
+                  &lt;p class=&quot;footer_address&quot;&gt;{{ span }}&lt;/p&gt;
+                {{/ footer-address }}
+                {{# footer-contact }}
+                  &lt;a class=&quot;footer_link footer_link-block&quot; href=&quot;{{ url }}&quot;&gt;{{ span }}&lt;/a&gt;
+                {{/ footer-contact }}
+              &lt;/div&gt;
+            &lt;/div&gt;
+          {{/ footer-place }}
+        &lt;/div&gt;
+
+        {{# footer-openings }}
+          &lt;div class=&quot;footer_section&quot;&gt;
+            {{&gt; atoms-heading-5 (class: &quot;footer_sectionTitle&quot;)}}
+            {{&gt; atoms-text-paragraph }}
+          &lt;/div&gt;
+        {{/ footer-openings }}
+
+        {{# footer-transparency }}
+          &lt;div class=&quot;footer_section&quot;&gt;
+            {{&gt; atoms-heading-5 (class: &quot;footer_sectionTitle&quot;)}}
+            {{&gt; atoms-text-paragraph }}
+          &lt;/div&gt;
+        {{/ footer-transparency }}
+
+      &lt;/div&gt;
+
+      &lt;div class=&quot;g g-md-11 g-md-off-1&quot;&gt;
+        {{# footer-map }}
+          {{&gt; atoms-maps }}
+        {{/ footer-map }}
+
+        {{# footer-social }}
+          &lt;div class=&quot;footer_section&quot;&gt;
+            {{&gt; atoms-heading-5 (class: &quot;footer_sectionTitle&quot;)}}
+            {{&gt; molecules-social-links }}
+          &lt;/div&gt;
+        {{/ footer-social }}
+
+        {{# footer-newsletter }}
+          &lt;div class=&quot;footer_section&quot;&gt;
+            {{&gt; atoms-heading-5 (class: &quot;footer_sectionTitle&quot;)}}
+            &lt;form class=&quot;footer_form&quot; action=&quot;#&quot;&gt;
+              {{&gt; atoms-forms-input-email (class: &quot;footer_input&quot;)}}
+              {{&gt; atoms-button-alternate (class: &quot;btn-medium footer_button&quot;)}}
+            &lt;/form&gt;
+          &lt;/div&gt;
+        {{/ footer-newsletter }}
+
+        {{# footer-links }}
+          &lt;div class=&quot;footer_section&quot;&gt;
+            {{# footer-credit }}
+              &lt;a class=&quot;footer_link u-push-rgt&quot; href=&quot;{{ url }}&quot;&gt;{{ span }}&lt;/a&gt;
+            {{/ footer-credit }}
+            &lt;span&gt;&copy; Unibz&lt;/span&gt;
+          &lt;/div&gt;
+        {{/ footer-links }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;

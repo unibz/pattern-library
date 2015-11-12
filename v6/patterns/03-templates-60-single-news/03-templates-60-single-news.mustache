@@ -1,0 +1,24 @@
+{{&gt; organisms-header }}
+
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{&gt; molecules-post-header }}
+
+      &lt;div class=&quot;typography typography-left&quot;&gt;
+        {{&gt; atoms-text-paragraph (class:&quot;intro-bold&quot;)}}
+        
+        {{&gt; atoms-text-paragraph }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+&lt;/main&gt;
+
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}

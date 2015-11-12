@@ -1,0 +1,19 @@
+&lt;div class=&quot;contactBlock&quot;&gt;
+  &lt;div class=&quot;contactBlock_elem contactBlock_contacts&quot;&gt;
+    {{# contact }}
+      {{&gt; atoms-heading-6 (class: &quot;elem_title&quot;) }}
+      {{# meta }}
+        {{&gt; atoms-text-paragraph (class: &quot;elem_item&quot;) }}
+      {{/ meta }}
+      {{&gt; atoms-text-link (class: &quot;contactBlock_link&quot;) }}
+    {{/ contact }}
+  &lt;/div&gt;
+  &lt;div class=&quot;contactBlock_elem contactBlock_details&quot;&gt;
+    {{# details }}
+      {{&gt; atoms-heading-6 (class: &quot;elem_title&quot;) }}
+      {{# meta }}
+        {{&gt; atoms-text-paragraph (class: &quot;elem_item&quot;) }}
+      {{/ meta }}
+    {{/ details }}
+  &lt;/div&gt;
+&lt;/div&gt;
