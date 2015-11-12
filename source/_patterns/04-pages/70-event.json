@@ -157,7 +157,8 @@
 
   "page-location": {
     "headline": "Location",
-    "excerpt": "Room E2.21<br>Universitätsplatz 1 - piazza Università, 1<br>Bozen-Bolzano"
+    "excerpt": "Room E2.21<br>Universitätsplatz 1 - piazza Università, 1<br>Bozen-Bolzano",
+    "map-src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.4839595677995!2d11.348677515592398!3d46.49852977912685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829e7c02d3dc69%3A0x49ed85b4c348204c!2sPiazza+Universit%C3%A1%2C+39100+Bolzano+BZ%2C+Italy!5e0!3m2!1sen!2sus!4v1447324729872"
   },
 
   "page-footer": {
