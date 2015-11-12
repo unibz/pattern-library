@@ -1,0 +1,177 @@
+{
+  "faculty": "t_comp",
+
+  "page-hero": {
+    "hero-title": {"headline": "DMRS"},
+    "hero-subtitle": {"headline": "2nd International Workshop on Decision Making and Recommender Systems 2015"}
+  },
+
+  "page-meta": {
+    "event-location": {"span": "BZ E2.21"},
+    "event-date": {"date":"22.10.2015 - 23.10.2015"}
+  },
+
+  "page-description": {
+    "excerpt": "While most research in recommender systems is conducted in recommendation techniques, which boils down to rating prediction algorithms, there is still too little discussion on the impact of the supported user interaction and its effect on the decision making behaviors that are enabled and supported. User interactions and decision-making are however critical in recommender system research. Hence it is important to design the interaction while understanding its impact on the user decision-making behavior and heuristic in order to support an effective process. Therefore with this workshop we aim to go beyond recommendation techniques and algorithm evaluations and further merit the research attention from both recommender systems and human factor.<br><br>This workshop aims to bring researchers and practitioners together from user interaction, decision-making and recommender system research communities, especially focusing on integrating research interests across different communities. Also, we aim to provide a platform for discussing approaches, models, research results and case studies addressing a broad range of issues related to recommender system and user interaction. We are specifically interested in discussing the interdisciplinary research challenges and emerging research directions.<br><br>Chairs & Organisers: Prof. Francesco Ricci & Dr. Mouzhi Ge<br>Registration fee: 50 €.<br>To register: <a href=\"#\">http://dmrsworkshop.inf.unibz.it/</a>"
+  },
+
+  "page-image": {
+    "img-portrait": "https://www.sciencesouthtyrol.net/blob/UNIBZ_113355_90_63_100_75.jpg"
+  },
+
+  "page-schedule": {
+    "headline": "Schedule",
+    "timetable-day": [
+      {
+        "headline": "Monday, October 22",
+        "timetable-items": [
+          {
+            "timetable-item-label": { "span": "Intro" },
+            "time": "8:00 - 8:30",
+            "headline": "Welcome and Reception"
+          },
+          {
+            "timetable-item-label": { "span": "Panel" },
+            "time": "8:30 - 10:15",
+            "headline": "User Experience, Boundary Cases, and New Ways of Recommending",
+            "timetable-item-button": { "button": "Joseph Konstan" }
+          },
+          {
+            "time": "10:15 - 10:45",
+            "headline": "Coffee Break"
+          },
+          {
+            "timetable-item-label": { "span": "Panel" },
+            "time": "10:45 - 12:30",
+            "headline": "The Why behind Effective Recommenders: User Perception and Experience",
+            "timetable-item-button": { "button": "Martijn C. Willemsen" }
+          },
+          {
+            "time": "12:30 - 14:00",
+            "headline": "Lunch"
+          },
+          {
+            "timetable-item-label": { "span": "Panel" },
+            "time": "14:00 - 15:45",
+            "headline": "Understanding the Implications of Recommender Systems on Our Views and Behaviors",
+            "timetable-item-button": { "button": "Gedas Adomavicius" }
+          },
+          {
+            "time": "15:45 - 16:15",
+            "headline": "Coffee Break"
+          },
+          {
+            "timetable-item-label": { "span": "Panel" },
+            "time": "14:00 - 15:45",
+            "headline": "Decision Making in the Social Media World",
+            "timetable-item-button": { "button": "Ido Guy" }
+          }
+        ]
+      },
+      {
+        "headline": "Tuesday, October 23",
+        "timetable-items": [
+          {
+            "timetable-item-label": { "span": "Panel" },
+            "time": "8:30 - 10:15",
+            "headline": "Context Awareness in Recommender Systems",
+            "timetable-item-button": { "button": "Joseph Konstan" }
+          },
+          {
+            "time": "10:15 - 10:45",
+            "headline": "Coffee Break"
+          },
+          {
+            "timetable-item-label": { "span": "Panel" },
+            "time": "10:45 - 12:30",
+            "headline": "Research Challenges in Group Recommender Systems",
+            "timetable-item-button": { "button": "Judith Masthoff" }
+          },
+          {
+            "time": "12:30 - 14:00",
+            "headline": "Lunch"
+          },
+          {
+            "timetable-item-label": { "span": "Pitch" },
+            "time": "14:00 - 15:00",
+            "headline": "Poster Session"
+          },
+          {
+            "timetable-item-label": { "span": "Discussion" },
+            "time": "15:00 - 15:45",
+            "headline": "Workshop Discussion"
+          },
+          {
+            "time": "15:45 - 16:15",
+            "headline": "Coffee Break and Networking"
+          }
+        ]
+      }
+    ]
+  },
+
+  "page-people": {
+    "people-section": [
+      {
+        "headline": "Speakers",
+        "people": [
+          {
+            "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/untitled%20folder/pattern-lab/event-konstan.jpg",
+            "headline": "Joseph Konstan",
+            "person-role" : { "span": "University of Minnesota, USA" },
+            "person-contact": { "span": "konstan@cs.umn.edu" }
+          },
+          {
+            "img-avatar": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/043/0d7/381f72a.jpg",
+            "headline": "Martijn C. Willemsen",
+            "person-role" : { "span": "Eindhoven University of Technology, Netherlands" },
+            "person-contact": { "span": "www.martijnwillemsen.nl" }
+          },
+          {
+            "img-avatar": "https://sobaco.umn.edu/images/gedas.jpg",
+            "headline": "Gedas Adomavicius",
+            "person-role" : { "span": "University of Minnesota, USA" }
+          },
+          {
+            "img-avatar": "https://pbs.twimg.com/profile_images/773019993/guy_ido_400x400.jpg",
+            "headline": "Ido Guy",
+            "person-role" : { "span": "Yahoo Research, Israel" },
+            "person-contact": { "span": "@ido_guy" }
+          },
+          {
+            "img-avatar": "https://pbs.twimg.com/profile_images/83065306/BAM-1542-s_400x400.jpg",
+            "headline": "Bamshad Mobasher",
+            "person-role" : { "span": "DePaul University, USA" },
+            "person-contact": { "span": "facweb.cs.depaul.edu/mobasher/" }
+          },
+          {
+            "img-avatar": "http://i1.rgstatic.net/ii/profile.image/AS%3A278766061408272@1443474416419_l",
+            "headline": "Judith Masthoff",
+            "person-role" : { "span": "University of Aberdeen, UK" },
+            "person-contact": { "span": "@jmasthoff" }
+          }
+        ]
+      }
+    ]
+  },
+
+  "page-location": {
+    "headline": "Location",
+    "excerpt": "Room E2.21<br>Universitätsplatz 1 - piazza Università, 1<br>Bozen-Bolzano"
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

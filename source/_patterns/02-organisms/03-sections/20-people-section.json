@@ -1,7 +1,7 @@
 {
   "people-section": "true",
   "people": {
-    "person-mail": "true",
+    "person-contact": "true",
     "person-role": "true"
   }
 }

@@ -3,9 +3,23 @@
     "hero-title": "true"
   },
 
-  "tools": {
-    "search": "true",
-    "filter": "true"
+  "page-meta": {
+    "event-location": "true",
+    "event-time": "true",
+    "event-date": "true"
+  },
+
+  "page-description": "true",
+  
+  "page-image": "true",
+
+  "page-schedule": {
+    "timetable-day": {
+      "timetable-items": {
+        "timetable-item-label": "true",
+        "timetable-item-button": "true"
+      }
+    }
   },
 
   "page-people": {
@@ -16,7 +30,7 @@
     }
   },
 
-  "page-content": "true",
+  "page-location": "true",
 
   "page-footer": {
     "footer-place": {

@@ -1,0 +1,75 @@
+{{> organisms-header }}
+
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  <section class="l-section">
+    <div class="l-container">
+      <div class="g-row">
+        <div class="g g-lg-14">
+          {{# page-meta }}
+            <div class="event_meta eventDetail_meta">
+              {{# event-location }}
+                {{> atoms-text-span (class: "event_location") }}
+              {{/ event-location }}
+              {{# event-date }}
+                {{> atoms-text-date (class: "event_date") }}
+              {{/ event-date }}
+              {{# event-time }}
+                {{> atoms-text-time (class: "event_time") }}
+              {{/ event-time }}
+            </div>
+          {{/ page-meta }}
+          {{# page-description }}
+            {{> atoms-text-paragraph }}
+          {{/ page-description }}
+        </div>
+        {{# page-image }}
+        <div class="g g-lg-8 g-lg-off-2">
+          {{> atoms-image-2x3 }}
+        </div>
+        {{/ page-image }}
+    </div>
+  </section>
+
+  {{# page-schedule }}
+    <section class="l-section">
+      <div class="l-container">
+        {{> atoms-heading-3 (class:"h3 h-theme") }}
+        {{# timetable-day }}
+          {{> organisms-timetable-day }}
+        {{/ timetable-day }}
+      </div>
+    </section>
+  {{/ page-schedule }}
+
+  {{# page-people }}
+    <section class="l-section">
+      <div class="l-container">
+        {{> organisms-people-section }}
+      </div>
+    </section>
+  {{/ page-people }}
+
+  {{# page-location }}
+    <section class="l-section">
+      <div class="l-container">
+        {{> atoms-heading-3 (class:"h3 h-theme") }}
+        <div class="g-row">
+          <div class="g g-lg-8">
+            {{> atoms-text-paragraph }}
+          </div>
+          <div class="g g-lg-14 g-lg-off-2">
+            {{> atoms-maps }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{/ page-location }}
+</main>
+
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}
