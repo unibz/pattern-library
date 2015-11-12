@@ -529,6 +529,24 @@ p q r s t u v w x y z { | } ~
 							</div>
 						</div>
 					</div>
+					<div id="atoms-text-wrapper" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-08-text-wrapper/00-atoms-02-text-08-text-wrapper.html" class="patternLink" data-patternpartial="atoms-text-wrapper">Text Wrapper</a></h2>
+						<div class="sg-pattern-body">
+							<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)
+</div>
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div&gt;
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
 					<div id="atoms-unordered" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-03-lists-00-unordered/00-atoms-03-lists-00-unordered.html" class="patternLink" data-patternpartial="atoms-unordered">Unordered</a></h2>
 						<div class="sg-pattern-body">
@@ -826,12 +844,18 @@ p q r s t u v w x y z { | } ~
 					<div id="atoms-forms-input-search" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-05-forms-06-forms-input-search/00-atoms-05-forms-06-forms-input-search.html" class="patternLink" data-patternpartial="atoms-forms-input-search">Forms Input Search</a></h2>
 						<div class="sg-pattern-body">
-							<input class="form_input " type="search" placeholder="Lorem">
+							<form class="form_input-search " role="search">
+  <input class="form_input" type="search" placeholder="Lorem">
+  <a class="form_input-searchButton" href="#"><i class="i i-search-gray"></i></a>
+</form>
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;input class=&quot;form_input &quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;
+										&lt;form class=&quot;form_input-search &quot; role=&quot;search&quot;&gt;
+  &lt;input class=&quot;form_input&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;
+  &lt;a class=&quot;form_input-searchButton&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search-gray&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/form&gt;
 									</code>
 								</pre>
 							</div>
@@ -1741,6 +1765,8 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-04-block-event/01-molecules-02-blocks-04-block-event.html" class="patternLink" data-patternpartial="molecules-block-event">Block Event</a></h2>
 						<div class="sg-pattern-body">
 							<div class=" event">
+  <div class="event_figure">
+  </div>
   <div class="event_body">
     <a href="#">
         <h2 class="event_title">Lorem ipsum dolor sit (37 characters)</h2>    </a>
@@ -1762,6 +1788,8 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot; event&quot;&gt;
+  &lt;div class=&quot;event_figure&quot;&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;event_body&quot;&gt;
     &lt;a href=&quot;#&quot;&gt;
         &lt;h2 class=&quot;event_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;    &lt;/a&gt;
@@ -1885,7 +1913,7 @@ p q r s t u v w x y z { | } ~
   <div class="job_body">
       <span class="job_brand">Lorem</span>      <span class="job_location">Lorem</span>    <a href="#">
       <h5 class="job_title">Lorem ipsum dolor sit (37 characters)</h5>    </a>
-    <a href="#" class="btn-text btn-text-small btn-text-primary job_button">Lorem ipsum</a>  </div>
+  </div>
 </div>
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
@@ -1893,7 +1921,6 @@ p q r s t u v w x y z { | } ~
 											<a href="../../patterns/00-atoms-04-images-01-image-4x3/00-atoms-04-images-01-image-4x3.html"><code>atoms-image-4x3</code></a>
 											<a href="../../patterns/00-atoms-02-text-04-text-span/00-atoms-02-text-04-text-span.html"><code>atoms-text-span</code></a>
 											<a href="../../patterns/00-atoms-01-headings-04-heading-5/00-atoms-01-headings-04-heading-5.html"><code>atoms-heading-5</code></a>
-											<a href="../../patterns/00-atoms-06-buttons-09-button-text/00-atoms-06-buttons-09-button-text.html"><code>atoms-button-text</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -1904,7 +1931,7 @@ p q r s t u v w x y z { | } ~
   &lt;div class=&quot;job_body&quot;&gt;
       &lt;span class=&quot;job_brand&quot;&gt;Lorem&lt;/span&gt;      &lt;span class=&quot;job_location&quot;&gt;Lorem&lt;/span&gt;    &lt;a href=&quot;#&quot;&gt;
       &lt;h5 class=&quot;job_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;    &lt;/a&gt;
-    &lt;a href=&quot;#&quot; class=&quot;btn-text btn-text-small btn-text-primary job_button&quot;&gt;Lorem ipsum&lt;/a&gt;  &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 									</code>
 								</pre>
@@ -1918,7 +1945,7 @@ p q r s t u v w x y z { | } ~
   <div class="job_body">
       <span class="job_brand">Lorem</span>      <span class="job_location">Lorem</span>    <a href="#">
       <h5 class="job_title">Lorem ipsum dolor sit (37 characters)</h5>    </a>
-    <a href="#" class="btn-text btn-text-small btn-text-primary job_button">Lorem ipsum</a>  </div>
+  </div>
 </div>
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
@@ -1926,7 +1953,6 @@ p q r s t u v w x y z { | } ~
 											<a href="../../patterns/00-atoms-04-images-01-image-4x3/00-atoms-04-images-01-image-4x3.html"><code>atoms-image-4x3</code></a>
 											<a href="../../patterns/00-atoms-02-text-04-text-span/00-atoms-02-text-04-text-span.html"><code>atoms-text-span</code></a>
 											<a href="../../patterns/00-atoms-01-headings-04-heading-5/00-atoms-01-headings-04-heading-5.html"><code>atoms-heading-5</code></a>
-											<a href="../../patterns/00-atoms-06-buttons-09-button-text/00-atoms-06-buttons-09-button-text.html"><code>atoms-button-text</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -1935,7 +1961,7 @@ p q r s t u v w x y z { | } ~
   &lt;div class=&quot;job_body&quot;&gt;
       &lt;span class=&quot;job_brand&quot;&gt;Lorem&lt;/span&gt;      &lt;span class=&quot;job_location&quot;&gt;Lorem&lt;/span&gt;    &lt;a href=&quot;#&quot;&gt;
       &lt;h5 class=&quot;job_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;    &lt;/a&gt;
-    &lt;a href=&quot;#&quot; class=&quot;btn-text btn-text-small btn-text-primary job_button&quot;&gt;Lorem ipsum&lt;/a&gt;  &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 									</code>
 								</pre>
@@ -3189,7 +3215,7 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-06-components-10-filters/01-molecules-06-components-10-filters.html" class="patternLink" data-patternpartial="molecules-filters">Filters</a></h2>
 						<div class="sg-pattern-body">
 							<div class="filter_wrapper">
-</div>
+    <a href="#" class="t_eco"><span class="btn btn-outline filter_button">ECO</span></a>    <a href="#" class="t_comp"><span class="btn btn-outline filter_button btn-outline-active">COMP</span></a>    <a href="#" class="t_tech"><span class="btn btn-outline filter_button">TECH</span></a>    <a href="#" class="t_edu"><span class="btn btn-outline filter_button">EDU</span></a>    <a href="#" class="t_dsgn"><span class="btn btn-outline filter_button">DSGN</span></a></div>
 
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
@@ -3200,7 +3226,7 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;filter_wrapper&quot;&gt;
-&lt;/div&gt;
+    &lt;a href=&quot;#&quot; class=&quot;t_eco&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;ECO&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_comp&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button btn-outline-active&quot;&gt;COMP&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_tech&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;TECH&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_edu&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;EDU&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_dsgn&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;DSGN&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 
 									</code>
 								</pre>
@@ -3243,7 +3269,10 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-06-components-15-find-tools/01-molecules-06-components-15-find-tools.html" class="patternLink" data-patternpartial="molecules-find-tools">Find Tools</a></h2>
 						<div class="sg-pattern-body">
 							<div class="find_tools">
-    <a class="btn-toggle find_toolToggle find_toolToggle-search" href="#"><i class="i i-search"></i></a>    <input class="form_input find_toolSearch" type="search" placeholder="Lorem">    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-filter"></i></a>    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-calendar"></i></a></div>
+    <a class="btn-toggle find_toolToggle find_toolToggle-search" href="#"><i class="i i-search"></i></a>    <form class="form_input-search find_toolSearch" role="search">
+      <input class="form_input" type="search" placeholder="Lorem">
+      <a class="form_input-searchButton" href="#"><i class="i i-search-gray"></i></a>
+    </form>    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-filter"></i></a>    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-calendar"></i></a></div>
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
@@ -3254,7 +3283,10 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;find_tools&quot;&gt;
-    &lt;a class=&quot;btn-toggle find_toolToggle find_toolToggle-search&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;input class=&quot;form_input find_toolSearch&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-filter&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-calendar&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;a class=&quot;btn-toggle find_toolToggle find_toolToggle-search&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;form class=&quot;form_input-search find_toolSearch&quot; role=&quot;search&quot;&gt;
+      &lt;input class=&quot;form_input&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;
+      &lt;a class=&quot;form_input-searchButton&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search-gray&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/form&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-filter&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-calendar&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
 									</code>
 								</pre>
 							</div>
@@ -4970,7 +5002,7 @@ p q r s t u v w x y z { | } ~
       <div class="g g-md-12">
 
         <div class="footer_section">
-            <div class="g-row u-push-btm">
+            <div class="g-row u-push-btm-half">
               <h6 class="footer_sectionTitle g g-24">Lorem ipsum dolor sit (37 characters)</h6>              <div class="g g-sm-12">
                 <img class="footer_image" src="../../images/fpo_4x3.png" alt="" />              </div>
               <div class="g g-sm-12">
@@ -4985,6 +5017,11 @@ p q r s t u v w x y z { | } ~
 
           <div class="footer_section">
             <h5 class="footer_sectionTitle">Lorem ipsum dolor sit (37 characters)</h5>            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)</p>          </div>
+
+          <div class="footer_section">
+              <a class="footer_link u-push-rgt" href="#">Lorem</a>
+            <span>© Unibz</span>
+          </div>
 
       </div>
 
@@ -5003,11 +5040,6 @@ p q r s t u v w x y z { | } ~
           <div class="footer_section">
             <h5 class="footer_sectionTitle">Lorem ipsum dolor sit (37 characters)</h5>            <form class="footer_form" action="#">
               <input class="form_input footer_input" type="email" placeholder="Lorem">              <a href="#" class="btn btn-alt btn-medium footer_button">Lorem ipsum</a>            </form>
-          </div>
-
-          <div class="footer_section">
-              <a class="footer_link u-push-rgt" href="#">Lorem</a>
-            <span>© Unibz</span>
           </div>
       </div>
     </div>
@@ -5031,7 +5063,7 @@ p q r s t u v w x y z { | } ~
       &lt;div class=&quot;g g-md-12&quot;&gt;
 
         &lt;div class=&quot;footer_section&quot;&gt;
-            &lt;div class=&quot;g-row u-push-btm&quot;&gt;
+            &lt;div class=&quot;g-row u-push-btm-half&quot;&gt;
               &lt;h6 class=&quot;footer_sectionTitle g g-24&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h6&gt;              &lt;div class=&quot;g g-sm-12&quot;&gt;
                 &lt;img class=&quot;footer_image&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;              &lt;/div&gt;
               &lt;div class=&quot;g g-sm-12&quot;&gt;
@@ -5046,6 +5078,11 @@ p q r s t u v w x y z { | } ~
 
           &lt;div class=&quot;footer_section&quot;&gt;
             &lt;h5 class=&quot;footer_sectionTitle&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;            &lt;p class=&quot;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)&lt;/p&gt;          &lt;/div&gt;
+
+          &lt;div class=&quot;footer_section&quot;&gt;
+              &lt;a class=&quot;footer_link u-push-rgt&quot; href=&quot;#&quot;&gt;Lorem&lt;/a&gt;
+            &lt;span&gt;&copy; Unibz&lt;/span&gt;
+          &lt;/div&gt;
 
       &lt;/div&gt;
 
@@ -5064,11 +5101,6 @@ p q r s t u v w x y z { | } ~
           &lt;div class=&quot;footer_section&quot;&gt;
             &lt;h5 class=&quot;footer_sectionTitle&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;            &lt;form class=&quot;footer_form&quot; action=&quot;#&quot;&gt;
               &lt;input class=&quot;form_input footer_input&quot; type=&quot;email&quot; placeholder=&quot;Lorem&quot;&gt;              &lt;a href=&quot;#&quot; class=&quot;btn btn-alt btn-medium footer_button&quot;&gt;Lorem ipsum&lt;/a&gt;            &lt;/form&gt;
-          &lt;/div&gt;
-
-          &lt;div class=&quot;footer_section&quot;&gt;
-              &lt;a class=&quot;footer_link u-push-rgt&quot; href=&quot;#&quot;&gt;Lorem&lt;/a&gt;
-            &lt;span&gt;&copy; Unibz&lt;/span&gt;
           &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -5247,7 +5279,10 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<section class="hero" role="banner">
   <div class="hero_image" style="background-image:url(../../images/fpo_16x9.png)">
-      <input class="form_input hero_search" type="search" placeholder="Lorem">  </div>
+      <form class="form_input-search hero_search" role="search">
+        <input class="form_input" type="search" placeholder="Lorem">
+        <a class="form_input-searchButton" href="#"><i class="i i-search-gray"></i></a>
+      </form>  </div>
     <div class="hero_text">
         <h5 class="hero_titleLabel">Lorem ipsum dolor sit (37 characters)</h5>        <h1 class="hero_title">Lorem ipsum dolor sit (37 characters)</h1>    </div>
 </section>
@@ -5262,7 +5297,10 @@ p q r s t u v w x y z { | } ~
 									<code>
 										&lt;section class=&quot;hero&quot; role=&quot;banner&quot;&gt;
   &lt;div class=&quot;hero_image&quot; style=&quot;background-image:url(../../images/fpo_16x9.png)&quot;&gt;
-      &lt;input class=&quot;form_input hero_search&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;  &lt;/div&gt;
+      &lt;form class=&quot;form_input-search hero_search&quot; role=&quot;search&quot;&gt;
+        &lt;input class=&quot;form_input&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;
+        &lt;a class=&quot;form_input-searchButton&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search-gray&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/form&gt;  &lt;/div&gt;
     &lt;div class=&quot;hero_text&quot;&gt;
         &lt;h5 class=&quot;hero_titleLabel&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h5&gt;        &lt;h1 class=&quot;hero_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h1&gt;    &lt;/div&gt;
 &lt;/section&gt;
@@ -5385,8 +5423,8 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-03-sections-11-latest-events/02-organisms-03-sections-11-latest-events.html" class="patternLink" data-patternpartial="organisms-latest-events">Latest Events</a></h2>
 						<div class="sg-pattern-body">
 							  <div class=" event">
-      <div class="event_figure">
-      <img class="" src="../../images/fpo_4x3.png" alt="" />      </div>
+    <div class="event_figure">
+      <img class="" src="../../images/fpo_4x3.png" alt="" />    </div>
     <div class="event_body">
       <a href="#">
         <h2 class="event_title">Lorem ipsum dolor sit (37 characters)</h2>      </a>
@@ -5394,8 +5432,8 @@ p q r s t u v w x y z { | } ~
         <time class="event_date">24 June 2015</time>        <time class="event_time">9:21</time>      </div>
     </div>
   </div>  <div class=" event">
-      <div class="event_figure">
-      <img class="" src="../../images/fpo_4x3.png" alt="" />      </div>
+    <div class="event_figure">
+      <img class="" src="../../images/fpo_4x3.png" alt="" />    </div>
     <div class="event_body">
       <a href="#">
         <h2 class="event_title">Lorem ipsum dolor sit (37 characters)</h2>      </a>
@@ -5403,8 +5441,8 @@ p q r s t u v w x y z { | } ~
         <time class="event_date">24 June 2015</time>        <time class="event_time">9:21</time>      </div>
     </div>
   </div>  <div class=" event">
-      <div class="event_figure">
-      <img class="" src="../../images/fpo_4x3.png" alt="" />      </div>
+    <div class="event_figure">
+      <img class="" src="../../images/fpo_4x3.png" alt="" />    </div>
     <div class="event_body">
       <a href="#">
         <h2 class="event_title">Lorem ipsum dolor sit (37 characters)</h2>      </a>
@@ -5421,8 +5459,8 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										  &lt;div class=&quot; event&quot;&gt;
-      &lt;div class=&quot;event_figure&quot;&gt;
-      &lt;img class=&quot;&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;      &lt;/div&gt;
+    &lt;div class=&quot;event_figure&quot;&gt;
+      &lt;img class=&quot;&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;    &lt;/div&gt;
     &lt;div class=&quot;event_body&quot;&gt;
       &lt;a href=&quot;#&quot;&gt;
         &lt;h2 class=&quot;event_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;      &lt;/a&gt;
@@ -5430,8 +5468,8 @@ p q r s t u v w x y z { | } ~
         &lt;time class=&quot;event_date&quot;&gt;24 June 2015&lt;/time&gt;        &lt;time class=&quot;event_time&quot;&gt;9:21&lt;/time&gt;      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;  &lt;div class=&quot; event&quot;&gt;
-      &lt;div class=&quot;event_figure&quot;&gt;
-      &lt;img class=&quot;&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;      &lt;/div&gt;
+    &lt;div class=&quot;event_figure&quot;&gt;
+      &lt;img class=&quot;&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;    &lt;/div&gt;
     &lt;div class=&quot;event_body&quot;&gt;
       &lt;a href=&quot;#&quot;&gt;
         &lt;h2 class=&quot;event_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;      &lt;/a&gt;
@@ -5439,8 +5477,8 @@ p q r s t u v w x y z { | } ~
         &lt;time class=&quot;event_date&quot;&gt;24 June 2015&lt;/time&gt;        &lt;time class=&quot;event_time&quot;&gt;9:21&lt;/time&gt;      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;  &lt;div class=&quot; event&quot;&gt;
-      &lt;div class=&quot;event_figure&quot;&gt;
-      &lt;img class=&quot;&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;      &lt;/div&gt;
+    &lt;div class=&quot;event_figure&quot;&gt;
+      &lt;img class=&quot;&quot; src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;&quot; /&gt;    &lt;/div&gt;
     &lt;div class=&quot;event_body&quot;&gt;
       &lt;a href=&quot;#&quot;&gt;
         &lt;h2 class=&quot;event_title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;      &lt;/a&gt;
@@ -5600,7 +5638,10 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<div class="searchFind">
     <div class="find_tools">
-    <a class="btn-toggle find_toolToggle find_toolToggle-search" href="#"><i class="i i-search"></i></a>    <input class="form_input find_toolSearch" type="search" placeholder="Lorem">    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-filter"></i></a>    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-calendar"></i></a>    </div>
+    <a class="btn-toggle find_toolToggle find_toolToggle-search" href="#"><i class="i i-search"></i></a>    <form class="form_input-search find_toolSearch" role="search">
+      <input class="form_input" type="search" placeholder="Lorem">
+      <a class="form_input-searchButton" href="#"><i class="i i-search-gray"></i></a>
+    </form>    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-filter"></i></a>    <a class="btn-toggle find_toolToggle" href="#"><i class="i i-calendar"></i></a>    </div>
     <div class="filter_wrapper">
     <a href="#" class=""><span class="btn btn-outline filter_button">BA</span></a>    <a href="#" class=""><span class="btn btn-outline filter_button">MA</span></a>    <a href="#" class="t_eco"><span class="btn btn-outline filter_button">ECO</span></a>    <a href="#" class="t_comp"><span class="btn btn-outline filter_button btn-outline-active">COMP</span></a>    <a href="#" class="t_tech"><span class="btn btn-outline filter_button">TECH</span></a>    <a href="#" class="t_edu"><span class="btn btn-outline filter_button">EDU</span></a>    <a href="#" class="t_dsgn"><span class="btn btn-outline filter_button">DSGN</span></a>    </div>
 
@@ -5915,7 +5956,10 @@ p q r s t u v w x y z { | } ~
 									<code>
 										&lt;div class=&quot;searchFind&quot;&gt;
     &lt;div class=&quot;find_tools&quot;&gt;
-    &lt;a class=&quot;btn-toggle find_toolToggle find_toolToggle-search&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;input class=&quot;form_input find_toolSearch&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-filter&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-calendar&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;/div&gt;
+    &lt;a class=&quot;btn-toggle find_toolToggle find_toolToggle-search&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;form class=&quot;form_input-search find_toolSearch&quot; role=&quot;search&quot;&gt;
+      &lt;input class=&quot;form_input&quot; type=&quot;search&quot; placeholder=&quot;Lorem&quot;&gt;
+      &lt;a class=&quot;form_input-searchButton&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-search-gray&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/form&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-filter&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;a class=&quot;btn-toggle find_toolToggle&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i i-calendar&quot;&gt;&lt;/i&gt;&lt;/a&gt;    &lt;/div&gt;
     &lt;div class=&quot;filter_wrapper&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;BA&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;MA&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_eco&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;ECO&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_comp&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button btn-outline-active&quot;&gt;COMP&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_tech&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;TECH&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_edu&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;EDU&lt;/span&gt;&lt;/a&gt;    &lt;a href=&quot;#&quot; class=&quot;t_dsgn&quot;&gt;&lt;span class=&quot;btn btn-outline filter_button&quot;&gt;DSGN&lt;/span&gt;&lt;/a&gt;    &lt;/div&gt;
 

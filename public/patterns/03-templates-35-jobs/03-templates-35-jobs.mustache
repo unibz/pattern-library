@@ -7,9 +7,16 @@
 
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
-      {{# jobs }}
-        {{&gt; molecules-block-job }}
-      {{/ jobs }}
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-lg-10 g-lg-push-14&quot;&gt;
+            {{&gt; atoms-forms-input-search }}
+        &lt;/div&gt;
+        &lt;div class=&quot;g g-lg-14 g-lg-pull-10&quot;&gt;
+          {{# jobs }}
+            {{&gt; molecules-block-job }}
+          {{/ jobs }}
+        &lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/section&gt;
   

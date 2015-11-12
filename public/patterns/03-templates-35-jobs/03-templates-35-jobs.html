@@ -531,14 +531,23 @@
     </section>
   <section class="l-section">
     <div class="l-container">
-        <div class="job">
-            <div class="job_thumb">
-      <img class="job_thumb" src="../../images/fpo_4x3.png" alt="" />            </div>
-          <div class="job_body">
-      <span class="job_brand">Lorem</span>      <span class="job_location">Lorem</span>            <a href="#">
-      <h5 class="job_title">Lorem ipsum dolor sit (37 characters)</h5>            </a>
-    <a href="#" class="btn-text btn-text-small btn-text-primary job_button">Lorem ipsum</a>          </div>
-        </div>    </div>
+      <div class="g-row">
+        <div class="g g-lg-10 g-lg-push-14">
+            <form class="form_input-search " role="search">
+              <input class="form_input" type="search" placeholder="Lorem">
+              <a class="form_input-searchButton" href="#"><i class="i i-search-gray"></i></a>
+            </form>        </div>
+        <div class="g g-lg-14 g-lg-pull-10">
+            <div class="job">
+                <div class="job_thumb">
+      <img class="job_thumb" src="../../images/fpo_4x3.png" alt="" />                </div>
+              <div class="job_body">
+      <span class="job_brand">Lorem</span>      <span class="job_location">Lorem</span>                <a href="#">
+      <h5 class="job_title">Lorem ipsum dolor sit (37 characters)</h5>                </a>
+              </div>
+            </div>        </div>
+      </div>
+    </div>
   </section>
   
   <section class="l-section">
@@ -567,7 +576,7 @@
         <div class="g g-md-12">
 
           <div class="footer_section">
-              <div class="g-row u-push-btm">
+              <div class="g-row u-push-btm-half">
               <h6 class="footer_sectionTitle g g-24">Lorem ipsum dolor sit (37 characters)</h6>                <div class="g g-sm-12">
                 <img class="footer_image" src="../../images/fpo_4x3.png" alt="" />                </div>
                 <div class="g g-sm-12">
@@ -582,6 +591,11 @@
 
             <div class="footer_section">
             <h5 class="footer_sectionTitle">Lorem ipsum dolor sit (37 characters)</h5>            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni (210 characters)</p>            </div>
+
+            <div class="footer_section">
+                <a class="footer_link u-push-rgt" href="#">Lorem</a>
+              <span>© Unibz</span>
+            </div>
 
         </div>
 
@@ -601,11 +615,6 @@
             <h5 class="footer_sectionTitle">Lorem ipsum dolor sit (37 characters)</h5>              <form class="footer_form" action="#">
               <input class="form_input footer_input" type="email" placeholder="Lorem">              <a href="#" class="btn btn-alt btn-medium footer_button">Lorem ipsum</a>              </form>
             </div>
-
-            <div class="footer_section">
-                <a class="footer_link u-push-rgt" href="#">Lorem</a>
-              <span>© Unibz</span>
-            </div>
         </div>
       </div>
     </div>
@@ -615,7 +624,7 @@
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "templates-jobs";
-		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-hero-small","lineagePath":"..\/..\/patterns\/02-organisms-02-hero-05-hero-small\/02-organisms-02-hero-05-hero-small.html"},{"lineagePattern":"molecules-block-job","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-14-block-job\/01-molecules-02-blocks-14-block-job.html"},{"lineagePattern":"molecules-nav-pagination","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-25-nav-pagination\/01-molecules-05-navigation-25-nav-pagination.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-05-footer\/02-organisms-00-global-05-footer.html"}];
+		var lineage        = [{"lineagePattern":"organisms-header","lineagePath":"..\/..\/patterns\/02-organisms-00-global-00-header\/02-organisms-00-global-00-header.html"},{"lineagePattern":"organisms-hero-small","lineagePath":"..\/..\/patterns\/02-organisms-02-hero-05-hero-small\/02-organisms-02-hero-05-hero-small.html"},{"lineagePattern":"atoms-forms-input-search","lineagePath":"..\/..\/patterns\/00-atoms-05-forms-06-forms-input-search\/00-atoms-05-forms-06-forms-input-search.html"},{"lineagePattern":"molecules-block-job","lineagePath":"..\/..\/patterns\/01-molecules-02-blocks-14-block-job\/01-molecules-02-blocks-14-block-job.html"},{"lineagePattern":"molecules-nav-pagination","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-25-nav-pagination\/01-molecules-05-navigation-25-nav-pagination.html"},{"lineagePattern":"organisms-footer","lineagePath":"..\/..\/patterns\/02-organisms-00-global-05-footer\/02-organisms-00-global-05-footer.html"}];
 		var lineageR       = [{"lineagePattern":"pages-interships","lineagePath":"..\/..\/patterns\/04-pages-25-interships\/04-pages-25-interships.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;

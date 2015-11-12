@@ -6,7 +6,7 @@
 
         <div class="footer_section">
           {{# footer-place }}
-            <div class="g-row u-push-btm">
+            <div class="g-row u-push-btm-half">
               {{> atoms-heading-6 (class: "footer_sectionTitle g g-24") }}
               <div class="g g-sm-12">
                 {{> atoms-image-4x3 (class: "footer_image") }}
@@ -37,6 +37,15 @@
           </div>
         {{/ footer-transparency }}
 
+        {{# footer-links }}
+          <div class="footer_section">
+            {{# footer-credit }}
+              <a class="footer_link u-push-rgt" href="{{ url }}">{{ span }}</a>
+            {{/ footer-credit }}
+            <span>© Unibz</span>
+          </div>
+        {{/ footer-links }}
+
       </div>
 
       <div class="g g-md-11 g-md-off-1">
@@ -60,15 +69,6 @@
             </form>
           </div>
         {{/ footer-newsletter }}
-
-        {{# footer-links }}
-          <div class="footer_section">
-            {{# footer-credit }}
-              <a class="footer_link u-push-rgt" href="{{ url }}">{{ span }}</a>
-            {{/ footer-credit }}
-            <span>© Unibz</span>
-          </div>
-        {{/ footer-links }}
       </div>
     </div>
   </div>

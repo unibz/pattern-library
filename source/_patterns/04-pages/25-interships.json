@@ -1,124 +1,114 @@
 {
   "page-hero": {
-    "hero-title": { "headline": "Praktikumsangebote" }
+    "hero-title": { "headline": "Interships offers" }
   },
 
-  "page-filters": {
-    "filter-toggle": {"button": "Filter"},
-    "filter": [
-      {
-        "theme": "t_eco",
-        "button": "ECO",
-        "class": "filter_button"
-      },
-      {
-        "theme": "t_comp",
-        "button": "COMP",
-        "class": "filter_button btn-outline-active"
-      },
-      {
-        "theme": "t_tech",
-        "button": "TECH",
-        "class": "filter_button"
-      },
-      {
-        "theme": "t_edu",
-        "button": "EDU",
-        "class": "filter_button"
-      },
-      {
-        "theme": "t_dsgn",
-        "button": "DSGN",
-        "class": "filter_button"
-      }
-    ]
-  },
+  "filter-toggle": {"button": "Filter"},
+  "filter": [
+    {
+      "theme": "t_eco",
+      "button": "ECO",
+      "class": "filter_button"
+    },
+    {
+      "theme": "t_comp",
+      "button": "COMP",
+      "class": "filter_button btn-outline-active"
+    },
+    {
+      "theme": "t_tech",
+      "button": "TECH",
+      "class": "filter_button"
+    },
+    {
+      "theme": "t_edu",
+      "button": "EDU",
+      "class": "filter_button"
+    },
+    {
+      "theme": "t_dsgn",
+      "button": "DSGN",
+      "class": "filter_button"
+    }
+  ],
+
+  "span": "Search for interships...",
 
   "jobs": [
     {
       "img-4x3": "http://www.raiffeisen.net/fileadmin/user_upload/Bilder/Logos/SEL.jpg",
       "job-brand": { "span": "SEL SPA"},
       "job-location": { "span": "Bolzano"},
-      "headline": "IT",
-      "button": "Details"
+      "headline": "Settore IT: Programmatore Python"
     },
     {
       "img-4x3": "http://www.loacker.com/img/loacker_logo.gif",
       "job-brand": { "span": "A. Loacker AG"},
       "job-location": { "span": "Unterinn"},
-      "headline": "Marketing",
-      "button": "Details"
+      "headline": "Marketing und Social Campaign Manager"
     },
     {
       "img-4x3": "http://www.conconshop.it/images/stories/virtuemart/manufacturer/mielelogo.jpg",
       "job-brand": { "span": "Miele Italia S.R.L."},
       "job-location": { "span": "Appiano"},
-      "headline": "Tirocinio nella Business Unit Professional",
-      "button": "Details"
+      "headline": "Tirocinio nella Business Unit Professional"
     },
     {
       "img-4x3": "http://www.mobilicarli.it/wp-content/uploads/2014/10/MARCHIO-LE-FABLIER-DEF.jpg",
       "job-brand": { "span": "Le Fablier S.P.A."},
       "job-location": { "span": "Valeggio sul Mincio (VR)"},
-      "headline": "Disegnatore e progettazione di interni",
-      "button": "Details"
+      "headline": "Disegnatore e progettazione di interni"
     },
     {
       "img-4x3": "http://www.smg.bz.it/fileadmin/web/img/layout/LOGO_smg_260x100.png",
       "job-brand": { "span": "Südtirol Marketing"},
       "job-location": { "span": "Bozen"},
-      "headline": "Bereich Produktion/Projekt Bilddatenbank",
-      "button": "Details"
+      "headline": "Bereich Produktion/Projekt Bilddatenbank"
     },
     {
       "img-4x3": "http://alpscrafted.com/wp-content/uploads/2014/06/Cora.png",
       "job-brand": { "span": "CORA Happywear s.r.l."},
       "job-location": { "span": "Pineta di Laives"},
-      "headline": "Comunicazione e assistente marketing",
-      "button": "Details"
+      "headline": "Comunicazione e assistente marketing"
     },
     {
       "img-4x3": "http://www.provinz.bz.it/wirtschaft/BLS_Sued_CO_M.bmp",
       "job-brand": { "span": "BLS"},
       "job-location": { "span": "Bozen"},
-      "headline": "Green Mobility Südtirol",
-      "button": "Details"
+      "headline": "Praktikanten für EXPO projects"
     },
     {
       "img-4x3": "https://alasdairroberts.files.wordpress.com/2015/03/screen-shot-2015-03-01-at-8-23-53-am.png",
       "job-brand": { "span": "European Ombudsman"},
       "job-location": { "span": "Strasbourg"},
-      "headline": "Computer Science",
-      "button": "Details"
+      "headline": "Computer Science: PHP developer"
     },
     {
       "img-4x3": "http://www.zoffoli.com/wp-content/uploads/2014/11/liuonshome_logo_neu_lw_klein.jpg",
       "job-brand": { "span": "LionsHome"},
       "job-location": { "span": "Berlino"},
-      "headline": "Stage nell'online marketing",
-      "button": "Details"
+      "headline": "Stage nell'online marketing"
     },
     {
       "img-4x3": "http://www.museion.it/wp-content/uploads/2013/12/FILMCLUB_Logo_gross.jpg",
       "job-brand": { "span": "Filmclub Bozen/Bolzano"},
       "job-location": { "span": "Bolzano"},
-      "headline": "Filmclub/Filmfestival",
-      "button": "Details"
+      "headline": "Stagista per la redazione del Filmfestival"
     }
   ],
 
   "page-footer": {
-    "headline": "Praktika- und Jobservice",
+    "headline": "Career Service",
     "footer-place": [
       {
-        "headline": "Campus Bozen",
+        "headline": "Campus Bolzano-Bozen",
         "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
         "footer-address": [
           {
-            "span": "Universitätsplatz 1"
+            "span": "Universitätsplatz 1 - piazza Università, 1"
           },
           {
-            "span": "I – 39100, Bozen (BZ)"
+            "span": "I – 39100, Bolzano-Bozen (BZ)"
           },
           {
             "span": "Tel. +39 0471 012700"
@@ -138,7 +128,7 @@
     "footer-links": {
       "footer-credit": [
         {
-          "span": "Impressum"
+          "span": "Credits"
         },
         {
           "span": "Privacy"
@@ -146,8 +136,8 @@
       ]
     },
     "footer-openings": {
-      "headline": "Öffnungszeiten",
-      "excerpt": "Montag: 14:00 - 16:00 Uhr<br>Dienstag und Donnerstag: 10:00 - 12:30 Uhr<br>oder nach Terminvereinbarung"
+      "headline": "Opening hours",
+      "excerpt": "Monday: 14:00 - 16:00<br>Tuesday and Thursday: 10:00 - 12:30<br>or an appointent"
     }
   }
 }

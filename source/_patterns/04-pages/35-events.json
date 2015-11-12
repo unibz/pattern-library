@@ -13,6 +13,9 @@
   "page-events": [
     {
       "class": "t_edu",
+      "event-image": {
+        "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_113704_90_62_100_75.jpg"
+      },
       "event-title": {"headline": "Raum und Lernen entwickeln"},
       "event-subtitle": {"headline": "Aus der Praxis für die Praxis"},
       "event-location": {"span": "BX 2.04"},
@@ -30,6 +33,9 @@
     },
     {
       "class": "t_eco",
+      "event-image": {
+        "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_86255_90_67_100_75.jpg"
+      },
       "event-title": {"headline": "Microstories"},
       "event-campus": {"span": "Campus Bolzano-Bozen"},
       "event-location": {"span":"BZ F6"},
@@ -53,6 +59,9 @@
     },
     {
       "class": "t_comp",
+      "event-image": {
+        "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_113355_90_63_100_75.jpg"
+      },
       "event-title": {"headline": "DMRS"},
       "event-subtitle": {"headline": "2nd International Workshop on Decision Making and Recommender Systems 2015"},
       "event-location": {"span":"BZ E2.21"},
@@ -67,6 +76,9 @@
     },
     {
       "class": "t_edu",
+      "event-image": {
+        "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_113894_90_62_100_75.jpg"
+      },
       "event-title": {"headline": "Wie die Hutterer leben und glauben - La vita e la fede degli utteriti"},
       "event-subtitle": {"headline": "Begegnung mit den Hutterern - Incontro con gli utteriti"},
       "event-location": {"span":"BX 1.34"},
@@ -81,44 +93,11 @@
       "event-date": {"date":"21.10.2015"}
     },
     {
+      "class": "event-old",
       "event-title": {"headline": "Learn how to be successful in a job interview"},
       "event-location": {"span":"BZ E4.23"},
       "event-time": {"time":"16:00 - 20:00"},
       "event-date": {"date":"21.10.2015"}
-    },
-    {
-      "event-title": {"headline": "Buchvorstellung und Diskussion mit Hans-Martin Tillack"},
-      "event-location": {"span":"BX 2.60"},
-      "event-time": {"time":"18:00 - 20:00"},
-      "event-date": {"date":"21.10.2015"}
-    },
-    {
-      "class": "t_eco",
-      "event-image": {
-        "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.40.37.jpg"
-      },
-      "event-title": {"headline": "School on Data analysis and programming with R"},
-      "event-location": {"span":"BZ D1.01"},
-      "event-date": {"date":"18.11.2015 – 20.11.2015"}
-    },
-    {
-      "class": "t_eco event-old",
-      "event-image": {
-        "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2011.45.03.jpg"
-      },
-      "event-title": {"headline": "Tourism meets Philosophy (TMP)"},
-      "event-campus": {"span": "Campus Bolzano-Bozen"},
-      "event-date": {"date":"15.10.2015 – 16.10.2015"}
-    },
-    {
-      "class": "t_dsgn event-old",
-      "event-image": {
-        "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz-patterlab/Screenshot%202015-10-21%2012.47.09.jpg"
-      },
-      "event-title": {"headline": "Welcome!"},
-      "event-subtitle": {"headline": "2 new lecturers in the Bachelor in Design and Art introduce themselves"},
-      "event-location": {"span":"BZ F0.03"},
-      "event-date": {"date":"7.10.2015"}
     }
   ],
 

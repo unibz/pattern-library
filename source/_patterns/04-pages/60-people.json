@@ -37,11 +37,13 @@
         "headline": "Tenured associate professors",
         "people": [
           {
+            "img-avatar": "https://0.academia-photos.com/1870560/867950/1083002/s200_antonino.benincasa.jpg",
             "headline": "Prof. Benincasa Antonino",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "antonino.benincasa@unibz.it" }
           },
           {
+            "img-avatar": "http://eddes.unibz.it/wp-content/uploads/2014/04/Giorgio_Camuffo_eddes_150x150.jpg",
             "headline": "Prof. Giorgio Camuffo",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "giorgio.camuffo@unibz.it" }
@@ -52,6 +54,7 @@
             "person-contact": { "span": "emanuela.dececco@unibz.it" }
           },
           {
+            "img-avatar": "http://eddes.unibz.it/wp-content/uploads/2014/04/Roberto_Gigliotti_150x150.jpg",
             "headline": "Prof. Gigliotti Roberto",
             "person-role" : { "span": "Interior & Exhibit Design" },
             "person-contact": { "span": "roberto.gigliotti@unibz.it" }
@@ -62,6 +65,7 @@
             "person-contact": { "span": "hansleo.hoeger@unibz.it" }
           },
           {
+            "img-avatar": "http://aminalhazwani.github.io/faculty-website/assets/img/team/kris.jpg",
             "headline": "Prof. Krois Christian",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "kris.krois@unibz.it" }
@@ -147,14 +151,74 @@
             "person-contact": { "span": "verber.roland@unibz.it" }
           }
         ]
+      },
+      {
+        "headline": "Administrative Staff",
+        "people": [
+          {
+            "headline": "Dott. Mag. Springer Jutta",
+            "person-role" : { "span": "Head of the Faculty Administration" },
+            "person-contact": { "span": "jutta.springer@unibz.it" }
+          },
+          {
+            "headline": "Andergassen-Sölva Marlies",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "marlies.andergassensoelva@unibz.it" }
+          },
+          {
+            "headline": "Dott. Mag. Bottazzo Marta Isabella",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "martaisabella.bottazzo@unibz.it" }
+          },
+          {
+            "headline": "Cretone Cristiana",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "cristiana.cretone@unibz.it" }
+          },
+          {
+            "headline": "Dott. Mag. Fusina Raffaella",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "raffaela.fusina@unibz.it" }
+          },
+          {
+            "headline": "Ghizzo Elena",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "elena.ghizzo@unibz.it" }
+          },
+          {
+            "headline": "Dott. Lazzarin Michela",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "michela.lazzarin@unibz.it" }
+          },
+          {
+            "headline": "Rosselli Ines",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "ines.rosselli@unibz.it" }
+          },
+          {
+            "headline": "Waldthaler Andrea",
+            "person-role" : { "span": "Faculty Administration" },
+            "person-contact": { "span": "andrea.waldthaler@unibz.it" }
+          }
+        ]
       }
     ]
   },
 
-  "page-content": {
-    "headline": "Faculty Council",
-    "excerpt": "<ul><li>Prof. Gerhard Glüher, Dean and Full Professor</li><li>Prof. Nitzan Cohen, Vice Dean for Research and Full Professor</li><li>Prof. Roberto Gigliotti, Vice Dean for Teaching and Associate Professor</li><li>Prof. Antonino Benincasa, Associate Professor</li><li>Prof. Giorgio Camuffo, Associate Professor</li><li>Prof. Emanuela De Cecco, Associate Professor</li><li>Prof. Hans Höger, Associate Professor</li><li>Prof. Kris Krois, Associate Professor</li><li>Prof. Kuno Prey, Full Professor</li><li>Prof. Christian Upmeier, Associate Professor</li><li>dott. Matteo Moretti, Researcher with a fixed-term contract</li><li>dott. Gianluca Camillini, Researcher with a fixed-term contract</li><li>Timothy Robb, Student Speaker</li><li>Matteo Pra Mio, Student Speaker</li></ul>"
-  },
+  "page-content": [
+    {
+      "headline": "Faculty Council",
+      "excerpt": "<ul><li>Prof. Gerhard Glüher, Dean and Full Professor</li><li>Prof. Nitzan Cohen, Vice Dean for Research and Full Professor</li><li>Prof. Roberto Gigliotti, Vice Dean for Teaching and Associate Professor</li><li>Prof. Antonino Benincasa, Associate Professor</li><li>Prof. Giorgio Camuffo, Associate Professor</li><li>Prof. Emanuela De Cecco, Associate Professor</li><li>Prof. Hans Höger, Associate Professor</li><li>Prof. Kris Krois, Associate Professor</li><li>Prof. Kuno Prey, Full Professor</li><li>Prof. Christian Upmeier, Associate Professor</li><li>dott. Matteo Moretti, Researcher with a fixed-term contract</li><li>dott. Gianluca Camillini, Researcher with a fixed-term contract</li><li>Timothy Robb, Student Speaker</li><li>Matteo Pra Mio, Student Speaker</li></ul>"
+    },
+    {
+      "headline": "Degree Committee of the Bachelor in Design and Art, Major in Design",
+      "excerpt": "<ul><li>Prof. Roberto Gigliotti, Course coordinator</li><li>Prof. Giorgio Camuffo, Member</li><li>Helene Kummer, Student Speaker</li></ul>"
+    },
+    {
+      "headline": "Degree Committee of the Master in Eco-Social Design ",
+      "excerpt": "<ul><li>Prof. Christian Krois, Course coordinator</li><li>Prof. Kuno Prey, Member</li><li>Helene Kummer, Student Speaker</li></ul>"
+    }
+  ],
 
   "page-footer": {
     "headline": "Faculty of Design and Art",
