@@ -162,17 +162,43 @@
   },
 
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
+    "headline": "Faculty of Computer Science",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://res.cloudinary.com/divisare/image/upload/c_fit,w_1440/v1/project_images/1697414/UNIBZ__10_.jpg",
+        "footer-address": [
+          {
+            "span": "Dominikanerplatz 3 - piazza Domenicani, 3"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 016000"
+          },
+          {
+            "span": "Fax +39 0471 016009"
+          }
+        ]
+      }
+    ],
+    "footer-openings": {
+      "headline": "Opening hours",
+      "excerpt": "Monday and Wednesday: 10:00 - 12:00<br>Tuesday and Thursday: 14:00 - 16:00"
     },
-    "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
+    "footer-map": {
+      "map-scr": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.520938484123!2d11.35038961625923!3d46.49779767189998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829e79676caf57%3A0x734fe77fcfd7e056!2sPiazza+Domenicani%2C+3%2C+39100+Bolzano+BZ%2C+Italy!5e0!3m2!1sen!2sus!4v1447325099719"
+    },
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }
