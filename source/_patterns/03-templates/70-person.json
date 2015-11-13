@@ -1,20 +1,21 @@
 {
   "page-hero": {
-    "hero-label": "true",
     "hero-title": "true"
   },
 
-  "page-intro": "true",
+  "person-department": "true",
+  "person-position": "true",
+  "person-office": "true",
+  "person-phone": "true",
+  "person-mail": "true",
+  "person-address": "true",
 
-  "page-lectures": {
-    "lectures": {
-      "lecture": {
-        "link": "true"
-      }
-    }
+  "person-lectures": {
+    "person-lecture": "true"
   },
-
-  "page-details": "true",
+  "person-publications": {
+    "person-publication": "true"
+  },
 
   "page-footer": {
     "footer-place": {

@@ -1,0 +1,60 @@
+{{&gt; organisms-header }}
+
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-lg-14&quot;&gt;
+          {{# page-meta }}
+            &lt;div class=&quot;event_meta eventDetail_meta&quot;&gt;
+              {{# event-location }}
+                {{&gt; atoms-text-span (class: &quot;event_location&quot;) }}
+              {{/ event-location }}
+              {{# event-date }}
+                {{&gt; atoms-text-date (class: &quot;event_date&quot;) }}
+              {{/ event-date }}
+              {{# event-time }}
+                {{&gt; atoms-text-time (class: &quot;event_time&quot;) }}
+              {{/ event-time }}
+            &lt;/div&gt;
+          {{/ page-meta }}
+          {{# page-description }}
+            {{&gt; atoms-text-paragraph }}
+          {{/ page-description }}
+        &lt;/div&gt;
+        {{# page-image }}
+        &lt;div class=&quot;g g-lg-8 g-lg-off-2&quot;&gt;
+          {{&gt; atoms-image-2x3 }}
+        &lt;/div&gt;
+        {{/ page-image }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  {{# page-schedule }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        {{&gt; atoms-heading-3 (class:&quot;h3 h-theme&quot;) }}
+        {{# timetable-day }}
+          {{&gt; organisms-timetable-day }}
+        {{/ timetable-day }}
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-schedule }}
+
+  {{# page-people }}
+    &lt;section class=&quot;l-section&quot;&gt;
+      &lt;div class=&quot;l-container&quot;&gt;
+        {{&gt; organisms-people-section }}
+      &lt;/div&gt;
+    &lt;/section&gt;
+  {{/ page-people }}
+
+&lt;/main&gt;
+
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}
