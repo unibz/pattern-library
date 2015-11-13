@@ -1,0 +1,60 @@
+{{&gt; organisms-header }}
+
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero-small }}
+  {{/ page-hero }}
+
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;g-row&quot;&gt;
+        &lt;div class=&quot;g g-md-8 g-lg-6&quot;&gt;
+          {{&gt; atoms-image-4x3 (class:&quot;person_photo&quot;)}}
+          {{# person-mail }}
+            {{&gt; atoms-text-link (class:&quot;person_mail&quot;) }}
+          {{/ person-mail }}
+          {{# person-phone }}
+            {{&gt; atoms-text-span (class:&quot;person_phone&quot;) }}
+          {{/ person-phone }}
+          {{# person-office }}
+            {{&gt; atoms-text-span (class:&quot;person_office&quot;) }}
+          {{/ person-office }}
+          {{# person-link }}
+            {{&gt; atoms-button-text-small (class:&quot;person_link&quot;) }}
+          {{/ person-link }}
+          {{# person-address }}
+            {{&gt; atoms-text-paragraph (class:&quot;person_address&quot;) }}
+          {{/ person-address }}
+        &lt;/div&gt;
+        &lt;div class=&quot;g g-md-14 g-lg-16&quot;&gt;
+          {{# person-department }}
+            {{&gt; atoms-text-span (class:&quot;person_department&quot;) }}
+          {{/ person-department }}
+          {{# person-position }}
+            {{&gt; atoms-text-span (class:&quot;person_position&quot;) }}
+          {{/ person-position }}
+          {{&gt; atoms-text-paragraph }}
+          {{# person-lectures }}
+            {{&gt; atoms-heading-3 (class:&quot;h3 h-theme&quot;)}}
+            &lt;div class=&quot;person_lectures&quot;&gt;
+              {{# person-lecture }}
+                {{&gt; molecules-block-lecture }}
+              {{/ person-lecture }}
+            &lt;/div&gt;
+          {{/ person-lectures }}
+          {{# person-publications }}
+            {{&gt; atoms-heading-3 (class:&quot;h3 h-theme&quot;)}}
+            {{# person-publication }}
+              {{&gt; molecules-block-post }}
+            {{/ person-publication }}
+            {{&gt; atoms-button }}
+          {{/ person-publications }}
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+&lt;/main&gt;
+
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}
