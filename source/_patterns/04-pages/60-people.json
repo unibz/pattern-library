@@ -17,16 +17,19 @@
         "headline": "Tenured Full Professors",
         "people": [
           {
+            "person-image": { "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/people-glueher.jpg" },
             "headline": "Prof. Dr. phil. habil. Glüher Gerhard, Dean",
             "person-role" : { "span": "Visual Culture" },
             "person-contact": { "span": "gerhard.glueher@unibz.it" }
           },
           {
+            "person-image": { "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/people-cohen.jpg" },
             "headline": "Prof. Cohen Nitzan",
             "person-role" : { "span": "Product Design" },
             "person-contact": { "span": "nitzan.cohen@unibz.it" }
           },
           {
+            "person-image": { "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/people-prey.jpg" },
             "headline": "Prof. Prey Kuno",
             "person-role" : { "span": "Product Design" },
             "person-contact": { "span": "kuno.prey@unibz.it" }
@@ -37,40 +40,43 @@
         "headline": "Tenured associate professors",
         "people": [
           {
-            "img-avatar": "https://0.academia-photos.com/1870560/867950/1083002/s200_antonino.benincasa.jpg",
+            "person-image": { "img-avatar": "https://0.academia-photos.com/1870560/867950/1083002/s200_antonino.benincasa.jpg" },
             "headline": "Prof. Benincasa Antonino",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "antonino.benincasa@unibz.it" }
           },
           {
-            "img-avatar": "http://eddes.unibz.it/wp-content/uploads/2014/04/Giorgio_Camuffo_eddes_150x150.jpg",
+            "person-image": { "img-avatar": "http://eddes.unibz.it/wp-content/uploads/2014/04/Giorgio_Camuffo_eddes_150x150.jpg" },
             "headline": "Prof. Giorgio Camuffo",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "giorgio.camuffo@unibz.it" }
           },
           {
+            "person-image": { "img-avatar": "http://www.moussemagazine.it/img/contributori/manu031b&w.jpg" },
             "headline": "Prof. De Cecco Emanuela",
             "person-role" : { "span": "Visual Culture" },
             "person-contact": { "span": "emanuela.dececco@unibz.it" }
           },
           {
-            "img-avatar": "http://eddes.unibz.it/wp-content/uploads/2014/04/Roberto_Gigliotti_150x150.jpg",
+            "person-image": { "img-avatar": "http://eddes.unibz.it/wp-content/uploads/2014/04/Roberto_Gigliotti_150x150.jpg" },
             "headline": "Prof. Gigliotti Roberto",
             "person-role" : { "span": "Interior & Exhibit Design" },
             "person-contact": { "span": "roberto.gigliotti@unibz.it" }
           },
           {
+            "person-image": { "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/people-hoeger.jpg" },
             "headline": "Prof. Dr. phil. Höger Hans Leo",
             "person-role" : { "span": "History of Design" },
             "person-contact": { "span": "hansleo.hoeger@unibz.it" }
           },
           {
-            "img-avatar": "http://aminalhazwani.github.io/faculty-website/assets/img/team/kris.jpg",
+            "person-image": { "img-avatar": "http://aminalhazwani.github.io/faculty-website/assets/img/team/kris.jpg" },
             "headline": "Prof. Krois Christian",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "kris.krois@unibz.it" }
           },
           {
+            "person-image": { "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/people-upmeier.jpg" },
             "headline": "Prof. Upmeier Christian",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "christian.upmeier@unibz.it" }

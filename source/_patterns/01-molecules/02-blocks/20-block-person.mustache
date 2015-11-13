@@ -1,7 +1,9 @@
 <div class="{{ class }} person">
-  <div class="person_imageWrapper">
-    {{> atoms-avatar (class: "person_image") }}
-  </div> 
+  {{# person-image }}
+    <div class="person_imageWrapper">
+      {{> atoms-avatar (class: "person_image") }}
+    </div> 
+  {{/ person-image }}
   <div class="person_body">
     <a href="{{ url }}">
       {{> atoms-heading-5 (class:"person_name") }}

@@ -25,6 +25,7 @@
   "page-people": {
     "people-section": "true",
     "people": {
+      "person-image": "true",
       "person-contact": "true",
       "person-role": "true"
     }
