@@ -9,22 +9,30 @@
     <div class="l-container">
       <div class="g-row">
         <div class="g g-md-8 g-lg-6">
-          {{> atoms-image-4x3 (class:"person_photo")}}
-          {{# person-mail }}
-            {{> atoms-text-link (class:"person_mail") }}
-          {{/ person-mail }}
-          {{# person-phone }}
-            {{> atoms-text-span (class:"person_phone") }}
-          {{/ person-phone }}
-          {{# person-office }}
-            {{> atoms-text-span (class:"person_office") }}
-          {{/ person-office }}
-          {{# person-link }}
-            {{> atoms-button-text-small (class:"person_link") }}
-          {{/ person-link }}
-          {{# person-address }}
-            {{> atoms-text-paragraph (class:"person_address") }}
-          {{/ person-address }}
+          <div class="person_meta">
+            {{# person-photo }}
+            <div class="person_metaPhoto">
+              {{> atoms-image-4x3 (class:"person_photo")}}
+            </div>
+            {{/ person-photo }}
+            <div class="person_metaInfo">
+              {{# person-mail }}
+                {{> atoms-text-link (class:"person_mail") }}
+              {{/ person-mail }}
+              {{# person-phone }}
+                {{> atoms-text-span (class:"person_phone") }}
+              {{/ person-phone }}
+              {{# person-office }}
+                {{> atoms-text-span (class:"person_office") }}
+              {{/ person-office }}
+              {{# person-link }}
+                {{> atoms-button-text-small (class:"person_link") }}
+              {{/ person-link }}
+              {{# person-address }}
+                {{> atoms-text-paragraph (class:"person_address") }}
+              {{/ person-address }}
+            </div>
+          </div>
         </div>
         <div class="g g-md-14 g-lg-16">
           {{# person-department }}

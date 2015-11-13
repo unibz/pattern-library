@@ -3,11 +3,24 @@
 //============================================
 
 
+.person_meta
+  +mq($bp-sm)
+    display: flex
+  +mq($bp-md)
+    display: block
+
+.person_metaPhoto
+  +mq($bp-sm)
+    margin-right: $space-half
+
 // Person Profile Photo
 //============================================
 
 .person_photo
   margin-bottom: $space-half
+  max-width: 215px
+  +mq($bp-md)
+    max-width: 100%
 
 
 // Person Department (Faculty of Office)

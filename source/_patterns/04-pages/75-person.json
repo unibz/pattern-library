@@ -7,7 +7,9 @@
     }
   },
 
-  "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_67468_2_-1_100_75_1.jpg",
+  "person-photo": {
+    "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_67468_2_-1_100_75_1.jpg"
+  },
   "excerpt": "Dr. habil Susanne Elsen, Professor for Sociology and social development at the Free University of Bolzano. Studies in Social Work, Sociology, Economics and Educational Sciences. Director of the PhD-Program of the Faculty of Education. Her main topics of research are Social Innovation, Local Development and Community Economy, Sustainability and Post Growth Society.",
   "person-link": {"button": "Curricul Vitae"},
   "person-lectures": {
