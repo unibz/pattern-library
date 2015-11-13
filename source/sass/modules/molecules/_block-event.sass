@@ -7,6 +7,9 @@
   +mq($bp-sm)
     display: flex
 
+.event_body
+  +mq($bp-sm)
+    flex: 1
 
 // Block Event Figure
 //============================================
@@ -16,7 +19,7 @@
   margin-bottom: $space-half
   +mq($bp-sm)
     flex: 0 0 140px
-    margin-right: $space-half
+    margin-left: $space-half
     margin-bottom: 0
     min-width: 0
 
@@ -42,7 +45,7 @@
 
 .event_meta
   color: $primary
-  margin-top: 4px
+  margin-bottom: 2px
   :not(:last-child)
     margin-bottom: $space-quarter
   +mq($bp-sm)

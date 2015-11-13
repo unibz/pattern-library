@@ -1,10 +1,16 @@
 <div class="{{ class }} event">
-  <div class="event_figure">
-    {{# event-image }}
-      {{> atoms-image-4x3 }}
-    {{/ event-image }}
-  </div>
   <div class="event_body">
+    <div class="event_meta">
+      {{# event-date }}
+        {{> atoms-text-date (class: "event_date") }}
+      {{/ event-date }}
+      {{# event-time }}
+        {{> atoms-text-time (class: "event_time") }}
+      {{/ event-time }}
+      {{# event-location }}
+        {{> atoms-text-span (class: "event_location") }}
+      {{/ event-location }}
+    </div>
     <a href="{{ url }}">
       {{# event-title }}
         {{> atoms-heading-2 (class: "event_title") }}
@@ -13,16 +19,10 @@
         {{> atoms-heading-4 (class: "event_subtitle") }}
       {{/ event-subtitle }}
     </a>
-    <div class="event_meta">
-      {{# event-location }}
-        {{> atoms-text-span (class: "event_location") }}
-      {{/ event-location }}
-      {{# event-date }}
-        {{> atoms-text-date (class: "event_date") }}
-      {{/ event-date }}
-      {{# event-time }}
-        {{> atoms-text-time (class: "event_time") }}
-      {{/ event-time }}
-    </div>
+  </div>
+  <div class="event_figure">
+    {{# event-image }}
+      {{> atoms-image-4x3 }}
+    {{/ event-image }}
   </div>
 </div>
