@@ -1,0 +1,192 @@
+{
+  "page-hero": {
+    "hero-title": {"headline": "Information and Communication Technology"}
+  },
+
+  "office-image": {
+    "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/office-itc.jpg"
+  },
+
+  "office-description": {
+    "excerpt": "The mission of the Department Information & Communication Technologies (ICT) is to work in partnership with faculty, students and staff to develop the strategy and manage the operations of the Free University of Bozen/Bolzano through the innovative use and development of existing and emerging technologies, technology support and user service."
+  },
+  "office-contacts": {
+    "excerpt": "<strong>Contacts</strong><br>Universitätsplatz 1 - piazza Università, 1<br>I - 39100 Bozen-Bolzano<br>Tel. +39 0471 011800<br>Fax +39 0471 011809<br><a href=\"#\">it@unibz.it</a>"
+  },
+  "office-openings": {
+    "excerpt": "<strong>Opening Hours</strong><br>Helpdesk<br>Monday to Friday: 08:00 - 17:30"
+  },
+
+  "page-people": {
+    "people-section": [
+      {
+        "headline": "Team",
+        "people": [
+          {
+            "headline": "Laner Dietmar",
+            "person-role" : { "span": "Head (Service)" },
+            "person-contact": { "span": "dietmar.laner@unibz.it" }
+          },
+          {
+            "headline": "Bechtum Thomas",
+            "person-contact": { "span": "thomas.bechtum@unibz.it" }
+          },
+          {
+            "headline": "Bogdanowicz Michal Kamil",
+            "person-contact": { "span": "michal.bogdanowicz@unibz.it" }
+          },
+          {
+            "headline": "Delai Denise",
+            "person-contact": { "span": "denise.delai@unibz.it" }
+          },
+          {
+            "headline": "Delsante Claudia",
+            "person-contact": { "span": "claudia.delsante@unibz.it" }
+          },
+          {
+            "headline": "Dott. Filloramo Patrizio",
+            "person-contact": { "span": "patrizio.filloramo@unibz.it" }
+          },
+          {
+            "headline": "Frusone Daniele",
+            "person-contact": { "span": "daniele.frusone@unibz.it" }
+          },
+          {
+            "headline": "Holzknecht Miran",
+            "person-contact": { "span": "miran.holzknecht@unibz.it" }
+          },
+          {
+            "headline": "Dipl. Ing. Innerhofer Josef",
+            "person-contact": { "span":"josef.innerhofer@unibz.it" }
+          },
+          {
+            "headline": "Kammerer Sylvia",
+            "person-contact": { "span":"sylvia.kammerer@unibz.it" }
+          },
+          {
+            "headline": "Karolak Lukasz",
+            "person-contact": { "span":"lukasz.karolak@unibz.it" }
+          },
+          {
+            "headline": "Dr. Kinzler Manuel Franz Xaver",
+            "person-contact": { "span":"manuel.kinzler@unibz.it" }
+          },
+          {
+            "headline": "Dr. Kondratas Eilverijus",
+            "person-contact": { "span":"eilwerijus@gmail.com" }
+          },
+          {
+            "headline": "Mairhofer Michael",
+            "person-contact": { "span":"michael.mairhofer@unibz.it" }
+          },
+          {
+            "headline":"Mores Werner",
+            "person-contact": { "span":"werner.mores@unibz.it" }
+          },
+          {
+            "headline":"Nicolussi Werner",
+            "person-contact": { "span":"werner.nicolussi@unibz.it" }
+          },
+          {
+            "headline":"Pagano Aurelia",
+            "person-contact": { "span":"aurelia.pagano@unibz.it" }
+          },
+          {
+            "headline":"Dott. Mag. Perathoner Michael",
+            "person-contact": { "span":"michael.perathoner@unibz.it" }
+          },
+          {
+            "headline":"Dott. Mag. Peroni Alessandro",
+            "person-contact": { "span":"alessandro.peroni@unibz.it" }
+          },
+          {
+            "headline":"Dipl. Ing. Pircher Andreas",
+            "person-contact": { "span":"andreas.pircher@unibz.it" }
+          },
+          {
+            "headline":"Mag. rer. soc. oec Pircher Claudia",
+            "person-contact": { "span":"claudia.pircher@unibz.it" }
+          },
+          {
+            "headline":"Dott. Tesolin Lorenzo",
+            "person-contact": { "span":"lorenzo.tesolin@unibz.it" }
+          },
+          {
+            "headline":"Tomkowicz Monika Agnieszka",
+            "person-contact": { "span":"monika.tomkowicz@unibz.it" }
+          },
+          {
+            "headline":"Tonini Manuela",
+            "person-contact": { "span":"manuela.tonini@unibz.it" }
+          },
+          {
+            "headline":"Dipl. Ing. Troi Johannes",
+            "person-contact": { "span":"johannes.troi@unibz.it" }
+          },
+          {
+            "headline":"Waldner Daniel",
+            "person-contact": { "span":"daniel.waldner@unibz.it" }
+          },
+          {
+            "headline":"Walli Alexander",
+            "person-contact": { "span":"alexander.walli@unibz.it" }
+          },
+          {
+            "headline":"Mag. rer. nat Wegscheider Erika",
+            "person-contact": { "span":"erika.wegscheider@unibz.it" }
+          },
+          {
+            "headline":"Zeni Christian",
+            "person-contact": { "span":"christian.zeni@unibz.it" }
+          }
+        ]
+      }
+    ]
+  },
+
+  "page-footer": {
+    "headline": "Information and Communication Technology",
+    "footer-place": [
+      {
+        "headline": "Campus Bolzano-Bozen",
+        "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1 - piazza Università, 1"
+          },
+          {
+            "span": "I - 39100 Bozen-Bolzano"
+          },
+          {
+            "span": "Tel. +39 0471 011800"
+          },
+          {
+            "span": "Fax +39 0471 011809"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "it@unibz.it"
+          }
+        ]
+      }
+    ],
+    "footer-openings": {
+      "headline": "Opening Hours",
+      "excerpt": "Helpdesk<br>Monday to Friday: 08:00 - 17:30"
+    },
+    "footer-map": {
+      "map-src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.5052496913736!2d11.347964915592383!3d46.49810827912672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829e795d3a902d%3A0xdc939b140fa714ad!2sFree+University+of+Bozen-Bolzano!5e0!3m2!1sen!2sus!4v1447672677049"
+    },
+    "footer-links": {
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
+    }
+  }
+}

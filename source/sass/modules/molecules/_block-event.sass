@@ -3,7 +3,7 @@
 //============================================
 
 .event
-  margin-bottom: $space
+  margin-bottom: $space*2
   +mq($bp-sm)
     display: flex
 
@@ -11,7 +11,7 @@
   +mq($bp-sm)
     flex: 1
 
-// Block Event Figure
+// Block Event Figure (In events page)
 //============================================
 
 .event_figure
@@ -22,6 +22,16 @@
     margin-left: $space-half
     margin-bottom: 0
     min-width: 0
+
+
+// Block Event Figure (In single event page)
+//============================================
+
+.event_poster
+  max-width: 288px
+  margin-bottom: $space
+  +mq($bp-md)
+    max-width: 100%
 
 
 // Block Event Title

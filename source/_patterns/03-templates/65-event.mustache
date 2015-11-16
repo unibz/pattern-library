@@ -8,7 +8,12 @@
   <section class="l-section">
     <div class="l-container">
       <div class="g-row">
-        <div class="g g-lg-14">
+        <div class="g g-md-8 g-lg-8 g-md-push-16">
+        {{# page-image }}
+          {{> atoms-image-2x3 (class:"event_poster")}}
+        {{/ page-image }}
+        </div>
+        <div class="g g-md-16 g-lg-14 g-xl-14 g-md-pull-8">
           {{# page-meta }}
             <div class="event_meta eventDetail_meta">
               {{# event-location }}
@@ -26,11 +31,6 @@
             {{> atoms-text-paragraph }}
           {{/ page-description }}
         </div>
-        {{# page-image }}
-        <div class="g g-lg-8 g-lg-off-2">
-          {{> atoms-image-2x3 }}
-        </div>
-        {{/ page-image }}
     </div>
   </section>
 
