@@ -8,7 +8,12 @@
   &lt;section class=&quot;l-section&quot;&gt;
     &lt;div class=&quot;l-container&quot;&gt;
       &lt;div class=&quot;g-row&quot;&gt;
-        &lt;div class=&quot;g g-lg-14&quot;&gt;
+        &lt;div class=&quot;g g-md-8 g-lg-8 g-md-push-16&quot;&gt;
+        {{# page-image }}
+          {{&gt; atoms-image-2x3 (class:&quot;event_poster&quot;)}}
+        {{/ page-image }}
+        &lt;/div&gt;
+        &lt;div class=&quot;g g-md-16 g-lg-14 g-xl-14 g-md-pull-8&quot;&gt;
           {{# page-meta }}
             &lt;div class=&quot;event_meta eventDetail_meta&quot;&gt;
               {{# event-location }}
@@ -26,11 +31,6 @@
             {{&gt; atoms-text-paragraph }}
           {{/ page-description }}
         &lt;/div&gt;
-        {{# page-image }}
-        &lt;div class=&quot;g g-lg-8 g-lg-off-2&quot;&gt;
-          {{&gt; atoms-image-2x3 }}
-        &lt;/div&gt;
-        {{/ page-image }}
     &lt;/div&gt;
   &lt;/section&gt;
 
