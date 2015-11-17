@@ -3,6 +3,10 @@
 //============================================
 
 
+.highlight
+  margin-bottom: $space
+
+
 // Block Highlight Figure
 //============================================
 
@@ -14,14 +18,20 @@
 //============================================
 
 .highlight_body
-  padding: $space-half
+  padding: $space-half $space-half 8px $space-half
   background-color: $primary
   color: $white
   +dark-text-shadow
   +mq($bp-xs)
-    padding: $space
+    padding: $space $space 16px $space
   +mq($bp-md)
-    padding: $space*2
+    min-height: 155px
+    max-height: 280px
+  +mq($bp-lg)
+    min-height: 125px
+    max-height: 225px
+  +mq($bp-xl)
+    max-height: 200px
 
 .t_dsgn
   .highlight_body
@@ -53,6 +63,13 @@
 
 .highlight_title
   +h4
+  margin-bottom: 0
+
+.highlight_text
+  margin-bottom: 0
+
+.highlight_title + .highlight_text
+  margin-top: $space-half
 
 .highlight_button
   margin-bottom: 0
@@ -60,3 +77,6 @@
   font-weight: 600
   &:after
     margin-top: 0
+
+.highlight_text + .highlight_button
+  margin-top: $space

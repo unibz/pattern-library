@@ -1,0 +1,205 @@
+{
+  "page-hero": {
+    "img-background": "http://unibz.github.io/wireframes/research/research-hero.jpg",
+    "hero-text": {
+      "hero-title": {"headline":"Forschung"}
+    }
+  },
+
+  "page-intro": {
+    "excerpt": "Die Forschungsprojekte an der unibz zeichnen sich insbesondere durch ihre ausgeprägte Interdisziplinarität und ihren Focus auf Nachhaltigkeit aus. Die Einwerbung von Drittmitteln spielt dabei eine immer bedeutendere Rolle."
+  },
+
+  "page-research-points": {
+    "headline": "Unsere Forschungsschwerpunkte",
+    "latest-highlights": [
+      {
+        "img-4x3": "http://unibz.github.io/wireframes/research/background-1.png",
+        "highlight-title": {
+          "headline": "Multikulturelle, mehrsprachige und transformative Gesellschaften und Institutionen"
+        }
+      },
+      {
+        "img-4x3": "http://unibz.github.io/wireframes/research/background-2.jpg",
+        "highlight-title": {
+          "headline": "Umwelt, Landwirtschaft, Lebensmitteltechnologie, Tourismus und Wirtschaft in Bergregionen"
+        }
+      },
+      {
+        "img-4x3": "http://unibz.github.io/wireframes/research/background-3.jpg",
+        "highlight-title": {
+          "headline": "Energie, Technologie, Automation und Innovation"
+        }
+      },
+      {
+        "img-4x3": "http://unibz.github.io/wireframes/research/background-4.jpg",
+        "highlight-title": {
+          "headline": "Pädagogik, Information und Lifelong Learning"
+        }
+      }
+    ],
+    "excerpt": "Interdisziplinarität und Nachhaltigheit sowie regionale und internationale Relevanz sind Gradmesser für alle Forschungsprojekte der unibz."
+  },
+
+  "page-research-projects": {
+    "headline": "Aktuelle Forschungshighlights",
+    "research-project": [
+      {
+        "headline": "Herkunfts- und Qualitätsanalyse von regionalen Agrarprodukten der Alpen",
+        "excerpt": "Ausgelöst durch die Öffnung der europäischen Märkte gewinnen die Schlagworte „Herkunft und Qualität“ vor allem im Lebensmittelbereich mehr und mehr an Bedeutung.",
+        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-1.png",
+        "class": "left"
+      },
+      {
+        "headline": "Scalable End-user Access to Big Data",
+        "excerpt": "Scalable end-user access to Big Data is critical for effective data analysis and value creation. Optique will bring about a paradigm shift for data access.",
+        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-2.jpg",
+        "class": "right"
+      },
+      {
+        "headline": "Towards a New Growth Path: Welfare, Wealth and Work for Europe",
+        "excerpt": "This research is about the institutional preconditions of the socio-ecological transition considering the regional and institutional diversity in Europe. A special focus will be laid on the operational, collective-choice, and constitutional rules relevant for local governance.",
+        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-3.jpg",
+        "class": "left"
+      }
+    ],
+    "button": "Forschungsbericht"
+  },
+
+  "page-description": {
+    "headline": "Wo geforscht wird",
+    "excerpt": "<ul><li><a href=\"#\">Wirtschaft</a></li><li><a href=\"#\">Bildung</a></li><li><a href=\"#\">Naturwissenschaften</a></li><li><a href=\"#\">Design</a></li><li><a href=\"#\">Informatik</a></li><li><a href=\"#\">Kompetenzzentrum Sprachen</a></li><li><a href=\"#\">Kompetenzzentrum für Regionalgeschichte</a></li><li><a href=\"#\">Kompetenzzentrum für Tourismus</a></li></ul>"
+  },
+
+  "page-search": {
+    "headline": "Projekte und Publikationen",
+    "span": "Schlüsselwort, Fakultät, Verfasser, ..."
+  },
+
+  "page-content": {
+    "headline": "Servicestelle Forschung und Innovation",
+    "excerpt": "Die Servicestelle unterstützt und fördert die Entwicklung der wissenschaftlichen Forschung an der unibz und koordiniert und verwaltet die Abläufe der Forschungstätigkeit national und international sowie auf EU-Ebene."
+  },
+
+  "page-extra": {
+    "headline": "BuPress",
+    "img-4x3": "http://bupress.unibz.it/skin/frontend/virgola/default/images/logo-header-bup.jpg",
+    "excerpt": "Der hausinterne Universitätsverlag <a href=\"#\">bu,press</a> unterstützt Forscher/innen der unibz aktiv bei ihrer Publikationstätigkeit. Der Katalog umfasst derzeit 60 Veröffentlichungen."
+  },
+
+  "page-footer": {
+    "headline": "Freie Universität Bozen",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 011000"
+          },
+          {
+            "span": "Fax +39 0471 011009"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "administration@unibz.it"
+          },
+          {
+            "span": "info@unibz.it"
+          },
+          {
+            "span": "administration@pec.unibz.it"
+          }
+        ]
+      },
+      {
+        "headline": "Campus Brixen",
+        "img-4x3": "http://studiengaenge.zeit.de/uploads/images/college/ad68589/gallery/2013_29_Campus_Brixen_DEF_2.jpg",
+        "footer-address": [
+          {
+            "span": "Regensburger Allee 16"
+          },
+          {
+            "span": "I - 39042 Brixen"
+          },
+          {
+            "span": "Tel. +39 0472 014000"
+          },
+          {
+            "span": "Fax +39 0472 014009"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "education@unibz.it"
+          },
+          {
+            "span": "info@unibz.it"
+          },
+          {
+            "span": "administration@pec.unibz.it"
+          }
+        ]
+      },
+      {
+        "headline": "Campus Bruneck",
+        "img-4x3": "http://studiengaenge.zeit.de/uploads/images/college/ad68589/gallery/2013_29_Campus_Bruneck_DEF_2.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1"
+          },
+          {
+            "span": "I - 39031 Bruneck"
+          },
+          {
+            "span": "Tel +39 0474 013600"
+          },
+          {
+            "span": "Fax +39 0474 013609"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "tourism@unibz.it"
+          },
+          {
+            "span": "info@unibz.it"
+          },
+          {
+            "span": "administration@pec.unibz.it"
+          }
+        ]
+      }
+    ],
+    "footer-transparency": {
+      "headline": "Transparente Verwaltung",
+      "excerpt": "Die Inhalte dieser Seite sind in <a class=\"footer_link\" href=\"#\">Italienisch</a> verfügbar."
+    },
+    "footer-map": "true",
+    "footer-social": {
+      "headline": "Folgen Sie uns"
+    },
+    "footer-newsletter": {
+      "headline": "Abonniere unseren Newsletter",
+      "span": "Geben Sie Ihre E-Mail",
+      "button": "Senden"
+    },
+    "footer-links": {
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
+    }
+  }
+}

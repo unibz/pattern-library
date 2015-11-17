@@ -1,0 +1,101 @@
+{{> organisms-header }}
+<main>
+  {{# page-hero }}
+    {{> organisms-hero}}
+  {{/ page-hero }}
+
+  {{# page-intro }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-text-paragraph (class: "intro-bold") }}
+      </div>
+    </div>
+  </section>
+  {{/ page-intro }}
+
+  {{# page-research-points }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3 }}
+      </div>
+      {{> organisms-latest-highlights }}
+      <div class="typography">
+        {{> atoms-text-paragraph }}
+      </div>
+    </div>
+  </section>
+  {{/ page-research-points }}
+
+  {{# page-research-projects }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3 }}
+      </div>
+      {{# research-project }}
+      <div class="u-overflow-hide u-push-btm">
+        <div class="typography">
+          {{> atoms-image-4x3 }}
+          {{> atoms-heading-4 }}
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+      {{/ research-project }}
+    </div>
+    <div class="l-container-small">
+      {{> atoms-button-big }}
+    </div>
+  </section>
+  {{/ page-research-projects }}
+
+  {{# page-description }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3 }}
+        {{> atoms-text-wrapper }}
+      </div>
+    </div>
+  </section>
+  {{/ page-description }}
+
+  {{# page-search }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3}}
+        {{> atoms-forms-input-search }}
+      </div>
+    </div>
+  </section>
+  {{/ page-search }}
+
+  {{# page-content }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3}}
+        {{> atoms-text-paragraph }}
+      </div>
+    </div>
+  </section>
+  {{/ page-content }}
+
+  {{# page-extra }}
+  <section class="l-section">
+    <div class="l-container">
+      <div class="typography">
+        {{> atoms-heading-3}}
+        {{> atoms-image-4x3 }}
+        {{> atoms-text-paragraph }}
+      </div>
+    </div>
+  </section>
+  {{/ page-extra }}
+
+</main>
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}

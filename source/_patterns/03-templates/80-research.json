@@ -1,0 +1,39 @@
+{
+  "page-hero": {
+    "hero-text": {
+      "hero-title": "true"
+    }
+  },
+
+  "page-intro": "true",
+
+  "page-research-points": {
+    "latest-highlights": {
+      "highlight-title": "true",
+      "highlight-text": "true",
+      "highlight-button": "true"
+    }
+  },
+
+  "page-research-projects": {
+    "research-project": "true"
+  },
+
+  "page-description": "true",
+
+  "page-footer": {
+    "footer-places": {
+      "footer-place": {
+        "footer-address": "true",
+        "footer-contact": "true"
+      }
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}
