@@ -1,0 +1,123 @@
+{
+  "faculty": "t_dsgn",
+
+  "page-hero": {
+    "hero-title": {
+      "headline": "Spaces and Facilities"
+    }
+  },
+
+  "page-description": {
+    "excerpt": "The faculty has several workshops to support studying and research, in which students work independently under the supervision of expert technicians. In these workshops the students’ ideas and concepts are verified and tested in order to be transformed into models and prototypes."
+  },
+
+  "page-spaces": [
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/legno-copy.gif",
+      "banner-title": {
+        "headline": "Carpentery Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/tipografia-copy.gif",
+      "banner-title": {
+        "headline": "Paper, Cutting and Binding Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/studio-foto-copy.gif",
+      "banner-title": {
+        "headline": "Photography Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/video-copy.gif",
+      "banner-title": {
+        "headline": "Video Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/macpool-copy.gif",
+      "banner-title": {
+        "headline": "Computer Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/bankraum.gif",
+      "banner-title": {
+        "headline": "Assembly Pool and Surface Finishing Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/metallo-copy.gif",
+      "banner-title": {
+        "headline": "Metal Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/cnc.gif",
+      "banner-title": {
+        "headline": "Digital Modelling Workshop"
+      }
+    },
+    {
+      "img-background": "https://www.unibz.it/SiteCollectionImages/serigrafia-1-copy.gif",
+      "banner-title": {
+        "headline": "Silkprint Workshop"
+      }
+    }
+  ],
+
+  "page-extra": {
+    "excerpt": "All workshops are open from Monday to Friday. The morning from 09:00 to 12:00 and the afternoon from 13:00 to 17:00; For further information you can contact the <a href=\"#\">workshop head of department</a> or <a href=\"#\">watch the security video courses</a>."
+  },
+
+  "page-footer": {
+    "headline": "Faculty of Design and Art",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1 - piazza Università, 1"
+          },
+          {
+            "span": "I – 39100, Bolzano-Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 015000"
+          },
+          {
+            "span": "Fax +39 0471 015009"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "design-art@unibz.it"
+          }
+        ]
+      }
+    ],
+    "footer-openings": {
+      "headline": "Öffnungszeiten",
+      "excerpt": "Monday to Friday: 9:00 - 12:00<br>Tuesday and Thursday: 14.00 - 16.00"
+    },
+    "footer-map": "true",
+    "footer-newsletter": {
+      "headline": "Subscribe to the newsletter",
+      "span": "Write your e-mail",
+      "button": "Send"
+    },
+    "footer-links": {
+      "footer-credit": [
+        {
+          "span": "Credits"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
+    }
+  }
+}

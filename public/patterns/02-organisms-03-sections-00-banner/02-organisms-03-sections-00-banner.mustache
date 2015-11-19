@@ -6,7 +6,9 @@
     {{# banner-sub-title }}
       {{&gt; atoms-heading-2 (class: &quot;banner_subTitle&quot;) }}
     {{/ banner-sub-title }}
-      {{&gt; atoms-text-paragraph (class: &quot;banner_text&quot;) }}
+      {{# banner-text }}
+        {{&gt; atoms-text-paragraph (class: &quot;banner_text&quot;) }}
+      {{/ banner-text }}
       {{# empty }}
         {{# banner-button }}
           {{&gt; atoms-button-alternate (class: &quot;banner_btn&quot;) }}

@@ -11,8 +11,8 @@
   display: flex
   align-items: center
   padding: $space*2 0
+  margin-bottom: 2px
   min-height: 200px
-  background-color: $primary
   background-size: cover
   background-position: 50%
   background-repeat: no-repeat
@@ -21,7 +21,9 @@
     min-height: 300px
   +mq($bp-lg)
     padding: $space*2 0
-
+    min-height: 360px
+  +mq($bp-xl)
+    min-height: 420px
 
 // Banner Overlay
 //============================================
@@ -36,38 +38,26 @@
   background-color: rgba($black, .3)
 
 .t_dsgn
-  .banner
-    background-color: $dsgn
   .banner::after
-    background-color: rgba($dsgn, .5)
+    background-color: rgba($black, .3)
 
 .t_eco
-  .banner
-    background-color: $eco
   .banner::after
     background-color: rgba($eco, .5)
 
 .t_edu
-  .banner
-    background-color: $edu
   .banner::after
     background-color: rgba($edu, .5)
 
 .t_comp
-  .banner
-    background-color: $comp
   .banner::after
     background-color: rgba($comp, .5)
 
 .t_tech
-  .banner
-    background-color: $tech
   .banner::after
     background-color: rgba($tech, .4)
 
 .t_library
-  .banner
-    background-color: $library
   .banner::after
     background-color: rgba($library, .5)
 

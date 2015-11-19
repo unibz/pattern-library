@@ -1,0 +1,31 @@
+{
+  "page-hero": {
+    "hero-title": "true"
+  },
+
+  "page-description": "true",
+
+  "page-spaces": [
+    {
+      "banner-title": "true"
+    }
+  ],
+
+  "page-extra": "true",
+
+  "page-footer": {
+    "footer-places": {
+      "footer-place": {
+        "footer-address": "true",
+        "footer-contact": "true"
+      }
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}

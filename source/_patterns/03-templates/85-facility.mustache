@@ -1,0 +1,36 @@
+{{> organisms-header }}
+<main>
+  {{# page-hero }}
+    {{> organisms-hero-small }}
+  {{/ page-hero }}
+
+  {{# page-description }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography typography-left">
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+    </section>
+  {{/ page-description }}
+
+  <section class="l-section">
+  {{# page-spaces }}
+    {{> organisms-banner }}
+  {{/ page-spaces }}
+  </section>
+
+  {{# page-extra }}
+    <section class="l-section">
+      <div class="l-container">
+        <div class="typography typography-left">
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
+    </section>
+  {{/ page-extra }}
+
+</main>
+{{# page-footer }}
+  {{> organisms-footer }}
+{{/ page-footer }}
