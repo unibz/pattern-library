@@ -1,0 +1,75 @@
+{{&gt; organisms-header }}
+&lt;main&gt;
+  {{# page-hero }}
+    {{&gt; organisms-hero}}
+  {{/ page-hero }}
+
+  {{# page-intro }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-text-paragraph (class: &quot;intro-bold&quot;) }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-intro }}
+
+  {{# page-research-points }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-heading-3 }}
+      &lt;/div&gt;
+      {{&gt; organisms-latest-highlights }}
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-text-paragraph }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-research-points }}
+
+  {{# page-research-projects }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container-small&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-heading-3 }}
+      &lt;/div&gt;
+      {{# research-project }}
+        {{&gt; molecules-block-research }}
+      {{/ research-project }}
+    &lt;/div&gt;
+    &lt;div class=&quot;l-container-small&quot;&gt;
+      {{&gt; atoms-button-big }}
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-research-projects }}
+
+  {{# page-description }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-heading-3 }}
+        {{&gt; atoms-text-wrapper }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-description }}
+
+  {{# page-search }}
+    {{&gt; molecules-search-section }}
+  {{/ page-search }}
+
+  {{# page-content }}
+  &lt;section class=&quot;l-section&quot;&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      &lt;div class=&quot;typography&quot;&gt;
+        {{&gt; atoms-heading-3}}
+        {{&gt; atoms-text-paragraph }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  {{/ page-content }}
+&lt;/main&gt;
+{{# page-footer }}
+  {{&gt; organisms-footer }}
+{{/ page-footer }}

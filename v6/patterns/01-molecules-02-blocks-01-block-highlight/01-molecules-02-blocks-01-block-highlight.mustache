@@ -3,8 +3,14 @@
     {{&gt; atoms-image-4x3 (class: &quot;highlight_thumb&quot;) }}
   &lt;/a&gt;
   &lt;div class=&quot;highlight_body&quot;&gt;
-    {{&gt; atoms-heading-4 (class: &quot;highlight_title&quot;) }}
-    {{&gt; atoms-text-paragraph (class:&quot;highlight_text&quot;) }}
-    {{&gt; atoms-button-text-alternate (class: &quot;highlight_button&quot;) }}
+    {{# highlight-title  }}
+      {{&gt; atoms-heading-4 (class: &quot;highlight_title&quot;) }}
+    {{/ highlight-title  }}
+    {{# highlight-text  }}
+      {{&gt; atoms-text-paragraph (class:&quot;highlight_text&quot;) }}
+    {{/ highlight-text  }}
+    {{# highlight-button  }}
+      {{&gt; atoms-button-text-alternate (class: &quot;highlight_button&quot;) }}
+    {{/ highlight-button  }}
   &lt;/div&gt;
 &lt;/div&gt;
