@@ -45,22 +45,19 @@
     "headline": "Aktuelle Forschungshighlights",
     "research-project": [
       {
-        "headline": "Herkunfts- und Qualitätsanalyse von regionalen Agrarprodukten der Alpen",
-        "excerpt": "Ausgelöst durch die Öffnung der europäischen Märkte gewinnen die Schlagworte „Herkunft und Qualität“ vor allem im Lebensmittelbereich mehr und mehr an Bedeutung.",
         "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-1.png",
-        "class": "left"
+        "headline": "Herkunfts- und Qualitätsanalyse von regionalen Agrarprodukten der Alpen",
+        "excerpt": "Ausgelöst durch die Öffnung der europäischen Märkte gewinnen die Schlagworte „Herkunft und Qualität“ vor allem im Lebensmittelbereich mehr und mehr an Bedeutung."
       },
       {
-        "headline": "Scalable End-user Access to Big Data",
-        "excerpt": "Scalable end-user access to Big Data is critical for effective data analysis and value creation. Optique will bring about a paradigm shift for data access.",
         "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-2.jpg",
-        "class": "right"
+        "headline": "Scalable End-user Access to Big Data",
+        "excerpt": "Scalable end-user access to Big Data is critical for effective data analysis and value creation. Optique will bring about a paradigm shift for data access."
       },
       {
-        "headline": "Towards a New Growth Path: Welfare, Wealth and Work for Europe",
-        "excerpt": "This research is about the institutional preconditions of the socio-ecological transition considering the regional and institutional diversity in Europe. A special focus will be laid on the operational, collective-choice, and constitutional rules relevant for local governance.",
         "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-3.jpg",
-        "class": "left"
+        "headline": "Towards a New Growth Path: Welfare, Wealth and Work for Europe",
+        "excerpt": "This research is about the institutional preconditions of the socio-ecological transition considering the regional and institutional diversity in Europe. A special focus will be laid on the operational, collective-choice, and constitutional rules relevant for local governance."
       }
     ],
     "button": "Forschungsbericht"
@@ -79,12 +76,6 @@
   "page-content": {
     "headline": "Servicestelle Forschung und Innovation",
     "excerpt": "Die Servicestelle unterstützt und fördert die Entwicklung der wissenschaftlichen Forschung an der unibz und koordiniert und verwaltet die Abläufe der Forschungstätigkeit national und international sowie auf EU-Ebene."
-  },
-
-  "page-extra": {
-    "headline": "BuPress",
-    "img-4x3": "http://bupress.unibz.it/skin/frontend/virgola/default/images/logo-header-bup.jpg",
-    "excerpt": "Der hausinterne Universitätsverlag <a href=\"#\">bu,press</a> unterstützt Forscher/innen der unibz aktiv bei ihrer Publikationstätigkeit. Der Katalog umfasst derzeit 60 Veröffentlichungen."
   },
 
   "page-footer": {

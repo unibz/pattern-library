@@ -7,12 +7,14 @@
 //============================================
 
 .latest-highlights
-  +mq($bp-md)
+  +mq($bp-sm)
     display: flex
     flex-wrap: wrap
     justify-content: space-between
 
 .latest-highlights
   .highlight
-    +mq($bp-md)
+    +mq($bp-sm)
       flex: 0 0 calc(50% - 12px)
+    +mq($bp-lg)
+      flex: 0 0 calc(25% - 12px)

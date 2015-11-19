@@ -30,18 +30,12 @@
 
   {{# page-research-projects }}
   <section class="l-section">
-    <div class="l-container">
+    <div class="l-container-small">
       <div class="typography">
         {{> atoms-heading-3 }}
       </div>
       {{# research-project }}
-      <div class="u-overflow-hide u-push-btm">
-        <div class="typography">
-          {{> atoms-image-4x3 }}
-          {{> atoms-heading-4 }}
-          {{> atoms-text-paragraph }}
-        </div>
-      </div>
+        {{> molecules-block-research }}
       {{/ research-project }}
     </div>
     <div class="l-container-small">
@@ -62,14 +56,7 @@
   {{/ page-description }}
 
   {{# page-search }}
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3}}
-        {{> atoms-forms-input-search }}
-      </div>
-    </div>
-  </section>
+    {{> molecules-search-section }}
   {{/ page-search }}
 
   {{# page-content }}
@@ -82,19 +69,6 @@
     </div>
   </section>
   {{/ page-content }}
-
-  {{# page-extra }}
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3}}
-        {{> atoms-image-4x3 }}
-        {{> atoms-text-paragraph }}
-      </div>
-    </div>
-  </section>
-  {{/ page-extra }}
-
 </main>
 {{# page-footer }}
   {{> organisms-footer }}

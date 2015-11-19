@@ -30,18 +30,12 @@
 
   {{# page-research-projects }}
   &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container&quot;&gt;
+    &lt;div class=&quot;l-container-small&quot;&gt;
       &lt;div class=&quot;typography&quot;&gt;
         {{&gt; atoms-heading-3 }}
       &lt;/div&gt;
       {{# research-project }}
-      &lt;div class=&quot;u-overflow-hide u-push-btm&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-image-4x3 }}
-          {{&gt; atoms-heading-4 }}
-          {{&gt; atoms-text-paragraph }}
-        &lt;/div&gt;
-      &lt;/div&gt;
+        {{&gt; molecules-block-research }}
       {{/ research-project }}
     &lt;/div&gt;
     &lt;div class=&quot;l-container-small&quot;&gt;
@@ -62,14 +56,7 @@
   {{/ page-description }}
 
   {{# page-search }}
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container&quot;&gt;
-      &lt;div class=&quot;typography&quot;&gt;
-        {{&gt; atoms-heading-3}}
-        {{&gt; atoms-forms-input-search }}
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
+    {{&gt; molecules-search-section }}
   {{/ page-search }}
 
   {{# page-content }}
@@ -82,19 +69,6 @@
     &lt;/div&gt;
   &lt;/section&gt;
   {{/ page-content }}
-
-  {{# page-extra }}
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container&quot;&gt;
-      &lt;div class=&quot;typography&quot;&gt;
-        {{&gt; atoms-heading-3}}
-        {{&gt; atoms-image-4x3 }}
-        {{&gt; atoms-text-paragraph }}
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-  {{/ page-extra }}
-
 &lt;/main&gt;
 {{# page-footer }}
   {{&gt; organisms-footer }}

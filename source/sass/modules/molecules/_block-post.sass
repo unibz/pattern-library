@@ -6,6 +6,7 @@
 .post
   display: flex
   margin-bottom: $space
+  flex-wrap: wrap
 
 
 // Block Post Date
@@ -52,6 +53,14 @@
   margin-bottom: 2px
 
 
+// Block Post Body
+//============================================
+.post_body
+  flex: 0 0 100%
+  +mq($bp-md)
+    flex: 0 0 calc(100% - 140px) 
+
+
 // Block Post Title
 //============================================
 
@@ -67,10 +76,3 @@
 
 .post_excerpt
   margin-bottom: 0
-
-
-// Block Post Button
-//============================================
-
-.post_btn
-  font-weight: 600
