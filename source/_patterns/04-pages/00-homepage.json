@@ -42,7 +42,9 @@
     "banner-title": {
       "headline": "Studieren an der unibz"
     },
-    "excerpt": "Wir bieten mehrsprachige Studienprogramme auf Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität.",
+    "banner-text": {
+      "excerpt": "Wir bieten mehrsprachige Studienprogramme auf Deutsch, Italienisch und Englisch an sowie ein ideales Umfeld für Studium und Forschung in einer Region mit hohem Freizeitwert und überdurchschnittlicher Lebensqualität."
+    },
     "banner-button": [
       {
         "button": "Bachelor und Master" 

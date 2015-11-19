@@ -25,11 +25,9 @@
   +mq($bp-xl)
     min-height: 420px
 
-.banner:hover
+.banner-overlay:hover
   &::after
     background-color: rgba($black, 0)
-  .banner_title
-    opacity: .5
 
 
 // Banner Overlay
@@ -48,37 +46,37 @@
     background-color: rgba($black, 0)
 
 .t_dsgn
-  .banner:hover::after
+  .banner-overlay:hover::after
     background-color: rgba($black, 0)
   .banner::after
     background-color: rgba($black, .3)
 
 .t_eco
-  .banner:hover::after
+  .banner-overlay:hover::after
     background-color: rgba($black, 0)
   .banner::after
     background-color: rgba($eco, .5)
 
 .t_edu
-  .banner:hover::after
+  .banner-overlay:hover::after
     background-color: rgba($black, 0)
   .banner::after
     background-color: rgba($edu, .5)
 
 .t_comp
-  .banner:hover::after
+  .banner-overlay:hover::after
     background-color: rgba($black, 0)
   .banner::after
     background-color: rgba($comp, .5)
 
 .t_tech
-  .banner:hover::after
+  .banner-overlay:hover::after
     background-color: rgba($black, 0)
   .banner::after
     background-color: rgba($tech, .4)
 
 .t_library
-  .banner:hover::after
+  .banner-overlay:hover::after
     background-color: rgba($black, 0)
   .banner::after
     background-color: rgba($library, .5)
@@ -106,7 +104,11 @@
 
 .banner_title
   +h2
-  transition: opacity 0.3s $motion
+  transition: opacity .3s $motion
+
+.banner-overlay:hover
+  .banner_title
+    opacity: .5
 
 // Banner Subtilte
 //============================================

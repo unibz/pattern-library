@@ -13,54 +13,63 @@
 
   "page-spaces": [
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/legno-copy.gif",
       "banner-title": {
         "headline": "Carpentery Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/studio-foto-copy.gif",
       "banner-title": {
         "headline": "Photography Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/tipografia-copy.gif",
       "banner-title": {
         "headline": "Paper, Cutting and Binding Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/video-copy.gif",
       "banner-title": {
         "headline": "Video Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/macpool-copy.gif",
       "banner-title": {
         "headline": "Computer Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/metallo-copy.gif",
       "banner-title": {
         "headline": "Metal Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/bankraum.gif",
       "banner-title": {
         "headline": "Assembly Pool and Surface Finishing Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/serigrafia-1-copy.gif",
       "banner-title": {
         "headline": "Silkprint Workshop"
       }
     },
     {
+      "class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/cnc.gif",
       "banner-title": {
         "headline": "Digital Modelling Workshop"
