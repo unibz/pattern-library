@@ -6,66 +6,119 @@
     }
   },
   "page-intro": "true",
-  "page-description": "true",
-  "page-banner": {
-    "banner-title": "true"
+
+  "page-description": {
+    "block-text-image": {
+      "class": "left"
+    },
+    "block-text-paragraph": "true"
   },
-  "page-study-courses": {
-    "study-courses": {
-      "links": {
-        "links-class": "g g-sm-12"
-      }
+
+  "page-banner": {
+    "banner-headline": "true",
+    "banner-subheadline": "true",
+    "banner-text": "true",
+    "banner-button": "true"
+  },
+
+  "page-study-courses": [
+    {
+      "container-class": "l-container-small",
+      "links": [
+        {
+          "links-class": "g g-sm-12"
+        },
+        {
+          "links-class": "g g-sm-12"
+        }
+      ]
+    },
+    {
+      "container-class": "l-container-small",
+      "links": [
+        {
+          "links-class": "g g-sm-12"
+        },
+        {
+          "links-class": "g g-sm-12"
+        }
+      ]
+    },
+    {
+      "container-class": "l-container-small",
+      "links": [
+        {
+          "links-class": "g g-sm-12"
+        },
+        {
+          "links-class": "g g-sm-12"
+        }
+      ]
+    }
+  ],
+
+  "page-research": {
+    "block-text-headline": "true",
+    "block-text-image": {
+      "class": "right"
+    },
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-medium"
     }
   },
-  "page-research": "true",
+
   "page-people": "true",
-  "page-partner": "true",
+
+  "page-partner": {
+    "block-text-headline": "true",
+    "block-text-image": "true",
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-medium"
+    }
+  },
+
   "page-news": {
-    "latest-news": "true"
+    "latest-post": "true"
   },
 
   "page-events": {
     "latest-events": [
       {
+        "event-image": "true",
         "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
+        "event-location": "true",
         "event-time": "true",
-        "event-date": "true",
-        "event-button": "true"
+        "event-date": "true"
       },
       {
-        "class": "event-old",
+        "event-image": "true",
         "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
+        "event-location": "true",
         "event-time": "true",
-        "event-date": "true",
-        "event-button": "true"
+        "event-date": "true"
       },
       {
-        "class": "event-old",
+        "event-image": "true",
         "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
+        "event-location": "true",
         "event-time": "true",
-        "event-date": "true",
-        "event-button": "true"
+        "event-date": "true"
       }
     ]
   },
-
+  
   "page-footer": {
-    "footer-places": {
-      "footer-place": {
-        "footer-address": "true",
-        "footer-contact": "true"
-      }
+    "footer-banner": "true",
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
     },
     "footer-map": "true",
     "footer-social": "true",
     "footer-newsletter": "true",
-    "footer-transparency": "true",
+    "footer-openings": "true",
     "footer-links": {
       "footer-credit": "true"
     }

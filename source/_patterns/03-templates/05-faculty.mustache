@@ -15,95 +15,36 @@
   {{/ page-intro }}
 
   {{# page-description }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-image-4x3 (class:"left") }}
-          {{> atoms-text-paragraph }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-description }}
 
   {{# page-banner }}
-    <section class="l-section">
-      {{> organisms-banner }}
-    </section>
+    {{> organisms-banner }}
   {{/ page-banner }}
   
   {{# page-study-courses }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{# study-courses }}
-            {{> atoms-heading-2 }}
-            {{> organisms-block-links }}
-          {{/ study-courses }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-links }}
   {{/ page-study-courses }}
 
-
   {{# page-research }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-image-4x3 (class:"right") }}
-          {{> atoms-text-paragraph }}
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-research }}
 
   {{# page-people }}
-    <section class="l-section">
-      <div class="l-container">
-        {{> molecules-media-block }}
-      </div>
-    </section>
+    {{> organisms-block-media }}
   {{/ page-people }}
 
   {{# page-partner }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-image-4x3 }}
-          {{> atoms-text-paragraph }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-partner }}
 
   {{# page-news }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> organisms-latest-news }}
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-latest-post }}
   {{/ page-news }}
 
   {{# page-events }}
-    <section class="l-section">
-      <div class="l-container-small">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-        </div>
-        {{> organisms-latest-events }}
-        <div class="typography">
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-latest-events }}
   {{/ page-events }}
-
 </main>
 {{# page-footer }}
   {{> organisms-footer }}

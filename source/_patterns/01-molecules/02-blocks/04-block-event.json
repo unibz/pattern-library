@@ -1,8 +1,8 @@
 {
+  "event-image": "true",
   "event-title": "true",
-  "event-campus": "true",
-  "event-room": "true",
+  "event-subtitle": "true",
+  "event-location": "true",
   "event-time": "true",
-  "event-date": "true",
-  "event-button": "true"
+  "event-date": "true"
 }

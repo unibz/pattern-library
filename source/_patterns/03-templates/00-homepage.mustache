@@ -15,86 +15,33 @@
   {{/ page-intro }}
   
   {{# page-faculties }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-text-paragraph }}
-        </div>
-        {{> organisms-block-links }}
-      </div>
-    </section>
+    {{> organisms-block-links }}
   {{/ page-faculties }}
 
   {{# page-banner }}
-    <section class="l-section">
-      {{> organisms-banner }}
-    </section>
+    {{> organisms-banner }}
   {{/ page-banner }}
 
   {{# page-research }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-image-4x3 (class:"right") }}
-          {{> atoms-text-paragraph }}
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-research }}
 
   {{# page-region }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-text-paragraph }}
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-region }}
 
   {{# page-library }}
-    <section class="l-section">
-      <div class="l-container">
-        {{> molecules-media-block }}
-      </div>
-    </section>
+    {{> organisms-block-media }}
   {{/ page-library }}
 
   {{# page-news }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> organisms-latest-news }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-latest-post }}
   {{/ page-news }}
 
   {{# page-events }}
-    <section class="l-section">
-      <div class="l-container-small">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-        </div>
-        {{> organisms-latest-events }}
-        <div class="typography">
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-latest-event }}
   {{/ page-events }}
-
-  {{# page-magazine }}
-    {{> organisms-magazine }}
-  {{/ page-magazine }}
-
 </main>
-{{# footer }}
+{{# page-footer }}
   {{> organisms-footer }}
-{{/ footer }}
+{{/ page-footer }}

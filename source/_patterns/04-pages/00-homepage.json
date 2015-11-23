@@ -39,7 +39,7 @@
 
   "page-banner": {
     "img-background": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-study-unibz.jpg",
-    "banner-title": {
+    "banner-headline": {
       "headline": "Studieren an der unibz"
     },
     "banner-text": {
@@ -59,16 +59,33 @@
   },
 
   "page-research": {
-    "headline": "Forschung",
-    "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/research.jpg",
-    "excerpt": "Interdisziplinarität und Nachhaltigkeit ebenso wie lokale und internationale Themen bestimmen die Ausrichtung der Forschung an der unibz. Geforscht wird an allen fünf Fakultäten und an drei Kompetenzzentren. Die Forschungsfinanzierung erfolgt über interne Mittel und in jüngster Zeit vermehrt über nationale und europäische Finanzierungsprogramme und Drittmittel.",
-    "button": "Mehr Info"
+    "block-text-headline": {
+      "headline": "Forschung"
+    },
+    "block-text-image": {
+      "class": "right",
+      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/research.jpg"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Interdisziplinarität und Nachhaltigkeit ebenso wie lokale und internationale Themen bestimmen die Ausrichtung der Forschung an der unibz. Geforscht wird an allen fünf Fakultäten und an drei Kompetenzzentren. Die Forschungsfinanzierung erfolgt über interne Mittel und in jüngster Zeit vermehrt über nationale und europäische Finanzierungsprogramme und Drittmittel."
+    },
+    "block-text-button": {
+      "button": "Mehr Info",
+      "class": "btn-medium"
+    }
   },
 
   "page-region": {
-    "headline": "Verantwortung für Region und Gesellschaft",
-    "excerpt": "Neben Lehre und Forschung erachtet es die unibz als einen weiteren wichtigen Auftrag, mit Region und Gesellschaft in eine kooperative Austauschbeziehung zu treten. Dies geschieht über gezielte Formen des <a href=\"#\">Wissens- und Technologietransfers</a>, verstärkte Kooperationen mit <a href=\"#\">Unternehmen</a>, einem vielfältigen Angebot im Bereich des <a href=\"#\">Lebenslangen Lernens</a> (JuniorUni, Studium Generale und Senior Student Card) sowie nicht zuletzt als Partnerinstitution für kulturelle Institutionen und Initiativen.",
-    "button": "Mehr Info"
+    "block-text-headline": {
+      "headline": "Verantwortung für Region und Gesellschaft"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Neben Lehre und Forschung erachtet es die unibz als einen weiteren wichtigen Auftrag, mit Region und Gesellschaft in eine kooperative Austauschbeziehung zu treten. Dies geschieht über gezielte Formen des <a href=\"#\">Wissens- und Technologietransfers</a>, verstärkte Kooperationen mit <a href=\"#\">Unternehmen</a>, einem vielfältigen Angebot im Bereich des <a href=\"#\">Lebenslangen Lernens</a> (JuniorUni, Studium Generale und Senior Student Card) sowie nicht zuletzt als Partnerinstitution für kulturelle Institutionen und Initiativen."
+    },
+    "block-text-button": {
+      "class": "btn-medium",
+      "button": "Mehr Info"
+    }
   },
 
   "page-library": {
@@ -80,27 +97,24 @@
 
   "page-news": {
     "headline": "News",
-    "latest-news": [
+    "latest-post": [
       {
-        "empty": "true",
+        "span": "Award",
         "headline": "Premiata a Genova ricercatrice unibz",
         "excerpt": "Lo scorso venerdì, 24 marzo, Gina Chianese, ricercatrice della Facoltà di Scienze della Formazione, è stata premiata dalla Società Italiana di Pedagogia per il suo lavoro sull’educazione permanente.",
-        "date": "22/05",
-        "button": "Read More"
+        "date": "22/05"
       },
       {
-        "empty": "true",
+        "span": "Event",
         "headline": "Giornate di orientamento a Bressanone",
         "excerpt": "Ieri e oggi, le aule della Facoltà di Scienze della Formazione erano gremite. Nel Campus di Bressanone si sono tenute le “Giornate di orientamento”, per tutti gli interessati al corso di laurea quinquennale in Scienze della Formazione Primaria.",
-        "date": "9/03",
-        "button": "Read More"
+        "date": "9/03"
       },
       {
-        "empty": "true",
+        "span": "Announcement",
         "headline": "Al via in aprile il ciclo delle lezioni augurali",
         "excerpt": "Il primo dei nuovi docenti unibz chiamati a tenere una lezione inaugurale sarà il prof. Edwin Keiner che, dal semestre invernale 2014/15, insegna Pedagogia generale e Pedagogia sociale presso la Facoltà di Scienze della Formazione di Bressanone. L’appuntamento – aperto non solo alla comunità universitaria ma a tutta la popolazione – è per il 9 aprile, alle ore 18, nel campus di Bressanone (aula 1.35).",
-        "date": "20/01",
-        "button": "Read More"
+        "date": "20/01"
       }
     ],
     "button": "Alle News"
@@ -110,30 +124,30 @@
     "headline": "Events",
     "latest-events": [
       {
-        "empty": "true",
+        "event-image": {
+          "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_113704_90_62_100_75.jpg"
+        },
         "event-title": {"headline": "De-Design. From expansive to reductive Modernity"},
-        "event-campus": {"span": "Campus Bozen"},
-        "event-room": {"span": "Room F0.03"},
+        "event-subtitle": {"headline": "Ugh roof party fingerstache chia, retro kombucha listicle. Hoodie bespoke pour-over brunch, banjo authentic"},
+        "event-location": {"span": "BZ F0.03"},
         "event-date": {"date": "20.10.2015"},
-        "event-time": {"time": "12:00 - 13:00"},
-        "event-button": {"button": "Details"}
+        "event-time": {"time": "12:00 - 13:00"}
       },
       {
-        "img-4x3": "https://cockpit.scientificnet.org/Services/data/common/sst/blob/UNIBZ_113726_90_-1_0_0_1.jpg",
         "event-title": {"headline": "Inclusive Student Mobility: New trends in Higher Education"},
-        "event-campus": {"span": "Campus Bozen"},
-        "event-room": {"span": "Room D1.02"},
-        "event-date": {"date": "14.10.2015 – 15.10.2015"},
-        "event-button": {"button": "Details"}
+        "event-subtitle": {"headline": "Bespoke williamsburg occupy, gluten-free church-key tattooed."},
+        "event-location": {"span": "BZ D1.02"},
+        "event-date": {"date": "14.10.2015 – 15.10.2015"}
       },
       {
-        "empty": "true",
+        "event-image": {
+          "img-4x3": "https://www.sciencesouthtyrol.net/blob/UNIBZ_86255_90_67_100_75.jpg"
+        },
         "event-title": {"headline": "Consumo etico-solidale e sostenibilità"},
-        "event-campus": {"span": "Campus Bozen"},
-        "event-room": {"span": "Room C2.06"},
+        "event-subtitle": {"headline": "Microdosing you probably haven't heard of them pour-over kombucha photo booth"},
+        "event-location": {"span": "BZ C2.06"},
         "event-date": {"date": "14.10.2015"},
-        "event-time": {"time": "16:30 - 18:30"},
-        "event-button": {"button": "Details"}
+        "event-time": {"time": "16:30 - 18:30"}
       }
     ],
     "button": "Alle Events"
@@ -160,12 +174,15 @@
     "button": "Online Lesen"
   },
 
-  "footer": {
+  "page-footer": {
+    "footer-banner": {
+      "excerpt": "<strong>Transparente Verwaltung</strong> Die Inhalte dieser Seite sind in <a href=\"#\">Italienisch</a> verfügbar."
+    },
     "headline": "Freie Universität Bozen",
     "footer-place": [
       {
         "headline": "Campus Bozen",
-        "img-4x3": "http://profes2015.inf.unibz.it/wp-content/uploads/2014/10/unibz.jpg",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
         "footer-address": [
           {
             "span": "Universitätsplatz 1"
@@ -194,7 +211,7 @@
       },
       {
         "headline": "Campus Brixen",
-        "img-4x3": "http://studiengaenge.zeit.de/uploads/images/college/ad68589/gallery/2013_29_Campus_Brixen_DEF_2.jpg",
+        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/footer-brixen.png",
         "footer-address": [
           {
             "span": "Regensburger Allee 16"
@@ -223,7 +240,7 @@
       },
       {
         "headline": "Campus Bruneck",
-        "img-4x3": "http://studiengaenge.zeit.de/uploads/images/college/ad68589/gallery/2013_29_Campus_Bruneck_DEF_2.jpg",
+        "img-4x3": "http://cbts2011.unibz.it/SiteCollectionImages/Ansicht-Unigeb%C3%A4ude-Haupteingang_s.jpg",
         "footer-address": [
           {
             "span": "Universitätsplatz 1"
@@ -251,10 +268,6 @@
         ]
       }
     ],
-    "footer-transparency": {
-      "headline": "Transparente Verwaltung",
-      "excerpt": "Die Inhalte dieser Seite sind in <a class=\"footer_link\" href=\"#\">Italienisch</a> verfügbar."
-    },
     "footer-map": "true",
     "footer-social": {
       "headline": "Folgen Sie uns"

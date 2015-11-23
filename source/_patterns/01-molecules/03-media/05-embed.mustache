@@ -2,5 +2,7 @@
   <div class="embed embed-16-9">
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/bDUDuQy3R7Y" frameborder="0" allowfullscreen></iframe>
   </div>
-  <figcaption>{{ excerpt }}</figcaption>
+  {{# embed-caption }}
+    <figcaption>{{ excerpt }}</figcaption>
+  {{/ embed-caption }}
 </figure>

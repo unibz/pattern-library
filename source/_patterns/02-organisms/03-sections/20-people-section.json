@@ -1,7 +1,21 @@
 {
   "people-section": "true",
-  "people": {
-    "person-contact": "true",
-    "person-role": "true"
-  }
+  "people": [
+    {
+      "person-contact": "true",
+      "person-role": "true"
+    },
+    {
+      "person-contact": "true",
+      "person-role": "true"
+    },
+    {
+      "person-contact": "true",
+      "person-role": "true"
+    },
+    {
+      "person-contact": "true",
+      "person-role": "true"
+    }
+  ]
 }

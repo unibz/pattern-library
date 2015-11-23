@@ -15,95 +15,36 @@
   {{/ page-intro }}
 
   {{# page-description }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-image-4x3 (class:&quot;left&quot;) }}
-          {{&gt; atoms-text-paragraph }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-text }}
   {{/ page-description }}
 
   {{# page-banner }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      {{&gt; organisms-banner }}
-    &lt;/section&gt;
+    {{&gt; organisms-banner }}
   {{/ page-banner }}
   
   {{# page-study-courses }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{# study-courses }}
-            {{&gt; atoms-heading-2 }}
-            {{&gt; organisms-block-links }}
-          {{/ study-courses }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-links }}
   {{/ page-study-courses }}
 
-
   {{# page-research }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-          {{&gt; atoms-image-4x3 (class:&quot;right&quot;) }}
-          {{&gt; atoms-text-paragraph }}
-          {{&gt; atoms-button-medium }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-text }}
   {{/ page-research }}
 
   {{# page-people }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        {{&gt; molecules-media-block }}
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-media }}
   {{/ page-people }}
 
   {{# page-partner }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-          {{&gt; atoms-image-4x3 }}
-          {{&gt; atoms-text-paragraph }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-text }}
   {{/ page-partner }}
 
   {{# page-news }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-          {{&gt; organisms-latest-news }}
-          {{&gt; atoms-button-medium }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-latest-post }}
   {{/ page-news }}
 
   {{# page-events }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container-small&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-        &lt;/div&gt;
-        {{&gt; organisms-latest-events }}
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-button-medium }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-latest-events }}
   {{/ page-events }}
-
 &lt;/main&gt;
 {{# page-footer }}
   {{&gt; organisms-footer }}

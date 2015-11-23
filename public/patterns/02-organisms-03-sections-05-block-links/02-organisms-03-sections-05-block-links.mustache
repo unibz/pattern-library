@@ -1,7 +1,15 @@
-&lt;div class=&quot;blockLink_wrapper g-row&quot;&gt;
-  {{# links }}
-    &lt;div class=&quot;{{ links-class }}&quot;&gt;
-        {{&gt; molecules-block-link }}
+&lt;section class=&quot;l-section&quot;&gt;
+  &lt;div class=&quot;l-container {{container-class}}&quot;&gt;
+    &lt;div class=&quot;typography&quot;&gt;
+      {{&gt; atoms-heading-2 }}
+      {{&gt; atoms-text-paragraph }}
     &lt;/div&gt;
-  {{/ links }}
-&lt;/div&gt;
+    &lt;div class=&quot;blockLink_wrapper g-row&quot;&gt;
+      {{# links }}
+        &lt;div class=&quot;{{ links-class }}&quot;&gt;
+            {{&gt; molecules-block-link }}
+        &lt;/div&gt;
+      {{/ links }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;

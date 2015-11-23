@@ -1,7 +1,15 @@
-<div class="blockLink_wrapper g-row">
-  {{# links }}
-    <div class="{{ links-class }}">
-        {{> molecules-block-link }}
+<section class="l-section">
+  <div class="l-container {{container-class}}">
+    <div class="typography">
+      {{> atoms-heading-2 }}
+      {{> atoms-text-paragraph }}
     </div>
-  {{/ links }}
-</div>
+    <div class="blockLink_wrapper g-row">
+      {{# links }}
+        <div class="{{ links-class }}">
+            {{> molecules-block-link }}
+        </div>
+      {{/ links }}
+    </div>
+  </div>
+</section>

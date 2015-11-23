@@ -1,4 +1,13 @@
 {
-  "links": "true",
-  "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+  "links": [
+    { 
+      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+    },
+    { 
+      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+    },
+    { 
+      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+    }
+  ]
 }

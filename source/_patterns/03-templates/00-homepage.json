@@ -3,71 +3,94 @@
     "hero-caption": "true"
   },
   "page-intro": "true",
+
   "page-faculties": {
-    "links": {
-      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
-    }
+    "links": [
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      },
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      },
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      },
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      }
+    ]
   },
+
   "page-banner": {
-    "banner-title": "true",
-    "banner-sub-title": "true",
+    "banner-headline": "true",
+    "banner-subheadline": "true",
+    "banner-text": "true",
     "banner-button": "true"
   },
 
-  "page-research": "true",
-  "page-region": "true",
+  "page-research": {
+    "block-text-headline": "true",
+    "block-text-image": {
+      "class": "right"
+    },
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-medium"
+    }
+  },
+
+  "page-region": {
+    "block-text-headline": "true",
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-medium"
+    }
+  },
+
   "page-library": "true",
 
   "page-news": {
-    "latest-news": "true"
+    "latest-post": "true"
   },
 
   "page-events": {
     "latest-events": [
       {
+        "event-image": "true",
         "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
+        "event-location": "true",
         "event-time": "true",
-        "event-date": "true",
-        "event-button": "true"
+        "event-date": "true"
       },
       {
-        "class": "event-old",
+        "event-image": "true",
         "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
+        "event-location": "true",
         "event-time": "true",
-        "event-date": "true",
-        "event-button": "true"
+        "event-date": "true"
       },
       {
-        "class": "event-old",
+        "event-image": "true",
         "event-title": "true",
-        "event-campus": "true",
-        "event-room": "true",
+        "event-location": "true",
         "event-time": "true",
-        "event-date": "true",
-        "event-button": "true"
+        "event-date": "true"
       }
     ]
   },
-
-  "page-magazine": {
-    "articles": "true"
-  },
   
-  "footer-places": {
+  "page-footer": {
+    "footer-banner": "true",
     "footer-place": {
       "footer-address": "true",
       "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-links": {
+      "footer-credit": "true"
     }
-  },
-  "footer-map": "true",
-  "footer-social": "true",
-  "footer-newsletter": "true",
-  "footer-transparency": "true",
-  "footer-links": {
-    "footer-credit": "true"
   }
 }

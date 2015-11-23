@@ -1,3 +1,9 @@
-{{# latest-events }}
-  {{> molecules-block-event }}
-{{/ latest-events }}
+<section class="l-section">
+  <div class="l-container-small">
+    {{> atoms-heading-2 (class: "h2")}}
+    {{# latest-events }}
+      {{> molecules-block-event }}
+    {{/ latest-events }}
+    {{> atoms-button-medium }}
+  </div>
+</section>

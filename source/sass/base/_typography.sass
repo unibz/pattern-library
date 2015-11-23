@@ -86,10 +86,18 @@
 
 .typography ul
   list-style-type: none
-  padding: $space-quarter 0 0 $space-half
+  padding: $space-quarter 0 0 20px
 
 .typography li
   margin-bottom: $space-quarter
+
+.typography li ul,
+.typography li ol
+  padding-top: 0
+
+.typography li ul li,
+.typography li ol li
+  margin-bottom: 0
 
 .typography ul li a,
 .typography ol li a
@@ -125,10 +133,8 @@
   .typography ol li a
     +link($library)
 
-.typography ul li
-  display: flex
-
 .typography ul li::before
+  display: inline-block
   content: "–"
   margin-right: $space-half
 
@@ -142,13 +148,13 @@
 .typography
   img
     display: block
-    margin-bottom: $space
+    margin-bottom: $space-half
 
 .typography
   img.left
     +mq($bp-sm)
       float: left
-      margin: 4px $space $space 0
+      margin: 4px $space 0 0
       width: 50%
     +mq($bp-md)
       margin-left: -57px
@@ -163,7 +169,7 @@
   img.right
     +mq($bp-sm)
       float: right
-      margin: 4px 0 $space $space
+      margin: 4px 0 0 $space
       width: 50%
     +mq($bp-md)
       margin-right: -57px

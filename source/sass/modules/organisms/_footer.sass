@@ -6,10 +6,9 @@
 .footer
   color: white
   background-color: $primary
-  padding: $space 0
+  padding-btttom: $space
   font-size: $fs-small
   +mq($bp-sm)
-    padding-top: $space*1.5
     padding-bottom: $space*1.5
 
 .t_dsgn
@@ -36,8 +35,17 @@
   .footer
     background-color: $library
 
-.footer_section
-  margin-bottom: $space
+
+// Footer banner
+//============================================
+
+.footer_banner
+  padding: $space-half 0 10px 0
+  background-color: $color-text
+  color: $white
+
+.footer_bannerText
+  margin-bottom: 0
 
 
 // Footer typography
@@ -45,11 +53,10 @@
 
 .footer_title
   +h3
+  padding-top: $space
   margin-bottom: $space
-
-.footer_sectionTitle
-  +h5
-  margin-bottom: $space-quarter
+  +mq($bp-sm)
+    padding-top: $space*1.5
 
 .footer_image
   margin-bottom: $space-half

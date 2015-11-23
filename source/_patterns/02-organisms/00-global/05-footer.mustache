@@ -1,74 +1,76 @@
 <footer class="footer">
+  {{# footer-banner }}
+    <div class="footer_banner">
+      <div class="l-container">
+        {{> atoms-text-paragraph (class: "footer_bannerText")}}
+      </div>
+    </div>
+  {{/ footer-banner }}
   <div class="l-container">
     {{> atoms-heading-3 (class: "footer_title")}}
-    <div class="g-row">
-      <div class="g g-md-12">
+    <div class="g-row u-push-btm">
 
-        <div class="footer_section">
-          {{# footer-place }}
-            <div class="g-row u-push-btm-half">
-              {{> atoms-heading-6 (class: "footer_sectionTitle g g-24") }}
-              <div class="g g-sm-12">
-                {{> atoms-image-4x3 (class: "footer_image") }}
+      <div class="g g-md-12">
+        {{# footer-place }}
+          <div class="u-push-btm">
+              <div class="g-row">
+                {{> atoms-heading-6 (class: "h5 g g-24") }}
+                <div class="g g-sm-12">
+                  {{> atoms-image-4x3 (class: "footer_image") }}
+                </div>
+                <div class="g g-sm-12">
+                  {{# footer-address }}
+                    <p class="footer_address">{{ span }}</p>
+                  {{/ footer-address }}
+                  {{# footer-contact }}
+                    <a class="footer_link footer_link-block" href="{{ url }}">{{ span }}</a>
+                  {{/ footer-contact }}
+                </div>
               </div>
-              <div class="g g-sm-12">
-                {{# footer-address }}
-                  <p class="footer_address">{{ span }}</p>
-                {{/ footer-address }}
-                {{# footer-contact }}
-                  <a class="footer_link footer_link-block" href="{{ url }}">{{ span }}</a>
-                {{/ footer-contact }}
-              </div>
-            </div>
-          {{/ footer-place }}
-        </div>
+          </div>
+        {{/ footer-place }}
 
         {{# footer-openings }}
           <div class="footer_section">
-            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
+            {{> atoms-heading-5 (class: "h5")}}
             {{> atoms-text-paragraph }}
           </div>
         {{/ footer-openings }}
-
-        {{# footer-transparency }}
-          <div class="footer_section">
-            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
-            {{> atoms-text-paragraph }}
-          </div>
-        {{/ footer-transparency }}
-
-        {{# footer-links }}
-          <div class="footer_section">
-            {{# footer-credit }}
-              <a class="footer_link u-push-rgt" href="{{ url }}">{{ span }}</a>
-            {{/ footer-credit }}
-            <span>© Unibz</span>
-          </div>
-        {{/ footer-links }}
-
       </div>
 
       <div class="g g-md-11 g-md-off-1">
         {{# footer-map }}
           {{> atoms-maps }}
         {{/ footer-map }}
+      </div>
+    </div>
 
+    <div class="g-row u-push-btm">
+      <div class="g g-md-12">
         {{# footer-social }}
-          <div class="footer_section">
-            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
-            {{> molecules-social-links }}
-          </div>
+          {{> atoms-heading-5 (class: "h5")}}
+          {{> molecules-social-links }}
         {{/ footer-social }}
-
+      </div>
+      <div class="g g-md-11 g-md-off-1">
         {{# footer-newsletter }}
-          <div class="footer_section">
-            {{> atoms-heading-5 (class: "footer_sectionTitle")}}
-            <form class="footer_form" action="#">
-              {{> atoms-forms-input-email (class: "footer_input")}}
-              {{> atoms-button-alternate (class: "btn-medium footer_button")}}
-            </form>
-          </div>
+          {{> atoms-heading-5 (class: "h5")}}
+          <form class="footer_form" action="#">
+            {{> atoms-forms-input-email (class: "footer_input")}}
+            {{> atoms-button-alternate (class: "btn-medium footer_button")}}
+          </form>
         {{/ footer-newsletter }}
+      </div>
+    </div>
+
+    <div class="g-row">
+      <div class="g g-md-24">
+        {{# footer-links }}
+          {{# footer-credit }}
+            <a class="footer_link u-push-rgt" href="{{ url }}">{{ span }}</a>
+          {{/ footer-credit }}
+          <span>© Unibz</span>
+        {{/ footer-links }}
       </div>
     </div>
   </div>

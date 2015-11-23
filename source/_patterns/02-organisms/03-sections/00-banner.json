@@ -1,5 +1,5 @@
 {
-  "banner-title": "true",
-  "banner-sub-title": "true",
+  "banner-headline": "true",
+  "banner-subheadline": "true",
   "banner-button": "true"
 }
