@@ -2,7 +2,9 @@
   <div class="l-container {{container-class}}">
     <div class="typography">
       {{> atoms-heading-2 }}
-      {{> atoms-text-paragraph }}
+      {{# block-links-text }}
+        {{> atoms-text-paragraph }}
+      {{/ block-links-text }}
     </div>
     <div class="blockLink_wrapper g-row">
       {{# links }}

@@ -12,7 +12,9 @@
 
   "page-faculties": {
     "headline": "Fakultäten",
-    "excerpt": "Die unibz ist keine Volluniversität. Ihr Studienangebot an den 5 Fakultäten und die Schwerpunkte in der Forschung spiegeln ihre starke regionale Verwurzelung und ihre gleichzeitige internationale Vernetzung wider.",
+    "block-links-text": {
+      "excerpt": "Die unibz ist keine Volluniversität. Ihr Studienangebot an den 5 Fakultäten und die Schwerpunkte in der Forschung spiegeln ihre starke regionale Verwurzelung und ihre gleichzeitige internationale Vernetzung wider."
+    },
     "links": [
       {
         "links-class": "g g-sm-12 g-md-12 g-lg-8 t_edu",
@@ -151,27 +153,6 @@
       }
     ],
     "button": "Alle Events"
-  },
-
-  "page-magazine": {
-    "headline": "Academia #70",
-    "excerpt": "Academia ist das Magazin der EURAC und unibz.",
-    "img-portrait": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/academia.jpeg",
-    "articles": [
-      {
-        "headline": "Tra marmotte e sensori",
-        "excerpt": "La Val di Mazia è entrata a far parte del consorzio internazionale LTER (Long Term Ecological Research Network) che comprende diversi siti di monitoraggio in tutto il mondo."
-      },
-      {
-        "headline": "Scheitern ist kein Makel",
-        "excerpt": "Es gehört zum Repertoire eines Startuppers. Worauf es wirklich ankommt: möglichst früh und billig zu scheitern, um beim nächsten Mal einen Hit zu landen."
-      },
-      {
-        "headline": "(Citizen) Journalist",
-        "excerpt": "American journalist Marc Cooper explains why journalists as we know them are a dying species."
-      }
-    ],
-    "button": "Online Lesen"
   },
 
   "page-footer": {

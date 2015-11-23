@@ -5,6 +5,7 @@
   "page-intro": "true",
 
   "page-faculties": {
+    "block-link-text": "true",
     "links": [
       {
         "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"

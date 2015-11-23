@@ -18,71 +18,87 @@
   },
 
   "page-description": {
-    "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-intro.jpg",
-    "excerpt": "Das Prinzip der Nachhaltigkeit und der konsequent angewandte interdisziplinäre Ansatz bilden die Grundlage für die Lösung komplexer Probleme bei der Erschließung von Berggebieten, in den Bereichen Energieeffizienz, Nahrungsmittelproduktion und -qualität sowie Prozess- und Produktinnovationen für die Industrie.<br><br>Die über 300 Studierenden finden an der Fakultät aufgrund der guten Betreuungsrelation und der modernen Ausstattung (Labore, Lehrräume, Bibliothek) optimale Studienbedingungen. Austauschmöglichkeiten und internationale Kooperationen mit Universitäten weltweit bieten Studierenden, Forschern und Professoren sehr gute Bedingungen für eine wissenschaftliche Karriere auch innerhalb der Universität."
+    "block-text-image": {
+      "class": "left",
+      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-intro.jpg"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Das Prinzip der Nachhaltigkeit und der konsequent angewandte interdisziplinäre Ansatz bilden die Grundlage für die Lösung komplexer Probleme bei der Erschließung von Berggebieten, in den Bereichen Energieeffizienz, Nahrungsmittelproduktion und -qualität sowie Prozess- und Produktinnovationen für die Industrie.<br><br>Die über 300 Studierenden finden an der Fakultät aufgrund der guten Betreuungsrelation und der modernen Ausstattung (Labore, Lehrräume, Bibliothek) optimale Studienbedingungen. Austauschmöglichkeiten und internationale Kooperationen mit Universitäten weltweit bieten Studierenden, Forschern und Professoren sehr gute Bedingungen für eine wissenschaftliche Karriere auch innerhalb der Universität."
+    }
   },
 
   "page-banner": {
     "img-background": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-study-unibz.jpg",
-    "banner-title": { "headline": "Studiengänge" },
+    "banner-headline": { "headline": "Studiengänge" },
     "banner-text": {
       "excerpt": "Das Studienangebot umfasst derzeit 2 Bachelor-, 3 Master- und 2 englischsprachige Doktoratsprogramme in zwei Hauptbereichen: Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. Die Masterprogramme werden als Double-Degrees in Zusammenarbeit mit den Universitäten Innsbruck, Trient und Bologna angeboten."
     }
   },
 
-  "page-study-courses": {
-    "study-courses": [
-      {
-        "headline": "Bachelors",
-        "links": [
-          {
-            "headline": "Agrarwissenschaften und Umweltmanagement",
-            "links-class": "g g-sm-12"
-          },
-          {
-            "headline": "Industrie- und Maschineningenieurwesen",
-            "links-class": "g g-sm-12"
-          }
-        ]
-      },
-      {
-        "headline": "Masters",
-        "links": [
-          {
-            "headline": "Internationale Garten- und Obstbauwissenschaften",
-            "links-class": "g g-sm-12"
-          },
-          {
-            "headline": "Energy Engineering",
-            "links-class": "g g-sm-12"
-          },
-          {
-            "headline": "Environmental Management of Mountain Areas EMMA",
-            "links-class": "g g-sm-12"
-          }
-        ]
-      },
-      {
-        "headline": "PhDs",
-        "links": [
-          {
-            "headline": "Sustainable Energy and Technologies",
-            "links-class": "g g-sm-12"
-          },
-          {
-            "headline": "Mountain Environment and Agriculture",
-            "links-class": "g g-sm-12"
-          }
-        ]
-      }
-    ]
-  },
+  "page-study-courses": [
+    {
+      "container-class": "l-container-small",
+      "headline": "Bachelors",
+      "links": [
+        {
+          "headline": "Agrarwissenschaften und Umweltmanagement",
+          "links-class": "g g-sm-12"
+        },
+        {
+          "headline": "Industrie- und Maschineningenieurwesen",
+          "links-class": "g g-sm-12"
+        }
+      ]
+    },
+    {
+      "container-class": "l-container-small",
+      "headline": "Masters",
+      "links": [
+        {
+          "headline": "Internationale Garten- und Obstbauwissenschaften",
+          "links-class": "g g-sm-12"
+        },
+        {
+          "headline": "Energy Engineering",
+          "links-class": "g g-sm-12"
+        },
+        {
+          "headline": "Environmental Management of Mountain Areas EMMA",
+          "links-class": "g g-sm-12"
+        }
+      ]
+    },
+    {
+      "container-class": "l-container-small",
+      "headline": "PhDs",
+      "links": [
+        {
+          "headline": "Sustainable Energy and Technologies",
+          "links-class": "g g-sm-12"
+        },
+        {
+          "headline": "Mountain Environment and Agriculture",
+          "links-class": "g g-sm-12"
+        }
+      ]
+    }
+  ],
 
   "page-research": {
-    "headline": "Forschung",
-    "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-research.jpg",
-    "excerpt": "Die Forschungsschwerpunkte der Fakultät liegen in den Bereichen Energieeffizienz, Alpine Technologien, Innovation im Industriesektor sowie Lebensmittelproduktion und -technologie. Derzeit arbeiten die Forscher an 77 Projekten mit einem Gesamtvolumen von 3,2 Mio. Euro (62% davon Drittmittel). Im Spätsommer 2015 sind zwei neue Forschungslabore für den Bereich Lebensmitteltechnologie und Energieproduktion eingerichtet und zwei weitere - für Alpine Technologie und Klimahaus - mit State-of-the-Art Technologie ausgestattet worden. Die Fakultät verfügt insgesamt über 16 Labore, in denen ein junges Forscherteam in insbesondere für die Südtiroler Wirtschaft strategischen Sektoren tätig ist.",
-    "button": "Mehr Info"
+    "block-text-headline": {
+      "headline": "Forschung"
+    },
+    "block-text-image": {
+      "class": "right",
+      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-research.jpg"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Die Forschungsschwerpunkte der Fakultät liegen in den Bereichen Energieeffizienz, Alpine Technologien, Innovation im Industriesektor sowie Lebensmittelproduktion und -technologie. Derzeit arbeiten die Forscher an 77 Projekten mit einem Gesamtvolumen von 3,2 Mio. Euro (62% davon Drittmittel). Im Spätsommer 2015 sind zwei neue Forschungslabore für den Bereich Lebensmitteltechnologie und Energieproduktion eingerichtet und zwei weitere - für Alpine Technologie und Klimahaus - mit State-of-the-Art Technologie ausgestattet worden. Die Fakultät verfügt insgesamt über 16 Labore, in denen ein junges Forscherteam in insbesondere für die Südtiroler Wirtschaft strategischen Sektoren tätig ist." 
+    },
+    "block-text-button": {
+      "class": "btn-medium",
+      "button": "Mehr Info"
+    }
   },
 
   "page-people": {
@@ -93,38 +109,42 @@
   },
 
   "page-partner": {
-    "headline": "Partner",
-    "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-partner.jpg",
-    "excerpt": "Regional und international arbeitet die Fakultät mit privaten Unternehmen und öffentlichen Einrichtungen zusammen, wie beispielsweise dem Forschungszentrum Laimburg, lokalen Obst- und Weinproduzenten und Unternehmen im Industrie- und Maschineningenieursektor. Am im Aufbau befindlichen Technologiepark ist die Fakultät mit den Forschungsbereichen alpine Technologien, Lebensmitteltechnologie sowie KlimaHaus und Energieproduktion beteiligt."
+    "block-text-headline": {
+      "headline": "Partner"
+    },
+    "block-text-image": {
+      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-partner.jpg"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Regional und international arbeitet die Fakultät mit privaten Unternehmen und öffentlichen Einrichtungen zusammen, wie beispielsweise dem Forschungszentrum Laimburg, lokalen Obst- und Weinproduzenten und Unternehmen im Industrie- und Maschineningenieursektor. Am im Aufbau befindlichen Technologiepark ist die Fakultät mit den Forschungsbereichen alpine Technologien, Lebensmitteltechnologie sowie KlimaHaus und Energieproduktion beteiligt."
+    },
+    "block-text-button": {
+      "class": "btn-medium",
+      "button": "Mehr info"
+    }
   },
 
 
   "page-news": {
     "headline": "News",
-    "latest-news": [
+    "latest-post": [
       {
-        "empty": "true",
         "span": "Awards",
         "headline": "Südtiroler Bauernbundpreis 2015",
         "excerpt": "Studierende des Bachelors Agrarwissenschaften und Umweltmanagement präsentierten gestern einer Jury ihre Gruppenarbeiten zum Thema Kooperationen in der landwirtschaftlichen Produktion.",
-        "date": "22 Mar",
-        "button": "Read More"
+        "date": "22 Mar"
       },
       {
-        "empty": "true",
         "span": "research",
         "headline": "Expertise per la cooperazione internazionale",
         "excerpt": "Dall’Alto Adige a Capo Verde, per un agronomo, il passo è lungo: ambiente e, di conseguenza, coltivazioni non sono agli antipodi come i due territori, ma poco ci manca.",
-        "date": "9 Mar",
-        "button": "Read More"
+        "date": "9 Mar"
       },
       {
-        "empty": "true",
         "span": "academics",
         "headline": "Landschaftsökologie im Nationalpark",
         "excerpt": "Im Rahmen des internationalen Masterprogramms „Environmental Management of Mountain Areas (EMMA)“ haben sich die Studierenden auf einer Exkursion in den Nationalpark Cinque Terre (Ligurien) mit aktuellen Fragen der interdisziplinären Landschaftsökologie beschäftigt.",
-        "date": "20 Jan",
-        "button": "Read More"
+        "date": "20 Jan"
       }
     ],
     "button": "Alle News"
@@ -138,11 +158,10 @@
           "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-news.jpg"
         },
         "event-title": { "headline": "Relationship between senescence and quality of fruits and vegetables" },
-        "event-campus": { "span": "Campus Bozen" },
-        "event-room": { "span": "D1.03" },
+        "event-subtitle": { "headline": "Microdosing you probably haven't heard of them pour-over kombucha photo booth" },
+        "event-location": { "span": "BZ D1.03" },
         "event-time": { "time": "17:00 – 18:30" },
-        "event-date": { "date": "24. Juni 2015" },
-        "event-button": {"button" :"Mehr Info"}
+        "event-date": { "date": "24. Juni 2015" }
       }
     ],
     "button": "Alle Events"
