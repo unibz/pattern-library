@@ -1,10 +1,14 @@
-{{# lectures }}
-  <div class="typography typography-left">
-    {{> atoms-heading-3 (class:"h-theme")}}
+<section class="l-section">
+  <div class="l-container">
+    {{# lectures }}
+      <div class="typography typography-left">
+        {{> atoms-heading-3 (class:"h-theme")}}
+      </div>
+      <div class="blockLectures">
+        {{# lecture }}
+          {{> molecules-block-lecture }}
+        {{/ lecture }}
+      </div>
+    {{/ lectures }}
   </div>
-  <div class="blockLectures">
-    {{# lecture }}
-      {{> molecules-block-lecture }}
-    {{/ lecture }}
-  </div>
-{{/ lectures }}
+</section>

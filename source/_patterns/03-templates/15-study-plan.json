@@ -4,7 +4,10 @@
     "hero-title": "true"
   },
 
-  "page-intro": "true",
+  "page-intro": {
+    "class": "typography-left",
+    "block-text-paragraph": "true"
+  },
 
   "page-lectures": {
     "lectures": {
@@ -13,8 +16,11 @@
       }
     }
   },
-
-  "page-details": "true",
+  
+  "page-details": {
+    "class": "typography-left",
+    "block-text-paragraph": "true"
+  },
 
   "page-footer": {
     "footer-place": {
