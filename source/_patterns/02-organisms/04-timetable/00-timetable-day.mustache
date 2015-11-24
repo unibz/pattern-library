@@ -1,8 +1,16 @@
-<div class="timetable_day">
-  {{> atoms-heading-3 (class: "timetable_date")}}
-  <div class="timetable_items">
-    {{# timetable-items }}
-      {{> molecules-block-timetable-item }}
-    {{/ timetable-items }}
+<section class="l-section">
+  <div class="l-container">
+    <div class="timetable_week">
+      {{# timetable-day }}
+        <div class="timetable_day">
+          {{> atoms-heading-3 (class: "timetable_date")}}
+          <div class="timetable_items">
+            {{# timetable-items }}
+              {{> molecules-block-timetable-item }}
+            {{/ timetable-items }}
+          </div>
+        </div>
+      {{/ timetable-day }}
+    </div>
   </div>
-</div>
+</section>
