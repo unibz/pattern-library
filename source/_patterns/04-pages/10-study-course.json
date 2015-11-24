@@ -3,15 +3,14 @@
 
   "page-hero": {
     "img-background": "http://ftf.karenharveyconsulting.com/wp-content/uploads/sites/2/2015/05/STARTUP.jpg",
-    "hero-text": {
+    "hero-headline": {
       "hero-label": { "headline": "Laurea magistrale in" },
       "hero-title": { "headline": "Imprenditorialità e Innovazione" }
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold",
+      "excerpt": "La creatività imprenditoriale ha bisogno di una solida preparazione. Se la prima difficilmente può essere insegnata, fornire la seconda è invece l’obiettivo del corso di laurea magistrale in Imprenditorialità e Innovazione. Se vuoi diventare un imprenditore o vuoi semplicemente realizzare una tua idea e creare una startup, ti forniamo gli strumenti necessari per offrire prodotti e servizi innovativi sul mercato."
     }
-  },
-
-  "page-intro": {
-    "intro": { "excerpt": "La creatività imprenditoriale ha bisogno di una solida preparazione. Se la prima difficilmente può essere insegnata, fornire la seconda è invece l’obiettivo del corso di laurea magistrale in Imprenditorialità e Innovazione. Se vuoi diventare un imprenditore o vuoi semplicemente realizzare una tua idea e creare una startup, ti forniamo gli strumenti necessari per offrire prodotti e servizi innovativi sul mercato." },
-    "description":  { "excerpt": "Le <a href=\"#\">lingue di insegnamento</a> sono il tedesco, l’italiano e l’inglese." }
   },
 
   "page-glance": {
@@ -20,9 +19,16 @@
   },
 
   "page-study-structure": {
-    "headline": "Struttura",
-    "excerpt": "I due anni di corso si tengono presso il campus di Bolzano e fondono pratica e teoria. Un esempio è il \"Laboratorio di Imprenditorialità\" nel quale applichi a situazioni reali ciò che hai appreso a lezione. Nell’insegnamento di \"Lean Entrepreneurship\", invece, il professore ti guiderà nel processo di avviamento di una start up.<br><br>Oltre al tirocinio, nel secondo anno potrai partecipare a un viaggio di studio assieme ai professori. Lo scorso anno, ad esempio, gli studenti si sono recati a Tolosa per conoscerne l’ecosistema di imprese e startup: hanno così potuto visitare l’Airbus e parlare con venture capitalist per capire come presentare al meglio i loro progetti a possibili finanziatori.",
-    "button": "Il piano di studi"
+    "block-text-headline": {
+      "headline": "Struttura"
+    },
+    "block-text-paragraph": {
+      "excerpt": "I due anni di corso si tengono presso il campus di Bolzano e fondono pratica e teoria. Un esempio è il \"Laboratorio di Imprenditorialità\" nel quale applichi a situazioni reali ciò che hai appreso a lezione. Nell’insegnamento di \"Lean Entrepreneurship\", invece, il professore ti guiderà nel processo di avviamento di una start up.<br><br>Oltre al tirocinio, nel secondo anno potrai partecipare a un viaggio di studio assieme ai professori. Lo scorso anno, ad esempio, gli studenti si sono recati a Tolosa per conoscerne l’ecosistema di imprese e startup: hanno così potuto visitare l’Airbus e parlare con venture capitalist per capire come presentare al meglio i loro progetti a possibili finanziatori."
+    },
+    "block-text-button": {
+      "class": "btn-medium",
+      "button": "Il piano di studi"
+    }
   },
 
   "page-people": {
@@ -33,27 +39,40 @@
   },
 
   "page-exchange": {
-    "headline": "Programmi di scambio e tirocini",
-    "excerpt": "Unibz ha stipulato più di 100 <a href=\"#\">accordi di scambio</a> con università partner in tutto il mondo e ha una vasta rete di cooperazioni con aziende italiane e estere presso le quali puoi svolgere il <a href=\"#\">tirocinio</a>."
-  },
-
-  "page-work": {
-    "intro": {
-      "headline": "Prospettive professionali",
-      "excerpt": "Una volta laureato, sarai in grado di avviare un’impresa. Potrai proporti come project manager per lo sviluppo di nuovi prodotti e per la gestione delle innovazioni in imprese già esistenti oppure proseguire gli studi con un master di secondo livello o un dottorato di ricerca."
+    "block-text-headline": {
+      "headline": "Programmi di scambio e tirocini"
     },
-    "testimonial": {
-      "headline": "Daniel Kaneider, Bolzano",
-      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/entrep-trestimonial.jpg",
-      "excerpt": "«Ho sempre voluto fondare un'impresa tutta mia. La motivazione non mi manca e le energie nemmeno. Grazie ai corsi seguiti e al costante accompagnamento dei professori, ho dato vita a una start up, Wams. Cosa facciamo? Produciamo calze di lana! Cerchiamo di portare avanti e al tempo stesso di innovare la prestigiosa tradizione manufatturiera italiana in questo settore. So quello che voglio - fare l’imprenditore - e questa laurea mi ha aiutato a credere in quello che faccio.»"
+    "block-text-paragraph": {
+      "excerpt": "Unibz ha stipulato più di 100 <a href=\"#\">accordi di scambio</a> con università partner in tutto il mondo e ha una vasta rete di cooperazioni con aziende italiane e estere presso le quali puoi svolgere il <a href=\"#\">tirocinio</a>."
     }
   },
 
-  "page-admission": {
-    "headline": "Ammissione",
-    "excerpt": "La motivazione conta, sia nel mondo dell’impresa che per accedere a questa laurea magistrale! Verranno valutati i tuoi studi universitari, una lettera o un video motivazionale e l’idea per una nuova impresa (o, in alternativa, il risultato del test GMAT).<br><br>Per essere ammesso dovrai dimostrare un livello di conoscenza pari a C1 nella prima lingua e B2 nella seconda lingua. Se non possiedi un certificato linguistico riconosciuto, puoi sostenere un <a href=\"#\">esame di lingua</a> presso unibz.<br><br>Trovi tutte le informazioni sui documenti necessari per la preiscrizione nel <a href=\"#\">Manifesto degli studi</a>.<br><br>Contattaci al tel. +39 0471 012100 oppure a <a href=\"#\">study@unibz.it</a>",
-    "button": "Preiscriviti!"
+  "page-work": {
+    "block-text-headline": {
+      "headline": "Prospettive professionali"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Una volta laureato, sarai in grado di avviare un’impresa. Potrai proporti come project manager per lo sviluppo di nuovi prodotti e per la gestione delle innovazioni in imprese già esistenti oppure proseguire gli studi con un master di secondo livello o un dottorato di ricerca."
+    },
+    "img-avatar": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/entrep-trestimonial.jpg",
+    "headline": "Daniel Kaneider, Bolzano",
+    "span": "Wams CEO",
+    "excerpt": "Ho sempre voluto fondare un'impresa tutta mia. La motivazione non mi manca e le energie nemmeno. Grazie ai corsi seguiti e al costante accompagnamento dei professori, ho dato vita a una start up, Wams. Cosa facciamo? Produciamo calze di lana! Cerchiamo di portare avanti e al tempo stesso di innovare la prestigiosa tradizione manufatturiera italiana in questo settore."
   },
+
+  "page-admission": {
+    "block-text-headline": {
+      "headline": "Ammissione"
+    },
+    "block-text-paragraph": {
+    "excerpt": "La motivazione conta, sia nel mondo dell’impresa che per accedere a questa laurea magistrale! Verranno valutati i tuoi studi universitari, una lettera o un video motivazionale e l’idea per una nuova impresa (o, in alternativa, il risultato del test GMAT).<br><br>Per essere ammesso dovrai dimostrare un livello di conoscenza pari a C1 nella prima lingua e B2 nella seconda lingua. Se non possiedi un certificato linguistico riconosciuto, puoi sostenere un <a href=\"#\">esame di lingua</a> presso unibz.<br><br>Trovi tutte le informazioni sui documenti necessari per la preiscrizione nel <a href=\"#\">Manifesto degli studi</a>.<br><br>Contattaci al tel. +39 0471 012100 oppure a <a href=\"#\">study@unibz.it</a>"
+    },
+    "block-text-button": {
+      "class": "btn-big",
+      "button": "Preiscriviti!"
+    }
+  },
+
   "page-footer": {
     "headline": "Facoltà di Economia",
     "footer-place": [
