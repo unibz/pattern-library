@@ -1,24 +1,43 @@
 {
   "page-hero": {
-    "hero-text": {
+    "hero-headline": {
       "hero-label": "true",
       "hero-title": "true"
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold"
     }
   },
-  "page-intro": {
-    "intro": "true",
-    "description": "true"
-  },
+
   "page-glance": "true",
-  "page-study-structure": "true",
-  "page-people": "true",
-  "page-exchange": "true",
-  "page-work": {
-    "intro": "true",
-    "testimonial": "true"
+
+  "page-study-structure": {
+    "block-text-headline": "true",
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-medium"
+    }
   },
-  "page-admission": "true",
+
+  "page-people": "true",
+
+  "page-exchange": {
+    "block-text-headline": "true",
+    "block-text-paragraph": "true"
+  },
+
+  "page-work": "true",
+
+  "page-admission": {
+    "block-text-headline": "true",
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-big"
+    }
+  },
+
   "page-footer": {
+    "footer-banner": "true",
     "footer-place": {
       "footer-address": "true",
       "footer-contact": "true"
@@ -27,7 +46,6 @@
     "footer-social": "true",
     "footer-newsletter": "true",
     "footer-openings": "true",
-    "footer-transparency": "true",
     "footer-links": {
       "footer-credit": "true"
     }

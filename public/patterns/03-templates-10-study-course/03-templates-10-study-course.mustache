@@ -1,92 +1,35 @@
 {{&gt; organisms-header }}
+
 &lt;main&gt;
   {{# page-hero }}
     {{&gt; organisms-hero }}
   {{/ page-hero }}
 
-  {{# page-intro }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{# intro }}
-            {{&gt; atoms-text-paragraph (class: &quot;intro-bold&quot;) }}
-          {{/ intro }}
-          {{# description }}
-            {{&gt; atoms-text-paragraph }}
-          {{/ description }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
-  {{/ page-intro }}
-
   {{# page-glance }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      {{&gt; molecules-block-glance }}
-    &lt;/section&gt;
+    {{&gt; organisms-block-glance }}
   {{/ page-glance }}
   
   {{# page-study-structure }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-          {{&gt; atoms-text-paragraph }}
-          {{&gt; atoms-button-medium }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-text }}
   {{/ page-study-structure }}
 
   {{# page-people }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        {{&gt; molecules-media-block }}
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-media }}
   {{/ page-people }}
 
   {{# page-exchange }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-          {{&gt; atoms-text-paragraph }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-text }}
   {{/ page-exchange }}
 
   {{# page-work }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{# intro }}
-            {{&gt; atoms-heading-2 }}
-            {{&gt; atoms-text-paragraph }}
-          {{/ intro }}
-          {{# testimonial }}
-            {{&gt; atoms-heading-3 }}
-            {{&gt; atoms-image-4x3 (class:&quot;left&quot;) }}
-            {{&gt; atoms-text-paragraph }}
-          {{/ testimonial }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-testimonial }}
   {{/ page-work }}
 
   {{# page-admission }}
-    &lt;section class=&quot;l-section&quot;&gt;
-      &lt;div class=&quot;l-container&quot;&gt;
-        &lt;div class=&quot;typography&quot;&gt;
-          {{&gt; atoms-heading-2 }}
-          {{&gt; atoms-text-paragraph }}
-          {{&gt; atoms-button-big }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
+    {{&gt; organisms-block-text }}
   {{/ page-admission }}
-
 &lt;/main&gt;
+
 {{# page-footer }}
   {{&gt; organisms-footer }}
 {{/ page-footer }}

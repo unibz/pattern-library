@@ -1,92 +1,35 @@
 {{> organisms-header }}
+
 <main>
   {{# page-hero }}
     {{> organisms-hero }}
   {{/ page-hero }}
 
-  {{# page-intro }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{# intro }}
-            {{> atoms-text-paragraph (class: "intro-bold") }}
-          {{/ intro }}
-          {{# description }}
-            {{> atoms-text-paragraph }}
-          {{/ description }}
-        </div>
-      </div>
-    </section>
-  {{/ page-intro }}
-
   {{# page-glance }}
-    <section class="l-section">
-      {{> molecules-block-glance }}
-    </section>
+    {{> organisms-block-glance }}
   {{/ page-glance }}
   
   {{# page-study-structure }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-text-paragraph }}
-          {{> atoms-button-medium }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-study-structure }}
 
   {{# page-people }}
-    <section class="l-section">
-      <div class="l-container">
-        {{> molecules-media-block }}
-      </div>
-    </section>
+    {{> organisms-block-media }}
   {{/ page-people }}
 
   {{# page-exchange }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-text-paragraph }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-exchange }}
 
   {{# page-work }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{# intro }}
-            {{> atoms-heading-2 }}
-            {{> atoms-text-paragraph }}
-          {{/ intro }}
-          {{# testimonial }}
-            {{> atoms-heading-3 }}
-            {{> atoms-image-4x3 (class:"left") }}
-            {{> atoms-text-paragraph }}
-          {{/ testimonial }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-testimonial }}
   {{/ page-work }}
 
   {{# page-admission }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography">
-          {{> atoms-heading-2 }}
-          {{> atoms-text-paragraph }}
-          {{> atoms-button-big }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-admission }}
-
 </main>
+
 {{# page-footer }}
   {{> organisms-footer }}
 {{/ page-footer }}
