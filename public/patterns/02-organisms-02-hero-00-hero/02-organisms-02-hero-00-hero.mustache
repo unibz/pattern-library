@@ -4,7 +4,7 @@
       &lt;span class=&quot;hero_caption&quot;&gt;{{ headline }}&lt;/span&gt;
     {{/ hero-caption }}
   &lt;/div&gt;
-  {{# hero-text }}
+  {{# hero-headline }}
     &lt;div class=&quot;hero_text&quot;&gt;
       {{# hero-label }}
         {{&gt; atoms-heading-5 (class:&quot;hero_label&quot;) }}
@@ -13,5 +13,10 @@
         {{&gt; atoms-heading-1 (class:&quot;hero_title&quot;) }}
       {{/ hero-title }}
     &lt;/div&gt;
-  {{/ hero-text }}
+  {{/ hero-headline }}
+  {{# hero-intro }}
+  &lt;div class=&quot;l-container-small&quot;&gt;
+    {{&gt; atoms-text-paragraph }}
+  &lt;/div&gt;
+  {{/ hero-intro }}
 &lt;/section&gt;

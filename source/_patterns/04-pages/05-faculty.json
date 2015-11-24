@@ -3,18 +3,18 @@
 
   "page-hero": {
     "img-background": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-hero.jpg",
-    "hero-text": {
+    "hero-headline": {
       "hero-label": {
         "headline": "Fakultät für"
       },
       "hero-title": {
         "headline": "Naturwissenschaften und Technik"
       }
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold",
+      "excerpt": "An der 2007 gegründeten Fakultät für Naturwissenschaften und Technik lehren und forschen 22 Professoren und eine ständig steigende Anzahl an Forschern in den Bereichen Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen."
     }
-  },
-
-  "page-intro": {
-    "excerpt": "An der 2007 gegründeten Fakultät für Naturwissenschaften und Technik lehren und forschen 22 Professoren und eine ständig steigende Anzahl an Forschern in den Bereichen Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen."
   },
 
   "page-description": {

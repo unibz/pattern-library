@@ -1,8 +1,10 @@
 {
   "page-hero": {
-    "hero-caption": "true"
+    "hero-caption": "true",
+    "hero-intro": {
+      "class": "hero_intro"
+    }
   },
-  "page-intro": "true",
 
   "page-faculties": {
     "block-link-text": "true",

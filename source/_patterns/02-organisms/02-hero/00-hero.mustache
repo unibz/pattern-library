@@ -4,7 +4,7 @@
       <span class="hero_caption">{{ headline }}</span>
     {{/ hero-caption }}
   </div>
-  {{# hero-text }}
+  {{# hero-headline }}
     <div class="hero_text">
       {{# hero-label }}
         {{> atoms-heading-5 (class:"hero_label") }}
@@ -13,5 +13,10 @@
         {{> atoms-heading-1 (class:"hero_title") }}
       {{/ hero-title }}
     </div>
-  {{/ hero-text }}
+  {{/ hero-headline }}
+  {{# hero-intro }}
+  <div class="l-container-small">
+    {{> atoms-text-paragraph }}
+  </div>
+  {{/ hero-intro }}
 </section>

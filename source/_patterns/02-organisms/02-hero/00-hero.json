@@ -1,7 +1,10 @@
 {
   "hero-caption": "true",
-  "hero-text": {
+  "hero-headline": {
     "hero-label": "true",
     "hero-title": "true"
+  },
+  "hero-intro": {
+    "class": "hero_intro"
   }
 }

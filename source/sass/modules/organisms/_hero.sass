@@ -6,9 +6,9 @@
 //============================================
 
 .hero
-  margin-bottom: $space-half
+  margin-bottom: $space
   +mq($bp-md)
-    margin-bottom: $space
+    margin-bottom: $space*2
 
 
 // Hero Image
@@ -38,6 +38,28 @@
   bottom: -20px
   color: #ccc
   font-size: $fs-small
+
+
+// Hero Intro
+//============================================
+
+.hero_intro
+  +h3
+  font-weight: 300
+  margin-top: $space
+  margin-bottom: 0
+  line-height: 1.6
+
+.hero_intro > a
+  font-size: inherit
+
+.hero_intro-bold
+  +h4
+  margin-top: $space
+  margin-bottom: $space
+  color: $color-text-gray
+  font-weight: 600
+  line-height: 1.6
 
 
 // Hero Text
