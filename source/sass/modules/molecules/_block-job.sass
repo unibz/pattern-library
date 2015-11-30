@@ -3,6 +3,16 @@
 //============================================
 
 
+// Block Jobs Wrapper
+//============================================
+
+.job_wrapper
+  +mq($bp-lg)
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+
 // Block Job Wrapper
 //============================================
 
@@ -10,6 +20,8 @@
   display: flex
   align-items: center
   margin-bottom: $space
+  +mq($bp-lg)
+    flex: 0 0 48%
 
 
 // Block Job Thumb

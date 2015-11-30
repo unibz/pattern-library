@@ -1,0 +1,10 @@
+{
+  "tools": {
+    "search": "true",
+    "filter": "true"
+  },
+  "jobs": {
+    "job-brand": "true",
+    "job-location": "true"
+  }
+}

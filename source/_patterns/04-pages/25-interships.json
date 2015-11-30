@@ -3,34 +3,10 @@
     "hero-title": { "headline": "Interships offers" }
   },
 
-  "filter-toggle": {"button": "Filter"},
-  "filter": [
-    {
-      "theme": "t_eco",
-      "button": "ECO",
-      "class": "filter_button"
-    },
-    {
-      "theme": "t_comp",
-      "button": "COMP",
-      "class": "filter_button btn-outline-active"
-    },
-    {
-      "theme": "t_tech",
-      "button": "TECH",
-      "class": "filter_button"
-    },
-    {
-      "theme": "t_edu",
-      "button": "EDU",
-      "class": "filter_button"
-    },
-    {
-      "theme": "t_dsgn",
-      "button": "DSGN",
-      "class": "filter_button"
-    }
-  ],
+  "tools": {
+    "search": "true",
+    "filter": "true"
+  },
 
   "span": "Search for interships...",
 

@@ -4,27 +4,8 @@
   {{# page-hero }}
     {{> organisms-hero-small }}
   {{/ page-hero }}
-
-  <section class="l-section">
-    <div class="l-container">
-      <div class="g-row">
-        <div class="g g-lg-10 g-lg-push-14">
-            {{> atoms-forms-input-search }}
-        </div>
-        <div class="g g-lg-14 g-lg-pull-10">
-          {{# jobs }}
-            {{> molecules-block-job }}
-          {{/ jobs }}
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="l-section">
-    <div class="l-container-small">
-      {{> molecules-nav-pagination }}
-    </div>
-  </section>
+  {{> organisms-latest-jobs }}
+  {{> organisms-pagination }}
 </main>
 
 {{# page-footer }}

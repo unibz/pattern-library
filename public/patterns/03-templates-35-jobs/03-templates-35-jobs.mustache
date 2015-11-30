@@ -4,27 +4,8 @@
   {{# page-hero }}
     {{&gt; organisms-hero-small }}
   {{/ page-hero }}
-
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container&quot;&gt;
-      &lt;div class=&quot;g-row&quot;&gt;
-        &lt;div class=&quot;g g-lg-10 g-lg-push-14&quot;&gt;
-            {{&gt; atoms-forms-input-search }}
-        &lt;/div&gt;
-        &lt;div class=&quot;g g-lg-14 g-lg-pull-10&quot;&gt;
-          {{# jobs }}
-            {{&gt; molecules-block-job }}
-          {{/ jobs }}
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-  
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container-small&quot;&gt;
-      {{&gt; molecules-nav-pagination }}
-    &lt;/div&gt;
-  &lt;/section&gt;
+  {{&gt; organisms-latest-jobs }}
+  {{&gt; organisms-pagination }}
 &lt;/main&gt;
 
 {{# page-footer }}
