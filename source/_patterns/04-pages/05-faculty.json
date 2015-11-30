@@ -126,7 +126,9 @@
 
 
   "page-news": {
-    "headline": "News",
+    "latest-post-title": {
+      "headline": "News"
+    },
     "latest-post": [
       {
         "span": "Awards",
@@ -147,11 +149,15 @@
         "date": "20 Jan"
       }
     ],
-    "button": "Alle News"
+    "latest-post-button": {
+      "button": "Alle News"
+    }
   },
 
   "page-events": {
-    "headline": "Events",
+    "latest-events-title": {
+      "headline": "Events"
+    },
     "latest-events": [
       {
         "event-image": {
@@ -164,7 +170,9 @@
         "event-date": { "date": "24. Juni 2015" }
       }
     ],
-    "button": "Alle Events"
+    "latest-events-button": {
+      "button": "Alle Events"
+    }
   },
 
   "page-footer": {

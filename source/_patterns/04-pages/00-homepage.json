@@ -98,7 +98,9 @@
   },
 
   "page-news": {
-    "headline": "News",
+    "latest-post-title": {
+      "headline": "News"
+    },
     "latest-post": [
       {
         "span": "Award",
@@ -119,11 +121,15 @@
         "date": "20/01"
       }
     ],
-    "button": "Alle News"
+    "latest-post-button": {
+      "button": "Alle News"
+    }
   },
 
   "page-events": {
-    "headline": "Events",
+    "latest-events-title": {
+      "headline": "Events"
+    },
     "latest-events": [
       {
         "event-image": {
@@ -152,7 +158,9 @@
         "event-time": {"time": "16:30 - 18:30"}
       }
     ],
-    "button": "Alle Events"
+    "latest-events-button": {
+      "button": "Alle Events"
+    }
   },
 
   "page-footer": {

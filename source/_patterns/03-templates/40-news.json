@@ -9,7 +9,10 @@
     "calendar": "true"
   },
 
-  "news": "true",
+  "page-content": {
+    "container-class": "l-container-small-left",
+    "latest-post": "true"
+  },
 
   "page-footer": {
     "footer-place": {

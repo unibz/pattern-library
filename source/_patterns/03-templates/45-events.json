@@ -9,6 +9,36 @@
     "calendar": "true"
   },
 
+  "page-content": {
+    "container-class": "l-container-small-left",
+    "latest-events": [
+      {
+        "event-image": "true",
+        "event-title": "true",
+        "event-subtitle": "true",
+        "event-location": "true",
+        "event-time": "true",
+        "event-date": "true"
+      },
+      {
+        "event-image": "true",
+        "event-title": "true",
+        "event-subtitle": "true",
+        "event-location": "true",
+        "event-time": "true",
+        "event-date": "true"
+      },
+      {
+        "event-image": "true",
+        "event-title": "true",
+        "event-subtitle": "true",
+        "event-location": "true",
+        "event-time": "true",
+        "event-date": "true"
+      }
+    ]
+  },
+
   "page-footer": {
     "footer-place": {
       "footer-address": "true",

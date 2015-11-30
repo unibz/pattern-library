@@ -4,87 +4,90 @@
   },
 
   "tools": {
-    "span": "Search in news archive...",
+    "span": "Search in the news archive...",
     "search": "true",
     "filter": "true",
     "calendar": "true"
   },
 
-  "news": [
-    {
-      "span": "Award",
-      "headline": "Giorgio Pagliarani Best Paper Award a Cinzia Battistella",
-      "excerpt": "Il premio “Giorgio Pagliarani Best Paper Award è andato quest’anno a una ricercatrice della Facoltà di Scienze e Tecnologie di unibz, Cinzia Battistella.",
-      "date": "20/10",
-      "button": "Read More"
-    },
-    {
-      "class": "t_eco ",
-      "span": "News",
-      "headline": "Die Lobby-Republik",
-      "excerpt": "An diesem Mittwoch, 21. Oktober wird Hans-Martin Tillack an der unibz sein Buch „Die Lobby-Republik. Wer in Deutschland die Strippen zieht“ vorstellen.",
-      "date": "19/10",
-      "button": "Read More"
-    },
-    {
-      "class": "t_comp ",
-      "span": "News",
-      "headline": "Auf der Suche nach Authentizität",
-      "excerpt": "Authentizität ist ein Begriff, der vor allem im Tourismus stark strapaziert wird. Wann aber wird ein Angebot als genuin authentisch empfunden?",
-      "date": "16/10",
-      "button": "Read More"
-    },
-    {
-      "headline": "Inclusive Student Mobility",
-      "span": "Event",
-      "excerpt": "Mobilità inclusiva era la parola chiave delle due giornate di convegno del 14 e 15 ottobre nel campus di Bolzano.",
-      "date": "15/10",
-      "button": "Read More"
-    },
-    {
-      "headline": "Plagiat? Nein, danke.",
-      "span": "Event",
-      "excerpt": "In Deutschland sind zwei Minister über ihre Doktorarbeiten gestolpert: um den Studierenden bereits vor dem Verfassen ihrer Bachelor-, Master- und...",
-      "date": "14/10",
-      "button": "Read More"
-    },
-    {
-      "class": "t_edu ",
-      "span": "News",
-      "headline": "Soziale Projekte realisieren",
-      "excerpt": "Wer ein Praktikum absolviert, wünscht sich immer öfters eines mit sozialem Hintergrund: dies gewährleistet Coopcup, bei welchem im Sommer 2015...",
-      "date": "14/10",
-      "button": "Read More"
-    },
-    {
-      "headline": "ACADEMIA im minimalistischen Kleid",
-      "span": "News",
-      "excerpt": "Weniger ist mehr – Less is More – titelt das aktuelle Wissenschaftsmagazin der unibz und EURAC. Der Ausspruch „Weniger ist mehr“ prägte im 20.",
-      "date": "14/10",
-      "button": "Read More"
-    },
-    {
-      "headline": "Convegno internazionale dell’Istituto Rosmini",
-      "span": "Event",
-      "excerpt": "Le università fra autonomia, formazione e informazione. Il 54° convegno dell'Istituto Antonio Rosmini di Bolzano si terrà questa settimana.",
-      "date": "13/10",
-      "button": "Read More"
-    },
-    {
-      "span": "Research",
-      "headline": "Gesellschaft, Umwelt & Innovation",
-      "excerpt": "Zum zweiten Mal nach 2013 hat der Prorektor für Forschung, Prof. Stefan Zerbe, einen Tag rund um die Forschung organisiert, den Research Day.",
-      "date": "12/10",
-      "button": "Read More"
-    },
-    {
-      "span": "Research",
-      "headline": "Research Day: mehr Projekte und Forschung",
-      "excerpt": "Interdisziplinär und international. Dies die Ausrichtung der Forschung der Freien Universität Bozen, die beim Research Day am heutigen Donnerstag...",
-      "date": "8/10",
-      "button": "Read More"
-    }
-  ],
+  "page-content": {
+    "container-class": "l-container-small-left",
+    "latest-post": [
+      {
+        "span": "Award",
+        "headline": "Giorgio Pagliarani Best Paper Award a Cinzia Battistella",
+        "excerpt": "Il premio “Giorgio Pagliarani Best Paper Award è andato quest’anno a una ricercatrice della Facoltà di Scienze e Tecnologie di unibz, Cinzia Battistella.",
+        "date": "20 Oct",
+        "button": "Read More"
+      },
+      {
+        "class": "t_eco ",
+        "span": "News",
+        "headline": "Die Lobby-Republik",
+        "excerpt": "An diesem Mittwoch, 21. Oktober wird Hans-Martin Tillack an der unibz sein Buch „Die Lobby-Republik. Wer in Deutschland die Strippen zieht“ vorstellen.",
+        "date": "19 Oct",
+        "button": "Read More"
+      },
+      {
+        "class": "t_comp ",
+        "span": "News",
+        "headline": "Auf der Suche nach Authentizität",
+        "excerpt": "Authentizität ist ein Begriff, der vor allem im Tourismus stark strapaziert wird. Wann aber wird ein Angebot als genuin authentisch empfunden?",
+        "date": "16 Oct",
+        "button": "Read More"
+      },
+      {
+        "headline": "Inclusive Student Mobility",
+        "span": "Event",
+        "excerpt": "Mobilità inclusiva era la parola chiave delle due giornate di convegno del 14 e 15 ottobre nel campus di Bolzano.",
+        "date": "15 Oct",
+        "button": "Read More"
+      },
+      {
+        "headline": "Plagiat? Nein, danke.",
+        "span": "Event",
+        "excerpt": "In Deutschland sind zwei Minister über ihre Doktorarbeiten gestolpert: um den Studierenden bereits vor dem Verfassen ihrer Bachelor-, Master- und...",
+        "date": "14 Oct",
+        "button": "Read More"
+      },
+      {
+        "class": "t_edu ",
+        "span": "News",
+        "headline": "Soziale Projekte realisieren",
+        "excerpt": "Wer ein Praktikum absolviert, wünscht sich immer öfters eines mit sozialem Hintergrund: dies gewährleistet Coopcup, bei welchem im Sommer 2015...",
+        "date": "14 Oct",
+        "button": "Read More"
+      },
+      {
+        "headline": "ACADEMIA im minimalistischen Kleid",
+        "span": "News",
+        "excerpt": "Weniger ist mehr – Less is More – titelt das aktuelle Wissenschaftsmagazin der unibz und EURAC. Der Ausspruch „Weniger ist mehr“ prägte im 20.",
+        "date": "14 Oct",
+        "button": "Read More"
+      },
+      {
+        "headline": "Convegno internazionale dell’Istituto Rosmini",
+        "span": "Event",
+        "excerpt": "Le università fra autonomia, formazione e informazione. Il 54° convegno dell'Istituto Antonio Rosmini di Bolzano si terrà questa settimana.",
+        "date": "13 Oct",
+        "button": "Read More"
+      },
+      {
+        "span": "Research",
+        "headline": "Gesellschaft, Umwelt & Innovation",
+        "excerpt": "Zum zweiten Mal nach 2013 hat der Prorektor für Forschung, Prof. Stefan Zerbe, einen Tag rund um die Forschung organisiert, den Research Day.",
+        "date": "12 Oct",
+        "button": "Read More"
+      },
+      {
+        "span": "Research",
+        "headline": "Research Day: mehr Projekte und Forschung",
+        "excerpt": "Interdisziplinär und international. Dies die Ausrichtung der Forschung der Freien Universität Bozen, die beim Research Day am heutigen Donnerstag...",
+        "date": "8 Oct",
+        "button": "Read More"
+      }
+    ]
+  },
 
   "page-footer": {
     "headline": "Press and Event Management", 

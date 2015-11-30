@@ -1,9 +1,15 @@
 <section class="l-section">
-  <div class="l-container-small">
-    {{> atoms-heading-2 (class: "h2")}}
-    {{# latest-post }}
-      {{> molecules-block-post }}
-    {{/ latest-post }}
-    {{> atoms-button-medium }}
+  <div class="l-container">
+    <div class="l-container-small {{ container-class }}">
+      {{# latest-post-title }}
+        {{> atoms-heading-2 (class: "h2")}}
+      {{/ latest-post-title }}
+      {{# latest-post }}
+        {{> molecules-block-post }}
+      {{/ latest-post }}
+      {{# latest-post-button }}
+        {{> atoms-button-medium }}
+      {{/ latest-post-button }}
+    </div>
   </div>
 </section>

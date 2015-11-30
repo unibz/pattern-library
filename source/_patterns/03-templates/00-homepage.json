@@ -53,10 +53,13 @@
   "page-library": "true",
 
   "page-news": {
-    "latest-post": "true"
+    "latest-post-title": "true",
+    "latest-post": "true",
+    "latest-post-button": "true"
   },
 
   "page-events": {
+    "latest-events-title": "true",
     "latest-events": [
       {
         "event-image": "true",
@@ -79,7 +82,8 @@
         "event-time": "true",
         "event-date": "true"
       }
-    ]
+    ],
+    "latest-events-button": "true",
   },
   
   "page-footer": {

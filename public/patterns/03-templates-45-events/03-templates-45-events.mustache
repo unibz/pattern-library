@@ -4,27 +4,11 @@
   {{# page-hero }}
     {{&gt; organisms-hero-small }}
   {{/ page-hero }}
-
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container&quot;&gt;
-      &lt;div class=&quot;g-row&quot;&gt;
-        &lt;div class=&quot;g g-lg-16&quot;&gt;
-          {{# page-events }}
-            {{&gt; molecules-block-event }}
-          {{/ page-events }}
-        &lt;/div&gt;
-        &lt;div class=&quot;g g-lg-8&quot;&gt;
-          
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
-
-  &lt;section class=&quot;l-section&quot;&gt;
-    &lt;div class=&quot;l-container-small&quot;&gt;
-      {{&gt; molecules-nav-pagination }}
-    &lt;/div&gt;
-  &lt;/section&gt;
+  {{&gt; organisms-search-find }}
+  {{# page-content }}
+    {{&gt; organisms-latest-events }}
+  {{/ page-content }}
+  {{&gt; organisms-pagination }}
 &lt;/main&gt;
 
 {{# page-footer }}
