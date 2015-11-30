@@ -1,0 +1,29 @@
+&lt;section class=&quot;l-section&quot;&gt;
+  &lt;div class=&quot;banner {{ class }}&quot; role=&quot;banner&quot; {{# empty }}{{/ empty }}{{^ empty }}style=&quot;background-image:url('{{ img-background }}')&quot;{{/ empty }}&gt;
+    &lt;div class=&quot;l-container&quot;&gt;
+      {{# banner-headline }}
+        {{&gt; atoms-heading-1 (class: &quot;banner_title&quot;) }}
+      {{/ banner-headline }}
+
+      {{# banner-subheadline }}
+        {{&gt; atoms-heading-2 (class: &quot;banner_subTitle&quot;) }}
+      {{/ banner-subheadline }}
+
+      {{# banner-text }}
+        {{&gt; atoms-text-paragraph (class: &quot;banner_text&quot;) }}
+      {{/ banner-text }}
+
+      {{# empty }}
+        {{# banner-button }}
+          {{&gt; atoms-button-alternate (class: &quot;banner_btn&quot;) }}
+        {{/ banner-button }}
+      {{/ empty }}
+
+      {{^ empty }}
+        {{# banner-button }}
+          {{&gt; atoms-button-medium (class: &quot;banner_btn&quot;) }}
+        {{/ banner-button }}
+      {{/ empty }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;

@@ -1,0 +1,96 @@
+{{# nav }}
+&lt;nav class=&quot;navMobile&quot;&gt;
+	&lt;ul class=&quot;navMobile_list&quot;&gt;
+    {{# items }}
+  		&lt;li&gt;
+        &lt;a class=&quot;navMobile_item&quot; href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;
+        {{# university }}
+          {{# nav-links-university }}
+            &lt;ul class=&quot;navMobile_second&quot;&gt;
+              {{# items }}
+                &lt;li&gt;&lt;a class=&quot;navMobile_link&quot; href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;&lt;/li&gt;
+              {{/ items }}
+            &lt;/ul&gt;
+          {{/ nav-links-university }}
+        {{/ university }}
+
+        {{# study-course }}
+          {{# nav-study-course }}
+            &lt;ul class=&quot;navMobile_second&quot;&gt;
+              {{# items }}
+                &lt;li&gt;
+                  &lt;a class=&quot;navMobile_item&quot; href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;
+                  {{# bachelor }}
+                    {{# nav-grid-bachelor }}
+                      &lt;ul class=&quot;navMobile_third&quot;&gt;
+                        {{# items }}
+                          &lt;li class=&quot;navMobile_link&quot;&gt;
+                            &lt;span class=&quot;navMobile_label&quot;&gt;{{ tag-item }}&lt;/span&gt;
+                            &lt;a href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;
+                          &lt;/li&gt;
+                        {{/ items }}
+                      &lt;/ul&gt;
+                    {{/ nav-grid-bachelor }}
+                  {{/ bachelor }}
+
+                  {{# master }}
+                    {{# nav-grid-master }}
+                      &lt;ul class=&quot;navMobile_third&quot;&gt;
+                        {{# items }}
+                          &lt;li class=&quot;navMobile_link&quot;&gt;
+                            &lt;span class=&quot;navMobile_label&quot;&gt;{{ tag-item }}&lt;/span&gt;
+                            &lt;a href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;
+                          &lt;/li&gt;
+                        {{/ items }}
+                      &lt;/ul&gt;
+                    {{/ nav-grid-master }}
+                  {{/ master }}
+
+                  {{# phd }}
+                    {{# nav-grid-phd }}
+                      &lt;ul class=&quot;navMobile_third&quot;&gt;
+                        {{# items }}
+                          &lt;li class=&quot;navMobile_link&quot;&gt;
+                            &lt;span class=&quot;navMobile_label&quot;&gt;{{ tag-item }}&lt;/span&gt;
+                            &lt;a href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;
+                          &lt;/li&gt;
+                        {{/ items }}
+                      &lt;/ul&gt;
+                    {{/ nav-grid-phd }}
+                  {{/ phd }}
+
+                  {{# lifelong }}
+                    {{# nav-grid-lifelong }}
+                      &lt;ul class=&quot;navMobile_third&quot;&gt;
+                        {{# items }}
+                          &lt;li class=&quot;navMobile_link&quot;&gt;
+                            &lt;span class=&quot;navMobile_label&quot;&gt;{{ tag-item }}&lt;/span&gt;
+                            &lt;a href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;
+                          &lt;/li&gt;
+                        {{/ items }}
+                      &lt;/ul&gt;
+                    {{/ nav-grid-lifelong }}
+                  {{/ lifelong }}
+                &lt;/li&gt;
+              {{/ items }}
+            &lt;/ul&gt;
+          {{/ nav-study-course }}
+        {{/ study-course }}
+
+        {{# faculty }}
+          {{# nav-links-faculty }}
+            &lt;ul class=&quot;navMobile_second&quot;&gt;
+              {{# items }}
+                &lt;li&gt;&lt;a class=&quot;navMobile_link&quot; href=&quot;{{ url }}&quot;&gt;{{ item }}&lt;/a&gt;&lt;/li&gt;
+              {{/ items }}
+            &lt;/ul&gt;
+          {{/ nav-links-faculty }}
+        {{/ faculty }}
+      &lt;/li&gt;
+    {{/ items }}
+    &lt;li&gt;
+      &lt;a class=&quot;navMobile_item&quot; href=&quot;{{ url }}&quot;&gt;Services&lt;/a&gt;
+    &lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+{{/ nav }}

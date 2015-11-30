@@ -1,0 +1,10 @@
+&lt;div class=&quot;{{ class }} post&quot;&gt;
+  {{&gt; atoms-text-date (class: &quot;post_date&quot;) }}
+  &lt;div class=&quot;post_body&quot;&gt;
+    {{&gt; atoms-text-span (class: &quot;post_topic&quot;)}}
+    &lt;a href=&quot;{{ url }}&quot;&gt;
+      {{&gt; atoms-heading-4 (class: &quot;post_title&quot;) }}
+    &lt;/a&gt;
+    {{&gt; atoms-text-paragraph (class: &quot;post_excerpt&quot;) }}
+  &lt;/div&gt;
+&lt;/div&gt;
