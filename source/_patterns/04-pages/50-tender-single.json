@@ -4,8 +4,8 @@
   },
 
   "page-content": {
-    "class": "typography-left",
-    "block-text-paragraph": {
+    "block-typography": {
+      "class": "typography-left",
       "excerpt": "<p><strong>Area</strong><br>Betriebswirtschaftslehre</p><p><strong>Faculty</strong><br>Fakultät für Wirtschaftswissenschaften</p><p><strong>Offers counter</strong><br>3</p><p><strong>Call</strong><br>Dekret des Rektors Nr. 08/2015 vom 13.01.2015<br><a class=\"typographyLink-download\" href=\"#\">Ausschreibung</a><br><a class=\"typographyLink-download\" href=\"#\">Vorlage CV</a><br><a class=\"typographyLink-download\" href=\"#\">Informationsblatt Privacy</a></p><p><strong>Deadline for presenting requests</strong><br>26.02.2015</p><p><strong>Decree</strong><br><a class=\"typographyLink-download\" href=\"#\">Dekret der Prorektorin n. 05/2015 vom 27.02.2015</a></p><p><strong>Criteria</strong><br><a class=\"typographyLink-download\" href=\"#\">Protokoll vom 17.03.2015</a></p><p><strong>Deadline for delivering documents</strong><br>18.05.2015</p><p><strong>Deadline for approval of documents</strong><br><a class=\"typographyLink-download\" href=\"#\">Dekret des Rektors Nr. 101/2015</a></p>"
     }
   },

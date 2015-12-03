@@ -17,7 +17,9 @@
     }
   },
 
-  "page-content": "true",
+  "page-content": {
+    "block-text-headline": "true"
+  },
 
   "page-footer": {
     "footer-place": {
