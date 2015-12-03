@@ -3,15 +3,14 @@
     "hero-title": "true"
   },
 
-  "page-meta": {
+  "page-intro": {
+    "event-image":"true",
+    "event-meta": "true",
     "event-location": "true",
+    "event-date": "true",
     "event-time": "true",
-    "event-date": "true"
+    "event-description": "true"
   },
-
-  "page-description": "true",
-  
-  "page-image": "true",
 
   "page-schedule": {
     "timetable-day": {

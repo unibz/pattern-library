@@ -4,69 +4,17 @@
   {{# page-hero }}
     {{> organisms-hero-small }}
   {{/ page-hero }}
-
-  <section class="l-section">
-    <div class="l-container">
-      <div class="g-row">
-        <div class="g g-md-8 g-lg-8 g-md-push-16">
-        {{# page-image }}
-          {{> atoms-image-2x3 (class:"event_poster")}}
-        {{/ page-image }}
-        </div>
-        <div class="g g-md-16 g-lg-14 g-xl-14 g-md-pull-8">
-          {{# page-meta }}
-            <div class="event_meta eventDetail_meta">
-              {{# event-location }}
-                {{> atoms-text-span (class: "event_location") }}
-              {{/ event-location }}
-              {{# event-date }}
-                {{> atoms-text-date (class: "event_date") }}
-              {{/ event-date }}
-              {{# event-time }}
-                {{> atoms-text-time (class: "event_time") }}
-              {{/ event-time }}
-            </div>
-          {{/ page-meta }}
-          {{# page-description }}
-            {{> atoms-text-paragraph }}
-          {{/ page-description }}
-        </div>
-    </div>
-  </section>
-
+  {{# page-intro }}
+    {{> organisms-event-intro }}
+  {{/ page-intro }}
   {{# page-schedule }}
-    <section class="l-section">
-      <div class="l-container">
-        {{> atoms-heading-3 (class:"h3 h-theme") }}
-        {{# timetable-day }}
-          {{> organisms-timetable-day }}
-        {{/ timetable-day }}
-      </div>
-    </section>
+    {{> organisms-timetable-day }}
   {{/ page-schedule }}
-
   {{# page-people }}
-    <section class="l-section">
-      <div class="l-container">
-        {{> organisms-people-section }}
-      </div>
-    </section>
+    {{> organisms-people-section }}
   {{/ page-people }}
-
   {{# page-location }}
-    <section class="l-section">
-      <div class="l-container">
-        {{> atoms-heading-3 (class:"h3 h-theme") }}
-        <div class="g-row">
-          <div class="g g-lg-8">
-            {{> atoms-text-paragraph }}
-          </div>
-          <div class="g g-lg-14 g-lg-off-2">
-            {{> atoms-maps }}
-          </div>
-        </div>
-      </div>
-    </section>
+    {{> organisms-location }}
   {{/ page-location }}
 </main>
 

@@ -1,6 +1,9 @@
 <section class="l-section">
   <div class="l-container">
     <div class="timetable_week">
+      {{# timetable-title }}
+        {{> atoms-heading-3 (class:"h3 h-theme")}}
+      {{/ timetable-title }}
       {{# timetable-day }}
         <div class="timetable_day">
           {{> atoms-heading-3 (class: "timetable_date")}}

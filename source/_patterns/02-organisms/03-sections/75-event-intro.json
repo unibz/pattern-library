@@ -1,0 +1,8 @@
+{
+  "event-image":"true",
+  "event-meta": "true",
+  "event-location": "true",
+  "event-date": "true",
+  "event-time": "true",
+  "event-description": "true"
+}

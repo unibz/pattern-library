@@ -1,6 +1,9 @@
 {
-  "timetable-items": {
-    "timetable-item-label": "true",
-    "timetable-item-button": "true"
+  "timetable-title": "true",
+  "timetable-day": {
+    "timetable-items": {
+      "timetable-item-label": "true",
+      "timetable-item-button": "true"
+    }
   }
 }
