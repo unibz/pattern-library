@@ -1,13 +1,25 @@
 {
   "page-hero": {
-    "hero-text": {
+    "hero-headline": {
       "hero-label": "true",
       "hero-title": "true"
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold"
     }
   },
 
-  "page-description": "true",
-  
+  "page-description": {
+    "block-text-headline": "true",
+    "block-text-image": {
+      "class": "right"
+    },
+    "block-text-paragraph": "true",
+    "block-text-button": {
+      "class": "btn-medium"
+    }
+  },
+
   "page-contact": {
     "contact": {
       "headline": "Name of the office",
@@ -41,9 +53,17 @@
   },
 
   "page-links": {
-    "links": {
-      "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
-    }
+    "links": [
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      },
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      },
+      {
+        "links-class": "g g-sm-12 g-md-12 g-lg-8 g-xl-6"
+      }
+    ]
   },
 
   "page-text": "true",
@@ -53,8 +73,8 @@
   "page-text-image-right": "true",
 
   "page-banner": {
-    "banner-title": "true",
-    "banner-sub-title": "true",
+    "banner-headline": "true",
+    "banner-subheadline": "true",
     "banner-button": "true"
   },
 
