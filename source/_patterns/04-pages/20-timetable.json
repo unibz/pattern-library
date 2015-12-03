@@ -109,6 +109,7 @@
       ]
     }
   ],
+  
   "page-footer": {
     "headline": "Freie Universität Bozen",
     "footer-place": [
@@ -143,7 +144,7 @@
       },
       {
         "headline": "Campus Brixen",
-        "img-4x3": "http://studiengaenge.zeit.de/uploads/images/college/ad68589/gallery/2013_29_Campus_Brixen_DEF_2.jpg",
+        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/footer-brixen.png",
         "footer-address": [
           {
             "span": "Regensburger Allee 16"
@@ -172,7 +173,7 @@
       },
       {
         "headline": "Campus Bruneck",
-        "img-4x3": "http://studiengaenge.zeit.de/uploads/images/college/ad68589/gallery/2013_29_Campus_Bruneck_DEF_2.jpg",
+        "img-4x3": "http://cbts2011.unibz.it/SiteCollectionImages/Ansicht-Unigeb%C3%A4ude-Haupteingang_s.jpg",
         "footer-address": [
           {
             "span": "Universitätsplatz 1"
@@ -200,10 +201,6 @@
         ]
       }
     ],
-    "footer-transparency": {
-      "headline": "Transparente Verwaltung",
-      "excerpt": "Die Inhalte dieser Seite sind in <a class=\"footer_link\" href=\"#\">Italienisch</a> verfügbar."
-    },
     "footer-map": "true",
     "footer-social": {
       "headline": "Folgen Sie uns"

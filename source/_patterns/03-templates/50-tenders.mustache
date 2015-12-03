@@ -4,27 +4,10 @@
   {{# page-hero }}
     {{> organisms-hero-small }}
   {{/ page-hero }}
-
-  <section class="l-section">
-    <div class="l-container">
-      <div class="g-row">
-        <div class="g g-lg-16">
-          {{# tenders }}
-            {{> molecules-block-tender }}
-          {{/ tenders }}
-        </div>
-        <div class="g g-lg-4">
-          <!-- Shall we put the filters as a sidebar? What About accesibility -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="l-section">
-    <div class="l-container-small">
-      {{> molecules-nav-pagination }}
-    </div>
-  </section>
+  {{# page-content }}
+    {{> organisms-latest-tenders }}
+  {{/ page-content }}
+  {{> organisms-pagination }}
 </main>
 
 {{# page-footer }}

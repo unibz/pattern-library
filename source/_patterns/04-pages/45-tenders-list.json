@@ -3,125 +3,197 @@
     "hero-title": {"headline": "Offenes Auswahlverfahren für Professoren auf Planstelle der II. Ebene"}
   },
 
-  "span": "",
+  "tools": {
+    "span": "Search for tenders and calls...",
+    "search": "true",
+    "filter": "true"
+  },
 
-  "page-filters": {
-    "filter-toggle": {"button": "Filter"},
-    "filter": [
+  "page-content": {
+    "container-class": "l-container-small-left",
+    "tenders": [
       {
-        "theme": "t_eco",
-        "button": "ECO",
-        "class": "filter_button"
+        "class": "t_edu",
+        "tender-theme": {"span": "Edu"},
+        "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
+        "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
+        "links": [
+          {
+            "button": "Ausschreibung"
+          },
+          {
+            "button": "Vorlage CV"
+          },
+          {
+            "button": "Informationsblatt Privacy"
+          }
+        ]
       },
       {
-        "theme": "t_comp",
-        "button": "COMP",
-        "class": "filter_button btn-outline-active"
+        "class": "t_comp",
+        "tender-theme": {"span": "Comp"},
+        "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
+        "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
+        "links": [
+          {
+            "button": "Ausschreibung"
+          },
+          {
+            "button": "Vorlage CV"
+          },
+          {
+            "button": "Informationsblatt Privacy"
+          }
+        ]
       },
       {
-        "theme": "t_tech",
-        "button": "TECH",
-        "class": "filter_button"
+        "class": "t_eco",
+        "tender-theme": {"span": "Eco"},
+        "tender-deadline": {"span": "Einreichfrist 26.02.2015"},
+        "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "SECS-P/07 | Betriebswirtschaftslehre"
       },
       {
-        "theme": "t_edu",
-        "button": "EDU",
-        "class": "filter_button"
+        "class": "t_eco",
+        "tender-theme": {"span": "Eco"},
+        "tender-deadline": {"span": "Einreichfrist 27.12.2014"},
+        "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "SECS-P08 | Unternehmensführung"
       },
       {
-        "theme": "t_dsgn",
-        "button": "DSGN",
-        "class": "filter_button"
+        "class": "t_edu",
+        "tender-theme": {"span": "Edu"},
+        "tender-deadline": {"span": "Einreichfrist 17.10.2015"},
+        "excerpt": "Unterstützende Tätigkeit im Rahmen des Forschungsprojektes:",
+        "headline": "Dynamic patterns of kinship relationships and child rearing in Südtirol: representations and new needs (DyFam)",
+        "links": [
+          {
+            "button": "Ausschreibung"
+          },
+          {
+            "button": "Anlage A"
+          },
+          {
+            "button": "Anlage B"
+          },
+          {
+            "button": "Informationsblatt Privacy"
+          }
+        ]
+      },
+      {
+        "class": "t_edu",
+        "tender-theme": {"span": "Edu"},
+        "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
+        "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
+        "links": [
+          {
+            "button": "Ausschreibung"
+          },
+          {
+            "button": "Vorlage CV"
+          },
+          {
+            "button": "Informationsblatt Privacy"
+          }
+        ]
+      },
+      {
+        "class": "t_comp",
+        "tender-theme": {"span": "Comp"},
+        "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
+        "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
+        "links": [
+          {
+            "button": "Ausschreibung"
+          },
+          {
+            "button": "Vorlage CV"
+          },
+          {
+            "button": "Informationsblatt Privacy"
+          }
+        ]
+      },
+      {
+        "class": "t_eco",
+        "tender-theme": {"span": "Eco"},
+        "tender-deadline": {"span": "Einreichfrist 26.02.2015"},
+        "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "SECS-P/07 | Betriebswirtschaftslehre"
+      },
+      {
+        "class": "t_eco",
+        "tender-theme": {"span": "Eco"},
+        "tender-deadline": {"span": "Einreichfrist 27.12.2014"},
+        "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
+        "headline": "SECS-P08 | Unternehmensführung"
+      },
+      {
+        "class": "t_edu",
+        "tender-theme": {"span": "Edu"},
+        "tender-deadline": {"span": "Einreichfrist 17.10.2015"},
+        "excerpt": "Unterstützende Tätigkeit im Rahmen des Forschungsprojektes:",
+        "headline": "Dynamic patterns of kinship relationships and child rearing in Südtirol: representations and new needs (DyFam)",
+        "links": [
+          {
+            "button": "Ausschreibung"
+          },
+          {
+            "button": "Anlage A"
+          },
+          {
+            "button": "Anlage B"
+          },
+          {
+            "button": "Informationsblatt Privacy"
+          }
+        ]
       }
     ]
   },
 
-  "tenders": [
-    {
-      "class": "t_edu",
-      "tender-theme": {"span": "Edu"},
-      "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
-      "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
-      "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
-      "links": [
-        {
-          "button": "Ausschreibung"
-        },
-        {
-          "button": "Vorlage CV"
-        },
-        {
-          "button": "Informationsblatt Privacy"
-        }
-      ]
-    },
-    {
-      "class": "t_comp",
-      "tender-theme": {"span": "Comp"},
-      "tender-deadline": {"span": "Einreichfrist 30.06.2015"},
-      "excerpt": "Professur Fakultät für Bildungswissenschaften wissenschaftlich-disziplinärer Bereich:",
-      "headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre",
-      "links": [
-        {
-          "button": "Ausschreibung"
-        },
-        {
-          "button": "Vorlage CV"
-        },
-        {
-          "button": "Informationsblatt Privacy"
-        }
-      ]
-    },
-    {
-      "class": "t_eco",
-      "tender-theme": {"span": "Eco"},
-      "tender-deadline": {"span": "Einreichfrist 26.02.2015"},
-      "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
-      "headline": "SECS-P/07 | Betriebswirtschaftslehre"
-    },
-    {
-      "class": "t_eco",
-      "tender-theme": {"span": "Eco"},
-      "tender-deadline": {"span": "Einreichfrist 27.12.2014"},
-      "excerpt": "Professur Fakultät für Wirtschaftswissenschaften wissenschaftlich-disziplinärer Bereich:",
-      "headline": "SECS-P08 | Unternehmensführung"
-    },
-    {
-      "class": "t_edu",
-      "tender-theme": {"span": "Edu"},
-      "tender-deadline": {"span": "Einreichfrist 17.10.2015"},
-      "excerpt": "Unterstützende Tätigkeit im Rahmen des Forschungsprojektes:",
-      "headline": "Dynamic patterns of kinship relationships and child rearing in Südtirol: representations and new needs (DyFam)",
-      "links": [
-        {
-          "button": "Ausschreibung"
-        },
-        {
-          "button": "Anlage A"
-        },
-        {
-          "button": "Anlage B"
-        },
-        {
-          "button": "Informationsblatt Privacy"
-        }
-      ]
-    }
-  ],
-
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
-    },
+    "headline": "Servicestelle Verwaltungspersonal",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
+        "footer-address": [
+          {
+            "span": "Franz-Innerhofer-Platz 8"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 011350"
+          },
+          {
+            "span": "Fax +39 0471 011359"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "personnel_administrative@unibz.it"
+          }
+        ]
+      }
+    ],
     "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }
