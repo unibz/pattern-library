@@ -3,26 +3,30 @@
     "hero-title": "true"
   },
 
-  "page-description": "true",
+  "page-description": {
+    "class": "typography-left",
+    "block-text-paragraph": "true"
+  },
 
-  "page-spaces": [
-    {
-      "banner-title": "true"
-    }
-  ],
+  "page-spaces": {
+    "class": "u-push-btm-none",
+    "banner-headline": "true"
+  },
 
-  "page-extra": "true",
+  "page-content": {
+    "class": "typography-left",
+    "block-text-paragraph": "true"
+  },
 
   "page-footer": {
-    "footer-places": {
-      "footer-place": {
-        "footer-address": "true",
-        "footer-contact": "true"
-      }
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
     },
     "footer-map": "true",
     "footer-social": "true",
     "footer-newsletter": "true",
+    "footer-openings": "true",
     "footer-transparency": "true",
     "footer-links": {
       "footer-credit": "true"

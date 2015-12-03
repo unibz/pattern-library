@@ -5,30 +5,18 @@
   {{/ page-hero }}
 
   {{# page-description }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography typography-left">
-          {{> atoms-text-paragraph }}
-        </div>
-      </div>
-    </section>
+    {{> organisms-block-text }}
   {{/ page-description }}
 
   <section class="l-section">
-  {{# page-spaces }}
-    {{> organisms-banner }}
-  {{/ page-spaces }}
+    {{# page-spaces }}
+      {{> organisms-banner }}
+    {{/ page-spaces }}
   </section>
 
-  {{# page-extra }}
-    <section class="l-section">
-      <div class="l-container">
-        <div class="typography typography-left">
-          {{> atoms-text-paragraph }}
-        </div>
-      </div>
-    </section>
-  {{/ page-extra }}
+  {{# page-content }}
+    {{> organisms-block-text }}
+  {{/ page-content }}
 
 </main>
 {{# page-footer }}

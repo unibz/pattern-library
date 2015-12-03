@@ -8,77 +8,92 @@
   },
 
   "page-description": {
-    "excerpt": "The faculty has several workshops to support studying and research, in which students work independently under the supervision of expert technicians. In these workshops the students’ ideas and concepts are verified and tested in order to be transformed into models and prototypes."
+    "class": "typography-left",
+    "block-text-paragraph": {
+      "excerpt": "The faculty has several workshops to support studying and research, in which students work independently under the supervision of expert technicians. In these workshops the students’ ideas and concepts are verified and tested in order to be transformed into models and prototypes."
+    }
   },
 
   "page-spaces": [
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/legno-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Carpentery Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/studio-foto-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Photography Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/tipografia-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Paper, Cutting and Binding Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/video-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Video Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/macpool-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Computer Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/metallo-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Metal Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/bankraum.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Assembly Pool and Surface Finishing Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/serigrafia-1-copy.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Silkprint Workshop"
       }
     },
     {
-      "class": "banner-overlay",
+      "class": "u-push-btm-none",
+      "banner-class": "banner-overlay",
       "img-background": "https://www.unibz.it/SiteCollectionImages/cnc.gif",
-      "banner-title": {
+      "banner-headline": {
         "headline": "Digital Modelling Workshop"
       }
     }
   ],
 
-  "page-extra": {
-    "excerpt": "All workshops are open from Monday to Friday. The morning from 09:00 to 12:00 and the afternoon from 13:00 to 17:00; For further information you can contact the <a href=\"#\">workshop head of department</a> or <a href=\"#\">watch the security video courses</a>."
+  "page-content": {
+    "class": "typography-left",
+    "block-text-paragraph": {
+      "excerpt": "All workshops are open from Monday to Friday. The morning from 09:00 to 12:00 and the afternoon from 13:00 to 17:00; For further information you can contact the <a href=\"#\">workshop head of department</a> or <a href=\"#\">watch the security video courses</a>."
+    }
   },
 
   "page-footer": {

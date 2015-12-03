@@ -1,5 +1,5 @@
-&lt;section class=&quot;l-section&quot;&gt;
-  &lt;div class=&quot;banner {{ class }}&quot; role=&quot;banner&quot; {{# empty }}{{/ empty }}{{^ empty }}style=&quot;background-image:url('{{ img-background }}')&quot;{{/ empty }}&gt;
+&lt;section class=&quot;l-section {{ class }}&quot;&gt;
+  &lt;div class=&quot;banner {{ banner-class }}&quot; role=&quot;banner&quot; {{# empty }}{{/ empty }}{{^ empty }}style=&quot;background-image:url('{{ img-background }}')&quot;{{/ empty }}&gt;
     &lt;div class=&quot;l-container&quot;&gt;
       {{# banner-headline }}
         {{&gt; atoms-heading-1 (class: &quot;banner_title&quot;) }}
