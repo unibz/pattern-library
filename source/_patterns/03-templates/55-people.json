@@ -18,7 +18,9 @@
   },
 
   "page-content": {
-    "block-text-headline": "true"
+    "block-typography": {
+      "class": "typography-left"
+    }
   },
 
   "page-footer": {
