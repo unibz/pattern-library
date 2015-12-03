@@ -5,6 +5,7 @@
 
   "page-jobs": [
     {
+      "class": "typography-left",
       "headline": "Professoren und Forscher auf Planstelle",
       "links": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "class": "typography-left",
       "headline": "Forscher mit befristetem Arbeitsverhältnis",
       "links": [
         {
@@ -59,6 +61,7 @@
       ]
     },
     {
+      "class": "typography-left",
       "headline": "Beauftragte in der Lehre",
       "links": [
         {
@@ -72,6 +75,7 @@
       ]
     },
     {
+      "class": "typography-left",
       "headline": "Verwaltungspersonal",
       "links": [
         {
@@ -87,17 +91,42 @@
   ],
 
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
-    },
+    "headline": "Servicestelle Verwaltungspersonal",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
+        "footer-address": [
+          {
+            "span": "Franz-Innerhofer-Platz 8"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 011350"
+          },
+          {
+            "span": "Fax +39 0471 011359"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "personnel_administrative@unibz.it"
+          }
+        ]
+      }
+    ],
     "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }

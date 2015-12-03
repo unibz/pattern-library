@@ -3,18 +3,50 @@
     "hero-title": {"headline": "FIS/08 Didaktik und Geschichte der Physik – BIO/01 Allgemeine Botanik mit Lehre"}
   },
 
+  "page-content": {
+    "class": "typography-left",
+    "block-text-paragraph": {
+      "excerpt": "<p><strong>Area</strong><br>Betriebswirtschaftslehre</p><p><strong>Faculty</strong><br>Fakultät für Wirtschaftswissenschaften</p><p><strong>Offers counter</strong><br>3</p><p><strong>Call</strong><br>Dekret des Rektors Nr. 08/2015 vom 13.01.2015<br><a class=\"typographyLink-download\" href=\"#\">Ausschreibung</a><br><a class=\"typographyLink-download\" href=\"#\">Vorlage CV</a><br><a class=\"typographyLink-download\" href=\"#\">Informationsblatt Privacy</a></p><p><strong>Deadline for presenting requests</strong><br>26.02.2015</p><p><strong>Decree</strong><br><a class=\"typographyLink-download\" href=\"#\">Dekret der Prorektorin n. 05/2015 vom 27.02.2015</a></p><p><strong>Criteria</strong><br><a class=\"typographyLink-download\" href=\"#\">Protokoll vom 17.03.2015</a></p><p><strong>Deadline for delivering documents</strong><br>18.05.2015</p><p><strong>Deadline for approval of documents</strong><br><a class=\"typographyLink-download\" href=\"#\">Dekret des Rektors Nr. 101/2015</a></p>"
+    }
+  },
+
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
-    },
+    "headline": "Servicestelle Verwaltungspersonal",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
+        "footer-address": [
+          {
+            "span": "Franz-Innerhofer-Platz 8"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 011350"
+          },
+          {
+            "span": "Fax +39 0471 011359"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "personnel_administrative@unibz.it"
+          }
+        ]
+      }
+    ],
     "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }
