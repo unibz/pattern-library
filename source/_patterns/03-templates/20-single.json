@@ -66,11 +66,7 @@
     ]
   },
 
-  "page-text": "true",
-
   "page-glance": "true",
-
-  "page-text-image-right": "true",
 
   "page-banner": {
     "banner-headline": "true",
