@@ -5,53 +5,13 @@
     {{> organisms-hero-small }}
   {{/ page-hero }}
 
-  <section class="l-section">
-    <div class="l-container">
-      <div class="g-row">
-        <div class="g g-lg-16">
-          {{> molecules-post-header }}
-          {{# post-intro }}
-            <div class="typography typography-left">
-              {{> atoms-text-paragraph (class:"intro-post")}}
-            </div>
-          {{/ post-intro }}
-        </div>
-    </div>
-  </section>
+  {{# page-header }}
+    {{> organisms-post-header }}
+  {{/ page-header }}
 
-  <section class="l-section">
-    <div class="l-container">
-      <div class="g-row">
-        <div class="g g-lg-16">
-          <div class="typography typography-left">
-            {{> atoms-text-paragraph }}
-            {{> atoms-heading-2 }}
-            {{> atoms-text-paragraph }}
-            {{> atoms-button }}
-            {{> atoms-heading-3 }}
-            {{> atoms-text-paragraph }}
-            {{> molecules-accordion }}
-            {{> atoms-heading-4 }}
-            {{> atoms-image-4x3 (class:"right") }}
-            {{> atoms-text-paragraph }}
-            {{> atoms-heading-5 }}
-            {{> atoms-text-paragraph }}
-            {{> atoms-text-blockquote }}
-            {{> atoms-text-paragraph }}
-            {{> atoms-text-paragraph }}
-            {{> molecules-figure-with-caption }}
-            {{> atoms-text-paragraph }}
-            {{> molecules-embed-with-caption }}
-            {{> atoms-text-paragraph }}
-            {{> atoms-button-big }}
-          </div>
-        </div>
-        <div class="g g-lg-8">
-          <!-- Related articles? -->
-        </div>
-      </div>
-    </div>
-  </section>
+  {{# page-content }}
+    {{> organisms-block-typography }}
+  {{/ page-content }}
 </main>
 
 {{# page-footer }}

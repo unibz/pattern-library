@@ -3,11 +3,18 @@
     "hero-title": "true"
   },
 
-  "post-tag": "true",
-  "post-author": "true",
-  "post-author-social": "true",
+  "page-header": {
+    "post-tag": "true",
+    "post-author": "true",
+    "post-author-social": "true",
+    "post-intro": "true"
+  },
 
-  "post-intro": "true",
+  "page-content": {
+    "block-typography": {
+      "class": "typography-left"
+    }
+  },
 
   "page-footer": {
     "footer-place": {
