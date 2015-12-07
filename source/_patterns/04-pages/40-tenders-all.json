@@ -3,92 +3,12 @@
     "hero-title": { "headline": "Jobs" }
   },
 
-  "page-jobs": [
-    {
+  "page-jobs": {
+    "block-typography": {
       "class": "typography-left",
-      "headline": "Professoren und Forscher auf Planstelle",
-      "links": [
-        {
-          "headline": "Direktberufungen aus dem Ausland",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Professoren auf Planstelle der I. Ebene (offenes Auswahlverfahren)",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Professoren auf Planstelle der II. Ebene (offenes Auswahlverfahren)",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Vergleichende Bewertungsverfahren gemäß Gesetz 210/1998",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Stiftungsprofessoren (Berufungsverfahren gemäß Gesetz 230/2005, Art. 1 Abs. 12)",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Versetzungsverfahren von anderen italienischen Universitäten",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Geschlossene Ausschreibungen",
-          "links-class": "g g-sm-12 g-md-8"
-        }
-      ]
-    },
-    {
-      "class": "typography-left",
-      "headline": "Forscher mit befristetem Arbeitsverhältnis",
-      "links": [
-        {
-          "headline": "Juniorprofessuren und Juniorprofessuren mit Tenure-Track (RTD)",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Forschungsassistenten",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Forschungsbeauftragte",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Geschlossene Ausschreibungen",
-          "links-class": "g g-sm-12 g-md-8"
-        }
-      ]
-    },
-    {
-      "class": "typography-left",
-      "headline": "Beauftragte in der Lehre",
-      "links": [
-        {
-          "headline": "Alle Jobs",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Geschlossene Ausschreibungen",
-          "links-class": "g g-sm-12 g-md-8"
-        }
-      ]
-    },
-    {
-      "class": "typography-left",
-      "headline": "Verwaltungspersonal",
-      "links": [
-        {
-          "headline": "Alle Jobs",
-          "links-class": "g g-sm-12 g-md-8"
-        },
-        {
-          "headline": "Geschlossene Ausschreibungen",
-          "links-class": "g g-sm-12 g-md-8"
-        }
-      ]
+      "excerpt": "<h3 class=\"h3\">Professoren und Forscher auf Planstelle</h3><ul><li><a href=\"#\">Direktberufungen aus dem Ausland</a></li><li><a href=\"#\">Professoren auf Planstelle der I. Ebene (offenes Auswahlverfahren)</a></li><li><a href=\"#\">Professoren auf Planstelle der II. Ebene (offenes Auswahlverfahren)</a></li><li><a href=\"#\">Vergleichende Bewertungsverfahren gemäß Gesetz 210/1998</a></li><li><a href=\"#\">Stiftungsprofessoren (Berufungsverfahren gemäß Gesetz 230/2005, Art. 1 Abs. 12)</a></li><li><a href=\"#\">Versetzungsverfahren von anderen italienischen Universitäten</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul><h3 class=\"h3\">Forscher mit befristetem Arbeitsverhältnis</h3><ul><li><a href=\"#\">Juniorprofessuren und Juniorprofessuren mit Tenure-Track (RTD)</a></li><li><a href=\"#\">Forschungsassistenten</a></li><li><a href=\"#\">Forschungsbeauftragte</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul><h3 class=\"h3\">Beauftragte in der Lehre</h3><ul><li><a href=\"#\">Alle Jobs</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul><h3 class=\"h3\">Verwaltungspersonal</h3><ul><li><a href=\"#\">Alle Jobs</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul>"
     }
-  ],
+  },
 
   "page-footer": {
     "headline": "Servicestelle Verwaltungspersonal",

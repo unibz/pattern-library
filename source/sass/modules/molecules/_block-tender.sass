@@ -7,6 +7,8 @@
 
 .tender
   margin-bottom: $space
+  +mq($bp-sm)
+    display: flex
 
 
 .tender_faculty
@@ -14,6 +16,7 @@
   display: inline-block
   margin-right: $space-half
   margin-bottom: 0
+  flex: 0 0 $space*2
 
 .t_dsgn
   .tender_faculty
@@ -41,27 +44,56 @@
 
 
 .tender_deadline
-  +tag
   display: inline-block
-  margin-bottom: 0
+  margin-bottom: 4px
+  letter-spacing: 0
+  font-weight: 600
   text-transform: capitalize
+  color: $primary
+
+.t_dsgn
+  .tender_deadline
+    color: $dsgn
+
+.t_eco
+  .tender_deadline
+    color: $eco
+
+.t_edu
+  .tender_deadline
+    color: $edu
+
+.t_comp
+  .tender_deadline
+    color: $comp
+
+.t_tech
+  .tender_deadline
+    color: $tech
+
+.t_library
+  .tender_deadline
+    color: $library
 
 
 .tender_text
-  margin-bottom: 4px
+  margin-bottom: 2px
 
 
 .tender_title
   +h4
+  margin-bottom: 4px
   &:hover
     text-decoration: underline
+
 
 .tender_link
   display: block
   margin-bottom: $space-quarter
   font-weight: 600
+  text-decoration: underline
   &:after
-    content: "↓"
+    content: ""
   +mq($bp-md)
     display: inline-block
     margin-right: $space

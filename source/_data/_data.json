@@ -29,7 +29,7 @@
 	      "faculty": "true"
 	    },
 	    {
-	      "item": "Study Courses",
+	      "item": "Study Programmes",
 	      "toggle": "#nav-study-courses",
 	      "study-course": "true"
 	    }
