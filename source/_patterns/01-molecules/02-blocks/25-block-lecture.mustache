@@ -1,11 +1,9 @@
 <div class="blockLecture">
-  {{# meta }}
-    {{> atoms-text-span (class: "blockLecture_meta") }}
-  {{/ meta }}
+  {{> atoms-text-span (class: "blockLecture_meta") }}
   <a href="{{ url }}">
     {{> atoms-heading-3 (class: "blockLecture_title") }}
   </a>
-  {{# btn-link }}
+  {{# link }}
     {{> atoms-button-text (class: "btn-text-small blockLecture_btn") }}
-  {{/ btn-link }}
+  {{/ link }}
 </div>
