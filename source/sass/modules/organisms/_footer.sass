@@ -8,8 +8,7 @@
   background-color: $primary
   padding-btttom: $space
   font-size: $fs-small
-  +mq($bp-sm)
-    padding-bottom: $space*1.5
+  padding-bottom: $space*1.5
 
 .t_dsgn
   .footer
@@ -59,7 +58,10 @@
     padding-top: $space*1.5
 
 .footer_image
+  max-width: 260px
   margin-bottom: $space-half
+  +mq($bp-sm)
+    max-width: 100%
 
 .footer_address
   margin-bottom: 0

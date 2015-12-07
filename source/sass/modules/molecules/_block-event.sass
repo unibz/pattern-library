@@ -3,7 +3,7 @@
 //============================================
 
 .event
-  margin-bottom: $space
+  margin-bottom: $space*1.5
   +mq($bp-sm)
     display: flex
 
@@ -47,7 +47,9 @@
 .event_subtitle
   +h5
   margin-top: 4px
-  margin-bottom: 0
+  margin-bottom: $space-quarter
+  +mq($bp-md)
+    margin-bottom: 0
 
 
 // Block Event Meta Information
@@ -55,10 +57,11 @@
 
 .event_meta
   color: $primary
-  margin-bottom: 2px
+  margin-bottom: $space-quarter
   :not(:last-child)
     margin-bottom: $space-quarter
   +mq($bp-sm)
+    margin-bottom: 2px
     :not(:last-child)
       margin-bottom: 0
     :not(:first-child)

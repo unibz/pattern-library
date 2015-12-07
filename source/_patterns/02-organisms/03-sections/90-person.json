@@ -1,0 +1,16 @@
+{
+  "person-photo": "true",
+  "person-mail": "true",
+  "person-phone": "true",
+  "person-office": "true",
+  "person-link": "true",
+  "person-address": "true",
+  "person-department": "true",
+  "person-position": "true",
+  "person-lectures": {
+    "person-lecture": "true"
+  },
+  "person-publications": {
+    "person-publication": "true"
+  }
+}

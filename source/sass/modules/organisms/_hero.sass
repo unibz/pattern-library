@@ -35,20 +35,25 @@
 .hero_caption
   position: absolute
   right: 5px
-  bottom: -20px
-  color: #ccc
+  bottom: 0
   font-size: $fs-small
+  color: $color-text
+  text-shadow: 1px 1px 1px #fff
 
 
 // Hero Intro
 //============================================
 
 .hero_intro
-  +h3
+  +h4
   font-weight: 300
-  margin-top: $space
+  margin-top: 16px
   margin-bottom: 0
   line-height: 1.6
+  +mq($bp-sm)
+    +h3
+    line-height: 1.6
+    margin-top: $space*1.5
 
 .hero_intro > a
   font-size: inherit

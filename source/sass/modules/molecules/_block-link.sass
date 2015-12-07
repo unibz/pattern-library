@@ -10,7 +10,6 @@
   display: block
   margin-bottom: $space-half
   padding: $space-half
-  min-height: 90px
   color: $white
   background-color: $primary
   border-color: $primary
@@ -26,6 +25,9 @@
   &:active
     box-shadow: inset 0 0 1000px rgba($black, .3)
   +mq($bp-sm)
+    min-height: 90px
+    margin-bottom: 18px
+  +mq($bp-md)
     min-height: 120px
     margin-bottom: 18px
   +mq($bp-xl)
