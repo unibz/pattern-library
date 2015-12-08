@@ -1,17 +1,14 @@
 {
   "page-hero": {
-    "hero-text": {
+    "hero-headline": {
       "hero-title": "true"
-    }
+    },
+    "hero-intro": "true"
   },
-
-  "page-intro": "true",
 
   "page-research-points": {
     "latest-highlights": {
-      "highlight-title": "true",
-      "highlight-text": "true",
-      "highlight-button": "true"
+      "highlight-title": "true"
     }
   },
 

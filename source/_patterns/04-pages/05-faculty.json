@@ -1,6 +1,236 @@
 {
   "faculty": "t_tech",
 
+  "nav": {
+    "items": [
+      {
+        "item": "University",
+        "toggle": "#nav-university",
+        "university": "true"
+      },
+      {
+        "item": "Faculties",
+        "toggle": "#nav-faculties",
+        "faculty": "true"
+      },
+      {
+        "item": "Study Programmes",
+        "toggle": "#nav-study-courses",
+        "study-course": "true"
+      },
+      {
+        "item": "Fakultät für<br>Naturwissenschaften<br>und Technik",
+        "toggle": "#nav-context",
+        "context": "true"
+      }
+    ]
+  },
+  "nav-study-course": {
+    "items": [
+      {
+        "item": "Bachelor",
+        "toggle": "#nav-bachelor",
+        "bachelor": "true"
+      },
+      {
+        "item": "Master",
+        "toggle": "#nav-master",
+        "master": "true"
+      },
+      {
+        "item": "PhD",
+        "toggle": "#nav-phd",
+        "phd": "true"
+      },
+      {
+        "item": "Lifelong Learning",
+        "toggle": "#nav-lifelong",
+        "lifelong": "true"
+      }
+    ]
+  },
+  "nav-links-university": {
+    "items": [
+      {
+        "item": "Profile"
+      },
+      {
+        "item": "Organisation"
+      },
+      {
+        "item": "Cooperation"
+      },
+      {
+        "item": "Jobs"
+      },
+      {
+        "item": "Calls"
+      },
+      {
+        "item": "Press"
+      }
+    ]
+  },
+  "nav-links-faculty": {
+    "items": [
+      {
+        "item": "Computer Science"
+      },
+      {
+        "item": "Economics and Management"
+      },
+      {
+        "item": "Education"
+      },
+      {
+        "item": "Design and Art"
+      },
+      {
+        "item": "Science and Technology"
+      }
+    ]
+  },
+  "nav-links-context": {
+    "items": [
+      {
+        "item": "About"
+      },
+      {
+        "item": "Spaces"
+      },
+      {
+        "item": "People"
+      },
+      {
+        "item": "..."
+      }
+    ]
+  },
+  "nav-grid-bachelor": {
+    "items": [
+      {
+        "tag-item": "econ",
+        "item": "Economics and Management"
+      },
+      {
+        "tag-item": "econ",
+        "item": "Economics and Social Sciences"
+      },
+      {
+        "tag-item": "econ",
+        "item": "Tourism, Sport and Event Management"
+      },
+      {
+        "tag-item": "comp",
+        "item": "Computer Science and Engineering"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Agricultural and Agro-Environmental Sciences"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Industrial and Mechanical Engineering"
+      },
+      {
+        "tag-item": "edu",
+        "item": "Communication Sciences and Culture"
+      },
+      {
+        "tag-item": "edu",
+        "item": "Social Education"
+      },
+      {
+        "tag-item": "edu",
+        "item": "Social Work"
+      },
+      {
+        "tag-item": "dsgn",
+        "item": "Design and Art"
+      }
+    ]
+  },
+  "nav-grid-master": {
+    "items": [
+      {
+        "tag-item": "econ",
+        "item": "Economics and Management of the Public Sector"
+      },
+      {
+        "tag-item": "econ",
+        "item": "Economics and Social Sciences"
+      },
+      {
+        "tag-item": "econ",
+        "item": "Tourism, Sport and Event Management"
+      },
+      {
+        "tag-item": "comp",
+        "item": "Computer Science and Engineering"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Agricultural and Agro-Environmental Sciences"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Environmental Management of Mountain Areas"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Energy Engineering"
+      },
+      {
+        "tag-item": "tech",
+        "item": "International Horticultural Science"
+      },
+      {
+        "tag-item": "edu",
+        "item": "Primary Education (One Cycle – 5 years)"
+      },
+      {
+        "tag-item": "dsgn",
+        "item": "Eco-Social Design (Glocal Design)"
+      }
+    ]
+  },
+  "nav-grid-phd": {
+    "items": [
+      {
+        "tag-item": "comp",
+        "item": "Computer Science"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Mountain Environment and Agriculture"
+      },
+      {
+        "tag-item": "tech",
+        "item": "Sustainable Energy and Technologies"
+      },
+      {
+        "tag-item": "eco",
+        "item": "Management and Economics on Organizational and Institutional Outliers"
+      },
+      {
+        "tag-item": "edu",
+        "item": "General Pedagogy, Social Pedagogy and General Education"
+      }
+    ]
+  },
+  "nav-grid-lifelong": {
+    "items": [
+      {
+        "tag-item": "Lorem",
+        "item": "Lorem ipsum"
+      }
+    ]
+  },
+  "nav-utilities": {
+    "language": "EN",
+    "service": "Services"
+  },
+
   "page-hero": {
     "img-background": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-hero.jpg",
     "hero-headline": {
