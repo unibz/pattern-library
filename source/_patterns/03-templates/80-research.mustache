@@ -4,66 +4,20 @@
     {{> organisms-hero}}
   {{/ page-hero }}
 
-  {{# page-intro }}
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-text-paragraph (class: "intro-bold") }}
-      </div>
-    </div>
-  </section>
-  {{/ page-intro }}
-
   {{# page-research-points }}
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3 }}
-      </div>
-      {{> organisms-latest-highlights }}
-      <div class="typography">
-        {{> atoms-text-paragraph }}
-      </div>
-    </div>
-  </section>
+    {{> organisms-latest-highlights }}
   {{/ page-research-points }}
 
   {{# page-research-projects }}
-  <section class="l-section">
-    <div class="l-container-small">
-      <div class="typography">
-        {{> atoms-heading-3 }}
-      </div>
-      {{# research-project }}
-        {{> molecules-block-research }}
-      {{/ research-project }}
-    </div>
-    <div class="l-container-small">
-      {{> atoms-button-big }}
-    </div>
-  </section>
+    {{> organisms-latest-post }}
   {{/ page-research-projects }}
 
   {{# page-description }}
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3 }}
-        {{> atoms-text-wrapper }}
-      </div>
-    </div>
-  </section>
+    {{> organisms-block-typography }}
   {{/ page-description }}
 
   {{# page-content }}
-  <section class="l-section">
-    <div class="l-container">
-      <div class="typography">
-        {{> atoms-heading-3}}
-        {{> atoms-text-paragraph }}
-      </div>
-    </div>
-  </section>
+    {{> organisms-block-text }}
   {{/ page-content }}
 </main>
 {{# page-footer }}

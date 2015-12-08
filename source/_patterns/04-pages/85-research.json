@@ -1,13 +1,15 @@
 {
   "page-hero": {
     "img-background": "http://unibz.github.io/wireframes/research/research-hero.jpg",
-    "hero-text": {
-      "hero-title": {"headline":"Forschung"}
+    "hero-headline": {
+      "hero-title": {
+        "headline":"Forschung"
+      }
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold",
+      "excerpt": "Die Forschungsprojekte an der unibz zeichnen sich insbesondere durch ihre ausgeprägte Interdisziplinarität und ihren Focus auf Nachhaltigkeit aus. Die Einwerbung von Drittmitteln spielt dabei eine immer bedeutendere Rolle."
     }
-  },
-
-  "page-intro": {
-    "excerpt": "Die Forschungsprojekte an der unibz zeichnen sich insbesondere durch ihre ausgeprägte Interdisziplinarität und ihren Focus auf Nachhaltigkeit aus. Die Einwerbung von Drittmitteln spielt dabei eine immer bedeutendere Rolle."
   },
 
   "page-research-points": {
@@ -37,35 +39,42 @@
           "headline": "Pädagogik, Information und Lifelong Learning"
         }
       }
-    ],
-    "excerpt": "Interdisziplinarität und Nachhaltigheit sowie regionale und internationale Relevanz sind Gradmesser für alle Forschungsprojekte der unibz."
+    ]
   },
 
   "page-research-projects": {
-    "headline": "Aktuelle Forschungshighlights",
-    "research-project": [
+    "latest-post-title": {
+      "headline": "Aktuelle Forschungshighlights"
+    },
+    "latest-post": [
       {
-        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-1.png",
+        "span": "Alpen",
         "headline": "Herkunfts- und Qualitätsanalyse von regionalen Agrarprodukten der Alpen",
-        "excerpt": "Ausgelöst durch die Öffnung der europäischen Märkte gewinnen die Schlagworte „Herkunft und Qualität“ vor allem im Lebensmittelbereich mehr und mehr an Bedeutung."
+        "excerpt": "Ausgelöst durch die Öffnung der europäischen Märkte gewinnen die Schlagworte „Herkunft und Qualität“ vor allem im Lebensmittelbereich mehr und mehr an Bedeutung.",
+        "date": "2015"
       },
       {
-        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-2.jpg",
+        "span": "Big Data",
         "headline": "Scalable End-user Access to Big Data",
-        "excerpt": "Scalable end-user access to Big Data is critical for effective data analysis and value creation. Optique will bring about a paradigm shift for data access."
+        "excerpt": "Scalable end-user access to Big Data is critical for effective data analysis and value creation. Optique will bring about a paradigm shift for data access.",
+        "date": "2015"
       },
       {
-        "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/research-highlight-3.jpg",
+        "span": "Welfare",
         "headline": "Towards a New Growth Path: Welfare, Wealth and Work for Europe",
-        "excerpt": "This research is about the institutional preconditions of the socio-ecological transition considering the regional and institutional diversity in Europe. A special focus will be laid on the operational, collective-choice, and constitutional rules relevant for local governance."
+        "excerpt": "This research is about the institutional preconditions of the socio-ecological transition considering the regional and institutional diversity in Europe. A special focus will be laid on the operational, collective-choice, and constitutional rules relevant for local governance.",
+        "date": "2015"
       }
     ],
-    "button": "Forschungsbericht"
+    "latest-post-button": {
+      "button": "Forschungsbericht"
+    }
   },
 
   "page-description": {
-    "headline": "Wo geforscht wird",
-    "excerpt": "<ul><li><a href=\"#\">Wirtschaft</a></li><li><a href=\"#\">Bildung</a></li><li><a href=\"#\">Naturwissenschaften</a></li><li><a href=\"#\">Design</a></li><li><a href=\"#\">Informatik</a></li><li><a href=\"#\">Kompetenzzentrum Sprachen</a></li><li><a href=\"#\">Kompetenzzentrum für Regionalgeschichte</a></li><li><a href=\"#\">Kompetenzzentrum für Tourismus</a></li></ul>"
+    "block-typography": {
+      "excerpt": "<h2 class=\"h2\">Wo geforscht wird</h3><ul><li><a href=\"#\">Wirtschaft</a></li><li><a href=\"#\">Bildung</a></li><li><a href=\"#\">Naturwissenschaften</a></li><li><a href=\"#\">Design</a></li><li><a href=\"#\">Informatik</a></li><li><a href=\"#\">Kompetenzzentrum Sprachen</a></li><li><a href=\"#\">Kompetenzzentrum für Regionalgeschichte</a></li><li><a href=\"#\">Kompetenzzentrum für Tourismus</a></li></ul>"
+    }
   },
 
   "page-search": {
@@ -74,8 +83,12 @@
   },
 
   "page-content": {
-    "headline": "Servicestelle Forschung und Innovation",
-    "excerpt": "Die Servicestelle unterstützt und fördert die Entwicklung der wissenschaftlichen Forschung an der unibz und koordiniert und verwaltet die Abläufe der Forschungstätigkeit national und international sowie auf EU-Ebene."
+    "block-text-headline": {
+      "headline": "Servicestelle Forschung und Innovation"
+    },
+    "block-text-paragraph": {
+      "excerpt": "Die Servicestelle unterstützt und fördert die Entwicklung der wissenschaftlichen Forschung an der unibz und koordiniert und verwaltet die Abläufe der Forschungstätigkeit national und international sowie auf EU-Ebene."
+    }
   },
 
   "page-footer": {
