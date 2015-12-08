@@ -7,27 +7,47 @@
   },
 
   "page-research-points": {
-    "latest-highlights": {
-      "highlight-title": "true"
-    }
+    "latest-highlights": [
+      {
+        "highlight-title": "true"
+      },
+      {
+        "highlight-title": "true"
+      },
+      {
+        "highlight-title": "true"
+      },
+      {
+        "highlight-title": "true"
+      }
+    ]
   },
 
   "page-research-projects": {
-    "research-project": "true"
+    "latest-post-title": "true",
+    "latest-post": "true"
   },
 
-  "page-description": "true",
+  "page-description": {
+    "block-typography": "true"
+  },
+
+  "page-search": "true",
+
+  "page-content": {
+    "block-text-paragraph": "true"
+  },
+
 
   "page-footer": {
-    "footer-places": {
-      "footer-place": {
-        "footer-address": "true",
-        "footer-contact": "true"
-      }
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
     },
     "footer-map": "true",
     "footer-social": "true",
     "footer-newsletter": "true",
+    "footer-openings": "true",
     "footer-transparency": "true",
     "footer-links": {
       "footer-credit": "true"
