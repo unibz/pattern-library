@@ -215,13 +215,18 @@
   display: none
   margin-left: $space-half
 
+.btn-filter:hover
+  opacity: .66
+
 .btn-filter-active
   opacity: 1
   .btn-filter_close
     display: inline-block
+  &:hover
+    opacity: 1
+    background-color: $black
+    border-color: shade($black, 5%)
 
-.btn-filter:hover
-  opacity: .66
 
 
 // Button Toggle 
