@@ -3,7 +3,17 @@
 //============================================
 
 
-// Power tools wrapper
+.powerTools
+  display: flex
+  +mq($bp-md)
+    display: block
+    padding: $space-half $space-half 4px $space-half
+    margin-bottom: $space
+    border: 1px solid $gray
+    border-radius: $radius
+    +light-box-shadow
+
+// Power tools expanded
 //============================================
 
 .powerTools_tag,
@@ -14,26 +24,34 @@
   +mq($bp-md)
     display: block
 
-.powerTools_tag
-  letter-spacing: 0
-
-.powerTools_calendar,
-.powerTools_filters,
 .powerTools_search
   margin-bottom: $space
 
-.powerTools_toggle
-  +mq($bp-md)
-    display: none
+.powerTools_calendar
+  margin-top: $space
 
-.powerTools
-  display: flex
-  +mq($bp-md)
-    display: block
+// .powerTools_filters
+//   padding: $space-half $space-half 4px $space-half
+//   margin-bottom: $space
+//   border: 1px solid $gray
+//   border-radius: $radius
+//   +light-box-shadow
+
+// Power tools tag
+//============================================
+
+.powerTools_tag
+  letter-spacing: 0
+
+
+// Power tools toggle
+//============================================
 
 .powerTools_toggle
   flex-basis: 100%
   margin-bottom: $space-half
-
+  +mq($bp-md)
+    display: none
+    
 .powerTools_toggle:not(:last-of-type)
   margin-right: $space-half

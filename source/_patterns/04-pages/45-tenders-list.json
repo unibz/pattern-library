@@ -3,10 +3,35 @@
     "hero-title": {"headline": "Offenes Auswahlverfahren für Professoren auf Planstelle der II. Ebene"}
   },
 
-  "tools": {
-    "span": "Search for tenders and calls...",
-    "search": "true",
-    "filter": "true"
+  "search": {
+    "headline": "Search in the archive",
+    "span": "Search for job openings..."
+  },
+  "filters": {
+    "headline": "Filter tenders",
+    "filter": [
+      {
+        "button": "EDU",
+        "span": "12"
+      },
+      {
+        "class": "btn-filter-active",
+        "button": "ECO",
+        "span": "8"
+      },
+      {
+        "button": "COMP",
+        "span": "5"
+      },
+      {
+        "button": "DSGN",
+        "span": "3"
+      },
+      {
+        "button": "TECH",
+        "span": "13"
+      }
+    ]
   },
 
   "page-content": {

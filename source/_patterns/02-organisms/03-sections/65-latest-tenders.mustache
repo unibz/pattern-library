@@ -1,7 +1,10 @@
 <section class="l-section">
-  {{> organisms-search-find }}
   <div class="l-container">
-    <div class="l-container-small {{ container-class }}">
+    <div class="g-row">
+    <div class="g g-md-9 g-md-off-1 g-md-push-14">
+      {{> organisms-power-tools }}
+    </div>
+    <div class="g g-md-14 g-md-pull-10">
       {{# tenders }}
         {{> molecules-block-tender }}
       {{/ tenders }}
