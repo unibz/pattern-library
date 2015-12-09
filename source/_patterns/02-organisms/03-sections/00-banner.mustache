@@ -1,29 +1,33 @@
-<section class="l-section {{ class }}">
+<section class="l-sectionLarge {{ class }}">
   <div class="banner {{ banner-class }}" role="banner" {{# empty }}{{/ empty }}{{^ empty }}style="background-image:url('{{ img-background }}')"{{/ empty }}>
-    <div class="l-container">
-      {{# banner-headline }}
-        {{> atoms-heading-1 (class: "banner_title") }}
-      {{/ banner-headline }}
-
-      {{# banner-subheadline }}
-        {{> atoms-heading-2 (class: "banner_subTitle") }}
-      {{/ banner-subheadline }}
-
-      {{# banner-text }}
-        {{> atoms-text-paragraph (class: "banner_text") }}
-      {{/ banner-text }}
-
-      {{# empty }}
-        {{# banner-button }}
-          {{> atoms-button-alternate (class: "banner_btn") }}
-        {{/ banner-button }}
-      {{/ empty }}
-
-      {{^ empty }}
-        {{# banner-button }}
-          {{> atoms-button-medium (class: "banner_btn") }}
-        {{/ banner-button }}
-      {{/ empty }}
+    <div class="banner_inner">
+      <div class="l-containerSmall">
+        {{# banner-headline }}
+          {{> atoms-heading-1 (class: "banner_title") }}
+        {{/ banner-headline }}
+        {{# banner-subheadline }}
+          {{> atoms-heading-2 (class: "banner_subTitle") }}
+        {{/ banner-subheadline }}
+        {{# banner-text }}
+          <div class="bannet_text">
+            <div class="typograhy">
+              {{> atoms-text-paragraph }}
+            </div>
+          </div>
+        {{/ banner-text }}
+      </div>
+      <div class="l-container">
+        {{# empty }}
+          {{# banner-button }}
+            {{> atoms-button-alternate (class: "banner_btn") }}
+          {{/ banner-button }}
+        {{/ empty }}
+        {{^ empty }}
+          {{# banner-button }}
+            {{> atoms-button-medium (class: "banner_btn") }}
+          {{/ banner-button }}
+        {{/ empty }}
+      </div>
     </div>
   </div>
 </section>

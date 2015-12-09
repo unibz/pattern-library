@@ -1,0 +1,35 @@
+{
+  "latest-post-title": "true",
+  "latest-post": "true",
+  "latest-post-button": "true",
+
+  "search": {
+    "span": "Search for news..."
+  },
+  "calendar": "true",
+  "filters": {
+    "filter": [
+      {
+        "button": "AWARDS",
+        "span": "12"
+      },
+      {
+        "class": "btn-filter-active",
+        "button": "RESEARCH",
+        "span": "8"
+      },
+      {
+        "button": "NEWS",
+        "span": "5"
+      },
+      {
+        "button": "CALL",
+        "span": "3"
+      },
+      {
+        "button": "EVENT",
+        "span": "13"
+      }
+    ]
+  }
+}

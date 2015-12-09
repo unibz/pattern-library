@@ -1,0 +1,30 @@
+{
+  "search": {
+    "span": "Search in..."
+  },
+  "calendar": "true",
+  "filters": {
+    "filter": [
+      {
+        "button": "ECO",
+        "span": "12"
+      },
+      {
+        "button": "COMP",
+        "span": "8"
+      },
+      {
+        "button": "TECH",
+        "span": "5"
+      },
+      {
+        "button": "EDU",
+        "span": "3"
+      },
+      {
+        "button": "DSGN",
+        "span": "13"
+      }
+    ]
+  }
+}

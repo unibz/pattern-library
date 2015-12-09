@@ -1,10 +1,14 @@
-<section class="l-section">
+<section class="l-sectionLarge">
   {{> atoms-avatar (class:"testimonial_avatar")}}
   <div class="testimonial {{ class }}" role="banner">
-    <div class="l-container-small">
+    <div class="l-containerSmall">
       {{> atoms-heading-3 (class:"testimonial_name") }}
       {{> atoms-text-span (class:"testimonial_role") }}
-      {{> atoms-text-paragraph (class:"testimonial_text")}}  
+      <div class="testimonial_text">
+        <div class="typography">
+          {{> atoms-text-paragraph }}
+        </div>
+      </div>
     </div>
   </div>
 </section>

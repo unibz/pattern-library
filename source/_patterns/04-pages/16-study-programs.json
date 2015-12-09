@@ -1,6 +1,6 @@
 {
   "page-hero": {
-    "hero-label": {"headline": "Study programs"},
+    "hero-label": {"headline": "Study programmes"},
     "hero-title": {"headline": "Bachelors and Masters"}
   },
 
@@ -137,6 +137,13 @@
         ]
       }
     ]
+  },
+
+  "page-details": {
+    "l-left": "true",
+    "block-text-paragraph": {
+      "excerpt": "All programmes are in Italian, German and English except the MA in Eco-Social Design and the MA in Computer Science"
+    }
   },
 
   "page-footer": {

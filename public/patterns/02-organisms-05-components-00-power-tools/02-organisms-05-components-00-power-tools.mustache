@@ -1,0 +1,21 @@
+&lt;div class=&quot;powerTools&quot;&gt;
+  {{# search }}
+    &lt;span class=&quot;tag powerTools_tag&quot;&gt;{{ headline }}&lt;/span&gt;
+    {{&gt; atoms-button-toggle (class:&quot;powerTools_toggle&quot;, icon:&quot;i-search&quot;) }}
+    {{&gt; atoms-forms-input-search (class:&quot;powerTools_search&quot;, icon:&quot;i-search&quot;) }}
+  {{/ search }}
+
+  {{# filters }}
+    &lt;span class=&quot;tag powerTools_tag&quot;&gt;{{ headline }}&lt;/span&gt;
+    {{&gt; atoms-button-toggle (class:&quot;powerTools_toggle&quot;, icon:&quot;i-filter&quot;) }}
+    &lt;div class=&quot;powerTools_filters&quot;&gt;
+      {{&gt; molecules-filters }}
+    &lt;/div&gt;
+  {{/ filters }}
+
+  {{# calendar }}
+    &lt;span class=&quot;tag powerTools_tag&quot;&gt;{{ headline }}&lt;/span&gt;
+    {{&gt; atoms-button-toggle (class:&quot;powerTools_toggle&quot;, icon:&quot;i-calendar&quot;) }}
+    {{&gt; molecules-calendar-month (class:&quot;powerTools_calendar&quot;, icon:&quot;i-calendar&quot;) }}
+  {{/ calendar }}
+&lt;/div&gt;

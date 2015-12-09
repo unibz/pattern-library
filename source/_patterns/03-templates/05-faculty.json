@@ -10,6 +10,7 @@
   },
 
   "page-description": {
+    "l-center": "true",
     "block-text-image": {
       "class": "left"
     },
@@ -25,7 +26,7 @@
 
   "page-study-courses": [
     {
-      "container-class": "l-container-small",
+      "container-class": "l-containerSmall",
       "links": [
         {
           "links-class": "g g-sm-12"
@@ -36,7 +37,7 @@
       ]
     },
     {
-      "container-class": "l-container-small",
+      "container-class": "l-containerSmall",
       "links": [
         {
           "links-class": "g g-sm-12"
@@ -47,7 +48,7 @@
       ]
     },
     {
-      "container-class": "l-container-small",
+      "container-class": "l-containerSmall",
       "links": [
         {
           "links-class": "g g-sm-12"
@@ -60,6 +61,7 @@
   ],
 
   "page-research": {
+    "l-center": "true",
     "block-text-headline": "true",
     "block-text-image": {
       "class": "right"
@@ -73,6 +75,7 @@
   "page-people": "true",
 
   "page-partner": {
+    "l-center": "true",
     "block-text-headline": "true",
     "block-text-image": "true",
     "block-text-paragraph": "true",

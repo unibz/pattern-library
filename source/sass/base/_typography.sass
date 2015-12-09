@@ -7,47 +7,12 @@
 //============================================
 
 .typography
-  margin: 0 auto
-  max-width: 574px
-  line-height: 1.7
-  +mq($bp-lg)
-    max-width: 688px
-  +mq($bp-xl)
-    max-width: 768px
-
-.typography-left
-  margin: 0
+  +cf
+  line-height: 1.6
 
 
 // Links
 //============================================
-
-.typography p > a
-  +link
-
-.t_eco
-  .typography p > a
-    +link($eco)
-
-.t_dsgn
-  .typography p > a
-    +link($dsgn)
-
-.t_edu
-  .typography p > a
-    +link($edu)
-
-.t_comp
-  .typography p > a
-    +link($comp)
-
-.t_tech
-  .typography p > a
-    +link($tech)
-
-.t_library
-  .typography p > a
-    +link($library)
 
 .typographyLink-download
   &:after
@@ -154,7 +119,7 @@
   img.left
     +mq($bp-sm)
       float: left
-      margin: 4px $space 0 0
+      margin: 4px $space $space-half 0
       width: 50%
     +mq($bp-md)
       margin-left: -57px
@@ -169,7 +134,7 @@
   img.right
     +mq($bp-sm)
       float: right
-      margin: 4px 0 0 $space
+      margin: 4px 0 $space-half $space
       width: 50%
     +mq($bp-md)
       margin-right: -57px

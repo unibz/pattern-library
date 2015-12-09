@@ -1,10 +1,14 @@
 <section class="l-section">
-  {{> organisms-search-find }}
   <div class="l-container">
-    <div class="job_wrapper">
-      {{# jobs }}
-        {{> molecules-block-job }}
-      {{/ jobs }}
+    <div class="g-row">
+      <div class="g g-md-9 g-md-off-1 g-md-push-14">
+        {{> organisms-power-tools }}
+      </div>
+      <div class="g g-md-14 g-md-pull-10">
+        {{# jobs }}
+          {{> molecules-block-job }}
+        {{/ jobs }}
+      </div>
     </div>
   </div>
 </section>

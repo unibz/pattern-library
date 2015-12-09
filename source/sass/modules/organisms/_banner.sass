@@ -22,8 +22,6 @@
   +mq($bp-lg)
     padding: $space*2 0
     min-height: 360px
-  +mq($bp-xl)
-    min-height: 420px
 
 .banner-overlay:hover
   &::after
@@ -85,18 +83,12 @@
 // Banner Contents
 //============================================
 
-.banner_title,
-.banner_subTitle,
-.banner_text
+.banner_inner
   position: relative
   z-index: 1
-  max-width: 574px
+  margin: 0 auto
   color: $white
   +dark-text-shadow
-  +mq($bp-lg)
-    max-width: 688px
-  +mq($bp-xl)
-    max-width: 768px
 
 
 // Banner Title
@@ -109,6 +101,7 @@
 .banner-overlay:hover
   .banner_title
     opacity: .5
+
 
 // Banner Subtilte
 //============================================

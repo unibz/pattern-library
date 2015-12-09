@@ -1,0 +1,21 @@
+<div class="powerTools">
+  {{# search }}
+    <span class="tag powerTools_tag">{{ headline }}</span>
+    {{> atoms-button-toggle (class:"powerTools_toggle", icon:"i-search") }}
+    {{> atoms-forms-input-search (class:"powerTools_search", icon:"i-search") }}
+  {{/ search }}
+
+  {{# filters }}
+    <span class="tag powerTools_tag">{{ headline }}</span>
+    {{> atoms-button-toggle (class:"powerTools_toggle", icon:"i-filter") }}
+    <div class="powerTools_filters">
+      {{> molecules-filters }}
+    </div>
+  {{/ filters }}
+
+  {{# calendar }}
+    <span class="tag powerTools_tag">{{ headline }}</span>
+    {{> atoms-button-toggle (class:"powerTools_toggle", icon:"i-calendar") }}
+    {{> molecules-calendar-month (class:"powerTools_calendar", icon:"i-calendar") }}
+  {{/ calendar }}
+</div>

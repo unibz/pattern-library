@@ -1,6 +1,11 @@
 <section class="l-section">
+  {{# l-left }}
   <div class="l-container">
-    <div class="l-container-small {{ container-class }}">
+    <div class="l-container_left">
+  {{/ l-left }}
+  {{^ l-left }}
+    <div class="l-containerSmall">
+  {{/ l-left }}
       {{# latest-post-title }}
         {{> atoms-heading-2 }}
       {{/ latest-post-title }}
@@ -11,5 +16,7 @@
         {{> atoms-button-medium }}
       {{/ latest-post-button }}
     </div>
+  {{# l-left }}
   </div>
+  {{/ l-left }}
 </section>

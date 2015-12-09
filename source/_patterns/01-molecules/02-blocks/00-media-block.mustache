@@ -4,7 +4,11 @@
   </a>
 	<div class="mediaBlock_body">
     {{> atoms-heading-2 (class: "mediaBlock_title") }}
-    {{> atoms-text-paragraph (class: "mediaBlock_excerpt") }}
+    <div class="mediaBlock_excerpt">
+      <div class="typography">
+        {{> atoms-text-paragraph }}
+      </div>
+    </div>
     {{> atoms-button-text-alternate (class: "mediaBlock_btn") }}
 	</div>
 </div>

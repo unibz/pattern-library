@@ -6,6 +6,7 @@
 // Container
 //============================================
 
+.l-containerSmall,
 .l-container
   max-width: $layout-width-xs
   padding: 0 $layout-gutter-xs
@@ -23,39 +24,34 @@
     max-width: $layout-width-xl
     padding: 0 $layout-gutter-xl
 
-.l-container-small
+.l-container_left,
+.l-containerSmall
   max-width: $layout-width-xs
-  padding: 0
-  margin: 0 auto
   +mq($bp-sm)
     max-width: $layout-width-sm
   +mq($bp-md)
+    padding: 0
     max-width: 574px
   +mq($bp-lg)
     max-width: 688px
   +mq($bp-xl)
     max-width: 768px
 
-.l-container-small-left
-  margin: 0
-  padding: 0
-
-
-// Header
-//============================================
-
-.l-header
-  margin-bottom: $space
-  +mq($bp-md)
-    margin-bottom: $space*1.5
-  +mq($bp-lg)
-    margin-bottom: $space*2
-
 
 // Section
 //============================================
 
 .l-section
-  margin: 0 auto $space*2 auto
-  +mq($bp-xl)
-    margin-bottom: $space*3
+  margin: 0 auto $space-and-half auto
+  +mq($bp-lg)
+    margin-bottom: $space-double
+
+.l-sectionLarge
+  margin: 0 auto $space-double auto
+  +mq($bp-lg)
+    margin-bottom: $space-double+$space-half
+
+.l-sectionSmall
+  margin: 0 auto $space-half auto
+  +mq($bp-lg)
+    margin-bottom: $space

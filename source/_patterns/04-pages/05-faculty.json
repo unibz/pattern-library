@@ -267,7 +267,7 @@
 
   "page-study-courses": [
     {
-      "container-class": "l-container-small",
+      "container-class": "l-containerSmall",
       "headline": "Bachelors",
       "links": [
         {
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "container-class": "l-container-small",
+      "container-class": "l-containerSmall",
       "headline": "Masters",
       "links": [
         {
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "container-class": "l-container-small",
+      "container-class": "l-containerSmall",
       "headline": "PhDs",
       "links": [
         {

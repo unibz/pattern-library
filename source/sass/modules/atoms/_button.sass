@@ -201,26 +201,29 @@
 // Button filter
 //===========================================
 
-.btn-outline
-  background-color: transparent
-  color: $primary
-  border: 1px solid $primary
-  text-shadow: none
-  box-shadow: none
-  &:hover
-    color: $white
-    background-color: $primary
+.btn-filter
+  opacity: .33
+  letter-spacing: 0
+  margin: 0 4px 8px 0
 
-.btn-outline-active
-  color: $white
-  background-color: $primary
-  font-weight: 500
-  &:after
-    content: "✕"
-    margin-left: $space-half
+.btn-filter_counter
+  margin-left: $space-quarter
+  font-weight: 300
+
+.btn-filter_close
+  display: none
+  margin-left: $space-half
+
+.btn-filter-active
+  opacity: 1
+  .btn-filter_close
+    display: inline-block
+
+.btn-filter:hover
+  opacity: .66
 
 
-// Button Toggle Calendar
+// Button Toggle 
 //===========================================
 
 .btn-toggle
@@ -238,6 +241,34 @@
     background-color: $gray-dark
     border-color: shade($gray-dark, 5%)
 
+
+// Button Toggle Label
+//===========================================
+
+.btn-toggle-label
+  display: inline-block
+  align-items: center
+  justify-content: space-between
+  padding: 9px $space-quarter 5px $space-quarter
+  margin-bottom: $space-half
+  height: 40px
+  border-radius: $radius
+  border: 1px solid shade($gray, 5%)
+  color: $white
+  background-color: $gray
+  text-transform: uppercase
+  letter-spacing: 1px
+  transition: background-color .3s $motion, border-color .3s $motion
+  +light-box-shadow
+  &:hover
+    background-color: $gray-dark
+    border-color: shade($gray-dark, 5%)
+  .i
+    margin-top: -2px
+
+.btn-toggle-label_label
+  margin-top: 4px
+  margin-right: 4px
 
 
 //============================================

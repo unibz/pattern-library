@@ -1,9 +1,5 @@
 //============================================
-// Timetable Tools Search and Filter
-//============================================
-
-
-// Timetable Months Navigation Wrapper
+// Tools Search and Filter
 //============================================
 
 .find_tools
@@ -29,3 +25,23 @@
   +mq($bp-sm)
     display: block
     flex: 1
+
+.find_tools-sidebar
+  display: flex
+  +mq($bp-md)
+    display: block
+
+.find_tools-sidebar
+  margin-bottom: $space-half
+  .find_toolSearch
+    +mq($bp-md)
+      margin-bottom: $space-half
+  .btn-toggle-label
+    margin-left: $space-half
+    flex-basis: 100%
+    +mq($bp-sm)
+      flex: 0 0 40px
+    +mq($bp-md)
+      margin-left: 0
+      width: 100%
+

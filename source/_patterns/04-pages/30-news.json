@@ -3,15 +3,42 @@
     "hero-title": { "headline": "News" }
   },
 
-  "tools": {
-    "span": "Search in the news archive...",
-    "search": "true",
-    "filter": "true",
-    "calendar": "true"
+  "search": {
+    "headline": "Search in the archive",
+    "span": "Search for news..."
+  },
+  "calendar": {
+    "headline": "Select a day, week, or month"
+  },
+  "filters": {
+    "headline": "Filter results",
+    "filter": [
+      {
+        "button": "AWARDS",
+        "span": "12"
+      },
+      {
+        "class": "btn-filter-active",
+        "button": "RESEARCH",
+        "span": "8"
+      },
+      {
+        "button": "NEWS",
+        "span": "5"
+      },
+      {
+        "button": "CALL",
+        "span": "3"
+      },
+      {
+        "button": "EVENT",
+        "span": "13"
+      }
+    ]
   },
 
   "page-content": {
-    "container-class": "l-container-small-left",
+    "l-left": "true",
     "latest-post": [
       {
         "span": "Award",

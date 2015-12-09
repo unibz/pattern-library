@@ -1,7 +1,14 @@
 <section class="l-section">
-  <div class="l-container">
-    <div class="typography {{ class }}">
-      {{> molecules-block-text }}
+  {{# l-left }}
+    <div class="l-container">
+      <div class="l-container_left">
+  {{/ l-left }}
+  {{^ l-left }}
+      <div class="l-containerSmall">
+  {{/ l-left }}
+        {{> molecules-block-text }}
+      </div>
+  {{# l-left }}
     </div>
-  </div>
+  {{/ l-left }}
 </section>

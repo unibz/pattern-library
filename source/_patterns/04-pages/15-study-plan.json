@@ -11,7 +11,7 @@
   },
 
   "page-intro": {
-    "class": "typography-left",
+    "l-left": "true",
     "block-text-paragraph": {
       "excerpt": "Der <a href=\"#\">Bachelor in Tourismus-, Sport- und Eventmanagement</a> umfasst 22 Lehrveranstaltungen mit insgesamt 159 Kreditpunkten (KP). Dazu kommen noch 21 KP (12 KP für Lehrveranstaltungen nach Wahl der Studierenden, 3 KP für die Abschlussarbeit und 6 KP für ein Pflichtpraktikum. Die regelstudienzeit beträgt 3 Jahre."
     }
@@ -161,7 +161,7 @@
   },
 
   "page-details": {
-    "class": "typography-left",
+    "l-left": "true",
     "block-text-paragraph": {
       "excerpt": "* Die Prüfungen müssen in 2 der 3 angebotenen Fremdsprachen - Grundfachsprache Wirtschaft abgelegt werden, wobei die Hauptunterrichtssprache der Oberschule nicht gewählt werden darf.<h5>Fachtypische Lehrveranstaltung (1)</h5>Die Studierenden müssen eine der nachfolgenden Lehrveranstaltungen zu 6 KP wählen:<ul><li>Destinationsentwicklung</li><li>Ökonomik des Tourismus</li><li>Sport- und Eventwirtschaft</li></ul>"
     }
