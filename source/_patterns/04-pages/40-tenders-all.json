@@ -4,6 +4,7 @@
   },
 
   "page-jobs": {
+    "l-left": "true",
     "block-typography": {
       "class": "typography-left",
       "excerpt": "<h3 class=\"h3\">Professoren und Forscher auf Planstelle</h3><ul><li><a href=\"#\">Direktberufungen aus dem Ausland</a></li><li><a href=\"#\">Professoren auf Planstelle der I. Ebene (offenes Auswahlverfahren)</a></li><li><a href=\"#\">Professoren auf Planstelle der II. Ebene (offenes Auswahlverfahren)</a></li><li><a href=\"#\">Vergleichende Bewertungsverfahren gemäß Gesetz 210/1998</a></li><li><a href=\"#\">Stiftungsprofessoren (Berufungsverfahren gemäß Gesetz 230/2005, Art. 1 Abs. 12)</a></li><li><a href=\"#\">Versetzungsverfahren von anderen italienischen Universitäten</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul><h3 class=\"h3\">Forscher mit befristetem Arbeitsverhältnis</h3><ul><li><a href=\"#\">Juniorprofessuren und Juniorprofessuren mit Tenure-Track (RTD)</a></li><li><a href=\"#\">Forschungsassistenten</a></li><li><a href=\"#\">Forschungsbeauftragte</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul><h3 class=\"h3\">Beauftragte in der Lehre</h3><ul><li><a href=\"#\">Alle Jobs</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul><h3 class=\"h3\">Verwaltungspersonal</h3><ul><li><a href=\"#\">Alle Jobs</a></li><li><a href=\"#\">Geschlossene Ausschreibungen</a></li></ul>"

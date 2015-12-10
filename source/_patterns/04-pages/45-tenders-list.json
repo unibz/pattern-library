@@ -35,7 +35,6 @@
   },
 
   "page-content": {
-    "container-class": "l-container-small-left",
     "tenders": [
       {
         "class": "t_edu",

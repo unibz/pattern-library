@@ -14,7 +14,7 @@
         {{# footer-place }}
           <div class="u-push-btm">
               <div class="g-row">
-                {{> atoms-heading-6 (class: "h5 g g-24") }}
+                {{> atoms-heading-6 (class: "g g-24") }}
                 <div class="g g-sm-12">
                   {{> atoms-image-4x3 (class: "footer_image") }}
                 </div>
@@ -32,7 +32,7 @@
 
         {{# footer-openings }}
           <div class="footer_section">
-            {{> atoms-heading-5 (class: "h5")}}
+            {{> atoms-heading-5 }}
             {{> atoms-text-paragraph }}
           </div>
         {{/ footer-openings }}
@@ -48,13 +48,13 @@
     <div class="g-row u-push-btm">
       <div class="g g-md-12 u-push-btm u-md-push-btm-none">
         {{# footer-social }}
-          {{> atoms-heading-5 (class: "h5")}}
-          {{> molecules-social-links }}
+          {{> atoms-heading-5 }}
+          {{> molecules-social-links-white }}
         {{/ footer-social }}
       </div>
       <div class="g g-md-11 g-md-off-1">
         {{# footer-newsletter }}
-          {{> atoms-heading-5 (class: "h5")}}
+          {{> atoms-heading-5 }}
           <form class="footer_form" action="#">
             {{> atoms-forms-input-email (class: "footer_input")}}
             {{> atoms-button-alternate (class: "btn-medium footer_button")}}

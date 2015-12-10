@@ -4,7 +4,7 @@
   },
 
   "page-description": {
-    "class": "typography-left",
+    "l-left": "true",
     "block-text-paragraph": "true"
   },
 
@@ -14,7 +14,7 @@
   },
 
   "page-content": {
-    "class": "typography-left",
+    "l-left": "true",
     "block-text-paragraph": "true"
   },
 

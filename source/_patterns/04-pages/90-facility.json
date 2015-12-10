@@ -8,7 +8,7 @@
   },
 
   "page-description": {
-    "class": "typography-left",
+    "l-left": "true",
     "block-text-paragraph": {
       "excerpt": "The faculty has several workshops to support studying and research, in which students work independently under the supervision of expert technicians. In these workshops the students’ ideas and concepts are verified and tested in order to be transformed into models and prototypes."
     }
@@ -90,7 +90,7 @@
   ],
 
   "page-content": {
-    "class": "typography-left",
+    "l-left": "true",
     "block-text-paragraph": {
       "excerpt": "All workshops are open from Monday to Friday. The morning from 09:00 to 12:00 and the afternoon from 13:00 to 17:00; For further information you can contact the <a href=\"#\">workshop head of department</a> or <a href=\"#\">watch the security video courses</a>."
     }

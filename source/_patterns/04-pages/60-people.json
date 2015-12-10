@@ -212,8 +212,8 @@
   },
 
   "page-content": {
+    "l-left": "true",
     "block-typography": {
-      "class": "typography-left",
       "excerpt": "<h4>Faculty Council</h4><ul><li>Prof. Gerhard Glüher, Dean and Full Professor</li><li>Prof. Nitzan Cohen, Vice Dean for Research and Full Professor</li><li>Prof. Roberto Gigliotti, Vice Dean for Teaching and Associate Professor</li><li>Prof. Antonino Benincasa, Associate Professor</li><li>Prof. Giorgio Camuffo, Associate Professor</li><li>Prof. Emanuela De Cecco, Associate Professor</li><li>Prof. Hans Höger, Associate Professor</li><li>Prof. Kris Krois, Associate Professor</li><li>Prof. Kuno Prey, Full Professor</li><li>Prof. Christian Upmeier, Associate Professor</li><li>dott. Matteo Moretti, Researcher with a fixed-term contract</li><li>dott. Gianluca Camillini, Researcher with a fixed-term contract</li><li>Timothy Robb, Student Speaker</li><li>Matteo Pra Mio, Student Speaker</li></ul><h4>Degree Committee of the Bachelor in Design and Art, Major in Design</h4><ul><li>Prof. Roberto Gigliotti, Course coordinator</li><li>Prof. Giorgio Camuffo, Member</li><li>Helene Kummer, Student Speaker</li></ul><h4>Degree Committee of the Master in Eco-Social Design</h4><ul><li>Prof. Christian Krois, Course coordinator</li><li>Prof. Kuno Prey, Member</li><li>Helene Kummer, Student Speaker</li></ul>"
     }
   },

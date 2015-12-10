@@ -3,11 +3,34 @@
     "hero-title": { "headline": "Events" }
   },
 
-  "tools": {
-    "span": "Search for events..",
-    "search": "true",
-    "filter": "true",
-    "calendar": "true"
+  "search": {
+    "span": "Search for news..."
+  },
+  "calendar": "true",
+  "filters": {
+    "filter": [
+      {
+        "button": "AWARDS",
+        "span": "12"
+      },
+      {
+        "class": "btn-filter-active",
+        "button": "RESEARCH",
+        "span": "8"
+      },
+      {
+        "button": "NEWS",
+        "span": "5"
+      },
+      {
+        "button": "CALL",
+        "span": "3"
+      },
+      {
+        "button": "EVENT",
+        "span": "13"
+      }
+    ]
   },
 
   "page-content": {
@@ -105,17 +128,42 @@
   },
 
   "page-footer": {
-    "footer-place": {
-      "footer-address": "true",
-      "footer-contact": "true"
-    },
+    "headline": "Press and Event Management", 
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
+        "footer-address": [
+          {
+            "span": "Franz-Innerhofer-Platz 8 — Piazzetta Franz Innerhofer, 8"
+          },
+          {
+            "span": "I – 39100, Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 011500"
+          },
+          {
+            "span": "Fax +39 0471 011509"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "press@unibz.it"
+          }
+        ]
+      }
+    ],
     "footer-map": "true",
-    "footer-social": "true",
-    "footer-newsletter": "true",
-    "footer-openings": "true",
-    "footer-transparency": "true",
     "footer-links": {
-      "footer-credit": "true"
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
     }
   }
 }
