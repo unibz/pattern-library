@@ -1,8 +1,8 @@
 {{# block-text-headline }}
-  {{&gt; atoms-heading-2 }}
+  {{&gt; atoms-heading-2 (class:&quot;h2&quot;)}}
 {{/ block-text-headline }}
 
-&lt;div class=&quot;u-cf&quot;&gt;
+&lt;div class=&quot;typography&quot;&gt;
   {{# block-text-image }}
     {{&gt; atoms-image-4x3 }}
   {{/ block-text-image }}
@@ -12,6 +12,8 @@
   {{/ block-text-paragraph }}
 
   {{# block-text-button }}
-    {{&gt; atoms-button }}
+    &lt;p&gt;
+      {{&gt; atoms-button }}
+    &lt;/p&gt;
   {{/ block-text-button }}
 &lt;/div&gt;
