@@ -11,8 +11,8 @@
 
 
 $i-map: (
-  i-map-path: url("../images/sprite-a4049f5a.svg"),
-  i-map-width: 270px,
+  i-map-path: url("../images/sprite-bf985b1e.svg"),
+  i-map-width: 354px,
   i-map-height: 24px,
 
   i-arrow-left-width: 24px,
@@ -31,37 +31,53 @@ $i-map: (
   i-facebook-height: 20px,
   i-facebook-position: -72px 0,
 
+  i-facebook-brand-width: 21px,
+  i-facebook-brand-height: 20px,
+  i-facebook-brand-position: -93px 0,
+
   i-filter-width: 24px,
   i-filter-height: 24px,
-  i-filter-position: -93px 0,
+  i-filter-position: -114px 0,
 
   i-instagram-width: 21px,
   i-instagram-height: 20px,
-  i-instagram-position: -117px 0,
+  i-instagram-position: -138px 0,
+
+  i-instagram-brand-width: 21px,
+  i-instagram-brand-height: 20px,
+  i-instagram-brand-position: -159px 0,
 
   i-linkedin-width: 21px,
   i-linkedin-height: 20px,
-  i-linkedin-position: -138px 0,
+  i-linkedin-position: -180px 0,
+
+  i-linkedin-brand-width: 21px,
+  i-linkedin-brand-height: 20px,
+  i-linkedin-brand-position: -201px 0,
 
   i-mail-width: 21px,
   i-mail-height: 20px,
-  i-mail-position: -159px 0,
+  i-mail-position: -222px 0,
 
   i-print-width: 21px,
   i-print-height: 20px,
-  i-print-position: -180px 0,
+  i-print-position: -243px 0,
 
   i-search-width: 24px,
   i-search-height: 24px,
-  i-search-position: -201px 0,
+  i-search-position: -264px 0,
 
   i-search-gray-width: 24px,
   i-search-gray-height: 24px,
-  i-search-gray-position: -225px 0,
+  i-search-gray-position: -288px 0,
 
   i-twitter-width: 21px,
   i-twitter-height: 20px,
-  i-twitter-position: -249px 0
+  i-twitter-position: -312px 0,
+
+  i-twitter-brand-width: 21px,
+  i-twitter-brand-height: 20px,
+  i-twitter-brand-position: -333px 0
 );
 
 
@@ -78,7 +94,7 @@ $i-map: (
 }
 
 %i {
-  background-image: url("../images/sprite-a4049f5a.svg");
+  background-image: url("../images/sprite-bf985b1e.svg");
 }
 
 @mixin extend-i-url($extend: true) {
@@ -152,10 +168,23 @@ $i-map: (
 }
 
 
-@mixin i-filter($add-style: true, $add-url: true) {
+@mixin i-facebook-brand($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
   background-position: -93px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-facebook-brand {
+  @include i-facebook-brand(false, false);
+}
+
+
+@mixin i-filter($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -114px 0;
   width: 24px;
   height: 24px;
 }
@@ -168,7 +197,7 @@ $i-map: (
 @mixin i-instagram($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -117px 0;
+  background-position: -138px 0;
   width: 21px;
   height: 20px;
 }
@@ -178,10 +207,23 @@ $i-map: (
 }
 
 
+@mixin i-instagram-brand($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -159px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-instagram-brand {
+  @include i-instagram-brand(false, false);
+}
+
+
 @mixin i-linkedin($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -138px 0;
+  background-position: -180px 0;
   width: 21px;
   height: 20px;
 }
@@ -191,10 +233,23 @@ $i-map: (
 }
 
 
+@mixin i-linkedin-brand($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -201px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-linkedin-brand {
+  @include i-linkedin-brand(false, false);
+}
+
+
 @mixin i-mail($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -159px 0;
+  background-position: -222px 0;
   width: 21px;
   height: 20px;
 }
@@ -207,7 +262,7 @@ $i-map: (
 @mixin i-print($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -180px 0;
+  background-position: -243px 0;
   width: 21px;
   height: 20px;
 }
@@ -220,7 +275,7 @@ $i-map: (
 @mixin i-search($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -201px 0;
+  background-position: -264px 0;
   width: 24px;
   height: 24px;
 }
@@ -233,7 +288,7 @@ $i-map: (
 @mixin i-search-gray($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -225px 0;
+  background-position: -288px 0;
   width: 24px;
   height: 24px;
 }
@@ -246,13 +301,26 @@ $i-map: (
 @mixin i-twitter($add-style: true, $add-url: true) {
   @include i($add-style);
   @include extend-i-url($add-url);
-  background-position: -249px 0;
+  background-position: -312px 0;
   width: 21px;
   height: 20px;
 }
 
 .i-twitter {
   @include i-twitter(false, false);
+}
+
+
+@mixin i-twitter-brand($add-style: true, $add-url: true) {
+  @include i($add-style);
+  @include extend-i-url($add-url);
+  background-position: -333px 0;
+  width: 21px;
+  height: 20px;
+}
+
+.i-twitter-brand {
+  @include i-twitter-brand(false, false);
 }
 
 
