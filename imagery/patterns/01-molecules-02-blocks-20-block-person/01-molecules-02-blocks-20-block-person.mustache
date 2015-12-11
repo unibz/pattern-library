@@ -1,0 +1,18 @@
+&lt;div class=&quot;{{ class }} person&quot;&gt;
+  {{# person-image }}
+    &lt;div class=&quot;person_imageWrapper&quot;&gt;
+      {{&gt; atoms-avatar (class: &quot;person_image&quot;) }}
+    &lt;/div&gt; 
+  {{/ person-image }}
+  &lt;div class=&quot;person_body&quot;&gt;
+    &lt;a href=&quot;{{ url }}&quot;&gt;
+      {{&gt; atoms-heading-5 (class:&quot;person_name&quot;) }}
+    &lt;/a&gt;
+    {{# person-role }}
+      {{&gt; atoms-text-span (class:&quot;person_role&quot;) }}
+    {{/ person-role }}
+    {{# person-contact }}
+      {{&gt; atoms-text-span (class:&quot;person_contact&quot;) }}
+    {{/ person-contact }}
+  &lt;/div&gt;
+&lt;/div&gt;

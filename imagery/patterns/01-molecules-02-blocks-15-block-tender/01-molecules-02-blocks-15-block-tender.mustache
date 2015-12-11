@@ -1,0 +1,17 @@
+&lt;div class=&quot;{{ class }} tender&quot;&gt;
+  {{# tender-theme }}
+    {{&gt; atoms-text-span (class:&quot;tender_faculty&quot;) }}
+  {{/ tender-theme  }}
+  &lt;div class=&quot;tender_body&quot;&gt;
+    {{# tender-deadline }}
+      {{&gt; atoms-text-span (class:&quot;tender_deadline&quot;) }}
+    {{/ tender-deadline }}
+    &lt;a href=&quot;{{ url }}&quot;&gt;
+      {{&gt; atoms-heading-5 (class:&quot;tender_title&quot;) }}
+    &lt;/a&gt;
+    {{&gt; atoms-text-paragraph (class:&quot;tender_text&quot;) }}
+    {{# links }}
+      {{&gt; atoms-button-text-small (class:&quot;tender_link&quot;) }}
+    {{/ links}}
+  &lt;/div&gt;
+&lt;/div&gt;

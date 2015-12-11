@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html id="patternlab-html">
+<head id="patternlab-head">
+	<title id="title">Pattern Lab</title>
+	<meta charset="UTF-8">
+	
+	<!-- never cache patterns -->
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styleguide/css/styleguide.css?0" media="all" />
+	<link rel="stylesheet" href="styleguide/css/styleguide-specific.css?0" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/typeahead.css?0" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/prism.css?0" media="all" />
+	
+	<script src="styleguide/js/vendor/jquery.js"></script>
+</head>
+<body  id="patternlab-body">
+	<!--Style Guide Header-->
+	<header class="sg-header" role="banner">
+		<a href="#sg-nav-container" class="sg-nav-toggle"><span class="icon-menu"></span>Menu</a>
+		<div class="sg-nav-container" id="sg-nav-container">
+			<ol class="sg-nav">
+					<li class="sg-nav-atoms"><a class="sg-acc-handle">Atoms</a><ol class="sg-acc-panel">
+						<li class="sg-nav-global"><a class="sg-acc-handle">Global</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-01-global-00-colors/00-atoms-01-global-00-colors.html" class="sg-pop  " data-patternpartial="atoms-colors">Colors</a></li>
+							<li><a href="patterns/00-atoms-01-global-01-fonts/00-atoms-01-global-01-fonts.html" class="sg-pop  " data-patternpartial="atoms-fonts">Fonts</a></li>
+							<li><a href="patterns/00-atoms-01-global-02-animations/00-atoms-01-global-02-animations.html" class="sg-pop  " data-patternpartial="atoms-animations">Animations</a></li>
+							<li><a href="patterns/00-atoms-01-global-03-visibility/00-atoms-01-global-03-visibility.html" class="sg-pop  " data-patternpartial="atoms-visibility">Visibility</a></li>
+							<li><a href="patterns/00-atoms-01-global/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-global">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-headings"><a class="sg-acc-handle">Headings</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-01-headings-00-heading-1/00-atoms-01-headings-00-heading-1.html" class="sg-pop  " data-patternpartial="atoms-heading-1">Heading 1</a></li>
+							<li><a href="patterns/00-atoms-01-headings-01-heading-2/00-atoms-01-headings-01-heading-2.html" class="sg-pop  " data-patternpartial="atoms-heading-2">Heading 2</a></li>
+							<li><a href="patterns/00-atoms-01-headings-02-heading-3/00-atoms-01-headings-02-heading-3.html" class="sg-pop  " data-patternpartial="atoms-heading-3">Heading 3</a></li>
+							<li><a href="patterns/00-atoms-01-headings-03-heading-4/00-atoms-01-headings-03-heading-4.html" class="sg-pop  " data-patternpartial="atoms-heading-4">Heading 4</a></li>
+							<li><a href="patterns/00-atoms-01-headings-04-heading-5/00-atoms-01-headings-04-heading-5.html" class="sg-pop  " data-patternpartial="atoms-heading-5">Heading 5</a></li>
+							<li><a href="patterns/00-atoms-01-headings-05-heading-6/00-atoms-01-headings-05-heading-6.html" class="sg-pop  " data-patternpartial="atoms-heading-6">Heading 6</a></li>
+							<li><a href="patterns/00-atoms-01-headings/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-headings">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-text"><a class="sg-acc-handle">Text</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-02-text-00-text-container/00-atoms-02-text-00-text-container.html" class="sg-pop  " data-patternpartial="atoms-text-container">Text Container</a></li>
+							<li><a href="patterns/00-atoms-02-text-00-text-paragraph/00-atoms-02-text-00-text-paragraph.html" class="sg-pop  " data-patternpartial="atoms-text-paragraph">Text Paragraph</a></li>
+							<li><a href="patterns/00-atoms-02-text-01-text-blockquote/00-atoms-02-text-01-text-blockquote.html" class="sg-pop  " data-patternpartial="atoms-text-blockquote">Text Blockquote</a></li>
+							<li><a href="patterns/00-atoms-02-text-02-text-inline-elements/00-atoms-02-text-02-text-inline-elements.html" class="sg-pop  " data-patternpartial="atoms-text-inline-elements">Text Inline Elements</a></li>
+							<li><a href="patterns/00-atoms-02-text-03-text-date/00-atoms-02-text-03-text-date.html" class="sg-pop  " data-patternpartial="atoms-text-date">Text Date</a></li>
+							<li><a href="patterns/00-atoms-02-text-03-text-time/00-atoms-02-text-03-text-time.html" class="sg-pop  " data-patternpartial="atoms-text-time">Text Time</a></li>
+							<li><a href="patterns/00-atoms-02-text-04-text-span/00-atoms-02-text-04-text-span.html" class="sg-pop  " data-patternpartial="atoms-text-span">Text Span</a></li>
+							<li><a href="patterns/00-atoms-02-text-05-text-link/00-atoms-02-text-05-text-link.html" class="sg-pop  " data-patternpartial="atoms-text-link">Text Link</a></li>
+							<li><a href="patterns/00-atoms-02-text-06-text-hr/00-atoms-02-text-06-text-hr.html" class="sg-pop  " data-patternpartial="atoms-text-hr">Text Hr</a></li>
+							<li><a href="patterns/00-atoms-02-text-07-text-preformatted/00-atoms-02-text-07-text-preformatted.html" class="sg-pop  " data-patternpartial="atoms-text-preformatted">Text Preformatted</a></li>
+							<li><a href="patterns/00-atoms-02-text-08-text-wrapper/00-atoms-02-text-08-text-wrapper.html" class="sg-pop  " data-patternpartial="atoms-text-wrapper">Text Wrapper</a></li>
+							<li><a href="patterns/00-atoms-02-text/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-text">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-lists"><a class="sg-acc-handle">Lists</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-03-lists-00-unordered/00-atoms-03-lists-00-unordered.html" class="sg-pop  " data-patternpartial="atoms-unordered">Unordered</a></li>
+							<li><a href="patterns/00-atoms-03-lists-01-ordered/00-atoms-03-lists-01-ordered.html" class="sg-pop  " data-patternpartial="atoms-ordered">Ordered</a></li>
+							<li><a href="patterns/00-atoms-03-lists/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-lists">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-images"><a class="sg-acc-handle">Images</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-04-images-00-logo/00-atoms-04-images-00-logo.html" class="sg-pop  " data-patternpartial="atoms-logo">Logo</a></li>
+							<li><a href="patterns/00-atoms-04-images-01-image-4x3/00-atoms-04-images-01-image-4x3.html" class="sg-pop  " data-patternpartial="atoms-image-4x3">Image 4x3</a></li>
+							<li><a href="patterns/00-atoms-04-images-02-image-16x9/00-atoms-04-images-02-image-16x9.html" class="sg-pop  " data-patternpartial="atoms-image-16x9">Image 16x9</a></li>
+							<li><a href="patterns/00-atoms-04-images-03-image-1x1/00-atoms-04-images-03-image-1x1.html" class="sg-pop  " data-patternpartial="atoms-image-1x1">Image 1x1</a></li>
+							<li><a href="patterns/00-atoms-04-images-04-image-2x3/00-atoms-04-images-04-image-2x3.html" class="sg-pop  " data-patternpartial="atoms-image-2x3">Image 2x3</a></li>
+							<li><a href="patterns/00-atoms-04-images-05-avatar/00-atoms-04-images-05-avatar.html" class="sg-pop  " data-patternpartial="atoms-avatar">Avatar</a></li>
+							<li><a href="patterns/00-atoms-04-images-06-favicon/00-atoms-04-images-06-favicon.html" class="sg-pop  " data-patternpartial="atoms-favicon">Favicon</a></li>
+							<li><a href="patterns/00-atoms-04-images/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-images">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-forms"><a class="sg-acc-handle">Forms</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-05-forms-00-forms-label/00-atoms-05-forms-00-forms-label.html" class="sg-pop  " data-patternpartial="atoms-forms-label">Forms Label</a></li>
+							<li><a href="patterns/00-atoms-05-forms-01-forms-input-text/00-atoms-05-forms-01-forms-input-text.html" class="sg-pop  " data-patternpartial="atoms-forms-input-text">Forms Input Text</a></li>
+							<li><a href="patterns/00-atoms-05-forms-02-forms-input-text-error/00-atoms-05-forms-02-forms-input-text-error.html" class="sg-pop  " data-patternpartial="atoms-forms-input-text-error">Forms Input Text Error</a></li>
+							<li><a href="patterns/00-atoms-05-forms-03-forms-input-password/00-atoms-05-forms-03-forms-input-password.html" class="sg-pop  " data-patternpartial="atoms-forms-input-password">Forms Input Password</a></li>
+							<li><a href="patterns/00-atoms-05-forms-04-forms-input-email/00-atoms-05-forms-04-forms-input-email.html" class="sg-pop  " data-patternpartial="atoms-forms-input-email">Forms Input Email</a></li>
+							<li><a href="patterns/00-atoms-05-forms-05-forms-input-url/00-atoms-05-forms-05-forms-input-url.html" class="sg-pop  " data-patternpartial="atoms-forms-input-url">Forms Input Url</a></li>
+							<li><a href="patterns/00-atoms-05-forms-06-forms-input-search/00-atoms-05-forms-06-forms-input-search.html" class="sg-pop  " data-patternpartial="atoms-forms-input-search">Forms Input Search</a></li>
+							<li><a href="patterns/00-atoms-05-forms-07-forms-input-number/00-atoms-05-forms-07-forms-input-number.html" class="sg-pop  " data-patternpartial="atoms-forms-input-number">Forms Input Number</a></li>
+							<li><a href="patterns/00-atoms-05-forms-08-forms-checkbox/00-atoms-05-forms-08-forms-checkbox.html" class="sg-pop  " data-patternpartial="atoms-forms-checkbox">Forms Checkbox</a></li>
+							<li><a href="patterns/00-atoms-05-forms-09-forms-radio-buttons/00-atoms-05-forms-09-forms-radio-buttons.html" class="sg-pop  " data-patternpartial="atoms-forms-radio-buttons">Forms Radio Buttons</a></li>
+							<li><a href="patterns/00-atoms-05-forms-10-forms-select-menu/00-atoms-05-forms-10-forms-select-menu.html" class="sg-pop  " data-patternpartial="atoms-forms-select-menu">Forms Select Menu</a></li>
+							<li><a href="patterns/00-atoms-05-forms-11-forms-input-textarea/00-atoms-05-forms-11-forms-input-textarea.html" class="sg-pop  " data-patternpartial="atoms-forms-input-textarea">Forms Input Textarea</a></li>
+							<li><a href="patterns/00-atoms-05-forms-12-forms-input-number/00-atoms-05-forms-12-forms-input-number.html" class="sg-pop  " data-patternpartial="atoms-forms-input-number">Forms Input Number</a></li>
+							<li><a href="patterns/00-atoms-05-forms-13-forms-input-date/00-atoms-05-forms-13-forms-input-date.html" class="sg-pop  " data-patternpartial="atoms-forms-input-date">Forms Input Date</a></li>
+							<li><a href="patterns/00-atoms-05-forms-14-forms-input-range/00-atoms-05-forms-14-forms-input-range.html" class="sg-pop  " data-patternpartial="atoms-forms-input-range">Forms Input Range</a></li>
+							<li><a href="patterns/00-atoms-05-forms-15-forms-input-week/00-atoms-05-forms-15-forms-input-week.html" class="sg-pop  " data-patternpartial="atoms-forms-input-week">Forms Input Week</a></li>
+							<li><a href="patterns/00-atoms-05-forms-16-forms-input-month/00-atoms-05-forms-16-forms-input-month.html" class="sg-pop  " data-patternpartial="atoms-forms-input-month">Forms Input Month</a></li>
+							<li><a href="patterns/00-atoms-05-forms-17-forms-input-datetime/00-atoms-05-forms-17-forms-input-datetime.html" class="sg-pop  " data-patternpartial="atoms-forms-input-datetime">Forms Input Datetime</a></li>
+							<li><a href="patterns/00-atoms-05-forms-18-forms-input-datetime-local/00-atoms-05-forms-18-forms-input-datetime-local.html" class="sg-pop  " data-patternpartial="atoms-forms-input-datetime-local">Forms Input Datetime Local</a></li>
+							<li><a href="patterns/00-atoms-05-forms/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-forms">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-buttons"><a class="sg-acc-handle">Buttons</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-06-buttons-00-button-small/00-atoms-06-buttons-00-button-small.html" class="sg-pop  " data-patternpartial="atoms-button-small">Button Small</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-01-button-dark/00-atoms-06-buttons-01-button-dark.html" class="sg-pop  " data-patternpartial="atoms-button-dark">Button Dark</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-01-button/00-atoms-06-buttons-01-button.html" class="sg-pop  " data-patternpartial="atoms-button">Button</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-02-button-big/00-atoms-06-buttons-02-button-big.html" class="sg-pop  " data-patternpartial="atoms-button-big">Button Big</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-03-button-alternate-small/00-atoms-06-buttons-03-button-alternate-small.html" class="sg-pop  " data-patternpartial="atoms-button-alternate-small">Button Alternate Small</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-04-button-alternate/00-atoms-06-buttons-04-button-alternate.html" class="sg-pop  " data-patternpartial="atoms-button-alternate">Button Alternate</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-05-button-alternate-big/00-atoms-06-buttons-05-button-alternate-big.html" class="sg-pop  " data-patternpartial="atoms-button-alternate-big">Button Alternate Big</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-06-button-disabled-small/00-atoms-06-buttons-06-button-disabled-small.html" class="sg-pop  " data-patternpartial="atoms-button-disabled-small">Button Disabled Small</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-07-button-disabled/00-atoms-06-buttons-07-button-disabled.html" class="sg-pop  " data-patternpartial="atoms-button-disabled">Button Disabled</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-08-button-disabled-big/00-atoms-06-buttons-08-button-disabled-big.html" class="sg-pop  " data-patternpartial="atoms-button-disabled-big">Button Disabled Big</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-09-button-text/00-atoms-06-buttons-09-button-text.html" class="sg-pop  " data-patternpartial="atoms-button-text">Button Text</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-10-button-text-alternate/00-atoms-06-buttons-10-button-text-alternate.html" class="sg-pop  " data-patternpartial="atoms-button-text-alternate">Button Text Alternate</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-11-button-text-primary/00-atoms-06-buttons-11-button-text-primary.html" class="sg-pop  " data-patternpartial="atoms-button-text-primary">Button Text Primary</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-12-button-text-small/00-atoms-06-buttons-12-button-text-small.html" class="sg-pop  " data-patternpartial="atoms-button-text-small">Button Text Small</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-15-button-filter/00-atoms-06-buttons-15-button-filter.html" class="sg-pop  " data-patternpartial="atoms-button-filter">Button Filter</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-16-button-toggle-label/00-atoms-06-buttons-16-button-toggle-label.html" class="sg-pop  " data-patternpartial="atoms-button-toggle-label">Button Toggle Label</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-16-button-toggle/00-atoms-06-buttons-16-button-toggle.html" class="sg-pop  " data-patternpartial="atoms-button-toggle">Button Toggle</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-17-button-medium/00-atoms-06-buttons-17-button-medium.html" class="sg-pop  " data-patternpartial="atoms-button-medium">Button Medium</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-18-button-round/00-atoms-06-buttons-18-button-round.html" class="sg-pop  " data-patternpartial="atoms-button-round">Button Round</a></li>
+							<li><a href="patterns/00-atoms-06-buttons-19-button-text-small-primary/00-atoms-06-buttons-19-button-text-small-primary.html" class="sg-pop  " data-patternpartial="atoms-button-text-small-primary">Button Text Small Primary</a></li>
+							<li><a href="patterns/00-atoms-06-buttons/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-buttons">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-media"><a class="sg-acc-handle">Media</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-08-media-00-maps/00-atoms-08-media-00-maps.html" class="sg-pop  " data-patternpartial="atoms-maps">Maps</a></li>
+							<li><a href="patterns/00-atoms-08-media/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-media">View All</a></li>
+						</ol></li>
+					</ol></li>
+					<li class="sg-nav-molecules"><a class="sg-acc-handle">Molecules</a><ol class="sg-acc-panel">
+						<li class="sg-nav-text"><a class="sg-acc-handle">Text</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-00-text-00-address/01-molecules-00-text-00-address.html" class="sg-pop  " data-patternpartial="molecules-address">Address</a></li>
+							<li><a href="patterns/01-molecules-00-text-05-post-header/01-molecules-00-text-05-post-header.html" class="sg-pop  " data-patternpartial="molecules-post-header">Post Header</a></li>
+							<li><a href="patterns/01-molecules-00-text-10-blockquote-with-citation/01-molecules-00-text-10-blockquote-with-citation.html" class="sg-pop  " data-patternpartial="molecules-blockquote-with-citation">Blockquote With Citation</a></li>
+							<li><a href="patterns/01-molecules-00-text/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-text">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-layout"><a class="sg-acc-handle">Layout</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-01-layout-00-grid-system/01-molecules-01-layout-00-grid-system.html" class="sg-pop  " data-patternpartial="molecules-grid-system">Grid System</a></li>
+							<li><a href="patterns/01-molecules-01-layout/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-layout">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-blocks"><a class="sg-acc-handle">Blocks</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-02-blocks-00-media-block/01-molecules-02-blocks-00-media-block.html" class="sg-pop  " data-patternpartial="molecules-media-block">Media Block</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-01-block-highlight/01-molecules-02-blocks-01-block-highlight.html" class="sg-pop  " data-patternpartial="molecules-block-highlight">Block Highlight</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-02-block-glance/01-molecules-02-blocks-02-block-glance.html" class="sg-pop  " data-patternpartial="molecules-block-glance">Block Glance</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-03-block-post/01-molecules-02-blocks-03-block-post.html" class="sg-pop  " data-patternpartial="molecules-block-post">Block Post</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-04-block-event/01-molecules-02-blocks-04-block-event.html" class="sg-pop  " data-patternpartial="molecules-block-event">Block Event</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-10-block-link/01-molecules-02-blocks-10-block-link.html" class="sg-pop  " data-patternpartial="molecules-block-link">Block Link</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-11-block-contact/01-molecules-02-blocks-11-block-contact.html" class="sg-pop  " data-patternpartial="molecules-block-contact">Block Contact</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-12-block-timetable-item/01-molecules-02-blocks-12-block-timetable-item.html" class="sg-pop  " data-patternpartial="molecules-block-timetable-item">Block Timetable Item</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-13-block-study-program/01-molecules-02-blocks-13-block-study-program.html" class="sg-pop  " data-patternpartial="molecules-block-study-program">Block Study Program</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-14-block-job/01-molecules-02-blocks-14-block-job.html" class="sg-pop  " data-patternpartial="molecules-block-job">Block Job</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-15-block-tender/01-molecules-02-blocks-15-block-tender.html" class="sg-pop  " data-patternpartial="molecules-block-tender">Block Tender</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-20-block-person/01-molecules-02-blocks-20-block-person.html" class="sg-pop  " data-patternpartial="molecules-block-person">Block Person</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-25-block-lecture/01-molecules-02-blocks-25-block-lecture.html" class="sg-pop  " data-patternpartial="molecules-block-lecture">Block Lecture</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-30-block-research/01-molecules-02-blocks-30-block-research.html" class="sg-pop  " data-patternpartial="molecules-block-research">Block Research</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-35-block-text/01-molecules-02-blocks-35-block-text.html" class="sg-pop  " data-patternpartial="molecules-block-text">Block Text</a></li>
+							<li><a href="patterns/01-molecules-02-blocks-35-block-typography/01-molecules-02-blocks-35-block-typography.html" class="sg-pop  " data-patternpartial="molecules-block-typography">Block Typography</a></li>
+							<li><a href="patterns/01-molecules-02-blocks/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-blocks">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-media"><a class="sg-acc-handle">Media</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-03-media-00-figure/01-molecules-03-media-00-figure.html" class="sg-pop  " data-patternpartial="molecules-figure">Figure</a></li>
+							<li><a href="patterns/01-molecules-03-media-05-embed/01-molecules-03-media-05-embed.html" class="sg-pop  " data-patternpartial="molecules-embed">Embed</a></li>
+							<li><a href="patterns/01-molecules-03-media-10-video/01-molecules-03-media-10-video.html" class="sg-pop  " data-patternpartial="molecules-video">Video</a></li>
+							<li><a href="patterns/01-molecules-03-media/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-media">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-navigation"><a class="sg-acc-handle">Navigation</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-05-navigation-00-nav/01-molecules-05-navigation-00-nav.html" class="sg-pop  " data-patternpartial="molecules-nav">Nav</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-05-nav-study-course/01-molecules-05-navigation-05-nav-study-course.html" class="sg-pop  " data-patternpartial="molecules-nav-study-course">Nav Study Course</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-10-nav-links-university/01-molecules-05-navigation-10-nav-links-university.html" class="sg-pop  " data-patternpartial="molecules-nav-links-university">Nav Links University</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-11-nav-links-faculty/01-molecules-05-navigation-11-nav-links-faculty.html" class="sg-pop  " data-patternpartial="molecules-nav-links-faculty">Nav Links Faculty</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-15-nav-grid-bachelor/01-molecules-05-navigation-15-nav-grid-bachelor.html" class="sg-pop  " data-patternpartial="molecules-nav-grid-bachelor">Nav Grid Bachelor</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-16-nav-grid-master/01-molecules-05-navigation-16-nav-grid-master.html" class="sg-pop  " data-patternpartial="molecules-nav-grid-master">Nav Grid Master</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-17-nav-grid-phd/01-molecules-05-navigation-17-nav-grid-phd.html" class="sg-pop  " data-patternpartial="molecules-nav-grid-phd">Nav Grid Phd</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-18-nav-grid-lifelong/01-molecules-05-navigation-18-nav-grid-lifelong.html" class="sg-pop  " data-patternpartial="molecules-nav-grid-lifelong">Nav Grid Lifelong</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-20-nav-mobile/01-molecules-05-navigation-20-nav-mobile.html" class="sg-pop  " data-patternpartial="molecules-nav-mobile">Nav Mobile</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-25-nav-pagination/01-molecules-05-navigation-25-nav-pagination.html" class="sg-pop  " data-patternpartial="molecules-nav-pagination">Nav Pagination</a></li>
+							<li><a href="patterns/01-molecules-05-navigation/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-navigation">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-components"><a class="sg-acc-handle">Components</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-06-components-00-social-share/01-molecules-06-components-00-social-share.html" class="sg-pop  " data-patternpartial="molecules-social-share">Social Share</a></li>
+							<li><a href="patterns/01-molecules-06-components-05-social-links/01-molecules-06-components-05-social-links.html" class="sg-pop  " data-patternpartial="molecules-social-links">Social Links</a></li>
+							<li><a href="patterns/01-molecules-06-components-06-social-links-white/01-molecules-06-components-06-social-links-white.html" class="sg-pop  " data-patternpartial="molecules-social-links-white">Social Links White</a></li>
+							<li><a href="patterns/01-molecules-06-components-10-filters/01-molecules-06-components-10-filters.html" class="sg-pop  " data-patternpartial="molecules-filters">Filters</a></li>
+							<li><a href="patterns/01-molecules-06-components-15-find-tools/01-molecules-06-components-15-find-tools.html" class="sg-pop  " data-patternpartial="molecules-find-tools">Find Tools</a></li>
+							<li><a href="patterns/01-molecules-06-components-20-calendar-days/01-molecules-06-components-20-calendar-days.html" class="sg-pop  " data-patternpartial="molecules-calendar-days">Calendar Days</a></li>
+							<li><a href="patterns/01-molecules-06-components-25-calendar-month/01-molecules-06-components-25-calendar-month.html" class="sg-pop  " data-patternpartial="molecules-calendar-month">Calendar Month</a></li>
+							<li><a href="patterns/01-molecules-06-components-30-accordion/01-molecules-06-components-30-accordion.html" class="sg-pop  " data-patternpartial="molecules-accordion">Accordion</a></li>
+							<li><a href="patterns/01-molecules-06-components-30-accordion-open/01-molecules-06-components-30-accordion-open.html" class="sg-pop  " data-patternpartial="molecules-accordion-open">Accordion Open</a></li>
+							<li><a href="patterns/01-molecules-06-components/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-components">View All</a></li>
+						</ol></li>
+					</ol></li>
+					<li class="sg-nav-organisms"><a class="sg-acc-handle">Organisms</a><ol class="sg-acc-panel">
+						<li class="sg-nav-global"><a class="sg-acc-handle">Global</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-00-global-00-header/02-organisms-00-global-00-header.html" class="sg-pop  " data-patternpartial="organisms-header">Header</a></li>
+							<li><a href="patterns/02-organisms-00-global-05-footer/02-organisms-00-global-05-footer.html" class="sg-pop  " data-patternpartial="organisms-footer">Footer</a></li>
+							<li><a href="patterns/02-organisms-00-global/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-global">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-hero"><a class="sg-acc-handle">Hero</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-02-hero-00-hero/02-organisms-02-hero-00-hero.html" class="sg-pop  " data-patternpartial="organisms-hero">Hero</a></li>
+							<li><a href="patterns/02-organisms-02-hero-05-hero-small/02-organisms-02-hero-05-hero-small.html" class="sg-pop  " data-patternpartial="organisms-hero-small">Hero Small</a></li>
+							<li><a href="patterns/02-organisms-02-hero/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-hero">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-sections"><a class="sg-acc-handle">Sections</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-03-sections-00-banner/02-organisms-03-sections-00-banner.html" class="sg-pop  " data-patternpartial="organisms-banner">Banner</a></li>
+							<li><a href="patterns/02-organisms-03-sections-05-block-links/02-organisms-03-sections-05-block-links.html" class="sg-pop  " data-patternpartial="organisms-block-links">Block Links</a></li>
+							<li><a href="patterns/02-organisms-03-sections-10-latest-post/02-organisms-03-sections-10-latest-post.html" class="sg-pop  " data-patternpartial="organisms-latest-post">Latest Post</a></li>
+							<li><a href="patterns/02-organisms-03-sections-11-latest-events/02-organisms-03-sections-11-latest-events.html" class="sg-pop  " data-patternpartial="organisms-latest-events">Latest Events</a></li>
+							<li><a href="patterns/02-organisms-03-sections-15-magazine/02-organisms-03-sections-15-magazine.html" class="sg-pop  " data-patternpartial="organisms-magazine">Magazine</a></li>
+							<li><a href="patterns/02-organisms-03-sections-20-people-section/02-organisms-03-sections-20-people-section.html" class="sg-pop  " data-patternpartial="organisms-people-section">People Section</a></li>
+							<li><a href="patterns/02-organisms-03-sections-25-grid-title/02-organisms-03-sections-25-grid-title.html" class="sg-pop  " data-patternpartial="organisms-grid-title">Grid Title</a></li>
+							<li><a href="patterns/02-organisms-03-sections-30-study-programs/02-organisms-03-sections-30-study-programs.html" class="sg-pop  " data-patternpartial="organisms-study-programs">Study Programs</a></li>
+							<li><a href="patterns/02-organisms-03-sections-35-latest-highlights/02-organisms-03-sections-35-latest-highlights.html" class="sg-pop  " data-patternpartial="organisms-latest-highlights">Latest Highlights</a></li>
+							<li><a href="patterns/02-organisms-03-sections-40-block-text/02-organisms-03-sections-40-block-text.html" class="sg-pop  " data-patternpartial="organisms-block-text">Block Text</a></li>
+							<li><a href="patterns/02-organisms-03-sections-41-block-typography/02-organisms-03-sections-41-block-typography.html" class="sg-pop  " data-patternpartial="organisms-block-typography">Block Typography</a></li>
+							<li><a href="patterns/02-organisms-03-sections-45-block-media/02-organisms-03-sections-45-block-media.html" class="sg-pop  " data-patternpartial="organisms-block-media">Block Media</a></li>
+							<li><a href="patterns/02-organisms-03-sections-46-block-glance/02-organisms-03-sections-46-block-glance.html" class="sg-pop  " data-patternpartial="organisms-block-glance">Block Glance</a></li>
+							<li><a href="patterns/02-organisms-03-sections-50-testimonial/02-organisms-03-sections-50-testimonial.html" class="sg-pop  " data-patternpartial="organisms-testimonial">Testimonial</a></li>
+							<li><a href="patterns/02-organisms-03-sections-55-pagination/02-organisms-03-sections-55-pagination.html" class="sg-pop  " data-patternpartial="organisms-pagination">Pagination</a></li>
+							<li><a href="patterns/02-organisms-03-sections-60-latest-jobs/02-organisms-03-sections-60-latest-jobs.html" class="sg-pop  " data-patternpartial="organisms-latest-jobs">Latest Jobs</a></li>
+							<li><a href="patterns/02-organisms-03-sections-65-latest-tenders/02-organisms-03-sections-65-latest-tenders.html" class="sg-pop  " data-patternpartial="organisms-latest-tenders">Latest Tenders</a></li>
+							<li><a href="patterns/02-organisms-03-sections-70-post/02-organisms-03-sections-70-post.html" class="sg-pop  " data-patternpartial="organisms-post">Post</a></li>
+							<li><a href="patterns/02-organisms-03-sections-75-event-intro/02-organisms-03-sections-75-event-intro.html" class="sg-pop  " data-patternpartial="organisms-event-intro">Event Intro</a></li>
+							<li><a href="patterns/02-organisms-03-sections-80-location/02-organisms-03-sections-80-location.html" class="sg-pop  " data-patternpartial="organisms-location">Location</a></li>
+							<li><a href="patterns/02-organisms-03-sections-85-office/02-organisms-03-sections-85-office.html" class="sg-pop  " data-patternpartial="organisms-office">Office</a></li>
+							<li><a href="patterns/02-organisms-03-sections-90-person/02-organisms-03-sections-90-person.html" class="sg-pop  " data-patternpartial="organisms-person">Person</a></li>
+							<li><a href="patterns/02-organisms-03-sections-95-news/02-organisms-03-sections-95-news.html" class="sg-pop  " data-patternpartial="organisms-news">News</a></li>
+							<li><a href="patterns/02-organisms-03-sections-96-events/02-organisms-03-sections-96-events.html" class="sg-pop  " data-patternpartial="organisms-events">Events</a></li>
+							<li><a href="patterns/02-organisms-03-sections/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-sections">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-timetable"><a class="sg-acc-handle">Timetable</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-04-timetable-00-timetable-day/02-organisms-04-timetable-00-timetable-day.html" class="sg-pop  " data-patternpartial="organisms-timetable-day">Timetable Day</a></li>
+							<li><a href="patterns/02-organisms-04-timetable/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-timetable">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-components"><a class="sg-acc-handle">Components</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-05-components-00-power-tools/02-organisms-05-components-00-power-tools.html" class="sg-pop  " data-patternpartial="organisms-power-tools">Power Tools</a></li>
+							<li><a href="patterns/02-organisms-05-components-00-search-find/02-organisms-05-components-00-search-find.html" class="sg-pop  " data-patternpartial="organisms-search-find">Search Find</a></li>
+							<li><a href="patterns/02-organisms-05-components-05-search-section/02-organisms-05-components-05-search-section.html" class="sg-pop  " data-patternpartial="organisms-search-section">Search Section</a></li>
+							<li><a href="patterns/02-organisms-05-components-10-contact-card/02-organisms-05-components-10-contact-card.html" class="sg-pop  " data-patternpartial="organisms-contact-card">Contact Card</a></li>
+							<li><a href="patterns/02-organisms-05-components/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-components">View All</a></li>
+						</ol></li>
+					</ol></li>
+					<li class="sg-nav-templates"><a class="sg-acc-handle">Templates</a><ol class="sg-acc-panel">
+						<li><a href="patterns/03-templates-00-homepage/03-templates-00-homepage.html" class="sg-pop " data-patternpartial="templates-homepage">Homepage</a></li>
+						<li><a href="patterns/03-templates-05-faculty/03-templates-05-faculty.html" class="sg-pop " data-patternpartial="templates-faculty">Faculty</a></li>
+						<li><a href="patterns/03-templates-10-study-course/03-templates-10-study-course.html" class="sg-pop " data-patternpartial="templates-study-course">Study Course</a></li>
+						<li><a href="patterns/03-templates-15-study-plan/03-templates-15-study-plan.html" class="sg-pop " data-patternpartial="templates-study-plan">Study Plan</a></li>
+						<li><a href="patterns/03-templates-16-study-programs/03-templates-16-study-programs.html" class="sg-pop " data-patternpartial="templates-study-programs">Study Programs</a></li>
+						<li><a href="patterns/03-templates-20-single/03-templates-20-single.html" class="sg-pop " data-patternpartial="templates-single">Single</a></li>
+						<li><a href="patterns/03-templates-30-timetable/03-templates-30-timetable.html" class="sg-pop " data-patternpartial="templates-timetable">Timetable</a></li>
+						<li><a href="patterns/03-templates-35-jobs/03-templates-35-jobs.html" class="sg-pop " data-patternpartial="templates-jobs">Jobs</a></li>
+						<li><a href="patterns/03-templates-40-news/03-templates-40-news.html" class="sg-pop " data-patternpartial="templates-news">News</a></li>
+						<li><a href="patterns/03-templates-45-events/03-templates-45-events.html" class="sg-pop " data-patternpartial="templates-events">Events</a></li>
+						<li><a href="patterns/03-templates-50-tenders/03-templates-50-tenders.html" class="sg-pop " data-patternpartial="templates-tenders">Tenders</a></li>
+						<li><a href="patterns/03-templates-55-people/03-templates-55-people.html" class="sg-pop " data-patternpartial="templates-people">People</a></li>
+						<li><a href="patterns/03-templates-60-post/03-templates-60-post.html" class="sg-pop " data-patternpartial="templates-post">Post</a></li>
+						<li><a href="patterns/03-templates-65-event/03-templates-65-event.html" class="sg-pop " data-patternpartial="templates-event">Event</a></li>
+						<li><a href="patterns/03-templates-70-person/03-templates-70-person.html" class="sg-pop " data-patternpartial="templates-person">Person</a></li>
+						<li><a href="patterns/03-templates-75-office/03-templates-75-office.html" class="sg-pop " data-patternpartial="templates-office">Office</a></li>
+						<li><a href="patterns/03-templates-80-research/03-templates-80-research.html" class="sg-pop " data-patternpartial="templates-research">Research</a></li>
+						<li><a href="patterns/03-templates-85-facility/03-templates-85-facility.html" class="sg-pop " data-patternpartial="templates-facility">Facility</a></li>
+					</ol></li>
+					<li class="sg-nav-pages"><a class="sg-acc-handle">Pages</a><ol class="sg-acc-panel">
+						<li><a href="patterns/04-pages-00-homepage/04-pages-00-homepage.html" class="sg-pop " data-patternpartial="pages-homepage">Homepage</a></li>
+						<li><a href="patterns/04-pages-05-faculty/04-pages-05-faculty.html" class="sg-pop " data-patternpartial="pages-faculty">Faculty</a></li>
+						<li><a href="patterns/04-pages-10-study-course/04-pages-10-study-course.html" class="sg-pop " data-patternpartial="pages-study-course">Study Course</a></li>
+						<li><a href="patterns/04-pages-15-study-plan/04-pages-15-study-plan.html" class="sg-pop " data-patternpartial="pages-study-plan">Study Plan</a></li>
+						<li><a href="patterns/04-pages-16-study-programs/04-pages-16-study-programs.html" class="sg-pop " data-patternpartial="pages-study-programs">Study Programs</a></li>
+						<li><a href="patterns/04-pages-20-timetable/04-pages-20-timetable.html" class="sg-pop " data-patternpartial="pages-timetable">Timetable</a></li>
+						<li><a href="patterns/04-pages-25-interships/04-pages-25-interships.html" class="sg-pop " data-patternpartial="pages-interships">Interships</a></li>
+						<li><a href="patterns/04-pages-30-news/04-pages-30-news.html" class="sg-pop " data-patternpartial="pages-news">News</a></li>
+						<li><a href="patterns/04-pages-35-events/04-pages-35-events.html" class="sg-pop " data-patternpartial="pages-events">Events</a></li>
+						<li><a href="patterns/04-pages-40-tenders-all/04-pages-40-tenders-all.html" class="sg-pop " data-patternpartial="pages-tenders-all">Tenders All</a></li>
+						<li><a href="patterns/04-pages-45-tenders-list/04-pages-45-tenders-list.html" class="sg-pop " data-patternpartial="pages-tenders-list">Tenders List</a></li>
+						<li><a href="patterns/04-pages-50-tender-single/04-pages-50-tender-single.html" class="sg-pop " data-patternpartial="pages-tender-single">Tender Single</a></li>
+						<li><a href="patterns/04-pages-55-organisation/04-pages-55-organisation.html" class="sg-pop " data-patternpartial="pages-organisation">Organisation</a></li>
+						<li><a href="patterns/04-pages-60-people/04-pages-60-people.html" class="sg-pop " data-patternpartial="pages-people">People</a></li>
+						<li><a href="patterns/04-pages-65-post/04-pages-65-post.html" class="sg-pop " data-patternpartial="pages-post">Post</a></li>
+						<li><a href="patterns/04-pages-70-event/04-pages-70-event.html" class="sg-pop " data-patternpartial="pages-event">Event</a></li>
+						<li><a href="patterns/04-pages-75-person/04-pages-75-person.html" class="sg-pop " data-patternpartial="pages-person">Person</a></li>
+						<li><a href="patterns/04-pages-80-office/04-pages-80-office.html" class="sg-pop " data-patternpartial="pages-office">Office</a></li>
+						<li><a href="patterns/04-pages-85-research/04-pages-85-research.html" class="sg-pop " data-patternpartial="pages-research">Research</a></li>
+						<li><a href="patterns/04-pages-90-facility/04-pages-90-facility.html" class="sg-pop " data-patternpartial="pages-facility">Facility</a></li>
+					</ol></li>
+				<li><a href="styleguide/html/styleguide.html" class="sg-pop" data-patternpartial="all">All</a></li>
+			</ol>
+			<!--sg-controls-->
+			<div class="sg-controls" id="sg-controls">
+					<div class="sg-control-content">
+						<ul class="sg-control">
+							<li class="sg-size">
+								<div class="sg-current-size">
+									<form id="sg-form">
+										Size <input type="text" class="sg-input sg-size-px" value="---">px / 
+										<input type="text" class="sg-input sg-size-em" value="---">em
+									</form><!--end #sg-form-->
+								</div><!--end #sg-current-size-->
+								<ul class="sg-acc-panel sg-size-options">
+									<li><a href="#" id="sg-size-s">S</a></li>
+									<li><a href="#" id="sg-size-m">M</a></li>
+									<li><a href="#" id="sg-size-l">L</a></li>
+									<li><a href="#" id="sg-size-full">Full</a></li>
+									<li><a href="#" id="sg-size-random">Random</a></li>
+									<li><a href="#" class="mode-link" id="sg-size-disco">Disco</a></li>
+									
+								</ul>
+							</li>
+							<li class="sg-mqs">
+								<a href="#" class="mode-link sg-acc-handle" id="sg-size-mq" title="Media queries in stylesheet">MQ</a>
+								<ul class="sg-acc-panel sg-left" id="sg-mq">
+								</ul>
+							</li>
+							<li class="sg-find">
+								<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-search" id="sg-f-toggle" title="Search Patterns"><span class="is-vishidden">Search Patterns</span></a>
+								<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-find" style="margin-top: 33px;">
+										<li><input class="typeahead" id="typeahead" type="text" placeholder="search for a pattern..."></li>
+								</ul>
+							</li>
+							<li class="sg-view">
+								<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-eye" id="sg-t-toggle" title="View"><span class="is-vishidden">View</span></a>
+								<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-view">
+									<li><a href="#" class="sg-checkbox" id="sg-t-annotations">Annotations</a></li>
+									<li><a href="#" class="sg-checkbox" id="sg-t-code">Code</a></li>
+									<li><a href="#" target="_blank" id="sg-raw" class="sg-icon-link">Open in new window</a></li>
+								</ul>
+							</li>
+							<li class="sg-tools">
+								<a href="#" class="sg-acc-handle sg-tools-toggle sg-icon sg-icon-cog" id="sg-tools-toggle" title="Tools"><span class="is-vishidden">Tools</span></a>
+								<ul class="sg-acc-panel sg-right sg-checklist">
+									<li><a href="#" id="navSyncButton" class="sg-checkbox sg-page-follow" data-state="off">Page Follow</a></li>
+									<li><a href="#" id="contentSyncButton" class="sg-checkbox sg-auto-reload" data-state="off">Auto-reload</a></li>
+									<li><a href="http://pattern-lab.info/docs/advanced-keyboard-shortcuts.html" class="sg-icon-keyboard" target="_blank">Keyboard Shortcuts</a>
+									<li><a href="http://pattern-lab.info/docs/" class="sg-icon-file" target="_blank">Pattern Lab Docs</a>
+								</ul>
+							</li>
+						</ul>
+						
+					</div>
+			</div>
+			<!--End #sg-controls-->		</div>
+	</header>
+	<!--End Style Guide Header-->
+	
+	<!-- Iframe -->
+	<div id="sg-vp-wrap">
+		<div id="sg-cover"></div>
+		<div id="sg-gen-container">
+			<iframe id="sg-viewport" sandbox="allow-same-origin allow-scripts"></iframe>
+			<div id="sg-rightpull-container">
+				<div id="sg-rightpull"></div>
+			</div>
+		</div>
+	</div>
+	<!--end iFrame-->
+	
+	<!-- the template for the code view slider -->
+	<script type="text/html" id="code-template">
+		<div id="sg-code-close" class="sg-view-close">
+			<a href="#" id="sg-code-close-btn" class="sg-view-close-btn">Close</a>
+		</div>
+		<div id="sg-code-loader">
+			<div class="spinner"></div>
+			Loading pattern...
+		</div>
+		<div id="sg-code-patternstate" style="display: none;">
+			<p>
+				The state of the <span id="sg-code-patternstate-patternname" class="sg-code-patternname"></span> pattern is: <span id="sg-code-patternstate-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-lineage" style="display: none;">
+			<p>
+				The <span id="sg-code-lineager-patternname" class="sg-code-patternname"></span> pattern contains the following patterns: <span id="sg-code-lineage-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-lineager" style="display: none;">
+			<p>
+				The <span id="sg-code-lineager-patternname" class="sg-code-patternname"></span> pattern is included in the following patterns: <span id="sg-code-lineager-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-markup">
+			<ul id="sg-code-tabs">
+				<li id="sg-code-title-html" class="sg-code-title-active">HTML</li>
+				<li id="sg-code-title-mustache">Mustache</li>
+				<li id="sg-code-title-css" style="display: none;">CSS</li>
+			</ul>
+			<div class="clear">
+				<pre><code id="sg-code-fill"></code></pre>
+			</div>
+		</div>
+	</script>
+	
+	<!-- the template for the annotations viewer slider -->
+	<script type="text/html" id="annotations-template">
+		<div id="sg-annotation-close" class="sg-view-close">
+			<a href="#" id="sg-annotation-close-btn" class="sg-view-close-btn">Close</a>
+		</div>
+		<div id="sg-comments-container"></div>
+	</script>
+	
+	<!-- Included JavaScript that makes everything work -->
+	<script src="styleguide/js/vendor/prism.js?0"></script>
+	<script src="styleguide/js/vendor/jwerty.js?0"></script>
+	<script src="styleguide/js/vendor/classlist-polyfill.js?0"></script>
+	<script src="styleguide/js/vendor/typeahead.bundle.min.js?0"></script>
+	<script src="styleguide/js/data-saver.js?0"></script>
+	<script>
+	  var ishMinimum           = 320;
+	  var ishMaximum           = 2600;
+		var qrCodeGeneratorOn    = false;
+		var ipAddress            = "192.168.179.124";
+		var xipHostname          = "http://patternlab.*.xip.io";
+	</script>	<script>
+		var patternPaths = {"atoms":{"colors":"00-atoms-01-global-00-colors","fonts":"00-atoms-01-global-01-fonts","animations":"00-atoms-01-global-02-animations","visibility":"00-atoms-01-global-03-visibility","heading-1":"00-atoms-01-headings-00-heading-1","heading-2":"00-atoms-01-headings-01-heading-2","heading-3":"00-atoms-01-headings-02-heading-3","heading-4":"00-atoms-01-headings-03-heading-4","heading-5":"00-atoms-01-headings-04-heading-5","heading-6":"00-atoms-01-headings-05-heading-6","text-container":"00-atoms-02-text-00-text-container","text-paragraph":"00-atoms-02-text-00-text-paragraph","text-blockquote":"00-atoms-02-text-01-text-blockquote","text-inline-elements":"00-atoms-02-text-02-text-inline-elements","text-date":"00-atoms-02-text-03-text-date","text-time":"00-atoms-02-text-03-text-time","text-span":"00-atoms-02-text-04-text-span","text-link":"00-atoms-02-text-05-text-link","text-hr":"00-atoms-02-text-06-text-hr","text-preformatted":"00-atoms-02-text-07-text-preformatted","text-wrapper":"00-atoms-02-text-08-text-wrapper","unordered":"00-atoms-03-lists-00-unordered","ordered":"00-atoms-03-lists-01-ordered","logo":"00-atoms-04-images-00-logo","image-4x3":"00-atoms-04-images-01-image-4x3","image-16x9":"00-atoms-04-images-02-image-16x9","image-1x1":"00-atoms-04-images-03-image-1x1","image-2x3":"00-atoms-04-images-04-image-2x3","avatar":"00-atoms-04-images-05-avatar","favicon":"00-atoms-04-images-06-favicon","forms-label":"00-atoms-05-forms-00-forms-label","forms-input-text":"00-atoms-05-forms-01-forms-input-text","forms-input-text-error":"00-atoms-05-forms-02-forms-input-text-error","forms-input-password":"00-atoms-05-forms-03-forms-input-password","forms-input-email":"00-atoms-05-forms-04-forms-input-email","forms-input-url":"00-atoms-05-forms-05-forms-input-url","forms-input-search":"00-atoms-05-forms-06-forms-input-search","forms-input-number":"00-atoms-05-forms-12-forms-input-number","forms-checkbox":"00-atoms-05-forms-08-forms-checkbox","forms-radio-buttons":"00-atoms-05-forms-09-forms-radio-buttons","forms-select-menu":"00-atoms-05-forms-10-forms-select-menu","forms-input-textarea":"00-atoms-05-forms-11-forms-input-textarea","forms-input-date":"00-atoms-05-forms-13-forms-input-date","forms-input-range":"00-atoms-05-forms-14-forms-input-range","forms-input-week":"00-atoms-05-forms-15-forms-input-week","forms-input-month":"00-atoms-05-forms-16-forms-input-month","forms-input-datetime":"00-atoms-05-forms-17-forms-input-datetime","forms-input-datetime-local":"00-atoms-05-forms-18-forms-input-datetime-local","button-small":"00-atoms-06-buttons-00-button-small","button-dark":"00-atoms-06-buttons-01-button-dark","button":"00-atoms-06-buttons-01-button","button-big":"00-atoms-06-buttons-02-button-big","button-alternate-small":"00-atoms-06-buttons-03-button-alternate-small","button-alternate":"00-atoms-06-buttons-04-button-alternate","button-alternate-big":"00-atoms-06-buttons-05-button-alternate-big","button-disabled-small":"00-atoms-06-buttons-06-button-disabled-small","button-disabled":"00-atoms-06-buttons-07-button-disabled","button-disabled-big":"00-atoms-06-buttons-08-button-disabled-big","button-text":"00-atoms-06-buttons-09-button-text","button-text-alternate":"00-atoms-06-buttons-10-button-text-alternate","button-text-primary":"00-atoms-06-buttons-11-button-text-primary","button-text-small":"00-atoms-06-buttons-12-button-text-small","button-filter":"00-atoms-06-buttons-15-button-filter","button-toggle-label":"00-atoms-06-buttons-16-button-toggle-label","button-toggle":"00-atoms-06-buttons-16-button-toggle","button-medium":"00-atoms-06-buttons-17-button-medium","button-round":"00-atoms-06-buttons-18-button-round","button-text-small-primary":"00-atoms-06-buttons-19-button-text-small-primary","maps":"00-atoms-08-media-00-maps"},"molecules":{"address":"01-molecules-00-text-00-address","post-header":"01-molecules-00-text-05-post-header","blockquote-with-citation":"01-molecules-00-text-10-blockquote-with-citation","grid-system":"01-molecules-01-layout-00-grid-system","media-block":"01-molecules-02-blocks-00-media-block","block-highlight":"01-molecules-02-blocks-01-block-highlight","block-glance":"01-molecules-02-blocks-02-block-glance","block-post":"01-molecules-02-blocks-03-block-post","block-event":"01-molecules-02-blocks-04-block-event","block-link":"01-molecules-02-blocks-10-block-link","block-contact":"01-molecules-02-blocks-11-block-contact","block-timetable-item":"01-molecules-02-blocks-12-block-timetable-item","block-study-program":"01-molecules-02-blocks-13-block-study-program","block-job":"01-molecules-02-blocks-14-block-job","block-tender":"01-molecules-02-blocks-15-block-tender","block-person":"01-molecules-02-blocks-20-block-person","block-lecture":"01-molecules-02-blocks-25-block-lecture","block-research":"01-molecules-02-blocks-30-block-research","block-text":"01-molecules-02-blocks-35-block-text","block-typography":"01-molecules-02-blocks-35-block-typography","figure":"01-molecules-03-media-00-figure","embed":"01-molecules-03-media-05-embed","video":"01-molecules-03-media-10-video","nav":"01-molecules-05-navigation-00-nav","nav-study-course":"01-molecules-05-navigation-05-nav-study-course","nav-links-university":"01-molecules-05-navigation-10-nav-links-university","nav-links-faculty":"01-molecules-05-navigation-11-nav-links-faculty","nav-grid-bachelor":"01-molecules-05-navigation-15-nav-grid-bachelor","nav-grid-master":"01-molecules-05-navigation-16-nav-grid-master","nav-grid-phd":"01-molecules-05-navigation-17-nav-grid-phd","nav-grid-lifelong":"01-molecules-05-navigation-18-nav-grid-lifelong","nav-mobile":"01-molecules-05-navigation-20-nav-mobile","nav-pagination":"01-molecules-05-navigation-25-nav-pagination","social-share":"01-molecules-06-components-00-social-share","social-links":"01-molecules-06-components-05-social-links","social-links-white":"01-molecules-06-components-06-social-links-white","filters":"01-molecules-06-components-10-filters","find-tools":"01-molecules-06-components-15-find-tools","calendar-days":"01-molecules-06-components-20-calendar-days","calendar-month":"01-molecules-06-components-25-calendar-month","accordion":"01-molecules-06-components-30-accordion","accordion-open":"01-molecules-06-components-30-accordion-open"},"organisms":{"header":"02-organisms-00-global-00-header","footer":"02-organisms-00-global-05-footer","hero":"02-organisms-02-hero-00-hero","hero-small":"02-organisms-02-hero-05-hero-small","banner":"02-organisms-03-sections-00-banner","block-links":"02-organisms-03-sections-05-block-links","latest-post":"02-organisms-03-sections-10-latest-post","latest-events":"02-organisms-03-sections-11-latest-events","magazine":"02-organisms-03-sections-15-magazine","people-section":"02-organisms-03-sections-20-people-section","grid-title":"02-organisms-03-sections-25-grid-title","study-programs":"02-organisms-03-sections-30-study-programs","latest-highlights":"02-organisms-03-sections-35-latest-highlights","block-text":"02-organisms-03-sections-40-block-text","block-typography":"02-organisms-03-sections-41-block-typography","block-media":"02-organisms-03-sections-45-block-media","block-glance":"02-organisms-03-sections-46-block-glance","testimonial":"02-organisms-03-sections-50-testimonial","pagination":"02-organisms-03-sections-55-pagination","latest-jobs":"02-organisms-03-sections-60-latest-jobs","latest-tenders":"02-organisms-03-sections-65-latest-tenders","post":"02-organisms-03-sections-70-post","event-intro":"02-organisms-03-sections-75-event-intro","location":"02-organisms-03-sections-80-location","office":"02-organisms-03-sections-85-office","person":"02-organisms-03-sections-90-person","news":"02-organisms-03-sections-95-news","events":"02-organisms-03-sections-96-events","timetable-day":"02-organisms-04-timetable-00-timetable-day","power-tools":"02-organisms-05-components-00-power-tools","search-find":"02-organisms-05-components-00-search-find","search-section":"02-organisms-05-components-05-search-section","contact-card":"02-organisms-05-components-10-contact-card"},"templates":{"homepage":"03-templates-00-homepage","faculty":"03-templates-05-faculty","study-course":"03-templates-10-study-course","study-plan":"03-templates-15-study-plan","study-programs":"03-templates-16-study-programs","single":"03-templates-20-single","timetable":"03-templates-30-timetable","jobs":"03-templates-35-jobs","news":"03-templates-40-news","events":"03-templates-45-events","tenders":"03-templates-50-tenders","people":"03-templates-55-people","post":"03-templates-60-post","event":"03-templates-65-event","person":"03-templates-70-person","office":"03-templates-75-office","research":"03-templates-80-research","facility":"03-templates-85-facility"},"pages":{"homepage":"04-pages-00-homepage","faculty":"04-pages-05-faculty","study-course":"04-pages-10-study-course","study-plan":"04-pages-15-study-plan","study-programs":"04-pages-16-study-programs","timetable":"04-pages-20-timetable","interships":"04-pages-25-interships","news":"04-pages-30-news","events":"04-pages-35-events","tenders-all":"04-pages-40-tenders-all","tenders-list":"04-pages-45-tenders-list","tender-single":"04-pages-50-tender-single","organisation":"04-pages-55-organisation","people":"04-pages-60-people","post":"04-pages-65-post","event":"04-pages-70-event","person":"04-pages-75-person","office":"04-pages-80-office","research":"04-pages-85-research","facility":"04-pages-90-facility"}}
+	</script>	<script>
+		var viewAllPaths = {"atoms":{"global":"00-atoms-01-global","headings":"00-atoms-01-headings","text":"00-atoms-02-text","lists":"00-atoms-03-lists","images":"00-atoms-04-images","forms":"00-atoms-05-forms","buttons":"00-atoms-06-buttons","media":"00-atoms-08-media"},"molecules":{"text":"01-molecules-00-text","layout":"01-molecules-01-layout","blocks":"01-molecules-02-blocks","media":"01-molecules-03-media","navigation":"01-molecules-05-navigation","components":"01-molecules-06-components"},"organisms":{"global":"02-organisms-00-global","hero":"02-organisms-02-hero","sections":"02-organisms-03-sections","timetable":"02-organisms-04-timetable","components":"02-organisms-05-components"}}
+	</script>	<script src="styleguide/js/url-handler.js?0"></script>
+	<script src="styleguide/js/qrcode-generator.js?0"></script>
+	<script src="styleguide/js/styleguide.js?0"></script>
+	<script src="styleguide/js/pattern-finder.js?0"></script>
+	<script src="styleguide/js/annotations-viewer.js?0"></script>
+	<script src="styleguide/js/code-viewer.js?0"></script>
+	<script>
+		
+		var autoReloadNav  = true;
+		var autoReloadPort = 8002;
+		var pageFollowNav  = true;
+		var pageFollowPort = 8003;
+		
+	</script>
+	<script src="styleguide/js/synclisteners.js?0"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+&lt;div class=&quot;{{ timetable-theme }}&quot;&gt;
+  &lt;div class=&quot;timetable_item&quot;&gt;
+    {{# timetable-location }}
+      &lt;div class=&quot;tt_itemLocation&quot;&gt;
+        {{&gt; atoms-text-span (class: &quot;tt_itemRoom&quot;) }}
+      &lt;/div&gt;
+    {{/ timetable-location }}
+    &lt;div class=&quot;tt_itemMeta&quot;&gt;
+      {{&gt; atoms-text-time (class: &quot;tt_itemTime&quot;) }}
+      {{# timetable-item-label }}
+        {{&gt; atoms-text-span (class: &quot;tt_itemLabel&quot;) }}
+      {{/ timetable-item-label }}
+      &lt;a class=&quot;tt_itemTitleLink&quot; href=&quot;{{ url }}&quot;&gt;
+        {{&gt; atoms-heading-5 (class: &quot;tt_itemTitle&quot;) }}
+      &lt;/a&gt;
+      {{# timetable-item-button }}
+        {{&gt; atoms-button-text-small (class: &quot;tt_itemButton&quot;)}}
+      {{/ timetable-item-button }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
