@@ -232,7 +232,7 @@
   },
 
   "page-hero": {
-    "img-background": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-hero.jpg",
+    "img-background": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/imagery/DEN2015017D0632.jpg",
     "hero-headline": {
       "hero-label": {
         "headline": "Fakultät für"
@@ -250,7 +250,7 @@
   "page-description": {
     "block-text-image": {
       "class": "left",
-      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-intro.jpg"
+      "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/imagery/DEN2015017D0489.jpg"
     },
     "block-text-paragraph": {
       "excerpt": "Das Prinzip der Nachhaltigkeit und der konsequent angewandte interdisziplinäre Ansatz bilden die Grundlage für die Lösung komplexer Probleme bei der Erschließung von Berggebieten, in den Bereichen Energieeffizienz, Nahrungsmittelproduktion und -qualität sowie Prozess- und Produktinnovationen für die Industrie.<br><br>Die über 300 Studierenden finden an der Fakultät aufgrund der guten Betreuungsrelation und der modernen Ausstattung (Labore, Lehrräume, Bibliothek) optimale Studienbedingungen. Austauschmöglichkeiten und internationale Kooperationen mit Universitäten weltweit bieten Studierenden, Forschern und Professoren sehr gute Bedingungen für eine wissenschaftliche Karriere auch innerhalb der Universität."
@@ -258,7 +258,7 @@
   },
 
   "page-banner": {
-    "img-background": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/homepage-study-unibz.jpg",
+    "img-background": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/imagery/DEN2015017D0710.jpg",
     "banner-headline": { "headline": "Studiengänge" },
     "banner-text": {
       "excerpt": "Das Studienangebot umfasst derzeit 2 Bachelor-, 3 Master- und 2 englischsprachige Doktoratsprogramme in zwei Hauptbereichen: Agrarwissenschaften und Umweltmanagement sowie Industrie-, Maschinen- und Energieingenieurwesen. Die Masterprogramme werden als Double-Degrees in Zusammenarbeit mit den Universitäten Innsbruck, Trient und Bologna angeboten."
@@ -320,7 +320,7 @@
     },
     "block-text-image": {
       "class": "right",
-      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-research.jpg"
+      "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/imagery/DEN2015017D0349.jpg"
     },
     "block-text-paragraph": {
       "excerpt": "Die Forschungsschwerpunkte der Fakultät liegen in den Bereichen Energieeffizienz, Alpine Technologien, Innovation im Industriesektor sowie Lebensmittelproduktion und -technologie. Derzeit arbeiten die Forscher an 77 Projekten mit einem Gesamtvolumen von 3,2 Mio. Euro (62% davon Drittmittel). Im Spätsommer 2015 sind zwei neue Forschungslabore für den Bereich Lebensmitteltechnologie und Energieproduktion eingerichtet und zwei weitere - für Alpine Technologie und Klimahaus - mit State-of-the-Art Technologie ausgestattet worden. Die Fakultät verfügt insgesamt über 16 Labore, in denen ein junges Forscherteam in insbesondere für die Südtiroler Wirtschaft strategischen Sektoren tätig ist." 
@@ -331,7 +331,7 @@
   },
 
   "page-people": {
-    "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-person.jpg",
+    "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/imagery/DEN2015017D0197.jpg",
     "headline": "Personen",
     "excerpt": "Dekan: <a href=\"#\">Prof. Stefano Cesco</a><br>Prodekan für Studien: <a href=\"#\">Prof. Andrea Gasparella</a><br>Prodekan für Forschung: <a href=\"#\">Prof. Fabrizio Mazzetto</a><br>Leiter der Fakultätsverwaltung: <a href=\"#\">Dr. Wilhelm Sapelza</a><br>Studentenvertreter: Martina Frapporti, Davide Maria Boldrin",
     "button": "Weitere Personen"
@@ -342,7 +342,7 @@
       "headline": "Partner"
     },
     "block-text-image": {
-      "img-4x3": "https://dl.dropboxusercontent.com/u/13990214/www/unibz/natech-partner.jpg"
+      "img-4x3": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/imagery/DEN2015029D0159.jpg"
     },
     "block-text-paragraph": {
       "excerpt": "Regional und international arbeitet die Fakultät mit privaten Unternehmen und öffentlichen Einrichtungen zusammen, wie beispielsweise dem Forschungszentrum Laimburg, lokalen Obst- und Weinproduzenten und Unternehmen im Industrie- und Maschineningenieursektor. Am im Aufbau befindlichen Technologiepark ist die Fakultät mit den Forschungsbereichen alpine Technologien, Lebensmitteltechnologie sowie KlimaHaus und Energieproduktion beteiligt."
