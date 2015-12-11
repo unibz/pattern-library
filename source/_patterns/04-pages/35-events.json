@@ -4,10 +4,14 @@
   },
 
   "search": {
-    "span": "Search for news..."
+    "headline": "Search in the archive",
+    "span": "Search for events..."
   },
-  "calendar": "true",
+  "calendar": {
+    "headline": "Select a day, week or month"
+  },
   "filters": {
+    "headline": "Filter results",
     "filter": [
       {
         "button": "AWARDS",
