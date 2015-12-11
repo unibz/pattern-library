@@ -5,8 +5,12 @@
 
 .post
   display: flex
-  margin-bottom: $space
   flex-wrap: wrap
+
+.post:not(:last-of-type)
+  margin-bottom: $space
+.post:last-of-type
+  margin-bottom: $space-half
 
 
 // Block Post Date

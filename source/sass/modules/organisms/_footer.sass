@@ -58,10 +58,57 @@
     padding-top: $space*1.5
 
 .footer_image
-  max-width: 260px
+  position: relative
   margin-bottom: $space-half
+  max-width: 260px
+  &:after
+    position: absolute
+    content: ""
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba($unibz, .4)
+    transition: opacity .3s $motion
+  &:hover
+    img
+      filter: grayscale(0)
+      opacity: 1
+    &:after
+      opacity: 0
   +mq($bp-sm)
     max-width: 100%
+
+.t_dsgn
+  .footer_image:after
+    background-color: rgba($dsgn, .4)
+
+.t_eco
+  .footer_image:after
+    background-color: rgba($eco, .4)
+
+.t_edu
+  .footer_image:after
+    background-color: rgba($edu, .4)
+
+.t_comp
+  .footer_image:after
+    background-color: rgba($comp, .4)
+
+.t_tech
+  .footer_image:after
+    background-color: rgba($tech, .4)
+
+.t_library
+  .footer_image:after
+    background-color: rgba($library, .4)
+
+
+.footer_image > img
+  filter: grayscale(100%)
+  opacity: .75
+  transition: filter .3s $motion, opacity .3s $motion
+    
 
 .footer_address
   margin-bottom: 0

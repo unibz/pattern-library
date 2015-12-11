@@ -3,9 +3,13 @@
 //============================================
 
 .event
-  margin-bottom: $space*1.5
   +mq($bp-sm)
     display: flex
+
+.event:not(:last-of-type)
+  margin-bottom: $space
+.event:last-of-type
+  margin-bottom: $space-half
 
 .event_body
   +mq($bp-sm)
@@ -17,9 +21,13 @@
 .event_figure
   width: 140px
   margin-bottom: $space-half
+  filter: grayscale(100%)
+  transition: filter .3s $motion
+  &:hover
+    filter: grayscale(0)
   +mq($bp-sm)
     flex: 0 0 140px
-    margin-left: $space-half
+    margin-right: $space-half
     margin-bottom: 0
     min-width: 0
 
