@@ -1,0 +1,19 @@
+&lt;div class=&quot;person&quot;&gt;
+  {{# empty }}
+
+  {{/ empty }}
+  {{^ empty }}
+  &lt;a class=&quot;person_figure&quot; href=&quot;{{ url }}&quot;&gt;
+    {{&gt; atoms-landscape-4x3 (class:&quot;class='person_portrait'&quot;)}}
+  &lt;/a&gt;
+  {{/ empty }}
+  &lt;p class=&quot;person_name&quot;&gt;
+    {{# person-name }}
+      {{&gt; atoms-text-span }}
+    {{/ person-name }}
+  &lt;/p&gt;
+  {{# person-meta }}
+    {{&gt; atoms-text-paragraph (class:&quot;class='byline'&quot;)}}
+  {{/ person-meta }}
+  {{&gt; atoms-button-small }}
+&lt;/div&gt;

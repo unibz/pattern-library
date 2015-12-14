@@ -1,0 +1,22 @@
+&lt;section class=&quot;l-section&quot;&gt;
+  {{# l-left }}
+  &lt;div class=&quot;l-container&quot;&gt;
+    &lt;div class=&quot;l-container_left&quot;&gt;
+  {{/ l-left }}
+  {{^ l-left }}
+    &lt;div class=&quot;l-containerSmall&quot;&gt;
+  {{/ l-left }}
+      {{# latest-post-title }}
+        {{&gt; atoms-heading-2 }}
+      {{/ latest-post-title }}
+      {{# latest-post }}
+        {{&gt; molecules-block-post }}
+      {{/ latest-post }}
+      {{# latest-post-button }}
+        {{&gt; atoms-button-text-primary }}
+      {{/ latest-post-button }}
+    &lt;/div&gt;
+  {{# l-left }}
+  &lt;/div&gt;
+  {{/ l-left }}
+&lt;/section&gt;

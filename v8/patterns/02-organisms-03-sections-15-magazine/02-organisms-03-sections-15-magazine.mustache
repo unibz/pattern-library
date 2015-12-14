@@ -1,0 +1,14 @@
+&lt;div class=&quot;magazine&quot;&gt;
+  &lt;div class=&quot;l-container&quot;&gt;
+    &lt;div class=&quot;magazine_inner&quot;&gt;
+      {{&gt; atoms-heading-2 (class:&quot;magazine_title&quot;)}}
+      {{&gt; atoms-text-paragraph }}
+      {{&gt; atoms-image-2x3 (class:&quot;magazine_cover&quot;)}}
+      {{# articles }}
+        {{&gt; atoms-heading-5 (class:&quot;magazineArticle_title&quot;)}}
+        {{&gt; atoms-text-paragraph }}
+      {{/ articles }}
+      {{&gt; atoms-button-medium }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
