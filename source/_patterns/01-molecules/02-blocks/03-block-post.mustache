@@ -3,7 +3,7 @@
   {{> atoms-text-span (class: "post_topic")}}
   <div class="post_body">
     {{# post-image }}
-      <div class="post_figure">
+      <div class="post_figure {{# post-image-full }}post_figure-full{{/ post-image-full}}">
         <a href="{{url}}">
           {{> atoms-image-4x3 }}
         </a>

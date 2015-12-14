@@ -23,6 +23,7 @@
   font-size: $fs-small
   text-transform: uppercase
   letter-spacing: 1px
+  margin-bottom: $space-quarter
 
 .t_dsgn
   .post_date
@@ -61,7 +62,11 @@
     filter: grayscale(0)
   +mq($bp-sm)
     float: left
-    margin: 3px $space-half 0 0
+    margin: 3px $space-half $space-quarter 0
+
+.post_figure-full
+  width: 100%
+  margin-bottom: 16px
 
 // Block Post Title
 //============================================
@@ -85,7 +90,7 @@
 
 .post_title
   +h4
-  margin-bottom: 0
+  margin-bottom: 4px
   &:hover
     text-decoration: underline
 
@@ -95,3 +100,6 @@
 
 .post_excerpt
   margin-bottom: 0
+
+.post_excerpt > a
+  text-decoration: underline

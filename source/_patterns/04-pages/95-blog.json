@@ -1,0 +1,118 @@
+{
+  "faculty": "t_dsgn",
+  "page-hero": {
+    "img-background": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/blog-header.jpg",
+    "hero-headline": {
+      "hero-label": {
+        "headline": "Tactics to balance a dominant image culture"
+      },
+      "hero-title": {
+        "headline": "De-Branding"
+      }
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold",
+      "excerpt": "Dieser Blog ist die Materialsammlung die ich parallel zu anderen Aktivitäten in Sachen De-Branding anstosse (Projekte, Seminare, Vorträge und ein Buch). Das weite und tiefe Thema in all seinen Aspekten zu bearbeiten ist ein andauernder und offener Prozess, der im gemeinsamen Schaffen und Spiel gelingen kann. Über Beiträge und Zusammenarbeit freue ich mich."
+    }
+  },
+
+  "page-content": {
+    "latest-post": [
+      {
+        "span": "Kultur",
+        "post-image": {
+          "img-4x3": "http://www.de-brand.net/blog/wp-content/uploads/2015/05/utopie.jpg"
+        },
+        "headline": "Pfingsten: Stell dir vor…",
+        "excerpt": "…wir so Leben würden wir wollen. Froh zu sein bedarf es wenig … Mehr mit weniger … mehr Gutes mit weniger Gütern. Keine Kriege, kein Kampf ums Geld, keine Wichtigtuerei, … etc.",
+        "date": "25 MAI 2015"
+      },
+      {
+        "span": "Dystopia",
+        "headline": "Human Civilasation: a Summery",
+        "excerpt": "Noam Chomsky does not give us much hope about the future of human civilization, in his article “ISIS and Our Times“. If he is right – and i fear he is – we should prepare for more than just a crisis.",
+        "date": "19 OKT 2015"
+      },
+      {
+        "span": "Journalism",
+        "post-image": {
+          "img-4x3": "http://www.de-brand.net/blog/wp-content/uploads/2014/09/SZ_2014_09_17_72dpi.jpg",
+          "post-image-full": "true"
+        },
+        "headline": "Eine Welt: Bilder von Krieg und Mode",
+        "excerpt": "“Die Süddeutsche wird ja immer besser: Jetzt koordinieren sie bereits Titelbild mit Werbebeilage auf erfrischend subtile Art und Weise.” schreibt Frank Hutter heute Frueh via Email.",
+        "date": "14 SEPT 2014"
+      },
+      {
+        "span": "Surveillance",
+        "post-image": {
+          "img-4x3": "http://www.de-brand.net/blog/wp-content/uploads/2014/08/digitally-monitored_soldier-640x415.png"
+        },
+        "headline": "Healthy Cyborg Soldiers & More",
+        "excerpt": "<a href=\"#\">Motherboard is writing</a> about implants that heal, optimize and monitor soldiers, <a href=\"#\">a project by the Defense Advanced Research Projects Agency (DARPA)</a> – another Man Mashine Interface that makes us melt more with technology.",
+        "date": "28 AUG 2014"
+      },
+      {
+        "post-image": {
+          "img-4x3": "http://www.de-brand.net/blog/wp-content/uploads/2014/08/people-and-brands-640x363.png",
+          "post-image-full": "true"
+        },
+        "headline": "Web of Brands and People",
+        "excerpt": "Intelligent pattern recognition connects images of people and brands with users in the “social web”. Imagine this combined with frictionless sharing of daily life – the <a href=\"#\">Inter-Face between online and offline Identity</a>.",
+        "date": "19 AUG 2014"
+      }
+    ]
+  },
+
+  "page-footer": {
+    "headline": "Faculty of Design and Art",
+    "footer-place": [
+      {
+        "headline": "Campus Bozen",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1 - piazza Università, 1"
+          },
+          {
+            "span": "I – 39100, Bolzano-Bozen (BZ)"
+          },
+          {
+            "span": "Tel. +39 0471 015000"
+          },
+          {
+            "span": "Fax +39 0471 015009"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "design-art@unibz.it"
+          }
+        ]
+      }
+    ],
+    "footer-openings": {
+      "headline": "Öffnungszeiten",
+      "excerpt": "Monday to Friday: 9:00 - 12:00<br>Tuesday and Thursday: 14.00 - 16.00"
+    },
+    "footer-map": "true",
+    "footer-social": {
+      "headline": "Follow us"
+    },
+    "footer-newsletter": {
+      "headline": "Subscribe to the newsletter",
+      "span": "Write your e-mail",
+      "button": "Send"
+    },
+    "footer-links": {
+      "footer-credit": [
+        {
+          "span": "Credits"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
+    }
+  }
+}

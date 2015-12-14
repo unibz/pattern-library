@@ -1,0 +1,50 @@
+{
+  "page-hero": {
+    "hero-headline": {
+      "hero-label": "true",
+      "hero-title": "true"
+    },
+    "hero-intro": {
+      "class": "hero_intro-bold"
+    }
+  },
+
+  "page-content": {
+    "latest-post": [
+      {
+        "post-image": "true"
+      },
+      {
+        "post-image": {
+          "post-image-full": "true"
+        }
+      },
+      {
+        "post-image": "true"
+      },
+      {
+        "post-image": "true"
+      },
+      {
+        "post-image": {
+          "post-image-full": "true"
+        }
+      }
+    ]
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}
