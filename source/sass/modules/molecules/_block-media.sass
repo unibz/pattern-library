@@ -26,7 +26,7 @@
 //============================================
 
 .mediaBlock_body
-  padding: $space-half $space-half 6px $space-half
+  padding: 16px 16px 10px 16px
   background-color: $primary
   color: $white
   +dark-text-shadow
@@ -73,9 +73,10 @@
 
 .mediaBlock_title
   +h3
-  font-weight: 500
+  -webkit-font-smoothing: antialiased;
   margin-bottom: $space-half
   +mq($bp-lg)
+    +h2
     padding-top: $space
   +mq($bp-xl)
     padding-top: $space*2
@@ -84,9 +85,35 @@
 // Media Block Content
 //===========================================
 
+.mediaBlock_excerpt
+  margin-bottom: $space-half
+
 .mediaBlock_excerpt a
-  color: $white
-  text-decoration: underline
+  +linkUnderlines($unibz, $white)
+
+.t_dsgn
+  .mediaBlock_excerpt a
+    +linkUnderlines($dsgn, $white)
+
+.t_eco
+  .mediaBlock_excerpt a
+    +linkUnderlines($eco, $white)
+
+.t_edu
+  .mediaBlock_excerpt a
+    +linkUnderlines($edu, $white)
+
+.t_comp
+  .mediaBlock_excerpt a
+    +linkUnderlines($comp, $white)
+
+.t_tech
+  .mediaBlock_excerpt a
+    +linkUnderlines($tech, $white)
+
+.t_library
+  .mediaBlock_excerpt a
+    +linkUnderlines($library, $white)
 
 
 // Media Block Button

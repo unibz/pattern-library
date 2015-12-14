@@ -48,7 +48,7 @@
   +h4
   font-weight: 300
   margin-top: 16px
-  line-height: 1.6
+  line-height: 1.5
   +mq($bp-sm)
     +h3
     line-height: 1.6
@@ -62,7 +62,9 @@
   margin-top: $space
   color: $color-text-gray
   font-weight: 600
-  line-height: 1.6
+  line-height: 1.4
+  +mq($bp-md)
+    line-height: 1.6
 
 
 // Hero Text
@@ -93,13 +95,8 @@
 // Hero Title and Title Label
 //============================================
 
-.hero_label,
-.hero_subtitle
+.hero_label
   +h4
-  margin-bottom: 0
-
-.hero_subtitle
-  font-weight: 600
 
 .hero_title
   +h2
@@ -107,6 +104,11 @@
   margin-left: -1px
   font-weight: 600
   line-height: 1.2
+
+.hero_subtitle
+  +h4
+  margin-bottom: 0
+  font-weight: 600
 
 
 // Hero Small

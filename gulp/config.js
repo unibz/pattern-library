@@ -7,7 +7,7 @@ module.exports = {
   destFolder: dest,
 
   browserSync: {
-    proxy: 'http://arillo.dev/unibz/pattern-library/public/',
+    proxy: 'http://arillo.dev/unibz.it/pattern-library/public/',
     port: 9000,
     notify: false,
     open: false

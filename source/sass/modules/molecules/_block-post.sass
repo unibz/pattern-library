@@ -55,14 +55,14 @@
 
 .post_figure
   width: 140px
-  margin-bottom: $space-quarter
+  margin-bottom: $space-half
   filter: grayscale(100%)
   transition: filter .3s $motion
   &:hover
     filter: grayscale(0)
   +mq($bp-sm)
     float: left
-    margin: 3px $space-half $space-quarter 0
+    margin: 3px 15px $space-quarter 0
 
 .post_figure-full
   width: 100%
@@ -90,9 +90,10 @@
 
 .post_title
   +h4
+  display: inline-block
   margin-bottom: 4px
   &:hover
-    text-decoration: underline
+    +linkUnderlines($white, $color-text)
 
 
 // Block Post Text
@@ -102,4 +103,4 @@
   margin-bottom: 0
 
 .post_excerpt > a
-  text-decoration: underline
+  +linkUnderlines($white, $color-text)

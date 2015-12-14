@@ -112,12 +112,37 @@
   margin-bottom: 0
   line-height: 1.5
 
+
+// Footer links
+//============================================
+
 .footer_link
-  text-decoration: underline
+  +linkUnderlines($unibz, $white)
   line-height: 1.5
 
-.footer_link-block
-  display: block
+.t_dsgn
+  .footer_link
+    +linkUnderlines($dsgn, $white)
+
+.t_eco
+  .footer_link
+    +linkUnderlines($eco, $white)
+
+.t_edu
+  .footer_link
+    +linkUnderlines($edu, $white)
+
+.t_comp
+  .footer_link
+    +linkUnderlines($comp, $white)
+
+.t_tech
+  .footer_link
+    +linkUnderlines($tech, $white)
+
+.t_library
+  .footer_link
+    +linkUnderlines($library, $white)
 
 
 // Footer forms
