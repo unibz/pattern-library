@@ -73,7 +73,7 @@
 
   "page-description": {
     "block-typography": {
-      "excerpt": "<h2 class=\"h2\">Wo geforscht wird</h3><ul><li><a href=\"#\">Wirtschaft</a></li><li><a href=\"#\">Bildung</a></li><li><a href=\"#\">Naturwissenschaften</a></li><li><a href=\"#\">Design</a></li><li><a href=\"#\">Informatik</a></li><li><a href=\"#\">Kompetenzzentrum Sprachen</a></li><li><a href=\"#\">Kompetenzzentrum für Regionalgeschichte</a></li><li><a href=\"#\">Kompetenzzentrum für Tourismus</a></li></ul>"
+      "excerpt": "<h2>Wo geforscht wird</h3><ul><li><a href=\"#\">Wirtschaft</a></li><li><a href=\"#\">Bildung</a></li><li><a href=\"#\">Naturwissenschaften</a></li><li><a href=\"#\">Design</a></li><li><a href=\"#\">Informatik</a></li><li><a href=\"#\">Kompetenzzentrum Sprachen</a></li><li><a href=\"#\">Kompetenzzentrum für Regionalgeschichte</a></li><li><a href=\"#\">Kompetenzzentrum für Tourismus</a></li></ul>"
     }
   },
 

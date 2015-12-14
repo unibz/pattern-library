@@ -70,7 +70,7 @@
             "person-contact": { "span": "hansleo.hoeger@unibz.it" }
           },
           {
-            "person-image": { "img-avatar": "http://aminalhazwani.github.io/faculty-website/assets/img/team/kris.jpg" },
+            "person-image": { "img-avatar": "http://turbo.aminalhazwani.com.s3.amazonaws.com/uploads/unibz/pattern-lab/people-kris.jpg" },
             "headline": "Prof. Krois Christian",
             "person-role" : { "span": "Visual Communication" },
             "person-contact": { "span": "kris.krois@unibz.it" }

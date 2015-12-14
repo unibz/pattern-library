@@ -1,16 +1,16 @@
-<section class="l-section">
-  <div class="l-container">
-  {{# people-section }}
-    <div class="l-container_left">
-      {{> atoms-heading-3 (class:"h-theme") }}
+{{# people-section }}
+  <section class="l-sectionSmall">
+    <div class="l-container">
+      <div class="l-container_left">
+        {{> atoms-heading-3 (class:"h-theme") }}
+      </div>
+      <div class="g-row g-md-clear-2 g-lg-clear-3">
+        {{# people }}
+          <div class="g g-md-12 g-lg-8">
+            {{> molecules-block-person }}
+          </div>
+        {{/ people }}
+      </div>
     </div>
-    <div class="g-row g-md-clear-2 g-lg-clear-3">
-      {{# people }}
-        <div class="g g-md-12 g-lg-8">
-          {{> molecules-block-person }}
-        </div>
-      {{/ people }}
-    </div>
-  {{/ people-section }}
-  </div>
-</section>
+  </section>
+{{/ people-section }}
