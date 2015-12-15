@@ -18,27 +18,27 @@
       {
         "span": "BA for Social Education",
         "headline": "Aktive Teilnahme an themenbezogene Fachtagungen und Workshops (64137)",
-        "link": {"button": "Reserve Collection"}
+        "btn-link": {"button": "Reserve Collection"}
       },
       {
         "span": "BA for Social Education",
         "headline": "Sociology of communicative and cultural processes (64139B)",
-        "link": {"button": "Reserve Collection"}
+        "btn-link": {"button": "Reserve Collection"}
       },
       {
         "span": "BA for Social Education",
         "headline": "Sozialpädagogik (64138B)",
-        "link": {"button": "Reserve Collection"}
+        "btn-link": {"button": "Reserve Collection"}
       },
       {
         "span": "MA in Innovation and Research for Social Work and Social Education",
         "headline": "Sozialpädagogik (64138B)",
-        "link": {"button": "Reserve Collection"}
+        "btn-link": {"button": "Reserve Collection"}
       },
       {
         "span": "MA in Innovation and Research for Social Work and Social Education",
         "headline": "Sozialpädagogische Aktionsforschung (53116)",
-        "link": {"button": "Reserve Collection"}
+        "btn-link": {"button": "Reserve Collection"}
       }
     ]
   },

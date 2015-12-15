@@ -44,7 +44,7 @@
 
 
 .tender_deadline
-  display: inline-block
+  display: block
   margin-bottom: 4px
   letter-spacing: 0
   font-weight: 600
@@ -82,18 +82,19 @@
 
 .tender_title
   +h4
+  display: inline
   margin-bottom: 4px
   &:hover
-    text-decoration: underline
+    +linkUnderlines($white, $color-text)
 
 
 .tender_link
   display: block
   margin-bottom: $space-quarter
   font-weight: 600
-  text-decoration: underline
+  +linkUnderlines($white, $color-text)
   &:after
-    content: ""
+    display: none
   +mq($bp-md)
     display: inline-block
     margin-right: $space

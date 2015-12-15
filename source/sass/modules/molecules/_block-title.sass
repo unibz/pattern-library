@@ -5,7 +5,7 @@
 // Block Lecture
 //============================================
 
-.blockLecture
+.blockTitle
   margin-bottom: $space
   flex: 0 0 100%
   +mq($bp-md)
@@ -15,7 +15,7 @@
 // Block Lecture Meta Information
 //============================================
 
-.blockLecture_meta
+.blockTitle_meta
   +tag
   margin-bottom: 4px
 
@@ -23,11 +23,10 @@
 // Block Lecture Title
 //============================================
 
-.blockLecture_title
+.blockTitle_title
   +h5
-  display: table-footer-group
+  display: inline
   margin: 0 0 2px 1px
-  line-height: 1.2
   &:hover
     +linkUnderlines($white, $color-text)
 
@@ -35,5 +34,12 @@
 // Block Lecture Button
 //============================================
 
-.blockLecture_btn
+.blockTitle_text
+  margin-bottom: 0
+
+
+// Block Lecture Button
+//============================================
+
+.blockTitle_btn
   margin-bottom: 0

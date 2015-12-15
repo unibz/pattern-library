@@ -62,10 +62,10 @@
 
 .program_title
   +h5
-  margin-left: -1px
+  display: inline
   margin-bottom: 0
   &:hover
-    text-decoration: underline
+    +linkUnderlines($white, $color-text)
 
 
 // Study Program Details
@@ -83,7 +83,6 @@
   +tag
   font-size: $fs
   margin-right: $space-half
-  padding-top: 2px
   letter-spacing: 0
   margin-bottom: 0
   text-transform: capitalize

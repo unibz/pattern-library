@@ -16,7 +16,39 @@
 
 .typography
   .link
-    text-decoration: underline
+    +linkUnderlines($white, $color-text)
+    &:hover
+      +linkUnderlines($white, $unibz)
+
+.t_dsgn
+  .typography
+    .link:hover
+      +linkUnderlines($white, $dsgn)
+
+.t_eco
+  .typography
+    .link:hover
+      +linkUnderlines($white, $eco)
+
+.t_edu
+  .typography
+    .link:hover
+      +linkUnderlines($white, $edu)
+
+.t_comp
+  .typography
+    .link:hover
+      +linkUnderlines($white, $comp)
+
+.t_tech
+  .typography
+    .link:hover
+      +linkUnderlines($white, $tech)
+
+.t_library
+  .typography
+    .link:hover
+      +linkUnderlines($white, $library)
 
 // Lists
 //============================================
@@ -38,37 +70,59 @@
 
 .typography ul li a,
 .typography ol li a
-    +link
+  +linkUnderlines($white, $color-text)
+
+.typography ul li a:hover,
+.typography ol li a:hover
+  +linkUnderlines($white, $unibz)
 
 .t_dsgn
   .typography ul li a,
   .typography ol li a
-    +link($dsgn)
+    +linkUnderlines($white, $color-text)
+  .typography ul li a:hover,
+  .typography ol li a:hover
+    +linkUnderlines($white, $dsgn)
 
 .t_eco
   .typography ul li a,
   .typography ol li a
-    +link($eco)
+    +linkUnderlines($white, $color-text)
+  .typography ul li a:hover,
+  .typography ol li a:hover
+    +linkUnderlines($white, $eco)
 
 .t_edu
   .typography ul li a,
   .typography ol li a
-    +link($edu)
+    +linkUnderlines($white, $color-text)
+  .typography ul li a:hover,
+  .typography ol li a:hover
+    +linkUnderlines($white, $edu)
 
 .t_comp
   .typography ul li a,
   .typography ol li a
-    +link($comp)
+    +linkUnderlines($white, $color-text)
+  .typography ul li a:hover,
+  .typography ol li a:hover
+    +linkUnderlines($white, $comp)
 
 .t_tech
   .typography ul li a,
   .typography ol li a
-    +link($tech)
+    +linkUnderlines($white, $color-text)
+  .typography ul li a:hover,
+  .typography ol li a:hover
+    +linkUnderlines($white, $tech)
 
 .t_library
   .typography ul li a,
   .typography ol li a
-    +link($library)
+    +linkUnderlines($white, $color-text)
+  .typography ul li a:hover,
+  .typography ol li a:hover
+    +linkUnderlines($white, $library)
 
 .typography ul li::before
   display: inline-block

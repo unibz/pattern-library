@@ -18,44 +18,44 @@
   },
 
   "page-lectures": {
-    "lectures": [
+    "block-titles": [
       {
         "headline": "1. Jahr",
-        "lecture": [
+        "title": [
           {
             "span": "6 KP",
             "headline": "Volkswirtschaftslehre 1",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "12 KP",
             "headline": "Mathematik für Wirtschaftswissenschaftler",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Einführung in die Rechtssysteme: Öffentliches Recht",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Einführung in die Rechtssysteme: Privatrecht",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "8 KP",
             "headline": "Einführung in das Rechnungswesen",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "8 KP",
             "headline": "Einführung in die Organisation und die Betriebswirtschaftslehre",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Angewandte Daten und Informationsverarbeitung",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "3 KP",
@@ -69,46 +69,46 @@
       },
       {
         "headline": "2. Jahr",
-        "lecture": [
+        "title": [
           {
             "span": "6 KP",
             "headline": "Business Economics",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Kommunikation und Strategie",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "7 KP",
             "headline": "Statistische Methoden für die empirische Forschung",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "7 KP",
             "headline": "Finanzanalyse",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "7 KP",
             "headline": "Einführung in das Marketing",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Fremdsprache (Spanisch oder Französisch)",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Unternehmensführung: Strategisches Management",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Unternehmensführung: Leadership",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
@@ -122,7 +122,7 @@
       },
       {
         "headline": "3. Jahr",
-        "lecture": [
+        "title": [
           {
             "span": "6 KP",
             "headline": "Praktikum"
@@ -130,22 +130,22 @@
           {
             "span": "6 KP",
             "headline": "Finanzierung und Kostenanalys: Strategisches Management",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Finanzierung und Kostenanalys: Leadership",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Angewandtes Handels- und Gesellschaftsrecht",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",
             "headline": "Angewandtes Wirtschaftsrecht",
-            "link": { "button": "Professor Name" }
+            "btn-link": { "button": "Professor Name" }
           },
           {
             "span": "6 KP",

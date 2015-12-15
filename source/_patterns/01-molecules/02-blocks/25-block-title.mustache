@@ -1,0 +1,14 @@
+<div class="blockTitle">
+  {{# tag }}
+    {{> atoms-text-span (class: "blockTitle_meta") }}
+  {{/ tag }}
+  <a class="u-blk" href="{{ url }}">
+    {{> atoms-heading-3 (class: "blockTitle_title") }}
+  </a>
+  {{# text }}
+    {{> atoms-text-paragraph (class:"blockTitle_text") }}
+  {{/ text }}
+  {{# btn-link }}
+    {{> atoms-button-text (class: "btn-text-small blockTitle_btn") }}
+  {{/ btn-link }}
+</div>

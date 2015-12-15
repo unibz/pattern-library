@@ -1,0 +1,253 @@
+{
+  "page-hero": {
+    "hero-title": {
+      "headline": "ICT Services"
+    }
+  },
+
+  "page-content": {
+    "block-titles": [
+      {
+        "headline": "Services for students",
+        "title": [
+          {
+            "headline": "WebMail (Office OWA)",
+            "text": {
+              "excerpt": "Access your mailbox via web"
+            }
+          },
+          {
+            "headline": "Student Portal",
+            "text": {
+              "excerpt": "Main access point for the daily organisation of a students career"
+            }
+          },
+          {
+            "headline": "Reserve collection",
+            "text": {
+              "excerpt": "Search for information and access teaching materials"
+            }
+          },
+          {
+            "headline": "HelpDesk Web-Portal",
+            "text": {
+              "excerpt": "Contact the ICT HelpDesk via ticket for any technical support"
+            }
+          },
+          {
+            "headline": "Change your account password",
+            "text": {
+              "excerpt": "For changing your account password through internet"
+            }
+          },
+          {
+            "headline": "Report Card payment / Lock card",
+            "text": {
+              "excerpt": "Get an overview about card payment histories and information on how the card can be locked in case of loss"
+            }
+          },
+          {
+            "headline": "ILL Document delivery",
+            "text": {
+              "excerpt": "For requesting deliveries from the library"
+            }
+          },
+          {
+            "headline": "Degree thesis upload",
+            "text": {
+              "excerpt": "For uploading a digital copy of your Thesis Dissertation, to be stored at the University Library"
+            }
+          },
+          {
+            "headline": "Alma Laurea",
+            "text": {
+              "excerpt": "For placing at the disposal your curriculum vitae after your graduation"
+            }
+          },
+          {
+            "headline": "Cockpit",
+            "text": {
+              "excerpt": "All your services in one place"
+            }
+          },
+          {
+            "headline": "Forum",
+            "text": {
+              "excerpt": "For an interactive discussion environment to exchange thoughts and experiences"
+            }
+          },
+          {
+            "headline": "Knowledge",
+            "text": {
+              "excerpt": "eLearning application, according the principle of constructivism"
+            }
+          },
+          {
+            "headline": "Enrolment & Study Career",
+            "text": {
+              "excerpt": "Enrolment after the first year, organize your studies"
+            }
+          },
+          {
+            "headline": "Internships & Jobs",
+            "text": {
+              "excerpt": "The Careers Service informs you on issues of internships and the first steps for your first job"
+            }
+          },
+          {
+            "headline": "Student life",
+            "text": {
+              "excerpt": "Info & guidance for prospective students"
+            }
+          },
+          {
+            "headline": "Student representatives",
+            "text": {
+              "excerpt": "Students are able to participate in academic life and the development of the University through their representatives"
+            }
+          },
+          {
+            "headline": "Equal opportunities",
+            "text": {
+              "excerpt": "Promoting and guaranteeing the equal opportunities and ethical principles within the university community"
+            }
+          }
+        ]
+      },
+      {
+        "headline": "Services for professors",
+        "title": [
+          {
+            "headline": "WebMail (Office OWA)",
+            "text": {
+              "excerpt": "Access your mailbox via web"
+            }
+          },
+          {
+            "headline": "Management Portal",
+            "text": {
+              "excerpt": "Get quick and easy access to internal information as well as from various University databases"
+            }
+          },
+          {
+            "headline": "Edit Your Reserve Collection",
+            "text": {
+              "excerpt": "Professors can upload teaching materials for their courses"
+            }
+          },
+          {
+            "headline": "Exams enrolment",
+            "text": {
+              "excerpt": "Get an overview about enroled students to upcoming exams"
+            }
+          },
+          {
+            "headline": "HelpDesk Web-Portal",
+            "text": {
+              "excerpt": "Contact the ICT HelpDesk via ticket for any technical support"
+            }
+          },
+          {
+            "headline": "Payslip",
+            "text": {
+              "excerpt": "CUD, monthly payslip and other documents online available"
+            }
+          },
+          {
+            "headline": "Purchasing Information System",
+            "text": {
+              "excerpt": "For purchasing goods and services"
+            }
+          },
+          {
+            "headline": "Register of teaching activities",
+            "text": {
+              "excerpt": "For compiling the registers of teaching activities"
+            }
+          },
+          {
+            "headline": "University Governments",
+            "text": {
+              "excerpt": "Provides offical protocols of the university government"
+            }
+          }
+        ]
+      },
+      {
+        "headline": "Services for staff",
+        "title": [
+          {
+            "headline": "WebMail (Office OWA)",
+            "text": {
+              "excerpt": "Access your mailbox via web"
+            }
+          },
+          {
+            "headline": "Cockpit",
+            "text": {
+              "excerpt": "All your services in one place"
+            }
+          },
+          {
+            "headline": "Management Portal",
+            "text": {
+              "excerpt": "Get quick and easy access to internal information as well as from various University databases"
+            }
+          },
+          {
+            "headline": "HelpDesk Web-Portal",
+            "text": {
+              "excerpt": "Contact the ICT HelpDesk via ticket for any technical support"
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "page-footer": {
+    "headline": "Information and Communication Technology",
+    "footer-place": [
+      {
+        "headline": "Campus Bolzano-Bozen",
+        "img-4x3": "http://media.internazionale.it/images/2015/11/19/118237-md.jpg",
+        "footer-address": [
+          {
+            "span": "Universitätsplatz 1 - piazza Università, 1"
+          },
+          {
+            "span": "I - 39100 Bozen-Bolzano"
+          },
+          {
+            "span": "Tel. +39 0471 011800"
+          },
+          {
+            "span": "Fax +39 0471 011809"
+          }
+        ],
+        "footer-contact": [
+          {
+            "span": "it@unibz.it"
+          }
+        ]
+      }
+    ],
+    "footer-openings": {
+      "headline": "Opening Hours",
+      "excerpt": "Helpdesk<br>Monday to Friday: 08:00 - 17:30"
+    },
+    "footer-map": {
+      "map-src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.5052496913736!2d11.347964915592383!3d46.49810827912672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47829e795d3a902d%3A0xdc939b140fa714ad!2sFree+University+of+Bozen-Bolzano!5e0!3m2!1sen!2sus!4v1447672677049"
+    },
+    "footer-links": {
+      "footer-credit": [
+        {
+          "span": "Impressum"
+        },
+        {
+          "span": "Privacy"
+        }
+      ]
+    }
+  }
+}

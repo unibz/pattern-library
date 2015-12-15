@@ -1,14 +1,14 @@
 <section class="l-section">
   <div class="l-container">
-    {{# lectures }}
+    {{# block-titles }}
       <div class="l-container_left">
-        {{> atoms-heading-3 (class:"h-theme")}}
+        {{> atoms-heading-3 (class:"h-theme u-push-btm-half")}}
       </div>
       <div class="gridTitle">
-        {{# lecture }}
-          {{> molecules-block-lecture }}
-        {{/ lecture }}
+        {{# title }}
+          {{> molecules-block-title }}
+        {{/ title }}
       </div>
-    {{/ lectures }}
+    {{/ block-titles }}
   </div>
 </section>

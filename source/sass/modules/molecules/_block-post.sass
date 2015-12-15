@@ -68,6 +68,7 @@
   width: 100%
   margin-bottom: 16px
 
+
 // Block Post Title
 //============================================
 
@@ -90,8 +91,8 @@
 
 .post_title
   +h4
-  display: inline-block
-  margin-bottom: 4px
+  display: inline
+  margin-bottom: $space-quarter
   &:hover
     +linkUnderlines($white, $color-text)
 
@@ -103,4 +104,29 @@
   margin-bottom: 0
 
 .post_excerpt > a
+  transition: all .2s $motion
   +linkUnderlines($white, $color-text)
+
+.t_dsgn
+  .post_excerpt > a:hover
+    +linkUnderlines($white, $dsgn)
+
+.t_eco
+  .post_excerpt > a:hover
+    +linkUnderlines($white, $eco)
+
+.t_edu
+  .post_excerpt > a:hover
+    +linkUnderlines($white, $edu)
+
+.t_comp
+  .post_excerpt > a:hover
+    +linkUnderlines($white, $comp)
+
+.t_tech
+  .post_excerpt > a:hover
+    +linkUnderlines($white, $tech)
+
+.t_library
+  .post_excerpt > a:hover
+    +linkUnderlines($white, $library)
