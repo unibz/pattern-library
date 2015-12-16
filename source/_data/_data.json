@@ -100,6 +100,47 @@
 			}
 		]
 	},
+	"nav-links-services": {
+		"items": [
+			{
+				"item": "Advisory Service"
+			},
+			{
+				"item": "Library"
+			},
+			{
+				"item": "ICT-Services"
+			},
+			{
+				"item": "Services for Students"
+			},
+			{
+				"item": "Press"
+			},
+			{
+				"item": "Event Management and Lecture Halls"
+			},
+			{
+				"item": "Language Centre"
+			},
+			{
+				"item": "Recognition of foreign qualifications"
+			}
+		]
+	},
+	"nav-links-languages": {
+		"items": [
+			{
+				"item": "Italiano"
+			},
+			{
+				"item": "Deutsch"
+			},
+			{
+				"item": "English"
+			}
+		]
+	},
 	"nav-grid-bachelor": {
 		"items": [
 			{
