@@ -1,0 +1,16 @@
+{
+  "office-image": "true",
+
+  "office-description": "true",
+  "office-contacts": "true",
+  "office-openings": "true",
+
+  "page-people": {
+    "people-section": "true",
+    "people": {
+      "person-image": "true",
+      "person-contact": "true",
+      "person-role": "true"
+    }
+  }
+}

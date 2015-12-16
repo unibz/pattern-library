@@ -6,7 +6,7 @@
 //============================================
 
 .header
-  position: relative
+  position: absolute
   top: 0
   z-index: 3
   width: 100%
@@ -77,6 +77,23 @@
 // Navigations Wrappers
 //============================================
 
+.navSecondary_wrapper,
+.navLinks_wrapper
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
+  width: 100%
+  margin-top: 68px
+
+.navGrid_wrapper
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
+  width: 100%
+  margin-top: 164px
+
 .navSecondary_wrapper
   .nav_item
     margin-right: $space*1.5
@@ -121,7 +138,13 @@
 //============================================
 
 .navMobile_wrapper
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
   display: none
+  margin-top: 62px
+  width: 100%
   background-color: $primary
   color: $white  
   &.is-open

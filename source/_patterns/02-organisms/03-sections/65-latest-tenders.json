@@ -28,8 +28,7 @@
     ]
   },
   
-  "jobs": {
-    "job-brand": "true",
-    "job-location": "true"
+  "tenders": {
+    "links": "true"
   }
 }
