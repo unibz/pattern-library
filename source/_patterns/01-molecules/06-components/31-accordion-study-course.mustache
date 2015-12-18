@@ -1,0 +1,13 @@
+<div class="accordion {{# open }}accordion-open{{/ open }}">
+  <div class="accordion_toggle">
+    <span class="accordion_icon"></span>
+    {{> atoms-text-span (class:"accordion_title") }}
+  </div>
+  <div class="accordion_body">
+  <div class="program_wrap">
+    {{# programs }}
+      {{> molecules-block-study-program }}
+    {{/ programs }}
+  </div>
+  </div>
+</div>

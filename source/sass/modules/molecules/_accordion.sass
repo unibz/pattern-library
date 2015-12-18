@@ -2,11 +2,13 @@
 // Accordion
 //============================================
 
-.accordion_title
+.accordion_toggle
   position: relative
+
+.accordion_title
   display: block
   margin-bottom: $space-half
-  padding: $space-half
+  padding: 14px $space-half $space-half $space-half
   color: $white
   background-color: $primary
   border-color: $primary
@@ -71,22 +73,25 @@
       background-color: shade($library, 10%)
       border-color: shade($library, 30%)
 
-.accordion_toggle
+.accordion_icon
   position: absolute
   z-index: 1
   top: $space-half
-  right: $space-half
+  right: 14px
   color: $white
   font-weight: 600
   &:after
     content: "↓"
 
 .accordion-open
+  .accordion_title
+    margin-bottom: $space
   .accordion_body
     display: block
-  .accordion_toggle
+  .accordion_icon
     &:after
       content: "\2715"
 
 .accordion_body
   display: none
+  padding: 0 2px

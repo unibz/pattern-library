@@ -1,0 +1,8 @@
+{
+  "open": "true",
+  "accordion-body": {
+    "program-tag": "true",
+    "program-location": "true",
+    "program-lang": "true"
+  }
+}
