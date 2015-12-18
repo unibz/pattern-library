@@ -1,4 +1,4 @@
-<section class="l-section">
+<section class="l-sectionLarge">
   <div class="l-containerSmall">
     {{> atoms-heading-2 }}
     {{# block-links-text }}
@@ -6,13 +6,9 @@
           {{> atoms-text-paragraph }}
       </div>
     {{/ block-links-text }}
-  </div>
-  <div class="l-container {{container-class}}">
-    <div class="blockLink_wrapper g-row">
+    <div class="blockLink_wrapper">
       {{# links }}
-        <div class="{{ links-class }}">
-            {{> molecules-block-link }}
-        </div>
+        {{> molecules-block-link }}
       {{/ links }}
     </div>
   </div>

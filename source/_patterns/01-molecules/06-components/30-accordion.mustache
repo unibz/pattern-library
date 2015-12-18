@@ -1,7 +1,11 @@
 <div class="accordion {{# open }}accordion-open{{/ open }}">
-  <span class="accordion_toggle"></span>
-  {{> atoms-text-span (class:"accordion_title") }}
+  <div class="accortion_title">
+    <span class="accordion_toggle"></span>
+    {{> atoms-text-span (class:"accordion_title") }}
+  </div>
   <div class="accordion_body">
-    {{> atoms-text-paragraph }}
+  {{# accordion-body }}
+    {{> atoms-text-wrapper }}
+  {{/ accordion-body }}
   </div>
 </div>

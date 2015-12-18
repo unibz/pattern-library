@@ -1,40 +1,82 @@
 //============================================
-// Block Factbox
+// Accordion
 //============================================
 
-.accordion
-  position: relative
-  margin-bottom: $space
-  padding: $space-half
-  background-color: $gray-light
-  font-family: $font
-  transition: height .3s $motion
-
-.accordion
-  :last-child
-    margin-bottom: 0
-
 .accordion_title
+  position: relative
   display: block
-  padding-top: 4px
-  width: calc(100% - 36px)
-  font-size: $fs-small
-  font-weight: 600
-  color: $primary
-  letter-spacing: 1px
-  text-transform: uppercase
-
-.accordion_body
-  display: none
-  margin-top: $space
-  margin-bottom: 0
-  font-size: $fs-small
+  margin-bottom: $space-half
+  padding: $space-half
+  color: $white
+  background-color: $primary
+  border-color: $primary
+  border-radius: $radius
+  transition: background-color .5s $motion, border-color .5s $motion
   font-weight: 500
+  line-height: 1.4
+  cursor: pointer
+  +dark-box-shadow
+  +dark-text-shadow
+  &:hover
+    background-color: shade($primary, 10%)
+    border-color: shade($primary, 30%)
+  &:active
+    box-shadow: inset 0 0 1000px rgba($black, .3)
+
+.t_dsgn
+  .accordion
+    background-color: $dsgn
+    border-color: $dsgn
+    &:hover
+      background-color: shade($dsgn, 10%)
+      border-color: shade($dsgn, 30%)
+
+.t_eco
+  .accordion
+    background-color: $eco
+    border-color: $eco
+    &:hover
+      background-color: shade($eco, 10%)
+      border-color: shade($eco, 30%)
+
+.t_edu
+  .accordion
+    background-color: $edu
+    border-color: $edu
+    &:hover
+      background-color: shade($edu, 10%)
+      border-color: shade($edu, 30%)
+
+.t_comp
+  .accordion
+    background-color: $comp
+    border-color: $comp
+    &:hover
+      background-color: shade($comp, 10%)
+      border-color: shade($comp, 30%)
+
+.t_tech
+  .accordion
+    background-color: $tech
+    border-color: $tech
+    &:hover
+      background-color: shade($tech, 10%)
+      border-color: shade($tech, 30%)
+
+.t_library
+  .accordion
+    background-color: $library
+    border-color: $library
+    &:hover
+      background-color: shade($library, 10%)
+      border-color: shade($library, 30%)
 
 .accordion_toggle
   position: absolute
+  z-index: 1
+  top: $space-half
   right: $space-half
-  color: $primary
+  color: $white
   font-weight: 600
   &:after
     content: "↓"
@@ -45,3 +87,6 @@
   .accordion_toggle
     &:after
       content: "\2715"
+
+.accordion_body
+  display: none
