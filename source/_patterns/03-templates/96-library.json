@@ -1,0 +1,67 @@
+{
+  "page-hero": {
+    "hero-search": {
+      "class": "form-search"
+    }
+  },
+
+  "page-hours": {
+    "block-text-headline": "true",
+    "block-text-image": {
+      "class": "left"
+    },
+    "block-text-paragraph": "true",
+    "block-text-button": "true"
+  },
+
+  "page-services": {
+    "block-link-text": "true",
+    "links": "true"
+  },
+
+  "page-teaching": "true",
+
+  "page-integrity": {
+    "latest-highlights": [
+      {
+        "highlight-title": "true"
+      },
+      {
+        "highlight-title": "true"
+      },
+      {
+        "highlight-title": "true"
+      }
+    ]
+  },
+
+  "page-tools": {
+    "block-text-headline": "true",
+    "block-text-image": {
+      "class": "left"
+    },
+    "block-text-paragraph": "true",
+    "block-text-button": "true"
+  },
+
+  "page-news": {
+    "latest-post-title": "true",
+    "latest-post": "true",
+    "latest-post-button": "true"
+  },
+
+  "page-footer": {
+    "footer-place": {
+      "footer-address": "true",
+      "footer-contact": "true"
+    },
+    "footer-map": "true",
+    "footer-social": "true",
+    "footer-newsletter": "true",
+    "footer-openings": "true",
+    "footer-transparency": "true",
+    "footer-links": {
+      "footer-credit": "true"
+    }
+  }
+}
